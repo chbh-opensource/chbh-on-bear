@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://example.com/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/</loc>
          <lastmod>2023-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/bear/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/bear/</loc>
          <lastmod>2023-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/home/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/home/</loc>
          <lastmod>2023-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/R/R/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/R/R/</loc>
          <lastmod>2023-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/fsl/fsl/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/fsl/fsl/</loc>
          <lastmod>2023-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/matlab/fieldtrip/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/matlab/fieldtrip/</loc>
          <lastmod>2023-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/matlab/matlab/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/matlab/matlab/</loc>
          <lastmod>2023-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/mne/mne/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/mne/mne/</loc>
          <lastmod>2023-04-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
