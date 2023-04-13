@@ -1,5 +1,9 @@
 site_name: CHBH-on-Bear
-site_url: https://example.com/
+site_url: https://ajquinn.github.io/chbh-on-bear/
+
+repo_url: https://github.com/AJQuinn/chbh-on-bear
+edit_uri: blob/main/docs
+
 nav:
     - Home: index.md
     - Getting Started on Bear: bear.md
