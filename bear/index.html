@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://example.com/bear/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Getting Started on Bear - CHBH-on-Bear</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">CHBH-on-Bear</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Getting Started on Bear</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../R/R/" class="nav-link">R</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Python <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../mne/mne/" class="dropdown-item">MNE-Python</a>
+</li>
+                                    
+<li>
+    <a href="../mne/mne/" class="dropdown-item">TensorFlow</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../matlab/matlab/" class="nav-link">MatLab</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../fsl/fsl/" class="nav-link">FSL</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../R/R/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#getting-started-on-bear" class="nav-link">Getting started on BEAR</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#step-0-linux" class="nav-link">Step 0: Linux</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#step-1-bluebear" class="nav-link">Step 1: BlueBEAR</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#step-2-rds-projects" class="nav-link">Step 2: RDS Projects</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#step-3-bear-portal" class="nav-link">Step 3: Bear Portal</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#step-4-launching-interactive-sessions" class="nav-link">Step 4: Launching interactive sessions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#step-5-running-cluster-jobs-with-slurm" class="nav-link">Step 5: Running cluster jobs with Slurm</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#step-6-neuroimaging-analysis-software-on-bear" class="nav-link">Step 6: Neuroimaging analysis software on Bear</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="getting-started-on-bear">Getting started on BEAR</h1>
+<p>This page collects tutorials and examples for neuroimaging analyses to run on BlueBEAR. This is intended to extend the main <a href="https://docs.bear.bham.ac.uk/">Bear Technical Documentation</a> pages.</p>
+<p>Here we provide a set of links, tips and tricks for getting started. Mostly linking out to other places.</p>
+<h2 id="step-0-linux">Step 0: Linux</h2>
+<p>Bear provide a <a href="https://intranet.birmingham.ac.uk/it/teams/infrastructure/research/bear/bear-training/intro-linux.aspx">Introduction to Linux</a> guide. Many computing services on bear rely on linux. There are in-person workshops and an online canvas courses available on this page.</p>
+<h2 id="step-1-bluebear">Step 1: BlueBEAR</h2>
+<p>Bear also provide a <a href="https://intranet.birmingham.ac.uk/it/teams/infrastructure/research/bear/bear-training/necessities.aspx">Introduction to BlueBEAR</a> course. There are in person workshops and an online canvas course.</p>
+<h2 id="step-2-rds-projects">Step 2: RDS Projects</h2>
+<p>You'll need to be a member of a Bear project and have a Bear linux account to use BlueBEAR. Your PI and lab can help with this. A detailed guide for <a href="https://docs.bear.bham.ac.uk/bluebear/accessing/">accessing BEAR</a> is provided on the technical docs.</p>
+<h2 id="step-3-bear-portal">Step 3: Bear Portal</h2>
+<p><a href="https://docs.bear.bham.ac.uk/portal/accessing/">BEAR Portal</a>  provides web-based access to a range of BEAR services, such as JupyterLab, RStudio, and various other GUI applications. BEAR Portal is only available on campus or using the University Remote Access Service.</p>
+<h2 id="step-4-launching-interactive-sessions">Step 4: Launching interactive sessions</h2>
+<p>From BEAR Portal there are three options for launching an interactive analysis session.</p>
+<ul>
+<li>
+<p>Some software packages have <a href="https://docs.bear.bham.ac.uk/portal/gui_apps/">GUI Apps</a>  installed on BlueBEAR that can be launched from the Bear Portal - the main example for neuroimaging analysis is Matlab.</p>
+</li>
+<li>
+<p><a href="https://docs.bear.bham.ac.uk/portal/jupyterlab/">JupyterLab</a> and <a href="https://docs.bear.bham.ac.uk/portal/rstudio/">RStudio</a> are installed as standalone apps that can be launched from BEAR Portal. (ote that only packages installed on Bear Apps are available to load in JupyterLab).</p>
+</li>
+<li>
+<p>A complete Linux Desktop can be launched as the <a href="https://docs.bear.bham.ac.uk/portal/gui/">BlueBEAR GUI</a>. BlueBEAR GUI is effectively a blank-slate linux desktop, into which you can load the modules for various applications, specify environment variables etc. by using the built-in Terminal client (see image below), and then ultimately launch the interface for the application that you require.</p>
+</li>
+</ul>
+<h2 id="step-5-running-cluster-jobs-with-slurm">Step 5: Running cluster jobs with Slurm</h2>
+<p>There are two ways to submit a cluster job - the bluebear terminal or the Bear Portal</p>
+<p>https://docs.bear.bham.ac.uk/bluebear/jobs/
+https://docs.bear.bham.ac.uk/portal/jobs/</p>
+<h2 id="step-6-neuroimaging-analysis-software-on-bear">Step 6: Neuroimaging analysis software on Bear</h2>
+<p>The following software is available on BlueBEAR.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Toolbox</th>
+<th align="left">GUI App</th>
+<th align="left">Bear Apps Modules</th>
+<th align="left">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><a href="../fsl/fsl/">FSL</a></td>
+<td align="left">N/A</td>
+<td align="left"><a href="https://bear-apps.bham.ac.uk/applications/FSL/">Bear Apps FSL</a></td>
+<td align="left">Pip install modules via venv</td>
+</tr>
+<tr>
+<td align="left"><a href="../mne/mne/">Python</a></td>
+<td align="left">JupyterLab</td>
+<td align="left"><a href="https://bear-apps.bham.ac.uk/applications/Python/">Bear Apps Python</a></td>
+<td align="left">Bear Apps or pip/venv</td>
+</tr>
+<tr>
+<td align="left"><a href="../mne/mne/">MNE-Python</a></td>
+<td align="left">JupyterLab</td>
+<td align="left"><a href="https://bear-apps.bham.ac.uk/applications/MNE-Python/">Bear Apps MNE</a></td>
+<td align="left">Bear Apps or pip/venv</td>
+</tr>
+<tr>
+<td align="left"><a href="../matlab/matlab/">Matlab</a></td>
+<td align="left">MatLab</td>
+<td align="left"><a href="https://bear-apps.bham.ac.uk/applications/MATLAB/">Bear Apps MatLab</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Fieldtrip</td>
+<td align="left">MatLab</td>
+<td align="left">None</td>
+<td align="left">Load within MatLab script</td>
+</tr>
+<tr>
+<td align="left">EEGLab</td>
+<td align="left">MatLab</td>
+<td align="left">None</td>
+<td align="left">Load within MatLab script</td>
+</tr>
+<tr>
+<td align="left">SPM</td>
+<td align="left">MatLab</td>
+<td align="left">None</td>
+<td align="left">Load within MatLab script</td>
+</tr>
+<tr>
+<td align="left"><a href="../R/R/">R</a></td>
+<td align="left">Rstudio</td>
+<td align="left"><a href="https://bear-apps.bham.ac.uk/applications/R/">Bear Apps R</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Freesurfer</td>
+<td align="left">N/A</td>
+<td align="left"><a href="https://bear-apps.bham.ac.uk/applications/FreeSurfer/">Bear Apps Freesurfer</a></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
