@@ -5,12 +5,11 @@ repo_url: https://github.com/AJQuinn/chbh-on-bear
 edit_uri: blob/main/docs
 
 nav:
-    - Home: index.md
-    - Getting Started on Bear: bear.md
-    - R: R/R.md
-    - Python:
-        - MNE-Python : mne/mne.md
-        - TensorFlow : mne/mne.md
-    - MatLab: matlab/matlab.md
-    - FSL: fsl/fsl.md
-
+  - Home: index.md
+  - Getting Started on Bear: bear.md
+  - R: R/R.md
+  - Python:
+    - MNE-Python : mne/mne.md
+    - TensorFlow : mne/mne.md
+  - MatLab: matlab/matlab.md
+  - FSL: fsl/fsl.md
