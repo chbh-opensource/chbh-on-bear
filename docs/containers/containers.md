@@ -1,29 +1,50 @@
 # Containers
 
-A container is a lightweight enviroment that contains both the software, and all of the depencies needed to run the software. This makes containers great for reproducability. Containers are packaged enviroments containing both code and all the required dependencies. On Bluebear, a program called Singularity is used to both manage and run containers.
-
-## Where to find containers
-
+A container is a lightweight software package that contains both the software, and all of the required dependencies to run the contained software.
 
 ## Downloading a Container
-Containers can be found  here... In this example we will download the fMRI prep container.  This container includes all of the neuroimaging software required to run fMRIprep, such as freesurfer, FSL, and ANTS. 
-https://hub.docker.com/r/nipreps/fmriprep
 
-The following script can be used to download the container.
+[Docker](https://hub.docker.com/) has a wide selection of containers available to download. The following bash code provides an example of how to download the [fMRIPrep](https://hub.docker.com/r/nipreps/fmriprep) container, which includes a variety of neuroimaging software, including freesurfer, FSL, and ANTS.
 
 ```
-This is some code that i ne
+
+#!/bin/bash
+
+#SBATCH --account bagshaap-eeg-fmri-hmm
+
+#SBATCH --qos bbdefault
+
+#SBATCH --time 60
+
+#SBATCH --nodes 1 # ensure the job runs on a single node
+
+#SBATCH --ntasks 10 # this will give you circa 40G RAM and will ensure faster conversion to the .sif format
+
+#SBATCH --constraint icelake
+
+  
+
+set -e
+
+singularity pull --name fMRIPrep.sif docker://nipreps/fmriprep:latest
+
 ```
 
-### Running Code within the Container
+### Running Software using a Container
 
-singularity shell
-singularity run
-singularity exec
-singularity pull
-singularity clone
+The `singularity exec` command is used to run the contained software. The following bash codes demonstrates how to run the FSL command `fslroi` contained within the fMRIPrep container.
 
-## Creating your own container
-Sometimes you may want to build a container yourself that contains all the analysis software required. One option is to use a program called `Neurodocker`. This allows you to select from a list of various neuroimaing packages, as well as installing python packages etc. 
+```
+#!/bin/bash
+#SBATCH --account bagshaap-eeg-fmri-hmm
+#SBATCH --qos bbdefault
+
+module purge; module load bluebear
+
+singularity exec fMRIPrep.sif fslroi --help
+```
+
+
+
 
 
