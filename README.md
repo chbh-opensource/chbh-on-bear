@@ -18,7 +18,7 @@ To install all the required `mkdocs` Python packages, use the provided [requirem
 git clone https://github.com/AJQuinn/chbh-on-bear
 cd chbh-on-bear
 python -m venv ./.venv
-source ./venv/bin/activate
+source ./.venv/bin/activate
 pip install -r requirements.txt
 ```
 
