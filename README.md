@@ -1,0 +1,59 @@
+# CHBH-on-BEAR Documentation
+
+This documentation covers aspect of running CHBH-on-BEAR workflows on the University of Birmingham's BlueBEAR HPC system.
+
+## Publishing
+
+The documentation is automatically built and published to <https://ajquinn.github.io/chbh-on-bear> on every push to the `main` branch of this repository.
+
+This is taken care of by the [`deploy` GitHub Actions workflow](https://github.com/AJQuinn/chbh-on-bear/tree/main/.github/workflows/deploy.yml).
+
+## Using `mkdocs`
+
+### Creating a Development Environment and Installing `mkdocs`
+
+To install all the required `mkdocs` Python packages, use the provided [requirements.txt](https://github.com/AJQuinn/chbh-on-bear/tree/main/requirements.txt) file. The recommendation for development is to do this inside a dedicated virtual environment:
+
+```shell
+git clone https://github.com/AJQuinn/chbh-on-bear
+cd chbh-on-bear
+python -m venv ./.venv
+source ./venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Building
+
+To build the documentation, use:
+
+```shell
+mkdocs build
+```
+
+### Testing
+
+To test whether the documentation is building correctly, and whether all (internal) links are correct, use:
+
+```shell
+mkdocs build --strict
+```
+
+This command will exit with a non-zero exit code if `mkdocs` produces any errors or warnings.
+
+### Previewing
+
+To see a local preview of the rendered documentation in your browser, use
+
+```shell
+mkdocs serve
+```
+
+and click the link that is provided, for example:
+
+```shell
+INFO     -  Documentation built in 0.24 seconds
+INFO     -  [17:52:07] Watching paths for changes: 'docs', 'mkdocs.yml'
+INFO     -  [17:52:07] Serving on http://127.0.0.1:8000/
+```
+
+This preview of the rendered documentation will automatically refresh when the documentation sources are updated!
