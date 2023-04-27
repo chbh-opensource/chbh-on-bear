@@ -1,6 +1,6 @@
 ---
 # documentation: https://help.github.com/en/articles/workflow-syntax-for-github-actions
-name: test building of EasyBuild documentation
+name: test building of CHBH-on-BEAR Docs
 on: [push, pull_request]  # yamllint disable-line rule:truthy
 jobs:
   build:
