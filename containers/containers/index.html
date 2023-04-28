@@ -8,20 +8,16 @@
       
       
       
-        <link rel="canonical" href="https://ajquinn.github.io/chbh-on-bear/R/R/">
+        <link rel="canonical" href="https://ajquinn.github.io/chbh-on-bear/containers/containers/">
       
       
-        <link rel="prev" href="../../bear/">
-      
-      
-        <link rel="next" href="../../mne/mne/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.8">
     
     
       
-        <title>R - CHBH-on-BEAR</title>
+        <title>Containers - CHBH-on-BEAR</title>
       
     
     
@@ -63,7 +59,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#r-for-statistical-computing" class="md-skip">
+        <a href="#containers" class="md-skip">
           Skip to content
         </a>
       
@@ -97,7 +93,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              R
+              Containers
             
           </span>
         </div>
@@ -234,86 +230,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          R
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../R/R/" class="md-nav__link">
         R
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#r-versions" class="md-nav__link">
-    R Versions
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#r-studio-gui-app" class="md-nav__link">
-    R-Studio GUI App
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#neuroimaging-specific-r-packages" class="md-nav__link">
-    Neuroimaging specific R packages
-  </a>
-  
-    <nav class="md-nav" aria-label="Neuroimaging specific R packages">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#fslr" class="md-nav__link">
-    FSLR
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#r-example-for-bear" class="md-nav__link">
-    R Example for BEAR
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -438,43 +359,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#r-versions" class="md-nav__link">
-    R Versions
+  <a href="#downloading-a-container" class="md-nav__link">
+    Downloading a Container
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#r-studio-gui-app" class="md-nav__link">
-    R-Studio GUI App
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#neuroimaging-specific-r-packages" class="md-nav__link">
-    Neuroimaging specific R packages
-  </a>
-  
-    <nav class="md-nav" aria-label="Neuroimaging specific R packages">
+    <nav class="md-nav" aria-label="Downloading a Container">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#fslr" class="md-nav__link">
-    FSLR
+  <a href="#running-software-using-a-container" class="md-nav__link">
+    Running Software using a Container
   </a>
   
 </li>
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#r-example-for-bear" class="md-nav__link">
-    R Example for BEAR
-  </a>
   
 </li>
       
@@ -496,35 +396,39 @@
   
 
 
-<h1 id="r-for-statistical-computing">R for statistical computing</h1>
-<p>The <a href="https://www.r-project.org/">R project</a> is a free software environment for statistical computing and graphics.</p>
-<h2 id="r-versions">R Versions</h2>
-<p><a href="https://bear-apps.bham.ac.uk/applications/R/">Bear Apps</a> has several versions of MNE-Python as loadable modules.</p>
-<h2 id="r-studio-gui-app">R-Studio GUI App</h2>
-<p><a href="https://posit.co/products/open-source/rstudio/#rstudio-server">RStudio</a> is an integrated development environment (IDE) for R. It includes a console, syntax-highlighting editor that supports direct code execution, and tools for plotting, history, debugging, and workspace management.</p>
-<p>You can open an interactive RStudio session through the Bear Portal. The pre-installed R versions can be loaded.</p>
-<h2 id="neuroimaging-specific-r-packages">Neuroimaging specific R packages</h2>
-<p>Here is a list of R packages commonly used for neuroimaging analysis.</p>
-<h3 id="fslr"><a href="https://bear-apps.bham.ac.uk/applications/fslr/">FSLR</a></h3>
-<p>Wrapper functions that interface with 'FSL' , a powerful and commonly-used 'neuroimaging' software, using system commands.</p>
-<h2 id="r-example-for-bear">R Example for BEAR</h2>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>knitr::opts_chunk$set(echo = TRUE)
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>library(ggplot2)
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a># Simulate some data
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>time     &lt;- 0:99
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>set.seed(1)
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>noise    &lt;- rnorm(100)
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>disorder &lt;- time * 4 + 100 + noise * 20
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>dis_df   &lt;- data.frame(time, disorder)
+<h1 id="containers">Containers</h1>
+<p>A container is a lightweight software package that contains both the software, and all of the required dependencies to run the contained software.</p>
+<h2 id="downloading-a-container">Downloading a Container</h2>
+<p><a href="https://hub.docker.com/">Docker</a> has a wide selection of containers available to download. The following bash code provides an example of how to download the <a href="https://hub.docker.com/r/nipreps/fmriprep">fMRIPrep</a> container, which includes a variety of neuroimaging software, including freesurfer, FSL, and ANTS.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>#!/bin/bash
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>#SBATCH --account bagshaap-eeg-fmri-hmm
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>#SBATCH --qos bbdefault
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>#SBATCH --time 60
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>#SBATCH --nodes 1 # ensure the job runs on a single node
 </span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a># Create a plot
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>ggplot(dis_df, aes(x = time, y = disorder)) + geom_point() +
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>  geom_smooth(method = &quot;lm&quot;)
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>#SBATCH --ntasks 10 # this will give you circa 40G RAM and will ensure faster conversion to the .sif format
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>#SBATCH --constraint icelake
 </span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a># Fit model
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>lm_fit &lt;- lm(disorder ~ time, dis_df)
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>summary(lm_fit)
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>set -e
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>singularity pull --name fMRIPrep.sif docker://nipreps/fmriprep:latest
+</span></code></pre></div>
+<h3 id="running-software-using-a-container">Running Software using a Container</h3>
+<p>The <code>singularity exec</code> command is used to run the contained software. The following bash codes demonstrates how to run the FSL command <code>fslroi</code> contained within the fMRIPrep container.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>#!/bin/bash
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>#SBATCH --account bagshaap-eeg-fmri-hmm
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>#SBATCH --qos bbdefault
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>module purge; module load bluebear
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>singularity exec fMRIPrep.sif fslroi --help
 </span></code></pre></div>
 
 
