@@ -2,11 +2,9 @@
 
 The [R project](https://www.r-project.org/) is a free software environment for statistical computing and graphics.
 
-
 ## R Versions
 
 [Bear Apps](https://bear-apps.bham.ac.uk/applications/R/) has several versions of MNE-Python as loadable modules.
-
 
 ## R-Studio GUI App
 
@@ -19,8 +17,8 @@ You can open an interactive RStudio session through the Bear Portal. The pre-ins
 Here is a list of R packages commonly used for neuroimaging analysis.
 
 ### [FSLR](https://bear-apps.bham.ac.uk/applications/fslr/)
-Wrapper functions that interface with 'FSL' , a powerful and commonly-used 'neuroimaging' software, using system commands.
 
+Wrapper functions that interface with 'FSL' , a powerful and commonly-used 'neuroimaging' software, using system commands.
 
 ## R Example for BEAR
 
@@ -43,5 +41,3 @@ ggplot(dis_df, aes(x = time, y = disorder)) + geom_point() +
 lm_fit <- lm(disorder ~ time, dis_df)
 summary(lm_fit)
 ```
-
-
