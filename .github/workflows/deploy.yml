@@ -1,9 +1,10 @@
 ---
 # documentation: https://help.github.com/en/articles/workflow-syntax-for-github-actions
 name: deploy CHBH-on-BEAR documentation (only on push to main branch)
-on:  # yamllint disable-line rule:truthy
+on:
   push:
-    branches: [main]
+    branches:
+      - "main"
 jobs:
   build-docs:
     runs-on: ubuntu-latest
