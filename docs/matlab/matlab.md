@@ -20,6 +20,9 @@ These pages include some specific examples using popular MatLab toolboxes
 
 ## Parallel for-loop
 
+!!! info
+    Example contributed by Arkady Konovalov
+
 Simple parallelisation of a for-loop can be performed using [parfor](https://www.mathworks.com/help/matlab/ref/parfor.html). This functionality is provided by MatLab and enables faster processing of `for` loops simply by changing the syntax at the start to say `parfor` rather than `for`.
 
 Here is an example function which makes use of `parfor` whilst computing GLMs using SPM.
@@ -73,15 +76,14 @@ end
 end
 ```
 
-*Example contributed by Arkady Konovalov*
-
 !!! note
 
     Make sure you specify the appropriate number of cores when starting the MatLab GUI App, you may not notice a substantial speed-up if you run MatLab using the default of 4 cores. Do try to avoid asking for substantially more than you might need however - BlueBEAR is a shared resource.
 
 ## Submitting Matlab jobs with parfor to Bear
 
-*Example contributed by Dagmar Fraser*
+!!! info
+    Example contributed by Dagmar Fraser
 
 The following Matlab code performs some matrix calculations on simulated data. The inclusion of a `parfor` loop means that the code can take advantage of computers with multiple CPUs to accelerate processing.
 
@@ -120,6 +122,9 @@ The `ntasks` line specifies we are looking to use 8 cores. The last line contain
 
 ## Submitting multiple MatLab jobs
 
+!!! info
+    Example contributed by Katharina Deucker
+
 The previous example submits a single Matlab job that uses `parfor` BlueBEAR, for larger analyses we may want to parallelise jobs across entire matlab instances. This can be done by submitting MatLab jobs to BEAR using Slurm. The BEAR Technical Docs contain a simple example on [submitting a matlab job to bear](https://docs.bear.bham.ac.uk/bluebear/jobs/#an-example-job-script).
 
 For neuroimaging analyses, you'll generally need to organise your scripts so that each part that you want to parallelise runs from a single function that takes a single ID as an argument. Here is a specific example that runs a function `e1_fun_ICA` on each of 48 datasets.
@@ -143,5 +148,3 @@ module load MATLAB/2019b
 # (the MATLAB script is programmed such that the input ID is used as the subject ID)
 matlab -nodisplay -r "run /rds/homes/d/dueckerk/startup.m, e1_fun_ICA(${SLURM_ARRAY_TASK_ID}), quit"
 ```
-
-*Example contributed by Katharina Deucker*
