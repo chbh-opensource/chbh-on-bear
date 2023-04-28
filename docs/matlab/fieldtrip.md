@@ -5,8 +5,7 @@ This is an example script running a fieldtrip analysis on EEG data acqurired dur
 
 The data is read in, filtered, epoched, ICA'd, re-referenced, then plotted. The core function can be executed on the [MatLab GUI App](https://docs.bear.bham.ac.uk/portal/gui_apps/) during an interactive session, or submitted to BlueEBAR using the bash script below.
 
-
-```Matlab
+``` matlab
 %% Basic Preprocessing
 % A script to demonstrate how one can (superficially) preprocessing EEG
 % data using Fieldtrip, Matlab and BlueBEAR.
@@ -149,16 +148,19 @@ legend({'60Hz','40Hz','30Hz','24Hz','20Hz','17.1Hz','15Hz','Baseline'})
 saveas(h, sprintf('%s/basic_preproc_output.jpg', root_dir))
 ```
 
-
-```
+``` bash
 #!/bin/bash
+
 #SBATCH --ntasks 10
 #SBATCH --nodes 1
 #SBATCH --time 1:0:0
 #SBATCH --qos bbdefault
 #SBATCH --mail-type ALL
+
 set -e
+
 module purge; module load bluebear
 module load MATLAB/2021b
+
 matlab -nodisplay -r "basic_preprocessing; exit;"
 ```

@@ -2,7 +2,6 @@
 
 [MNE-Python](https://mne.tools/stable/index.html) is a Python package for analysing electrophysiology (MEG, EEG, sEEG, ECoG, NIRS, etc) data.
 
-
 ## MNE-Python Versions
 
 [Bear Apps](https://bear-apps.bham.ac.uk/applications/MNE-Python/) has several versions of MNE-Python as modules.
@@ -18,14 +17,12 @@ Only the pre-installed modules available in [Bear Apps](https://bear-apps.bham.a
 
 The following bash loads mne version 1.3.1 and its dependencies.
 
-```
+``` shell
 module load bear-apps/2022a
 module load MNE-Python/1.3.1-foss-2022a
 ```
 
-
-
-```
+``` slurm
 #!/bin/bash
 
 module purge; module load bluebear
@@ -42,7 +39,7 @@ echo ${VENV_PATH}
 
 # Check if virtual environment exists and create it if not
 if [[ ! -d ${VENV_PATH} ]]; then
-	python3 -m venv --system-site-packages ${VENV_PATH}
+    python3 -m venv --system-site-packages ${VENV_PATH}
 fi
 
 # Activate virtual environment

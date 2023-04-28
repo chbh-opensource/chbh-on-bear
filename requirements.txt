@@ -1,0 +1,9 @@
+# mkdocs (theme and plugins)
+mkdocs-material
+mkdocs-macros-plugin
+mkdocs-git-revision-date-localized-plugin
+
+# markdown extensions
+pymdown-extensions
+smarty
+toc

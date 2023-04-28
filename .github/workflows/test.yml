@@ -1,0 +1,25 @@
+---
+# documentation: https://help.github.com/en/articles/workflow-syntax-for-github-actions
+name: test building of CHBH-on-BEAR Docs
+on: [push, pull_request]  # yamllint disable-line rule:truthy
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: install mkdocs
+        run: |
+          pip install -r requirements.txt
+          mkdocs --version
+
+      - name: build docs
+        run: mkdocs build --strict

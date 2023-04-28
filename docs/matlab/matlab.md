@@ -8,15 +8,15 @@ Some parallelisation is available through [parfor](https://www.mathworks.com/hel
 
 Neuroimaging toolboxes can be added to the MatLab path on BlueBEAR in the normal way. Toolboxes can be downloaded from the developer and stored on an [RDS](https://docs.bear.bham.ac.uk/rds/accessing/) space. These folders can be added to the path within a MatLab session using `addpath`.
 
-```
+``` matlab
 addpath(genpath('/rds/q/quinna-example-project/code/fieldtrip'))
 ```
 
 These pages include some specific examples using popular MatLab toolboxes
 
- - [Fieldtrip](fieldtrip.md)
- - EEGLab
- - SPM
+- [Fieldtrip](fieldtrip.md)
+- EEGLab
+- SPM
 
 ## Parallel for-loop
 
@@ -24,7 +24,7 @@ Simple parallelisation of a for-loop can be performed using [parfor](https://www
 
 Here is an example function which makes use of `parfor` whilst computing GLMs using SPM.
 
-```Matlab
+``` matlab
 function glm_level1(model)
 % This function takes a model structure as input and performs first-level
 % estimations in a General Linear Model (GLM) analysis for a set of subjects.
@@ -72,11 +72,13 @@ end
 
 end
 ```
+
 *Example contributed by Arkady Konovalov*
 
-> **_NOTE:_**  Make sure you specify the appropriate number of cores when starting the MatLab GUI App, you may not notice a substantial speed-up if you run MatLab using the default of 4 cores. Do try to avoid asking for substantially more than you might need however - BlueBEAR is a shared resource.
+> ***NOTE:***  Make sure you specify the appropriate number of cores when starting the MatLab GUI App, you may not notice a substantial speed-up if you run MatLab using the default of 4 cores. Do try to avoid asking for substantially more than you might need however - BlueBEAR is a shared resource.
 
 ## Submitting Matlab jobs with parfor to Bear
+
 *Example contributed by Dagmar Fraser*
 
 The following Matlab code performs some matrix calculations on simulated data. The inclusion of a `parfor` loop means that the code can take advantage of computers with multiple CPUs to accelerate processing.
@@ -94,7 +96,7 @@ toc
 
 You can run this code in an interactive Matlab session, or save it as a script that can be executed on the big cluster. If we save this file as `parforDemo.m`, we can write a second 'submission' script to execute it on the cluster.
 
-```
+``` slurm
 #!/bin/bash
 #SBATCH --ntasks 8
 #SBATCH --time 5:0
@@ -120,7 +122,7 @@ The previous example submits a single Matlab job that uses `parfor` BlueBEAR, fo
 
 For neuroimaging analyses, you'll generally need to organise your scripts so that each part that you want to parallelise runs from a single function that takes a single ID as an argument. Here is a specific example that runs a function `e1_fun_ICA` on each of 48 datasets.
 
-```
+``` slurm
 #!/bin/bash
 #SBATCH --ntasks 1
 #SBATCH --time 30:0
@@ -139,4 +141,5 @@ module load MATLAB/2019b
 # (the MATLAB script is programmed such that the input ID is used as the subject ID)
 matlab -nodisplay -r "run /rds/homes/d/dueckerk/startup.m, e1_fun_ICA(${SLURM_ARRAY_TASK_ID}), quit"
 ```
+
 *Example contributed by Katharina Deucker*
