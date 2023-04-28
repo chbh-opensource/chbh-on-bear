@@ -4,7 +4,8 @@ A container is a lightweight software package that contains both the software, a
 
 BlueBEAR supports running analyses on containers using [Apptainer](https://docs.bear.bham.ac.uk/bluebear/software/container/). The Bear Technical docs contain extensive tutorals
 
-> **_NOTE:_** BlueBEAR does not directly support Docker as it requires administratr privalages to run. Apptainer is able to read and execute Docker images without admin rights. Apptainer is the successor to the Singularty project - please see [this article](https://apptainer.org/news/community-announcement-20211130/) for more information on the transition.
+!!! note
+    BlueBEAR does not directly support Docker as it requires administratr privalages to run. Apptainer is able to read and execute Docker images without admin rights. Apptainer is the successor to the Singularty project - please see [this article](https://apptainer.org/news/community-announcement-20211130/) for more information on the transition.
 
 ## Downloading a Container
 
