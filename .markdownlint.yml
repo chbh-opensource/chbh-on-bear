@@ -1,0 +1,14 @@
+---
+# Enable all rules by default
+"default": true
+
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+#"MD002"  # MD002 has been superseded by MD041
+"MD007": false  # list indent
+"MD009": false  # trailing spaces
+"MD013": false  # line length
+"MD024":
+  "allow_different_nesting": true
+"MD029": false  # Ordered list item prefix
+"MD041": false  # top level header provided by mkdocs
+"MD046": false  # Code block style. Doesn't like MkDocs admonitions or content tabs
