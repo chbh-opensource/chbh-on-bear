@@ -29,4 +29,4 @@ nav:
     - TensorFlow : mne/mne.md
   - MatLab: matlab/matlab.md
   - FSL: fsl/fsl.md
-   - Containters: containers/containers.md
+  - Containers: containers/containers.md
