@@ -24,7 +24,8 @@ theme:
 
 nav:
   - Home: index.md
-  - Getting Started on Bear: bear.md
+  - Getting Started: getting_started.md
+  - Software Index: neuroimaging_software.md
   - R: R/R.md
   - Python:
     - MNE-Python : mne/mne.md
