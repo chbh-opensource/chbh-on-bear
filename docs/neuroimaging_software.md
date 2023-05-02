@@ -13,4 +13,3 @@ This is an incomplete list of the neuroimaging software that is available on Blu
 | SPM                          | MatLab                | None                                                                   | Load within MatLab script     |
 | [R](R/R.md)                  | Rstudio               | [Bear Apps R](https://bear-apps.bham.ac.uk/applications/R/)            |                               |
 | Freesurfer                   | N/A                   | [Bear Apps Freesurfer](https://bear-apps.bham.ac.uk/applications/FreeSurfer/)   |     |
-
