@@ -30,11 +30,7 @@ From BEAR Portal there are three options for launching an interactive analysis s
 
 - A complete Linux Desktop can be launched as the [BlueBEAR GUI](https://docs.bear.bham.ac.uk/portal/gui/). BlueBEAR GUI is effectively a blank-slate linux desktop, into which you can load the modules for various applications, specify environment variables etc. by using the built-in Terminal client (see image below), and then ultimately launch the interface for the application that you require.
 
-
 ## Step 5: Running cluster jobs with Slurm
 
-There are two ways to submit a cluster job - the bluebear terminal or the Bear Portal
-
-https://docs.bear.bham.ac.uk/bluebear/jobs/
-https://docs.bear.bham.ac.uk/portal/jobs/
+There are two ways to submit a cluster job - the [bluebear terminal](https://docs.bear.bham.ac.uk/bluebear/jobs/) and the [job submission page on Bear Portal](https://docs.bear.bham.ac.uk/portal/jobs/)
 
