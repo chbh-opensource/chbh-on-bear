@@ -4,7 +4,8 @@ A container is a lightweight software package that contains both the software, a
 
 BlueBEAR supports running analyses on containers using [Apptainer](https://docs.bear.bham.ac.uk/bluebear/software/container/). The Bear Technical docs contain extensive tutorals
 
-> **_NOTE:_** BlueBEAR does not directly support Docker as it requires administratr privalages to run. Apptainer is able to read and execute Docker images without admin rights. Apptainer is the successor to the Singularty project - please see [this article](https://apptainer.org/news/community-announcement-20211130/) for more information on the transition.
+!!! note
+    BlueBEAR does not directly support Docker as it requires administratr privalages to run. Apptainer is able to read and execute Docker images without admin rights. Apptainer is the successor to the Singularty project - please see [this article](https://apptainer.org/news/community-announcement-20211130/) for more information on the transition.
 
 ## Downloading a Container
 
@@ -12,13 +13,13 @@ BlueBEAR supports running analyses on containers using [Apptainer](https://docs.
 
 The following bash code provides an example of how to download the [fMRIPrep](https://hub.docker.com/r/nipreps/fmriprep) container, which includes a variety of neuroimaging software, including freesurfer, FSL, and ANTS. This can be run on a terminal in the Bear GUI.
 
-```
+```shell
 singularity pull --name fMRIPrep.sif docker://nipreps/fmriprep:latest
 ```
 
 and this version can be submitted as a cluster script.
 
-```
+```slurm
 #!/bin/bash
 
 #SBATCH --account bagshaap-eeg-fmri-hmm
@@ -37,7 +38,7 @@ singularity pull --name fMRIPrep.sif docker://nipreps/fmriprep:latest
 
 The `singularity exec` command is used to run the contained software. The following bash codes demonstrates how to run the FSL command `fslroi` contained within the fMRIPrep container.
 
-```
+```slurm
 #!/bin/bash
 #SBATCH --account bagshaap-eeg-fmri-hmm
 #SBATCH --qos bbdefault
@@ -46,8 +47,3 @@ module purge; module load bluebear
 
 singularity exec fMRIPrep.sif fslroi --help
 ```
-
-
-
-
-

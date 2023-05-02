@@ -1,4 +1,5 @@
 # Fieldtrip on Slurm
+
 *Example contributed by Ben Griffiths.*
 
 This is an example script running a fieldtrip analysis on EEG data acqurired during a visual flicker task.

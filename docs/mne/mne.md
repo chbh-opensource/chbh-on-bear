@@ -6,7 +6,6 @@
 
 [Bear Apps](https://bear-apps.bham.ac.uk/applications/MNE-Python/) has several versions of MNE-Python as modules.
 
-
 ## JupyterLab
 
 Interactive python notebooks are available to run as a [JupyterLab GUI App](https://docs.bear.bham.ac.uk/portal/jupyterlab/) through the Bear Portal. The pre-installed MNE python versions can be [loaded as modules](https://docs.bear.bham.ac.uk/portal/jupyterlab/#loading-modules) in the notebook session.
