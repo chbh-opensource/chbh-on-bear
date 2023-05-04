@@ -6,7 +6,6 @@
 
 [Bear Apps](https://bear-apps.bham.ac.uk/applications/MNE-Python/) has several versions of MNE-Python as modules.
 
-
 ## Bear Modules
 
 The following bash loads mne version 1.3.1 and its dependencies - an equivalent is availiable for JupyterLab.
@@ -108,8 +107,8 @@ module load MNE-Python/1.3.1-foss-2022a
 
 python mne_python_example.py
 ```
-At the end you should have some new figures created next to your script.
 
+At the end you should have some new figures created next to your script.
 
 ![An EEG Evoked Response](my-mne-evoked-example-eeg.png)
 ![A Gradiometer Evoked Response](my-mne-evoked-example-grad.png)
@@ -145,4 +144,3 @@ sbatch run_mne_python_example.sh
 ```
 
 You can see the progress of the job using the 'Active Jobs' page on BEAR portal or by reading the log files.
-

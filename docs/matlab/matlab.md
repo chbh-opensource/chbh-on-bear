@@ -23,7 +23,6 @@ These pages include some specific examples using popular MatLab toolboxes
 !!! info
     Example contributed by Dagmar Fraser
 
-
 Simple parallelisation of a for-loop can be performed using [parfor](https://www.mathworks.com/help/matlab/ref/parfor.html). This functionality is provided by MatLab and enables faster processing of `for` loops simply by changing the syntax at the start to say `parfor` rather than `for`.
 
 The following Matlab code performs some matrix calculations on simulated data. The inclusion of a `parfor` loop means that the code can take advantage of computers with multiple CPUs to accelerate processing.

@@ -71,7 +71,6 @@ bet subject${SLURM_ARRAY_TASK_ID}.nii.gz subject${SLURM_ARRAY_TASK_ID}_brain.nii
 
 Submitting this script to the cluster will run BET 48 times on each input from `subject1.nii.gz` to `subject48.nii.gz`.
 
-
 ## FSL in a container
 
 Sometime we may want more control over software versions that are supported by pre-compiled BEAR App. We can install FSL within a controlled container using the following job script. This creates a container file `FSL.sif` from the [NeuroDesk](https://www.neurodesk.org/) container specification.
@@ -113,5 +112,3 @@ apptainer exec FSL.sif  fsl_anat -i subject1.nii.gz -o subject1
 ```
 
 This can be combined with array jobs from the example above to run many container-based analyses together in parallel.
-
-

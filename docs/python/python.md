@@ -122,7 +122,6 @@ You can monitor the progress of your job in the [active jobs tracker](https://po
 
 ![A simple scatter plot](my_cluster_figure.png)
 
-
 ## JupyterLab
 
 Interactive python notebooks are available to run as a [JupyterLab GUI App](https://docs.bear.bham.ac.uk/portal/jupyterlab/) through the Bear Portal. The pre-installed python modules can be [loaded as modules](https://docs.bear.bham.ac.uk/portal/jupyterlab/#loading-modules) in the notebook session.
@@ -134,7 +133,6 @@ Only the pre-installed modules available in [Bear Apps](https://bear-apps.bham.a
 More involved analyses may required dependecies or package versions that aren't available on BEAR Apps. The next optionn for these analysis is to use [virtual environments](https://docs.bear.bham.ac.uk/bluebear/software/self_installs_python/) as described on the BEAR technical docs.
 
 The following bash script (adapted from the main docs) loads the standard BEAR modules for MNE-Python, creates a virtual environment and then installs the EMD package with pip.
-
 
 ```shell
 #!/bin/bash
