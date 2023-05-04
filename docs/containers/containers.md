@@ -11,10 +11,10 @@ BlueBEAR supports running analyses on containers using [Apptainer](https://docs.
 
 [Docker](https://hub.docker.com/) has a wide selection of containers available to download. Bear Technical docs contains some examples on how to [download and execute a simple python container](https://docs.bear.bham.ac.uk/bluebear/software/container/#pull-and-run).
 
-The following bash code provides an example of how to download the [fMRIPrep](https://hub.docker.com/r/nipreps/fmriprep) container, which includes a variety of neuroimaging software, including freesurfer, FSL, and ANTS. This can be run on a terminal in the Bear GUI.
+The following bash code provides an example of how to download the [fMRIPrep](https://hub.docker.com/r/nipreps/fmriprep) container, which includes a variety of neuroimaging software, including freesurfer, FSL, and ANTS. This can be executed on an interactive or batch job.
 
 ```shell
-singularity pull --name fMRIPrep.sif docker://nipreps/fmriprep:latest
+apptainer pull --name fMRIPrep.sif docker://nipreps/fmriprep:latest
 ```
 
 and this version can be submitted as a cluster script.
@@ -22,7 +22,7 @@ and this version can be submitted as a cluster script.
 ```slurm
 #!/bin/bash
 
-#SBATCH --account bagshaap-eeg-fmri-hmm
+#SBATCH --account bagshaap-example-project
 #SBATCH --qos bbdefault
 #SBATCH --time 60
 #SBATCH --nodes 1 # ensure the job runs on a single node
@@ -31,19 +31,46 @@ and this version can be submitted as a cluster script.
 
 set -e
 
-singularity pull --name fMRIPrep.sif docker://nipreps/fmriprep:latest
+apptainer pull --name fMRIPrep.sif docker://nipreps/fmriprep:latest
 ```
+
+save the code above into a bash script called `create-container_fmriprep.sh` (make sure you update the `account` name on line 3 to a project that you have access to!) inside the directory where you would like to save the container file. This can then be submitted to the cluster by running `sbatch create-container_fmriprep.sh` in a terminal, or creating a job in the 'job composer'. This will take several minutes to run to completion with the `fmriprep` image.
+
+Once the job has completed, you should be able to find a file called `fMRIPrep.sif` in your working directory (alongside the cluster log files). This is the container file.
 
 ### Running Software using a Container
 
-The `singularity exec` command is used to run the contained software. The following bash codes demonstrates how to run the FSL command `fslroi` contained within the fMRIPrep container.
+The `apptainer exec` command is used to run the contained software. The following bash codes demonstrates how to run the FSL command `fslroi` contained within the fMRIPrep container.
 
 ```slurm
 #!/bin/bash
-#SBATCH --account bagshaap-eeg-fmri-hmm
+#SBATCH --account bagshaap-example-project
 #SBATCH --qos bbdefault
 
 module purge; module load bluebear
 
-singularity exec fMRIPrep.sif fslroi --help
+apptainer exec fMRIPrep.sif fslroi --help
 ```
+
+This code can be saved into a bash script called `check-container_fmriprep.sh` inside the same directory used above. You can run the job as above and check the cluster logfiles to see that the help text for the `fslroi` function was printed from within the container. This is a very simple example but can be adapted to run any command using the software inside the container.
+
+Let's break this down so we can build a more complex command. There are four parts to running a command with Apptainer. This is the core line:
+
+```shell
+apptainer exec fMRIPrep.sif fslroi --help
+```
+
+We could visualise this as
+
+```shell
+<apptainer call> <apptainer command> <container image> <user command>
+```
+
+where
+
+- `<apptainer call>` is simply `apptainer`. This specifies that we're using apptainer.
+- `<apptainer command>` is `exec`. This tells apptainer that we want to run a command.
+- `<container image>` is `fMRIPrep.sif`. This should point to an existing `.sif` file containing our container.
+- `<user command>` is `fslroi --help`. This is the command we actually want to run and the part that we'll most frequently be changing.
+
+So, to run a more complex command we'd simply need to update our `<user command>` to the function that we need to compute. You'll need to be sure that the appropriate command is included in the container with all its dependencies. The command can point to files and directories within RDS as usual. You can combine array jobs and container commands to run many parallel analyses all within equivalent containers.

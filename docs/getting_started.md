@@ -32,23 +32,11 @@ From BEAR Portal there are three options for launching an interactive analysis s
 
 ## Step 5: Running cluster jobs with Slurm
 
-There are two ways to submit a cluster job - the bluebear terminal or the Bear Portal
+There are two ways to submit a cluster job - the [bluebear terminal](https://docs.bear.bham.ac.uk/bluebear/jobs/) and the [job submission page on Bear Portal](https://docs.bear.bham.ac.uk/portal/jobs/)
 
-<https://docs.bear.bham.ac.uk/bluebear/jobs/>
-<https://docs.bear.bham.ac.uk/portal/jobs/>
+**BlueBEAR Terminal** Once you have prepared a submission script, you can go to that location in the BEAR-Portal file browser and click 'Open in termnal' in the top. This will open a terminal session from which you can submit, monitor and (optionally) cancel your job using `sbatch`, `squeue` and `scontrol`.
 
-## Step 6: Neuroimaging analysis software on Bear
+!!! note
+    These terminal sessions are ONLY intended for submitting and monitoring cluster jobs - not for active analyses. This should be carried out on BEAR GUI or similiar.
 
-The following software is available on BlueBEAR.
-
-| Toolbox                      |      GUI App          |  Bear Apps Modules                                                     | Notes                         |
-|:-----------------------------|:----------------------|:-----------------------------------------------------------------------|:------------------------------|
-| [FSL](fsl/fsl.md)            | N/A                   | [Bear Apps FSL](https://bear-apps.bham.ac.uk/applications/FSL/)        | Pip install modules via venv  |
-| [Python](python/mne.md)         | JupyterLab            | [Bear Apps Python](https://bear-apps.bham.ac.uk/applications/Python/)  | Bear Apps or pip/venv         |
-| [MNE-Python](python/mne.md)     | JupyterLab            | [Bear Apps MNE](https://bear-apps.bham.ac.uk/applications/MNE-Python/) | Bear Apps or pip/venv         |
-| [Matlab](matlab/matlab.md)   | MatLab                | [Bear Apps MatLab](https://bear-apps.bham.ac.uk/applications/MATLAB/)  |                               |
-| Fieldtrip                    | MatLab                | None                                                                   | Load within MatLab script     |
-| EEGLab                       | MatLab                | None                                                                   | Load within MatLab script     |
-| SPM                          | MatLab                | None                                                                   | Load within MatLab script     |
-| [R](R/R.md)                  | Rstudio               | [Bear Apps R](https://bear-apps.bham.ac.uk/applications/R/)            |                               |
-| Freesurfer                   | N/A                   | [Bear Apps Freesurfer](https://bear-apps.bham.ac.uk/applications/FreeSurfer/)   |     |
+**BlueBEAR Job Composer** this is a GUI page which helps you to write a new job to submit to blue-bear using the [job composer](https://docs.bear.bham.ac.uk/portal/jobs/#creating-a-new-compute-job-through-the-bear-portal).

@@ -1,10 +1,15 @@
 # Fieldtrip on Slurm
 
-*Example contributed by Ben Griffiths.*
+!!! note
+    Example contributed by Ben Griffiths.*
 
 This is an example script running a fieldtrip analysis on EEG data acqurired during a visual flicker task.
 
 The data is read in, filtered, epoched, ICA'd, re-referenced, then plotted. The core function can be executed on the [MatLab GUI App](https://docs.bear.bham.ac.uk/portal/gui_apps/) during an interactive session, or submitted to BlueEBAR using the bash script below.
+
+## Core processing script
+
+The following code can be saved as `basic_preprocessing.m`.
 
 ``` matlab
 %% Basic Preprocessing
@@ -148,6 +153,10 @@ legend({'60Hz','40Hz','30Hz','24Hz','20Hz','17.1Hz','15Hz','Baseline'})
 % save figure in root directory
 saveas(h, sprintf('%s/basic_preproc_output.jpg', root_dir))
 ```
+
+## Cluster submit script
+
+The following can be saved as a shell script and submitted to the cluster using `sbatch`.
 
 ``` bash
 #!/bin/bash
