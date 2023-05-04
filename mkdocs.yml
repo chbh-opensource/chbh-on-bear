@@ -28,8 +28,14 @@ nav:
   - Software Index: neuroimaging_software.md
   - R: R/R.md
   - Python:
-    - MNE-Python : mne/mne.md
-    - TensorFlow : mne/mne.md
-  - MatLab: matlab/matlab.md
+    - Python: python/python.md
+    - MNE-Python : python/mne.md
+    - OSL: python/osl.md
+  - MatLab:
+    - MatLab: matlab/matlab.md
+    - FieldTrip: matlab/fieldtrip.md
+    - SPM: matlab/spm.md
+    - EEGLab: matlab/eeglab.md
   - FSL: fsl/fsl.md
   - Containers: containers/containers.md
+  - FAQs: faqs.md

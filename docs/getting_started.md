@@ -33,3 +33,10 @@ From BEAR Portal there are three options for launching an interactive analysis s
 ## Step 5: Running cluster jobs with Slurm
 
 There are two ways to submit a cluster job - the [bluebear terminal](https://docs.bear.bham.ac.uk/bluebear/jobs/) and the [job submission page on Bear Portal](https://docs.bear.bham.ac.uk/portal/jobs/)
+
+**BlueBEAR Terminal** Once you have prepared a submission script, you can go to that location in the BEAR-Portal file browser and click 'Open in termnal' in the top. This will open a terminal session from which you can submit, monitor and (optionally) cancel your job using `sbatch`, `squeue` and `scontrol`.
+
+!!! note
+    These terminal sessions are ONLY intended for submitting and monitoring cluster jobs - not for active analyses. This should be carried out on BEAR GUI or similiar.
+
+**BlueBEAR Job Composer** this is a GUI page which helps you to write a new job to submit to blue-bear using the [job composer](https://docs.bear.bham.ac.uk/portal/jobs/#creating-a-new-compute-job-through-the-bear-portal).
