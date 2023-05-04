@@ -8,16 +8,20 @@
       
       
       
-        <link rel="canonical" href="https://ajquinn.github.io/chbh-on-bear/bear/">
+        <link rel="canonical" href="https://ajquinn.github.io/chbh-on-bear/getting_started/">
       
       
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../neuroimaging_software/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.9">
     
     
       
-        <title>Getting started on BEAR - CHBH-on-BEAR</title>
+        <title>Getting Started - CHBH-on-BEAR</title>
       
     
     
@@ -93,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Getting started on BEAR
+              Getting Started
             
           </span>
         </div>
@@ -215,11 +219,87 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../getting_started/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Getting Started
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Getting Started
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-0-linux" class="md-nav__link">
+    Step 0: Linux
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-bluebear" class="md-nav__link">
+    Step 1: BlueBEAR
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-rds-projects" class="md-nav__link">
+    Step 2: RDS Projects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-bear-portal" class="md-nav__link">
+    Step 3: Bear Portal
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-launching-interactive-sessions" class="md-nav__link">
+    Step 4: Launching interactive sessions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-running-cluster-jobs-with-slurm" class="md-nav__link">
+    Step 5: Running cluster jobs with Slurm
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -535,13 +615,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#step-6-neuroimaging-analysis-software-on-bear" class="md-nav__link">
-    Step 6: Neuroimaging analysis software on Bear
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -585,77 +658,13 @@
 </li>
 </ul>
 <h2 id="step-5-running-cluster-jobs-with-slurm">Step 5: Running cluster jobs with Slurm</h2>
-<p>There are two ways to submit a cluster job - the bluebear terminal or the Bear Portal</p>
-<p><a href="https://docs.bear.bham.ac.uk/bluebear/jobs/">https://docs.bear.bham.ac.uk/bluebear/jobs/</a>
-<a href="https://docs.bear.bham.ac.uk/portal/jobs/">https://docs.bear.bham.ac.uk/portal/jobs/</a></p>
-<h2 id="step-6-neuroimaging-analysis-software-on-bear">Step 6: Neuroimaging analysis software on Bear</h2>
-<p>The following software is available on BlueBEAR.</p>
-<table>
-<thead>
-<tr>
-<th align="left">Toolbox</th>
-<th align="left">GUI App</th>
-<th align="left">Bear Apps Modules</th>
-<th align="left">Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><a href="../fsl/fsl/">FSL</a></td>
-<td align="left">N/A</td>
-<td align="left"><a href="https://bear-apps.bham.ac.uk/applications/FSL/">Bear Apps FSL</a></td>
-<td align="left">Pip install modules via venv</td>
-</tr>
-<tr>
-<td align="left"><a href="../python/mne/">Python</a></td>
-<td align="left">JupyterLab</td>
-<td align="left"><a href="https://bear-apps.bham.ac.uk/applications/Python/">Bear Apps Python</a></td>
-<td align="left">Bear Apps or pip/venv</td>
-</tr>
-<tr>
-<td align="left"><a href="../python/mne/">MNE-Python</a></td>
-<td align="left">JupyterLab</td>
-<td align="left"><a href="https://bear-apps.bham.ac.uk/applications/MNE-Python/">Bear Apps MNE</a></td>
-<td align="left">Bear Apps or pip/venv</td>
-</tr>
-<tr>
-<td align="left"><a href="../matlab/matlab/">Matlab</a></td>
-<td align="left">MatLab</td>
-<td align="left"><a href="https://bear-apps.bham.ac.uk/applications/MATLAB/">Bear Apps MatLab</a></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Fieldtrip</td>
-<td align="left">MatLab</td>
-<td align="left">None</td>
-<td align="left">Load within MatLab script</td>
-</tr>
-<tr>
-<td align="left">EEGLab</td>
-<td align="left">MatLab</td>
-<td align="left">None</td>
-<td align="left">Load within MatLab script</td>
-</tr>
-<tr>
-<td align="left">SPM</td>
-<td align="left">MatLab</td>
-<td align="left">None</td>
-<td align="left">Load within MatLab script</td>
-</tr>
-<tr>
-<td align="left"><a href="../R/R/">R</a></td>
-<td align="left">Rstudio</td>
-<td align="left"><a href="https://bear-apps.bham.ac.uk/applications/R/">Bear Apps R</a></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">Freesurfer</td>
-<td align="left">N/A</td>
-<td align="left"><a href="https://bear-apps.bham.ac.uk/applications/FreeSurfer/">Bear Apps Freesurfer</a></td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
+<p>There are two ways to submit a cluster job - the <a href="https://docs.bear.bham.ac.uk/bluebear/jobs/">bluebear terminal</a> and the <a href="https://docs.bear.bham.ac.uk/portal/jobs/">job submission page on Bear Portal</a></p>
+<p><strong>BlueBEAR Terminal</strong> Once you have prepared a submission script, you can go to that location in the BEAR-Portal file browser and click 'Open in termnal' in the top. This will open a terminal session from which you can submit, monitor and (optionally) cancel your job using <code>sbatch</code>, <code>squeue</code> and <code>scontrol</code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>These terminal sessions are ONLY intended for submitting and monitoring cluster jobs - not for active analyses. This should be carried out on BEAR GUI or similiar.</p>
+</div>
+<p><strong>BlueBEAR Job Composer</strong> this is a GUI page which helps you to write a new job to submit to blue-bear using the <a href="https://docs.bear.bham.ac.uk/portal/jobs/#creating-a-new-compute-job-through-the-bear-portal">job composer</a>.</p>
 
 
 

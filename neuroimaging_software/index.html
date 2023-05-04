@@ -8,16 +8,20 @@
       
       
       
-        <link rel="canonical" href="https://ajquinn.github.io/chbh-on-bear/bear/">
+        <link rel="canonical" href="https://ajquinn.github.io/chbh-on-bear/neuroimaging_software/">
       
       
+        <link rel="prev" href="../getting_started/">
+      
+      
+        <link rel="next" href="../R/R/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.9">
     
     
       
-        <title>Getting started on BEAR - CHBH-on-BEAR</title>
+        <title>Software Index - CHBH-on-BEAR</title>
       
     
     
@@ -59,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#getting-started-on-bear" class="md-skip">
+        <a href="#index-of-neuroimaging-software" class="md-skip">
           Skip to content
         </a>
       
@@ -93,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Getting started on BEAR
+              Software Index
             
           </span>
         </div>
@@ -230,11 +234,21 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../neuroimaging_software/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Software Index
       </a>
+      
     </li>
   
 
@@ -487,63 +501,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#step-0-linux" class="md-nav__link">
-    Step 0: Linux
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-1-bluebear" class="md-nav__link">
-    Step 1: BlueBEAR
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-2-rds-projects" class="md-nav__link">
-    Step 2: RDS Projects
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-3-bear-portal" class="md-nav__link">
-    Step 3: Bear Portal
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-4-launching-interactive-sessions" class="md-nav__link">
-    Step 4: Launching interactive sessions
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-5-running-cluster-jobs-with-slurm" class="md-nav__link">
-    Step 5: Running cluster jobs with Slurm
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-6-neuroimaging-analysis-software-on-bear" class="md-nav__link">
-    Step 6: Neuroimaging analysis software on Bear
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -560,36 +517,8 @@
   
 
 
-<h1 id="getting-started-on-bear">Getting started on BEAR</h1>
-<p>This page collects tutorials and examples for neuroimaging analyses to run on BlueBEAR. This is intended to extend the main <a href="https://docs.bear.bham.ac.uk/">Bear Technical Documentation</a> pages.</p>
-<p>Here we provide a set of links, tips and tricks for getting started. Mostly linking out to other places.</p>
-<h2 id="step-0-linux">Step 0: Linux</h2>
-<p>Bear provide a <a href="https://intranet.birmingham.ac.uk/it/teams/infrastructure/research/bear/bear-training/intro-linux.aspx">Introduction to Linux</a> guide. Many computing services on bear rely on linux. There are in-person workshops and an online canvas courses available on this page.</p>
-<h2 id="step-1-bluebear">Step 1: BlueBEAR</h2>
-<p>Bear also provide a <a href="https://intranet.birmingham.ac.uk/it/teams/infrastructure/research/bear/bear-training/necessities.aspx">Introduction to BlueBEAR</a> course. There are in person workshops and an online canvas course.</p>
-<h2 id="step-2-rds-projects">Step 2: RDS Projects</h2>
-<p>You'll need to be a member of a Bear project and have a Bear linux account to use BlueBEAR. Your PI and lab can help with this. A detailed guide for <a href="https://docs.bear.bham.ac.uk/bluebear/accessing/">accessing BEAR</a> is provided on the technical docs.</p>
-<h2 id="step-3-bear-portal">Step 3: Bear Portal</h2>
-<p><a href="https://docs.bear.bham.ac.uk/portal/accessing/">BEAR Portal</a>  provides web-based access to a range of BEAR services, such as JupyterLab, RStudio, and various other GUI applications. BEAR Portal is only available on campus or using the University Remote Access Service.</p>
-<h2 id="step-4-launching-interactive-sessions">Step 4: Launching interactive sessions</h2>
-<p>From BEAR Portal there are three options for launching an interactive analysis session.</p>
-<ul>
-<li>
-<p>Some software packages have <a href="https://docs.bear.bham.ac.uk/portal/gui_apps/">GUI Apps</a>  installed on BlueBEAR that can be launched from the Bear Portal - the main example for neuroimaging analysis is Matlab.</p>
-</li>
-<li>
-<p><a href="https://docs.bear.bham.ac.uk/portal/jupyterlab/">JupyterLab</a> and <a href="https://docs.bear.bham.ac.uk/portal/rstudio/">RStudio</a> are installed as standalone apps that can be launched from BEAR Portal. (ote that only packages installed on Bear Apps are available to load in JupyterLab).</p>
-</li>
-<li>
-<p>A complete Linux Desktop can be launched as the <a href="https://docs.bear.bham.ac.uk/portal/gui/">BlueBEAR GUI</a>. BlueBEAR GUI is effectively a blank-slate linux desktop, into which you can load the modules for various applications, specify environment variables etc. by using the built-in Terminal client (see image below), and then ultimately launch the interface for the application that you require.</p>
-</li>
-</ul>
-<h2 id="step-5-running-cluster-jobs-with-slurm">Step 5: Running cluster jobs with Slurm</h2>
-<p>There are two ways to submit a cluster job - the bluebear terminal or the Bear Portal</p>
-<p><a href="https://docs.bear.bham.ac.uk/bluebear/jobs/">https://docs.bear.bham.ac.uk/bluebear/jobs/</a>
-<a href="https://docs.bear.bham.ac.uk/portal/jobs/">https://docs.bear.bham.ac.uk/portal/jobs/</a></p>
-<h2 id="step-6-neuroimaging-analysis-software-on-bear">Step 6: Neuroimaging analysis software on Bear</h2>
-<p>The following software is available on BlueBEAR.</p>
+<h1 id="index-of-neuroimaging-software">Index of Neuroimaging Software</h1>
+<p>This is an incomplete list of the neuroimaging software that is available on BlueBEAR. The links in the 'Toolbox' column follow to CHBH-on-BEAR examples and the 'Bear Apps' links go to the module specifications provided by BEAR.</p>
 <table>
 <thead>
 <tr>
