@@ -26,7 +26,6 @@ In CHBH, 'Castles' has often referred to Virtual Machine environments used for a
 
 ### What about code sharing? Not everybody has a Bluebear. Will people be able to run my code if I’ve written it for use on this platform?
 
-Couple of points
 - Think in terms of ‘develop’ vs ‘rationalise’. The second part is where parallelising becomes a bi advantage. It’s also the place you think about code sharing.
 - There are clever ways to make things very shareable agnostic to infrastructure. E.g., putting everything into a docker container and running ‘container jobs’. This has the disadvantage that you lose bear’s optimisation (all modules have been optimised so may run a lot faster). But you gain control. Tradeoff
 
