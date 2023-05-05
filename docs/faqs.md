@@ -26,9 +26,9 @@ In CHBH, 'Castles' has often referred to Virtual Machine environments used for a
 
 ### What about code sharing? Not everybody has a Bluebear. Will people be able to run my code if I’ve written it for use on this platform?
 
-A: Couple of points
-1) Think in terms of ‘develop’ vs ‘rationalise’. The second part is where parallelising becomes a bi advantage. It’s also the place you think about code sharing.
-2) There are clever ways to make things very shareable agnostic to infrastructure. E.g., putting everything into a docker container and running ‘container jobs’. This has the disadvantage that you lose bear’s optimisation (all modules have been optimised so may run a lot faster). But you gain control. Tradeoff
+Couple of points
+- Think in terms of ‘develop’ vs ‘rationalise’. The second part is where parallelising becomes a bi advantage. It’s also the place you think about code sharing.
+- There are clever ways to make things very shareable agnostic to infrastructure. E.g., putting everything into a docker container and running ‘container jobs’. This has the disadvantage that you lose bear’s optimisation (all modules have been optimised so may run a lot faster). But you gain control. Tradeoff
 
 ---
 
@@ -47,7 +47,6 @@ ln -s /rds/groups/q/quinna-example-project /rds/homes/q/quinna/
 ```
 
 There will now be a link directory in `/rds/homes/q/quinna/quinna-example-project` that you can use to see the files in the group space. Note that this is a 'link' not a copy.
-
 
 ### Do I NEED to run a VScode interactive session - couldn’t I use my own local code editor?
 
@@ -78,4 +77,3 @@ Yes. A matlab `startup.m` script in your local home directory will run as normal
 ### For people who are already using matlab/rdesktop on their own computer, what are the key steps to get the best optimisation as you’ve described when they switch to the cluster?
 
 Don’t optimise too early. Look at your data first - lots of visualisation etc which is more interactive. But when you’ve got your pipeline hardened, that’s when you want to do all this stuff. Or when you’ve got a pipeline but want to change something and re-run.
-
