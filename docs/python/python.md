@@ -49,7 +49,7 @@ module load IPython/8.5.0-GCCcore-11.3.0
 You can then start an iPython session from a terminal;
 
 ```shell
-python --pylab=tk
+ipython --pylab=tk
 ```
 
 and start running some python code using your loaded libraries
