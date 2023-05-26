@@ -8,6 +8,8 @@ on:
 jobs:
   build-docs:
     runs-on: ubuntu-latest
+    permissions: read-all|write-all
+
     steps:
       - name: checkout
         uses: actions/checkout@v3
