@@ -6,7 +6,6 @@ Is something incorrect, out-of-date or missing from this page? Open an issue on 
 
 You can ask for informal help via the CHBH Code, Computing and Open Science teams page. More formal support is availabl by raising a support ticket with IT.
 
-
 ---
 
 ## General
@@ -57,7 +56,6 @@ You can ask for informal help via the CHBH Code, Computing and Open Science team
 !!! note "Does VScode track changes to code?"
 
     VScode doesn’t track changes itself but VScode should be able to show you which files have been modified if you are reading files within an existing git repository. Git should be used to handle version tracking.
-
 
 ---
 
