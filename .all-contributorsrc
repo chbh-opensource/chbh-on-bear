@@ -26,6 +26,15 @@
         "maintenance",
         "content"
       ]
+    },
+    {
+      "login": "Bingram22",
+      "name": "Brandon Ingram",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9869628?v=4",
+      "profile": "https://github.com/Bingram22",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
