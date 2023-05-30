@@ -9,7 +9,6 @@ Check out the links in the sidebar to get started. Try 'Getting Started' if you'
 !!! note
     This website is intended for current staff and students at the [Centre for Human Brain Health](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/index.aspx) and [University of Birmingham](https://www.birmingham.ac.uk/index.aspx). It is not likely to be useful for anyone else...
 
-
 ## Contributors
 
 Many thanks to our contributors!
