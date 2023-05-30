@@ -1,4 +1,7 @@
 # CHBH-on-BEAR Documentation
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![All Contributors](https://img.shields.io/github/all-contributors/chbh-opensource/chbh-on-bear?color=ee8449&style=flat-square)](#contributors)
 
@@ -7,6 +10,20 @@ This documentation describes running CHBH-on-BEAR workflows on the University of
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/orbsmiv"><img src="https://avatars.githubusercontent.com/u/19799678?v=4?s=100" width="100px;" alt="James Carpenter"/><br /><sub><b>James Carpenter</b></sub></a><br /><a href="#maintenance-orbsmiv" title="Maintenance">🚧</a> <a href="#content-orbsmiv" title="Content">🖋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
