@@ -54,6 +54,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "tghafari",
+      "name": "Tara",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61696572?v=4",
+      "profile": "https://github.com/tghafari",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,

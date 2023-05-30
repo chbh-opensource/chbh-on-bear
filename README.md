@@ -1,7 +1,7 @@
 # CHBH-on-BEAR Documentation
 <!-- markdownlint-disable -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- markdownlint-restore -->
 
@@ -22,6 +22,7 @@ Many thanks to our contributors - please open an issue if you're missing from th
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Bingram22"><img src="https://avatars.githubusercontent.com/u/9869628?v=4?s=100" width="100px;" alt="Brandon Ingram"/><br /><sub><b>Brandon Ingram</b></sub></a><br /><a href="#content-Bingram22" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://sites.google.com/site/arkadykonovalov/"><img src="https://avatars.githubusercontent.com/u/14971990?v=4?s=100" width="100px;" alt="Arkady Konovalov"/><br /><sub><b>Arkady Konovalov</b></sub></a><br /><a href="#content-arkadykonovalov" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/benjaminGriffiths"><img src="https://avatars.githubusercontent.com/u/24454976?v=4?s=100" width="100px;" alt="Ben Griffiths"/><br /><sub><b>Ben Griffiths</b></sub></a><br /><a href="#content-benjaminGriffiths" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/tghafari"><img src="https://avatars.githubusercontent.com/u/61696572?v=4?s=100" width="100px;" alt="Tara"/><br /><sub><b>Tara</b></sub></a><br /><a href="#content-tghafari" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
