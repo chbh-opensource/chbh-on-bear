@@ -1,8 +1,6 @@
 # CHBH-on-BEAR Documentation
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<!-- markdownlint-disable -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
-<!-- markdownlint-restore -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This documentation describes running CHBH-on-BEAR workflows on the University of Birmingham's BlueBEAR HPC system.
@@ -21,6 +19,7 @@ Many thanks to our contributors - please open an issue if you're missing from th
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/orbsmiv"><img src="https://avatars.githubusercontent.com/u/19799678?v=4?s=100" width="100px;" alt="James Carpenter"/><br /><sub><b>James Carpenter</b></sub></a><br /><a href="#maintenance-orbsmiv" title="Maintenance">🚧</a> <a href="#content-orbsmiv" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Bingram22"><img src="https://avatars.githubusercontent.com/u/9869628?v=4?s=100" width="100px;" alt="Brandon Ingram"/><br /><sub><b>Brandon Ingram</b></sub></a><br /><a href="#content-Bingram22" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://sites.google.com/site/arkadykonovalov/"><img src="https://avatars.githubusercontent.com/u/14971990?v=4?s=100" width="100px;" alt="Arkady Konovalov"/><br /><sub><b>Arkady Konovalov</b></sub></a><br /><a href="#content-arkadykonovalov" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/benjaminGriffiths"><img src="https://avatars.githubusercontent.com/u/24454976?v=4?s=100" width="100px;" alt="Ben Griffiths"/><br /><sub><b>Ben Griffiths</b></sub></a><br /><a href="#content-benjaminGriffiths" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
