@@ -35,6 +35,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "arkadykonovalov",
+      "name": "Arkady Konovalov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14971990?v=4",
+      "profile": "https://sites.google.com/site/arkadykonovalov/",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
