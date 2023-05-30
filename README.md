@@ -1,4 +1,5 @@
 # CHBH-on-BEAR Documentation
+
 [![All Contributors](https://img.shields.io/github/all-contributors/chbh-opensource/chbh-on-bear?color=ee8449&style=flat-square)](#contributors)
 
 This documentation describes running CHBH-on-BEAR workflows on the University of Birmingham's BlueBEAR HPC system.
