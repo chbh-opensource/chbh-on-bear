@@ -9,6 +9,29 @@ Check out the links in the sidebar to get started. Try 'Getting Started' if you'
 !!! note
     This website is intended for current staff and students at the [Centre for Human Brain Health](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/index.aspx) and [University of Birmingham](https://www.birmingham.ac.uk/index.aspx). It is not likely to be useful for anyone else...
 
+## Contributors
+
+Many thanks to our contributors!
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://gitlab.com/ajquinn"><img src="https://avatars.githubusercontent.com/u/13739055?v=4?s=100" width="100px;" alt="ajquinn"/><br /><sub><b>ajquinn</b></sub></a><br /><a href="#maintenance-ajquinn" title="Maintenance">🚧</a> <a href="#content-ajquinn" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/orbsmiv"><img src="https://avatars.githubusercontent.com/u/19799678?v=4?s=100" width="100px;" alt="James Carpenter"/><br /><sub><b>James Carpenter</b></sub></a><br /><a href="#maintenance-orbsmiv" title="Maintenance">🚧</a> <a href="#content-orbsmiv" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Bingram22"><img src="https://avatars.githubusercontent.com/u/9869628?v=4?s=100" width="100px;" alt="Brandon Ingram"/><br /><sub><b>Brandon Ingram</b></sub></a><br /><a href="#content-Bingram22" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://sites.google.com/site/arkadykonovalov/"><img src="https://avatars.githubusercontent.com/u/14971990?v=4?s=100" width="100px;" alt="Arkady Konovalov"/><br /><sub><b>Arkady Konovalov</b></sub></a><br /><a href="#content-arkadykonovalov" title="Content">🖋</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 ## Contributing
 
-This page is a work-in-progress and contributions are very welcome! Please email Andrew or make some changes directly on the [CHBH-on-BEAR github page](https://github.com/AJQuinn/chbh-on-bear).
+This page is a work-in-progress and contributions are very welcome! Please email Andrew or make some changes directly on the [CHBH-on-BEAR github page](https://github.com/chbh-opensource/chbh-on-bear).
