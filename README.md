@@ -15,7 +15,6 @@ This documentation describes running CHBH-on-BEAR workflows on the University of
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-
 ## Publishing
 
 The documentation is automatically built and published to <https://ajquinn.github.io/chbh-on-bear> on every push to the `main` branch of this repository.
