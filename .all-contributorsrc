@@ -8,6 +8,16 @@
   "commitConvention": "angular",
   "contributors": [
     {
+      "login": "ajquinn",
+      "name": "ajquinn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13739055?v=4",
+      "profile": "https://gitlab.com/ajquinn",
+      "contributions": [
+        "maintenance",
+        "content"
+      ]
+    },
+    {
       "login": "orbsmiv",
       "name": "James Carpenter",
       "avatar_url": "https://avatars.githubusercontent.com/u/19799678?v=4",
