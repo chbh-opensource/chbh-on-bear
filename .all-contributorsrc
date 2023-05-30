@@ -44,6 +44,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "benjaminGriffiths",
+      "name": "Ben Griffiths",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24454976?v=4",
+      "profile": "https://github.com/benjaminGriffiths",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
