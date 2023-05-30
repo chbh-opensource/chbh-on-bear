@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "orbsmiv",
+      "name": "James Carpenter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19799678?v=4",
+      "profile": "https://github.com/orbsmiv",
+      "contributions": [
+        "maintenance",
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "chbh-on-bear",
+  "projectOwner": "chbh-opensource"
+}
