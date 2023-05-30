@@ -1,7 +1,9 @@
 # CHBH-on-BEAR Documentation
+<!-- markdownlint-disable -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+<!-- markdownlint-restore -->
 
 This documentation describes running CHBH-on-BEAR workflows on the University of Birmingham's BlueBEAR HPC system.
 
