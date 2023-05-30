@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "ajquinn",
+      "name": "ajquinn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13739055?v=4",
+      "profile": "https://gitlab.com/ajquinn",
+      "contributions": [
+        "maintenance",
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "chbh-on-bear",
+  "projectOwner": "chbh-opensource"
+}
