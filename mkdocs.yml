@@ -31,6 +31,7 @@ nav:
     - Python: python/python.md
     - MNE-Python : python/mne.md
     - OSL: python/osl.md
+    - Conda: python/conda.md
   - MatLab:
     - MatLab: matlab/matlab.md
     - FieldTrip: matlab/fieldtrip.md
