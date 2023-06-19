@@ -81,6 +81,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "katduecker",
+      "name": "Katharina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26790195?v=4",
+      "profile": "https://github.com/katduecker",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
