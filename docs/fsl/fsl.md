@@ -44,7 +44,6 @@ fsleyes
 !!! info
     Note that it is currently not possible to have both FSL and FSLEyes in the environment in the same terminal. Until this is fixed, please use two separate terminal sessions, one for FSL and one for FSLEyes.
 
-
 ## FSL on the cluster
 
 We can also run FSL jobs on the cluster using job scripts. The following can be saved as `run_fsl_bet.sh` and submitted to the cluster using `sbatch`. This will run a brain extraction on a single datafile.
