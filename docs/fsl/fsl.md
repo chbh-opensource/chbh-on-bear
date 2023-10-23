@@ -27,6 +27,24 @@ or open the FSL GUI:
 fsl
 ```
 
+## FSLEyes on Bear Portal GUI
+
+[FSLEyes](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSLeyes) is the MRI volume visualisation tool provided and maintained by the FSL team. This runs well in Bear GUI and can be added to the local environment by adding the following module. (See the [FSLEyes page on Bear Apps](https://bear-apps.bham.ac.uk/applications/FSLeyes/) for all available versions). 
+
+```shell
+module load FSLeyes/1.3.3-foss-2021a
+```
+
+Once the module has loaded you can run FSLEyes from the terminal as normal.
+
+```shell
+fsleyes
+```
+
+!!! info
+    Note that it is currently not possible to have both FSL and FSLEyes in the environment in the same terminal. Until this is fixed, please use two separate terminal sessions, one for FSL and one for FSLEyes.
+
+
 ## FSL on the cluster
 
 We can also run FSL jobs on the cluster using job scripts. The following can be saved as `run_fsl_bet.sh` and submitted to the cluster using `sbatch`. This will run a brain extraction on a single datafile.
