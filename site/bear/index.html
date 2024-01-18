@@ -1,0 +1,879 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ajquinn.github.io/chbh-on-bear/bear/">
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
+    
+    
+      
+        <title>Getting started on BEAR - CHBH-on-BEAR</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#getting-started-on-bear" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="CHBH-on-BEAR" class="md-header__button md-logo" aria-label="CHBH-on-BEAR" data-md-component="logo">
+      
+  <img src="../CHBH_logo.jpg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CHBH-on-BEAR
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Getting started on BEAR
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/AJQuinn/chbh-on-bear" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    CHBH-on-BEAR
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CHBH-on-BEAR" class="md-nav__button md-logo" aria-label="CHBH-on-BEAR" data-md-component="logo">
+      
+  <img src="../CHBH_logo.jpg" alt="logo">
+
+    </a>
+    CHBH-on-BEAR
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/AJQuinn/chbh-on-bear" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    CHBH-on-BEAR
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting_started/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../neuroimaging_software/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Software Index
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../R/R/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    R
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Python
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Python
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python/python/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Python
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python/mne/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MNE-Python
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python/osl/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OSL
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python/conda/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Conda
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    MatLab
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            MatLab
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../matlab/matlab/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MatLab
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../matlab/fieldtrip/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FieldTrip
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../matlab/spm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SPM
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../matlab/eeglab/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EEGLab
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fsl/fsl/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FSL
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../freesurfer/freesurfer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FreeSurfer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../containers/containers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Containers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faqs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-0-linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 0: Linux
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-bluebear" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: BlueBEAR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-rds-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 2: RDS Projects
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-bear-portal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 3: Bear Portal
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-launching-interactive-sessions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 4: Launching interactive sessions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-running-cluster-jobs-with-slurm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 5: Running cluster jobs with Slurm
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-neuroimaging-analysis-software-on-bear" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 6: Neuroimaging analysis software on Bear
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="getting-started-on-bear">Getting started on BEAR</h1>
+<p>This page collects tutorials and examples for neuroimaging analyses to run on BlueBEAR. This is intended to extend the main <a href="https://docs.bear.bham.ac.uk/">Bear Technical Documentation</a> pages.</p>
+<p>Here we provide a set of links, tips and tricks for getting started. Mostly linking out to other places.</p>
+<h2 id="step-0-linux">Step 0: Linux</h2>
+<p>Bear provide a <a href="https://intranet.birmingham.ac.uk/it/teams/infrastructure/research/bear/bear-training/intro-linux.aspx">Introduction to Linux</a> guide. Many computing services on bear rely on linux. There are in-person workshops and an online canvas courses available on this page.</p>
+<h2 id="step-1-bluebear">Step 1: BlueBEAR</h2>
+<p>Bear also provide a <a href="https://intranet.birmingham.ac.uk/it/teams/infrastructure/research/bear/bear-training/necessities.aspx">Introduction to BlueBEAR</a> course. There are in person workshops and an online canvas course.</p>
+<h2 id="step-2-rds-projects">Step 2: RDS Projects</h2>
+<p>You'll need to be a member of a Bear project and have a Bear linux account to use BlueBEAR. Your PI and lab can help with this. A detailed guide for <a href="https://docs.bear.bham.ac.uk/bluebear/accessing/">accessing BEAR</a> is provided on the technical docs.</p>
+<h2 id="step-3-bear-portal">Step 3: Bear Portal</h2>
+<p><a href="https://docs.bear.bham.ac.uk/portal/accessing/">BEAR Portal</a>  provides web-based access to a range of BEAR services, such as JupyterLab, RStudio, and various other GUI applications. BEAR Portal is only available on campus or using the University Remote Access Service.</p>
+<h2 id="step-4-launching-interactive-sessions">Step 4: Launching interactive sessions</h2>
+<p>From BEAR Portal there are three options for launching an interactive analysis session.</p>
+<ul>
+<li>
+<p>Some software packages have <a href="https://docs.bear.bham.ac.uk/portal/gui_apps/">GUI Apps</a>  installed on BlueBEAR that can be launched from the Bear Portal - the main example for neuroimaging analysis is Matlab.</p>
+</li>
+<li>
+<p><a href="https://docs.bear.bham.ac.uk/portal/jupyterlab/">JupyterLab</a> and <a href="https://docs.bear.bham.ac.uk/portal/rstudio/">RStudio</a> are installed as standalone apps that can be launched from BEAR Portal. (ote that only packages installed on Bear Apps are available to load in JupyterLab).</p>
+</li>
+<li>
+<p>A complete Linux Desktop can be launched as the <a href="https://docs.bear.bham.ac.uk/portal/gui/">BlueBEAR GUI</a>. BlueBEAR GUI is effectively a blank-slate linux desktop, into which you can load the modules for various applications, specify environment variables etc. by using the built-in Terminal client (see image below), and then ultimately launch the interface for the application that you require.</p>
+</li>
+</ul>
+<h2 id="step-5-running-cluster-jobs-with-slurm">Step 5: Running cluster jobs with Slurm</h2>
+<p>There are two ways to submit a cluster job - the bluebear terminal or the Bear Portal</p>
+<p><a href="https://docs.bear.bham.ac.uk/bluebear/jobs/">https://docs.bear.bham.ac.uk/bluebear/jobs/</a>
+<a href="https://docs.bear.bham.ac.uk/portal/jobs/">https://docs.bear.bham.ac.uk/portal/jobs/</a></p>
+<h2 id="step-6-neuroimaging-analysis-software-on-bear">Step 6: Neuroimaging analysis software on Bear</h2>
+<p>The following software is available on BlueBEAR.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Toolbox</th>
+<th style="text-align: left;">GUI App</th>
+<th style="text-align: left;">Bear Apps Modules</th>
+<th style="text-align: left;">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="../fsl/fsl/">FSL</a></td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;"><a href="https://bear-apps.bham.ac.uk/applications/FSL/">Bear Apps FSL</a></td>
+<td style="text-align: left;">Pip install modules via venv</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="../python/mne/">Python</a></td>
+<td style="text-align: left;">JupyterLab</td>
+<td style="text-align: left;"><a href="https://bear-apps.bham.ac.uk/applications/Python/">Bear Apps Python</a></td>
+<td style="text-align: left;">Bear Apps or pip/venv</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="../python/mne/">MNE-Python</a></td>
+<td style="text-align: left;">JupyterLab</td>
+<td style="text-align: left;"><a href="https://bear-apps.bham.ac.uk/applications/MNE-Python/">Bear Apps MNE</a></td>
+<td style="text-align: left;">Bear Apps or pip/venv</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="../matlab/matlab/">Matlab</a></td>
+<td style="text-align: left;">MatLab</td>
+<td style="text-align: left;"><a href="https://bear-apps.bham.ac.uk/applications/MATLAB/">Bear Apps MatLab</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Fieldtrip</td>
+<td style="text-align: left;">MatLab</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">Load within MatLab script</td>
+</tr>
+<tr>
+<td style="text-align: left;">EEGLab</td>
+<td style="text-align: left;">MatLab</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">Load within MatLab script</td>
+</tr>
+<tr>
+<td style="text-align: left;">SPM</td>
+<td style="text-align: left;">MatLab</td>
+<td style="text-align: left;">None</td>
+<td style="text-align: left;">Load within MatLab script</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="../R/R/">R</a></td>
+<td style="text-align: left;">Rstudio</td>
+<td style="text-align: left;"><a href="https://bear-apps.bham.ac.uk/applications/R/">Bear Apps R</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Freesurfer</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;"><a href="https://bear-apps.bham.ac.uk/applications/FreeSurfer/">Bear Apps Freesurfer</a></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>
