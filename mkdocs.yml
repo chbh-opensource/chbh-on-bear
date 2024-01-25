@@ -38,5 +38,6 @@ nav:
     - SPM: matlab/spm.md
     - EEGLab: matlab/eeglab.md
   - FSL: fsl/fsl.md
+  - FreeSurfer: freesurfer/freesurfer.md
   - Containers: containers/containers.md
   - FAQs: faqs.md

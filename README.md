@@ -39,7 +39,7 @@ Many thanks to our contributors - please open an issue if you're missing from th
 
 ## Publishing
 
-The documentation is automatically built and published to <https://ajquinn.github.io/chbh-on-bear> on every push to the `main` branch of this repository.
+The documentation is automatically built and published to <https://chbh-opensource.github.io/chbh-on-bear> on every push to the `main` branch of this repository.
 
 This is taken care of by the [`deploy` GitHub Actions workflow](https://github.com/AJQuinn/chbh-on-bear/tree/main/.github/workflows/deploy.yml).
 
@@ -47,10 +47,10 @@ This is taken care of by the [`deploy` GitHub Actions workflow](https://github.c
 
 ### Creating a Development Environment and Installing `mkdocs`
 
-To install all the required `mkdocs` Python packages, use the provided [requirements.txt](https://github.com/AJQuinn/chbh-on-bear/tree/main/requirements.txt) file. The recommendation for development is to do this inside a dedicated virtual environment:
+To install all the required `mkdocs` Python packages, use the provided [requirements.txt](https://github.com/chbh-opensource/chbh-on-bear/tree/main/requirements.txt) file. The recommendation for development is to do this inside a dedicated virtual environment:
 
 ```shell
-git clone https://github.com/AJQuinn/chbh-on-bear
+git clone https://github.com/chbh-opensource/chbh-on-bear
 cd chbh-on-bear
 python -m venv ./.venv
 source ./.venv/bin/activate
