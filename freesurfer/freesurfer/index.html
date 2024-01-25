@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://ajquinn.github.io/chbh-on-bear/containers/containers/">
+        <link rel="canonical" href="https://ajquinn.github.io/chbh-on-bear/freesurfer/freesurfer/">
       
       
-        <link rel="prev" href="../../freesurfer/freesurfer/">
+        <link rel="prev" href="../../fsl/fsl/">
       
       
-        <link rel="next" href="../../faqs/">
+        <link rel="next" href="../../containers/containers/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Containers - CHBH-on-BEAR</title>
+        <title>FreeSurfer - CHBH-on-BEAR</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#containers" class="md-skip">
+        <a href="#freesurfer" class="md-skip">
           Skip to content
         </a>
       
@@ -99,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Containers
+              FreeSurfer
             
           </span>
         </div>
@@ -568,26 +568,6 @@
       
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../../freesurfer/freesurfer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    FreeSurfer
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
     
   
   
@@ -604,7 +584,7 @@
           
   
   <span class="md-ellipsis">
-    Containers
+    FreeSurfer
   </span>
   
 
@@ -615,7 +595,7 @@
         
   
   <span class="md-ellipsis">
-    Containers
+    FreeSurfer
   </span>
   
 
@@ -637,26 +617,38 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#downloading-a-container" class="md-nav__link">
+  <a href="#freesurfer-license" class="md-nav__link">
     <span class="md-ellipsis">
-      Downloading a Container
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Downloading a Container">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#running-software-using-a-container" class="md-nav__link">
-    <span class="md-ellipsis">
-      Running Software using a Container
+      FreeSurfer License
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#running-recon-all" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running recon-all
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-recon-all-on-multiple-subjects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running recon-all on Multiple Subjects
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-freesurfer-in-a-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running FreeSurfer in a Container
+    </span>
+  </a>
   
 </li>
       
@@ -664,6 +656,26 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../containers/containers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Containers
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -715,26 +727,38 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#downloading-a-container" class="md-nav__link">
+  <a href="#freesurfer-license" class="md-nav__link">
     <span class="md-ellipsis">
-      Downloading a Container
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Downloading a Container">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#running-software-using-a-container" class="md-nav__link">
-    <span class="md-ellipsis">
-      Running Software using a Container
+      FreeSurfer License
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#running-recon-all" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running recon-all
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-recon-all-on-multiple-subjects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running recon-all on Multiple Subjects
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-freesurfer-in-a-container" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running FreeSurfer in a Container
+    </span>
+  </a>
   
 </li>
       
@@ -756,59 +780,121 @@
   
 
 
-<h1 id="containers">Containers</h1>
-<p>A container is a lightweight software package that contains both the software, and all of the required dependencies to run the contained software.</p>
-<p>BlueBEAR supports running analyses on containers using <a href="https://docs.bear.bham.ac.uk/bluebear/software/container/">Apptainer</a>. The Bear Technical docs contain extensive tutorals</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>BlueBEAR does not directly support Docker as it requires administratr privalages to run. Apptainer is able to read and execute Docker images without admin rights. Apptainer is the successor to the Singularty project - please see <a href="https://apptainer.org/news/community-announcement-20211130/">this article</a> for more information on the transition.</p>
-</div>
-<h2 id="downloading-a-container">Downloading a Container</h2>
-<p><a href="https://hub.docker.com/">Docker</a> has a wide selection of containers available to download. Bear Technical docs contains some examples on how to <a href="https://docs.bear.bham.ac.uk/bluebear/software/container/#pull-and-run">download and execute a simple python container</a>.</p>
-<p>The following bash code provides an example of how to download the <a href="https://hub.docker.com/r/nipreps/fmriprep">fMRIPrep</a> container, which includes a variety of neuroimaging software, including freesurfer, FSL, and ANTS. This can be executed on an interactive or batch job.</p>
-<div class="language-shell highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>apptainer<span class="w"> </span>pull<span class="w"> </span>--name<span class="w"> </span>fMRIPrep.sif<span class="w"> </span>docker://nipreps/fmriprep:latest
+<h1 id="freesurfer">FreeSurfer</h1>
+<p><a href="https://surfer.nmr.mgh.harvard.edu/">FreeSurfer</a> is an open-source package for the analysis and visualization of structural, functional, and diffusion neuroimaging data from cross-sectional and longitudinal studies.</p>
+<h2 id="freesurfer-license">FreeSurfer License</h2>
+<p>FreeSurfer requires a license registration key in order to be used. This can be obtained from <a href="https://surfer.nmr.mgh.harvard.edu/registration.html">here</a>. Once downloaded, the file should be uploaded to your home directory on Bear. This can be done using "Files" tab on the <a href="https://portal.bear.bham.ac.uk/">BlueBEAR portal</a>, or using file transfer software, such as <a href="https://winscp.net/eng/index.php">WinSCP</a>, or <a href="https://filezilla-project.org/">FileZilla</a>. </p>
+<h2 id="running-recon-all">Running recon-all</h2>
+<p>The <code>recon-all</code> command performs all, or any part of, the FreeSurfer cortical reconstruction process. The outputs of <code>recon-all</code> can be used to define the surfaces required for the boundary estimate model (BEM) required when performing source reconstruction on M/EEG data. The function can be run via BlueBEAR using the example script (recon_all.sh) below:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="ch">#!/usr/bin/env bash</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="c1">#SBATCH --qos bbdefault</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="c1">#SBATCH --time 1440</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="c1">#SBATCH --ntasks 4</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="c1">#SBATCH --mem-per-cpu 2</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>module<span class="w"> </span>purge
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>module<span class="w"> </span>load<span class="w"> </span>bear-apps/2019a/live
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>module<span class="w"> </span>load<span class="w"> </span>FreeSurfer/6.0.1-centos6_x86_64
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="nb">export</span><span class="w"> </span><span class="nv">FS_LICENSE</span><span class="o">=</span><span class="si">${</span><span class="nv">HOME</span><span class="si">}</span>/license.txt
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="nb">export</span><span class="w"> </span><span class="nv">SUBJECTS_DIR</span><span class="o">=</span>/rds/projects/b/bagshaap-eeg-fmri-hmm/fs_outputs
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>recon-all<span class="w"> </span>-s<span class="w"> </span>sub-01<span class="w"> </span>-i<span class="w"> </span>/rds/projects/b/bagshaap-eeg-fmri-hmm/T1_vol_v1_5.nii.gz<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>-all<span class="w"> </span><span class="se">\ </span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>-log<span class="w"> </span>logfile<span class="w"> </span><span class="se">\ </span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>-all<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>-parallel<span class="w"> </span>-openmp<span class="w"> </span><span class="m">4</span>
 </span></code></pre></div>
-<p>and this version can be submitted as a cluster script.</p>
-<div class="language-slurm highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="ch">#!/bin/bash</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="kp">#SBATCH --account bagshaap-example-project</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="kp">#SBATCH --qos bbdefault</span>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="kp">#SBATCH --time 60</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="kp">#SBATCH --nodes 1 # ensure the job runs on a single node</span>
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="kp">#SBATCH --ntasks 10 # this will give you circa 40G RAM and will ensure faster conversion to the .sif format</span>
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="kp">#SBATCH --constraint icelake</span>
-</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
-</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="nb">set</span><span class="w"> </span>-e
-</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>
-</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>apptainer<span class="w"> </span>pull<span class="w"> </span>--name<span class="w"> </span>fMRIPrep.sif<span class="w"> </span>docker://nipreps/fmriprep:latest
+<p>This script can then be submitted using the following command:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>sbatch<span class="w"> </span>recon_all.sh
 </span></code></pre></div>
-<p>save the code above into a bash script called <code>create-container_fmriprep.sh</code> (make sure you update the <code>account</code> name on line 3 to a project that you have access to!) inside the directory where you would like to save the container file. This can then be submitted to the cluster by running <code>sbatch create-container_fmriprep.sh</code> in a terminal, or creating a job in the 'job composer'. This will take several minutes to run to completion with the <code>fmriprep</code> image.</p>
-<p>Once the job has completed, you should be able to find a file called <code>fMRIPrep.sif</code> in your working directory (alongside the cluster log files). This is the container file.</p>
-<h3 id="running-software-using-a-container">Running Software using a Container</h3>
-<p>The <code>apptainer exec</code> command is used to run the contained software. The following bash codes demonstrates how to run the FSL command <code>fslroi</code> contained within the fMRIPrep container.</p>
-<div class="language-slurm highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="ch">#!/bin/bash</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="kp">#SBATCH --account bagshaap-example-project</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="kp">#SBATCH --qos bbdefault</span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>module<span class="w"> </span>purge<span class="p">;</span><span class="w"> </span>module<span class="w"> </span>load<span class="w"> </span>bluebear
-</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
-</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>apptainer<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>fMRIPrep.sif<span class="w"> </span>fslroi<span class="w"> </span>--help
+<p>Descriptions of the variables and arguments:</p>
+<table>
+<thead>
+<tr>
+<th>Variables / Arguments</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>FS_LICENSE</code></td>
+<td>Sets the path to the FreeSurfer license file.</td>
+</tr>
+<tr>
+<td><code>SUBJECTS_DIR</code></td>
+<td>Sets the output directory for the analysis.</td>
+</tr>
+<tr>
+<td><code>-s</code></td>
+<td>Sets the name of the output folder.</td>
+</tr>
+<tr>
+<td><code>-i</code></td>
+<td>Specifies the full path to the T1-weighted MRI image.</td>
+</tr>
+<tr>
+<td><code>-all</code></td>
+<td>Instructs FreeSurfer to run all processing steps.</td>
+</tr>
+<tr>
+<td><code>-log</code></td>
+<td>Creates a log file named "logfile" upon completion of the processing.</td>
+</tr>
+<tr>
+<td><code>-parallel</code></td>
+<td>Enables parallel processing in FreeSurfer.</td>
+</tr>
+<tr>
+<td><code>-openmp</code></td>
+<td>Defines the number of CPU cores available for parallel processing.</td>
+</tr>
+</tbody>
+</table>
+<p>For the above script to work for you, several of the variables and arguments need to be changed to match your filenames and directories. Specifically, the <code>SUBJECT_DIR</code> variable needs to be changed to the path where you want the outputs to be saved, the <code>-s</code> argument needs to be changed to the desired name of the output folder, and the <code>-i</code> argument needs to be changed to a path to your T1 file. </p>
+<h2 id="running-recon-all-on-multiple-subjects">Running recon-all on Multiple Subjects</h2>
+<p>Alternatively, if you need to run recon-all for multiple subjects at once, for example, on an entire BIDS dataset, it is possible to submit all jobs using the below script (recon_all_bids.sh):</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="ch">#!/usr/bin/env bash</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="c1">#SBATCH --qos bbdefault</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="c1">#SBATCH --time 1440</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c1">#SBATCH --ntasks 4</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="c1">#SBATCH --mem-per-cpu 2</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="c1">#SBATCH --array=1-20 # 20 represents the total number of subjects</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>module<span class="w"> </span>purge
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>module<span class="w"> </span>load<span class="w"> </span>bear-apps/2019a/live
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>module<span class="w"> </span>load<span class="w"> </span>FreeSurfer/6.0.1-centos6_x86_64
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="nb">export</span><span class="w"> </span><span class="nv">FS_LICENSE</span><span class="o">=</span><span class="si">${</span><span class="nv">HOME</span><span class="si">}</span>/license.txt
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="nb">export</span><span class="w"> </span><span class="nv">SUBJECTS_DIR</span><span class="o">=</span>/rds/projects/b/bagshaap-eeg-fmri-hmm/fs_outputs
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="nv">subject_id_number</span><span class="o">=</span><span class="k">$(</span><span class="nb">printf</span><span class="w"> </span><span class="s2">&quot;%02d&quot;</span><span class="w"> </span><span class="si">${</span><span class="nv">SLURM_ARRAY_TASK_ID</span><span class="si">}</span><span class="k">)</span>
+</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a>
+</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a>recon-all<span class="w"> </span>-s<span class="w"> </span>sub-<span class="si">${</span><span class="nv">subject_id_number</span><span class="si">}</span><span class="w"> </span><span class="se">\</span>
+</span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a>-i<span class="w"> </span>/rds/projects/b/bagshaap-eeg-fmri-hmm/bids_dataset/sub-<span class="si">${}</span>/anat/sub-<span class="si">${</span><span class="nv">subject_id_number</span><span class="si">}</span>_T1w.nii.gz<span class="w">  </span><span class="se">\</span>
+</span><span id="__span-2-19"><a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a>-all<span class="w"> </span><span class="se">\ </span>
+</span><span id="__span-2-20"><a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a>-log<span class="w"> </span>logfile<span class="w"> </span><span class="se">\ </span>
+</span><span id="__span-2-21"><a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a>-all<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-2-22"><a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a>-parallel<span class="w"> </span>-openmp<span class="w"> </span><span class="m">4</span>
 </span></code></pre></div>
-<p>This code can be saved into a bash script called <code>check-container_fmriprep.sh</code> inside the same directory used above. You can run the job as above and check the cluster logfiles to see that the help text for the <code>fslroi</code> function was printed from within the container. This is a very simple example but can be adapted to run any command using the software inside the container.</p>
-<p>Let's break this down so we can build a more complex command. There are four parts to running a command with Apptainer. This is the core line:</p>
-<div class="language-shell highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>apptainer<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>fMRIPrep.sif<span class="w"> </span>fslroi<span class="w"> </span>--help
+<h2 id="running-freesurfer-in-a-container">Running FreeSurfer in a Container</h2>
+<p>Running FreeSurfer within a container allows for greater control over the software versions and improves the reproducibility of the analysis. FreeSurfer containers are available on <a href="https://hub.docker.com/r/freesurfer/freesurfer/tags">dockerhub</a>, or can be created using <a href="https://github.com/ReproNim/neurodocker">NeuroDocker</a> (see the <a href="../../containers/containers/">Containers</a> page for details on downloading containers). In the example below we assume a container named 'freesurfer.sif' has been downloaded:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="ch">#!/usr/bin/env bash</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="c1">#SBATCH --qos bbdefault</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="c1">#SBATCH --time 1440</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="c1">#SBATCH --ntasks 4</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="c1">#SBATCH --mem-per-cpu 2</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="nv">FS_LICENSE</span><span class="o">=</span><span class="si">${</span><span class="nv">HOME</span><span class="si">}</span>/license.txt
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="nv">SUBJECTS_DIR</span><span class="o">=</span>/rds/projects/b/bagshaap-eeg-fmri-hmm/Projects/Visual_Response_Variability/fs_outputs
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>apptainer<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>--env<span class="w"> </span><span class="nv">FS_LICENSE</span><span class="o">=</span><span class="si">${</span><span class="nv">FS_LICENSE</span><span class="si">}</span><span class="w"> </span>--env<span class="w"> </span><span class="nv">SUBJECTS_DIR</span><span class="o">=</span><span class="si">${</span><span class="nv">SUBJECTS_DIR</span><span class="si">}</span><span class="w"> </span><span class="se">\</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>freesurfer.sif<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>recon-all<span class="w"> </span>-s<span class="w"> </span>sub-01<span class="w"> </span>-i<span class="w"> </span>/rds/projects/b/bagshaap-eeg-fmri-hmm/T1_vol_v1_5.nii.gz<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>-log<span class="w"> </span>logfile<span class="w"> </span><span class="se">\ </span>
+</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>-all<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>-parallel<span class="w"> </span>-openmp<span class="w"> </span><span class="m">4</span>
 </span></code></pre></div>
-<p>We could visualise this as</p>
-<div class="language-shell highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>&lt;apptainer<span class="w"> </span>call&gt;<span class="w"> </span>&lt;apptainer<span class="w"> </span>command&gt;<span class="w"> </span>&lt;container<span class="w"> </span>image&gt;<span class="w"> </span>&lt;user<span class="w"> </span>command&gt;
-</span></code></pre></div>
-<p>where</p>
-<ul>
-<li><code>&lt;apptainer call&gt;</code> is simply <code>apptainer</code>. This specifies that we're using apptainer.</li>
-<li><code>&lt;apptainer command&gt;</code> is <code>exec</code>. This tells apptainer that we want to run a command.</li>
-<li><code>&lt;container image&gt;</code> is <code>fMRIPrep.sif</code>. This should point to an existing <code>.sif</code> file containing our container.</li>
-<li><code>&lt;user command&gt;</code> is <code>fslroi --help</code>. This is the command we actually want to run and the part that we'll most frequently be changing.</li>
-</ul>
-<p>So, to run a more complex command we'd simply need to update our <code>&lt;user command&gt;</code> to the function that we need to compute. You'll need to be sure that the appropriate command is included in the container with all its dependencies. The command can point to files and directories within RDS as usual. You can combine array jobs and container commands to run many parallel analyses all within equivalent containers.</p>
 
 
 
