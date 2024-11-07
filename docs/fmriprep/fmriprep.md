@@ -44,10 +44,10 @@ Descriptions of the variables and arguments:
 | `--nprocs`                  | Number of CPU cores to use for processing.                           |
 | `--mem`                     | Amount of memory available in GB.                                    |
 
-
 These arguments represent only a selection of the available options. A complete list of arguments can be found [here](link), allowing you to fully customise the preprocessing pipeline to your specific needs.
 
 ## Running fMRIPrep Across all Subjects
+
 It is also possible to run all subjects within a BIDS directory by using the following modified script:
 
 ``` bash
@@ -60,7 +60,6 @@ It is also possible to run all subjects within a BIDS directory by using the fol
 #SBATCH --mem 18G
 #SBATCH --array=0-20 # Number of subjects in the BIDS directory.
 
-
 SUBJECTS=($(find camcan_bids -maxdepth 1 -type d -name 'sub-*' | sort | xargs -n 1 basename))
 SUBJECT_ID=${SUBJECTS[$SLURM_ARRAY_TASK_ID]}
 bids_directory=camcan_bids/
@@ -68,4 +67,5 @@ output_directory=camcan_fmriprep/
 
 apptainer run fmriprep_24_1_1.sif ${bids_directory} ${output_directory} participant -w work/ --participant-label ${SUBJECT_ID} --fs-license-file ~/license.txt 
 ```
+
 The number at the end fo the "#SBATCH --array=0-20" should be replaced with the number of subjects within the BIDS directory.
