@@ -22,7 +22,7 @@ In order to run fMRIPrep, your data must first be organised according the brain 
 bids_directory=camcan_bids/
 output_directory=camcan_fmriprep/
 
-apptainer run fmriprep_24_1_1.sif ${bids_directory} ${output_directory} participant -w work/ --participant-label ${SUBJECT_ID} --fs-license-file ~/license.txt 
+apptainer run fmriprep_24_1_1.sif ${bids_directory} ${output_directory} participant -w work/ --participant-label 01 --fs-license-file ~/license.txt 
 ```
 
 This script can then be submitted using the following command:
