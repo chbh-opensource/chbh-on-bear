@@ -39,5 +39,6 @@ nav:
     - EEGLab: matlab/eeglab.md
   - FSL: fsl/fsl.md
   - FreeSurfer: freesurfer/freesurfer.md
+  - fMRIPrep: fmriprep/fmriprep.md
   - Containers: containers/containers.md
   - FAQs: faqs.md
