@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://ajquinn.github.io/chbh-on-bear/matlab/spm/">
+        <link rel="canonical" href="https://ajquinn.github.io/chbh-on-bear/fmriprep/fmriprep/">
       
       
-        <link rel="prev" href="../fieldtrip/">
+        <link rel="prev" href="../../freesurfer/freesurfer/">
       
       
-        <link rel="next" href="../eeglab/">
+        <link rel="next" href="../../containers/containers/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>SPM - CHBH-on-BEAR</title>
+        <title>fMRIPrep - CHBH-on-BEAR</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#spm12" class="md-skip">
+        <a href="#fmriprep" class="md-skip">
           Skip to content
         </a>
       
@@ -99,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              SPM
+              fMRIPrep
             
           </span>
         </div>
@@ -418,19 +418,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
@@ -444,7 +442,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             MatLab
@@ -458,7 +456,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../matlab/" class="md-nav__link">
+      <a href="../../matlab/matlab/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -479,7 +477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../fieldtrip/" class="md-nav__link">
+      <a href="../../matlab/fieldtrip/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -497,30 +495,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    SPM
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../matlab/spm/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -529,35 +507,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#running-first-level-analyses-with-parfor" class="md-nav__link">
-    <span class="md-ellipsis">
-      Running first-level analyses with parfor
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -570,7 +519,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../eeglab/" class="md-nav__link">
+      <a href="../../matlab/eeglab/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -635,10 +584,30 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../fmriprep/fmriprep/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    fMRIPrep
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -647,6 +616,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#downloading-fmriprep" class="md-nav__link">
+    <span class="md-ellipsis">
+      Downloading fMRIPrep
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-fmriprep" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running fMRIPrep
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-fmriprep-across-all-subjects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running fMRIPrep Across all Subjects
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -718,9 +734,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#running-first-level-analyses-with-parfor" class="md-nav__link">
+  <a href="#downloading-fmriprep" class="md-nav__link">
     <span class="md-ellipsis">
-      Running first-level analyses with parfor
+      Downloading fMRIPrep
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-fmriprep" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running fMRIPrep
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-fmriprep-across-all-subjects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running fMRIPrep Across all Subjects
     </span>
   </a>
   
@@ -744,66 +778,91 @@
   
 
 
-<h1 id="spm12">SPM12</h1>
-<p>More coming soon! please email andrew or raise a PR on github if you'd like to contribute to this page</p>
-<h2 id="running-first-level-analyses-with-parfor">Running first-level analyses with parfor</h2>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>Example contributed by Arkady Konovalov</p>
-</div>
-<p>Simple parallelisation of a for-loop can be performed using <a href="https://www.mathworks.com/help/matlab/ref/parfor.html">parfor</a>. This functionality is provided by MatLab and enables faster processing of <code>for</code> loops simply by changing the syntax at the start to say <code>parfor</code> rather than <code>for</code>.</p>
-<p>Here is an example function which makes use of <code>parfor</code> whilst computing GLMs using SPM.</p>
-<div class="language-matlab highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">function</span><span class="w"> </span><span class="nf">glm_level1</span><span class="p">(</span>model<span class="p">)</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="c">% This function takes a model structure as input and performs first-level</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="c">% estimations in a General Linear Model (GLM) analysis for a set of subjects.</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="n">subjects</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">model</span><span class="p">.</span><span class="n">Subj</span><span class="p">;</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="c">% FIRST LEVEL (individual) estimations</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="c">% Get the number of subjects to be processed.</span>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="n">N</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">size</span><span class="p">(</span><span class="n">subjects</span><span class="p">,</span><span class="mi">2</span><span class="p">);</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="c">% Iterate over each subject in &quot;subjects&quot; using parallel processing</span>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="k">parfor</span><span class="w"> </span><span class="nb">i</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">1</span><span class="p">:</span><span class="n">N</span>
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">        </span><span class="c">% Get the current subject ID from &quot;subjects&quot;</span>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">        </span><span class="n">id</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">subjects</span><span class="p">(</span><span class="nb">i</span><span class="p">);</span>
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">        </span><span class="c">% Get the corresponding BIDS (Brain Imaging Data Structure) ID and</span>
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">        </span><span class="c">% session information for the current subject.</span>
-</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">        </span><span class="n">BIDS_id</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">model</span><span class="p">.</span><span class="n">ids</span><span class="p">{</span><span class="n">id</span><span class="p">};</span>
-</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">        </span><span class="n">BIDS_sess</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">model</span><span class="p">.</span><span class="n">sess</span><span class="p">{</span><span class="n">id</span><span class="p">};</span>
-</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>
-</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="w">        </span><span class="c">% Construct the path to the GLM folder for the current subject.</span>
-</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">        </span><span class="nb">path</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="n">model</span><span class="p">.</span><span class="n">glmfolder</span><span class="w"> </span><span class="n">BIDS_id</span><span class="p">];</span>
-</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>
-</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">        </span><span class="c">% Construct the path to the SPM.mat file for the current subject.</span>
-</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">        </span><span class="n">modelfile</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="nb">path</span><span class="w"> </span><span class="s">&#39;/SPM.mat&#39;</span><span class="p">];</span>
-</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>
-</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">        </span><span class="c">% Delete the existing SPM.mat file for the current subject (clean</span>
-</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">        </span><span class="c">% up previously done models)</span>
-</span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">        </span><span class="nb">delete</span><span class="p">(</span><span class="n">modelfile</span><span class="p">);</span>
-</span><span id="__span-0-31"><a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>
-</span><span id="__span-0-32"><a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="w">        </span><span class="c">% Create a job structure for the current subject.</span>
-</span><span id="__span-0-33"><a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="w">        </span><span class="n">job</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">analysis_job_func</span><span class="p">(</span><span class="n">BIDS_id</span><span class="p">,</span><span class="w"> </span><span class="n">BIDS_sess</span><span class="p">,</span><span class="w"> </span><span class="n">model</span><span class="p">);</span>
-</span><span id="__span-0-34"><a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a>
-</span><span id="__span-0-35"><a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a><span class="w">        </span><span class="c">% Create an empty cell array to be used as inputs for the &quot;spm_jobman&quot; function.</span>
-</span><span id="__span-0-36"><a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a><span class="w">        </span><span class="n">inputs</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">cell</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">);</span>
-</span><span id="__span-0-37"><a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a>
-</span><span id="__span-0-38"><a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a><span class="w">        </span><span class="c">% Set the SPM defaults to &#39;FMRI&#39;.</span>
-</span><span id="__span-0-39"><a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a><span class="w">        </span><span class="n">spm</span><span class="p">(</span><span class="s">&#39;defaults&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;FMRI&#39;</span><span class="p">);</span>
-</span><span id="__span-0-40"><a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a>
-</span><span id="__span-0-41"><a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a><span class="w">        </span><span class="c">% Run the current job using the &quot;spm_jobman&quot; function.</span>
-</span><span id="__span-0-42"><a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a><span class="w">        </span><span class="n">spm_jobman</span><span class="p">(</span><span class="s">&#39;run&#39;</span><span class="p">,</span><span class="w"> </span><span class="n">job</span><span class="p">,</span><span class="w"> </span><span class="n">inputs</span><span class="p">{:});</span>
-</span><span id="__span-0-43"><a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a>
-</span><span id="__span-0-44"><a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a><span class="k">end</span>
-</span><span id="__span-0-45"><a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a>
-</span><span id="__span-0-46"><a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a><span class="k">end</span>
+<h1 id="fmriprep">fMRIPrep</h1>
+<p><a href="https://fmriprep.org/">fMRIPrep</a> is an open-source tool for preprocessing functional MRI (fMRI) data. It automates the early stages of MRI data preprocessing, including motion correction, susceptibility distortion correction, and slice-timing correction, providing a standardised and reproducible analysis pipeline. Unlike other preprocessing pipelines, fMRIPrep utilizes functions from many popular neuroimaging tools, including FSL, FreeSurfer, and AFNI, ensuring that each step in the pipeline uses the most reliable and validated methods available, resulting in higher-quality outputs.</p>
+<h2 id="downloading-fmriprep">Downloading fMRIPrep</h2>
+<p>The simplest way of running fMRIPrep is using a container. Instructions for downloading the fMRIPrep container are detailed <a href="../../containers/containers/">here</a>.</p>
+<h2 id="running-fmriprep">Running fMRIPrep</h2>
+<p>In order to run fMRIPrep, your data must first be organised according the brain imaging data structure <a href="https://bids.neuroimaging.io/">BIDS</a> guidlines. Once organised into BIDS, the default fMRIPrep can be run using the following script:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="ch">#!/bin/bash</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="c1">#SBATCH --account example-project</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="c1">#SBATCH --qos bbdefault</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="c1">#SBATCH --time 1440</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="c1">#SBATCH --ntasks 4</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="c1">#SBATCH --mem 18G</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="nv">bids_directory</span><span class="o">=</span>camcan_bids/
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="nv">output_directory</span><span class="o">=</span>camcan_fmriprep/
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>apptainer<span class="w"> </span>run<span class="w"> </span>fmriprep_24_1_1.sif<span class="w"> </span><span class="si">${</span><span class="nv">bids_directory</span><span class="si">}</span><span class="w"> </span><span class="si">${</span><span class="nv">output_directory</span><span class="si">}</span><span class="w"> </span>participant<span class="w"> </span>-w<span class="w"> </span>work/<span class="w"> </span>--participant-label<span class="w"> </span><span class="m">01</span><span class="w"> </span>--fs-license-file<span class="w"> </span>~/license.txt<span class="w"> </span>
 </span></code></pre></div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Make sure you specify the appropriate number of cores when starting the MatLab GUI App, you may not notice a substantial speed-up if you run MatLab using the default of 4 cores. Do try to avoid asking for substantially more than you might need however - BlueBEAR is a shared resource.</p>
-</div>
+<p>This script can then be submitted using the following command:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>sbatch<span class="w"> </span>fmriprep.sh
+</span></code></pre></div>
+<p>Descriptions of the variables and arguments:</p>
+<table>
+<thead>
+<tr>
+<th>Variables / Arguments</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>bids_dir</code></td>
+<td>First positional argument. Path to the BIDS-formatted dataset.</td>
+</tr>
+<tr>
+<td><code>analysis_level</code></td>
+<td>Second positional argument. Should be set to "participant" (required).</td>
+</tr>
+<tr>
+<td><code>output_dir</code></td>
+<td>Third positional argument. Sets the output directory.</td>
+</tr>
+<tr>
+<td><code>-w</code></td>
+<td>Specifies the working directory to store intermediate files during preprocessing.</td>
+</tr>
+<tr>
+<td><code>--participant-label</code></td>
+<td>Specifies the BIDS subject ID, enabling fMRIPrep to run on a single subject or a subset of subjects.</td>
+</tr>
+<tr>
+<td><code>--fs-license-file</code></td>
+<td>Path to the FreeSurfer license file (see <a href="../freesurfer/freesurfer/">FreeSurfer</a>). By default, fMRIPrep uses FreeSurfer for anatomical co-registration.</td>
+</tr>
+<tr>
+<td><code>--nprocs</code></td>
+<td>Number of CPU cores to use for processing.</td>
+</tr>
+<tr>
+<td><code>--mem</code></td>
+<td>Amount of memory available in GB.</td>
+</tr>
+</tbody>
+</table>
+<p>These arguments represent only a selection of the available options. A complete list of arguments can be found <a href="link">here</a>, allowing you to fully customise the preprocessing pipeline to your specific needs.</p>
+<h2 id="running-fmriprep-across-all-subjects">Running fMRIPrep Across all Subjects</h2>
+<p>It is also possible to run all subjects within a BIDS directory by using the following modified script:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="ch">#!/bin/bash</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="c1">#SBATCH --account example-project</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c1">#SBATCH --qos bbdefault</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="c1">#SBATCH --time 1440</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="c1">#SBATCH --ntasks 4</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="c1">#SBATCH --mem 18G</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="c1">#SBATCH --array=0-20 # Number of subjects in the BIDS directory.</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="nv">SUBJECTS</span><span class="o">=(</span><span class="k">$(</span>find<span class="w"> </span>camcan_bids<span class="w"> </span>-maxdepth<span class="w"> </span><span class="m">1</span><span class="w"> </span>-type<span class="w"> </span>d<span class="w"> </span>-name<span class="w"> </span><span class="s1">&#39;sub-*&#39;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sort<span class="w"> </span><span class="p">|</span><span class="w"> </span>xargs<span class="w"> </span>-n<span class="w"> </span><span class="m">1</span><span class="w"> </span>basename<span class="k">)</span><span class="o">)</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="nv">SUBJECT_ID</span><span class="o">=</span><span class="si">${</span><span class="nv">SUBJECTS</span><span class="p">[</span><span class="nv">$SLURM_ARRAY_TASK_ID</span><span class="p">]</span><span class="si">}</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="nv">bids_directory</span><span class="o">=</span>camcan_bids/
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="nv">output_directory</span><span class="o">=</span>camcan_fmriprep/
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>apptainer<span class="w"> </span>run<span class="w"> </span>fmriprep_24_1_1.sif<span class="w"> </span><span class="si">${</span><span class="nv">bids_directory</span><span class="si">}</span><span class="w"> </span><span class="si">${</span><span class="nv">output_directory</span><span class="si">}</span><span class="w"> </span>participant<span class="w"> </span>-w<span class="w"> </span>work/<span class="w"> </span>--participant-label<span class="w"> </span><span class="si">${</span><span class="nv">SUBJECT_ID</span><span class="si">}</span><span class="w"> </span>--fs-license-file<span class="w"> </span>~/license.txt<span class="w"> </span>
+</span></code></pre></div>
+<p>The number at the end fo the "#SBATCH --array=0-20" should be replaced with the number of subjects within the BIDS directory.</p>
 
 
 
