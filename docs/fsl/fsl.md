@@ -129,3 +129,41 @@ apptainer exec FSL.sif  fsl_anat -i subject1.nii.gz -o subject1
 ```
 
 This can be combined with array jobs from the example above to run many container-based analyses together in parallel.
+
+
+Sometimes we would like to submit an array job, but our file names are not in an order from 1 onwards. 
+For example, this job will read the first 200 subjectIDs from a csv file called "demographics_goodPreproc_subjects.csv".
+
+
+```slurm
+#!/bin/bash
+
+#SBATCH --account quinna-camcan
+#SBATCH --qos bbdefault
+#SBATCH --time 90
+#SBATCH --nodes 1 # ensure the job runs on a single node
+#SBATCH --ntasks 5 # this will give you circa 40G RAM and will ensure faster conversion to the .sif format
+#SBATCH --array=1-200
+
+module purge
+module load bluebear
+
+set -e
+
+# Define the location of the file
+export base_dir="/rds/projects/quinna-camcan"
+info_dir="${base_dir}/data_information"
+good_sub_sheet="${info_dir}/demographics_goodPreproc_subjects.csv"
+output_dir="${base_dir}/derivatives/subStr_segmented"
+
+# Read good subject IDs
+subjectID=$(cat $good_sub_sheet | tail -n +2 | cut -d',' -f1 | sed -n "${SLURM_ARRAY_TASK_ID}p")
+
+T1w_name="sub-${subjectID}_T1w.nii.gz"
+T1w_fpath="${base_dir}/mri/${T1w_name}"
+output_fpath="${output_dir}/sub-${subjectID}"
+
+# Run on container
+apptainer exec FSL.sif fsl_anat -i $T1w_fpath -o $output_fpath --clobber
+```
+
