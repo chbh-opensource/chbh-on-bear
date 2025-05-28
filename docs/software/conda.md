@@ -1,11 +1,11 @@
-# Use Conda to Manage Your Own Python Environments
+# Using Conda to manage Python environments
 
 Managing software dependencies can be one of the most annoying things in scientific computing,
 especially when dealing with complex systems with multiple packages and libraries.
-This is where conda comes in - a package management system that simplifies the task of installing, configuring,
-and managing software packages and their dependencies.
 
-BEAR system does offer a default Python environment, but it must be loaded beforehand,
+<b>This is where `conda` comes in - a package management system that simplifies the task of installing, configuring, and managing software packages and their dependencies.</b>
+
+BEAR systems offer a default Python environment, but it must be loaded beforehand,
 and it does not allow you to install additional packages that are not already provided.
 After creating your own Conda environment, you don't have to load them every time.
 Submitting cluster jobs becomes straightforward with simple scripts, as demonstrated in this example:
@@ -17,16 +17,17 @@ set -e
 python your_script.py
 ```
 
-!!! note BEAR [do not currently recommend using conda for installing Python packages](https://docs.bear.bham.ac.uk/bluebear/software/self_installs_python/#tips). This is due to possible performance issues when installing packages with conda. BEAR recommend that you get in touch with them prior via an IT-ticket to performing intensive analyses using conda environments.
+!!! note
+    BEAR [do not currently recommend using conda for installing Python packages](https://docs.bear.bham.ac.uk/bluebear/software/self_installs_python/#tips). This is due to possible performance issues when installing packages with conda. BEAR recommend that you get in touch with them prior via an IT-ticket to performing intensive analyses using `conda` environments.
 
 If this seems interesting to you, or you need to use a custom environment, let's get started!
 
-## What is conda
+## What is `conda`
 
 Conda is a platform-agnostic package management system that can be used to install and manage software packages and their dependencies.
 It is designed to work with multiple programming languages, including Python, R, and others.
 
-Advantages of using conda:
+Advantages of using `conda`:
 
 * Build your own Python env when you don't have `sudo` access
 * Conda simplifies managing software packages and dependencies
@@ -34,7 +35,7 @@ Advantages of using conda:
 * Conda facilitates switching between different package versions
 * Conda provides access to a vast range of pre-built packages and libraries.
 
-## How to install conda
+## How to install `conda`
 
 First, go to your home directory and type:
 
@@ -61,6 +62,7 @@ If you accepted the default setting when installing, the `base` environment is t
 **Every time you logged in to BEAR this environment will be loaded automatically.**
 
 You can install any packages you need in the `base` environment with `pip` or `conda` command.
+
 For example, to install `matplotlib` and `scipy`:
 
 ```bash
@@ -69,7 +71,7 @@ conda install -c conda-forge matplotlib=3.5.2 scipy
 pip install matplotlib==3.5.2 scipy
 ```
 
-If you have the requirements.txt from the projects you are working with:
+If you have the `requirements.txt` from the projects you are working with:
 
 ```bash
 pip install -r requirements.txt
@@ -95,11 +97,10 @@ pip list
 (base) [<usr>@bb-pg-login04 ~]$ ipython # to start a ipython shell
 ```
 
-## Crate Virtual Environments with Conda
+## Create virtual environments with `conda`
 
 In most cases, the `base` environment should be enough.
-But if you are working on multiple projects, especially when you have deep learning projects or developing a toolbox
-that might be sensitive to specific environmental conditions, it is important to take measures to ensure consistency and prevent any problems that could arise from changes in the environment.
+But if you are working on multiple projects, especially when you have deep learning projects or developing a toolbox that might be sensitive to specific environmental conditions, it is important to take measures to ensure consistency and prevent any problems that could arise from changes in the environment.
 
 Type the following command to create and enter a new environment:
 
@@ -120,7 +121,7 @@ Type the following command to create and enter a new environment:
 
 ## Run your job on the cluster
 
-As I have indicated before, your bash script is very simple:
+As indicated before, your `bash` script is very simple:
 
 ```bash
 #!/bin/bash

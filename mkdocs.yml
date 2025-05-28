@@ -20,25 +20,25 @@ theme:
   name: material
   features:
     - content.code.copy
-  logo: CHBH_logo.jpg
+  logo: images/CHBH_logo.jpg
+  favicon: images/CHBH_logo.jpg
 
 nav:
   - Home: index.md
   - Getting Started: getting_started.md
-  - Software Index: neuroimaging_software.md
-  - R: R/R.md
-  - Python:
-    - Python: python/python.md
-    - MNE-Python : python/mne.md
-    - OSL: python/osl.md
-    - Conda: python/conda.md
-  - MatLab:
-    - MatLab: matlab/matlab.md
-    - FieldTrip: matlab/fieldtrip.md
-    - SPM: matlab/spm.md
-    - EEGLab: matlab/eeglab.md
-  - FSL: fsl/fsl.md
-  - FreeSurfer: freesurfer/freesurfer.md
-  - fMRIPrep: fmriprep/fmriprep.md
-  - Containers: containers/containers.md
+  - EEG:
+    - FieldTrip: eeg/fieldtrip.md
+  - MEG:
+    - MNE: meg/mne.md
+  - MRI:
+    - fMRIPrep: mri/fmriprep.md
+    - FreeSurfer: mri/freesurfer.md
+    - FSL: mri/fsl.md
+    - SPM: mri/spm.md
+  - Software:
+    - Conda: software/conda.md
+    - Containers: software/containers.md
+    - MATLAB: software/matlab.md
+    - Python: software/python.md
+    - R: software/R.md
   - FAQs: faqs.md

@@ -1,6 +1,6 @@
 # SPM12
 
-More coming soon! please email andrew or raise a PR on github if you'd like to contribute to this page
+More coming soon! Please email Andrew or raise a pull request on GitHub if you'd like to contribute to this page.
 
 ## Running first-level analyses with parfor
 
@@ -62,4 +62,4 @@ end
 
 !!! note
 
-    Make sure you specify the appropriate number of cores when starting the MatLab GUI App, you may not notice a substantial speed-up if you run MatLab using the default of 4 cores. Do try to avoid asking for substantially more than you might need however - BlueBEAR is a shared resource.
+    Make sure you specify the appropriate number of cores when starting the MATLAB GUI App, you may not notice a substantial speed-up if you run MATLAB using the default of 4 cores. Do try to avoid asking for substantially more than you might need however - BlueBEAR is a shared resource!

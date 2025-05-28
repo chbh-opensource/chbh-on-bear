@@ -1,6 +1,6 @@
 # FSL
 
-[FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki) is a comprehensive library of analysis tools for FMRI, MRI and DTI brain imaging data.
+<b>[FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki) is a comprehensive library of analysis tools for FMRI, MRI and DTI brain imaging data.</b>
 
 ## FSL Modules
 
@@ -15,7 +15,7 @@ module load bluebear
 module load FSL/6.0.5.1-foss-2021a
 ```
 
-We can then use FSL command line functions as normal.
+We can then use FSL command line functions as normal:
 
 ```shell
 fsl_anat --help
@@ -27,9 +27,9 @@ or open the FSL GUI:
 fsl
 ```
 
-## FSLEyes on Bear Portal GUI
+## FSLEyes on BEAR Portal GUI
 
-[FSLEyes](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSLeyes) is the MRI volume visualisation tool provided and maintained by the FSL team. This runs well in Bear GUI and can be added to the local environment by adding the following module. (See the [FSLEyes page on Bear Apps](https://bear-apps.bham.ac.uk/applications/FSLeyes/) for all available versions). 
+[FSLEyes](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSLeyes) is the MRI volume visualisation tool provided and maintained by the FSL team. This runs well in BEAR GUI and can be added to the local environment by adding the following module. (See the [FSLEyes page on BEAR Apps](https://bear-apps.bham.ac.uk/applications/FSLeyes/) for all available versions). 
 
 ```shell
 module load FSLeyes/1.3.3-foss-2021a
@@ -66,7 +66,7 @@ set -e
 bet subject1.nii.gz subject1_brain.nii.gz
 ```
 
-If we have many datafiles to run BET on, we can extend our script into an array job. This is slurm script that actually creates many jobs that can be run in parallel. Here we add the `#SBATCH --array=1-48` line to our script to tell it that we want to parallelise our script across the range 1 to 48. This creates 48 separate jobs each with a value between 1 and 48 stored in the variable `${SLURM_ARRAY_TASK_ID}`. Our `BET` call changes the subject number with this variable for each job.
+If we have many datafiles to run BET on, we can extend our script into an array job. This is a `slurm` script that actually creates many jobs that can be run in parallel. Here we add the `#SBATCH --array=1-48` line to our script to tell it that we want to parallelise our script across the range 1 to 48. This creates 48 separate jobs each with a value between 1 and 48 stored in the variable `${SLURM_ARRAY_TASK_ID}`. Our `BET` call changes the subject number with this variable for each job.
 
 ```slurm
 #!/bin/bash

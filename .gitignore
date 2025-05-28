@@ -1,3 +1,6 @@
 # Ignore the contents of virtual environment directories
 .venv/
 venv/
+
+.DS_Store
+site*

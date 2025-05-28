@@ -1,17 +1,19 @@
 # Python
 
-[Python](https://www.python.org/) is a interactive programming language known for being flexible and (relatively) simple to use. A vast range of scientific applications have be built in and around Python. Some of the most common are:
+<b>[Python](https://www.python.org/) is a interactive programming language known for being flexible and (relatively) simple to use. A vast range of scientific applications have be built in and around Python.</b>
+
+Some of the most common are:
 
 - [numpy](https://numpy.org/): fundamental array computing in python
 - [scipy](https://scipy.org/): fundamental algorithms in python
 - [pandas](https://pandas.pydata.org/): manipulation and analysis of data tables
-- [scikit-learn](https://scikit-learn.org/stable/index.html): Efficient tools for machine learning
+- [scikit-learn](https://scikit-learn.org/stable/index.html): efficient tools for machine learning
 
-and many, many more. Many python packages are distributed on [PyPI.org](https://pypi.org/)
+and many, many more. Many Python packages are distributed on [PyPI.org](https://pypi.org/)
 
-## Python Versions on Bear
+## Python versions on BEAR
 
-Python versions up to 3.10 are supported as [loadable modules on BEAR Apps](https://bear-apps.bham.ac.uk/applications/Python/). These can be loaded into a terminal session ready for use
+Python versions up to 3.10 are supported as [loadable modules on BEAR Apps](https://bear-apps.bham.ac.uk/applications/Python/). These can be loaded into a terminal session ready for use:
 
 ```shell
 module load bear-apps/2022a
@@ -28,16 +30,16 @@ module load scikit-learn/1.1.2-foss-2022a
 ```
 
 !!! note
-    Modules will load any relevant dependencies at the same time, so loading `scikit-learn` will also load the relevant python version into the session. It is best to trust the dependencies built into the `module load` system and only define the minimum necessary modules in your session.
+    Modules will load any relevant dependencies at the same time, so loading `scikit-learn` will also load the relevant Python version into the session. It is best to trust the dependencies built into the `module load` system and only define the minimum necessary modules in your session.
 
-Or we can load a bundle of applications. The `Scipy-bundle` includes a bunch of packages including numpy, scipy and pandas.
+Or we can load a bundle of applications. The `SciPy-bundle` includes a bunch of packages including `numpy`, `scipy` and `pandas`.
 
 ```shell
 module load bear-apps/2022a
 module load SciPy-bundle/2022.05-foss-2022a
 ```
 
-iPython is a powerful python console that you can use for interactive sessions in the terminal.
+[iPython](https://ipython.org/) is a powerful Python console that you can use for interactive sessions in the terminal.
 
 ```shell
 module load bear-apps/2022a
@@ -46,13 +48,13 @@ module load matplotlib/3.5.2-foss-2022a
 module load IPython/8.5.0-GCCcore-11.3.0
 ```
 
-You can then start an iPython session from a terminal;
+You can then start an iPython session from a terminal:
 
 ```shell
 ipython --pylab=tk
 ```
 
-and start running some python code using your loaded libraries
+and start running some Python code using your loaded libraries:
 
 ```python
 import numpy as np
@@ -66,7 +68,7 @@ plt.plot(x, y, 'o')
 plt.show()
 ```
 
-you can also save some python code into a file and run it on the command line (this is very useful for running jobs on the cluster later...). If we save the code above into a file called `my_plot.py` - we can run it in the terminal using
+You can also save some Python code into a file and run it on the command line (this is very useful for running jobs on the cluster later...). If we save the code above into a file called `my_plot.py` - we can run it in the terminal using:
 
 ```shell
 python my_plot.py
@@ -74,7 +76,7 @@ python my_plot.py
 
 ## Submitting Python jobs to the cluster
 
-We need to prepare two things to run python jobs on the BlueBEAR cluster: we need an executable python script to run the analysis and a bash script to prepare an environment and actually run our code.
+We need to prepare two things to run Python jobs on the BlueBEAR cluster: we need an executable Python script to run the analysis and a bash script to prepare an environment and actually run our code.
 
 Let's make a simple example. The following script creates and saves out a simple scatter plot of some random data.
 
@@ -96,7 +98,7 @@ plt.grid(True)
 plt.savefig('my_cluster_figure.png')
 ```
 
-We can save this script as `quick_python_plot.py`. Next, we need a bash/slurm script to submit and run our Python code.
+We can save this script as `quick_python_plot.py`. Next, we need a `bash/slurm` script to submit and run our Python code.
 
 ```slurm
 #!/bin/bash
@@ -120,19 +122,19 @@ sbatch submit_quick_python_plot.sh
 
 You can monitor the progress of your job in the [active jobs tracker](https://portal.bear.bham.ac.uk/pun/sys/activejobs) on BEAR portal. Once it has finished you should find a nice figure saved in your directory.
 
-![A simple scatter plot](my_cluster_figure.png)
+![A simple scatter plot](../images/python/my_cluster_figure.png)
 
 ## JupyterLab
 
-Interactive python notebooks are available to run as a [JupyterLab GUI App](https://docs.bear.bham.ac.uk/portal/jupyterlab/) through the Bear Portal. The pre-installed python modules can be [loaded as modules](https://docs.bear.bham.ac.uk/portal/jupyterlab/#loading-modules) in the notebook session.
+Interactive python notebooks are available to run as a [JupyterLab GUI App](https://docs.bear.bham.ac.uk/portal/jupyterlab/) through the BEAR Portal. The pre-installed Python modules can be [loaded as modules](https://docs.bear.bham.ac.uk/portal/jupyterlab/#loading-modules) in the notebook session.
 
-Only the pre-installed modules available in [Bear Apps](https://bear-apps.bham.ac.uk/index) are installable in the JupyterLab GUI App.
+Only the pre-installed modules available in [BEAR Apps](https://bear-apps.bham.ac.uk/index) are installable in the JupyterLab GUI App.
 
-## Virtual Environments
+## Virtual environments
 
-More involved analyses may required dependecies or package versions that aren't available on BEAR Apps. The next optionn for these analysis is to use [virtual environments](https://docs.bear.bham.ac.uk/bluebear/software/self_installs_python/) as described on the BEAR technical docs.
+More involved analyses may required dependencies or package versions that aren't available on BEAR Apps. The next optionn for these analysis is to use [virtual environments](https://docs.bear.bham.ac.uk/bluebear/software/self_installs_python/) as described on the BEAR Technical Docs.
 
-The following bash script (adapted from the main docs) loads the standard BEAR modules for MNE-Python, creates a virtual environment and then installs the EMD package with pip.
+The following `bash` script (adapted from the main docs) loads the standard BEAR modules for MNE-Python, creates a virtual environment and then installs the EMD package with `pip`:
 
 ```shell
 #!/bin/bash
@@ -208,7 +210,7 @@ python emd_example.py
 
 Note the additional `SBATCH` options at the start and the `python emd_example.py` at the end. We can save this script as 'submit_emd_example.sh`.
 
-We'll need a python Let's use this as an example. We can save the following script as `emd_example.py` on RDS.
+We'll need a Python Let's use this as an example. We can save the following script as `emd_example.py` on RDS.
 
 ```python
 import matplotlib.pyplot as plt
@@ -241,4 +243,4 @@ sbatch submit_emd_example.sh
 
 You can monitor the progress of your job in the [active jobs tracker](https://portal.bear.bham.ac.uk/pun/sys/activejobs) on BEAR portal. Once it has finished you should find a nice new figure saved in your working directory.
 
-![An EMD result](my-emd-example.png)
+![An EMD result](../images/python/my-emd-example.png)

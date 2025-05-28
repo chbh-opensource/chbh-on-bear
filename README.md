@@ -92,3 +92,38 @@ INFO     -  [17:52:07] Serving on http://127.0.0.1:8000/
 ```
 
 This preview of the rendered documentation will automatically refresh when the documentation sources are updated!
+
+## Making and committing changes
+
+Once you have made your changes locally, get a summary by running:
+
+`git status
+
+Then check if you have the CHBH-on-BEAR `main` branch as a remote:
+
+`git remote -v`
+
+Then, add your changes:
+
+`git add <file>` # if making commits separately
+'git add .' # if committing in one go
+
+commit them:
+
+`git commit -m "your changes here'`
+
+and push them:
+
+`git push origin main`
+
+However, this will only work if you have write access to the `main` branch. 
+
+If you do not, then you will need to create a new branch, and then push the changes to the branch:
+
+```
+# after committing the changes
+git checkout -b <your-branch-name>
+git push origin <your-branch-name>
+```
+
+And then on GitHub, submit a pull request to the `main` branch!
