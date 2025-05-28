@@ -1,7 +1,7 @@
 # CHBH-on-BEAR Documentation
 <!-- markdownlint-disable -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- markdownlint-restore -->
 
@@ -26,8 +26,9 @@ Many thanks to our contributors - please open an issue if you're missing from th
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/dagmarfraser"><img src="https://avatars.githubusercontent.com/u/8875773?v=4?s=100" width="100px;" alt="Dagmar S Fraser"/><br /><sub><b>Dagmar S Fraser</b></sub></a><br /><a href="#content-dagmarfraser" title="Content">🖋</a></td>
     </tr>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="http://blog.jzni132134.eu.org"><img src="https://avatars.githubusercontent.com/u/64966689?v=4?s=100" width="100px;" alt="Jianzhang Ni"/><br /><sub><b>Jianzhang Ni</b></sub></a><br /><a href="#content-Wetiqe" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Wetiqe"><img src="https://avatars.githubusercontent.com/u/64966689?v=4?s=100" width="100px;" alt="Jianzhang Ni"/><br /><sub><b>Jianzhang Ni</b></sub></a><br /><a href="#content-Wetiqe" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/katduecker"><img src="https://avatars.githubusercontent.com/u/26790195?v=4?s=100" width="100px;" alt="Katharina"/><br /><sub><b>Katharina</b></sub></a><br /><a href="#content-katduecker" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/TommyTeapot"><img src="https://avatars.githubusercontent.com/u/189376666?v=4?s=100" width="100px;" alt="Tommy Roberts"/><br /><sub><b>Tommy Roberts</b></sub></a><br /><a href="#content-TommyTeapot" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
