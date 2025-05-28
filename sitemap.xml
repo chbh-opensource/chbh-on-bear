@@ -5,10 +5,6 @@
          <lastmod>2025-05-28</lastmod>
     </url>
     <url>
-         <loc>https://ajquinn.github.io/chbh-on-bear/bear/</loc>
-         <lastmod>2025-05-28</lastmod>
-    </url>
-    <url>
          <loc>https://ajquinn.github.io/chbh-on-bear/faqs/</loc>
          <lastmod>2025-05-28</lastmod>
     </url>
@@ -17,63 +13,47 @@
          <lastmod>2025-05-28</lastmod>
     </url>
     <url>
-         <loc>https://ajquinn.github.io/chbh-on-bear/home/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/eeg/fieldtrip/</loc>
          <lastmod>2025-05-28</lastmod>
     </url>
     <url>
-         <loc>https://ajquinn.github.io/chbh-on-bear/neuroimaging_software/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/meg/mne/</loc>
          <lastmod>2025-05-28</lastmod>
     </url>
     <url>
-         <loc>https://ajquinn.github.io/chbh-on-bear/R/R/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/mri/fmriprep/</loc>
          <lastmod>2025-05-28</lastmod>
     </url>
     <url>
-         <loc>https://ajquinn.github.io/chbh-on-bear/containers/containers/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/mri/freesurfer/</loc>
          <lastmod>2025-05-28</lastmod>
     </url>
     <url>
-         <loc>https://ajquinn.github.io/chbh-on-bear/fmriprep/fmriprep/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/mri/fsl/</loc>
          <lastmod>2025-05-28</lastmod>
     </url>
     <url>
-         <loc>https://ajquinn.github.io/chbh-on-bear/freesurfer/freesurfer/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/mri/spm/</loc>
          <lastmod>2025-05-28</lastmod>
     </url>
     <url>
-         <loc>https://ajquinn.github.io/chbh-on-bear/fsl/fsl/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/software/R/</loc>
          <lastmod>2025-05-28</lastmod>
     </url>
     <url>
-         <loc>https://ajquinn.github.io/chbh-on-bear/matlab/eeglab/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/software/conda/</loc>
          <lastmod>2025-05-28</lastmod>
     </url>
     <url>
-         <loc>https://ajquinn.github.io/chbh-on-bear/matlab/fieldtrip/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/software/containers/</loc>
          <lastmod>2025-05-28</lastmod>
     </url>
     <url>
-         <loc>https://ajquinn.github.io/chbh-on-bear/matlab/matlab/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/software/matlab/</loc>
          <lastmod>2025-05-28</lastmod>
     </url>
     <url>
-         <loc>https://ajquinn.github.io/chbh-on-bear/matlab/spm/</loc>
-         <lastmod>2025-05-28</lastmod>
-    </url>
-    <url>
-         <loc>https://ajquinn.github.io/chbh-on-bear/python/conda/</loc>
-         <lastmod>2025-05-28</lastmod>
-    </url>
-    <url>
-         <loc>https://ajquinn.github.io/chbh-on-bear/python/mne/</loc>
-         <lastmod>2025-05-28</lastmod>
-    </url>
-    <url>
-         <loc>https://ajquinn.github.io/chbh-on-bear/python/osl/</loc>
-         <lastmod>2025-05-28</lastmod>
-    </url>
-    <url>
-         <loc>https://ajquinn.github.io/chbh-on-bear/python/python/</loc>
+         <loc>https://ajquinn.github.io/chbh-on-bear/software/python/</loc>
          <lastmod>2025-05-28</lastmod>
     </url>
 </urlset>
