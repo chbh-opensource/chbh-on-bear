@@ -6,7 +6,7 @@ Here we provide a set of links, tips and tricks for getting started.
 
 ## Step 0: Linux
 
-Bear provide a [Introduction to Linux](https://www.birmingham.ac.uk/research/arc/bear/training/intro-linux#:~:text=In%20'BEAR%20Training'&text=We're%20now%20running%20a,working%20with%20the%20BlueBEAR%20service) guide. Many computing services on BEAR rely on linux. There are in-person workshops and online Canvas courses available on this page.
+Bear provide a [Introduction to Linux](https://www.birmingham.ac.uk/research/arc/bear/training/intro-linux) guide. Many computing services on bear rely on linux. There are in-person workshops and an online canvas courses available on this page.
 
 ## Step 1: BlueBEAR
 
