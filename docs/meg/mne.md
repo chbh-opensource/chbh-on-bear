@@ -1,21 +1,22 @@
 # MNE Python
 
-[MNE-Python](https://mne.tools/stable/index.html) is a Python package for analysing electrophysiology (MEG, EEG, sEEG, ECoG, NIRS, etc) data.
+<b>[MNE-Python](https://mne.tools/stable/index.html) is a Python package for analysing electrophysiology (MEG, EEG, sEEG, ECoG, NIRS, etc) data.</b>
 
 ## MNE-Python Versions
 
-[Bear Apps](https://bear-apps.bham.ac.uk/applications/MNE-Python/) has several versions of MNE-Python as modules.
+[BEAR Apps](https://bear-apps.bham.ac.uk/applications/MNE-Python/) has several versions of MNE-Python as modules.
 
 ## Bear Modules
 
-The following bash loads mne version 1.3.1 and its dependencies - an equivalent is availiable for JupyterLab.
+The following `bash` loads `mne` version 1.3.1 and its dependencies - an equivalent is availiable for JupyterLab.
 
 ``` shell
 module load bear-apps/2022a
 module load MNE-Python/1.3.1-foss-2022a
 ```
 
-Note that MNE-Python depends on a number of other python applications that will be loaded automatically. The above code will also load numpy, scipy, numba, matplotlib, sklearn and many other packages that are needed by MNE into your environment.
+!!! note
+    Note that MNE-Python depends on a number of other python applications that will be loaded automatically. The above code will also load `numpy`, `scipy`, `numba`, `matplotlib`, `sklearn` and many other packages that are needed by MNE into your environment.
 
 ```python
 import mne
@@ -24,7 +25,7 @@ import numpy as np
 
 ## MNE in a virtual environment
 
-If you want to use a specific version of MNE-Python that isn't supported by BEAR, you can install it into a virtual environment. This bash script provides an example. We load Python 3.9.5, create an environment and install MNE into the environment using pip.
+If you want to use a specific version of MNE-Python that isn't supported by BEAR, you can install it into a virtual environment. This `bash` script provides an example. We load Python 3.9.5, create an environment and install MNE into the environment using `pip`.
 
 ``` slurm
 #!/bin/bash
@@ -110,9 +111,9 @@ python mne_python_example.py
 
 At the end you should have some new figures created next to your script.
 
-![An EEG Evoked Response](my-mne-evoked-example-eeg.png)
-![A Gradiometer Evoked Response](my-mne-evoked-example-grad.png)
-![A Magnetometer Evoked Response](my-mne-evoked-example-mag.png)
+![An EEG Evoked Response](../images/mne/my-mne-evoked-example-eeg.png)
+![A Gradiometer Evoked Response](../images/mne/my-mne-evoked-example-grad.png)
+![A Magnetometer Evoked Response](../images/mne/my-mne-evoked-example-mag.png)
 
 ## MNE on the cluster example
 
@@ -137,7 +138,7 @@ python mne_python_example.py
 !!! note
     We could equally create or load a virtual environment with a customised Python set-up in our job script. Here we use the built in BEAR module as it is all we need for the case in hand.
 
-We can save the job script as `run_mne_python_example.sh` and submit it to the cluster using `sbatch`
+We can save the job script as `run_mne_python_example.sh` and submit it to the cluster using `sbatch`:
 
 ```shell
 sbatch run_mne_python_example.sh

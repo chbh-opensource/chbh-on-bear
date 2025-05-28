@@ -1,3 +1,0 @@
-# OSL
-
-Coming soon!

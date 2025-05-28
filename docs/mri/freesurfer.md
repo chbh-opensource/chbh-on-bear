@@ -1,7 +1,6 @@
 # FreeSurfer
 
-[FreeSurfer](https://surfer.nmr.mgh.harvard.edu/) is an open-source package for the analysis and visualization of structural, functional, and diffusion neuroimaging data from cross-sectional and longitudinal studies.
-
+<b>[FreeSurfer](https://surfer.nmr.mgh.harvard.edu/) is an open-source package for the analysis and visualization of structural, functional, and diffusion neuroimaging data from cross-sectional and longitudinal studies.</b>
 ## FreeSurfer License
 
 FreeSurfer requires a license registration key in order to be used. This can be obtained from [here](https://surfer.nmr.mgh.harvard.edu/registration.html). Once downloaded, the file should be uploaded to your home directory on Bear. This can be done using "Files" tab on the [BlueBEAR portal](https://portal.bear.bham.ac.uk/), or using file transfer software, such as [WinSCP](https://winscp.net/eng/index.php), or [FileZilla](https://filezilla-project.org/). 
@@ -83,7 +82,7 @@ recon-all -s sub-${subject_id_number} \
 
 ## Running FreeSurfer in a Container
 
-Running FreeSurfer within a container allows for greater control over the software versions and improves the reproducibility of the analysis. FreeSurfer containers are available on [dockerhub](https://hub.docker.com/r/freesurfer/freesurfer/tags), or can be created using [NeuroDocker](https://github.com/ReproNim/neurodocker) (see the [Containers](../containers/containers.md) page for details on downloading containers). In the example below we assume a container named 'freesurfer.sif' has been downloaded:
+Running FreeSurfer within a container allows for greater control over the software versions and improves the reproducibility of the analysis. FreeSurfer containers are available on [dockerhub](https://hub.docker.com/r/freesurfer/freesurfer/tags), or can be created using [NeuroDocker](https://github.com/ReproNim/neurodocker) (see the [Containers](../software/containers.md) page for details on downloading containers). In the example below we assume a container named 'freesurfer.sif' has been downloaded:
 
 ``` bash
 #!/usr/bin/env bash
