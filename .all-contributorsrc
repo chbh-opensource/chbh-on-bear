@@ -109,6 +109,15 @@
         "maintenance",
         "content"
       ]
+    },
+    {
+      "login": "slugtmeijer",
+      "name": "Selma Lugtmeijer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/134110542?v=4",
+      "profile": "https://scholar.google.com/citations?user=NL9m-2oAAAAJ&hl=en",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
