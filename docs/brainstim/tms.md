@@ -1,6 +1,6 @@
 # Transcranial magnetic stimulation (TMS)
 
-TMS can be used to measure brain activity levels (e.g., using EMG for studies of the motor system), to interfere with brain activity (e.g., in perceptual or cognitive studies), or to induce changes in the brain (e.g., in clinical interventions). A TMS study at minimum needs a stimulator and a coil. TMS can be used in conjunction with other sitmulation and recording modalities such as EMG, eye-tracking, MRI or EEG.
+TMS can be used to measure brain activity levels (e.g., using EMG for studies of the motor system), to interfere with brain activity (e.g., in perceptual or cognitive studies), or to induce changes in the brain (e.g., in clinical interventions). A TMS study at minimum needs a stimulator and a coil. TMS can be used in conjunction with other stimulation and recording modalities such as EMG, eye-tracking, MRI or EEG.
 
 ## Guidance
 
