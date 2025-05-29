@@ -27,16 +27,17 @@ For other distros see [other distro installs](https://git-scm.com/download/linux
 You can install git from a [windows installer](https://git-scm.com/download/win) or by using a package manager similar to linux.
 
 Using Winget :
+
 ```shell
 > winget install -e --id Git.Git
 ```
-
 
 ## Making a Github account
 
 You will also need to have a GitHub account to be able to make a change request. Make an account on [GitHub](https://github.com/)
 
 After making an account configure your git to use that account within your terminal.
+
 ```shell
 $ git config --global user.email "Add GitHub Email address here within quotes"
 $ git config --global user.name "Add GitHub Username here within quotes"
@@ -61,11 +62,13 @@ You may also need to generate a personal access token :
 A branch is a version of the project that is different from the main, this is made so that changes do not effect the main project.
 
 Check what branch you are on :
+
 ```shell
 $ git branch -l
 ```
 
 Create your own branch :
+
 ```shell
 $ git checkout -b tommy_changes
 ```
@@ -109,6 +112,7 @@ $ git diff
 Once you've made all the changes you would like to make, you can then save all these changes to your git branch. As good practice these changes should be similar in nature such as "Correcting spelling errors". 
 
 Saving your changes to your branch :
+
 ```shell
 $ git commit -m "Correcting spelling errors"
 ```
@@ -121,6 +125,7 @@ This will save all your changes with the messsage "Correcting spelling error". T
 To put our changes on GitHub for the project so everyone can see. We must first make a public branch similar to how we created our local branch before. You will be prompted to enter your username for GitHub, use the username we set up before. It will then ask for a password, do not use your GitHub password, use your git token we generated before (Note when you type or copy this token in, it will not be shown in the terminal but it is registering inputs. This can be odd for users unfamiliar.). 
 
 Creating GitHub branch : 
+
 ```shell
 $ git push --set-upstream origin tommy_changes
 Username for 'https://github.com': TommyTeapot
@@ -128,6 +133,7 @@ Password for 'https://github.com': {Your token here}
 ```
 
 To then push those changes to this new branch use : 
+
 ```shell
 $ git push origin tommy_changes
 Username for 'https://github.com': TommyTeapot
