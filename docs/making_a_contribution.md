@@ -148,7 +148,7 @@ After doing all these previous steps the final thing you need to do is create a 
 
  - In your browser go onto the chbh-on-bear GitHub page
  - Then on branches select the branch that you have created and made your commits to
- - Click "Make a pull request"
+ - Click "Compare and pull request"
  - Type the title and description of your pull request
  - Check will be run automatically on your pull request and then will be reviewed by the admin team
 
@@ -203,4 +203,10 @@ Merge updated main into your branch :
 $ git merge main
 ```
 
-This will update you local main and personal branch to be up to date with the current live version. Editing is done exactly the same as before, happy contributing! 
+Update the public GitHub branch :
+
+```shell
+$ git push origin tommy_changes
+```
+
+This will update you local main and personal branch to be up to date with the current live version and then push that to the public version of the branch. Editing is done exactly the same as before, happy contributing! 
