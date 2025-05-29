@@ -65,6 +65,7 @@ nav:
       - Equip: brainstim/FUS/equip.md
       - k-Plan: brainstim/FUS/kplan.md
       - Calibration: brainstim/FUS/calib.md
+    - TMS: brainstim/tms.md
   - Software on BEAR:
     - software/index.md
     - Conda: software/conda.md
