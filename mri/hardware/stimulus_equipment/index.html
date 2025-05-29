@@ -1008,12 +1008,21 @@
         <li class="md-nav__item">
   <a href="#recovering-responsestriggers-via-nata-interface" class="md-nav__link">
     <span class="md-ellipsis">
-      Recovering responses/triggers via NAtA Interface
+      Recovering responses/triggers via NATA Interface
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Recovering responses/triggers via NAtA Interface">
+    <nav class="md-nav" aria-label="Recovering responses/triggers via NATA Interface">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recovering-triggers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recovering Triggers
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#recovering-participant-responses-in-linux" class="md-nav__link">
@@ -1827,12 +1836,21 @@
         <li class="md-nav__item">
   <a href="#recovering-responsestriggers-via-nata-interface" class="md-nav__link">
     <span class="md-ellipsis">
-      Recovering responses/triggers via NAtA Interface
+      Recovering responses/triggers via NATA Interface
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Recovering responses/triggers via NAtA Interface">
+    <nav class="md-nav" aria-label="Recovering responses/triggers via NATA Interface">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recovering-triggers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recovering Triggers
+    </span>
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#recovering-participant-responses-in-linux" class="md-nav__link">
@@ -1887,51 +1905,80 @@
 
 <h1 id="stimulus-equipment">Stimulus Equipment</h1>
 <h2 id="stimulus-pcs">Stimulus PCs</h2>
-<p>The CHBH has a rack of Stimulus PCs in the Console Room [[1]]. The individual PCs are addressed by a single keyboard mouse &amp; local screen via the KVM Switch (Keyboard/Video/Mouse Switch) mounted at the top of the rack [[2]].</p>
-<p>Choose which Stimulus PC you want to run your experiment on and select that via the KVM Switch [[3]]] . KVM1 for Windows 10, KVM 2 for NeuroDebian. you can freely switch between the two, though MATLAB may need to be relaunched if it was active during switching.</p>
-<p>What is seen on the local screen in the console room [[4]], is seen on the projector screen (when the wake command has been issued to the projector). Both local terminal screen and VPixx Projector are 1920x1080@120Hz for Ubuntu, and 1920x1080@100Hz for Windows 10 (not the 100Hz for Windows, 120Hz is not stable and will cause flickering). Note that only the central element of the Console Screen will be visible on the in bore projection screen. The Projector overfills the rear projection screen and the useful resolution is closer to ~4:3 ~1440x1080 visible. Always verify your paradigm's visual elements are not only visible on the projector screen and stimulus machine monitor, but remain so via the participant's superior mirror.</p>
-<p>The KVM is not configured to route Audio, therefore to choose a specific Stimulus PC, as audio source, employ the plugs on the Audio Patch Panel [[5]]. See below.</p>
+<p>The CHBH has a rack of Stimulus PCs in the Console Room. The individual PCs are addressed by a single keyboard mouse &amp; local screen via the KVM Switch (Keyboard/Video/Mouse Switch) mounted at the top of the rack.</p>
+<p>Choose which Stimulus PC you want to run your experiment on and select that via the KVM Switch. KVM1 for Windows 10, KVM 2 for NeuroDebian. you can freely switch between the two, though MATLAB may need to be relaunched if it was active during switching.</p>
+<p>What is seen on the local screen in the console room, is seen on the projector screen (when the wake command has been issued to the projector). Both local terminal screen and VPixx Projector are 1920x1080@120Hz for Ubuntu, and 1920x1080@100Hz for Windows 10 (not the 100Hz for Windows, 120Hz is not stable and will cause flickering). Note that only the central element of the Console Screen will be visible on the in bore projection screen. The Projector overfills the rear projection screen and the useful resolution is closer to ~4:3 ~1440x1080 visible. Always verify your paradigm's visual elements are not only visible on the projector screen and stimulus machine monitor, but remain so via the participant's superior mirror.</p>
+<p>The KVM is not configured to route Audio, therefore to choose a specific Stimulus PC, as audio source, employ the plugs on the Audio Patch Panel.</p>
 <p>Available Stimulus PCs are;</p>
-<p>KVM Channel - Description</p>
+<ul>
+<li>
 <p>KVM 1 - Windows 10 - PsychoPy, MATLAB 2018B with the PTB, Presentation, EPrime and NIDAQ Hardware [[6]]</p>
+</li>
+<li>
 <p>KVM 2 - Ubuntu 18.04.1 LTS with Neurodebian - PsychoPy, MATLAB 2018B with the PTB [[7]]</p>
-<p>These have near identical hardware, INTEL i7, AMD WX7100. The Windows 10 machine has an additional National Instruments DAQ and BNC breakout attached [[8]]. If one machine fails, the other can boot to Windows 10 / Ubuntu with intervention of the Technician. Identical Common Experimental Platform PCs are also installed in other modalities, several cubicles and the Mock Scanner room. You are invited to test your paradigms there.</p>
+</li>
+</ul>
+<p>These have near identical hardware, INTEL i7, AMD WX7100. The Windows 10 machine has an additional National Instruments DAQ and BNC breakout attached. If one machine fails, the other can boot to Windows 10 / Ubuntu with intervention of the Technician. Identical Common Experimental Platform PCs are also installed in other modalities, several cubicles and the Mock Scanner room. You are invited to test your paradigms there.</p>
 <p>There are also legacy Stimulus PCs at the foot of the rack.</p>
+<ul>
+<li>
 <p>KVM 3 - Windows 7 - this is a former BUIC STIM PC and should function as before, except a difference in screen resolution* {Currently disabled and soon to be retired}</p>
+</li>
+<li>
 <p>KVM 4 - Windows XP - QUALISYS, ROBOT, other legacy.</p>
+</li>
+</ul>
 <p>When any CHBH Stimulus PC is selected via the KVM it will receive reports from the Keyboard, Mouse at the local screen, and from the NATA Response Interface and the LABJACK U3. Other devices may be plugged directly into the fascia of the desired Stimulus PC.</p>
 <h2 id="vpixx-projector">vPixx Projector</h2>
 <p>The commands needed to enable the projector are as follows;</p>
-<p>launch the VPUtil command line interface (click the desktop icon in Windows / under Linux; click to open the desktop VPUtil folder, and in the folder pane that opens rightclick on the white space and Launch A Terminal From That Location, then type ./vputil and press enter).
-In that VPUtil interface type <em>ppx a</em> and return to awaken the projector.
-In that VPUtil interface type <em>ppx s</em> and return to deactivate.
-Do not leave the projector awakened.
-If you get the error 'VPixx Device FPGA device appears unprogrammed' this means the USB connection to the Projector has failed. Switch the KVM to 2 or and then back to 1, or vice versa, for 10 seconds to restore connection. You can switch between Windows 10 and the NeuroDebian CEP using the KVM, whilst the projector is live, and the projector will display the selected desktop.</p>
+<ul>
+<li>
+<p>launch the VPUtil command line interface (click the desktop icon in Windows / under Linux; click to open the desktop VPUtil folder, and in the folder pane that opens rightclick on the white space and Launch A Terminal From That Location, then type ./vputil and press enter).</p>
+</li>
+<li>
+<p>In that VPUtil interface type <em>ppx a</em> and return to awaken the projector.</p>
+</li>
+<li>
+<p>In that VPUtil interface type <em>ppx s</em> and return to deactivate.</p>
+</li>
+<li>
+<p>Do not leave the projector awakened.</p>
+</li>
+<li>
+<p>If you get the error 'VPixx Device FPGA device appears unprogrammed' this means the USB connection to the Projector has failed. Switch the KVM to 2 or and then back to 1, or vice versa, for 10 seconds to restore connection. You can switch between Windows 10 and the NeuroDebian CEP using the KVM, whilst the projector is live, and the projector will display the selected desktop.</p>
+</li>
+</ul>
 <p>These should be all you need for basic use of the VPixx. Instructions with detailed trouble shooting steps are found here. UPDATED SEPT 2021 - if the projector / console screen is flickering for more than a minute after booting you may need to reboot.</p>
-<p>The projector should be set at 16:9 1920x1080@120Hz (note this differs from the Mock MRI and BUIC's Barco F35 16:10 1920x1200@60Hz). The Projector overfills the rear projection screen and the useful resolution is closer to 4:3 1440x1080 visible. Always verify your paradigm's visual elements are; not only visible on the projector screen and stimulus machine monitor, but also remain so via the participant superior mirror.</p>
-<p>Retired Barco Projector Instructions are to be found at this link. This Projector is now available in Mock MRI.</p>
-<h2 id="recovering-responsestriggers-via-nata-interface">Recovering responses/triggers via NAtA Interface</h2>
-<p>Recovering Triggers
-Scanner volume timing is delivered to the CEP Stimulus machines by the detection of the letter 't' (as if from a USB keyboard, spoofed by the NAtA interface box). This will echo into any command windows you use for running stimulus. Consider using the 'commandwindow' command at the beginning of MATLAB scripts to direct key presses away from the script editor! Alternatively switch off the NAtA interface box when troubleshooting, or open a notepad window to redirect these.</p>
-<p>When a Stim PC is selected via the KVM [[9]] and the 2x5 NATA Response Interface is on, [[10]]), then scanner volume triggers will echo as 't' keypress (at ~7ms after the volume begins). Consider using the suggested trigger code snippet on github, linked below, to recover this timing. If you are recovering other keypresses (e.g. 0-9) make sure you ignore ensuing 't's. Beware also, that if CAPSLOCK is on any keyboard attached to the current Stim PC, the NAtA will report 'T'. So always check CAPS LOCK is off, or program defensively to respond to 't' or 'T'.</p>
+<p>The projector should be set at 16:9 1920x1080@120Hz. The Projector overfills the rear projection screen and the useful resolution is closer to 4:3 1440x1080 visible. Always verify your paradigm's visual elements are; not only visible on the projector screen and stimulus machine monitor, but also remain so via the participant superior mirror.</p>
+<h2 id="recovering-responsestriggers-via-nata-interface">Recovering responses/triggers via NATA Interface</h2>
+<h3 id="recovering-triggers">Recovering Triggers</h3>
+<p>Scanner volume timing is delivered to the CEP Stimulus machines by the detection of the letter 't' (as if from a USB keyboard, spoofed by the NAtA interface box). This will echo into any command windows you use for running stimulus. Consider using the 'commandwindow' command at the beginning of MATLAB scripts to direct key presses away from the script editor! Alternatively switch off the NAtA interface box when troubleshooting, or open a notepad window to redirect these.</p>
+<p>When a Stim PC is selected via the KVM [[9]] and the 2x5 NATA Response Interface is on, [[10]], then scanner volume triggers will echo as 't' keypress (at ~7ms after the volume begins). Consider using the suggested trigger code snippet on github, linked below, to recover this timing. If you are recovering other keypresses (e.g. 0-9) make sure you ignore ensuing 't's. Beware also, that if CAPSLOCK is on any keyboard attached to the current Stim PC, the NAtA will report 'T'. So always check CAPS LOCK is off, or program defensively to respond to 't' or 'T'.</p>
 <p>KbCheck on Windows, and KbCheck(-3) on Linux should suffice to recover the 't' press. When you want to ignore successive 't' during recovery of Response Box keypresses use DisableKeysForKbCheck.</p>
-<p>Example code using the more complex KbQueue is provided [ https://github.com/theCHBH/fMRI/blob/master/SampleTriggerCodeCHBH_Windows here].</p>
-<p>The SIEMENS Prisma produces a 1us impulse which is delivered fibre-optically to the SIEMENS Interface Box behind the console PC. This has two settings, TOGGLE and IMPULSE, and requires USB power. Ensure IMPULSE is selected. The BNC output of this SIEMENS Interface Box is relayed to the NATA Response Interface, with potential breakout for other devices. The NAtA is connected directly to the KVM and reports a 't' via USB connection, which also reports 1,2,3,4,5 &amp; ,6,7,8,9.0 for NATA response peripheral. The NATA Interface Box also passes the signal via a DB25 breakout, and &lt;1ms delay. This is DB25 breakout is normally connected to the legacy Windows 7 BUIC Stimulus PC. This enables legacy BUIC experiments to be run without alteration on the legacy Stimulus PC (besides screen size considerations). The DB25 breakout may also be connected to the LABJACK U3, the National Instruments DAQ or the BlackBoxToolKit.</p>
+<p>Example code using the more complex KbQueue is provided <a href="https://github.com/theCHBH/fMRI/blob/master/SampleTriggerCodeCHBH_Windows">here</a>.</p>
+<p>The SIEMENS Prisma produces a 1us impulse which is delivered fibre-optically to the SIEMENS Interface Box behind the console PC. This has two settings, TOGGLE and IMPULSE, and requires USB power. Ensure IMPULSE is selected. The BNC output of this SIEMENS Interface Box is relayed to the NATA Response Interface, with potential breakout for other devices. </p>
+<p>The NAtA is connected directly to the KVM and reports a 't' via USB connection, which also reports 1,2,3,4,5 &amp; ,6,7,8,9.0 for NATA response peripheral. The NATA Interface Box also passes the signal via a DB25 breakout, and &lt;1ms delay. This is DB25 breakout is normally connected to the legacy Windows 7 BUIC Stimulus PC. This enables legacy BUIC experiments to be run without alteration on the legacy Stimulus PC (besides screen size considerations). The DB25 breakout may also be connected to the LABJACK U3, the National Instruments DAQ or the BlackBoxToolKit.</p>
 <h3 id="recovering-participant-responses-in-linux">Recovering Participant Responses in Linux</h3>
 <p>The NAtA Response Pads are installed in the scanner chamber in two configurations. 2x2 which report 12 34 and 2x5 which report 12345 67890 as if they were cut down USB keyboards. (NB Responding as US keyboards in PTB, not UK configuration.)</p>
 <p>The 2x2 Interface and 2x5 are always on and connected. Both are connected via the KVM. if you switch between Windows and Linux whilst MATLAB is open, you may need to re-open MATLAB for to detect the NAtA.</p>
 <p>Under Neurodebian use the following device names when setting up your KbQueue in PTB MATLAB;</p>
-<p>DeviceName = 'NAtA Technologies LxPAD PK080219 v6.11'  % 2x5 and trigger 't'</p>
-<p>DeviceName = 'NAtA Technologies LxNK Keypad' % 2x2 only</p>
-<p>DeviceName = 'Dell Dell QuietKey Keyboard'  % Experimenter Keyboard</p>
-<p>Here is example code that demonstrates gathering Experimenter Keyboard Responses and Participant 2x5 / Scanner volume triggers from the NAtA 2x5.</p>
+<div class="language-MATLAB highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">DeviceName</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">&#39;NAtA Technologies LxPAD PK080219 v6.11&#39;</span><span class="w">  </span><span class="c">% 2x5 and trigger &#39;t&#39;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="n">DeviceName</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">&#39;NAtA Technologies LxNK Keypad&#39;</span><span class="w"> </span><span class="c">% 2x2 only</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="n">DeviceName</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">&#39;Dell Dell QuietKey Keyboard&#39;</span><span class="w">  </span><span class="c">% Experimenter Keyboard</span>
+</span></code></pre></div>
+<p>Here is example <a href="https://github.com/artaxerxes/TheCHBH/blob/master/twoDevice_KbQueue">code</a> that demonstrates gathering Experimenter Keyboard Responses and Participant 2x5 / Scanner volume triggers from the NAtA 2x5.</p>
 <p>Always ensure the NAtA boxes respond before placing your participant in the scanner. They will illuminate the red LEDs on the front of the NATA Interface Box, so observe these. If they illuminate and there is no response from the stimulus PC then reset the PC as the USB hub has been sent to sleep and not awoke with the PC.</p>
 <h2 id="participant-audio-siemens-soundpixx">Participant audio - Siemens / SoundPIXX</h2>
-<p>For Operator / Participant contact we rely on the inbuilt Siemens audio console. You will have been trained in the Siemens subsystem usage during your Operator induction. This broadcasts into the Room, and optionally via the mono pneumatic in-ear headphones that can be attached to the base of the participant bed.</p>
+<p>For Operator/Participant contact we rely on the inbuilt Siemens audio console. This broadcasts into the Room, and optionally via the mono pneumatic in-ear headphones that can be attached to the base of the participant bed.</p>
 <p>For experimental audio, routed from the CEP stimulus machines the Siemens Room Audio / In-Ear Headphones may be suitable. However if you require Stereo reproductions or and higher fidelity audio reproduction there is the SoundPIXX system. This requires the use of a second set of headphones, stored to the left hand side of the head of the scanner bed.</p>
-<p>As noted above, the KVM is not configured to route Audio, therefore to choose a specific Stimulus PC, as audio source, employ the plugs on the Audio Patch Panel [[11]].To switch between the two audio systems there is a patch panel (bank of ports for large audio cables) below the CEP Stimulus machines on the main rack. These allow audio to be routed from the CEP Stimulus Machines to the two available audio outputs. Sources are the Windows and the Neurodebian CEP Stim, outputs are the Siemens (Room + Participant Headphones), or the SoundPIXX (Participant Headphones only).</p>
+<p>As noted above, the KVM is not configured to route Audio, therefore to choose a specific Stimulus PC, as audio source, employ the plugs on the Audio Patch Panel.To switch between the two audio systems there is a patch panel (bank of ports for large audio cables) below the CEP Stimulus machines on the main rack. These allow audio to be routed from the CEP Stimulus Machines to the two available audio outputs. Sources are the Windows and the Neurodebian CEP Stim, outputs are the Siemens (Room + Participant Headphones), or the SoundPIXX (Participant Headphones only).</p>
 <p>When utilising the SoundPIXX Audio the Siemens Room audio may suffice for participant communication still, but there is a secondary black desktop Microphone that you can use to speak directly into the SoundPIXX headphones.</p>
-<p>WARNING - the SoundPIXX headphones have a much higher range of available volume than the Siemens in-Ear headphones and participants may be overwhelmed. Before any experiment involving their use check the settings are suitable, and that they have not been changed since your last scan. Additionally check the volume setting on our CEP Stimulus machine has not changed as the interaction of these two can produce surprisingly high volumes of noise which will be delivered directly into the SoundPIXX in ear headphones.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The SoundPIXX headphones have a much higher range of available volume than the Siemens in-Ear headphones and participants may be overwhelmed. Before any experiment involving their use check the settings are suitable, and that they have not been changed since your last scan. Additionally check the volume setting on our CEP Stimulus machine has not changed as the interaction of these two can produce surprisingly high volumes of noise which will be delivered directly into the SoundPIXX in ear headphones.</p>
+</div>
 <h2 id="troubleshooting">Troubleshooting</h2>
 <p>When the Siemens Room audio is all that is required the patch panel should be left in the standard position to avoid a ground loops developing - which delivers a rumbling bassy noise. Should you experience this noise switch the Audio patch from 23-24 or vice versa.</p>
 
