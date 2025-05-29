@@ -15,6 +15,8 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - pymdownx.details
+  - attr_list
+  - md_in_html
 
 theme:
   name: material
@@ -27,15 +29,37 @@ nav:
   - Home: index.md
   - Getting Started: getting_started.md
   - EEG:
-    - FieldTrip: eeg/fieldtrip.md
+    - eeg/index.md
+    - Hardware:
+      - The EEG System: eeg/hardware/eeg.md
+    - Analysis Tools:
+      - FieldTrip: eeg/analysis/fieldtrip.md
+    - Software:
+      - PsychoPy: eeg/software/psychopy.md
   - MEG:
-    - MNE: meg/mne.md
+    - meg/index.md
+    - Hardware:
+      - The MEG System: meg/hardware/meg.md
+    - Analysis Tools:
+      - MNE-Python: meg/analysis/mne.md
+    - Software:
+      - PsychoPy: meg/software/eprime.md
   - MRI:
-    - fMRIPrep: mri/fmriprep.md
-    - FreeSurfer: mri/freesurfer.md
-    - FSL: mri/fsl.md
-    - SPM: mri/spm.md
-  - Software:
+    - mri/index.md
+    - Hardware:
+      - The MRI Scanner: mri/hardware/scanner.md
+      - Stimulus Equipment: mri/hardware/stimulus_equipment.md
+      - Troubleshooting: mri/hardware/troubleshooting.md
+    - Analysis Tools:
+      - fMRIPrep: mri/analysis/fmriprep.md
+      - FreeSurfer: mri/analysis/freesurfer.md
+      - FSL: mri/analysis/fsl.md
+      - SPM: mri/analysis/spm.md
+    - Software:
+      - PsychoPy: mri/software/psychopy.md
+      - PsychToolbox: mri/software/psychtoolbox.md
+  - Software on BEAR:
+    - software/index.md
     - Conda: software/conda.md
     - Containers: software/containers.md
     - MATLAB: software/matlab.md

@@ -111,9 +111,9 @@ python mne_python_example.py
 
 At the end you should have some new figures created next to your script.
 
-![An EEG Evoked Response](../images/mne/my-mne-evoked-example-eeg.png)
-![A Gradiometer Evoked Response](../images/mne/my-mne-evoked-example-grad.png)
-![A Magnetometer Evoked Response](../images/mne/my-mne-evoked-example-mag.png)
+![An EEG Evoked Response](../../images/mne/my-mne-evoked-example-eeg.png)
+![A Gradiometer Evoked Response](../../images/mne/my-mne-evoked-example-grad.png)
+![A Magnetometer Evoked Response](../../images/mne/my-mne-evoked-example-mag.png)
 
 ## MNE on the cluster example
 
