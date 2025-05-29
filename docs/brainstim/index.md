@@ -17,9 +17,9 @@ Guidelines and documentation for all Brain Stimulation methods at CHBH
     
     ---
     
-    Essential hardware and infrastructure details
+    All things related to TMS
     
-    - [The MRI](#)
+    - [TMS overview](tms.md)
     - [Shielded Room](#)
     - [Helium Recycler](#)
 
