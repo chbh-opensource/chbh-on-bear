@@ -59,6 +59,12 @@ nav:
       - PsychoPy: mri/software/psychopy.md
       - PsychToolbox: mri/software/psychtoolbox.md
   - Brain Stimulation:
+    - brainstim/index.md
+    - Overview: brainstim/overview.md
+    - FUS: 
+      - Equip: brainstim/FUS/equip.md
+      - k-Plan: brainstim/FUS/kplan.md
+      - Calibration: brainstim/FUS/calib.md
     - TMS: brainstim/tms.md
   - Software on BEAR:
     - software/index.md
