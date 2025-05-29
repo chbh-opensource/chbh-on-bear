@@ -72,6 +72,7 @@ Create your own branch :
 ```shell
 $ git checkout -b tommy_changes
 ```
+
 This will create a new branch called "tommy_changes" and switch to it. You can check what branch you are in again to make sure you have switched. 
 
 ### Making changes
