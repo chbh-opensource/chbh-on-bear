@@ -4,7 +4,7 @@
 
 ## R Versions
 
-[Bear Apps](https://bear-apps.bham.ac.uk/applications/R/) has several versions of `R` as loadable modules.
+[BEAR Apps](https://bear-apps.bham.ac.uk/applications/R/) has several versions of `R` as loadable modules.
 
 ## R-Studio GUI App
 

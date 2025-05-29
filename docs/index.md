@@ -1,6 +1,6 @@
 # CHBH Computing on Bear
 
-CHBH-on-BEAR extends the [Bear Technical Documentation](https://docs.bear.bham.ac.uk/) pages tutorials and examples for neuroimaging analyses to run on BlueBEAR.
+CHBH-on-BEAR extends the [BEAR Technical Documentation](https://docs.bear.bham.ac.uk/) pages tutorials and examples for neuroimaging analyses to run on BlueBEAR.
 
 Sections are organised by core neuroimaging software packages. Practical examples and explanations are provided where possible.
 
@@ -28,8 +28,11 @@ Many thanks to our contributors!
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/dagmarfraser"><img src="https://avatars.githubusercontent.com/u/8875773?v=4?s=100" width="100px;" alt="Dagmar S Fraser"/><br /><sub><b>Dagmar S Fraser</b></sub></a><br /><a href="#content-dagmarfraser" title="Content">🖋</a></td>
     </tr>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="http://blog.jzni132134.eu.org"><img src="https://avatars.githubusercontent.com/u/64966689?v=4?s=100" width="100px;" alt="Jianzhang Ni"/><br /><sub><b>Jianzhang Ni</b></sub></a><br /><a href="#content-Wetiqe" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Wetiqe"><img src="https://avatars.githubusercontent.com/u/64966689?v=4?s=100" width="100px;" alt="Jianzhang Ni"/><br /><sub><b>Jianzhang Ni</b></sub></a><br /><a href="#content-Wetiqe" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/katduecker"><img src="https://avatars.githubusercontent.com/u/26790195?v=4?s=100" width="100px;" alt="Katharina"/><br /><sub><b>Katharina</b></sub></a><br /><a href="#content-katduecker" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/TommyTeapot"><img src="https://avatars.githubusercontent.com/u/189376666?v=4?s=100" width="100px;" alt="Tommy Roberts"/><br /><sub><b>Tommy Roberts</b></sub></a><br /><a href="#content-TommyTeapot" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://sohaamir.github.io"><img src="https://avatars.githubusercontent.com/u/35841800?v=4?s=100" width="100px;" alt="Aamir Sohail"/><br /><sub><b>Aamir Sohail</b></sub></a><br /><a href="#maintenance-sohaamir" title="Maintenance">🚧</a> <a href="#content-sohaamir" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://scholar.google.com/citations?user=NL9m-2oAAAAJ&hl=en"><img src="https://avatars.githubusercontent.com/u/134110542?v=4?s=100" width="100px;" alt="Selma Lugtmeijer"/><br /><sub><b>Selma Lugtmeijer</b></sub></a><br /><a href="#content-slugtmeijer" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
@@ -41,4 +44,4 @@ Many thanks to our contributors!
 
 ## Contributing
 
-This page is a work-in-progress and contributions are very welcome! Please email Andrew or make some changes directly on the [CHBH-on-BEAR github page](https://github.com/chbh-opensource/chbh-on-bear).
+This page is a work-in-progress and contributions are very welcome! Please email Andrew or make some changes directly on the [CHBH-on-BEAR GitHub page](https://github.com/chbh-opensource/chbh-on-bear). See the repository's `README` for more information.

@@ -6,7 +6,7 @@
 
 A range of installed FSL versions are available as [modules on Bear Apps](https://bear-apps.bham.ac.uk/applications/FSL/).
 
-## Bear Portal GUI
+## BEAR Portal GUI
 
 The following code snippet can be executed in a terminal from within the Bear Portal GUI. It will load a pre-installed FSL version into the terminal where is can be used as normal.
 
@@ -107,7 +107,7 @@ set -e
 apptainer pull --name FSL.sif docker://vnmd/fsl_6.0.4
 ```
 
-We can sumbit this job to the cluster using `sbatch` as normal. Once the `FSL.sif` has been created we can run future cluster jobs through it.
+We can submit this job to the cluster using `sbatch` as normal. Once the `FSL.sif` has been created we can run future cluster jobs through it.
 
 For example, this job script runs `fsl_anat` on a single dataset using our FSL container.
 
