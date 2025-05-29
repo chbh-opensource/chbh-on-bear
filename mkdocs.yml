@@ -65,4 +65,5 @@ nav:
     - MATLAB: software/matlab.md
     - Python: software/python.md
     - R: software/R.md
+  - Making a contribution : making_a_contribution.md
   - FAQs: faqs.md
