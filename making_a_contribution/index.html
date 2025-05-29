@@ -1803,6 +1803,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#changes-to-the-main-branch" class="md-nav__link">
+    <span class="md-ellipsis">
+      Changes to the main branch
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1976,6 +1985,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#changes-to-the-main-branch" class="md-nav__link">
+    <span class="md-ellipsis">
+      Changes to the main branch
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2082,11 +2100,41 @@ This will save all your changes with the messsage "Correcting spelling error". T
 <ul>
 <li>In your browser go onto the chbh-on-bear GitHub page</li>
 <li>Then on branches select the branch that you have created and made your commits to</li>
-<li>Click "Make a pull request"</li>
+<li>Click "Compare and pull request"</li>
 <li>Type the title and description of your pull request</li>
 <li>Check will be run automatically on your pull request and then will be reviewed by the admin team</li>
 </ul>
 <p>If review is sucessesful your changes will be merged into the main branch. Otherwise there is a section to have a conversation about those changes and add more commits. Feel free to make any changes you feel are valuable and thank you for contributing!</p>
+<h2 id="changes-to-the-main-branch">Changes to the main branch</h2>
+<p>When working on this project and making multiple commits it's possible the main branch will be updated. It's important to work on a version that is close to the live version to avoid conflicts. </p>
+<p>Move onto main branch : </p>
+<div class="language-shell highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>$<span class="w"> </span>git<span class="w"> </span>checkout<span class="w"> </span>main
+</span></code></pre></div>
+<p>Check you are on the main branch : </p>
+<div class="language-shell highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>$<span class="w"> </span>git<span class="w"> </span>branch
+</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>*<span class="w"> </span>main
+</span></code></pre></div>
+<p>Get updated main branch :</p>
+<div class="language-shell highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>$<span class="w"> </span>git<span class="w"> </span>fetch<span class="w"> </span>origin<span class="w"> </span>
+</span></code></pre></div>
+<p>Pull the update into local main : </p>
+<div class="language-shell highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>$<span class="w"> </span>git<span class="w"> </span>pull<span class="w"> </span>origin<span class="w"> </span>main
+</span></code></pre></div>
+<p>Move back to your branch : </p>
+<div class="language-shell highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>$<span class="w"> </span>git<span class="w"> </span>checkout<span class="w"> </span>tommy_changes
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>Switched<span class="w"> </span>to<span class="w"> </span>branch<span class="w"> </span>tommy_changes
+</span></code></pre></div>
+<p>Check you are on your branch :</p>
+<div class="language-shell highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>$<span class="w"> </span>git<span class="w"> </span>branch
+</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>*<span class="w"> </span>tommy_changes
+</span></code></pre></div>
+<p>Merge updated main into your branch : </p>
+<div class="language-shell highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>$<span class="w"> </span>git<span class="w"> </span>merge<span class="w"> </span>main
+</span></code></pre></div>
+<p>Update the public GitHub branch :</p>
+<div class="language-shell highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>$<span class="w"> </span>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>tommy_changes
+</span></code></pre></div>
+<p>This will update you local main and personal branch to be up to date with the current live version and then push that to the public version of the branch. Editing is done exactly the same as before, happy contributing! </p>
 
 
 
