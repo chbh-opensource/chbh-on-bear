@@ -4,7 +4,7 @@
 
 ## Downloading fMRIPrep
 
-The simplest way of running fMRIPrep is using a container. Instructions for downloading the fMRIPrep container are detailed [here](../software/containers.md).
+The simplest way of running fMRIPrep is using a container. Instructions for downloading the fMRIPrep container are detailed [here](../../software/containers.md).
 
 ## Running fMRIPrep
 
@@ -40,7 +40,7 @@ Descriptions of the variables and arguments:
 | `output_dir`                | Third positional argument. Sets the output directory.                |
 | `-w`                        | Specifies the working directory to store intermediate files during preprocessing. |
 | `--participant-label`       | Specifies the BIDS subject ID, enabling fMRIPrep to run on a single subject or a subset of subjects. |
-| `--fs-license-file`         | Path to the FreeSurfer license file (see [FreeSurfer](../mri/freesurfer.md)). By default, fMRIPrep uses FreeSurfer for anatomical co-registration. |
+| `--fs-license-file`         | Path to the FreeSurfer license file (see [FreeSurfer](../../mri/analysis/freesurfer.md)). By default, fMRIPrep uses FreeSurfer for anatomical co-registration. |
 | `--nprocs`                  | Number of CPU cores to use for processing.                           |
 | `--mem`                     | Amount of memory available in GB.                                    |
 

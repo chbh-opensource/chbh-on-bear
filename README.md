@@ -100,7 +100,7 @@ This preview of the rendered documentation will automatically refresh when the d
 
 Once you have made your changes locally, get a summary by running:
 
-`git status
+`git status`
 
 Then check if you have the CHBH-on-BEAR `main` branch as a remote:
 
@@ -108,8 +108,10 @@ Then check if you have the CHBH-on-BEAR `main` branch as a remote:
 
 Then, add your changes:
 
-`git add <file>` # if making commits separately
-'git add .' # if committing in one go
+```
+git add <file> # if making commits separately
+git add . # if committing in one go
+```
 
 commit them:
 

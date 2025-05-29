@@ -40,22 +40,3 @@ There are two ways to submit a cluster job - the [BlueBEAR terminal](https://doc
     These terminal sessions are ONLY intended for submitting and monitoring cluster jobs - not for active analyses. This should be carried out on the BEAR GUI or similar.
 
 **BlueBEAR Job Composer** this is a GUI page which helps you to write a new job to submit to blue-bear using the [job composer](https://docs.bear.bham.ac.uk/portal/jobs/#creating-a-new-compute-job-through-the-bear-portal).
-
-# Index of Neuroimaging Software
-
-This is an incomplete list of the neuroimaging software that is available on BlueBEAR. The links in the 'Toolbox' column follow to CHBH-on-BEAR examples and the 'Bear Apps' links go to the module specifications provided by BEAR.
-
-| Toolbox                           | GUI App          | Bear Apps Modules                                                           | Notes                         |
-|:----------------------------------|:-----------------|:---------------------------------------------------------------------------|:------------------------------|
-| **Programming Environments**      |                  |                                                                            |                               |
-| [Python](software/python.md)     | JupyterLab       | [Bear Apps Python](https://bear-apps.bham.ac.uk/applications/Python/)     | Bear Apps or pip/venv         |
-| [MATLAB](software/matlab.md)     | MATLAB           | [Bear Apps MATLAB](https://bear-apps.bham.ac.uk/applications/MATLAB/)     |                               |
-| [R](software/R.md)               | RStudio          | [Bear Apps R](https://bear-apps.bham.ac.uk/applications/R/)               |                               |
-| **MRI Analysis Tools**            |                  |                                                                            |                               |
-| [FSL](mri/fsl.md)                | FSLeyes          | [Bear Apps FSL](https://bear-apps.bham.ac.uk/applications/FSL/)           | Pip install modules via venv  |
-| [FreeSurfer](mri/freesurfer.md)  | FreeView         | [Bear Apps FreeSurfer](https://bear-apps.bham.ac.uk/applications/FreeSurfer/) |                           |
-| [SPM](mri/spm.md)                | MATLAB           | None                                                                       | Load within MATLAB script     |
-| **EEG/MEG Analysis Tools**        |                  |                                                                            |                               |
-| [MNE-Python](meg/mne.md)         | JupyterLab       | [Bear Apps MNE](https://bear-apps.bham.ac.uk/applications/MNE-Python/)    | Bear Apps or pip/venv         |
-| [FieldTrip](eeg/fieldtrip.md)    | MATLAB           | None                                                                       | Load within MATLAB script     |
-| EEGLab                           | MATLAB           | None                                                                       | Load within MATLAB script     |

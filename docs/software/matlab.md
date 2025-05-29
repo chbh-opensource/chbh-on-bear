@@ -14,8 +14,8 @@ addpath(genpath('/rds/q/quinna-example-project/code/fieldtrip'))
 
 These pages include some specific examples using popular MATLAB toolboxes:
 
-- [Fieldtrip](../eeg/fieldtrip.md)
-- [SPM](../mri/spm.md)
+- [Fieldtrip](../eeg/analysis/fieldtrip.md)
+- [SPM](../mri/analysis/spm.md)
 
 ## Parallel for-loop
 
