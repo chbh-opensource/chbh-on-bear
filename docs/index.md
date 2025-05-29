@@ -7,7 +7,7 @@ Sections are organised by core neuroimaging software packages. Practical example
 Check out the links in the sidebar to get started. Try 'Getting Started' if you're a new user or jump into a specific software if you already have some experience with BEAR computing.
 
 !!! note
-    This website is intended for current staff and students at the [Centre for Human Brain Health](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/index.aspx) and [University of Birmingham](https://www.birmingham.ac.uk/index.aspx). It is not likely to be useful for anyone else...
+    This website is intended for current staff and students at the [Centre for Human Brain Health](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/index.aspx) and [University of Birmingham](https://www.birmingham.ac.uk/index.aspx). It may or may not be useful for anyone else...
 
 ## Contributors
 

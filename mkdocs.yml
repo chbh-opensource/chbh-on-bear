@@ -6,6 +6,7 @@ repo_url: https://github.com/AJQuinn/chbh-on-bear
 edit_uri: blob/main/docs
 
 markdown_extensions:
+  - toc:
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -39,7 +40,11 @@ nav:
   - MEG:
     - meg/index.md
     - Hardware:
-      - The MEG System: meg/hardware/meg.md
+      - MEG System: meg/hardware/meg.md
+      - Shielded Room: meg/hardware/shieldedroom.md
+    - Acquisition:
+      - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
+      - Shielded Room: meg/hardware/shieldedroom.md
     - Analysis Tools:
       - MNE-Python: meg/analysis/mne.md
     - Software:
