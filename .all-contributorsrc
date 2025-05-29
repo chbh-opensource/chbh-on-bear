@@ -127,6 +127,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "TheHandLab",
+      "name": "Nicholas Paul Holmes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11017354?v=4",
+      "profile": "https://neurobiography.info",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
