@@ -58,6 +58,9 @@ nav:
     - Software:
       - PsychoPy: mri/software/psychopy.md
       - PsychToolbox: mri/software/psychtoolbox.md
+  - Brain Stimulation:
+    - Overview: brainstim/overview.md
+    - FUS: brainstim/fus.md
   - Software on BEAR:
     - software/index.md
     - Conda: software/conda.md
