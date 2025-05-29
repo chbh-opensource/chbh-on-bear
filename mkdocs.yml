@@ -58,6 +58,8 @@ nav:
     - Software:
       - PsychoPy: mri/software/psychopy.md
       - PsychToolbox: mri/software/psychtoolbox.md
+  - Brain Stimulation:
+    - TMS: brainstim/tms.md
   - Software on BEAR:
     - software/index.md
     - Conda: software/conda.md
