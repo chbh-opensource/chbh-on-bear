@@ -1,8 +1,8 @@
-# CHBH Computing on Bear
+# CHBH-on-BEAR
 
 CHBH-on-BEAR extends the [BEAR Technical Documentation](https://docs.bear.bham.ac.uk/) pages tutorials and examples for neuroimaging analyses to run on BlueBEAR.
 
-Sections are organised by core neuroimaging software packages. Practical examples and explanations are provided where possible.
+Sections are organised by modality with a separate section for using software on BEAR. <b>Practical examples and explanations are provided where possible.</b>
 
 Check out the links in the sidebar to get started. Try 'Getting Started' if you're a new user or jump into a specific software if you already have some experience with BEAR computing.
 
@@ -46,4 +46,4 @@ Many thanks to our contributors!
 
 ## Contributing
 
-This page is a work-in-progress and contributions are very welcome! Please email Andrew or make some changes directly on the [CHBH-on-BEAR GitHub page](https://github.com/chbh-opensource/chbh-on-bear). See the repository's `README` for more information.
+This page is a work-in-progress and contributions are very welcome! Please email Andrew or make some changes directly on the [CHBH-on-BEAR GitHub page](https://github.com/chbh-opensource/chbh-on-bear). See the ['Making a contribution'](making_a_contribution.md) page for more information on how to do so.
