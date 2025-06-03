@@ -108,14 +108,14 @@ Then check if you have the CHBH-on-BEAR `main` branch as a remote:
 
 `git remote -v`
 
-Then, add your changes:
+add your changes:
 
 ```
-git add <file> # if making commits separately
-git add . # if committing in one go
+git add <file> # if adding files separately
+git add . # if adding all changes in one go
 ```
 
-commit them:
+commit:
 
 `git commit -m "your changes here'`
 
@@ -123,7 +123,7 @@ and push them:
 
 `git push origin main`
 
-However, this will only work if you have write access to the `main` branch. 
+> However, this will only work if you have write access to the `main` branch. 
 
 If you do not, then you will need to create a new branch, and then push the changes to the branch:
 
@@ -133,4 +133,4 @@ git checkout -b <your-branch-name>
 git push origin <your-branch-name>
 ```
 
-And then on GitHub, submit a pull request to the `main` branch!
+And then on GitHub, submit a pull request to the `main` branch, where one of the maintainers will have a look!
