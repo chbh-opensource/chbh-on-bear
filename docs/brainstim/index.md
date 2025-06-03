@@ -10,18 +10,8 @@ Guidelines and documentation for all Brain Stimulation methods at CHBH
 
     Information about the CHBH brain stimulation lab
 
-    - [Lab overview](#)
+    - [Lab overview](tms.md)
 
-
--   **Transcranial Magnetic Stimulation (TMS)**
-    
-    ---
-    
-    Essential hardware and infrastructure details
-    
-    - [The MRI](#)
-    - [Shielded Room](#)
-    - [Helium Recycler](#)
 
 -   **Focused Ultrasound Stimulation (FUS)**
     
