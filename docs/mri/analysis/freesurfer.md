@@ -82,7 +82,9 @@ recon-all -s sub-${subject_id_number} \
 
 ## Running FreeSurfer in a Container
 
-Running FreeSurfer within a container allows for greater control over the software versions and improves the reproducibility of the analysis. FreeSurfer containers are available on [dockerhub](https://hub.docker.com/r/freesurfer/freesurfer/tags), or can be created using [NeuroDocker](https://github.com/ReproNim/neurodocker) (see the [Containers](../../software/containers.md) page for details on downloading containers). In the example below we assume a container named 'freesurfer.sif' has been downloaded:
+Running FreeSurfer within a container allows for greater control over the software versions and improves the reproducibility of the analysis. FreeSurfer containers are available on [Dockerhub](https://hub.docker.com/r/freesurfer/freesurfer/tags), or can be created using [NeuroDocker](https://github.com/ReproNim/neurodocker) (see the [Containers](../../software/containers.md) page for details on downloading containers). 
+
+In the example below we assume a container named `freesurfer.sif` has been downloaded:
 
 ``` bash
 #!/usr/bin/env bash

@@ -11,8 +11,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
     Essential hardware and infrastructure details
 
     - [The MEG](hardware/meg.md)
-    - [Shielded Room](hardware/shieldedroom.md)
-    - [Helium Recycler](hardware/heliumrecycler.md)
+    - [MEG Safety](hardware/safety.md)
 
 -   **Data Acquisition**
 
@@ -21,12 +20,6 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
     Equipment and setup for data collection
 
     - [MEG Acquisition Checklist](acquisition/meg-acquisition-checklist.md)
-    - [Gantry](#)
-    - [Helium Recycler](#)
-    - [Eyelink](#)
-    - [PROPixx](#)
-    - [SOUNDPixx](#)
-    - [MISC Channels](#)
 
 -   **Stimulus Delivery**
 
@@ -34,11 +27,6 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 
     Software and methods for stimulus presentation
 
-    - [Stimulus PC](#)
-    - [E-Prime](#)
-    - [Matlab/PTB](#)
-    - [PsychoPy](#)
-    - [Trigger Codes](#)
 
 -   **Quality Control**
 
@@ -46,9 +34,6 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 
     Analysis and data quality procedures
 
-    - [Analysis Quickstart](#)
-    - [Common Artefacts](#)
-    - [Maxfilter](#)
-    - [Phantom Measurements](#)
+    - [MNE-Python](analysis/mne.md)
 
 </div>

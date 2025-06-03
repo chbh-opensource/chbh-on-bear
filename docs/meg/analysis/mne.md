@@ -6,7 +6,7 @@
 
 [BEAR Apps](https://bear-apps.bham.ac.uk/applications/MNE-Python/) has several versions of MNE-Python as modules.
 
-## Bear Modules
+## BEAR Modules
 
 The following `bash` loads `mne` version 1.3.1 and its dependencies - an equivalent is availiable for JupyterLab.
 
@@ -58,7 +58,7 @@ As with other examples, this can be copied directly into the terminal or saved a
 
 ## Evoked response example
 
-The following code is adapted from the MNE-Python [overvew of MEG/EEG analysis tutorial](https://mne.tools/stable/auto_tutorials/intro/10_overview.html#sphx-glr-auto-tutorials-intro-10-overview-py). It will download a small example file and run a quick analysis.
+The following code is adapted from the MNE-Python [overvew of MEG/EEG analysis tutorial](https://mne.tools/stable/auto_tutorials/intro/10_overview.html#sphx-glr-auto-tutorials-intro-10-overview-py). <b>It will download a small example file and run a quick analysis.</b>
 
 You can run this code directly in a Python session on BEAR within an activated MNE environment. The file will be saved into your RDS home directory (eg `/rds/homes/q/quinna`) unless specified otherwise - please change the `sample_data_folder` variable if you'd like to save this file elsewhere.
 
@@ -100,7 +100,7 @@ fig[1].savefig('my-mne-evoked-example-mag.png')
 fig[2].savefig('my-mne-evoked-example-eeg.png')
 ```
 
-We can save this as 'mne_python_example.py` as our core analysis script. This can be execute from a terminal session in which the appropriate python environment has been loaded. For example, we could open a 'BlueBEAR GUI' session, open a new terminal, change directory to the location of our script and run the following code:
+We can save this as `mne_python_example.py` as our core analysis script. This can be executed from a terminal session in which the appropriate python environment has been loaded. For example, we could open a 'BlueBEAR GUI' session, open a new terminal, change directory to the location of our script and run the following code:
 
 ```shell
 module load bear-apps/2022a
@@ -115,10 +115,10 @@ At the end you should have some new figures created next to your script.
 ![A Gradiometer Evoked Response](../../images/mne/my-mne-evoked-example-grad.png)
 ![A Magnetometer Evoked Response](../../images/mne/my-mne-evoked-example-mag.png)
 
-## MNE on the cluster example
+## MNE on the cluster
 
 !!! warning
-    There is currently a bug with this example to do with the automatic file downloading when running on the cluster. Running a simliar example on your own data fromo RDS should work fine.
+    There is currently a bug with this example to do with the automatic file downloading when running on the cluster. Running a similar example on your own data from RDS should work fine.
 
 Alternatively, we can run our evoked responses analysis on the cluster. For this we'll need a job submission script. Let's use the following shell code to load the MNE module from BEAR and run our code.
 

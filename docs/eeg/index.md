@@ -18,11 +18,7 @@ Guides and documentation for EEG analysis and data collection.
 
     Equipment and setup for data collection
 
-    - [EEG Acquisition Checklist](#)
-    - [Cap Positioning](#)
-    - [Electrode Digitisation](#)
-    - [Amplifier Batteries](#)
-    - [Eye Tracking](#)
+
 
 -   **Stimulus Delivery**
 
@@ -30,10 +26,7 @@ Guides and documentation for EEG analysis and data collection.
 
     Software and methods for stimulus presentation
 
-    - [E-Prime](#)
-    - [Matlab/PTB](#)
-    - [PsychoPy](#)
-    - [Trigger Codes](#)
+
 
 -   **Quality Control**
 
@@ -41,9 +34,6 @@ Guides and documentation for EEG analysis and data collection.
 
     Analysis and data quality procedures
 
-    - [Analysis Quickstart](#)
-    - [Common Artefacts](#)
-    - [Noisy Channels](#)
-    - [Saline Test](#)
+    - [FieldTrip](analysis/fieldtrip.md)
 
 </div>
