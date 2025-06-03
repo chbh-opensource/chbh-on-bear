@@ -1,13 +1,11 @@
 # SPM12
 
-More coming soon! Please email Andrew or raise a pull request on GitHub if you'd like to contribute to this page.
-
 ## Running first-level analyses with parfor
 
 !!! info
     Example contributed by Arkady Konovalov
 
-Simple parallelisation of a for-loop can be performed using [parfor](https://www.mathworks.com/help/matlab/ref/parfor.html). This functionality is provided by MatLab and enables faster processing of `for` loops simply by changing the syntax at the start to say `parfor` rather than `for`.
+Simple parallelisation of a for-loop can be performed using [parfor](https://www.mathworks.com/help/matlab/ref/parfor.html). This functionality is provided by MATLAB and enables faster processing of `for` loops simply by changing the syntax at the start to say `parfor` rather than `for`.
 
 Here is an example function which makes use of `parfor` whilst computing GLMs using SPM.
 

@@ -8,7 +8,7 @@ The simplest way of running fMRIPrep is using a container. Instructions for down
 
 ## Running fMRIPrep
 
-In order to run fMRIPrep, your data must first be organised according the Brain Imaging Data Structure [BIDS](https://bids.neuroimaging.io/) guidlines. Once organised into BIDS, the default fMRIPrep can be run using the following script:
+In order to run fMRIPrep, your data must first be organised according the Brain Imaging Data Structure [BIDS](https://bids.neuroimaging.io/) guidelines. Once organised into BIDS, the default fMRIPrep container can be run using the following script:
 
 ``` bash
 #!/bin/bash
@@ -67,5 +67,6 @@ output_directory=camcan_fmriprep/
 
 apptainer run fmriprep_24_1_1.sif ${bids_directory} ${output_directory} participant -w work/ --participant-label ${SUBJECT_ID} --fs-license-file ~/license.txt 
 ```
+!!! note
 
-The number at the end fo the "#SBATCH --array=0-20" should be replaced with the number of subjects within the BIDS directory.
+    The number at the end fo the `#SBATCH --array=0-20` should be replaced with the number of subjects within the BIDS directory.

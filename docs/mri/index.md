@@ -10,39 +10,19 @@ Guides and documentation for MRI analysis and data collection at the CHBH.
     
     Essential hardware and infrastructure details
     
-    - [The MRI](#)
-    - [Shielded Room](#)
-    - [Helium Recycler](#)
+    - [The MRI](hardware/scanner.md)
+    - [Recording data](hardware/stimulus_equipment.md)
+    - [Troubleshooting](hardware/troubleshooting.md)
 
--   **Data Acquisition**
-    
-    ---
-    
-    Equipment and setup for data collection
-    
-    - [Eyelink](#)
-    - [PROPixx](#)
-    - [SOUNDPixx](#)
-
--   **Stimulus Delivery**
-    
-    ---
-    
-    Software and methods for stimulus presentation
-    
-    - [E-Prime](#)
-    - [Matlab/PTB](#)
-    - [PsychoPy](#)
-    - [Trigger Codes](#)
-
--   **Quality Control**
+-   **Data analysis**
     
     ---
     
     Analysis and data quality procedures
     
-    - [Analysis Quickstart](#)
-    - [Common Artefacts](#)
-    - [Maxfilter](#)
+    - [fMRIPrep](analysis/fmriprep.md)
+    - [Freesurfer](analysis/freesurfer.md)
+    - [FSL](analysis/fsl.md)
+    - [SPM](analysis/spm.md)
 
 </div>
