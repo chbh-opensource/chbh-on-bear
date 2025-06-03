@@ -5,7 +5,7 @@
 
 <b>This is an example script running a fieldtrip analysis on EEG data acqurired during a visual flicker task.</b>
 
-The data is read in, filtered, epoched, ICA'd, re-referenced, then plotted. The core function can be executed on the [MATLAB GUI App](https://docs.bear.bham.ac.uk/portal/gui_apps/) during an interactive session, or submitted to BlueEBAR using the `bash` script below.
+The data is read in, filtered, epoched, ICA'd, re-referenced, then plotted. The core function can be executed on the [MATLAB GUI App](https://docs.bear.bham.ac.uk/portal/gui_apps/) during an interactive session, or submitted to BlueBEAR using the `bash` script below.
 
 ## Core processing script
 
