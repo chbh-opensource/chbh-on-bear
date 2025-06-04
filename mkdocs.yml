@@ -11,6 +11,12 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
@@ -57,7 +63,7 @@ nav:
       - SPM: mri/analysis/spm.md
   - Brain Stimulation:
     - brainstim/index.md
-    - FUS: 
+    - FUS:
       - Equip: brainstim/FUS/equip.md
       - k-Plan: brainstim/FUS/kplan.md
       - Calibration: brainstim/FUS/calib.md
