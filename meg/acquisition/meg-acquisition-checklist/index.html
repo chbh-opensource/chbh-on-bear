@@ -715,7 +715,7 @@
         <li class="md-nav__item">
   <a href="#prepare-control-room-msr" class="md-nav__link">
     <span class="md-ellipsis">
-      Prepare Control Room, MSR
+      Prepare Control Room &amp; MSR
     </span>
   </a>
   
@@ -1714,7 +1714,7 @@
         <li class="md-nav__item">
   <a href="#prepare-control-room-msr" class="md-nav__link">
     <span class="md-ellipsis">
-      Prepare Control Room, MSR
+      Prepare Control Room &amp; MSR
     </span>
   </a>
   
@@ -1857,9 +1857,15 @@
 
 
 <h1 id="meg-data-acquisition-checklist">MEG Data Acquisition Checklist</h1>
-<h2 id="prepare-control-room-msr">Prepare Control Room, MSR</h2>
-<ol>
-<li>Check functioning of stimulus and response equipment.</li>
+<p>Click on the checklists to mark your progress through data collection.</p>
+<h2 id="prepare-control-room-msr">Prepare Control Room &amp; MSR</h2>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Check functioning of stimulus and response equipment.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Select the stim PC</label><label for="__tabbed_1_2">Select the parallel port</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
 <li>Select the correct Stim PC via KVM.<ul>
 <li>Press button 1 to connect to the OLD Stim PC.</li>
 <li>Press button 3 to connect to the NEW Stim PC.<ul>
@@ -1871,18 +1877,28 @@
 </li>
 </ul>
 </li>
-<li>
-<p>Select the correct Parallel Port via the Parallel Port (PP) Switch Box.</p>
+</ul>
+</div>
+<div class="tabbed-block">
 <ul>
+<li>Select the correct Parallel Port via the Parallel Port (PP) Switch Box.<ul>
 <li>Use PP Switch position A to connect STI101 to the OLD Stim PC (PP Base Memory Address: BFF8)</li>
 <li>Use PP Switch position B to connect STI101 to the NEW Stim PC (PP Base Memory Address: CFF8)</li>
 </ul>
 </li>
-<li>
-<p>Check Gantry position. Move from Liquefaction (25) position to usage position - [Moving the Gantry]</p>
+</ul>
+</div>
+</div>
+</div>
 </li>
-<li>
-<p>Check experimental paradigm.</p>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Check Gantry position. Move from Liquefaction (25) position to usage position - [Moving the Gantry]</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Check experimental paradigm.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Check the PROPixx projector</label><label for="__tabbed_2_2">Check Stimuli, Responses and Triggers</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
 <ul>
 <li>Check the PROPixx projector is "awake" (make sure lens cover is removed).<ul>
 <li>Start the VPutil program, from the Stim Desktop shortcut, and type...</li>
@@ -1895,6 +1911,10 @@
 </li>
 </ul>
 </li>
+</ul>
+</div>
+<div class="tabbed-block">
+<ul>
 <li>Check that the stimuli and responses are as expected.</li>
 <li>Check arrival of triggers in MEG recording.<ul>
 <li>NOTE: New Stim PC PP card has a different Base Memory Address than the OLD Stim PC.<ul>
@@ -1907,9 +1927,12 @@
 </ul>
 </li>
 </ul>
+</div>
+</div>
+</div>
 </li>
-<li>
-<p>Start subject preparation, items to have ready/available.</p>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Start subject preparation, items to have ready/available.</p>
 <ul>
 <li>Label electrodes for EOG (2), ECG (2) and any other (i.e. EMG) electrodes. Have some additional ready in case you have to redo them.</li>
 <li>NOTE: Reusable and disposable electrodes are available.</li>
@@ -1921,15 +1944,39 @@
 <li>The locations of our various consumable items can be found <a href="">here</a></li>
 </ul>
 </li>
-<li>
-<p>Check the MSR for any unwanted items that could cause artefacts and remove them.</p>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Check the MSR for any unwanted items that could cause artefacts and remove them.</p>
 </li>
-<li>
-<p>Check that the participant monitoring camera and microphone are working correctly.</p>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Check that the participant monitoring camera and microphone are working correctly.</p>
 </li>
-</ol>
+</ul>
 <h2 id="prepare-meg-system">Prepare MEG system</h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Prepare system.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Check quality of channels.<ul>
+<li>Click "Noisy Channels" for more information</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Select or create project.<ul>
+<li>Check or select acquisition parameters.</li>
+<li>Check or create online averaging parameters'</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Create subject.</li>
+</ul>
 <h2 id="prepare-subject">Prepare subject</h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Offer bathroom break.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Explain preparation procedure.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Explain experiment.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Let subject read and sign informed consent.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Have subject remove metal objects, and do a comprehensive check with both metal detectors. Subject to change into scrubs if necessary (show subject to Changing Room and show scrubs sizes that are available).<ul>
+<li>We are trying to reduce our laundry bill so only use scrubs if necessary e.g. metal in clothing.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Clean hands with Alcohol Gel Sanitizer.</li>
+</ul>
 <h2 id="attach-electrodes">Attach electrodes</h2>
 <h2 id="check-impedance-of-electrodes">Check impedance of electrodes</h2>
 <h2 id="attach-hpi-coils">Attach HPI coils</h2>
