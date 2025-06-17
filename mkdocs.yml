@@ -24,6 +24,9 @@ markdown_extensions:
   - pymdownx.details
   - attr_list
   - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 theme:
   name: material
@@ -35,21 +38,6 @@ theme:
 nav:
   - Home: index.md
   - Getting Started: getting_started.md
-  - EEG:
-    - eeg/index.md
-    - Hardware:
-      - The EEG System: eeg/hardware/eeg.md
-    - Analysis Tools:
-      - FieldTrip: eeg/analysis/fieldtrip.md
-  - MEG:
-    - meg/index.md
-    - Hardware:
-      - MEG System: meg/hardware/meg.md
-      - MEG Safety: meg/hardware/safety.md
-    - Acquisition:
-      - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
-    - Analysis Tools:
-      - MNE-Python: meg/analysis/mne.md
   - MRI:
     - mri/index.md
     - Hardware:
@@ -61,6 +49,23 @@ nav:
       - FreeSurfer: mri/analysis/freesurfer.md
       - FSL: mri/analysis/fsl.md
       - SPM: mri/analysis/spm.md
+    - Mock MRI:
+      - Technical Info: mri/mockmri/mockmri.md
+  - MEG:
+    - meg/index.md
+    - Hardware:
+      - MEG System: meg/hardware/meg.md
+      - MEG Safety: meg/hardware/safety.md
+    - Acquisition:
+      - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
+    - Analysis Tools:
+      - MNE-Python: meg/analysis/mne.md
+  - EEG:
+    - eeg/index.md
+    - Hardware:
+      - The EEG System: eeg/hardware/eeg.md
+    - Analysis Tools:
+      - FieldTrip: eeg/analysis/fieldtrip.md
   - Brain Stimulation:
     - brainstim/index.md
     - FUS:
@@ -68,6 +73,13 @@ nav:
       - k-Plan: brainstim/FUS/kplan.md
       - Calibration: brainstim/FUS/calib.md
     - TMS: brainstim/tms.md
+  - Behaviour:
+    - behaviour/index.md
+    - Technical:
+      - Cubicles: behaviour/technical/cubicles.md
+      - Troubleshooting: behaviour/technical/troubleshooting.md
+  - Sleep:
+    - sleep/index.md
   - Software on BEAR:
     - software/index.md
     - Conda: software/conda.md

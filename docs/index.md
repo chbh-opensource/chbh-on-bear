@@ -2,12 +2,21 @@
 
 CHBH-on-BEAR extends the [BEAR Technical Documentation](https://docs.bear.bham.ac.uk/) pages tutorials and examples for neuroimaging analyses to run on BlueBEAR.
 
-Sections are organised by modality with a separate section for using software on BEAR. <b>Practical examples and explanations are provided where possible.</b>
-
-Check out the links in the sidebar to get started. Try 'Getting Started' if you're a new user or jump into a specific software if you already have some experience with BEAR computing.
-
 !!! note
     This website is intended for current staff and students at the [Centre for Human Brain Health](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/index.aspx) and [University of Birmingham](https://www.birmingham.ac.uk/index.aspx). It may or may not be useful for anyone else...
+
+## Modalities at CHBH
+
+<div class="grid cards" markdown>
+
+- <a href="mri" class="card">__MRI__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
+- <a href="meg" class="card">__MEG__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
+- <a href="eeg" class="card">__EEG__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
+- <a href="sleep" class="card">__Sleep__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
+- <a href="behaviour" class="card">__Behaviour__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
+- <a href="brainstim" class="card">__Brain Stimulation__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
+
+</div>
 
 ## Contributors
 
