@@ -2,10 +2,6 @@
 
 Guides and documentation for MEG analysis and data collection at the CHBH.
 
-!!! note "CHBH Sharepoint"
-
-    These pages contains public facing information about MEG at CHBH. For details on projects codes, approvals, ethics, finances, bookings and administration please see the CHBH Sharepoint pages (UoB SSO login required)
-
 
 <div class="grid cards" markdown>
 
@@ -42,3 +38,8 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
     - [MNE-Python](analysis/mne.md)
 
 </div>
+
+
+!!! note "CHBH Sharepoint"
+
+    These pages contains public facing information about MEG at CHBH. For details on projects codes, approvals, ethics, finances, bookings and administration please see the CHBH Sharepoint pages (UoB SSO login required)

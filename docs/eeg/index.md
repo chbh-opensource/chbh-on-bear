@@ -37,3 +37,7 @@ Guides and documentation for EEG analysis and data collection.
     - [FieldTrip](analysis/fieldtrip.md)
 
 </div>
+
+!!! note "CHBH Sharepoint"
+
+    These pages contains public facing information about EEG at CHBH. For details on projects codes, approvals, ethics, finances, bookings and administration please see the CHBH Sharepoint pages (UoB SSO login required)

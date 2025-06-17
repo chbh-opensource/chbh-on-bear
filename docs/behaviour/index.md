@@ -22,3 +22,7 @@ Guides and documentation for behavioural data collection at the CHBH.
 
 
 </div>
+
+!!! note "CHBH Sharepoint"
+
+    These pages contains public facing information about behavioural testing at CHBH. For details on projects codes, approvals, ethics, finances, bookings and administration please see the CHBH Sharepoint pages (UoB SSO login required)

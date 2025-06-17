@@ -1,11 +1,11 @@
-# CHBH-on-BEAR
+# Neuroimager's Guide to the CHBH
 
-CHBH-on-BEAR extends the [BEAR Technical Documentation](https://docs.bear.bham.ac.uk/) pages tutorials and examples for neuroimaging analyses to run on BlueBEAR.
+Welcome to the Neuroimager's Guide!
 
-!!! note
-    This website is intended for current staff and students at the [Centre for Human Brain Health](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/index.aspx) and [University of Birmingham](https://www.birmingham.ac.uk/index.aspx). It may or may not be useful for anyone else...
+These pages contain practical information on data collection and analysis at the CHBH. We also extend the [BEAR Technical Documentation](https://docs.bear.bham.ac.uk/) pages to provide tutorials on neuroimaging quality control and data analyses using the University of Birmingham's Supercomputer - BlueBEAR.
 
-## Modalities at CHBH
+
+### Click a modality to get started
 
 <div class="grid cards" markdown>
 
@@ -17,6 +17,10 @@ CHBH-on-BEAR extends the [BEAR Technical Documentation](https://docs.bear.bham.a
 - <a href="brainstim" class="card">__Brain Stimulation__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
 
 </div>
+
+
+!!! note
+    This website is intended for current staff and students at the [Centre for Human Brain Health](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/index.aspx) and [University of Birmingham](https://www.birmingham.ac.uk/index.aspx). It may or may not be useful for anyone else...
 
 ## Contributors
 
