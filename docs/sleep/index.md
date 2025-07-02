@@ -36,6 +36,6 @@ Guides and documentation for sleep data collection at the CHBH.
 </div>
 
 
-!!! note "CHBH Sharepoint"
+!!! info "CHBH Sharepoint Pages"
 
-    These pages contains public facing information about sleep research at CHBH. For details on projects codes, approvals, ethics, finances, bookings and administration please see the CHBH Sharepoint pages (UoB SSO login required)
+    These pages contain user lead and public facing information at CHBH. For full details on CHBH facilities, processes, project codes, approvals, ethics, finances, bookings and administration please see the CHBH Sharepoint pages (UoB SSO login required).

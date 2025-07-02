@@ -1,4 +1,4 @@
-site_name: CHBH-on-BEAR
+site_name: CHBH User Handbook
 site_url: https://ajquinn.github.io/chbh-on-bear/
 
 repo_name: CHBH-on-BEAR
@@ -66,6 +66,8 @@ nav:
       - The EEG System: eeg/hardware/eeg.md
     - Analysis Tools:
       - FieldTrip: eeg/analysis/fieldtrip.md
+  - EEG-fMRI:
+    - eeg-fmri/index.md
   - Brain Stimulation:
     - brainstim/index.md
     - FUS:
@@ -77,9 +79,12 @@ nav:
     - behaviour/index.md
     - Technical:
       - Cubicles: behaviour/technical/cubicles.md
+      - Common Experimental Platform: behaviour/technical/cep.md
       - Troubleshooting: behaviour/technical/troubleshooting.md
   - Sleep:
     - sleep/index.md
+  - fNIRS:
+    - fnirs/index.md
   - Software on BEAR:
     - software/index.md
     - Conda: software/conda.md

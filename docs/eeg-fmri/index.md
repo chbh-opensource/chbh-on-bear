@@ -1,6 +1,6 @@
-# Behavioural Testing at CHBH
+# EEG-fMRI at CHBH
 
-Guides and documentation for behavioural data collection at the CHBH.
+Guides and documentation for simultaneous EEG-fMRI analysis and data collection.
 
 <div class="grid cards" markdown>
 
@@ -10,15 +10,28 @@ Guides and documentation for behavioural data collection at the CHBH.
 
     Essential hardware and infrastructure details
 
-    - [Cubicles](technical/cubicles.md)
-    - [Common Experimental Platform PCs](technical/cep.md)
-    - [Troubleshooting](technical/troubleshooting.md)
 
--   **Eye Tracking**
+-   **Data Acquisition**
 
     ---
 
-    Tracking eyes and pupilometry
+    Equipment and setup for data collection
+
+
+
+-   **Stimulus Delivery**
+
+    ---
+
+    Software and methods for stimulus presentation
+
+
+
+-   **Quality Control**
+
+    ---
+
+    Analysis and data quality procedures
 
 
 </div>

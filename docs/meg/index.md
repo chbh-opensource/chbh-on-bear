@@ -39,7 +39,6 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 
 </div>
 
+!!! info "CHBH Sharepoint Pages"
 
-!!! note "CHBH Sharepoint"
-
-    These pages contains public facing information about MEG at CHBH. For details on projects codes, approvals, ethics, finances, bookings and administration please see the CHBH Sharepoint pages (UoB SSO login required)
+    These pages contain user lead and public facing information at CHBH. For full details on CHBH facilities, processes, project codes, approvals, ethics, finances, bookings and administration please see the CHBH Sharepoint pages (UoB SSO login required).
