@@ -1,7 +1,7 @@
 # CHBH-on-BEAR Documentation
 <!-- markdownlint-disable -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- markdownlint-restore -->
 
@@ -36,6 +36,7 @@ Many thanks to our contributors - please open an issue if you're missing from th
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://wilsonlab.co.uk"><img src="https://avatars.githubusercontent.com/u/7724002?v=4?s=100" width="100px;" alt="Martin Wilson"/><br /><sub><b>Martin Wilson</b></sub></a><br /><a href="#content-martin3141" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/froemero"><img src="https://avatars.githubusercontent.com/u/23497654?v=4?s=100" width="100px;" alt="froemero"/><br /><sub><b>froemero</b></sub></a><br /><a href="#content-froemero" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
