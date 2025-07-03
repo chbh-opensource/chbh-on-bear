@@ -19,7 +19,7 @@ We are always open for new contributions. This is a fantastic way to build your 
 
 <div class="grid cards" markdown>
 
-- <a href="mri" class="card">__MRI__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
+- <a href="mri" class="card">__MRI__ ![MRI image](images/mri/prisma.jpg){ loading=lazy }</a>
 - <a href="meg" class="card">__MEG__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
 - <a href="eeg" class="card">__EEG__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
 - <a href="eeg-fmri" class="card">__EEG-fMRI__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
