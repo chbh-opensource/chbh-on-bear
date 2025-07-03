@@ -16,7 +16,7 @@ Type the following in the Console (lower left panel) to install the latest stabl
 install.packages("spant", dependencies = TRUE)
 ```
 
-Or the the development version from GitHub (requires the devtools package):
+Or the development version from GitHub (requires the devtools package):
 
 ```
 install.packages("devtools")
