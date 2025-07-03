@@ -136,6 +136,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "martin3141",
+      "name": "Martin Wilson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7724002?v=4",
+      "profile": "http://wilsonlab.co.uk",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -1,7 +1,7 @@
 # CHBH-on-BEAR Documentation
 <!-- markdownlint-disable -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- markdownlint-restore -->
 
@@ -33,6 +33,9 @@ Many thanks to our contributors - please open an issue if you're missing from th
       <td align="center" valign="top" width="14.28%"><a href="https://scholar.google.com/citations?user=NL9m-2oAAAAJ&hl=en"><img src="https://avatars.githubusercontent.com/u/134110542?v=4?s=100" width="100px;" alt="Selma Lugtmeijer"/><br /><sub><b>Selma Lugtmeijer</b></sub></a><br /><a href="#content-slugtmeijer" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/TomRhysMarshall"><img src="https://avatars.githubusercontent.com/u/28601348?v=4?s=100" width="100px;" alt="TomRhysMarshall"/><br /><sub><b>TomRhysMarshall</b></sub></a><br /><a href="#content-TomRhysMarshall" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://neurobiography.info"><img src="https://avatars.githubusercontent.com/u/11017354?v=4?s=100" width="100px;" alt="Nicholas Paul Holmes"/><br /><sub><b>Nicholas Paul Holmes</b></sub></a><br /><a href="#content-TheHandLab" title="Content">🖋</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://wilsonlab.co.uk"><img src="https://avatars.githubusercontent.com/u/7724002?v=4?s=100" width="100px;" alt="Martin Wilson"/><br /><sub><b>Martin Wilson</b></sub></a><br /><a href="#content-martin3141" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
