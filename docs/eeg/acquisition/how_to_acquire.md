@@ -23,4 +23,4 @@ Click on the checklists to mark your progress through data collection.
 
 ## Stop recording
 
-## tidying up
+## Tidying up
