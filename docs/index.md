@@ -12,7 +12,7 @@ We are always open for new contributions. This is a fantastic way to build your 
 !!! info "CHBH Sharepoint Pages"
     This website is intended for current staff and students at the [Centre for Human Brain Health](https://www.birmingham.ac.uk/research/centre-for-human-brain-health/index.aspx) and [University of Birmingham](https://www.birmingham.ac.uk/index.aspx). It may or may not be useful for anyone else.
 
-    These pages contain user lead and public facing information at CHBH. For full details on CHBH facilities, processes, project codes, approvals, ethics, finances, bookings and administration please see the CHBH Sharepoint pages (UoB SSO login required).
+    These pages contain user led and public facing information at CHBH. For full details on CHBH facilities, processes, project codes, approvals, ethics, finances, bookings and administration please see the CHBH Sharepoint pages (UoB SSO login required).
 
 
 ### Click a modality to get started
