@@ -60,10 +60,14 @@ nav:
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
     - Analysis Tools:
       - MNE-Python: meg/analysis/mne.md
+  - Eye-tracking:
+    - eye-tracking/index.md
   - EEG:
     - eeg/index.md
     - Hardware:
       - The EEG System: eeg/hardware/eeg.md
+    - Acquisition:
+      - EEG Acquisition Checklist: eeg/acquisition/how_to_acquire.md
     - Analysis Tools:
       - FieldTrip: eeg/analysis/fieldtrip.md
   - EEG-fMRI:
