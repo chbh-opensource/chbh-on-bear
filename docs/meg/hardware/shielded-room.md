@@ -30,3 +30,58 @@ Please check whether your participant has removed all of the following items bef
 - Any other metal objects in pockets, on clothing, or in hair
 
 Ask your participant if they have a dental retainer/brace, amalgam(mercury/metal alloy) fillings, or are wearing coloured contact lenses, or "Quick Attach" eyelashes.
+
+
+## Operating the door
+
+### To open the MSR
+
+- Press the GREEN Open/Close Door button. Door will open about 5cm.
+    - If **Outside**, Pull the door open.
+    - If **Inside**, Push the door open.
+
+### Emergency MSR Door Opening Instructions
+
+
+To unlock the door:
+
+- Press the RED Emergency Door Release button. Door will open about 2cm.
+    - If **Outside**, Pull the door open.
+    - If **Inside**, Push the door open.
+
+If the door is still jammed:
+
+- Place the hexagonal key in the Emergency Unlock slot and turn in direction of the arrow.
+- Repeat for the second slot.
+    - If **Outside**, Pull the door open.
+    - If **Inside**, Push the door open.
+
+### Principles of MSR door operation
+
+The **MSR** door is locked by pressurized air, provided by the compressor in the plant room next door.
+On pressing the **Emergency Door Release** button, the air pressure is released, allowing free movement of the two latches holding the door shut.
+The door will open approximately 20mm and can be pulled/pushed open the rest of the way.
+It is heavy so a reasonable amount of effort will be required.
+If for any reason the two latches are still locked after releasing the air pressure, the Emergency Unlock mechanism releases a spring that pulls the latches away from the lock hinges, allowing the door to open.
+
+To reset the latches
+
+- Open the door wide enough to gain access to them.
+- Insert the hex key into both slots and turn in the opposite direction of the arrow.
+- Pull the latches out of their unlocked positions, against the spring, until they lock.
+- The spring is powerful, so pull hard!
+
+
+## Shielded Room Dimensions
+
+Dimensions of our Vacoshield ADVANCED room.
+
+
+|                            	| Length       	| Width        	| Height       	|
+|----------------------------	|--------------	|--------------	|--------------	|
+| Inside Mu metal surface    	| 4.00 m       	| 3.00 m       	| 2.49 m       	|
+| Inside decoration surface  	| 3.93 m       	| 2.93 m       	| 2.41 m       	|
+| Outside Mu metal surface   	| 4.35 m       	| 3.35 m       	| 2.85 m       	|
+| Outside decoration surface 	| 4.51 m       	| 3.51 m       	| 2.87 m       	|
+| Pit for standard door      	| 4.55 m (min) 	| 3.55 m (min) 	| 115 mm (max) 	|
+| Pit for level entry door   	| 4.55 m (min) 	| 3.55 m (min) 	| 235 mm (max) 	|

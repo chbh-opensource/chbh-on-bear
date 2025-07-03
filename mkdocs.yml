@@ -37,12 +37,12 @@ theme:
 
 nav:
   - Home: index.md
-  - Getting Started: getting_started.md
   - MRI:
     - mri/index.md
     - Hardware:
       - The MRI Scanner: mri/hardware/scanner.md
       - Stimulus Equipment: mri/hardware/stimulus_equipment.md
+      - Stimulus Delivery: mri/hardware/mri-stimulus-delivery.md
       - Troubleshooting: mri/hardware/troubleshooting.md
     - Analysis Tools:
       - fMRIPrep: mri/analysis/fmriprep.md
@@ -55,9 +55,10 @@ nav:
     - meg/index.md
     - Hardware:
       - MEG System: meg/hardware/meg.md
-      - MEG Safety: meg/hardware/safety.md
+      - Magnetically Shielded Room: meg/hardware/shielded-room.md
     - Acquisition:
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
+      - Stimulus Delivery: meg/acquisition/meg-stimulus-delivery.md
     - Analysis Tools:
       - MNE-Python: meg/analysis/mne.md
   - EEG:
@@ -85,8 +86,11 @@ nav:
     - sleep/index.md
   - fNIRS:
     - fnirs/index.md
+  - Common Experimental Platform:
+    - cep/index.md
   - Software on BEAR:
     - software/index.md
+    - Getting Started on BEAR: software/getting_started.md
     - Conda: software/conda.md
     - Containers: software/containers.md
     - MATLAB: software/matlab.md

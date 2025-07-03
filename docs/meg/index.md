@@ -21,12 +21,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
     Equipment and setup for data collection
 
     - [MEG Acquisition Checklist](acquisition/meg-acquisition-checklist.md)
-
--   **Stimulus Delivery**
-
-    ---
-
-    Software and methods for stimulus presentation
+    - [MEG Stimulus Delivery](acquisition/meg-stimulus-delivery.md)
 
 
 -   **Quality Control**

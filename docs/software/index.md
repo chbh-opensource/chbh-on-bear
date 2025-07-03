@@ -4,6 +4,7 @@ This section collects tutorials and examples to run software on BlueBEAR. This i
 
 Click on the links below to see the examples.
 
+- [Getting Started on BEAR](getting_started.md)
 - [Conda](conda.md)
 - [Containers](containers.md)
 - [MATLAB](matlab.md)

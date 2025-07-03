@@ -12,6 +12,7 @@ Guides and documentation for MRI analysis and data collection at the CHBH.
 
     - [The MRI](hardware/scanner.md)
     - [Recording data](hardware/stimulus_equipment.md)
+    - [Stimulus Delivery](hardware/mri-stimulus-delivery.md)
     - [Troubleshooting](hardware/troubleshooting.md)
 
 -   **Data analysis**
