@@ -50,9 +50,11 @@ This is taken care of by the [`deploy` GitHub Actions workflow](https://github.c
 
 ## Using `mkdocs`
 
-### Creating a Development Environment and Installing `mkdocs`
-
 To install all the required `mkdocs` Python packages, use the provided [requirements.txt](https://github.com/chbh-opensource/chbh-on-bear/tree/main/requirements.txt) file. The recommendation for development is to do this inside a dedicated virtual environment:
+
+The following steps are platform dependent. Please follow the appropriate instructions for your platform (mac/linux, or windows).
+
+### Creating a Development Environment and Installing `mkdocs` - MAC/LINUX
 
 ```shell
 git clone https://github.com/chbh-opensource/chbh-on-bear
@@ -61,6 +63,32 @@ python -m venv ./.venv
 source ./.venv/bin/activate
 pip install -r requirements.txt
 ```
+### Creating a Development Environment and Installing `mkdocs` - WINDOWS
+
+Windows users will need to do a few extra steps:
+
+Open Windows PowerShell (click Windows button and type 'powershell')
+```shell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+Change directory to the place you want to work in and clone the repository
+```shell
+cd <my working directory>
+git clone https://github.com/chbh-opensource/chbh-on-bear
+```
+Create and activate virtual environment
+```shell
+cd chbh-on-bear
+uv venv --python 3.11
+Set-ExecutionPolicy Unrestricted -Scope Process
+cd .venv\Scripts
+.\activate.ps1
+cd ..
+cd ..
+uv pip install -r requirements.txt
+```
+
+ The subsequent steps are the same regardless of platform
 
 ### Building
 
