@@ -3,9 +3,18 @@ Click on the checklists to mark your progress through data collection.
 
 ## Check Hardware
 - [ ] make sure you're sending triggers
-- [ ] make sure batteries are charged
-    === plug x into y, turn it on and check this light
+
+    === "in your experiment"
     
+        - run your experiment 
+            
+    === "in a sample scipt"
+    
+        - locate x script on the stimulus computer
+        - make sure everything is turned on
+
+- [ ] make sure batteries are charged
+
 - [ ] ...
 
 ## Prepare EEG room
