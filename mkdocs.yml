@@ -49,6 +49,7 @@ nav:
       - FreeSurfer: mri/analysis/freesurfer.md
       - FSL: mri/analysis/fsl.md
       - SPM: mri/analysis/spm.md
+      - spant: mri/analysis/spant.md
     - Mock MRI:
       - Technical Info: mri/mockmri/mockmri.md
   - MEG:
