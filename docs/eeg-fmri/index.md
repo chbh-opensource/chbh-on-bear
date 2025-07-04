@@ -8,7 +8,9 @@ Guides and documentation for simultaneous EEG-fMRI analysis and data collection.
 
     ---
 
-    Essential hardware and infrastructure details
+    Essential hardware and infrastructure details.
+    
+    - [The MR Comptaible EEG System](hardware/eeg_mr_system.md)
 
 
 -   **Data Acquisition**
@@ -17,6 +19,7 @@ Guides and documentation for simultaneous EEG-fMRI analysis and data collection.
 
     Equipment and setup for data collection
 
+    - [EEG-fMRI Checklist](acquisition/eeg_fmri_checklist.md)
 
 
 -   **Stimulus Delivery**
