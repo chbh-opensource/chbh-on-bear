@@ -67,6 +67,16 @@ python -m venv ./.venv
 source ./.venv/bin/activate
 pip install -r requirements.txt
 ```
+
+Once installed, only the following commands are needed to render
+
+```shell
+cd chbh-on-bear
+python -m venv ./.venv
+source ./.venv/bin/activate
+mkdocs serve
+```
+
 ### Creating a Development Environment and Installing `mkdocs` - WINDOWS
 
 Windows users will need to do a few extra steps:
@@ -92,7 +102,7 @@ cd ..
 uv pip install -r requirements.txt
 ```
 
- The subsequent steps are the same regardless of platform
+The subsequent steps are the same regardless of platform
 
 ### Building
 
@@ -129,6 +139,12 @@ INFO     -  [17:52:07] Serving on http://127.0.0.1:8000/
 ```
 
 This preview of the rendered documentation will automatically refresh when the documentation sources are updated!
+
+If the rendered documentation does not reload automatically, try adding the '--livereaload' option:
+
+```shell
+mkdocs serve --livereload
+```
 
 ## Making and committing changes
 
