@@ -77,7 +77,7 @@ Click on the checklists to mark your progress through data collection.
 - [ ] Let subject read and sign informed consent.
 - [ ] Have subject remove metal objects, and do a comprehensive check with both metal detectors. Subject to change into scrubs if necessary (show subject to Changing Room and show scrubs sizes that are available).
     - We are trying to reduce our laundry bill so only use scrubs if necessary e.g. metal in clothing.
-- [ ] cClean hands with Alcohol Gel Sanitizer.
+- [ ] Clean hands with Alcohol Gel Sanitizer.
 
 ## Attach electrodes
 
