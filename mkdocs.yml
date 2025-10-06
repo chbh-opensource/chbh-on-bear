@@ -57,6 +57,7 @@ nav:
     - Hardware:
       - MEG System: meg/hardware/meg.md
       - MEG Safety: meg/hardware/safety.md
+      - LabJack: meg/hardware/meg-labjack.md
     - Acquisition:
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
     - Analysis Tools:
