@@ -28,3 +28,6 @@ Note, installing for the first time will require compilation of various packages
 ## Batch use
 
 TODO
+
+- [ ] check 1
+- [ ] check 2
