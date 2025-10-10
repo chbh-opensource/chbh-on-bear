@@ -34,10 +34,25 @@ theme:
     - content.code.copy
   logo: images/CHBH_logo.jpg
   favicon: images/CHBH_logo.jpg
+  
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
 nav:
-  - Home: index.md
-  - Getting Started: getting_started.md
   - MRI:
     - mri/index.md
     - Hardware:
