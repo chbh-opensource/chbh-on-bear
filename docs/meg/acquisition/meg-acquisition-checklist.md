@@ -4,7 +4,7 @@ Click on the checklists to mark your progress through data collection.
 
 ## Prepare Control Room & MSR
 
-- [ ] Check functioning of stimulus and response equipment.
+-  [ ] Check functioning of stimulus and response equipment.
 
     === "Select the stim PC"
 
@@ -12,9 +12,9 @@ Click on the checklists to mark your progress through data collection.
             - Press button 1 to connect to the OLD Stim PC.
             - Press button 3 to connect to the NEW Stim PC.
                 - LED Meanings
-                - Green/Dark for connected PCs, but not active.
-                - Green/Red for connected PCs actively using the KVM.
-                - Dark/Dark for no connection.
+                - <b><span style="color:green">Green</span></b>/<b>Dark</b> for connected PCs, but not active.
+                - <b><span style="color:green">Green</span></b>/<b><span style="color:red">Red</span></b> for connected PCs actively using the KVM.
+                - <b>Dark/Dark</b> for no connection.
 
     === "Select the parallel port"
 
