@@ -57,8 +57,16 @@ nav:
     - Hardware:
       - MEG System: meg/hardware/meg.md
       - MEG Safety: meg/hardware/safety.md
+      - MEG Contraindications: meg/hardware/contraindications.md
+      - How to open the MSR: meg/hardware/msr.md
+      - MSR Dimensions: meg/hardware/dimensions.md
+      - The IHR: meg/hardware/ihr.md
     - Acquisition:
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
+    - Lab Safety:
+      - Procedures: meg/labsafety/labsafety.md
+    - Stimulus Presentation:
+      - VPixx Projector: meg/stimulus/propixx.md
     - Analysis Tools:
       - MNE-Python: meg/analysis/mne.md
   - EEG:
