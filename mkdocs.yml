@@ -53,6 +53,8 @@ theme:
         name: Switch to light mode
 
 nav:
+  - Home: index.md
+  - Getting Started: getting_started.md
   - MRI:
     - mri/index.md
     - Hardware:
