@@ -80,6 +80,7 @@ nav:
       - The IHR: meg/hardware/ihr.md
     - Acquisition:
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
+      - Moving the Gantry: meg/acquisition/moving-the-gantry.md
     - Lab Safety:
       - Procedures: meg/labsafety/labsafety.md
     - Stimulus Presentation:

@@ -23,7 +23,8 @@ Click on the checklists to mark your progress through data collection.
             - Use PP Switch position B to connect STI101 to the NEW Stim PC (PP Base Memory Address: CFF8)
 
 
-- [ ] Check Gantry position. Move from Liquefaction (25) position to usage position - [Moving the Gantry]
+- [ ] Check Gantry position. Move from liquefaction (25) position to usage position.
+	* **[Moving the Gantry](moving-the-gantry.md)**
 
 - [ ] Check experimental paradigm.
 
