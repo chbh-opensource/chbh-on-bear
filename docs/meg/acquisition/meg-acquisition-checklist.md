@@ -31,12 +31,12 @@ Click on the checklists to mark your progress through data collection.
     === "Check the PROPixx projector"
 
         - Check the PROPixx projector is "awake" (make sure lens cover is removed).
-            - Start the VPutil program, from the Stim Desktop shortcut, and type...
-            - (ANY DEVICE) > `ppx a` - should respond with "PROPixx is in awake mode"
+            - Start the VPutil program, from the Stim Desktop shortcut, and **type**...
+            - (ANY DEVICE) > **`ppx a`** - should respond with "PROPixx is in awake mode"
             - To "sleep" the projector ...
-            - (ANY DEVICE) > `ppx s` - should respond with "PROPixx is in sleep mode"
+            - (ANY DEVICE) > **`ppx s`** - should respond with "PROPixx is in sleep mode"
             - Please do not leave the PROPixx projector in "awake" mode when not in use e.g. overnight!
-                - NOTE: `ppx a / ppx s` didn't work on one occasion. PROPixx needed a full power off/on to reset.
+                - NOTE: **`ppx a / ppx s`** didn't work on one occasion. PROPixx needed a full power off/on to reset.
 
     === "Check Stimuli, Responses and Triggers"
 
@@ -46,15 +46,16 @@ Click on the checklists to mark your progress through data collection.
                 - Change any, e.g. MATLAB, code on the NEW Stim PC, referencing the PP Base Memory Address to...
                     - CFF8 ... e.g. in `initialiseParallelPort.m`
 
-- [ ] Start subject preparation, items to have ready/available.
-    - Label electrodes for EOG (2), ECG (2) and any other (i.e. EMG) electrodes. Have some additional ready in case you have to redo them.
-    - NOTE: Reusable and disposable electrodes are available.
-    - Electrode gel (in 20ml syringes - use the caulking gun to fill them.) We also have 12ml curved tip syringes now available.
+- [ ] Start subject preparation - items to have ready/available.
+    - Label 4 electrodes for EOG, 2 electrodes for ECG and any other (i.e. EMG) electrodes as required. Have some additional electrodes ready in case you have to redo them.
+		- **NOTE:** Reusable and disposable electrodes are available.
+    - Electrode gel (in 20ml syringes - use the caulking gun to fill them.) We also have 12ml *curved tip* syringes available.
     - Cut tape ready for attaching electrodes to skin (Tegaderm tape)
-    - Tape for securing electrodes (Micropore tape) and small double-sided discs.
+    - Cut tape for securing electrodes (Micropore tape) and Blenderm tape for attaching cHPI coils.
+	- Small double-sided sticky discs used to secure reusable electrodes.
     - If using an EEG cap, check it over for damaged electrodes. Makes sure it's clean and dry.
-    - Set up the Digitizer chair, away from any metal. Attach the receiver cube to the back of the chair. The cable has to point downwards.
-    - The locations of our various consumable items can be found [here]()
+    - Set up the Digitiser chair, away from any metal. Attach the transmitter cube to the back of the chair. The **cable has to point downwards**.
+    - See this page for our various consumable items - **[MEG Consumables](meg-consumables.md)**
 
 - [ ] Check the MSR for any unwanted items that could cause artefacts and remove them.
 
