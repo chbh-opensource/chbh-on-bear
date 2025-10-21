@@ -57,7 +57,8 @@ Click on the checklists to mark your progress through data collection.
     - Set up the Digitiser chair, away from any metal. Attach the transmitter cube to the back of the chair. The **cable has to point downwards**.
     - See this page for our various consumable items - **[MEG Consumables](meg-consumables.md)**
 
-- [ ] Check the MSR for any unwanted items that could cause artefacts and remove them.
+- [ ] Check the MSR, yourself, and participant, for any unwanted items that could cause artefacts and remove them.
+	- See this PDF... **[Metal items Checklist](../../meg/pdfs/Metal_items_checklist.pdf)**
 
 - [ ] Check that the participant monitoring camera and microphone are working correctly.
 

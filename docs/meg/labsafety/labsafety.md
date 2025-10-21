@@ -2,13 +2,15 @@
 
 ### **<span style="color:red">Helium is not life supporting!</span>**
 
-If released into the air it poses a danger of suffocation. If a significant Helium leakage is detected our Oxygen Depletion Alarms will sound, then :
+If released into the air it poses a danger of suffocation. If a significant Helium leakage is detected our Oxygen Depletion Alarm (ODA) will sound, then :
 
-* Immediately, calmly, evacuate MEG Control Room & MSR - and instruct others not to enter.
+* Immediately, calmly, evacuate MEG Control Room & MSR, and inform Sleep Control Room & Labs of their need to evacuate also, and instruct other staff/students not to enter the corridor.
 * Arrange proper ventilation.
 	* Open Fire Exit.
 	* Open MEG Corridor door.
 	* Open Sleep Lab doors and subsequently the windows (if possible).
+* **<span style="color:blue">Beacon will flash/Alarm will sound - until Oxygen level is back above threshold.</span>**
+* **<span style="color:red">Note: </span>** **Our ODA  is not connected to the building Fire Alarm system**, swipe access will not be disabled/door will remain locked. You will need to use the "*no touch*" button to exit the corridor towards Reception.
 
 The IHR tank room and MSR are protected by Oxygen Depletion sensors, with both a flashing Beacon and an 85dB Sounder.
 
