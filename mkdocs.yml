@@ -78,6 +78,7 @@ nav:
       - How to open the MSR: meg/hardware/msr.md
       - MSR Dimensions: meg/hardware/dimensions.md
       - The IHR: meg/hardware/ihr.md
+      - LabJack: meg/hardware/meg-labjack.md
     - Acquisition:
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
       - Moving the Gantry: meg/acquisition/moving-the-gantry.md
