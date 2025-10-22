@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://ajquinn.github.io/chbh-on-bear/meg/acquisition/meg-acquisition-checklist/">
+        <link rel="canonical" href="https://ajquinn.github.io/chbh-on-bear/meg/hardware/meg-labjack/">
       
       
-        <link rel="prev" href="../../hardware/meg-labjack/">
+        <link rel="prev" href="../ihr/">
       
       
-        <link rel="next" href="../moving-the-gantry/">
+        <link rel="next" href="../../acquisition/meg-acquisition-checklist/">
       
       
       <link rel="icon" href="../../../images/CHBH_logo.jpg">
@@ -22,7 +22,7 @@
     
     
       
-        <title>MEG Checklist - CHBH User Handbook</title>
+        <title>LabJack - CHBH User Handbook</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#meg-data-acquisition-checklist" class="md-skip">
+        <a href="#using-labjack-to-send-meg-triggers" class="md-skip">
           Skip to content
         </a>
       
@@ -109,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              MEG Checklist
+              LabJack
             
           </span>
         </div>
@@ -771,18 +771,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" checked>
         
           
           <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
@@ -798,7 +800,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4_2">
             <span class="md-nav__icon md-icon"></span>
             Hardware
@@ -812,7 +814,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hardware/meg/" class="md-nav__link">
+      <a href="../meg/" class="md-nav__link">
         
   
   
@@ -835,7 +837,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hardware/safety/" class="md-nav__link">
+      <a href="../safety/" class="md-nav__link">
         
   
   
@@ -858,7 +860,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hardware/contraindications/" class="md-nav__link">
+      <a href="../contraindications/" class="md-nav__link">
         
   
   
@@ -881,7 +883,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hardware/msr/" class="md-nav__link">
+      <a href="../msr/" class="md-nav__link">
         
   
   
@@ -904,7 +906,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hardware/dimensions/" class="md-nav__link">
+      <a href="../dimensions/" class="md-nav__link">
         
   
   
@@ -927,7 +929,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hardware/ihr/" class="md-nav__link">
+      <a href="../ihr/" class="md-nav__link">
         
   
   
@@ -942,77 +944,6 @@
   
 
               
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../hardware/meg-labjack/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    LabJack
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    Acquisition
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_4_3">
-            <span class="md-nav__icon md-icon"></span>
-            Acquisition
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -1035,7 +966,7 @@
   
   
   <span class="md-ellipsis">
-    MEG Checklist
+    LabJack
     
   </span>
   
@@ -1048,7 +979,7 @@
   
   
   <span class="md-ellipsis">
-    MEG Checklist
+    LabJack
     
   </span>
   
@@ -1071,126 +1002,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#prepare-control-room-msr" class="md-nav__link">
+  <a href="#matlab-code-to-initialise-labjack" class="md-nav__link">
     <span class="md-ellipsis">
-      Prepare Control Room &amp; MSR
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#prepare-meg-system" class="md-nav__link">
-    <span class="md-ellipsis">
-      Prepare MEG system
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#prepare-subject" class="md-nav__link">
-    <span class="md-ellipsis">
-      Prepare subject
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#attach-electrodes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Attach electrodes
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#check-impedance-of-electrodes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Check impedance of electrodes
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#attach-hpi-coils" class="md-nav__link">
-    <span class="md-ellipsis">
-      Attach HPI coils
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#digitize-head-coordinate-system" class="md-nav__link">
-    <span class="md-ellipsis">
-      Digitize head-coordinate system
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#digitize-hpi-coils" class="md-nav__link">
-    <span class="md-ellipsis">
-      Digitize HPI coils
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#digitize-head-shape" class="md-nav__link">
-    <span class="md-ellipsis">
-      Digitize head shape
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#prepare-the-subject-in-the-msr" class="md-nav__link">
-    <span class="md-ellipsis">
-      Prepare the subject in the MSR
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#if-using-the-eyelink-1000-plus" class="md-nav__link">
-    <span class="md-ellipsis">
-      If using the EyeLink 1000 Plus
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#start-recording" class="md-nav__link">
-    <span class="md-ellipsis">
-      Start recording
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#finishing-recording-session" class="md-nav__link">
-    <span class="md-ellipsis">
-      Finishing recording session
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tidying-up" class="md-nav__link">
-    <span class="md-ellipsis">
-      Tidying Up
+      Matlab code to initialise LabJack
     </span>
   </a>
   
@@ -1205,6 +1019,52 @@
 
               
             
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Acquisition
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            Acquisition
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
               
                 
   
@@ -1212,7 +1072,30 @@
   
   
     <li class="md-nav__item">
-      <a href="../moving-the-gantry/" class="md-nav__link">
+      <a href="../../acquisition/meg-acquisition-checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MEG Checklist
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../acquisition/moving-the-gantry/" class="md-nav__link">
         
   
   
@@ -1235,7 +1118,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../meg-consumables/" class="md-nav__link">
+      <a href="../../acquisition/meg-consumables/" class="md-nav__link">
         
   
   
@@ -2526,126 +2409,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#prepare-control-room-msr" class="md-nav__link">
+  <a href="#matlab-code-to-initialise-labjack" class="md-nav__link">
     <span class="md-ellipsis">
-      Prepare Control Room &amp; MSR
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#prepare-meg-system" class="md-nav__link">
-    <span class="md-ellipsis">
-      Prepare MEG system
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#prepare-subject" class="md-nav__link">
-    <span class="md-ellipsis">
-      Prepare subject
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#attach-electrodes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Attach electrodes
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#check-impedance-of-electrodes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Check impedance of electrodes
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#attach-hpi-coils" class="md-nav__link">
-    <span class="md-ellipsis">
-      Attach HPI coils
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#digitize-head-coordinate-system" class="md-nav__link">
-    <span class="md-ellipsis">
-      Digitize head-coordinate system
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#digitize-hpi-coils" class="md-nav__link">
-    <span class="md-ellipsis">
-      Digitize HPI coils
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#digitize-head-shape" class="md-nav__link">
-    <span class="md-ellipsis">
-      Digitize head shape
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#prepare-the-subject-in-the-msr" class="md-nav__link">
-    <span class="md-ellipsis">
-      Prepare the subject in the MSR
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#if-using-the-eyelink-1000-plus" class="md-nav__link">
-    <span class="md-ellipsis">
-      If using the EyeLink 1000 Plus
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#start-recording" class="md-nav__link">
-    <span class="md-ellipsis">
-      Start recording
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#finishing-recording-session" class="md-nav__link">
-    <span class="md-ellipsis">
-      Finishing recording session
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tidying-up" class="md-nav__link">
-    <span class="md-ellipsis">
-      Tidying Up
+      Matlab code to initialise LabJack
     </span>
   </a>
   
@@ -2670,176 +2436,55 @@
   
 
 
-<h1 id="meg-data-acquisition-checklist">MEG Data Acquisition Checklist</h1>
-<p>Click on the checklists to mark your progress through data collection.</p>
-<h2 id="prepare-control-room-msr">Prepare Control Room &amp; MSR</h2>
-<ul class="task-list">
-<li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Check functioning of stimulus and response equipment.</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Select the stim PC</label><label for="__tabbed_1_2">Select the parallel port</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<ul>
-<li>Select the correct Stim PC via KVM.<ul>
-<li>Press button 1 to connect to the OLD Stim PC.</li>
-<li>Press button 3 to connect to the NEW Stim PC.<ul>
-<li>LED Meanings</li>
-<li><b><span style="color:green">Green</span></b>/<b>Dark</b> for connected PCs, but not active.</li>
-<li><b><span style="color:green">Green</span></b>/<b><span style="color:red">Red</span></b> for connected PCs actively using the KVM.</li>
-<li><b>Dark/Dark</b> for no connection.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="tabbed-block">
-<ul>
-<li>Select the correct Parallel Port via the Parallel Port (PP) Switch Box.<ul>
-<li>PP Switch position A to connect STI101 to the OLD Stim PC (PP Base Memory Address: BFF8)</li>
-<li>PP Switch position B to connect STI101 to the NEW Stim PC (PP Base Memory Address: CFF8)</li>
-<li>PP Switch position C to connect STI101 to the <a href="../../hardware/meg-labjack/">LabJack U3-LV</a> connected via USB to the NEW Stim PC</li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</li>
-<li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Check Gantry position. Move from liquefaction (25) position to usage position.</p>
-<ul>
-<li><strong><a href="../moving-the-gantry/">Moving the Gantry</a></strong></li>
-</ul>
-</li>
-<li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Check experimental paradigm.</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Check the PROPixx projector</label><label for="__tabbed_2_2">Check Stimuli, Responses and Triggers</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<ul>
-<li>Check the PROPixx projector is "awake" (make sure lens cover is removed).<ul>
-<li>Start the VPutil program, from the Stim Desktop shortcut, and <strong>type</strong>...</li>
-<li>(ANY DEVICE) &gt; <strong><code>ppx a</code></strong> - should respond with "PROPixx is in awake mode"</li>
-<li>To "sleep" the projector ...</li>
-<li>(ANY DEVICE) &gt; <strong><code>ppx s</code></strong> - should respond with "PROPixx is in sleep mode"</li>
-<li>Please do not leave the PROPixx projector in "awake" mode when not in use e.g. overnight!<ul>
-<li>NOTE: <strong><code>ppx a / ppx s</code></strong> didn't work on one occasion. PROPixx needed a full power off/on to reset.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="tabbed-block">
-<ul>
-<li>Check that the stimuli and responses are as expected.</li>
-<li>Check arrival of triggers in MEG recording.<ul>
-<li>Note: NEW Stim PC parallel port card has a different Base Memory Address than the OLD Stim PC. Change your code on the NEW Stim PC to refer to PP Base Memory Address CFF8 (e.g., in <code>initialiseParallelPort.m</code> when using MATLAB).</li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</li>
-<li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Start subject preparation - items to have ready/available.</p>
-<ul>
-<li>Label 4 electrodes for EOG, 2 electrodes for ECG and any other (i.e. EMG) electrodes as required. Have some additional electrodes ready in case you have to redo them.<ul>
-<li><strong>NOTE:</strong> Reusable and disposable electrodes are available.</li>
-</ul>
-</li>
-<li>Electrode gel (in 20ml syringes - use the caulking gun to fill them.) We also have 12ml <em>curved tip</em> syringes available.</li>
-<li>Cut tape ready for attaching electrodes to skin (Tegaderm tape)</li>
-<li>Cut tape for securing electrodes (Micropore tape) and Blenderm tape for attaching cHPI coils.</li>
-<li>Small double-sided sticky discs used to secure reusable electrodes.</li>
-<li>If using an EEG cap, check it over for damaged electrodes. Makes sure it's clean and dry.</li>
-<li>Set up the Digitiser chair, away from any metal. Attach the transmitter cube to the back of the chair. The <strong>cable has to point downwards</strong>.</li>
-<li>See this page for our various consumable items - <strong><a href="../meg-consumables/">MEG Consumables</a></strong></li>
-</ul>
-</li>
-<li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Check the MSR, yourself, and participant, for any unwanted items that could cause artefacts and remove them.</p>
-<ul>
-<li>See this PDF... <strong><a href="../../pdfs/Metal_items_checklist.pdf">Metal items Checklist</a></strong></li>
-</ul>
-</li>
-<li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Check that the participant monitoring camera and microphone are working correctly.</p>
-</li>
-</ul>
-<h2 id="prepare-meg-system">Prepare MEG system</h2>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Prepare system.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Check quality of channels.<ul>
-<li>Click "Noisy Channels" for more information</li>
-</ul>
-</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Select or create project.<ul>
-<li>Check or select acquisition parameters.</li>
-<li>Check or create online averaging parameters'</li>
-</ul>
-</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Create subject.</li>
-</ul>
-<h2 id="prepare-subject">Prepare subject</h2>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Offer bathroom break.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Explain preparation procedure.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Explain experiment.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Let subject read and sign informed consent.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Have subject remove metal objects, and do a comprehensive check with both metal detectors. Subject to change into scrubs if necessary (show subject to Changing Room and show scrubs sizes that are available).<ul>
-<li>We are trying to reduce our laundry bill so only use scrubs if necessary e.g. metal in clothing.</li>
-</ul>
-</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> cClean hands with Alcohol Gel Sanitizer.</li>
-</ul>
-<h2 id="attach-electrodes">Attach electrodes</h2>
-<p><strong>Sanitise your hands with the provided Alcohol gel.</strong> We have both reusable and disposable electrodes available for use. When ready to attach a reusable electrode:</p>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Carefully attach a sticky disc to the electrode, centering the hole over the grey Ag/AgCl. Remove the paper protective cover, exposing the disc adhesive.</li>
-<li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Using a gel-filled syringe and blunt needle, place a drop of gel in the electrode center.</p>
-</li>
-<li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> If using the <a href="">NeuroTab</a> disposable electrodes.</p>
-<ul class="task-list">
-<li>Remove the transparent backing from the electrode and place the electrode on the prepared site.</li>
-<li>To ensure good contact, apply pressure to the center of the electrode and move to the edges.</li>
-<li>
-<p>Do not pull on the cable when applying it or when attached. Apply Micropore tape as necessary to help secure it in place.</p>
-</li>
-<li>
-<p>Rub skin with alcohol pads where the electrodes and HPI coils will be attached (see figure 1 below). Don't overdo it as the skin can become sensitive. Some Operators also like to then abrade the skin with NuPrep paste. Using one of our small stainless steel bowls, squeeze out some NuPrep and rub it onto the skin using a cotton bud.</p>
-</li>
-<li>Use tissues to gently wipe-off excess NuPrep as it is non-conducting (some Operators then like to re-wipe the skin with an alcohol pad).</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>hEOG</strong>: Attach an electrode on the outside of the subject's left eye (hEOG left) and on the outside of the subject's right eye (hEOG right). Make sure that the electrodes are in line with the eyes.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>vEOG</strong>: Attach an electrode above subject's right eye (vEOG up) and below the subject's right eye (vEOG down). Make sure that the electrodes are in line with the eyes.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>ECG</strong>: Attach an electrode on the left collarbone (ECG left) and on the right collarbone (ECG right).</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>GND</strong>: Attach an electrode on the back of the subject's neck (GND).</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>REF</strong>: Attach an electrode on the subject's right cheekbone (REF).</li>
-</ul>
-</li>
-</ul>
-<p><img alt="Image title" src="../../../images/meg/Electrode_placement.png" /></p>
-<p>NOTE: REF may not be required for the bipolar EOG, ECG, but use as necessary if channels are noisy.
-For EMG, site REF electrode where required/as per your paradigm.
-Use Micropore tape over the electrodes to help hold them in place.</p>
+<h1 id="using-labjack-to-send-meg-triggers">Using LabJack to send MEG triggers</h1>
+<p>The following code can be used to send triggers to the MEG using a LabJack. The current setup uses a LabJack U3-LV, although the code can easily be modified for other versions.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Our Electrode input on the gantry is to the <strong>right of the subject</strong>, so we use the <strong>right eye for vEOG</strong>.</p>
+<p>There is a small delay sending triggers via a LabJack compared to directly from the PC (see <a href="https://support.labjack.com/docs/3-1-command-response-u3-datasheet">https://support.labjack.com/docs/3-1-command-response-u3-datasheet</a>). For many, this delay (~0.6-1 ms) is probably negligible, but if super accurate timing is important for your experiment you may need to look on LabJack's website for more information and/or run your own timing tests.</p>
 </div>
-<h2 id="check-impedance-of-electrodes">Check impedance of electrodes</h2>
-<h2 id="attach-hpi-coils">Attach HPI coils</h2>
-<h2 id="digitize-head-coordinate-system">Digitize head-coordinate system</h2>
-<h2 id="digitize-hpi-coils">Digitize HPI coils</h2>
-<h2 id="digitize-head-shape">Digitize head shape</h2>
-<h2 id="prepare-the-subject-in-the-msr">Prepare the subject in the MSR</h2>
-<h2 id="if-using-the-eyelink-1000-plus">If using the EyeLink 1000 Plus</h2>
-<h2 id="start-recording">Start recording</h2>
-<h2 id="finishing-recording-session">Finishing recording session</h2>
-<h2 id="tidying-up">Tidying Up</h2>
+<p>LabJack main website: <a href="https://labjack.com/">https://labjack.com/</a></p>
+<p>LabJack U3-LV documentation: <a href="https://support.labjack.com/docs/u3-datasheet">https://support.labjack.com/docs/u3-datasheet</a></p>
+<p>Example code for controlling LabJack U3: <a href="https://support.labjack.com/docs/ud-example-code-u3-u6-ue9">https://support.labjack.com/docs/ud-example-code-u3-u6-ue9</a></p>
+<h2 id="matlab-code-to-initialise-labjack">Matlab code to initialise LabJack</h2>
+<p>Matlab-specific examples on LabJack support website: <a href="https://support.labjack.com/docs/matlab-for-ud-windows">https://support.labjack.com/docs/matlab-for-ud-windows</a></p>
+<p>The following code uses digital I/O to set ports to high or low (i.e., on or off) to send triggers to the MEG via a parallel port.</p>
+<p>To connect to LabJack:</p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">function</span><span class="w"> </span><span class="nf">[ljudObj, ljhandle] = initialiseLabJack</span><span class="p">()</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="c">% Make the UD .NET assembly visible in MATLAB.</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="n">ljasm</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">NET.addAssembly</span><span class="p">(</span><span class="s">&#39;LJUDDotNet&#39;</span><span class="p">);</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="n">ljudObj</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">LabJack</span><span class="p">.</span><span class="n">LabJackUD</span><span class="p">.</span><span class="n">LJUD</span><span class="p">;</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="c">% Read and display the UD version.</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="nb">disp</span><span class="p">([</span><span class="s">&#39;UD Driver Version = &#39;</span><span class="w"> </span><span class="nb">num2str</span><span class="p">(</span><span class="n">ljudObj</span><span class="p">.</span><span class="n">GetDriverVersion</span><span class="p">())])</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="c">% Open the first found LabJack U3.</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="p">[</span><span class="n">ljerror</span><span class="p">,</span><span class="w"> </span><span class="n">ljhandle</span><span class="p">]</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">ljudObj</span><span class="p">.</span><span class="n">OpenLabJackS</span><span class="p">(</span><span class="s">&#39;LJ_dtU3&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;LJ_ctUSB&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;0&#39;</span><span class="p">,</span><span class="w"> </span><span class="nb">true</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="c">% Start by using the pin_configuration_reset IOType so that all pin</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="c">% assignments are in the factory default condition.</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="n">ljudObj</span><span class="p">.</span><span class="n">ePutS</span><span class="p">(</span><span class="n">ljhandle</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;LJ_ioPIN_CONFIGURATION_RESET&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="k">end</span>
+</span></code></pre></div>
+<p>To send a trigger to the MEG:</p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">trigger_code</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">255</span><span class="p">;</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">ljudObj</span><span class="p">.</span><span class="n">AddRequestS</span><span class="p">(</span><span class="n">ljhandle</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;LJ_ioPUT_DIGITAL_PORT&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">trigger_code</span><span class="p">,</span><span class="w"> </span><span class="mi">8</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span><span class="w"> </span><span class="c">% assign code to 0-7 ports</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="n">ljudObj</span><span class="p">.</span><span class="n">GoOne</span><span class="p">(</span><span class="n">ljhandle</span><span class="p">);</span><span class="w"> </span><span class="c">% send the code</span>
+</span></code></pre></div>
+<p>The 'LJ_ioPUT_DIGITAL_PORT' command will convert the trigger_code from decimal to binary (e.g., "87" becomes "01010111" in binary) and set the corresponding ports as low or high (0 or 1). The trigger is then sent via the parallel port when goOne() is called. To reset the ports back to low (i.e., all 0s), do the same as above but set <code>trigger_code = 0</code>.</p>
+<p>For ease of use, you can wrap the code above in a function that quickly sends a trigger and resets to zero:</p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">function</span><span class="w"> </span><span class="nf">triggerSpike</span><span class="p">(</span>ljudObj, ljhandle, trigger_code<span class="p">)</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="n">ljudObj</span><span class="p">.</span><span class="n">AddRequestS</span><span class="p">(</span><span class="n">ljhandle</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;LJ_ioPUT_DIGITAL_PORT&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">trigger_code</span><span class="p">,</span><span class="w"> </span><span class="mi">8</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span><span class="w"> </span><span class="c">%assign code to 0-7 ports</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="n">ljudObj</span><span class="p">.</span><span class="n">GoOne</span><span class="p">(</span><span class="n">ljhandle</span><span class="p">);</span><span class="w"> </span><span class="c">%send the code</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="n">WaitSecs</span><span class="p">(</span><span class="mf">0.002</span><span class="p">);</span><span class="w"> </span><span class="c">% Psychtoolbox function. Should be more accurate, but can use pause(0.002) if not using psychtoolbox</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="n">ljudObj</span><span class="p">.</span><span class="n">AddRequestS</span><span class="p">(</span><span class="n">ljhandle</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;LJ_ioPUT_DIGITAL_PORT&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">8</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span><span class="w"> </span><span class="c">%reset to zero</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="n">ljudObj</span><span class="p">.</span><span class="n">GoOne</span><span class="p">(</span><span class="n">ljhandle</span><span class="p">);</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="k">end</span>
+</span></code></pre></div>
+<p>Then just call <code>triggerSpike(ljudObj, ljhandle, trigger_code)</code> in your scripts to send a trigger to the MEG (make sure to initialise the LabJack first, otherwise the <code>ljudObj</code> and <code>ljhandle</code> variables won't exist).</p>
 
 
 
