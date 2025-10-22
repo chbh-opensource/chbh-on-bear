@@ -2723,36 +2723,39 @@
 <li>(ANY DEVICE) &gt; <strong><code>ppx a</code></strong> - should respond with "PROPixx is in awake mode"</li>
 <li>To "sleep" the projector ...</li>
 <li>(ANY DEVICE) &gt; <strong><code>ppx s</code></strong> - should respond with "PROPixx is in sleep mode"</li>
-<li>Please do not leave the PROPixx projector in "awake" mode when not in use e.g. overnight!<ul>
-<li>NOTE: <strong><code>ppx a / ppx s</code></strong> didn't work on one occasion. PROPixx needed a full power off/on to reset.</li>
+<li>Please do not leave the PROPixx projector in "awake" mode when not in use e.g. overnight!</li>
 </ul>
-</li>
-</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong><code>ppx a / ppx s</code></strong> didn't work on one occasion. PROPixx needed a full power off/on to reset.</p>
+</div>
 </li>
 </ul>
 </div>
 <div class="tabbed-block">
 <ul>
 <li>Check that the stimuli and responses are as expected.</li>
-<li>Check arrival of triggers in MEG recording.<ul>
-<li>Note: NEW Stim PC parallel port card has a different Base Memory Address than the OLD Stim PC. Change your code on the NEW Stim PC to refer to PP Base Memory Address CFF8 (e.g., in <code>initialiseParallelPort.m</code> when using MATLAB).</li>
+<li>Check arrival of triggers in MEG recording.</li>
 </ul>
-</li>
-</ul>
+<div class="admonition note">
+<p class="admonition-title">New Stim PC PP card has a different Base Memory Address than the OLD Stim PC PP card.</p>
+<p>Change any, e.g. MATLAB, code on the NEW Stim PC, referencing the PP Base Memory Address to...<br />
+<strong>CFF8</strong> ... e.g. in <code>initialiseParallelPort.m</code></p>
+</div>
 </div>
 </div>
 </div>
 </li>
 <li class="task-list-item">
 <p><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Start subject preparation - items to have ready/available.</p>
+<div class="admonition info">
+<p class="admonition-title">Reusable and disposable electrodes are available for use as required.</p>
+</div>
 <ul>
-<li>Label 4 electrodes for EOG, 2 electrodes for ECG and any other (i.e. EMG) electrodes as required. Have some additional electrodes ready in case you have to redo them.<ul>
-<li><strong>NOTE:</strong> Reusable and disposable electrodes are available.</li>
-</ul>
-</li>
+<li>Label 4 electrodes for EOG, 2 electrodes for ECG and any other (i.e. EMG) electrodes as required. Have some additional electrodes ready in case you have to redo them.</li>
 <li>Electrode gel (in 20ml syringes - use the caulking gun to fill them.) We also have 12ml <em>curved tip</em> syringes available.</li>
-<li>Cut tape ready for attaching electrodes to skin (Tegaderm tape)</li>
-<li>Cut tape for securing electrodes (Micropore tape) and Blenderm tape for attaching cHPI coils.</li>
+<li>Cut tape ready for attaching electrodes to skin (<em>Tegaderm</em> tape)</li>
+<li>Cut tape for securing electrodes (<em>Micropore</em> tape) and <em>Blenderm</em> tape for attaching cHPI coils.</li>
 <li>Small double-sided sticky discs used to secure reusable electrodes.</li>
 <li>If using an EEG cap, check it over for damaged electrodes. Makes sure it's clean and dry.</li>
 <li>Set up the Digitiser chair, away from any metal. Attach the transmitter cube to the back of the chair. The <strong>cable has to point downwards</strong>.</li>
@@ -2771,9 +2774,9 @@
 </ul>
 <h2 id="prepare-meg-system">Prepare MEG system</h2>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Prepare system.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Check quality of channels.<ul>
-<li>Click "Noisy Channels" for more information</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Login to the Console, start MEG Acquisition program.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Load lastest Tuning file, check quality of channels.<br /> "<em>Heat Sensor</em>", "<em>Reset Channels</em>" as necessary.<ul>
+<li>See this flowchart "Noisy Channels", or for a more detailed process, see this walkthrough.</li>
 </ul>
 </li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Select or create project.<ul>
@@ -2793,7 +2796,7 @@
 <li>We are trying to reduce our laundry bill so only use scrubs if necessary e.g. metal in clothing.</li>
 </ul>
 </li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> cClean hands with Alcohol Gel Sanitizer.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Clean hands with Alcohol Gel Sanitizer.</li>
 </ul>
 <h2 id="attach-electrodes">Attach electrodes</h2>
 <p><strong>Sanitise your hands with the provided Alcohol gel.</strong> We have both reusable and disposable electrodes available for use. When ready to attach a reusable electrode:</p>
