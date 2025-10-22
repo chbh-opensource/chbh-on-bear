@@ -10,10 +10,12 @@ If your population of participants is limited or rare, you may have to run Acqui
 
 Depending on the artifact, it may well be possible to correct the Acquired data/remove the noise in postprocessing through the use of MaxFilter/Spatiotemporal SSS (tSSS) and/or MATLAB/FieldTrip.
 
-**<span style="color:red">NOTE:</span>** MRI compatibility is not equivalent to MEG compatibility.
-An MRI-compatible object might still contain some amount of ferromagnetic material which does not discount it from allowing an MRI scan but will induce artifacts that will show in the MEG signal.
-
-**<span style="color:red">NOTE:</span>** The majority of the contraindications, if not all, will have been mentioned in both our MRI and MEG screening forms. Remember to go over both screening forms when recruiting participants, to make sure you're able to obtain T1 scans (if you require them for your study).
+!!! Note
+	MRI compatibility is not equivalent to MEG compatibility. An MRI-compatible object might still contain some amount of ferromagnetic material which does not discount it from allowing an MRI scan but will induce artifacts that will show in the MEG signal.
+	
+	
+!!! Info
+	The majority of the contraindications, if not all, will have been mentioned in both our MRI and MEG screening forms. Remember to go over both screening forms when recruiting participants, to make sure you're able to obtain T1 scans (if you require them for your study).
 
 ### **Known contraindications**
 (***not listed in any specific order of signal degradation***)

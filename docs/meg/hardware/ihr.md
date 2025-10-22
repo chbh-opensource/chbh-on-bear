@@ -31,7 +31,7 @@ The liquefaction rate is optimal at the 25<sup>o</sup> position. If the gantry i
 
 If released into the air it poses a danger of suffocation. If a significant Helium leakage is detected our Oxygen Depletion Alarms will sound, then :
 
-* Immediately, calmly, evacuate MEG Control Room & MSR - and instruct others not to enter.
+* Immediately, calmly, evacuate MEG Control Room & MSR, and inform Sleep Control Room & Labs of their need to evacuate also, and instruct other staff/students not to enter the corridor.
 * Arrange proper ventilation.
 	* Open Fire Exit.
 	* Open MEG Corridor door.

@@ -2,8 +2,8 @@
 
 <big>**<span style="color:red">Never change the gantry position whilst a particiant is seated under the gantry!</span>**</big>
 
-**<span style="color:red">NOTE:</span>** For all **"in use" positions (0, 60 & 68)**, traffic light should show <span style="color:green">**solid** GREEN</span> LED.   
-**<span style="color:red">NOTE:</span>** In the **liquefaction position (25)**, traffic light should show <span style="color:green">**flashing** GREEN</span> LED.
+For all **"in use" positions (0, 60 & 68)**, traffic light should show <span style="color:green">**solid** GREEN</span> LED.   
+In the **liquefaction position (25)**, traffic light should show <span style="color:green">**flashing** GREEN</span> LED.
 
 **After liquefaction has stopped (~9:0am), set the probe unit to the desired measurement position to be able to start a MEG measurement.**
 

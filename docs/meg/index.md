@@ -25,6 +25,9 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
     Equipment and setup for data collection
 
     - [MEG Acquisition Checklist](acquisition/meg-acquisition-checklist.md)
+	- [Moving the Gantry](acquisition/moving-the-gantry.md)
+	- [MEG Consumables](acquisition/meg-consumables.md)
+
 	
 -	**Lab Safety**
 

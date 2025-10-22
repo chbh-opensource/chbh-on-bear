@@ -19,8 +19,8 @@ Click on the checklists to mark your progress through data collection.
     === "Select the parallel port"
 
         - Select the correct Parallel Port via the Parallel Port (PP) Switch Box.
-            - Use PP Switch position A to connect STI101 to the OLD Stim PC (PP Base Memory Address: BFF8)
-            - Use PP Switch position B to connect STI101 to the NEW Stim PC (PP Base Memory Address: CFF8)
+            - Use **PP Switch position A** to connect STI101 to the **OLD Stim PC** (PP Base Memory Address: **BFF8**)
+            - Use **PP Switch position B** to connect STI101 to the **NEW Stim PC** (PP Base Memory Address: **CFF8**)
 
 
 - [ ] Check Gantry position. Move from liquefaction (25) position to usage position.
@@ -36,22 +36,26 @@ Click on the checklists to mark your progress through data collection.
             - To "sleep" the projector ...
             - (ANY DEVICE) > **`ppx s`** - should respond with "PROPixx is in sleep mode"
             - Please do not leave the PROPixx projector in "awake" mode when not in use e.g. overnight!
-                - NOTE: **`ppx a / ppx s`** didn't work on one occasion. PROPixx needed a full power off/on to reset.
+			!!! Note
+			    **`ppx a / ppx s`** didn't work on one occasion. PROPixx needed a full power off/on to reset.
+				
 
     === "Check Stimuli, Responses and Triggers"
 
         - Check that the stimuli and responses are as expected.
         - Check arrival of triggers in MEG recording.
-            - NOTE: New Stim PC PP card has a different Base Memory Address than the OLD Stim PC.
-                - Change any, e.g. MATLAB, code on the NEW Stim PC, referencing the PP Base Memory Address to...
-                    - CFF8 ... e.g. in `initialiseParallelPort.m`
+		!!! note "New Stim PC PP card has a different Base Memory Address than the OLD Stim PC PP card."
+			Change any, e.g. MATLAB, code on the NEW Stim PC, referencing the PP Base Memory Address to...<br />
+			**CFF8** ... e.g. in `initialiseParallelPort.m`
+
 
 - [ ] Start subject preparation - items to have ready/available.
-    - Label 4 electrodes for EOG, 2 electrodes for ECG and any other (i.e. EMG) electrodes as required. Have some additional electrodes ready in case you have to redo them.
-		- **NOTE:** Reusable and disposable electrodes are available.
+ 
+	!!! info "Reusable and disposable electrodes are available for use as required."
+	- Label 4 electrodes for EOG, 2 electrodes for ECG and any other (i.e. EMG) electrodes as required. Have some additional electrodes ready in case you have to redo them.
     - Electrode gel (in 20ml syringes - use the caulking gun to fill them.) We also have 12ml *curved tip* syringes available.
-    - Cut tape ready for attaching electrodes to skin (Tegaderm tape)
-    - Cut tape for securing electrodes (Micropore tape) and Blenderm tape for attaching cHPI coils.
+    - Cut tape ready for attaching electrodes to skin (*Tegaderm* tape)
+    - Cut tape for securing electrodes (*Micropore* tape) and *Blenderm* tape for attaching cHPI coils.
 	- Small double-sided sticky discs used to secure reusable electrodes.
     - If using an EEG cap, check it over for damaged electrodes. Makes sure it's clean and dry.
     - Set up the Digitiser chair, away from any metal. Attach the transmitter cube to the back of the chair. The **cable has to point downwards**.
@@ -64,9 +68,9 @@ Click on the checklists to mark your progress through data collection.
 
 ## Prepare MEG system
 
-- [ ] Prepare system.
-- [ ] Check quality of channels.
-    - Click "Noisy Channels" for more information
+- [ ] Login to the Console, start MEG Acquisition program.
+- [ ] Load lastest Tuning file, check quality of channels.<br /> "*Heat Sensor*", "*Reset Channels*" as necessary.
+    - See this flowchart "Noisy Channels", or for a more detailed process, see this walkthrough.
 - [ ] Select or create project.
     - Check or select acquisition parameters.
     - Check or create online averaging parameters'
@@ -80,7 +84,7 @@ Click on the checklists to mark your progress through data collection.
 - [ ] Let subject read and sign informed consent.
 - [ ] Have subject remove metal objects, and do a comprehensive check with both metal detectors. Subject to change into scrubs if necessary (show subject to Changing Room and show scrubs sizes that are available).
     - We are trying to reduce our laundry bill so only use scrubs if necessary e.g. metal in clothing.
-- [ ] cClean hands with Alcohol Gel Sanitizer.
+- [ ] Clean hands with Alcohol Gel Sanitizer.
 
 ## Attach electrodes
 

@@ -26,20 +26,15 @@
 **[OUTSIDE emergency door opening instructions](../../meg/pdfs/MSRDoorEmergencyOutside.pdf)** <br />
 **[INSIDE emergency door opening instructions](../../meg/pdfs/MSRDoorEmergencyInside.pdf)**
 
-### **Principles of MSR Door Operation**
 
-The **MSR** door is locked by pressurized air, provided by the compressor in the plant room next door. <br />
-On pressing the **Emergency Door Release** button, the air pressure is released, allowing free
-movement of the two latches holding the door shut. <br />
-The door will open approximately 20mm and can be pulled/pushed open the rest of the way. <br />
-It is heavy so a reasonable amount of effort will be required. <br />
-If for any reason the two latches are still locked after releasing the air pressure, the **Emergency Unlock** mechanism releases a 
-spring that pulls the latches away from the lock hinges, allowing the door to open.
-
-**To reset the latches**
-
-Open the door wide enough to gain access to them. <br />
-Insert the hex key into both slots and turn in the opposite direction of the arrow. <br />
-Pull the latches out of their unlocked positions,
-against the spring, until they lock. <br />
-The spring is powerful, so pull hard!
+!!! info "Principles of MSR Door Operation"
+	The **MSR** door is locked by pressurized air, provided by the compressor in the plant room next door. <br />
+	On pressing the **Emergency Door Release** button, the air pressure is released, allowing free movement of the two latches holding the door shut. <br />
+	The door will open approximately 2cm and can be pulled/pushed open the rest of the way. <br />
+	It is heavy so a reasonable amount of effort will be required. <br />
+	If for any reason the two latches are still locked after releasing the air pressure, the **Emergency Unlock** mechanism releases a spring that pulls the latches away from the lock hinges, allowing the door to open.<br /><br />
+	**To reset the latches**<br />
+	Open the door wide enough to gain access to them. <br />
+	Insert the hex key into both slots and turn in the opposite direction of the arrow. <br />
+	Pull the latches out of their unlocked positions, against the spring, until they lock. <br />
+	The spring is powerful, so pull hard!

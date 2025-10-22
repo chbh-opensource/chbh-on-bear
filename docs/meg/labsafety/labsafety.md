@@ -10,7 +10,13 @@ If released into the air it poses a danger of suffocation. If a significant Heli
 	* Open MEG Corridor door.
 	* Open Sleep Lab doors and subsequently the windows (if possible).
 * **<span style="color:blue">Beacon will flash/Alarm will sound - until Oxygen level is back above threshold.</span>**
-* **<span style="color:red">Note: </span>** **Our ODA  is not connected to the building Fire Alarm system**, swipe access will not be disabled/door will remain locked. You will need to use the "*no touch*" button to exit the corridor towards Reception.
+
+!!! info "Our ODA is not connected to the building Fire Alarm system"
+	Swipe access will not be disabled/corridor door will remain locked. **Use of the green "*no touch*" button** will be required to exit the corridor towards Reception.
+	
+	**If "*no touch*" button doesn’t work to exit corridor**, lift clear plastic flap, press **green emergency button**.<br />Lock will lose power/switch off, and door will pull/push open.<br /> 
+	Button Reset key in MEG Key Safe – to be used by Ops. Comm. staff and trained MEG Operators as necessary.
+
 
 The IHR tank room and MSR are protected by Oxygen Depletion sensors, with both a flashing Beacon and an 85dB Sounder.
 
