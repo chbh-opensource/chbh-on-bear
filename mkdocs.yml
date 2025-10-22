@@ -34,6 +34,23 @@ theme:
     - content.code.copy
   logo: images/CHBH_logo.jpg
   favicon: images/CHBH_logo.jpg
+  
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
 nav:
   - Home: index.md
@@ -57,9 +74,19 @@ nav:
     - Hardware:
       - MEG System: meg/hardware/meg.md
       - MEG Safety: meg/hardware/safety.md
+      - MEG Contraindications: meg/hardware/contraindications.md
+      - How to open the MSR: meg/hardware/msr.md
+      - MSR Dimensions: meg/hardware/dimensions.md
+      - The IHR: meg/hardware/ihr.md
       - LabJack: meg/hardware/meg-labjack.md
     - Acquisition:
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
+      - Moving the Gantry: meg/acquisition/moving-the-gantry.md
+      - MEG Consumables: meg/acquisition/meg-consumables.md
+    - Lab Safety:
+      - Procedures: meg/labsafety/labsafety.md
+    - Stimulus Presentation:
+      - VPixx Projector: meg/stimulus/propixx.md
     - Analysis Tools:
       - MNE-Python: meg/analysis/mne.md
   - EEG:

@@ -13,6 +13,10 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 
     - [The MEG](hardware/meg.md)
     - [MEG Safety](hardware/safety.md)
+		- [MEG Contraindications](hardware/contraindications.md)
+	- How to [Open the MSR](hardware/msr.md)
+		- MSR [Dimensions](hardware/dimensions.md)
+	- [Helium Recycling System](hardware/ihr.md) (the IHR)
 
 -   **Data Acquisition**
 
@@ -21,12 +25,23 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
     Equipment and setup for data collection
 
     - [MEG Acquisition Checklist](acquisition/meg-acquisition-checklist.md)
+	
+-	**Lab Safety**
+
+	---
+	
+	Procedures to follow in case of an emergency
+	
+	- [Safety Procedures](labsafety/labsafety.md)
+	
 
 -   **Stimulus Delivery**
 
     ---
 
     Software and methods for stimulus presentation
+	
+	- [PROPixx](stimulus/propixx.md) Projector
 
 
 -   **Quality Control**

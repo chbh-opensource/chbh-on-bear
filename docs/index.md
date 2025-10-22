@@ -20,7 +20,7 @@ We are always open for new contributions. This is a fantastic way to build your 
 <div class="grid cards" markdown>
 
 - <a href="mri" class="card">__MRI__ ![MRI image](images/mri/prisma.jpg){ loading=lazy }</a>
-- <a href="meg" class="card">__MEG__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
+- <a href="meg" class="card">__MEG__ ![MEG image](images/meg/TRIUX.jpg){ loading=lazy }</a>
 - <a href="eeg" class="card">__EEG__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
 - <a href="eeg-fmri" class="card">__EEG-fMRI__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
 - <a href="sleep" class="card">__Sleep__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
@@ -61,6 +61,8 @@ Many thanks to our contributors!
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://wilsonlab.co.uk"><img src="https://avatars.githubusercontent.com/u/7724002?v=4?s=100" width="100px;" alt="Martin Wilson"/><br /><sub><b>Martin Wilson</b></sub></a><br /><a href="#content-martin3141" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/froemero"><img src="https://avatars.githubusercontent.com/u/23497654?v=4?s=100" width="100px;" alt="froemero"/><br /><sub><b>froemero</b></sub></a><br /><a href="#content-froemero" title="Content">🖋</a></td>
+	  <td align="center" valign="top" width="14.28%"><a href="https://github.com/MEGSupportCHBH"><img src="https://avatars.githubusercontent.com/u/50209322?v=4" width="100px;" alt="Jonathan L Winter"/><br /><sub><b>Jonathan L Winter</b></sub></a><br /><a href="#content-MEGSupportCHBH" title="Content">🖋</a></td>
+	  
     </tr>
   </tbody>
 </table>
