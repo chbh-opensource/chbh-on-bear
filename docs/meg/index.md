@@ -17,6 +17,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- How to [Open the MSR](hardware/msr.md)
 		- MSR [Dimensions](hardware/dimensions.md)
 	- [Helium Recycling System](hardware/ihr.md) (the IHR)
+	- [LabJack](hardware/meg-labjack.md)
 
 -   **Data Acquisition**
 
