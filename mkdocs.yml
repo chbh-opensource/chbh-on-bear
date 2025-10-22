@@ -97,6 +97,10 @@ nav:
       - FieldTrip: eeg/analysis/fieldtrip.md
   - EEG-fMRI:
     - eeg-fmri/index.md
+    - Acquisition:
+      - EEG-fMRI Acquisition: eeg-fmri/acquisition/eeg_fmri_checklist.md
+    - Hardware:
+      - The MR Comptaible EEG System: eeg-fmri/hardware/eeg_mr_system.md
   - Brain Stimulation:
     - brainstim/index.md
     - FUS:
