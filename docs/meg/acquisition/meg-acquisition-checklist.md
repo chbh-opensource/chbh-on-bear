@@ -19,9 +19,9 @@ Click on the checklists to mark your progress through data collection.
     === "Select the parallel port"
 
         - Select the correct Parallel Port via the Parallel Port (PP) Switch Box.
-            - Use PP Switch position A to connect STI101 to the OLD Stim PC (PP Base Memory Address: BFF8)
-            - Use PP Switch position B to connect STI101 to the NEW Stim PC (PP Base Memory Address: CFF8)
-
+            - PP Switch position A to connect STI101 to the OLD Stim PC (PP Base Memory Address: BFF8)
+            - PP Switch position B to connect STI101 to the NEW Stim PC (PP Base Memory Address: CFF8)
+            - PP Switch position C to connect STI101 to the [LabJack U3-LV](../hardware/meg-labjack.md) connected via USB to the NEW Stim PC
 
 - [ ] Check Gantry position. Move from liquefaction (25) position to usage position.
 	* **[Moving the Gantry](moving-the-gantry.md)**
@@ -42,9 +42,7 @@ Click on the checklists to mark your progress through data collection.
 
         - Check that the stimuli and responses are as expected.
         - Check arrival of triggers in MEG recording.
-            - NOTE: New Stim PC PP card has a different Base Memory Address than the OLD Stim PC.
-                - Change any, e.g. MATLAB, code on the NEW Stim PC, referencing the PP Base Memory Address to...
-                    - CFF8 ... e.g. in `initialiseParallelPort.m`
+            - Note: NEW Stim PC parallel port card has a different Base Memory Address than the OLD Stim PC. Change your code on the NEW Stim PC to refer to PP Base Memory Address CFF8 (e.g., in `initialiseParallelPort.m` when using MATLAB).
 
 - [ ] Start subject preparation - items to have ready/available.
     - Label 4 electrodes for EOG, 2 electrodes for ECG and any other (i.e. EMG) electrodes as required. Have some additional electrodes ready in case you have to redo them.
@@ -89,14 +87,13 @@ Click on the checklists to mark your progress through data collection.
 - [ ] Carefully attach a sticky disc to the electrode, centering the hole over the grey Ag/AgCl. Remove the paper protective cover, exposing the disc adhesive.
 - [ ] Using a gel-filled syringe and blunt needle, place a drop of gel in the electrode center.
 
-- [ ] If using the [NeuroTab] disposable electrodes.
+- [ ] If using the [NeuroTab]() disposable electrodes.
     - Remove the transparent backing from the electrode and place the electrode on the prepared site.
     - To ensure good contact, apply pressure to the center of the electrode and move to the edges.
     - Do not pull on the cable when applying it or when attached. Apply Micropore tape as necessary to help secure it in place.
 
-
     - Rub skin with alcohol pads where the electrodes and HPI coils will be attached (see figure 1 below). Don't overdo it as the skin can become sensitive. Some Operators also like to then abrade the skin with NuPrep paste. Using one of our small stainless steel bowls, squeeze out some NuPrep and rub it onto the skin using a cotton bud.
-    - Use tissues to gently wipe-off excess NuPrep as it is non-conducting (some Operators then like to re-wipe the skin with an alochol pad).
+    - Use tissues to gently wipe-off excess NuPrep as it is non-conducting (some Operators then like to re-wipe the skin with an alcohol pad).
     - [ ] **hEOG**: Attach an electrode on the outside of the subject's left eye (hEOG left) and on the outside of the subject's right eye (hEOG right). Make sure that the electrodes are in line with the eyes.
     - [ ] **vEOG**: Attach an electrode above subject's right eye (vEOG up) and below the subject's right eye (vEOG down). Make sure that the electrodes are in line with the eyes.
     - [ ] **ECG**: Attach an electrode on the left collarbone (ECG left) and on the right collarbone (ECG right).
@@ -112,9 +109,7 @@ Use Micropore tape over the electrodes to help hold them in place.
 !!! note
     Our Electrode input on the gantry is to the **right of the subject**, so we use the **right eye for vEOG**.
 
-
-
-## Check impedance of electrodes
+## Check impedance of electrodes
 
 ## Attach HPI coils
 
@@ -122,7 +117,7 @@ Use Micropore tape over the electrodes to help hold them in place.
 
 ## Digitize HPI coils
 
-## Digitize headshape
+## Digitize head shape
 
 ## Prepare the subject in the MSR
 
