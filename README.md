@@ -1,7 +1,7 @@
 # CHBH-on-BEAR Documentation
 <!-- markdownlint-disable -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- markdownlint-restore -->
 
@@ -38,7 +38,8 @@ Many thanks to our contributors - please open an issue if you're missing from th
       <td align="center" valign="top" width="14.28%"><a href="http://wilsonlab.co.uk"><img src="https://avatars.githubusercontent.com/u/7724002?v=4?s=100" width="100px;" alt="Martin Wilson"/><br /><sub><b>Martin Wilson</b></sub></a><br /><a href="#content-martin3141" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/froemero"><img src="https://avatars.githubusercontent.com/u/23497654?v=4?s=100" width="100px;" alt="froemero"/><br /><sub><b>froemero</b></sub></a><br /><a href="#content-froemero" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/toddvogel1628"><img src="https://avatars.githubusercontent.com/u/33038588?v=4?s=100" width="100px;" alt="toddvogel1628"/><br /><sub><b>toddvogel1628</b></sub></a><br /><a href="#content-toddvogel1628" title="Content">🖋</a></td>
-	</tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/MEGSupportCHBH"><img src="https://avatars.githubusercontent.com/u/50209322?v=4?s=100" width="100px;" alt="MEGSupportCHBH"/><br /><sub><b>MEGSupportCHBH</b></sub></a><br /><a href="#content-MEGSupportCHBH" title="Content">🖋</a> <a href="#maintenance-MEGSupportCHBH" title="Maintenance">🚧</a></td>
+    </tr>
   </tbody>
 </table>
 
