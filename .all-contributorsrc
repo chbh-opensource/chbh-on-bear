@@ -163,6 +163,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "MEGSupportCHBH",
+      "name": "MEGSupportCHBH",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50209322?v=4",
+      "profile": "https://github.com/MEGSupportCHBH",
+      "contributions": [
+        "content",
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
