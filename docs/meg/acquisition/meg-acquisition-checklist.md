@@ -69,14 +69,14 @@ Click on the checklists to mark your progress through data collection.
 
 - [ ] Login to the Console, start MEG Acquisition program.
 - [ ] Load latest Tuning file, check quality of channels.<br /> "*Heat Sensor*", "*Reset Channels*" as necessary.
-    - See this flowchart **[Noisy Channels](noisy_channels.md)**, or for a more detailed process see this walkthrough.
+    - See this flowchart **[Noisy Channels](noisy_channels.md)**, or for a more detailed process see this walkthrough **[To fix noisy channels](to_fix_noisy_channels.md)**.
 - [ ] Select or create project.
     - Check or select acquisition parameters.
     - Check or create online averaging parameters'
 - [ ] Create subject.
 
 ## Prepare subject
-
+ 
 - [ ] Offer bathroom break.
 - [ ] Explain preparation procedure.
 - [ ] Explain experiment.
