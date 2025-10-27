@@ -11,13 +11,13 @@ You can install Git through your package manager in the terminal, this will depe
 For Debian : 
 
 ```shell
-$ sudo apt install git-all
+sudo apt install git-all
 ```
 
 For Fedora :
 
 ```shell
-$ sudo dnf install git-all
+sudo dnf install git-all
 ```
 
 For other distros see [other distro installs](https://git-scm.com/download/linux).
@@ -39,8 +39,8 @@ You will also need to have a GitHub account to be able to make a change request.
 After making an account configure your git to use that account within your terminal.
 
 ```shell
-$ git config --global user.email "Add GitHub Email address here within quotes"
-$ git config --global user.name "Add GitHub Username here within quotes"
+git config --global user.email "Add GitHub Email address here within quotes"
+git config --global user.name "Add GitHub Username here within quotes"
 ```
 
 You may also need to generate a personal access token :
@@ -64,13 +64,13 @@ A branch is a version of the project that is different from the main, this is ma
 Check what branch you are on :
 
 ```shell
-$ git branch -l
+git branch -l
 ```
 
 Create your own branch :
 
 ```shell
-$ git checkout -b tommy_changes
+git checkout -b tommy_changes
 ```
 
 This will create a new branch called "tommy_changes" and switch to it. You can check what branch you are in again to make sure you have switched. 
@@ -91,7 +91,7 @@ nav:
 To check the status of you changes use : 
 
 ```shell
-$ git status
+git status
 ```
 
 Use this whenever you're unsure as what is happening with your file changes.
@@ -101,13 +101,13 @@ If you've created a new file add it to git using it's filename.
 Example file add :
 
 ```shell
-$ git add docs/software/python.md
+git add docs/software/python.md
 ```
 
 To see the differences you've made you can use git in your terminal.
 
 ```shell
-$ git diff
+git diff
 ```
 
 Once you've made all the changes you would like to make, you can then save all these changes to your git branch. As good practice these changes should be similar in nature such as "Correcting spelling errors". 
@@ -115,8 +115,9 @@ Once you've made all the changes you would like to make, you can then save all t
 Saving your changes to your branch :
 
 ```shell
-$ git commit -m "Correcting spelling errors"
+git commit -m "Correcting spelling errors"
 ```
+
 This will save all your changes with the messsage "Correcting spelling error". This will be visable publically later and be used to explain your changes to others. 
 
 ## Working with GitHub
@@ -144,6 +145,7 @@ Password for 'https://github.com': {Your token here}
 This will then push these changes to the public branch that is viewable for everyone. If you wish to push another commit you can skip the creating a branch section.
 
 ### Making a request for your contribution
+
 After doing all these previous steps the final thing you need to do is create a pull request. This lets the admins know that you want something merged into the main branch that will then be put automatically onto the chbh-on-bear page. 
 
  - In your browser go onto the chbh-on-bear GitHub page
@@ -161,7 +163,7 @@ When working on this project and making multiple commits it's possible the main 
 Move onto main branch : 
 
 ```shell
-$ git checkout main
+git checkout main
 ```
 
 Check you are on the main branch : 
@@ -174,13 +176,13 @@ $ git branch
 Get updated main branch :
 
 ```shell
-$ git fetch origin 
+git fetch origin 
 ```
 
 Pull the update into local main : 
 
 ```shell
-$ git pull origin main
+git pull origin main
 ```
 
 Move back to your branch : 
@@ -200,13 +202,13 @@ $ git branch
 Merge updated main into your branch : 
 
 ```shell
-$ git merge main
+git merge main
 ```
 
 Update the public GitHub branch :
 
 ```shell
-$ git push origin tommy_changes
+git push origin tommy_changes
 ```
 
 This will update you local main and personal branch to be up to date with the current live version and then push that to the public version of the branch. Editing is done exactly the same as before, happy contributing! 

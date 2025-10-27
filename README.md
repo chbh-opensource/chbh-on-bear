@@ -83,15 +83,20 @@ mkdocs serve
 Windows users will need to do a few extra steps:
 
 Open Windows PowerShell (click Windows button and type 'powershell')
+
 ```shell
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
+
 Change directory to the place you want to work in and clone the repository
+
 ```shell
 cd <my working directory>
 git clone https://github.com/chbh-opensource/chbh-on-bear
 ```
+
 Create and activate virtual environment
+
 ```shell
 cd chbh-on-bear
 uv venv --python 3.11
@@ -159,7 +164,7 @@ Then check if you have the CHBH-on-BEAR `main` branch as a remote:
 
 add your changes:
 
-```
+```shell
 git add <file> # if adding files separately
 git add . # if adding all changes in one go
 ```
@@ -176,7 +181,7 @@ and push them:
 
 If you do not, then you will need to create a new branch, and then push the changes to the branch:
 
-```
+```shell
 # after committing the changes
 git checkout -b <your-branch-name>
 git push origin <your-branch-name>

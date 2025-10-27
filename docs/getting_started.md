@@ -1,12 +1,12 @@
 # Getting started on BEAR
 
-<b>This page collects tutorials and examples for neuroimaging analyses to run on BlueBEAR.</b> This is intended to extend the main [BEAR Technical Documentation](https://docs.bear.bham.ac.uk/) pages.
+**This page collects tutorials and examples for neuroimaging analyses to run on BlueBEAR.** This is intended to extend the main [BEAR Technical Documentation](https://docs.bear.bham.ac.uk/) pages.
 
 Here we provide a set of links, tips and tricks for getting started.
 
 ## Step 0: Linux
 
-BEAR provide a [Introduction to Linux](https://www.birmingham.ac.uk/research/arc/bear/training/intro-linux) guide. <b>Many computing services on BEAR rely on Linux.</b> There are in-person workshops and an online Canvas courses available on this page.
+BEAR provide a [Introduction to Linux](https://www.birmingham.ac.uk/research/arc/bear/training/intro-linux) guide. **Many computing services on BEAR rely on Linux.** There are in-person workshops and an online Canvas courses available on this page.
 
 ## Step 1: BlueBEAR
 
@@ -14,15 +14,15 @@ BEAR also provide a [Introduction to BlueBEAR](https://www.birmingham.ac.uk/rese
 
 ## Step 2: RDS Projects
 
-<b>You'll need to be a member of a BEAR project and have a BEAR linux account to use BlueBEAR.</b> Your PI and lab can help with this. A detailed guide for [accessing BEAR](https://docs.bear.bham.ac.uk/bluebear/accessing/) is provided on the technical docs.
+**You'll need to be a member of a BEAR project and have a BEAR linux account to use BlueBEAR.** Your PI and lab can help with this. A detailed guide for [accessing BEAR](https://docs.bear.bham.ac.uk/bluebear/accessing/) is provided on the technical docs.
 
 ## Step 3: BEAR Portal
 
-<b>[BEAR Portal](https://docs.bear.bham.ac.uk/portal/accessing/) provides web-based access to a range of BEAR services,</b> such as JupyterLab, RStudio, and various other GUI applications. BEAR Portal is only available on campus or using the University Remote Access Service.
+**[BEAR Portal](https://docs.bear.bham.ac.uk/portal/accessing/) provides web-based access to a range of BEAR services**, such as JupyterLab, RStudio, and various other GUI applications. BEAR Portal is only available on campus or using the University Remote Access Service.
 
 ## Step 4: Launching interactive sessions
 
-<b>From the BEAR Portal there are three options for launching an interactive analysis session.</b>
+**From the BEAR Portal there are three options for launching an interactive analysis session.**
 
 - Some software packages have [GUI Apps](https://docs.bear.bham.ac.uk/portal/gui_apps/) installed on BlueBEAR that can be launched from the BEAR Portal - the main example for neuroimaging analysis is MATLAB.
 
