@@ -24,5 +24,3 @@ The CHBH also has equipment for combining MR with simultaneous behavioural and p
 - **Grip force transducer** - [BIOPAC MP160 with AcqKnowledge software](https://www.biopac.com/product/mp160-system-with-acqknowledge/)
 
 - **Button box** - [fMRI Button Pad (2-Hand) System (NATA Technologies)](https://natatech.com/products/complete-response-systems/fmri-button-pad-2-hand-system)
-
-

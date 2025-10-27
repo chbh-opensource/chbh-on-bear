@@ -1,10 +1,10 @@
 # fMRIPrep
 
-<b>[fMRIPrep](https://fmriprep.org/) is an open-source tool for preprocessing functional MRI (fMRI) data.</b> It automates the early stages of MRI data preprocessing, including motion correction, susceptibility distortion correction, and slice-timing correction, providing a standardised and reproducible analysis pipeline. Unlike other preprocessing pipelines, fMRIPrep utilizes functions from many popular neuroimaging tools, including FSL, FreeSurfer, and AFNI, ensuring that each step in the pipeline uses the most reliable and validated methods available, resulting in higher-quality outputs.
+**[fMRIPrep](https://fmriprep.org/) is an open-source tool for preprocessing functional MRI (fMRI) data.** It automates the early stages of MRI data preprocessing, including motion correction, susceptibility distortion correction, and slice-timing correction, providing a standardised and reproducible analysis pipeline. Unlike other preprocessing pipelines, fMRIPrep utilizes functions from many popular neuroimaging tools, including FSL, FreeSurfer, and AFNI, ensuring that each step in the pipeline uses the most reliable and validated methods available, resulting in higher-quality outputs.
 
 ## Downloading fMRIPrep
 
-The simplest way of running fMRIPrep is using a container. Instructions for downloading the fMRIPrep container are detailed [here](../../software/containers.md).
+The simplest way of running fMRIPrep is using a container. Instructions for downloading the fMRIPrep container are detailed in [Software > Containers](../../software/containers.md).
 
 ## Running fMRIPrep
 
@@ -67,6 +67,7 @@ output_directory=camcan_fmriprep/
 
 apptainer run fmriprep_24_1_1.sif ${bids_directory} ${output_directory} participant -w work/ --participant-label ${SUBJECT_ID} --fs-license-file ~/license.txt 
 ```
+
 !!! note
 
     The number at the end fo the `#SBATCH --array=0-20` should be replaced with the number of subjects within the BIDS directory.

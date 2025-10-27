@@ -1,9 +1,10 @@
 # FreeSurfer
 
-<b>[FreeSurfer](https://surfer.nmr.mgh.harvard.edu/) is an open-source package for the analysis and visualization of structural, functional, and diffusion neuroimaging data from cross-sectional and longitudinal studies.</b>
+**[FreeSurfer](https://surfer.nmr.mgh.harvard.edu/) is an open-source package for the analysis and visualization of structural, functional, and diffusion neuroimaging data from cross-sectional and longitudinal studies.**
+
 ## FreeSurfer License
 
-FreeSurfer requires a license registration key in order to be used. This can be obtained from [here](https://surfer.nmr.mgh.harvard.edu/registration.html). Once downloaded, the file should be uploaded to your home directory on Bear. This can be done using "Files" tab on the [BlueBEAR portal](https://portal.bear.bham.ac.uk/), or using file transfer software, such as [WinSCP](https://winscp.net/eng/index.php), or [FileZilla](https://filezilla-project.org/). 
+FreeSurfer requires a license registration key in order to be used. This can be obtained via the FreeSurfer download page ([direct link](https://surfer.nmr.mgh.harvard.edu/registration.html)). Once downloaded, the file should be uploaded to your home directory on Bear. This can be done using "Files" tab on the [BlueBEAR portal](https://portal.bear.bham.ac.uk/), or using file transfer software, such as [WinSCP](https://winscp.net/eng/index.php), or [FileZilla](https://filezilla-project.org/). 
 
 ## Running recon-all
 

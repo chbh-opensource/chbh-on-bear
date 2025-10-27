@@ -4,7 +4,7 @@ Guides and documentation for MRI analysis and data collection at the CHBH.
 
 <div class="grid cards" markdown>
 
--   **Technical Information**
+- **Technical Information**
 
     ---
 
@@ -14,7 +14,7 @@ Guides and documentation for MRI analysis and data collection at the CHBH.
     - [Recording data](hardware/stimulus_equipment.md)
     - [Troubleshooting](hardware/troubleshooting.md)
 
--   **Data analysis**
+- **Data analysis**
 
     ---
 
@@ -26,7 +26,7 @@ Guides and documentation for MRI analysis and data collection at the CHBH.
     - [SPM](analysis/spm.md)
     - [spant](analysis/spant.md)
 
--   **Mock MRI**
+- **Mock MRI**
 
     ---
 

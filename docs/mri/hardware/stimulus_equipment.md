@@ -26,7 +26,7 @@ There are also legacy Stimulus PCs at the foot of the rack.
 
 When any CHBH Stimulus PC is selected via the KVM it will receive reports from the Keyboard, Mouse at the local screen, and from the NATA Response Interface and the LABJACK U3. Other devices may be plugged directly into the fascia of the desired Stimulus PC.
 
-## vPixx Projector
+## vPixx Projector
 
 The commands needed to enable the projector are as follows;
 
@@ -38,7 +38,7 @@ The commands needed to enable the projector are as follows;
 
 - Do not leave the projector awakened.
 
--  If you get the error 'VPixx Device FPGA device appears unprogrammed' this means the USB connection to the Projector has failed. Switch the KVM to 2 or and then back to 1, or vice versa, for 10 seconds to restore connection. You can switch between Windows 10 and the NeuroDebian CEP using the KVM, whilst the projector is live, and the projector will display the selected desktop.
+- If you get the error 'VPixx Device FPGA device appears unprogrammed' this means the USB connection to the Projector has failed. Switch the KVM to 2 or and then back to 1, or vice versa, for 10 seconds to restore connection. You can switch between Windows 10 and the NeuroDebian CEP using the KVM, whilst the projector is live, and the projector will display the selected desktop.
 
 These should be all you need for basic use of the VPixx. Instructions with detailed trouble shooting steps are found here. UPDATED SEPT 2021 - if the projector / console screen is flickering for more than a minute after booting you may need to reboot.
 
@@ -46,7 +46,7 @@ The projector should be set at 16:9 1920x1080@120Hz. The Projector overfills the
 
 ## Recovering responses/triggers via NATA Interface
 
-### Recovering Triggers
+### Recovering Triggers
 
 Scanner volume timing is delivered to the CEP Stimulus machines by the detection of the letter 't' (as if from a USB keyboard, spoofed by the NAtA interface box). This will echo into any command windows you use for running stimulus. Consider using the 'commandwindow' command at the beginning of MATLAB scripts to direct key presses away from the script editor! Alternatively switch off the NAtA interface box when troubleshooting, or open a notepad window to redirect these.
 
@@ -54,7 +54,7 @@ When a Stim PC is selected via the KVM [[9]] and the 2x5 NATA Response Interface
 
 KbCheck on Windows, and KbCheck(-3) on Linux should suffice to recover the 't' press. When you want to ignore successive 't' during recovery of Response Box keypresses use DisableKeysForKbCheck.
 
-Example code using the more complex KbQueue is provided [here](https://github.com/theCHBH/fMRI/blob/master/SampleTriggerCodeCHBH_Windows).
+Example code using the more complex KbQueue is provided on [Github](https://github.com/theCHBH/fMRI/blob/master/SampleTriggerCodeCHBH_Windows).
 
 The SIEMENS Prisma produces a 1us impulse which is delivered fibre-optically to the SIEMENS Interface Box behind the console PC. This has two settings, TOGGLE and IMPULSE, and requires USB power. Ensure IMPULSE is selected. The BNC output of this SIEMENS Interface Box is relayed to the NATA Response Interface, with potential breakout for other devices. 
 

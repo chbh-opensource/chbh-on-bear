@@ -1,6 +1,6 @@
 # FSL
 
-<b>[FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki) is a comprehensive library of analysis tools for FMRI, MRI and DTI brain imaging data.</b>
+**[FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki) is a comprehensive library of analysis tools for FMRI, MRI and DTI brain imaging data.**
 
 ## FSL Modules
 
@@ -66,7 +66,7 @@ set -e
 bet subject1.nii.gz subject1_brain.nii.gz
 ```
 
-<b>If we have many datafiles to run BET on, we can extend our script into an array job.</b> This is a `slurm` script that actually creates many jobs that can be run in parallel. Here we add the `#SBATCH --array=1-48` line to our script to tell it that we want to parallelise our script across the range 1 to 48. This creates 48 separate jobs each with a value between 1 and 48 stored in the variable `${SLURM_ARRAY_TASK_ID}`. Our `BET` call changes the subject number with this variable for each job.
+**If we have many datafiles to run BET on, we can extend our script into an array job.** This is a `slurm` script that actually creates many jobs that can be run in parallel. Here we add the `#SBATCH --array=1-48` line to our script to tell it that we want to parallelise our script across the range 1 to 48. This creates 48 separate jobs each with a value between 1 and 48 stored in the variable `${SLURM_ARRAY_TASK_ID}`. Our `BET` call changes the subject number with this variable for each job.
 
 ```slurm
 #!/bin/bash

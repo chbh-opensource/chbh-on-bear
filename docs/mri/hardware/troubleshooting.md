@@ -23,7 +23,7 @@ Solution
 
 Should you experience this noise switch the Audio patch from 23-24 or vice versa.
 
-## Amplifier Out of synch, Barker words missing!
+## Amplifier Out of synch, Barker words missing
 
 Problem
 
@@ -44,7 +44,7 @@ Update your BrainVision Recorder .
 
 NOTE: For a combined EEG-fMRI measurement only: If the "Barker words missing!" error coincides with the start of an fMRI sequence, it can also be a sign of an RF overload. An amp experiencing RF overload can produce arbitrary error messages in Recorder.
 
-## The Participant Logging Computer (PLC) isn't working
+## The Participant Logging Computer (PLC) isn't working
 
 If the Participant Logging Computer (PLC) is faulty, or if there is some other Service/Network issue, but our intranet is working, you should be able to use the logging software via a browser.
 
@@ -52,13 +52,11 @@ Links are shown below. The second log screen should automatically show after par
 
 NOTE: The links will only work on the MRI Stim PCs.
 
+<https://www.chbh.bham.ac.uk/log/log-screen1.html>
 
-https://www.chbh.bham.ac.uk/log/log-screen1.html
+<https://www.chbh.bham.ac.uk/log/log-screen2.html>
 
-
-https://www.chbh.bham.ac.uk/log/log-screen2.html
-
-## In bore projector screen out of focus
+## In bore projector screen out of focus
 
 Problem
 
@@ -71,7 +69,6 @@ You can remedy this by ensuring the red stabilisers (pictured below) are aligned
 General users and operators are free to move the screen to recover focus themselves.
 Deploy caution as the screen has a deformable membrane, and costs £ks to replace.
 Move it only via the solid base.
-
 
 Much more rarely the Projector in the Equipment room has been moved.
 Resetting the focus in that room should be the province of the CHBH technical staff.
