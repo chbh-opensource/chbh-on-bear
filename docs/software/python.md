@@ -1,6 +1,6 @@
 # Python
 
-<b>[Python](https://www.python.org/) is a interactive programming language known for being flexible and (relatively) simple to use. A vast range of scientific applications have be built in and around Python.</b>
+**[Python](https://www.python.org/) is a interactive programming language known for being flexible and (relatively) simple to use. A vast range of scientific applications have be built in and around Python.**
 
 Some of the most common are:
 

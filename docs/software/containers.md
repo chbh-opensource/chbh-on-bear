@@ -1,6 +1,6 @@
 # Containers
 
-<b>A container is a lightweight software package that contains both the software, and all of the required dependencies to run the contained software.</b>
+**A container is a lightweight software package that contains both the software, and all of the required dependencies to run the contained software.**
 
 BlueBEAR supports running analyses on containers using [Apptainer](https://docs.bear.bham.ac.uk/bluebear/software/container/). The BEAR Technical docs contain extensive tutorals.
 

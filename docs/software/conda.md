@@ -3,7 +3,7 @@
 Managing software dependencies can be one of the most annoying things in scientific computing,
 especially when dealing with complex systems with multiple packages and libraries.
 
-<b>This is where `conda` comes in - a package management system that simplifies the task of installing, configuring, and managing software packages and their dependencies.</b>
+**This is where `conda` comes in - a package management system that simplifies the task of installing, configuring, and managing software packages and their dependencies.**
 
 BEAR systems offer a default Python environment, but it must be loaded beforehand,
 and it does not allow you to install additional packages that are not already provided.

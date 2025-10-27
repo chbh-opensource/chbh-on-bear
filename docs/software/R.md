@@ -1,6 +1,6 @@
 # R for statistical computing
 
-<b>The [R project](https://www.r-project.org/) is a free software environment for statistical computing and graphics.</b>
+**The [R project](https://www.r-project.org/) is a free software environment for statistical computing and graphics.**
 
 ## R Versions
 
