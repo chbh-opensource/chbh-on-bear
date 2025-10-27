@@ -1,6 +1,5 @@
 # Common Experimental Platform PCs
 
-
 Currently the Brain Stim Lab, the fMRI, the Mock, the MEGs, fNIRS, the OPM and some Cubicles have identical stimulus presentation / response recovery PCs built specifically for research grade timing, durability and redundancy.
 
 We intend to install such CEP (common experimental platform) Stimulus machines in all suitable modalities. This will encourage paradigm mobility between the modalities (write once, run anywhere), and allow enhanced response from CHBH IT personnel.
