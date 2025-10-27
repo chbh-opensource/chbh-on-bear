@@ -3,7 +3,7 @@
 !!! note
     Example contributed by [Ben Griffiths](https://www.benjaminjamesgriffiths.com/).
 
-<b>This is an example script running a fieldtrip analysis on EEG data acqurired during a visual flicker task.</b>
+**This is an example script running a fieldtrip analysis on EEG data acquired during a visual flicker task.**
 
 The data is read in, filtered, epoched, ICA'd, re-referenced, then plotted. The core function can be executed on the [MATLAB GUI App](https://docs.bear.bham.ac.uk/portal/gui_apps/) during an interactive session, or submitted to BlueBEAR using the `bash` script below.
 
@@ -48,7 +48,7 @@ cfg             = [];
 cfg.lpfilter    = 'yes';   % apply low-pass filter
 cfg.lpfreq      = 120;     % use low-pass to suppress frequencies > 120Hz
 cfg.bsfilter    = 'yes';   % apply band-pass filter
-cfg.bsfreq      = [49 51]; % use band-pass to suppress frequencies netween 49Hz and 51Hz
+cfg.bsfreq      = [49 51]; % use band-pass to suppress frequencies between 49Hz and 51Hz
 data            = ft_preprocessing(cfg, data);
 
 %% Epoch Data
