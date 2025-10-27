@@ -10,5 +10,7 @@
 "MD024":
   "allow_different_nesting": true
 "MD029": false  # Ordered list item prefix
+"MD033":
+  "allowed_elements": ["div"]
 "MD041": false  # top level header provided by mkdocs
 "MD046": false  # Code block style. Doesn't like MkDocs admonitions or content tabs
