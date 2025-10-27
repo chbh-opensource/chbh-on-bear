@@ -13,19 +13,22 @@ The following international consensus statements and guidance are required readi
 ## Hardware
 
 ### Stimulator
+
 Magstim Rapid [model number]
 
-<img src="../../images/brainstim/stimulator.jpg" alt="stimulator" width="200"/>
+![image of braimstim simulator](../images/brainstim/stimulator.jpg "stimulator"){width="200"}
 
-The Rapid delivers biphasic pulses at up to [max] Hz. The intensity of stimulation will detemine how long each train of stimulation can be applied for.
+The Rapid delivers biphasic pulses at up to [max] Hz. The intensity of stimulation will determine how long each train of stimulation can be applied for.
 
 ### Coils
 
 - [diameter] mm figure-of-eight [model number]
 - [diameter] mm figure-of-eight [model number]
 
-<img src="../../images/brainstim/off_white_coil.jpg" alt="coil1" width="200"/>
-<img src="../../images/brainstim/white_coil.jpg" alt="coil2" width="200"/>
+![image of off-white coil](../images/brainstim/off_white_coil.jpg "coil1"){width="200"}
+![image of white coil](../images/brainstim/white_coil.jpg "coil2"){width="200"}
+
+ coils differ in focality and depth of stimulation. The smaller the coil, the more focal the stimulation, but the shallower the depth of stimulation.
 
 ### Interface devices
 
@@ -39,7 +42,7 @@ The Rapid delivers biphasic pulses at up to [max] Hz. The intensity of stimulati
 
 ### Neuronavigation
 
-Some studies (e.g., on the motor system) may not use neuronavigation to locate the stimulation target, because they can use body movement or EMG instead. For targeting other brain areas, neuronavigation may be important. For further details, see the main [neuronavigation page]().
+Some studies (e.g., on the motor system) may not use neuronavigation to locate the stimulation target, because they can use body movement or EMG instead. For targeting other brain areas, neuronavigation may be important. For further details, see the main neuronavigation page.
 
 ## Software
 

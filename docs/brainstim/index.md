@@ -4,7 +4,7 @@ Guidelines and documentation for all Brain Stimulation methods at CHBH
 
 <div class="grid cards" markdown>
 
--   **Lab overview**
+- **Lab overview**
 
     ---
 
@@ -12,8 +12,7 @@ Guidelines and documentation for all Brain Stimulation methods at CHBH
 
     - [Lab overview](tms.md)
 
-
--   **Focused Ultrasound Stimulation (FUS)**
+- **Focused Ultrasound Stimulation (FUS)**
 
     ---
 

@@ -1,6 +1,6 @@
 # FUS Equipment
 
-The following equipement is part of the 'standard' FUS setup at CHBH:
+The following equipment is part of the 'standard' FUS setup at CHBH:
 
 - NeuroFUS PRO Transducer Power Output (TPO). Upgraded to TPO-105, including the following features:
     - Up to 400W electrical power
@@ -24,5 +24,3 @@ We additionally have the following equipment for deploying FUS in the MRI scanne
 - NeuroFUS MRI-compatible Transducer and Cable upgrade
 - BrainSight MRI Camera Stand
 - BrainSight MRI-compatible trackers (for volunteer and transducers)
-
-
