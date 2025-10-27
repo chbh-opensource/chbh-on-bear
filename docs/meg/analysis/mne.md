@@ -1,6 +1,6 @@
 # MNE Python
 
-<b>[MNE-Python](https://mne.tools/stable/index.html) is a Python package for analysing electrophysiology (MEG, EEG, sEEG, ECoG, NIRS, etc) data.</b>
+**[MNE-Python](https://mne.tools/stable/index.html) is a Python package for analysing electrophysiology (MEG, EEG, sEEG, ECoG, NIRS, etc) data.**
 
 ## MNE-Python Versions
 
@@ -58,7 +58,7 @@ As with other examples, this can be copied directly into the terminal or saved a
 
 ## Evoked response example
 
-The following code is adapted from the MNE-Python [overvew of MEG/EEG analysis tutorial](https://mne.tools/stable/auto_tutorials/intro/10_overview.html#sphx-glr-auto-tutorials-intro-10-overview-py). <b>It will download a small example file and run a quick analysis.</b>
+The following code is adapted from the MNE-Python [overvew of MEG/EEG analysis tutorial](https://mne.tools/stable/auto_tutorials/intro/10_overview.html#sphx-glr-auto-tutorials-intro-10-overview-py). **It will download a small example file and run a quick analysis.**
 
 You can run this code directly in a Python session on BEAR within an activated MNE environment. The file will be saved into your RDS home directory (eg `/rds/homes/q/quinna`) unless specified otherwise - please change the `sample_data_folder` variable if you'd like to save this file elsewhere.
 

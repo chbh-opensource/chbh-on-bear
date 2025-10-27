@@ -4,7 +4,7 @@ Click on the checklists to mark your progress through data collection.
 
 ## Prepare Control Room & MSR
 
--  [ ] Check functioning of stimulus and response equipment.
+- [ ] Check functioning of stimulus and response equipment.
 
     === "Select the stim PC"
 
@@ -24,7 +24,7 @@ Click on the checklists to mark your progress through data collection.
             - PP Switch position C to connect STI101 to the [LabJack U3-LV](../hardware/meg-labjack.md) connected via USB to the NEW Stim PC
 
 - [ ] Check Gantry position. Move from liquefaction (25) position to usage position.
-	* **[Moving the Gantry](moving-the-gantry.md)**
+    - **[Moving the Gantry](moving-the-gantry.md)**
 
 - [ ] Check experimental paradigm.
 
@@ -36,39 +36,38 @@ Click on the checklists to mark your progress through data collection.
             - To "sleep" the projector ...
             - (ANY DEVICE) > **`ppx s`** - should respond with "PROPixx is in sleep mode"
             - Please do not leave the PROPixx projector in "awake" mode when not in use e.g. overnight!
-			!!! Note
-			    **`ppx a / ppx s`** didn't work on one occasion. PROPixx needed a full power off/on to reset.
-				
+            !!! Note
+                **`ppx a / ppx s`** didn't work on one occasion. PROPixx needed a full power off/on to reset.
 
     === "Check Stimuli, Responses and Triggers"
 
         - Check that the stimuli and responses are as expected.
         - Check arrival of triggers in MEG recording.
-		!!! note "New Stim PC PP card has a different Base Memory Address than the OLD Stim PC PP card."
-			Change any, e.g. MATLAB, code on the NEW Stim PC, referencing the PP Base Memory Address to...<br />
-			**CFF8** ... e.g. in `initialiseParallelPort.m`
+        !!! note "New Stim PC PP card has a different Base Memory Address than the OLD Stim PC PP card."
+            Change any, e.g. MATLAB, code on the NEW Stim PC, referencing the PP Base Memory Address to...<br />
+            **CFF8** ... e.g. in `initialiseParallelPort.m`
 
 - [ ] Start subject preparation - items to have ready/available.
  
-	!!! info "Reusable and disposable electrodes are available for use as required."
-	- Label 4 electrodes for EOG, 2 electrodes for ECG and any other (i.e. EMG) electrodes as required. Have some additional electrodes ready in case you have to redo them.
+    !!! info "Reusable and disposable electrodes are available for use as required."
+    - Label 4 electrodes for EOG, 2 electrodes for ECG and any other (i.e. EMG) electrodes as required. Have some additional electrodes ready in case you have to redo them.
     - Electrode gel (in 20ml syringes - use the caulking gun to fill them.) We also have 12ml *curved tip* syringes available.
     - Cut tape ready for attaching electrodes to skin (*Tegaderm* tape)
     - Cut tape for securing electrodes (*Micropore* tape) and *Blenderm* tape for attaching cHPI coils.
-	- Small double-sided sticky discs used to secure reusable electrodes.
+    - Small double-sided sticky discs used to secure reusable electrodes.
     - If using an EEG cap, check it over for damaged electrodes. Makes sure it's clean and dry.
     - Set up the Digitiser chair, away from any metal. Attach the transmitter cube to the back of the chair. The **cable has to point downwards**.
     - See this page for our various consumable items - **[MEG Consumables](meg-consumables.md)**
 
 - [ ] Check the MSR, yourself, and participant, for any unwanted items that could cause artefacts and remove them.
-	- See this PDF... **[Metal items Checklist](../../meg/pdfs/Metal_items_checklist.pdf)**
+    - See this PDF... **[Metal items Checklist](../../meg/pdfs/Metal_items_checklist.pdf)**
 
 - [ ] Check that the participant monitoring camera and microphone are working correctly.
 
 ## Prepare MEG system
 
 - [ ] Login to the Console, start MEG Acquisition program.
-- [ ] Load lastest Tuning file, check quality of channels.<br /> "*Heat Sensor*", "*Reset Channels*" as necessary.
+- [ ] Load lastest Tuning file, check quality of channels. "*Heat Sensor*", "*Reset Channels*" as necessary.
     - See this flowchart "Noisy Channels", or for a more detailed process, see this walkthrough.
 - [ ] Select or create project.
     - Check or select acquisition parameters.
@@ -92,7 +91,7 @@ Click on the checklists to mark your progress through data collection.
 - [ ] Carefully attach a sticky disc to the electrode, centering the hole over the grey Ag/AgCl. Remove the paper protective cover, exposing the disc adhesive.
 - [ ] Using a gel-filled syringe and blunt needle, place a drop of gel in the electrode center.
 
-- [ ] If using the [NeuroTab]() disposable electrodes.
+- [ ] If using the *NeuroTab* disposable electrodes.
     - Remove the transparent backing from the electrode and place the electrode on the prepared site.
     - To ensure good contact, apply pressure to the center of the electrode and move to the edges.
     - Do not pull on the cable when applying it or when attached. Apply Micropore tape as necessary to help secure it in place.

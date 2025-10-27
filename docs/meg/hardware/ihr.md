@@ -1,7 +1,6 @@
 # The IHR (Internal Helium Recycling) System
 
-The technology that helps record the minute magnetic fields is a **S**uperconducting **QU**antum **I**nterference **D**etector (**SQUID**) which is like a highly sensitive magnetic field meter. 
-<br />To maintain superconductors one needs to provide an extremely cold environment, which is achieved by using liquid Helium around the sensors.
+The technology that helps record the minute magnetic fields is a **S**uperconducting **QU**antum **I**nterference **D**etector (**SQUID**) which is like a highly sensitive magnetic field meter. To maintain superconductors one needs to provide an extremely cold environment, which is achieved by using liquid Helium around the sensors.
 
 At the CHBH we use an integrated closed-loop Helium reliquefaction system which collects the Helium gas that boils off during testing. The boiling Helium gas is directed via the Helium gas line to the Helium recycler cabinet for compression, and from there for storage in pressurized Helium gas storage tanks. Reliquefying the collected Helium is only possible when the MEG is not in use. This poses limitations to the MEG user time. The system needs regular downtime in the evenings/weekends. The measurement and reliquefaction periods must be in balance. Prolonged measurement or measurements in the evening therefore possibly shortens the next day’s measurement window.
 
@@ -21,18 +20,21 @@ The boil-off is highest in the upper seated position. Do not keep the probe unit
 
 * **Do not measure in the liquefaction position.**
 
-The TRIUX is not designed to Acquire data in the 25<sup>o</sup> position.
+The TRIUX is not designed to Acquire data in the 25° position.
 
 * **Remember to move the gantry to the liquefaction position (25) at End of Day.**
 
-The liquefaction rate is optimal at the 25<sup>o</sup> position. If the gantry is left in a sub-optimal position (60 or 68) liquefying will be poor, and tank pressure may not reduce very much. This will potentially lead to a reduced Measurement Time Budget for the following day or days.
+The liquefaction rate is optimal at the 25° position. If the gantry is left in a sub-optimal position (60 or 68) liquefying will be poor, and tank pressure may not reduce very much. This will potentially lead to a reduced Measurement Time Budget for the following day or days.
 
-### **<span style="color:red">Helium is not life supporting!</span>**
+!!! danger
+    **Helium is not life supporting!**
 
-If released into the air it poses a danger of suffocation. If a significant Helium leakage is detected our Oxygen Depletion Alarms will sound, then :
+    If released into the air it poses a danger of suffocation.
+
+If a significant Helium leakage is detected our Oxygen Depletion Alarms will sound, then :
 
 * Immediately, calmly, evacuate MEG Control Room & MSR, and inform Sleep Control Room & Labs of their need to evacuate also, and instruct other staff/students not to enter the corridor.
 * Arrange proper ventilation.
-	* Open Fire Exit.
-	* Open MEG Corridor door.
-	* Open Sleep Lab doors and subsequently the windows (if possible).
+    * Open Fire Exit.
+    * Open MEG Corridor door.
+    * Open Sleep Lab doors and subsequently the windows (if possible).
