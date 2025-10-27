@@ -2,39 +2,33 @@
 
 Guides and documentation for sleep data collection at the CHBH.
 
-
 <div class="grid cards" markdown>
 
--   **Technical Information**
+- **Technical Information**
 
     ---
 
     Essential hardware and infrastructure details
 
-
--   **Data Acquisition**
+- **Data Acquisition**
 
     ---
 
     Equipment and setup for data collection
 
-
--   **Stimulus Delivery**
+- **Stimulus Delivery**
 
     ---
 
     Software and methods for stimulus presentation
 
-
--   **Quality Control**
+- **Quality Control**
 
     ---
 
     Analysis and data quality procedures
 
-
 </div>
-
 
 !!! info "CHBH Sharepoint Pages"
 
