@@ -28,6 +28,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
     - [MEG Acquisition Checklist](acquisition/meg-acquisition-checklist.md)
 		- [Noisy Channels](acquisition/noisy_channels.md)
 		- [Fixing Noisy Channels](acquisition/to_fix_noisy_channels.md)
+		- [Perform a "RAP"](acquisition/rap.md)
 		- [Metal items Checklist](pdfs/Metal_items_checklist.pdf)
 	- [Moving the Gantry](acquisition/moving-the-gantry.md)
 	- [MEG Consumables](acquisition/meg-consumables.md)

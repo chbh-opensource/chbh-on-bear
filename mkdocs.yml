@@ -83,6 +83,7 @@ nav:
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
       - Noisy Channels: meg/acquisition/noisy_channels.md
       - Fixing Noisy Channels: meg/acquisition/to_fix_noisy_channels.md
+      - Perform a "RAP": meg/acquisition/rap.md
       - Metal items Checklist: meg/pdfs/Metal_items_checklist.pdf
       - Moving the Gantry: meg/acquisition/moving-the-gantry.md
       - MEG Consumables: meg/acquisition/meg-consumables.md

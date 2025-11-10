@@ -32,14 +32,14 @@ The noisy channel may return to normal after the reset artefact has passed throu
 - Start Acquisition, check if channel is still noisy.
 
 
-<span style="color:blue">If the sensor is still noisy, perform a **[RAP]**</span>.
+<span style="color:blue">If the sensor is still noisy, perform a **[RAP](rap.md)**</span>.
 
 - Once done, then ...
 - Restart Acquisition.
 - From the Menu Bar, choose **`Tools -> Tuner`**.
 - Load the latest Tuning file **`File -> Load Tunings ->`** Select **OK** (to load the default tuning file **He_90.tnp**).
-- Select **`Measure Noise`** to see if the **RAP** has reduced the channel noise level.
-- If not, try another **RAP** and then repeat from "Restart Acquisition" above.
+- Select **`Measure Noise`** to see if the **[RAP](rap.md)** has reduced the channel noise level.
+- If not, try another **[RAP](rap.md)** and then repeat from "Restart Acquisition" above.
 
 
 <span style="color:blue">If the sensor is still noisy, do a **soft reboot/reset** of the electronics, as per **[RESTART ACQUISITION (Resetting the electronics)]**</span>
@@ -49,7 +49,7 @@ The noisy channel may return to normal after the reset artefact has passed throu
 - Press the **Reset** button on the **[System Controller Card]**, as shown by the arrow.
 - Confirm all cards/boards are reset (all are showing <span style="color:green">**GREEN**</span> LEDS) - takes 20-30sec.
 - Close the Electronics cabinet door.
-- Perform a **RAP**, then make sure the deafult tuning file is reloaded...
+- Perform a **[RAP](rap.md)**, then make sure the deafult tuning file is reloaded...
 	- **Acquisition -> Tuner -> Load Tunings -> Measure Noise**.
 
 
