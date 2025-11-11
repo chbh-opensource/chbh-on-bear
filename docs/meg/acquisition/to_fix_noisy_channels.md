@@ -42,12 +42,12 @@ The noisy channel may return to normal after the reset artefact has passed throu
 - If not, try another **[RAP](rap.md)** and then repeat from "Restart Acquisition" above.
 
 
-<span style="color:blue">If the sensor is still noisy, do a **soft reboot/reset** of the electronics, as per **[RESTART ACQUISITION (Resetting the electronics)]**</span>
+<span style="color:blue">If the sensor is still noisy, do a **soft reboot/reset** of the electronics, as per **[Restart Acquisition #resetting the electronics](restart_acquisition.md/#resetting-the-electronics)**</span>
 
 - Exit Acquisition back to the Console login screen. 
 - Open the Electronics Cabinet.
-- Press the **Reset** button on the **[System Controller Card]**, as shown by the arrow.
-- Confirm all cards/boards are reset (all are showing <span style="color:green">**GREEN**</span> LEDS) - takes 20-30sec.
+- Press the **Reset** button on the **System Controller Card**, **[SCC](../../images/meg/SCC.jpg)**, as shown by the arrow.
+- Confirm all cards/boards are reset (all are showing <span style="color:green">**GREEN**</span> LEDs) - takes 30-60sec.
 - Close the Electronics cabinet door.
 - Perform a **[RAP](rap.md)**, then make sure the deafult tuning file is reloaded...
 	- **Acquisition -> Tuner -> Load Tunings -> Measure Noise**.
