@@ -67,51 +67,70 @@ Click on the checklists to mark your progress through data collection.
 
 ## Prepare MEG system
 
-- [ ] Login to the Console, start MEG Acquisition program.
-- [ ] Load latest Tuning file, check quality of channels.<br /> "*Heat Sensor*", "*Reset Channels*" as necessary.
+- [ ] Login to the Console, start MEG Acquisition program (***megacq***).
+- [ ] Load latest Tuning file, check quality of channels.<br /> "***Heat Sensor***", "***Reset Channels***" as necessary.
     - See this flowchart **[Noisy Channels](noisy_channels.md)**, or for a more detailed process see this walkthrough **[To fix noisy channels](to_fix_noisy_channels.md)**.
-- [ ] Select or create project.
-    - Check or select acquisition parameters.
-    - Check or create online averaging parameters'
-- [ ] Create subject.
+- [ ] Exit Tuner and return to ***megacq***. Adjust **Settings**
+    - Select Project, or create new.
+	- Input pseudonymised Subject details from Participant Logging Computer (PLC).
+	- Adjust Acquisition parameters or load settings...<br /> **```File -> Load settings```** 
+    - Create or adjutst stimulus generation, on-line averaging (as necessary).
 
 ## Prepare subject
  
 - [ ] Offer bathroom break.
 - [ ] Explain preparation procedure.
 - [ ] Explain experiment.
-- [ ] Let subject read and sign informed consent.
-- [ ] Have subject remove metal objects, and do a comprehensive check with both metal detectors. Subject to change into scrubs if necessary (show subject to Changing Room and show scrubs sizes that are available).
-    - We are trying to reduce our laundry bill so only use scrubs if necessary e.g. metal in clothing.
-- [ ] Clean hands with Alcohol Gel Sanitizer.
+- [ ] Let subject read and sign ethics consent and screening questionaire.
+- [ ] Have subject remove metal objects, and do **a comprehensive check with both metal detectors**. Subject to change into scrubs if necessary (show subject to Changing Room and show scrubs sizes that are available).
+
+!!! note "We are trying to reduce our laundry bill so only use scrubs if necessary e.g. metal in clothing."
 
 ## Attach electrodes
 
-**Sanitise your hands with the provided Alcohol gel.** We have both reusable and disposable electrodes available for use. When ready to attach a reusable electrode:
+!!! info "Reusable and disposable electrodes available for use as required."
+
+- [ ] Clean hands with provided Alcohol Gel Sanitizer.
+
+When ready **to attach a reusable electrode:**
 
 - [ ] Carefully attach a sticky disc to the electrode, centering the hole over the grey Ag/AgCl. Remove the paper protective cover, exposing the disc adhesive.
-- [ ] Using a gel-filled syringe and blunt needle, place a drop of gel in the electrode center.
+- [ ] Using a gel-filled syringe and blunt needle, place a drop of gel in the electrode center and place the electrode on the prepared site.
+- [ ] Do not pull on the cable when applying it or when attached. Apply *Micropore* tape as necessary to help secure it in place.
 
-- [ ] If using the [NeuroTab]() disposable electrodes.
-    - Remove the transparent backing from the electrode and place the electrode on the prepared site.
-    - To ensure good contact, apply pressure to the center of the electrode and move to the edges.
-    - Do not pull on the cable when applying it or when attached. Apply Micropore tape as necessary to help secure it in place.
+If using the **[NeuroTab](https://www.unimed-electrodes.co.uk/15x20mm-Disposable-solid-gel-electrode-150cm-Lead-TP-connector-Box-of-120/151)** **disposable electrodes**.
 
-    - Rub skin with alcohol pads where the electrodes and HPI coils will be attached (see figure 1 below). Don't overdo it as the skin can become sensitive. Some Operators also like to then abrade the skin with NuPrep paste. Using one of our small stainless steel bowls, squeeze out some NuPrep and rub it onto the skin using a cotton bud.
-    - Use tissues to gently wipe-off excess NuPrep as it is non-conducting (some Operators then like to re-wipe the skin with an alcohol pad).
-    - [ ] **hEOG**: Attach an electrode on the outside of the subject's left eye (hEOG left) and on the outside of the subject's right eye (hEOG right). Make sure that the electrodes are in line with the eyes.
-    - [ ] **vEOG**: Attach an electrode above subject's right eye (vEOG up) and below the subject's right eye (vEOG down). Make sure that the electrodes are in line with the eyes.
-    - [ ] **ECG**: Attach an electrode on the left collarbone (ECG left) and on the right collarbone (ECG right).
-    - [ ] **GND**: Attach an electrode on the back of the subject's neck (GND).
-    - [ ] **REF**: Attach an electrode on the subject's right cheekbone (REF).
+- [ ] Remove the transparent backing from the electrode and place the electrode on the prepared site.
+- [ ] To ensure good contact, apply pressure to the center of the electrode and move to the edges.
+- [ ] Do not pull on the cable when applying it or when attached. Apply *Micropore* tape as necessary to help secure it in place.
 
-![Image title](../../images/meg/Electrode_placement.png)
+**For either electrode type:**
 
-NOTE: REF may not be required for the bipolar EOG, ECG, but use as necessary if channels are noisy.
-For EMG, site REF electrode where required/as per your paradigm.
-Use Micropore tape over the electrodes to help hold them in place.
+- [ ] Where necessary, remove makeup with the provided Micellar water and cotton pads.
+- [ ] Rub skin with alcohol pads where the electrodes and HPI coils will be attached (see **Figure 1** below). 
 
-!!! note
+!!! note "Don't overdo it as the skin can become sensitive."
+
+- [ ] Some Operators also like to then abrade the skin with *NuPrep* paste. 
+	- Using one of our small stainless steel bowls, squeeze out some *NuPrep* and rub it onto the skin using a cotton bud.
+    - Use tissues to gently wipe-off excess *NuPrep* as it is non-conducting (some Operators then like to re-wipe the skin with an alcohol pad).
+- [ ] **hEOG**: Attach an electrode on the outside of the subject's left eye (**hEOG left**) and on the outside of the subject's right eye (**hEOG right**). 
+- [ ] **vEOG**: Attach an electrode above subject's right eye (**vEOG up**) and below the subject's right eye (**vEOG down**). 
+
+!!! note "In both cases, **make sure that the electrodes are in line with the eyes - horizonally & vertically**."
+
+- [ ] **ECG**: Attach an electrode on the left collarbone (**ECG left**) and on the right collarbone (**ECG right**).
+- [ ] **GND**: Attach an electrode on the back of the subject's neck (**GND**).
+- [ ] **REF**: Attach an electrode on the subject's right cheekbone (**REF**).
+
+![Figure 1](../../images/meg/Electrode_placement.png)
+**Figure 1: Standard locations of EOG and ECG electrodes**
+
+!!! Note
+	REF may not be required for the bipolar EOG, ECG, but use as necessary if channels are noisy.<br />
+	For EMG, site REF electrode where required/as per your paradigm.<br />
+	Use *Micropore* tape over the electrodes to help hold them in place.
+	
     Our Electrode input on the gantry is to the **right of the subject**, so we use the **right eye for vEOG**.
 
 ## Check impedance of electrodes
