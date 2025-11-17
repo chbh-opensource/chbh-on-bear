@@ -18,6 +18,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 		- MSR [Dimensions](hardware/dimensions.md)
 	- [Helium Recycling System](hardware/ihr.md) (the IHR)
 	- [LabJack](hardware/meg-labjack.md)
+	- [SIGGI II Impedance Meter](pdfs/SIGGI_II_User_Manual.pdf)
 
 -   **Data Acquisition**
 

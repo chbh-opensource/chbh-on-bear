@@ -135,7 +135,24 @@ If using the **[NeuroTab](https://www.unimed-electrodes.co.uk/15x20mm-Disposable
 
 ## Check impedance of electrodes
 
+Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
+
+- [ ] Press the white button, labelled *Enter/Esc*, on the jog-shuttle to turn on.
+- [ ] Press the white button *again* to enter *Impedance Meter* menu.
+- [ ] On the top side of the SIGGI ("***Single-Ch-In***") plug **GND** electrode into **"N"**.
+- [ ] On the top side of the SIGGI plug **REF** electrode into **"-"**.
+- [ ] On the top side of the SIGGI plug the **electrode of interest** into **"+"**
+
+!!! note "If measuring EEG cap impedance, use the provided adapter."
+
+- [ ] **Cycle through all electrodes**, and make sure the **impedance is <10kOhm**.
+- [ ] Quit *Impedance Meter* by selecting *Return* symbol and press *Enter/Esc*. 
+- [ ] Select *Power off* via the jog-shuttle and press *Enter/Esc*.
+
 ## Attach HPI coils
+
+![Figure 2](../../images/meg/HPI_placement.png)
+**Figure 2: Standard locations of HPI coils**
 
 ## Digitize head-coordinate system
 

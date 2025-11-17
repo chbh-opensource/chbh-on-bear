@@ -79,6 +79,7 @@ nav:
       - MSR Dimensions: meg/hardware/dimensions.md
       - The IHR: meg/hardware/ihr.md
       - LabJack: meg/hardware/meg-labjack.md
+      - SIGGI II Impedance Meter: meg/pdfs/SIGGI_II_User_Manual.pdf
     - Acquisition:
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
       - Noisy Channels: meg/acquisition/noisy_channels.md
