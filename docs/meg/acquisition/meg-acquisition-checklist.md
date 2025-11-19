@@ -48,7 +48,7 @@ Click on the checklists to mark your progress through data collection.
 			Change any, e.g. MATLAB, code on the NEW Stim PC, referencing the PP Base Memory Address to...<br />
 			**CFF8** ... e.g. in `initialiseParallelPort.m`
 
-- [ ] Start subject preparation - items to have ready/available.
+- [ ] Start participant preparation - items to have ready/available.
  
 	!!! info "Reusable and disposable electrodes are available for use as required."
 	- Label 4 electrodes for EOG, 2 electrodes for ECG and any other (i.e. EMG) electrodes as required. Have some additional electrodes ready in case you have to redo them.
@@ -72,17 +72,17 @@ Click on the checklists to mark your progress through data collection.
     - See this flowchart **[Noisy Channels](noisy_channels.md)**, or for a more detailed process see this walkthrough **[To fix noisy channels](to_fix_noisy_channels.md)**.
 - [ ] Exit Tuner and return to ***megacq***. Adjust **Settings**
     - Select Project, or create new.
-	- Input pseudonymised Subject details from Participant Logging Computer (PLC).
+	- Input pseudonymised participant details from Participant Logging Computer (PLC).
 	- Adjust Acquisition parameters or load settings...<br /> **```File -> Load settings```** .
     - Create or adjutst stimulus generation, on-line averaging (as necessary).
 
-## Prepare subject
+## Prepare participant
  
 - [ ] Offer bathroom break.
 - [ ] Explain preparation procedure.
 - [ ] Explain experiment.
-- [ ] Let subject read and sign ethics consent and screening questionaire.
-- [ ] Have subject remove metal objects, and do **a comprehensive check with both metal detectors**. Subject to change into scrubs if necessary (show subject to Changing Room and show scrubs sizes that are available).
+- [ ] Let participant read and sign ethics consent and screening questionaire.
+- [ ] Have participant remove metal objects, and do **a comprehensive check with both metal detectors**. Subject to change into scrubs if necessary (show subject to Changing Room and show scrubs sizes that are available).
 
 !!! note "We are trying to reduce our laundry bill so only use scrubs if necessary e.g. metal in clothing."
 
@@ -91,7 +91,7 @@ Click on the checklists to mark your progress through data collection.
 !!! info "Reusable and disposable electrodes available for use as required."
 
 - [ ] Clean hands with provided Alcohol Gel Sanitizer.
-- [ ] Ask pariciapnt to sit in **Digitisation Chair**.
+- [ ] Ask participant to sit in **Digitisation Chair**.
 
 When ready **to attach a reusable electrode:**
 
@@ -107,7 +107,7 @@ If using the **[NeuroTab](https://www.unimed-electrodes.co.uk/15x20mm-Disposable
 
 **For either electrode type:**
 
-- [ ] Where necessary, remove makeup with the provided Micellar water and cotton pads.
+- [ ] Where necessary, remove makeup with the provided *Micellar* water and cotton pads.
 - [ ] Rub skin with alcohol pads where the electrodes and HPI coils will be attached (see **Figure 1** below). 
 
 !!! note "Don't overdo it as the skin can become sensitive."
@@ -161,7 +161,32 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 
 ## Digitize head shape
 
-## Prepare the subject in the MSR
+- [ ] Leave the *Polhemus* goggles in place on your participant, then ...
+- [ ] Click **Pen** in the bottom right (*Additional Data*) window.
+	- **Gently stroke** the tip of the stylus (usually with the black rubber tip cover in place) over several (especially bony) shapes of the head ...<br /> 
+      *eyebrows, around the eyes, nose*, and *along the scalp*,<br /> ...to capture the head shape, while **pressing the button of the stylus**.
+	- At least **200 extra points** would be the minimum number to digitise.
+- [ ] Ideally **select the cardinal landmark locations again** as the **last 3 points** you collect.
+- [ ] **Stop** when ready by **digitising a point 30cm from the head origin**. 
+	- Hold the stylus that distance **away from the receiver on the *Polhemus* glasses** and click the stylus button **once**. You should **hear two beeps**.
+
+## Prepare the participant in the MSR
+
+**<span style="color:maroon"> At all times make sure your participant knows what is going to happen. Make him/her comfortable in expressing his/her opinions.</span>**
+
+- [ ] **Before** escorting the participant into the MSR, **secure any relevant cables** to the body (i.e. shoulder) of the participant e.g. the **unused (5th) yellow HPI coil**, using *Micropore* tape.
+- [ ] When the **participant is seated** in the gantry chair, **plug in the EOG, ECG, EMG electrodes** (as required) into the **correct BIO sockets** of the gantry side panel, as determined by your experimental setup.
+- [ ] **Attach the HPI coils** (red plug) into the **red "HPI" socket** of the gantry side panel.
+- [ ] If used, **attach the *Natus* audio plug** into the **green "Patient" socket** of the gantry side panel.
+- [ ] **Raise participant** into the gantry helmet, using the chair foot pedal, until the top of the head *almost* touches the inside top of the helmet.
+- [ ] **Make participant comfortable** with cushions/pillows and/or by raising the leg rests of the chair.
+- [ ] If using, **setup the EyeLink 1000 Plus Camerahead/Illuminitor** on the small table, placed over the participant's legs. (*See the ***[Eyelink 1000 Plus](meg-acquisition-checklist.md/#if-using-the-eyelink-1000-plus)*** section for more detailed usage*).
+- [ ] **Position the back projection screen** in front of the participant, with the glossy side facing them.
+- [ ] **Place NAtA button pad/s, response device/s** - e.g., on the gantry chair waist tray.
+- [ ] If necessary, **run through the stimulus paradigm again** to confirm they know what they need to do/what is required.
+- [ ] Exit, then **close MSR door**.
+- [ ] **Check communication both ways** using the intercom. Put the participant at ease.
+- [ ] **Check again** that the participant is happy/knows what to do.
 
 ## If using the EyeLink 1000 Plus
 
