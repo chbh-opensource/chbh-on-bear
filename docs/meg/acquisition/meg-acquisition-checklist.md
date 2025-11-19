@@ -11,7 +11,7 @@ Click on the checklists to mark your progress through data collection.
         - Select the correct Stim PC via KVM.
             - Press button 1 to connect to the OLD Stim PC.
             - Press button 3 to connect to the NEW Stim PC.
-                - LED Meanings
+                - LED Meanings.
                 - <b><span style="color:green">Green</span></b>/<b>Dark</b> for connected PCs, but not active.
                 - <b><span style="color:green">Green</span></b>/<b><span style="color:red">Red</span></b> for connected PCs actively using the KVM.
                 - <b>Dark/Dark</b> for no connection.
@@ -19,9 +19,9 @@ Click on the checklists to mark your progress through data collection.
     === "Select the parallel port"
 
         - Select the correct Parallel Port via the Parallel Port (PP) Switch Box.
-            - PP Switch position A to connect STI101 to the OLD Stim PC (PP Base Memory Address: BFF8)
-            - PP Switch position B to connect STI101 to the NEW Stim PC (PP Base Memory Address: CFF8)
-            - PP Switch position C to connect STI101 to the [LabJack U3-LV](../hardware/meg-labjack.md) connected via USB to the NEW Stim PC
+            - PP Switch position A to connect STI101 to the OLD Stim PC (PP Base Memory Address: BFF8).
+            - PP Switch position B to connect STI101 to the NEW Stim PC (PP Base Memory Address: CFF8).
+            - PP Switch position C to connect STI101 to the [LabJack U3-LV](../hardware/meg-labjack.md) connected via USB to the NEW Stim PC.
 
 - [ ] Check Gantry position. Move from liquefaction (25) position to usage position.
 	* **[Moving the Gantry](moving-the-gantry.md)**
@@ -53,12 +53,12 @@ Click on the checklists to mark your progress through data collection.
 	!!! info "Reusable and disposable electrodes are available for use as required."
 	- Label 4 electrodes for EOG, 2 electrodes for ECG and any other (i.e. EMG) electrodes as required. Have some additional electrodes ready in case you have to redo them.
     - Electrode gel (in 20ml syringes - use the caulking gun to fill them.) We also have 12ml *curved tip* syringes available.
-    - Cut tape ready for attaching electrodes to skin (*Tegaderm* tape)
+    - Cut tape ready for attaching electrodes to skin (*Tegaderm* tape).
     - Cut tape for securing electrodes (*Micropore* tape) and *Blenderm* tape for attaching cHPI coils.
 	- Small double-sided sticky discs used to secure reusable electrodes.
     - If using an EEG cap, check it over for damaged electrodes. Makes sure it's clean and dry.
     - Set up the Digitiser chair, away from any metal. Attach the transmitter cube to the back of the chair. The **cable has to point downwards**.
-    - See this page for our various consumable items - **[MEG Consumables](meg-consumables.md)**
+    - See this page for our various consumable items - **[MEG Consumables](meg-consumables.md)**.
 
 - [ ] Check the MSR, yourself, and participant, for any unwanted items that could cause artefacts and remove them.
 	- See this PDF... **[Metal items Checklist](../../meg/pdfs/Metal_items_checklist.pdf)**
@@ -73,7 +73,7 @@ Click on the checklists to mark your progress through data collection.
 - [ ] Exit Tuner and return to ***megacq***. Adjust **Settings**
     - Select Project, or create new.
 	- Input pseudonymised Subject details from Participant Logging Computer (PLC).
-	- Adjust Acquisition parameters or load settings...<br /> **```File -> Load settings```** 
+	- Adjust Acquisition parameters or load settings...<br /> **```File -> Load settings```** .
     - Create or adjutst stimulus generation, on-line averaging (as necessary).
 
 ## Prepare subject
@@ -91,6 +91,7 @@ Click on the checklists to mark your progress through data collection.
 !!! info "Reusable and disposable electrodes available for use as required."
 
 - [ ] Clean hands with provided Alcohol Gel Sanitizer.
+- [ ] Ask pariciapnt to sit in **Digitisation Chair**.
 
 When ready **to attach a reusable electrode:**
 
@@ -141,7 +142,7 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 - [ ] Press the white button *again* to enter *Impedance Meter* menu.
 - [ ] On the top side of the SIGGI ("***Single-Ch-In***") plug **GND** electrode into **"N"**.
 - [ ] On the top side of the SIGGI plug **REF** electrode into **"-"**.
-- [ ] On the top side of the SIGGI plug the **electrode of interest** into **"+"**
+- [ ] On the top side of the SIGGI plug the **electrode of interest** into **"+"**.
 
 !!! note "If measuring EEG cap impedance, use the provided adapter."
 
@@ -166,6 +167,20 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 
 ## Start recording
 
+- [ ] Instruct participant to **remain still and relaxed**, and announce the start of the experiment.
+- [ ] Start Acquisition by pressing **"GO!"**.
+- [ ] Tick **Record raw**.
+- [ ] Tick **Average** (if required).
+- [ ] Start experiment on Stim PC.
+
 ## Finishing recording session
+
+- [ ] When the experiment has finished, press **Stop**.
+- [ ] Inform participant that the experiment is over, to **remain seated**, and that you will be in there shortly.
+- [ ] If *Average* was ticked, the **first file saved** will be the **averaged data** and the **second file** will be the **raw data**.
+- [ ] Name your files as per your usual file-naming scheme.
+- [ ] **Do not change the default path** (*ProjectName/SubjectID/Date*). 
+- [ ] Enter MSR, disconnect electrode cables and HPI coils.
+- [ ] Move participant back to **Digitisation chair** and gently remove all electrodes. If used, remove the *Tegaderm* tape from the HPI coils as soon as convenient.
 
 ## Tidying Up
