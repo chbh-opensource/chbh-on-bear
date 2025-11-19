@@ -20,7 +20,6 @@ Guides and documentation for behavioural data collection at the CHBH.
 
     Tracking eyes and pupilometry
 
-
 </div>
 
 !!! info "CHBH Sharepoint Pages"
