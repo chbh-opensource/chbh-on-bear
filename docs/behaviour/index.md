@@ -2,9 +2,10 @@
 
 Guides and documentation for behavioural data collection at the CHBH.
 
+
 <div class="grid cards" markdown>
 
-- **Technical Information**
+-   **Technical Information**
 
     ---
 
@@ -14,7 +15,7 @@ Guides and documentation for behavioural data collection at the CHBH.
     - [Common Experimental Platform PCs](technical/cep.md)
     - [Troubleshooting](technical/troubleshooting.md)
 
-- **Eye Tracking**
+-   **Eye Tracking**
 
     ---
 
