@@ -19,15 +19,12 @@ install.packages("spant", dependencies = TRUE)
 Or the development version from GitHub (requires the devtools package):
 
 ```
-install.packages("devtools")
-devtools::install_github("martin3141/spant", ref = "devel", dependencies = TRUE)
+install.packages("remotes")
+remotes::install_github("martin3141/spant", ref = "devel", dependencies = TRUE)
 ```
 
 Note, installing for the first time will require compilation of various packages and will take some time.
 
 ## Batch use
 
-TODO
-
-- [ ] check 1
-- [ ] check 2
+The use of Apptainer containers are recommended for batch analyses using spant to ensure consistency. A guide to building and using these containers on BlueBEAR may be found on github : [](https://github.com/martin3141/mrs_apps_containers)
