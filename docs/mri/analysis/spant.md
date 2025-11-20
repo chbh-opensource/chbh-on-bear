@@ -27,4 +27,4 @@ Note, installing for the first time will require compilation of various packages
 
 ## Batch use
 
-The use of Apptainer containers are recommended for batch analyses using spant to ensure consistency. A guide to building and using these containers on BlueBEAR may be found on github : [](https://github.com/martin3141/mrs_apps_containers)
+The use of Apptainer containers are recommended for batch analyses using spant to ensure consistency. A guide to building and using these containers on BlueBEAR may be found on github : <https://github.com/martin3141/mrs_apps_containers>
