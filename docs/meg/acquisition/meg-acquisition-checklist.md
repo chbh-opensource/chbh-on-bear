@@ -10,7 +10,7 @@ Click on the checklists to mark your progress through data collection.
 
         - Select the correct Stim PC via KVM.
             - Press button 1 to connect to the OLD Stim PC.
-            - Press button 3 to connect to the NEW Stim PC.
+            - Press **button 3** to connect to the **NEW Stim PC**.
                 - LED Meanings.
                 - <b><span style="color:green">Green</span></b>/<b>Dark</b> for connected PCs, but not active.
                 - <b><span style="color:green">Green</span></b>/<b><span style="color:red">Red</span></b> for connected PCs actively using the KVM.
@@ -20,8 +20,8 @@ Click on the checklists to mark your progress through data collection.
 
         - Select the correct Parallel Port via the Parallel Port (PP) Switch Box.
             - PP Switch position A to connect STI101 to the OLD Stim PC (PP Base Memory Address: BFF8).
-            - PP Switch position B to connect STI101 to the NEW Stim PC (PP Base Memory Address: CFF8).
-            - PP Switch position C to connect STI101 to the [LabJack U3-LV](../hardware/meg-labjack.md) connected via USB to the NEW Stim PC.
+            - PP **Switch position B** to connect STI101 to the **NEW Stim PC** (PP Base Memory Address: CFF8).
+            - PP **Switch position C** to connect STI101 to the **[LabJack U3-LV](../hardware/meg-labjack.md)** connected **via USB to the NEW Stim PC**.
 
 - [ ] Check Gantry position. Move from liquefaction (25) position to usage position.
 	* **[Moving the Gantry](moving-the-gantry.md)**
@@ -35,7 +35,7 @@ Click on the checklists to mark your progress through data collection.
             - (ANY DEVICE) > **`ppx a`** - should respond with "PROPixx is in awake mode"
             - To "sleep" the projector ...
             - (ANY DEVICE) > **`ppx s`** - should respond with "PROPixx is in sleep mode"
-            - Please do not leave the PROPixx projector in "awake" mode when not in use e.g. overnight!
+            !!! note "Please do not leave the PROPixx projector in *awake* mode when not in use e.g. overnight!"
 			!!! Note
 			    **`ppx a / ppx s`** didn't work on one occasion. PROPixx needed a full power off/on to reset.
 				
@@ -51,10 +51,10 @@ Click on the checklists to mark your progress through data collection.
 - [ ] Start participant preparation - items to have ready/available.
  
 	!!! info "Reusable and disposable electrodes are available for use as required."
-	- Label 4 electrodes for EOG, 2 electrodes for ECG and any other (i.e. EMG) electrodes as required. Have some additional electrodes ready in case you have to redo them.
+	- **Label 4 electrodes for EOG, 2 electrodes for ECG** and **any other (i.e. EMG) electrodes as required**. Have some additional electrodes ready in case you have to redo them.
     - Electrode gel (in 20ml syringes - use the caulking gun to fill them.) We also have 12ml *curved tip* syringes available.
-    - Cut tape ready for attaching electrodes to skin (*Tegaderm* tape).
-    - Cut tape for securing electrodes (*Micropore* tape) and *Blenderm* tape for attaching cHPI coils.
+    - **Cut tape** ready for attaching electrodes to skin (*Tegaderm* tape).
+    - **Cut tape** for securing electrodes (*Micropore* tape) and *Blenderm* tape for attaching cHPI coils.
 	- Small double-sided sticky discs used to secure reusable electrodes.
     - If using an EEG cap, check it over for damaged electrodes. Makes sure it's clean and dry.
     - Set up the Digitiser chair, away from any metal. Attach the transmitter cube to the back of the chair. The **cable has to point downwards**.
@@ -64,6 +64,7 @@ Click on the checklists to mark your progress through data collection.
 	- See this PDF... **[Metal items Checklist](../../meg/pdfs/Metal_items_checklist.pdf)**
 
 - [ ] Check that the participant monitoring camera and microphone are working correctly.
+
 
 ## Prepare MEG system
 
@@ -76,15 +77,17 @@ Click on the checklists to mark your progress through data collection.
 	- Adjust Acquisition parameters or load settings...<br /> **```File -> Load settings```** .
     - Create or adjutst stimulus generation, on-line averaging (as necessary).
 
+
 ## Prepare participant
  
 - [ ] Offer bathroom break.
 - [ ] Explain preparation procedure.
 - [ ] Explain experiment.
-- [ ] Let participant read and sign ethics consent and screening questionaire.
-- [ ] Have participant remove metal objects, and do **a comprehensive check with both metal detectors**. Subject to change into scrubs if necessary (show subject to Changing Room and show scrubs sizes that are available).
+- [ ] Have participant read and sign ethics consent and screening questionaire.
+- [ ] Have participant remove metal objects, and do **a comprehensive check with both metal detectors**. Participant to change into scrubs if necessary (show participant to Changing Room and show scrubs sizes that are available).
 
 !!! note "We are trying to reduce our laundry bill so only use scrubs if necessary e.g. metal in clothing."
+
 
 ## Attach electrodes
 
@@ -95,26 +98,26 @@ Click on the checklists to mark your progress through data collection.
 
 When ready **to attach a reusable electrode:**
 
-- [ ] Carefully attach a sticky disc to the electrode, centering the hole over the grey Ag/AgCl. Remove the paper protective cover, exposing the disc adhesive.
-- [ ] Using a gel-filled syringe and blunt needle, place a drop of gel in the electrode center and place the electrode on the prepared site.
-- [ ] Do not pull on the cable when applying it or when attached. Apply *Micropore* tape as necessary to help secure it in place.
+- [ ] **Carefully attach** a sticky disc to the electrode, **centering the hole** over the grey Ag/AgCl. **Remove** the paper protective cover, exposing the disc adhesive.
+- [ ] Using a gel-filled syringe and blunt needle, **place a drop of gel in the electrode center** and place the electrode on the prepared site.
+- [ ] **Do not pull on the cable when applying it or when attached**. Apply *Micropore* tape as necessary to help secure it in place.
 
 If using the **[NeuroTab](https://www.unimed-electrodes.co.uk/15x20mm-Disposable-solid-gel-electrode-150cm-Lead-TP-connector-Box-of-120/151)** **disposable electrodes**.
 
-- [ ] Remove the transparent backing from the electrode and place the electrode on the prepared site.
-- [ ] To ensure good contact, apply pressure to the center of the electrode and move to the edges.
-- [ ] Do not pull on the cable when applying it or when attached. Apply *Micropore* tape as necessary to help secure it in place.
+- [ ] **Remove** the transparent backing from the electrode and place the electrode on the prepared site.
+- [ ] To **ensure good contact**, apply pressure to the center of the electrode and move to the edges.
+- [ ] **Do not pull on the cable when applying it or when attached**. Apply *Micropore* tape as necessary to help secure it in place.
 
 **For either electrode type:**
 
-- [ ] Where necessary, remove makeup with the provided *Micellar* water and cotton pads.
-- [ ] Rub skin with alcohol pads where the electrodes and HPI coils will be attached (see **Figure 1** below). 
+- [ ] Where necessary, **remove makeup with the provided *Micellar* water and cotton pads**.
+- [ ] **Rub skin with alcohol wipes** where the electrodes and HPI coils will be attached (see **Figure 1** below). 
 
 !!! note "Don't overdo it as the skin can become sensitive."
 
-- [ ] Some Operators also like to then abrade the skin with *NuPrep* paste. 
-	- Using one of our small stainless steel bowls, squeeze out some *NuPrep* and rub it onto the skin using a cotton bud.
-    - Use tissues to gently wipe-off excess *NuPrep* as it is non-conducting (some Operators then like to re-wipe the skin with an alcohol pad).
+- [ ] Some Operators also like to then **abrade the skin with *NuPrep* paste**. 
+	- Using one of our **small stainless steel bowls**, squeeze out some *NuPrep* and rub it **onto the skin using a cotton bud**.
+    - **Use tissues to gently wipe-off excess *NuPrep*** as it is **non-conducting** (some Operators then like to **re-rub the skin with an alcohol wipe**).
 - [ ] **hEOG**: Attach an electrode on the outside of the subject's left eye (**hEOG left**) and on the outside of the subject's right eye (**hEOG right**). 
 - [ ] **vEOG**: Attach an electrode above subject's right eye (**vEOG up**) and below the subject's right eye (**vEOG down**). 
 
@@ -134,6 +137,7 @@ If using the **[NeuroTab](https://www.unimed-electrodes.co.uk/15x20mm-Disposable
 	
     Our Electrode input on the gantry is to the **right of the subject**, so we use the **right eye for vEOG**.
 
+
 ## Check impedance of electrodes
 
 Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
@@ -150,34 +154,56 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 - [ ] Quit *Impedance Meter* by selecting *Return* symbol and press *Enter/Esc*. 
 - [ ] Select *Power off* via the jog-shuttle and press *Enter/Esc*.
 
+
 ## Attach HPI coils
 
 ![Figure 2](../../images/meg/HPI_placement.png)
 **Figure 2: Standard locations of HPI coils**
 
+
 ## Digitise head-coordinate system
 
+!!! note "Make sure that the *goggles don't move* when making the digitisation."
+
+!!! note "The order in which the fiducial points are digitised does not matter."
+
 - [ ] Turn on the *Polhemus* system (switch on the back right of the unit).
-- [ ] Make sure the Transmitter cube is placed in the grey bracket on the back of the **Digitisation chair**, with **the cable pointing down**.
-- [ ] Place the *Polhemus* goggles on your Participant. Make sure that the **goggles don't move when making the Digitisation**.
+- [ ] Place the Transmitter cube in the grey bracket on the back of the **Digitisation chair**, with **the cable pointing down**.
+- [ ] Place the *Polhemus* goggles on your Participant.
 - [ ] Click **Change** next to **HPI: not digitized!** in the *Acquisition control* **Settings** panel.
-- [ ] Click **Coordinate frame alignment**.
-
-!!! note "The order in which the fiducial points are digitised does not matter"
-
-- [ ] Remove the black rubber tip cover from the stylus. **Do not drop the stylus** as the point is easily damaged!
-	- Rest the tip of the stylus gently on the first fiducial point, e.g. **nasion** or a **peri-auricular point** (see **<span style="color:green">green</span>** crosses **in Figure 2 above**), and **press the stylus button**.
-	- Repeat this procedure for **the other two fiducial points**.
+- [ ] Click **Coordinate frame alignment** in the **Head shape digitization** window.
+- [ ] **Remove** the black rubber tip cover from the stylus. **Do not drop the stylus** as the point is easily damaged!
+	- **Rest the tip** of the stylus gently on the first fiducial point, e.g. **nasion** or a **peri-auricular point** (see **<span style="color:green">green</span>** crosses **in Figure 2 above**), and **press the stylus button**.
+	- **Repeat** this procedure for **the other two fiducial points**. You should **hear two beeps** after the 3rd point, signfying completion.
 - [ ] If time allows, as a *sanity-check*, to make sure the measured location of the fiducial points are in still in alignment...
-	- Click **Coordinate frame alignment** again and select **Check** from the pop-up window.
-	- **Digitise all three fiducial points (cardinal landmarks) again** by pressing the stylus button after each beep.
-	- **To abort** digitise a point 30cm from the head origin/receiver.
+	- Click **Coordinate frame alignment** again, and select **Check** from the pop-up window.
+	- **Digitise all three fiducial points (cardinal landmarks) again** by pressing the stylus button after each beep. You should **hear two beeps** after the 3rd point, signifying completion.
+	- **To abort** digitise a point 75cm from the head origin/receiver, by pressing the stylus button at that distance.
 	- **Deviations from the first digitisation** will appear in **another pop-up window** after you have digitised all three fiducial points/landmarks.
 	- **Deviations < 5mm** are considered to be **"OK"**, no redo required.
 - [ ] If necessary (**values > 5mm**), **redo measurement** by clicking **Coordinate frame alignment** again and selecting **Redo**.
 
 
 ## Digitise HPI coils
+
+!!! note "The coils *must not move* relative to the head during the measurement!"
+
+!!! note "The order in which the HPI coils are digitised does not matter."
+
+- [ ] Click **HPI coils** in the **Head shape digitization** window.
+	- **Rest the tip** of the stylus gently in the **little hole in the centre of a coil** and **press the stylus button**.
+	- **Repeat** this procedure for **the other three coils**, as shown **in Figure 2 above**.
+- [ ] **Stop** the digitisation after the 4th coil (**if only using four coils**) by **digitising a point 30cm from the head origin**.
+	- Hold the stylus that distance **away from the receiver on the *Polhemus* goggles**, and press the stylus buttton **once**. You should **hear two beeps**.
+	- If you were **digitising all five HPI coils**, you should **hear two beeps** after the 5th coil, signifying completion.
+- [ ] If time allows, as a *sanity-check*, to make sure the measured locations of the HPI coils are in alignment.
+	- Click **HPI coils** again, and select **Check** from the pop-up window.
+	- Digitise **all four (or five) HPI coils again** by pressing the stylus button after each beep.
+	- **To abort**, digitise a point 30cm from the head origin/receiver, by pressing the stylus button at that distance.
+	- **Deviations from the first digitisation** will appear in **another pop-up window** after you have digitised all four (or five) HPI coils.
+	- **Deviations < 5mm** are considered to be **"OK"**, no redo required.
+- [ ] If necessary (**values > 5mm**), **redo measurement** by clicking **HPI coils** again and selecting **Redo**.
+
 
 ## Digitise head shape
 
@@ -189,6 +215,7 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 - [ ] Ideally **select the cardinal landmark locations again** as the **last 3 points** you collect.
 - [ ] **Stop** when ready by **digitising a point 30cm from the head origin**. 
 	- Hold the stylus that distance **away from the receiver on the *Polhemus* glasses** and click the stylus button **once**. You should **hear two beeps**.
+
 
 ## Prepare the participant in the MSR
 
@@ -210,6 +237,7 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 
 ## If using the EyeLink 1000 Plus
 
+
 ## Start recording
 
 - [ ] Instruct participant to **remain still and relaxed**, and announce the start of the experiment.
@@ -218,14 +246,16 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 - [ ] Tick **Average** (if required).
 - [ ] Start experiment on Stim PC.
 
+
 ## Finishing recording session
 
 - [ ] When the experiment has finished, press **Stop**.
-- [ ] Inform participant that the experiment is over, to **remain seated**, and that you will be in there shortly.
+- [ ] **Inform** participant that the experiment is over, to **remain seated**, and that you will be in there shortly.
 - [ ] If *Average* was ticked, the **first file saved** will be the **averaged data** and the **second file** will be the **raw data**.
-- [ ] Name your files as per your usual file-naming scheme.
+- [ ] **Name** your files as per your usual file-naming scheme.
 - [ ] **Do not change the default path** (*ProjectName/SubjectID/Date*). 
-- [ ] Enter MSR, disconnect electrode cables and HPI coils.
-- [ ] Move participant back to **Digitisation chair** and gently remove all electrodes. If used, remove the *Tegaderm* tape from the HPI coils as soon as convenient.
+- [ ] Enter MSR, disconnect electrode cables and HPI coils. **As a help**, ask participant to hold cabling.
+- [ ] **Lower chair** by using foot pedal, and pull chair out from under the gantry.
+- [ ] **Help** participant up out of the chair (if required), and escort them back to the **Digitisation chair**. When seated, **gently remove** all electrodes and tape. If used, remove the *Tegaderm* tape from the HPI coils as soon as convenient - see [Tidying Up] page.
 
 ## Tidying Up
