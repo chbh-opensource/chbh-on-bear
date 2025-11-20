@@ -155,11 +155,31 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 ![Figure 2](../../images/meg/HPI_placement.png)
 **Figure 2: Standard locations of HPI coils**
 
-## Digitize head-coordinate system
+## Digitise head-coordinate system
 
-## Digitize HPI coils
+- [ ] Turn on the *Polhemus* system (switch on the back right of the unit).
+- [ ] Make sure the Transmitter cube is placed in the grey bracket on the back of the **Digitisation chair**, with **the cable pointing down**.
+- [ ] Place the *Polhemus* goggles on your Participant. Make sure that the **goggles don't move when making the Digitisation**.
+- [ ] Click **Change** next to **HPI: not digitized!** in the *Acquisition control* **Settings** panel.
+- [ ] Click **Coordinate frame alignment**.
 
-## Digitize head shape
+!!! note "The order in which the fiducial points are digitised does not matter"
+
+- [ ] Remove the black rubber tip cover from the stylus. **Do not drop the stylus** as the point is easily damaged!
+	- Rest the tip of the stylus gently on the first fiducial point, e.g. **nasion** or a **peri-auricular point** (see **<span style="color:green">green</span>** crosses **in Figure 2 above**), and **press the stylus button**.
+	- Repeat this procedure for **the other two fiducial points**.
+- [ ] If time allows, as a *sanity-check*, to make sure the measured location of the fiducial points are in still in alignment...
+	- Click **Coordinate frame alignment** again and select **Check** from the pop-up window.
+	- **Digitise all three fiducial points (cardinal landmarks) again** by pressing the stylus button after each beep.
+	- **To abort** digitise a point 30cm from the head origin/receiver.
+	- **Deviations from the first digitisation** will appear in **another pop-up window** after you have digitised all three fiducial points/landmarks.
+	- **Deviations < 5mm** are considered to be **"OK"**, no redo required.
+- [ ] If necessary (**values > 5mm**), **redo measurement** by clicking **Coordinate frame alignment** again and selecting **Redo**.
+
+
+## Digitise HPI coils
+
+## Digitise head shape
 
 - [ ] Leave the *Polhemus* goggles in place on your participant, then ...
 - [ ] Click **Pen** in the bottom right (*Additional Data*) window.
