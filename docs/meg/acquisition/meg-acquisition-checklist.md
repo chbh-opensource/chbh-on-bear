@@ -157,9 +157,41 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 
 ## Attach HPI coils
 
+!!! info "*[Why do we attach HPI coils?](../../meg/pdfs/Why_attach_HPI_coils.pdf)*"
+
+!!! Note "Our HPI coils are energised at different frequencies (now 25Hz separation) compared to the default <br /> ([HPI Coil Placement and Frequencies](../../meg/pdfs/HPI_Coil_Placement_and_Frequencies.pdf))"
+
+- [ ] If necessary **test the HPI coils** first, for continuity, uisng our ***[HPI Coil Tester](../../meg/pdfs/HPI_Coil_Testing.pdf)***<br />
+<span style="color:green">With many thanks to Gary Chandler & David Hayes (MRC-CBU).</span>
+- [ ] **Attach HPI coils** with either ***[Tegaderm](../../meg/pdfs/Using_Tegaderm_Tape.pdf)*** tape, ***[Blenderm](../../meg/pdfs/Using_Blenderm_Tape.pdf)*** tape, or ***Micropore*** tape, on **the forehead below the hairline**, and **behind the ears** (where there is exposed skin) as shown in **Figure 2** below.
+
+!!! Note
+	- If using Micropore, a good trick is then to mark the center of the tape-covered HPI coil with a pencil to aid digitisation/locate the stylus tip correctly.<br />
+	- The coils must be covered by the MEG helmet/sensor array, so place them as high on the head as possible.<br />
+	- The coils behind the ears as high up as possible, without being in the hair.<br />
+	- The coils on the forehead well separated, but not in the hair.<br />
+	- The coils should not be directly under the Internal Active Shielding (**IAS**) reference channels, i.e. they should not be in the middle of the forehead, on the inion or near peri-auricular points.<br />
+	- The most precise HPI information is obtained when the coils are as far apart as possible but still within the sensor helmet.<br />
+	- Try avoiding situations where coils form a nearly perfect square.
+
+- [ ] If **using only 4** coils, **tape the 5th (YELLOW) coil** to the **shoulder**.<br /> *This one will not be used or digitised*.
+
+!!! Note
+	- If desired, The 5th coil can be placed in the upper parietal region, preferably somewhat off midline.<br />
+	- Do not place the fifth coil directly on vertex as it may interfere with the Internal Active Shielding (**IAS**) if turned on. 
+	- Avoid the locations of the zero detectors when placing the HPI coils in order to prevent this problem. Refer to the **IAS User’s Manual** section found in the **User's Manual** for zero detector locations (middle shelf, right-hand white cupboard in Control Room).
+
+- [ ] **Place** the *Polhemus* goggles **carefully on your participant**, or attach the small receiver firmly on the forehead using tape. Make sure the coils do not come unstuck.
+
+<br />
 ![Figure 2](../../images/meg/HPI_placement.png)
 **Figure 2: Standard locations of HPI coils**
+<br />
 
+**<span style="color:blue">Please don’t rush the HPI coil attachment!</span>**
+
+- The better the coils are attached, the less likely they will move during digitisation and when the participant is sitting in the gantry chair.
+	 - Less likely to produce a **non-Acceptance** when performing the ***megacq*** HPI check.
 
 ## Digitise head-coordinate system
 
