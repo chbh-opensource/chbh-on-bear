@@ -267,7 +267,40 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 - [ ] **Check communication both ways** using the intercom. Put the participant at ease.
 - [ ] **Check again** that the participant is happy/knows what to do.
 
+
 ## If using the EyeLink 1000 Plus
+
+***See the [EyeLink Operations Guide] for more detailed usage.***
+
+!!! Note "<span style="color:red">NOTE:</span> STIM PC will need to be powered up to allow network communication to the EyeLink PC<br />(both APC Back-UPS 1400s will need to be powered)."
+
+- [ ] **Switch on 6-way bar plug** on table alongside EyeLink Host PC (**to power EyeLink camera (on desk), Host PC, and monitor**).
+- [ ] **EyeLink Batteries:** *Use a fully charged battery where possible*.
+	- **Press the TEST button** to check the power level (batteries **#1** and **#2**).
+	- **Power on, and press the TEST button** (new batteries **#3** and **#4**).
+	
+!!! info "*<span style="color:maroon">"A battery with 2-3 hours left should be fine for a short experiment. Do not risk using it for a 2-hour experiment"</span>*(SR Research)."
+
+- [ ] **Put any used battery on charge** *as required*. 
+	- Make sure **battery is switched OFF when charging**.
+	- **#1** and **#2**: AC Adapter **<span style="color:orange">Orange</span>** LED **will extinguish when battery is charged**.
+	- **#3** and **#4**: AC Adapter **<span style="color:red">Red</span>** LED will change to **<span style="color:#FDDA0D">Yellow</span>** **when battery is charged**, eventually **<span style="color:green">Green</span>**.
+	- **Unplug battery once fully charged**, **switch off AC Adapter** (at Mains socket).
+	- **<span style="color:red">DO NOT leave a battery on charge overnight, or unsupervised!</span>**
+		- **<span style="color:blue">Leave a strip of *Micropore* on battery to signify charging required the following day.**</span>
+- [ ] **Swap to a new battery between Acquisition sessions**. *Put the used battery on charge.*
+- [ ] **Take** a battery into the MSR. Place in **front left corner** (*as viewed from gantry chair*).
+- [ ] **Arrange power cable** around the edge of the MSR, *avoiding any loops*. **Attach** power cable **to battery** and to **FO Camera Head/IR Illuminator**. **Switch on battery**. 
+
+!!! Note "<span style="color:red">NOTE:</span> If you don’t power the Camera Head/IR Illuminator first, the Host PC will complain when "EyeLink” starts up (*ticking sound*).</span>"
+
+- [ ] **Place** FO Camera Head/IR Illuminator **on small table.** *Position table as required, use provided table risers as necessary*.
+- [ ] **Turn on** EyeLink 1000 Plus Host PC and monitor.
+	- **Select** "EyeLink" with the mouse, or just wait.
+- [ ] **Set up** EyeLink FO Camera Head/IR Illuminator as per usual...
+	- *Adjust Camera Head position, remove lens cap, adjust focus/thresholds etc.*
+
+!!! Note "<span style="color:red">NOTE:</span> You can view the EyeLink IR lamp via the MSR camera monitor on the wall in the Control Room - helps in checking lamp alignment on the participant."
 
 
 ## Start recording
