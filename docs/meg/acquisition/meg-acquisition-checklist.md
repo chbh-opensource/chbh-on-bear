@@ -331,4 +331,9 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 - [ ] **Lower chair** by using foot pedal, and pull chair out from under the gantry.
 - [ ] **Help** participant up out of the chair (if required), and escort them back to the **Digitisation chair**. When seated, **gently remove** all electrodes and tape. If used, remove the *Tegaderm* tape from the HPI coils as soon as convenient - see [Tidying Up] page.
 
-## Tidying Up
+## **[Tidying Up](tidying_up.md)** (separate page)
+
+- [ ] Some procedures **only need to followed** if **End of Day**, as indicated by **<span style="color:orange">orange</span>** wording in the document.
+
+- Most equipment can **be left on** during normal working hours.
+
