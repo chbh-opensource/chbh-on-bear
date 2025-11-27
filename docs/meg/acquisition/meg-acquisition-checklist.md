@@ -93,7 +93,7 @@ Click on the checklists to mark your progress through data collection.
 
 !!! info "Reusable and disposable electrodes available for use as required."
 
-- [ ] Clean hands with provided Alcohol Gel Sanitizer.
+- [ ] Clean hands with provided Alcohol Gel Sanitiser.
 - [ ] Ask participant to sit in **Digitisation Chair**.
 
 When ready **to attach a reusable electrode:**
@@ -297,10 +297,18 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 - [ ] **Place** FO Camera Head/IR Illuminator **on small table.** *Position table as required, use provided table risers as necessary*.
 - [ ] **Turn on** EyeLink 1000 Plus Host PC and monitor.
 	- **Select** "EyeLink" with the mouse, or just wait.
-- [ ] **Set up** EyeLink FO Camera Head/IR Illuminator as per usual...
+- [ ] **Set up** EyeLink FO Camera Head/IR Illuminator as per normal usage ...
 	- *Adjust Camera Head position, remove lens cap, adjust focus/thresholds etc.*
 
 !!! Note "<span style="color:red">NOTE:</span> You can view the EyeLink IR lamp via the MSR camera monitor on the wall in the Control Room - helps in checking lamp alignment on the participant."
+- [ ] **<span style="color:blue">EyeLink 1000 Plus AC Adapter usage (*if batteries have failed/none have enough charge*)**.</span>
+
+![EyeLink AC power ON/OFF ](../../images/meg/EyeLinkONOFF.jpg){width=40% align=right}
+
+- **Unplug the battery cable** from the EyeLink FO Camera Head/IR Illuminator, and **attach** the cable labelled "**AC Adapter**". 
+- **Coil up** the now-unused battery cable and **leave** it on the shelf.
+- **Turn on** the EyeLink FO Camera Head/IR Illuminitor power (**via switch labelled "EYELINK"**), in the **Stimulus Cabinet** (*see image right*), and close the door.
+- **Set up** EyeLink FO Camera Head/IR Illuminator as per normal usage.
 
 
 ## Start recording
