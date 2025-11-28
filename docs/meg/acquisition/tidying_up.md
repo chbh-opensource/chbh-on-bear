@@ -44,7 +44,7 @@
 	 
 **<span style="color:maroon">Return to the Control Room, and ...</span>**<br />
 
-- [ ] Remove, and throw away, disposable Response box covers (if used). If not, wipe down NAtA button boxes - with alcohol wipes (not gel!). Be careful! Don't wipe too hard!
+- [ ] Remove, and throw away, disposable Response box covers (if used). If not, wipe down NAtA button boxes - with Alcohol wipes (not gel!). Be careful! Don't wipe too hard!
 - [ ] Throw away disposable electrodes/used *Micropore* tape.
 - [ ] If used, [Clean EEG caps].
 - [ ] Clean reusable electrodes.
@@ -68,29 +68,28 @@
 - [ ] Dispose of used blunt needles in the yellow “SHARPS” box. Throw away used syringes, when necessary, in the bin.
 - [ ] **<span style="color:blue">We have a *Dyson* vacuum cleaner - please use it on the Control Room carpet/Changing Room floor, as necessary.</span>**
 
-[[File:EEG_Trolley.jpg|200px|thumb|left|EEG Trolley]]<br /><br />
-* Leave EEG trolley tidy – as shown  here (alcohol pots returned to Flammables cabinet - **<span style="color:#FF5733">if end of day</span>**)
+![EEG Trolley](../../images/meg/EEG_Trolley.jpg){width=40% align=right}
+
+- [ ] Leave EEG trolley tidy – (*see image right*).
+	 - Alcohol pots returned to Flammables cabinet - **<span style="color:#FF5733">if end of day</span>**).
+
+<br />
+<br />
+
+- [ ] Wipe inside gantry helmet, chair tray, chair arms - with Alcohol gel on green paper towel.
+- [ ] Turn off L2V Converters (*in Stimulus Cabinet*) - move switch to ‘OFF’ position - make sure **<span style="color:red"> RED </span>** LED is NOT lit.
+
+![Polhemus](../../images/meg/Polhemus.jpg){width=40% align=right}
+
+- [ ] Turn off *Polhemus*, tidy up cables – (*see image right*).
+	- *Polhemus* power switch can be found back right of control box. <br />Front panel **<span style="color:green">GREEN</span>** LED should go out.
 
 <br />
 <br />
 <br />
-
-
-* '''Wipe inside gantry helmet, chair tray, chair arms - with alcohol gel on green paper towel.'''
-
-* '''Turn off L2V converters - move switch to ‘off’ position - make sure <span style="color:red"> RED LED</span> is NOT lit.'''<br />
-
-[[File:Polhemus.jpg|200px|thumb|left|Polhemus]]<br /><br /><br />
-* '''Turn off ''Polhemus'', tidy up cables – as shown here. ''Polhemus'' power switch can be found back right of control box. Front panel <span style="color:green">GREEN LED</span> should go out.'''
-
-<br />
-<br />
-<br />
-<br />
-<br />
 <br />
 
-* **<span style="color:#FF5733">If end of day, or Eyelink not required by next Operator</span>**, shutdown EyeLink PC, switch off EyeLink monitor, switch off extension 6-way bar plug.'''
+- [ ] **<span style="color:#FF5733">If end of day, or Eyelink not required by next Operator</span>**, shutdown EyeLink PC, switch off EyeLink monitor, switch off extension 6-way bar plug.
 
 * '''Turn off/Remove EyeLink Battery from MSR.'''
 * '''Put battery on charge, unplug once charged, don’t leave on charge overnight.'''

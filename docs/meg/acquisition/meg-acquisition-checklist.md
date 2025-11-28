@@ -333,7 +333,7 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 
 ## **[Tidying Up](tidying_up.md)** (separate page)
 
-- [ ] Some procedures **only need to followed** if **End of Day**, as indicated by **<span style="color:orange">orange</span>** wording in the document.
+- [ ] Some procedures **only need to followed** if **End of Day**, as indicated by **<span style="color:#FF5733">Orange</span>** wording in the document.
 
 - Most equipment can **be left on** during normal working hours.
 
