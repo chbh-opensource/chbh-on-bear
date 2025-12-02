@@ -19,6 +19,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- [Helium Recycling System](hardware/ihr.md) (the IHR)
 	- [LabJack](hardware/meg-labjack.md)
 	- [SIGGI II Impedance Meter](pdfs/SIGGI_II_User_Manual.pdf)
+	- [EyeLink 1000 Plus Operations Guide](acquisition/eyelink_operations_guide.md)
 
 -   **Data Acquisition**
 
@@ -33,8 +34,11 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 		- [Restart Acquisition](acquisition/restart_acquisition.md)
 		- [Metal items Checklist](pdfs/Metal_items_checklist.pdf)
 	- [Moving the Gantry](acquisition/moving-the-gantry.md)
+	- [Copying MEG data](acquisition/copying_meg_data.md)
+	- [Charging EyeLink batteries](acquisition/charging_eyelink_batteries.md)
 	- [MEG Consumables](acquisition/meg-consumables.md)
 	- [Tidying Up](acquisition/tidying_up.md)
+		- [Cleaning EEG caps](acquisition/cleaning_eeg_caps.md)
 
 	
 -	**Lab Safety**

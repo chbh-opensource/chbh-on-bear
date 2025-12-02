@@ -2,6 +2,8 @@
 
 Click on the checklists to mark your progress through data collection.
 
+- [ ] **<span style="color:green">On arrival, sanitise your hands with the provided Anti-bac foam (dispenser on wall outside Control Room).</span>**
+
 ## Prepare Control Room & MSR
 
 -  [ ] Check functioning of stimulus and response equipment.
@@ -24,7 +26,7 @@ Click on the checklists to mark your progress through data collection.
             - PP **Switch position C** to connect STI101 to the **[LabJack U3-LV](../hardware/meg-labjack.md)** connected **via USB to the NEW Stim PC**.
 
 - [ ] Check Gantry position. Move from liquefaction (25) position to usage position.
-	* **[Moving the Gantry](moving-the-gantry.md)**
+	- **[Moving the Gantry](moving-the-gantry.md)**
 
 - [ ] Check experimental paradigm.
 
@@ -36,8 +38,7 @@ Click on the checklists to mark your progress through data collection.
             - To "sleep" the projector ...
             - (ANY DEVICE) > **`ppx s`** - should respond with "PROPixx is in sleep mode"
             !!! note "Please do not leave the PROPixx projector in *awake* mode when not in use e.g. overnight!"
-			!!! Note
-			    **`ppx a / ppx s`** didn't work on one occasion. PROPixx needed a full power off/on to reset.
+			!!! Note "`ppx a / ppx s` didn't work on one occasion. PROPixx needed a full power off/on to reset."
 				
 
     === "Check Stimuli, Responses and Triggers"
@@ -270,7 +271,7 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 
 ## If using the EyeLink 1000 Plus
 
-***See the [EyeLink Operations Guide] for more detailed usage.***
+***See the [EyeLink Operations Guide](eyelink_operations_guide.md) for more detailed usage.***
 
 !!! Note "<span style="color:red">NOTE:</span> STIM PC will need to be powered up to allow network communication to the EyeLink PC<br />(both APC Back-UPS 1400s will need to be powered)."
 

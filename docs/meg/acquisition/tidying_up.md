@@ -24,29 +24,29 @@
 
 **<span style="color:blue">FULL PROCEDURE</span>** 
 
-- [ ] Stop Acquisition and Save Data [Copying MEG data]
-- [ ] End session on Participant Logging Computer (**PLC**), click on “SCAN END”, **<span style="color:#FF5733">turn off monitor</span>**.
-- [ ] Inform Participant (via intercom) that the experiment has finished, that they are to remain seated, and you’ll be in to unplug/disconnect them shortly.
+- [ ] Stop Acquisition and Save Data. Copy off data to RDS - **[Copying MEG data](copying_meg_data.md)**.
+- [ ] End session on **P**articipant **L**ogging **C**omputer (**PLC**), click on “**SCAN END**”, **<span style="color:#FF5733">turn off monitor</span>**.
+- [ ] Inform participant (via intercom) that the experiment has finished, that they are to remain seated, and you’ll be in to unplug/disconnect them shortly.
 - [ ] Carefully disconnect EEG cap connectors (if used), NATUS audio (if used), BIO Electrodes, and HPI coils from the gantry side.
-- [ ] Ask Participant to remove NATUS ear tips (if used). Dispose of used ear tips in the provided flip-top bin.
-- [ ] Disconnect black SOUNDPixx participant tubing from the main tubing (if used). Participants may want to remove their ear tips first.<br />Dispose of used ear tips in the bin. Spare bin liners are available if the bin is full.
+- [ ] Ask participant to remove NATUS ear tips (if used). Dispose of used ear tips in the provided flip-top bin (*spare bin liners are available on the bottom shelf of the EEG trolley*).
+- [ ] Ask participant to remove SOUNDPixx ear tips (if used). Disconnect black SOUNDPixx participant tubing from the main tubing (if used). Dispose of used ear tips in the bin.
 - [ ] If required, help participant up from gantry chair (they may be a little unsteady), and have them resit in the Digitisation chair in Control Room.
 - [ ] Carefully remove EEG Cap (if used), and reusable EOG/ECG electrodes (if used) from the participant, DO NOT pull on the cables!
 - [ ] Remove any disposable electrodes carefully, to avoid any unnecessary pain to the participant.
 - [ ] Remove HPI coils carefully from the participant, DO NOT pull on the cables!
-- [ ] Inform Participant that they can wash their hair if necessary, before or after changing out of scrubs (*if used*).
+- [ ] Inform participant that they can wash their hair if necessary, before or after changing out of scrubs (*if used*).
 	 - Towel and hair dryer in IKEA wardrobe. 
 	 - Show participant to the Shower Room. Remember to take your swipe card! 
 	 - Leave the used towel on the drying rack in the Changing Room for MEG Support to deal with.
 - [ ] Participant changes out of scrubs (*if used*) in the Changing Room, and back into their street clothes. The used scrubs to then be put into the kitchen laundry basket by the participant or the Operator on their exit from the Lab.
-- [ ] Check all necessary documentation has been signed by the Participant. Thank your Participant for their cooperation and show them out, making sure they have all their belongings with them when they leave.
+- [ ] Check all necessary documentation has been signed by the participant. Thank your participant for their cooperation and show them out, making sure they have all their belongings with them when they leave.
 	 - Make sure used scrubs are put into the kitchen laundry basket.<br />
 	 
 **<span style="color:maroon">Return to the Control Room, and ...</span>**<br />
 
 - [ ] Remove, and throw away, disposable Response box covers (if used). If not, wipe down NAtA button boxes - with Alcohol wipes (not gel!). Be careful! Don't wipe too hard!
 - [ ] Throw away disposable electrodes/used *Micropore* tape.
-- [ ] If used, [Clean EEG caps].
+- [ ] If used, **[Clean EEG cap](cleaning_eeg_caps.md)**.
 - [ ] Clean reusable electrodes.
 	 - Carefully remove the double-sided sticky disc, and any *Micropore* tape, and dispose of in the bin.
 	 - Use a cotton bud dipped in Isopropyl Alcohol to remove any sticky disc residue from the white surround.
@@ -90,78 +90,68 @@
 <br />
 
 - [ ] **<span style="color:#FF5733">If end of day, or Eyelink not required by next Operator</span>**, shutdown EyeLink PC, switch off EyeLink monitor, switch off extension 6-way bar plug.
+- [ ] Turn off/Remove EyeLink Battery from MSR.
+- [ ] Put battery on charge, unplug once charged, don’t leave on charge overnight.
+	 - See **[Charging EyeLink batteries](charging_eyelink_batteries.md)** for further information.
+	 - If necessary leave a note for MEG Support, to put the battery on charge first thing in the morning.
+!!! info "A piece of *Micropore* tape on the front of the battery indicates charging required."
 
-* '''Turn off/Remove EyeLink Battery from MSR.'''
-* '''Put battery on charge, unplug once charged, don’t leave on charge overnight.'''
-** ''' See this link "[[Charging EyeLink batteries]]" for further information.
-** '''<span style="color:blue">If necessary leave a note for Jonathan, to put the battery on charge first thing in the morning.</span>'''
-*** '''<span style="color:blue"> Tip: A piece of ''Micropore'' tape on the front of the battery can be used to indicate charging required.</span>'''
+![MSR Cabinet](../../images/meg/MSR_cabinet_new.jpg){width=40% align=right}
 
-[[File:MSR_cabinet_new.jpg|200px|thumb|left|MSR Shelving]]<br />
-* **<span style="color:#FF5733">If end of day, or EyeLink not required by next Operator</span>**, remove EyeLink Camera head/Illuminator from table and replace in MSR shelving. Replace the lens cap on the Camera head. Tidy up EyeLink Camera head/Illuminator Mains and battery power cables, and Orange FO cable, neatly and loosely, and place back on MSR shelving.'''
-* '''Coil the NAtA FO cables carefully and loosely and replace on the shelf. DO NOT coil the FO cables tightly!
-* '''Remove L2V converter suction mounts carefully from projector screen, coil FO cables neatly, and replace on MSR shelving. Clean any marks on the screen with a Lens Cleaning Wipe.'''
-* '''Leave everything tidy – as shown here.'''
+- [ ] **<span style="color:#FF5733">If end of day, or EyeLink not required by next Operator</span>**
+	 - Remove EyeLink Camera head/Illuminator from small table and replace in MSR shelving. Replace the lens cap on the Camera head.
+	 - Tidy up EyeLink Camera head/Illuminator battery (or AC Adapter) power cables, and Orange FO cable, neatly and loosely, and place back on MSR shelving.
 
 <br />
+
+- [ ] Remove L2V Converter suction mounts (if used) carefully from projector screen, coil their FO cables neatly, and replace on MSR shelving. 
+	 - Clean any marks on the screen with a Lens Cleaning Wipe.
+
+!!! note "DO NOT coil the FO cables tightly!"
+
+- [ ] Leave everything tidy – *as per MSR Shelving image shown above*.
+
+
+ - [ ] **<span style="color:blue">If the EyeLink "AC Adapter" has been used ...</span>** 
+
+![EyeLink AC power ON/OFF ](../../images/meg/EyeLinkONOFF.jpg){width=40% align=right}
+
+- Shutdown the EyeLink PC, switch off the EyeLink monitor, switch off the extension 6-way bar plug.
+- Turn off the FO Camera Head/IR Lamp power (via switch labelled "**EYELINK**", in the Stimulus cabinet - *see image right*), and then close the cabinet door.
+- Unplug the AC Adapter cable, coil it up, and leave on the MSR shelving.
+
 <br />
-<br />
-<br />
 
-'''<span style="font-size:large;color:blue">MARCH 2023 - Faulty EyeLink battery box #2 - sent back for repair (NOTE: now back available for use)</span>'''
+- [ ] **<span style="color:#FF5733">If end of day</span>**, move projector screen to the side of MSR. Move small table to the side of MSR.
 
-''' <span style="color:red">NOTE:</span> If the "AC Adapter" has been used ...'''<br />
+- [ ] **<span style="color:#FF5733">If end of day</span>**, replace the black cloth cover on projector mirror, and "sleep" projector, as described below...
+	- Start the VPutil program, from the Stim Desktop shortcut, and **type**...
+	- (ANY DEVICE) > **`ppx s`** - should respond with "PROPixx is in sleep mode"
+- [ ] Open MSR and check projector is "sleeping".
 
-[[File:EyeLinkONOFF.jpg|150px|thumb|left|EyeLink FO Camera Head power ON/OFF]]<br />
-# Shutdown the EyeLink PC, switch off the EyeLink monitor, switch off the extension 6-way bar plug.
-# Turn off the FO Camera Head/IR Lamp power (via switch labelled "'''EYELINK'''", in the Stim. cabinet), and close the door.
-# Unplug the '''"AC Adapter"''' cable, and reattach the battery cable ready for the next Operator. Coil up the now-unused AC Adapter cable and leave it on the shelf.
+!!! Note "`ppx a / ppx s` didn't work on one occasion. PROPixx needed a full power off/on to reset."
+!!! Note "Projector lens cover to remain off, so the projector state can easily be determined."
 
+- [ ] **<span style="color:#FF5733">If end of day, or no one booked in for the session following yours</span>**, move the gantry to the Liquefaction position ("**25**"). Make sure the gantry traffic light is **<span style="color:green">FLASHING GREEN</span>**.
+- [ ] NAtA Control Box in Stimulus Cabinet can remain switched on.
+- [ ] **<span style="color:#FF5733">If end of day</span>**, Stim PC to left switched on (no need to logoff/shutdown), then ...
+	 - Make sure KVM is switched to "NEW" (button #3), so the monitor is displaying the NEW Stim Desktop (*a screensaver is set to protect the monitor*).
+	 - (*Monitor can still be powered off as normal if necessary*).
+- [ ] **[Copy off](copying_meg_data.md)** data from DACQ console, if not already done so.
+- [ ] **<span style="color:#FF5733">If end of day</span>**, switch off the MSR Participant Monitoring Intercom (press the "**X**" button).
+- [ ] **<span style="color:#FF5733">If end of day, or no one booked in for the session following yours</span>**, logout of DACQ console (“***Sinuhe***”). 
+	 - Click/select "**Application Launcher**" button (*bottom left of screen*).
+	 - Hover mouse over "**Leave**” button.
+	 - Move to, and click/select, "**Logout**" button.
+	 - Move to, and click/select, "**Logout**" buton in center of screen - *or just wait (30sec)*.
+- [ ] Once login screen appears, turn off monitor - *switch bottom right of monitor*.
 
+!!! Note "**<span style="color:maroon">Don’t shutdown the Console! Only logout and then switch the monitor off.</span>**"
 
-
-
-
-
-* **<span style="color:#FF5733">If end of day</span>**, move projector screen to the side of MSR. Move table to the side of MSR.'''
-
-* **<span style="color:#FF5733">If end of day</span>**, replace the black cloth cover on projector mirror, and "sleep" projector, as described below...'''
-** '''Start <span style="color:blue">Vputil</span> on the Stim PC (double-click on the provided Desktop shortcut), and <span style="color:blue">type</span> at the prompt...'''
-** '''<samp>1:(ANY DEVICE)></samp><span style="color:blue"> ppx s</span> - should respond with ''"PROPixx is in sleep mode"''.'''
-** '''Open MSR and check projector is "sleeping".
-*** '''<span style="color:red">NOTE:</span> ''ppx a / ppx s'' didn't work on one occasion. PROPixx needed a full power off/on to reset.'''
-** '''Projector lens cover to remain off, so the projector state can easily be determined.'''
-
-* **<span style="color:#FF5733">If end of day, or no one booked in for the session following yours</span>**, move the gantry to the Liquefaction position (‘25’). Make sure gantry traffic light is <span style="color:green">FLASHING GREEN</span>.'''
-
-* '''NAtA Control Box in Stimulus Cabinet can now remain switched on.'''
-
-* **<span style="color:#FF5733">If end of day</span>**, Stim PCs to remain logged-in, switched on (no need to shutdown), and...'''
-** '''Make sure KVM is switched to "NEW" (button #3), so the monitor is displaying the NEW Stim Desktop (a screensaver is set to protect the monitor)'''
-** '''However, Monitor is to be turned off as normal if "OLD" Stim Desktop is showing (KVM button #1).'''
-
-* '''Copy off data from DACQ console as described [https://www.chbh.bham.ac.uk/wiki/index.php/Copying_MEG_data[here]], if not already done so.''' 
-
-* **<span style="color:#FF5733">If end of day</span>**, switch off the MSR Participant Monitoring Intercom (press the 'X' button).'''
-
-* **<span style="color:#FF5733">If end of day, or no one booked in for the session following yours</span>**, log out of DACQ console (“Sinuhe”).''' 
-** '''Click/select ''Application Launcher'' button (bottom left of screen).'''
-** '''Hover mouse over “Leave”.'''
-** '''Move to, and select, “Logout”.'''
-** '''Click/select “Logout” button.'''
-** '''Once login screen appears, turn off monitor (switch bottom right of monitor).'''
-** '''<span style="color:maroon">REMEMBER!!! – Don’t shutdown console – only log out and then switch monitor off.</span>'''
-
-*'''Both Stim PCs, and all new equipment, are now protected by two UPSs. The REO Isolation Transformer has been removed from use.'''
-
-*'''<span style="color:blue">Fill out a Maintenance Log report for your session (one report for each session, if you have consecutive sessions).</span>'''
-
-* **<span style="color:#FF5733">If end of day</span>**, open MSR door for last sanity check that gantry traffic light is <span style="color:green">FLASHING GREEN</span>. If not, de-metal and adjust gantry up/down buttons as necessary.'''
-
-* **<span style="color:#FF5733">If end of day</span>**, switch off Control Room light.'''
-
-* **<span style="color:#FF5733">If end of day</span>**, lock MEG lab, return key/s to key safe. Make sure key safe is locked.'''
-
-*'''<span style="font-size:medium;color:green">Sanitise your hands with the provided Anti-bac foam.</span>'''
-
-*'''Put all relevant documentation in the black Postbox outside Reception as you exit the MEG corridor.'''
+- [ ] **<span style="color:blue">Fill out a Maintenance Log report for your session (one report for each session, if you have consecutive sessions).</span>**
+- [ ] **<span style="color:#FF5733">If end of day</span>**, open MSR door for one last sanity check that gantry traffic light is **<span style="color:green">FLASHING GREEN</span>**.
+	 - If not, de-metal and adjust gantry up/down buttons as necessary.
+- [ ] **<span style="color:#FF5733">If end of day</span>**, Switch off Control Room light.
+- [ ] **<span style="color:#FF5733">If end of day</span>**, Lock MEG lab, return key to key safe. Make sure key safe is locked!
+- [ ] **<span style="color:green">On leaving, sanitise your hands with the provided Anti-bac foam (dispenser on wall outside Control Room).</span>**
+- [ ] Put all relevant documentation in the black Postbox outside Reception as you exit the MEG corridor.

@@ -80,6 +80,7 @@ nav:
       - The IHR: meg/hardware/ihr.md
       - LabJack: meg/hardware/meg-labjack.md
       - SIGGI II Impedance Meter: meg/pdfs/SIGGI_II_User_Manual.pdf
+      - EyeLink 1000 Plus Operations Guide: meg/acquisition/eyelink_operations_guide.md
     - Acquisition:
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
       - Noisy Channels: meg/acquisition/noisy_channels.md
@@ -88,8 +89,11 @@ nav:
       - Restart Acquisition: meg/acquisition/restart_acquisition.md
       - Metal items Checklist: meg/pdfs/Metal_items_checklist.pdf
       - Moving the Gantry: meg/acquisition/moving-the-gantry.md
+      - Copying MEG data: meg/acquisition/copying_meg_data.md
+      - Charging EyeLink batteries: meg/acquisition/charging_eyelink_batteries.md
       - MEG Consumables: meg/acquisition/meg-consumables.md
       - Tidying Up: meg/acquisition/tidying_up.md
+      - Cleaning EEG Caps: meg/acquisition/cleaning_eeg_caps.md
     - Lab Safety:
       - Procedures: meg/labsafety/labsafety.md
     - Stimulus Presentation:
