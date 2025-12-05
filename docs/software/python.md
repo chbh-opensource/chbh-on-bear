@@ -364,7 +364,7 @@ OpenSSL/3
 Python/3.12.3-GCCcore-13.3.0
 ```
 
-One them modules are loaded, you can activate the virtual environment and edit/run your code, e.g., in an interactive session.
+Once the modules are loaded, you can activate the virtual environment and edit/run your code, e.g., in an interactive session.
 
 More commonly, you will want to submit a job using to the cluster and run it through a sbatch script. An example may look like:
 
