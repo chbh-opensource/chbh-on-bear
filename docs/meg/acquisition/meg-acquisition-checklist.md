@@ -325,12 +325,14 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 
 - [ ] When the experiment has finished, press **Stop**.
 - [ ] **Inform** participant that the experiment is over, to **remain seated**, and that you will be in there shortly.
-- [ ] If *Average* was ticked, the **first file saved** will be the **averaged data** and the **second file** will be the **raw data**.
+- [ ] **Save data**. If *Average* was ticked, the **first file saved** will be the **averaged data** and the **second file** will be the **raw data**.
 - [ ] **Name** your files as per your usual file-naming scheme.
 - [ ] **Do not change the default path** (*ProjectName/SubjectID/Date*). 
 - [ ] Enter MSR, disconnect electrode cables and HPI coils. **As a help**, ask participant to hold cabling.
 - [ ] **Lower chair** by using foot pedal, and pull chair out from under the gantry.
-- [ ] **Help** participant up out of the chair (if required), and escort them back to the **Digitisation chair**. When seated, **gently remove** all electrodes and tape. If used, remove the *Tegaderm* tape from the HPI coils as soon as convenient - see [Tidying Up] page.
+- [ ] **Help** participant up out of the chair (if required), and escort them back to the **Digitisation chair**. When seated, **gently remove** all electrodes and tape. <br />
+If used to attach them, remove the *Tegaderm* tape from the HPI coils as soon as convenient - see **[Tidying Up](tidying_up.md)** page.
+- [ ] **Copy off Acquired data to RDS**. *Ideally now, but when Lab is next free if under time constraint* - see **[Copying MEG data](copying_meg_data.md)** page.
 
 ## **[Tidying Up](tidying_up.md)** (separate page)
 
