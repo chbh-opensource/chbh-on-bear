@@ -1475,6 +1475,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Copying MEG data
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1491,6 +1509,58 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#requesting-rds-activating-a-linux-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requesting RDS / Activating a Linux Account
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transferring-acquired-data-to-rds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transferring Acquired data to RDS
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bluebear-data-backup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BlueBEAR Data Backup
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3105,6 +3175,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#requesting-rds-activating-a-linux-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requesting RDS / Activating a Linux Account
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transferring-acquired-data-to-rds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transferring Acquired data to RDS
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bluebear-data-backup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BlueBEAR Data Backup
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3124,7 +3235,100 @@
 
 
 <h1 id="copying-meg-data">Copying MEG data</h1>
-<p>Some text</p>
+<p><strong><span style="color:blue">Operators must have access to a BlueBEAR RDS Project and their own BlueBEAR Linux Account prior to transferring data from the MEG Acquisition computer ("Sinuhe").</span></strong></p>
+<p><img align="left" alt="BEAR Cave" src="../../../images/meg/BEAR_Cave.jpg" width="40%" /></p>
+<p><br /><br />
+<strong><span style="color:maroon">Data is stored here - in the BEAR Cave!</span></strong>
+<br /><br /><br /><br /></p>
+<h2 id="requesting-rds-activating-a-linux-account">Requesting RDS / Activating a Linux Account</h2>
+<p><strong>RDS</strong> can be requested through the <strong><a href="https://universityofbirmingham.service-now.com/itportal/?id=uob_sc_home">IT Service Desk</a></strong> </p>
+<ul>
+<li>After <strong>Log in</strong>, select the option <strong>"Research"</strong>, then <strong>"Request a new BEAR Project"</strong>.</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">RDS can only be requested by a member of Staff/PI/Supervisor.<br />The Project MUST have <span style="color:blue">BlueBEAR compute services</span> added ("<em>BlueBEAR Linux HPC</em>").</p>
+</div>
+<p>A <strong>BlueBEAR Linux Account is needed</strong> to be able to <strong>copy off Acquired data from the Console</strong>. To request a <strong>BlueBEAR Linux Account</strong>, after <strong>Log in</strong> ...</p>
+<ul>
+<li>Select the option <strong>"Research"</strong>, then select <strong>"My BEAR Accounts"</strong> and then <strong>"Activate your BEAR Linux Account (you must be on a suitable project)"</strong>.</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Association is first required with a Project, before data can be copied off the Console.<br />Addition of MEG Operator email address to the Project needs to be requested - by the MEG Operator or PI.</p>
+</div>
+<h2 id="transferring-acquired-data-to-rds">Transferring Acquired data to RDS</h2>
+<p>Use the <strong>scp</strong> command from a terminal window on the MEG console. To open ...</p>
+<ul>
+<li>Click the <strong>Application Launcher</strong> button (<em>bottom left</em>) and select <strong><code>Terminal</code></strong>.</li>
+<li><strong>Right-click anywhere on the Desktop</strong> and select <strong><code>Konsole</code></strong> from the window that pops up.</li>
+</ul>
+<p>Change to relevant Project directory in neuro-data ...</p>
+<ul>
+<li><strong><code>cd /data/neuro-data/project-name</code></strong> or more likely</li>
+<li><strong><code>cd /data/neuro-data/project-name/subject-name</code></strong></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title"><em>subject-name</em> will be the anonymised code generated by the Participant Logging Computer (PLC)<br /> or possibly <em>no-name</em> if just Acquiring data for Project Development.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">If a <em>subject-name</em> is not provided when setting up <em>megacq</em>, a sub-directory called <em>no_name</em> is generated instead in the <em>project-name</em> directory.</p>
+<ul>
+<li>
+<p>When files are saved in the <em>subject-name</em> directory, a sub-directory with the format <strong>YYMMDD</strong> is created.</p>
+</li>
+<li>
+<p>This <strong>YYMMDD sub-directory</strong> will <strong>contain</strong> the <strong>saved</strong> MEG acquisition.FIF data file.</p>
+</li>
+<li>
+<p>If another <strong>Acquisition is started</strong>, any <strong>subsequently saved data</strong> will be in the <strong>same YYMMDD directory</strong>.</p>
+</li>
+</ul>
+</div>
+<p>Run the <strong>scp</strong> command to copy over the data ...</p>
+<ul>
+<li><strong><code>scp -rp data username@bluebear.bham.ac.uk:/rds/projects/year/project-name</code></strong> or </li>
+<li><strong><code>scp -rp data username@bluebear.bham.ac.uk:/rds/projects/letter/project-name</code></strong><ul>
+<li>Replace <strong><code>data</code></strong> with the folder to be copied, or use the asterisk character, <strong><span style="font-size:large">*</span></strong>, for the complete contents of neuro-data <strong><code>project-name</code></strong> or <strong><code>project-name/subject-name</code></strong>.</li>
+<li>Replace <strong><code>username</code></strong> with Operator's username.</li>
+<li>Replace <strong><code>project-name</code></strong> with Operator's RDS path.</li>
+</ul>
+</li>
+</ul>
+<p>For example ...</p>
+<ul>
+<li><strong><code>cd /data/neuro-data/empty_room</code></strong> or</li>
+<li><strong><code>cd /data/neuro-data/empty_room/no_name</code></strong>
+<br />then</li>
+<li><strong><code>scp -rp 191225 smithj25@bluebear.bham.ac.uk:/rds/projects/2018/jenseno-meg-qualitycontrol/smithj25/meg-data/</code></strong>
+<br / > or perhaps</li>
+<li><strong><code>scp -rp * smithj25@bluebear.bham.ac.uk:/rds/projects/j/jenseno-meg-raw-data/data/neuro-data/empty-room/</code></strong></li>
+</ul>
+<p>Check data has copied correctly ...</p>
+<ul>
+<li><strong><code>ssh smithj25@bluebear.bham.ac.uk</code></strong>
+<br />then</li>
+<li><strong><code>cd /rds/projects/2018/jenseno-meg-qualitycontrol/smithj25/meg-data/</code></strong> or</li>
+<li><strong><code>cd /rds/projects/j/jenseno-meg-raw-data/data/neuro-data/empty-room/</code></strong></li>
+<li>Run the command <strong>ls -l</strong> to list the data to allow checking.</li>
+</ul>
+<p><strong><span style="color:red">NOTE: Please don't save data to anywhere other than the <em>data/neuro-data/project-name</em> directory on the MEG console.</span></strong></p>
+<h2 id="bluebear-data-backup">BlueBEAR Data Backup</h2>
+<p>For <strong>Duty of Care</strong> obligations, the <strong>following</strong> information is <strong>backed-up, overnight</strong>, to a <strong>RDS Project space on BlueBEAR</strong>.</p>
+<ul>
+<li><strong><span style ="color:maroon">Daily acquired MEG data</span></strong></li>
+<li><strong><span style ="color:maroon">Project &amp; Subject databases, including the <em>ctc</em> and <em>sss</em> folders</span></strong></li>
+<li><strong><span style ="color:maroon">The DACQ Tuning directory</span></strong></li>
+</ul>
+<p>A <strong>backup script</strong> runs as a <strong>CRON job</strong>, generating <strong>backup-log</strong> and <strong>backup-error</strong> txt messages <strong>emailed</strong> as necessary.</p>
+<div class="admonition note">
+<p class="admonition-title">MEG Operators need to ensure Acquired data is always kept in the correct folder on the Console ... <br /><span style ="color:blue">/data/neuro-data/<em>project-name</em></span></p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">If data doesn't get copied overnight, due to errors with BlueBEAR, the next time the script runs, and BlueBEAR is available, any missing files are backed up.</p>
+</div>
+<p><strong>Acquired data</strong> is then <strong>routinely removed</strong> from the DACQ <strong>data partition</strong>, on more-or-less a <strong>monthly</strong> basis, to allow <strong>continued MEG Acquisition.</strong></p>
+<div class="admonition note">
+<p class="admonition-title">No quota system is in place, or automatic file deletion deamon running, but MEG Operators will still need to copy off their data to their own RDS space in a timely manner.</p>
+</div>
 
 
 
