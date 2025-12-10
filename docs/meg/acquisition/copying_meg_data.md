@@ -68,7 +68,7 @@ Check data has copied correctly ...
 <br />then
 - **```cd /rds/projects/2018/jenseno-meg-qualitycontrol/smithj25/meg-data/```** or
 - **```cd /rds/projects/j/jenseno-meg-raw-data/data/neuro-data/empty-room/```**
-- Run the command **ls -l** to list the data to allow checking.
+- Run the command **```ls -l```** to list the data to allow checking.
 
 **<span style="color:red">NOTE: Please don't save data to anywhere other than the *data/neuro-data/project-name* directory on the MEG console.</span>**
 

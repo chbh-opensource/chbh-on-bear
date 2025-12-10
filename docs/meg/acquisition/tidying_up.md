@@ -1,6 +1,6 @@
 # Tidying Up
 
-### **<span style="color:blue">Tidying Up e.g. before next Operator</span>**
+**<p style="font-size:20px; "><span style="color:blue">Tidying Up e.g. before next Operator</span></span>**
 
 **End of day “to do” procedures shown in <span style="color:#FF5733">ORANGE</span><br /> - if you're the last Operator of the day (according to Calpendo).**
 
@@ -61,7 +61,7 @@
 - [ ] **Soak coils in Isoproply Alcohol** (**IA**) (*marked tub*) for a few minutes, then **wipe with a paper towel and leave to dry on a green paper towel**.
 	- **If the coils still feel "sticky"**, put **some Alcohol gel in the palm of your hand and rub each coil carefully**. 
 	- **Resoak again** in IA if necessary.
-- [ ] **Leave the HPI lead coiled up** on a green paper towel to dry off on the EEG trolley.
+- [ ] **Leave the HPI lead coiled up** on a **green paper towel** to **dry off on the EEG trolley**.
 - [ ] **Replace the internal cover on any open pot of Isopropyl Alcohol**, then screw on the lid gently but firmly. **Leave pot upright on EEG trolley**.
 	 - **<span style="color:#FF5733">If end of day</span>**, **return Isopropyl Alcohol pots to red Flammables cabinet located in Changing Room**.
 - [ ] **Throw away** used cotton buds/used paper towel/*Tegaderm* backing paper. 
