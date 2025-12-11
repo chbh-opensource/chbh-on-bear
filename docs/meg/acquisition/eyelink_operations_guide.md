@@ -1,6 +1,7 @@
 # EyeLink Operations Guide
 
-'''<span style="color:blue">Quick Start Guide, Manuals etc. can be found [https://www.chbh.bham.ac.uk/wiki/index.php/Manuals#EyeLink_1000_Plus[HERE]].</span>'''
+**[Quick Start Guide](../../meg/pdfs/Quick_Start_Guide_Dell_Workstation_v4.00W.pdf)**<br />
+**[User Manual v1.0.22](../../meg/pdfs/EyeLink_1000_Plus_User_Manual_1.0.22.pdf)**
 
 ## Initial Setup
 	
@@ -46,11 +47,11 @@
 	
 * If possible, have the participant '''remove any mascara''', and replace glasses with our MEG-safe glasses. '''Soft contact lenses can be worn''' during an eye-tracking experiment, but '''hard contact lenses may interfere''' with the '''corneal reflection (CR)''' and thus need to be switched for MEG-safe lenses using our GoPro/Loc-Line assembly.<br /><br />
 
-<span style="color:green"><span style="font-size:medium">'''Information:'''</span><br />
-'''Mascara.''' Eye lashes with mascara will show very dark on the eye image, which can have a negative effect on pupil detection. Mascara shouldn’t be used in the MEG in any case, due to the possibility of metal particles in the makeup.<br />
-'''Soft contact lenses''' usually work quite well. The edge of lens can be seen from the eye image as pale ring, but it doesn’t usually have an effect on the eye tracking. Lenses can also create an extra reflection point, which is very similar to a corneal reflection (1st Purkinje image), but is normally only visible at certain angles.<br />
-'''Hard lenses''' don’t usually work with the EyeLink. They tend to be less stable than soft lenses and can slide partly off the centre of the eye. This will produce an eye image, where the pupil is partially cut off.<br />
-'''MEG-glasses'''.  The EyeLink will work with our MEG-safe glasses, but it needs to be adjusted very carefully. The lenses may reflect IR light, which can disturb the eye tracking. Also the success rate for good tracking is lower with the glasses than without.</span><br /><br />
+!!! info
+	**Mascara.** Eye lashes with mascara will show very dark on the eye image, which can have a negative effect on pupil detection. Mascara shouldn’t be used in the MEG in any case, due to the possibility of metal particles in the makeup.<br />
+	**Soft contact lenses** usually work quite well. The edge of lens can be seen from the eye image as pale ring, but it doesn’t usually have an effect on the eye tracking. Lenses can also create an extra reflection point, which is very similar to a corneal reflection (1st Purkinje image), but is normally only visible at certain angles.<br />
+	**Hard lenses** don’t usually work with the EyeLink. They tend to be less stable than soft lenses and can slide partly off the centre of the eye. This will produce an eye image, where the pupil is partially cut off.<br />
+	**MEG-glasses**.  The EyeLink will work with our MEG-safe glasses, but it needs to be adjusted very carefully. The lenses may reflect IR light, which can disturb the eye tracking. Also the success rate for good tracking is lower with the glasses than without.
 
 ## Focusing
 
@@ -62,17 +63,18 @@
 *** Press "'''ENTER'''" to '''start camera setup''' (you should see this '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Camera_Setup.jpg SCREEN]'''), and then press "'''ENTER'''" again to '''show the camera image''' (the '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Eye.jpg EYE]''')
 ** '''<span style="color:blue">A good guide is to check the eyelashes are in focus; when they are sharp the image is usually good enough.</span>''' <br /><br />
 
-<span style="color:green"><span style="font-size:medium">'''Information:'''</span><br />
-Ideally when recording from one eye, the eye movements should be measured from the participant’s dominant eye – but this is the optimal solution and not necessarily essential to obtaining good eye tracking.<br />
-If you want to use the dominant eye, examples to find the dominant eye are shown below:<br />
-1) '''Extend your arms out in front of you''' and create a triangular opening between your thumbs and forefingers by placing your hands together at a 45-degree angle.<br />
-With both eyes open, centre this triangular opening on a distant object - such as a wall clock or door knob.<br />
-Close your left eye.<br />
-If the object stays centred, your right eye (the one that's open) is your dominant eye.<br />If the object is no longer framed by your hands, your left eye is your dominant eye.<br />
-2) '''Extend one arm out''', holding the thumb (or index finger) of that hand in an upright position.<br />
-Keeping both eyes open and focused on a distant object, superimpose your thumb/index finger on that object. Don't worry if it looks like your thumb/finger partially disappears - that’s normal.<br />
-Alternately close one eye at a time.<br />
-The eye that keeps your thumb/finger directly in front of the object while the other eye is closed is your dominant eye.</span><br /><br />
+!!! info
+	Ideally when recording from one eye, the eye movements should be measured from the participant’s dominant eye – but this is the optimal solution and not necessarily essential to obtaining good eye tracking.<br />
+	If you want to use the dominant eye, examples to find the dominant eye are shown below:<br />
+
+	- **Extend your arms out in front of you** and create a triangular opening between your thumbs and forefingers by placing your hands together at a 45-degree angle.<br />
+	  With both eyes open, centre this triangular opening on a distant object - such as a wall clock or door knob.<br />
+	  Close your left eye.<br />
+	  If the object stays centred, your right eye (the one that's open) is your dominant eye.<br />If the object is no longer framed by your hands, your left eye is your dominant eye.
+	- **Extend one arm out**, holding the thumb (or index finger) of that hand in an upright position.<br />
+	  Keeping both eyes open and focused on a distant object, superimpose your thumb/index finger on that object. Don't worry if it looks like your thumb/finger partially disappears - that’s normal.<br />
+      Alternately close one eye at a time.<br />
+      The eye that keeps your thumb/finger directly in front of the object while the other eye is closed is your dominant eye.
 
 * '''Roughly focus''' on the eye using the '''wide angle view on the projector screen'''.
 
@@ -90,13 +92,14 @@ The eye that keeps your thumb/finger directly in front of the object while the o
 * For '''focusing the Illuminator''', loosen the '''2 screws on the underside''' of the Illuminator and then '''adjust the cover''' so that its edge aligns with the '''marking that approximates the eye-to-camera distance''' and then tighten the screws. <br /><br /><br />
 
 
-<span style="color:green"><span style="font-size:medium">'''Information:'''</span><br />
-'''Pupil threshold:''' Fill the dark pupil with blue colour. If there isn’t enough colour inside the pupil, adjust the pupil threshold level up. If there is too much blue colour around the pupil, change the threshold level down. Pupil value should be between 75 and 115. If the pupil threshold is too high or too low, try increasing or decreasing the eye-camera distance. <br />
-[[File:PoorPupilThreshold.jpg]]<br /><br />
-'''Corneal reflections:''' You want a small CR as possible, showing the pupil is in focus. If there is a white halo around the turquoise reflections, adjust the CR threshold level down. Also adjust the focus of the camera. Corneal reflections should not exceed 240. If the corneal thresholds are too high, try increasing the eye-to-camera distance.<br />
-CR smearing is typically seen when the participant looks top-left or top-right of the display, indicating the viewing angle is too large for the setup. Try raising the Desktop mount and/or increasing the view distance.<br />
-[[File:PoorCornealReflection.jpg]]<br /><br />
-'''Correct detection:''' When both the pupil and CR are detected correctly, you will see the '''GREEN boxes''' showing ‘PUPIL OK’ and ‘CR OK’</span>
+!!! info
+	**Pupil threshold:** Fill the dark pupil with blue colour. If there isn’t enough colour inside the pupil, adjust the pupil threshold level up. If there is too much blue colour around the pupil, change the threshold level down. Pupil value should be between 75 and 115. If the pupil threshold is too high or too low, try increasing or decreasing the eye-camera distance. <br />
+    ![Poor Pupil Threshold](../../images/meg/PoorPupilThreshold.jpg)<br />
+	**Corneal reflections:** You want a small CR as possible, showing the pupil is in focus. If there is a white halo around the turquoise reflections, adjust the CR threshold level down. Also adjust the focus of the camera. Corneal reflections should not exceed 240. If the corneal thresholds are too high, try increasing the eye-to-camera distance.<br />
+    CR smearing is typically seen when the participant looks top-left or top-right of the display, indicating the viewing angle is too large for the setup. Try raising the Desktop mount and/or increasing the view distance.<br />
+    ![Poor Corneal Reflection](../../images/meg/PoorCornealReflection.jpg)<br />
+    **Correct detection:** When both the pupil and CR are detected correctly, you will see the <span style="color:green">**GREEN** boxes</span> showing **```PUPIL OK```** and **```CR OK```** in white text.
+
 
 
 * Default settings for the display resolution of EyeLink are set to '''1920 x 1080''' in the '''PHYSICAL.INI''' file that specifies the settings ('''screen_pixel_coords = 0.0, 0.0, 1920.0, 1080.0'''). It’s important that it is '''matched with the actual display resolution''' you use, as the '''calibrated gaze data is in pixels'''. If you use a different display resolution, you can change the settings, but don’t do this in the PHYSICAL.INI file. Rather, '''copy''' the command line to the '''FINAL.INI''' file and change the setting there (this will override the settings in the PHYSICAL.INI file). '''All setup files''' (.ini files) are stored in the '''‘C:\ELCL\EXE’''' directory. '''Remember to reset it to the default setting after you finished your experiment!''' The best way to set the display resolution is to have your script send a command to the Host PC to update this parameter based on the resolution you are using. For example ...
@@ -106,12 +109,12 @@ CR smearing is typically seen when the participant looks top-left or top-right o
 
 ## Calibration
 
-<span style="color:green"><span style="font-size:medium">'''Information:'''</span><br />
-When writing your own applications, '''try to match the background colour of the screen during calibration and validation to that of the test displays'''. Changes in pupil size caused by large brightness differences can degrade the system accuracy.<br />
-A velocity threshold of 22 degrees per second allows detection of saccades as small as 0.3<sup>o</sup>, ideal for smooth pursuit and psychophysical research. <br />A conservative threshold of '''30<sup>o</sup>/sec is better for reading''' and cognitive research, shortening saccades and lengthening fixation durations. The larger threshold also reduces the number of microsaccades detected, decreasing the number of short fixations (less than 100 msec in duration) in the data.<br />
-Use of eye-movement acceleration is important for detection of small saccades, especially in smooth pursuit.<br />Acceleration data has much more noise than velocity data, and thresholds of '''4000<sup>o</sup>/sec<sup>2</sup>''' for small saccade detection and
-'''8000<sup>o</sup>/sec<sup>2</sup>''' for reading and cognitive research are recommended.<br />
-'''Check your sample rate:''' Lowering the sample rate to less than 2K can help with the stability of the eye tracker. '''Our Default is 1000Hz for both monocular and binocular'''.<br />
+!!! info
+	When writing your own applications, **try to match the background colour of the screen during calibration and validation to that of the test displays**. Changes in pupil size caused by large brightness differences can degrade the system accuracy.<br />
+	A velocity threshold of **22 <sup>o</sup>/S** allows detection of saccades **as small as 0.3<sup>o</sup>**, ideal for **smooth pursuit and psychophysical research**. <br />A conservative threshold of **30<sup>o</sup>/S is better for reading and cognitive research**, shortening saccades and lengthening fixation durations. The larger threshold also reduces the number of microsaccades detected, decreasing the number of short fixations (less than 100 msec in duration) in the data.<br />
+	Use of eye-movement acceleration is important for detection of small saccades, especially in smooth pursuit.<br />Acceleration data has much more noise than velocity data, and thresholds of **4000<sup>o</sup>/S<sup>2</sup> for small saccade detection** and
+    **8000<sup>o</sup>/S<sup>2</sup> for reading and cognitive research** are recommended.<br />
+	**Check your sample rate:** Lowering the sample rate to less than 2K can help with the stability of the eye tracker. **Our Default is 1000Hz for both monocular and binocular**.
 
 
 '''<span style="color:blue">Useful links to EyeLink PTB code on Github can be found [https://github.com/Psychtoolbox-3/Psychtoolbox-3/blob/fab0b49fd38ec477e3b4573f23dbd7766b0a89aa/Psychtoolbox/PsychHardware/EyelinkToolbox/EyelinkBasic/EyelinkDoTrackerSetup.m[HERE]] and [https://github.com/Psychtoolbox-3/Psychtoolbox-3/search?q=eyelinktoolbox&unscoped_q=eyelinktoolbox[HERE]].</span>'''<br />
@@ -211,29 +214,36 @@ Most of the changes are under-the-hood, so should be transparent to your usage. 
 
 ## Troubleshooting
 
- '''Ensure the MSR is as dark as possible when trying to find the pupil and when undertaking the calibration e.g. close the door, or push the door to. Turn the lights down or off'''.
- '''If you're still having issues, ask your participant to close their eyes for a few seconds to reset the pupils.'''
- '''If your participant is tall, place the relevant-size table risers under the table legs, so the camera is more in line with their pupils. We have 3 heights available. This [https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/TableRisers.jpg IMAGE] shows the smaller risers in use.'''
- '''To check focusing, look at the eyelashes. When they are in sharp focus the image of the eye is usually good enough.'''
- '''To help with Calibration quality, ask your participant to look along the edges/four corners of the display after performing the camera setup. <br />Be sure to instruct your participant to fixate within the bounds of the display, or loss of tracking may occur because they have looked too far outside of the trackable range of the eye tracker, not because of a poor set-up.<br /> Watch for the warning signals on the tracker screen to make sure that the pupil and Corneal Reflection (CR) signal are not lost when the participant is doing so, and check the CR is not becoming distorted or "smeared" when the participant looks at the top corners.<br >Try adjusting the screen position to increase the viewing distance and raising the camera when CR smearing is seen (typically at the upper portion of the display). We have our table risers to help with this.'''
- '''Participants who have never been calibrated before may require some practice in stably and accurately fixating the calibration targets.<br />Try to perform at least two calibrations per participant before beginning to collect data.'''
- '''Always check the pattern of the calibration grid.<br /> For a 9-point calibration, the fixation crosses should form three parallel horizontal (or close-to-horizontal) lines and three parallel vertical (or close-to-vertical) lines.<br />Redo the calibration or camera setup if you do not see this.''' 
- '''If the current calibration looks good, press either the "ENTER" key to accept the calibration or press "V" to go to validation screen.<br />Never press the ESC key - doing so will discard the current calibration and thus revert to the cached calibration results.'''
- '''Encourage your participants to sit still! A participant who doesn't sit still probably is not paying proper attention to the experimental task.<br /> Try to give the participant a short break in the middle of the experiment and (if possible) recalibrate before resuming the experiment.'''
- ''' When writing your stimulus paradigms, try matching the background color of the calibration and validation screen to that of the experimental displays.<br /> Changes in pupil size caused by large changes in brightness between the calibration and the experimental displays will degrade the system accuracy.<br />At the beginning of the experiment, let your participant adapt to the environment and the ambient light levels before performing calibration and data collection.<br />If the illumination levels are altered (i.e. the lights are dimmed) shortly before the experiment begins, the calibration accuracy will be reduced as the participant adapts to the new illumination level and the pupil dilates or constricts.''' 
- '''If the validation is off, redo BOTH the calibration and the validation. <span style="color:blue">Validation deviation needs to be less than 1 degree of error.</span>'''
- '''Calibration improves when you:'''<br />
- '''Tell your participant to "not move your head".'''<br />
- '''Tell your participant to “look at the middle of the dot”.'''<br />
- '''Tell your participant to “not move your eyes until the dot moves”.'''
- '''If the Eyelink Host PC starts to beep, either the battery has run down or the battery has been switched off BEFORE the EyeLink software has been exited first.'''
- '''CALIBRATION BEEPS:'''<br /> ('''''some Participants reported the beeps are too loud through our Natus audio system''''')
- '''If using Experiment Builder, click on the EL_CAMERA_SETUP node and turn the relevant properties from 'DEFAULT' to 'OFF'. See this [https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/ExptBuilderBeeps.png IMAGE]'''
- '''If using Psychotoolbox (MATLAB) or PsychoPy, some commands can be sent to the Host PC to turn the beeps off. E.g. in Psychotoolbox set these parameters to '0' instead of '1'. See this [https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/PsychtoolboxBeep.png IMAGE]'''
- '''OLDER PARTICIPANTS:<br /> The biggest problem is likely to be ''ptosis'' (droopy eyelids). The top eyelid can obscure the top of the pupil, making it difficult for the eye tracker to determine the pupil’s centre.'''
- '''Whilst monitoring the thumbnail images of the eye(s), it may help to issue verbal prompts to “''try and keep your eyes wide open''” as often as necessary.'''
- '''On the ''Camera Setup'' screen, changing the ''Pupil Tracking'' from ''Centroid'' to ''Ellipse'' can sometimes help. In Ellipse mode, the Host software draws a green circle around the pupil and tracks the centre of the circle. This sometimes helps the tracking cope a bit better if the top of the pupil is obscured by the eyelid.'''
- '''Rather than reduce the light levels, increase them or have the MSR lights on full. This will cause the pupil size to decrease, and smaller pupils are easier to track in this context. In low light conditions, the pupil will expand making it more likely to be obscured by the eyelid and harder to track.''' 
- '''Moving the camera head/illuminator closer, rather than raising it, may also help, as looking up at the eye at a steeper angle may expose more of the smaller pupil.'''
- '''When recruiting older participants, ask if they have had eye surgery (particularly cataract removal). This can cause corneal scarring and result in flat spots on the cornea, both of which can make tracking difficult or impossible and may discount them as a potential experimental subject if recording eye movement is vital.'''
+- Ensure the MSR is as dark as possible when trying to find the pupil and when undertaking the calibration e.g. close the door, or push the door to. Turn the lights down or off.
+- If you're still having issues, ask your participant to close their eyes for a few seconds to reset the pupils.
+- If your participant is tall, place the relevant-size **[Table Risers](../../images/meg/TableRisers.jpg)** under the table legs, so the camera is more in line with their pupils. We have 3 heights available.
+- To check focusing, look at the eyelashes. When they are in sharp focus the image of the eye is usually good enough.
+- To help with Calibration quality, ask your participant to look along the edges/four corners of the display after performing the camera setup. <br />Be sure to instruct your participant to fixate within the bounds of the display, or loss of tracking may occur because they have looked too far outside of the trackable range of the eye tracker, not because of a poor set-up.<br /> Watch for the warning signals on the tracker screen to make sure that the pupil and Corneal Reflection (CR) signal are not lost when the participant is doing so, and check the CR is not becoming distorted or "smeared" when the participant looks at the top corners.<br >Try adjusting the screen position to increase the viewing distance and raising the camera when CR smearing is seen (typically at the upper portion of the display). We have our table risers to help with this.
+- Participants who have never been calibrated before may require some practice in stably and accurately fixating the calibration targets.<br />Try to perform at least two calibrations per participant before beginning to collect data.
+- Always check the pattern of the calibration grid.<br /> For a 9-point calibration, the fixation crosses should form three parallel horizontal (or close-to-horizontal) lines and three parallel vertical (or close-to-vertical) lines.<br />Redo the calibration or camera setup if you do not see this.
+- If the current calibration looks good, press either the "ENTER" key to accept the calibration or press "V" to go to validation screen.<br />Never press the ESC key - doing so will discard the current calibration and thus revert to the cached calibration results.
+- Encourage your participants to sit still! A participant who doesn't sit still probably is not paying proper attention to the experimental task.<br /> Try to give the participant a short break in the middle of the experiment and (if possible) recalibrate before resuming the experiment.
+- When writing your stimulus paradigms, try matching the background color of the calibration and validation screen to that of the experimental displays.<br /> Changes in pupil size caused by large changes in brightness between the calibration and the experimental displays will degrade the system accuracy.<br />At the beginning of the experiment, let your participant adapt to the environment and the ambient light levels before performing calibration and data collection.<br />If the illumination levels are altered (i.e. the lights are dimmed) shortly before the experiment begins, the calibration accuracy will be reduced as the participant adapts to the new illumination level and the pupil dilates or constricts.
+- If the validation is off, redo BOTH the calibration and the validation.<br /> **<span style="color:blue">Validation deviation needs to be less than 1 degree of error.</span>**
+- Calibration improves when you:<br />
+	- Tell your participant to "***not move your head***".<br />
+	- Tell your participant to "***look at the middle of the dot***".<br />
+	- Tell your participant to "***not move your eyes until the dot moves***".
+- If the Eyelink Host PC starts to beep, either the battery has run down or the battery has been switched off BEFORE the EyeLink software has been exited first.
+- CALIBRATION BEEPS:<br /> *Some Participants reported the beeps are too loud through our Natus audio system.*
+	- If using Experiment Builder, click on the **[EL_CAMERA_SETUP](../../images/meg/ExptBuilderBeeps.png)** node and turn the relevant properties from **DEFAULT** to **OFF**.
+	- If using Psychtoolbox (MATLAB) or PsychoPy, some comands can be sent to the Host PC to turn the beeps off. E.g. in **[Psychtoolbox](../../images/meg/PsychtoolboxBeep.png)** set these parameters to '0' instead of '1'.
+
+```matlab
+% Set calibration beeps (0 = sound off, 1 = sound on)
+el.targetbeep = 1; % sound a beep when a target is presented
+el.feedbackbeep = 1; % sound a beep after calibration or drift check/correction
+```
+
+- OLDER PARTICIPANTS:<br /> The biggest problem is likely to be **Ptosis** (*droopy eyelids*). The top eyelid can obscure the top of the pupil, making it difficult for the eye tracker to determine the pupil’s centre.
+	- Whilst monitoring the thumbnail images of the eye(s), it may help to issue verbal prompts to "***try and keep your eyes wide open***"as often as necessary.
+	- On the **Camera Setup** screen, changing the **Pupil Tracking** from **Centroid** to **Ellipse** can sometimes help. In Ellipse mode, the Host software draws a green circle around the pupil and tracks the centre of the circle. This sometimes helps the tracking cope a bit better if the top of the pupil is obscured by the eyelid.
+	- Rather than reduce the light levels, increase them or have the MSR lights on full. This will cause the pupil size to decrease, and smaller pupils are easier to track in this context. In low light conditions, the pupil will expand making it more likely to be obscured by the eyelid and harder to track.
+	- Moving the camera head/illuminator closer, rather than raising it, may also help, as looking up at the eye at a steeper angle may expose more of the smaller pupil.
+	- When recruiting older participants, ask if they have had eye surgery (particularly cataract removal). This can cause corneal scarring and result in flat spots on the cornea, both of which can make tracking difficult or impossible and may discount them as a potential experimental subject if recording eye movement is vital.
 

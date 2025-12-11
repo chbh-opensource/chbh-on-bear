@@ -1,5 +1,9 @@
 # MEG Data Acquisition Checklist
 
+**[Guidelines to MEG Data Acquisition](../../meg/pdfs/NM26082A-A_DACQ_Guidelines.pdf)** (*Customer training, May 2020*) <br />
+**[User Manual April 2017](../../meg/pdfs/NM24131A-C_Triux_UM.pdf)**<br />
+**[Data Acquisition v6.0](../../meg/pdfs/NM23732A-B1-Dacq-6.0-UM_FINAL.pdf)**
+
 Click on the checklists to mark your progress through data collection.
 
 - [ ] **<span style="color:green">On arrival, sanitise your hands with the provided Anti-bac foam (dispenser on wall outside Control Room).</span>**
