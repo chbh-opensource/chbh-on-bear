@@ -5,37 +5,50 @@
 
 ## Initial Setup
 	
-* '''Switch on''' the bar plug ('''next to EyeLink Host PC'''), to provide power to the '''Host PC, PC monitor & EyeLink camera'''.<br /><br />
+**Switch on** the 6-way bar plug (**next to EyeLink Host PC**), to provide power to the **Host PC, PC monitor & EyeLink camera**.
 
-* '''EyeLink battery'''. Press the '''TEST button''' to check the power level ('''batteries #1 and #2'''), or '''power on and press the TEST button''' ('''batteries #3 and #4'''). '''Use a fully charged battery''' if possible. 
-** '''<span style="color:maroon">A battery with 2-3 hours should be fine for a short experiment. Do not risk using it for a 2-hour experiment.</span>'''<br /><br />
+**<span style="color:maroon">EyeLink batteries.</span>** 
 
-* '''Take the battery into the MSR''' and place '''in front right hand corner'''. '''Arrange''' the power cable '''around the inside wall of the MSR to avoid any loops''', and '''attach to battery and FO camera head/IR Illuminator'''. '''Switch on the battery.'''
-** '''<span style="color:red">NOTE:</span> Ensure you make good cable connections (the black rubber strain reliefs aren't pushed up over the silver two-pin connectors).'''
-** '''<span style="color:red">NOTE:</span> If you don’t power the camera head/IR Illuminator first, the Host PC will complain slightly (ticking sound) when EyeLink starts up.'''
-** '''<span style="color:maroon">To prevent small threshold drifts, the EyeLink Camera Head/Host PC etc should be powered up/switched on for <span style="color:red">at least 5 minutes</span> before recording.</span>'''<br /><br />
+- Press the **TEST button** to **check** the power level (batteries **#1** and **#2**), or **power on and press the TEST button** (batteries **#3** and **#4**).<br />
+- **Use a fully charged battery** if possible.
 
-* '''Remove the lens cap''' from the '''FO camera head''', and '''place the FO camera head/IR Illuminator on the small table in front of the gantry'''. <br /><br />'''
+!!! Info "<span style="color:blue">A battery with 2-3 hours should be fine for a short experiment. Do not risk using it for a 2-hour experiment.</span>"
 
-* '''<span style="color:blue">If using Monocular</span>''', make sure '''the FO camera head is [https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Horizontal.jpg HORIZONTAL]''', and '''the knurled silver adjustment knobs''' are '''centered to the projector screen.'''<br />
-** Once your participant is in place, tilt the camera head/illuminator as necessary to bring the eye into view, making sure to keep everything '''as level as possible'''.<br />
+**Take a battery into the MSR** and place **in front left hand corner** (*as seen from gantry chair*).<br /> **Arrange** the power cable **around the inside wall of the MSR to avoid any loops**.
 
-* '''<span style="color:blue">For Binocular use, you will need to change the position of the camera head</span>'''.
-** '''Note the value on the bar scale''' (as indicated by the '''<span style="color:red">RED line</span>''' in the image below) '''before undoing the knob''', and make sure '''the camera mount is back at that value on the bar''' after adjusting the camera head and '''before tightening the knob'''.
-** '''Undo the black knurled knob''' (circled '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Black_Knurled_Knob.jpg HERE]''' in '''<span style="color:blue">BLUE</span>''') to allow the camera head '''to be pulled slightly away from the bar, exposing the brass fixing pins''' (circled '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Brass_Fixing_Pins.jpg HERE]''' in '''<span style="color:green">GREEN</span>''').
-** '''Adjust the camera head on an angle, aligning the pins''' to the '''secondary/"binocular" position''' (shown '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Binocular_position.jpg HERE]''') and then '''push the camera head back into place, tightening the black knurled knob'''. '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Binocular_front_view.jpg HERE]''' is a '''front view of the camera head in the binocular usage position'''.
-** Make sure you '''haven’t slid the camera mount closer or further away''' from the IR illuminator '''when adjusting''' (as indicated by the '''<span style="color:red">RED line</span>''' in the images mentioned above).
+**Remove the lens cap** from the **FO camera head**, and **place the FO camera head/IR Illuminator on the small table in front of the gantry chair** (*usally once Participant is in place*).<br /> **Attach** power cable to **battery and FO camera head/IR Illuminator**. **Switch on the battery.**
 
+!!! Note "<span style="color:red">NOTE:</span> Ensure you make good cable connections (*the black rubber strain reliefs aren't pushed up over the silver two-pin connectors*).<br /><span style="color:red">NOTE:</span> If you don’t power the camera head/IR Illuminator first, the Host PC will complain slightly (*ticking sound*) when EyeLink starts up."
 
-* If you need to, '''Raise the small table''' (using the '''black plastic risers''', 3 heights available (this '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/TableRisers.jpg IMAGE]''' shows the smallest height in use), so that the '''top''' of the IR Illuminator is as '''close as possible to the lower edge of the projector screen.'''
+!!! Info "<span style="color:maroon">To prevent small threshold drifts, the EyeLink Camera Head/Host PC etc should be powered up/switched on for <span style="color:red">at least 5 minutes</span> before recording.</span>"
 
-[[File:EyeLink-1.jpg|200px|thumb|left|EyeLink clip position adjustment]]<br />
+**<span style="color:blue">If using Monocular</span>**, make sure the FO camera head is **[HORIZONTAL](../../images/meg/Horizontal.jpg)**, and **the knurled silver adjustment knobs** are **centered to the projector screen.**
 
-* '''Camera Head and Illuminator Separation''':  Adjust the camera and Illuminator '''clip positions''' on the mounting bar so that the '''inner edges''' aligns with the '''eye-to-camera distance measured in cm.'''
-** '''<span style="color:maroon"> When using the small table, the separation should be already adjusted. Only if moving closer or further away will you need to make some adjustments.</span>'''
-* '''<span style="color:blue">Gaze tracking range: 32<sup>o</sup> horizontally, 25<sup>o</sup> vertically </span>'''<br /><br /><br />
+- Once Participant is in place, tilt the camera head/illuminator as necessary to bring the eye into view, making sure to keep everything **as level as possible**.
 
-* '''Switch on''' the '''EyeLink Host PC & monitor'''. Select the default '''EyeLink''' partition from the '''Windows Boot Manager''' interface.<br /><br />
+**<span style="color:blue">For Binocular use, the position of the camera head will require changing</span>**.
+
+- **Note the value on the [BAR SCALE](../../images/meg/Black_Knurled_Knob.jpg)** (as indicated by the **<span style="color:red">RED line</span>** in the image) **before undoing the knob**, and make sure **the camera mount is back at that value on the bar** after adjusting the camera head and **before tightening the knob**.
+
+- **Undo the [BLACK KNURLED KNOB](../../images/meg/Black_Knurled_Knob.jpg)** (as indicated by the **<span style="color:blue">BLUE circle</span>** in the image) to allow the camera head **to be pulled slightly away from the bar, exposing the [BRASS FIXING PINS](../../images/meg/Brass_Fixing_Pins.jpg)** (as indicated by the **<span style="color:green">GREEN circle</span>** in the image).
+
+- **Adjust the camera head on an angle, aligning the pins** to the secondary/**[BINOCULAR](../../images/meg/Binocular_position.jpg)** position, and then **push the camera head back into place, tightening the black knurled knob** - **[FRONT VIEW](../../images/meg/Binocular_front_view.jpg)** of **Binocular usage position.**
+
+- Ensure the **camera mount hasn't slid closer or further away** from the IR illuminator **when adjusting** (as indicated by the **<span style="color:red">RED line</span>** in the images mentioned above).
+
+- If required, **raise the small table** using the **black plastic [TABLE RISERS](../../images/meg/TableRisers.jpg)**, *3 heights available*, so that the **top** of the IR Illuminator is as **close as possible to the lower edge of the projector screen.**
+
+**<span style="color:maroon">EyeLink Clip Position Adjustment</span>** 
+
+![EYELINK CLIP POSITION](../../images/meg/EyeLink_Clip_Position.jpg){width=45% align=right}
+
+- **Camera Head and Illuminator Separation**: <br /> Adjust the camera and Illuminator **clip positions** on the mounting bar so that the **inner edges** align with the **eye-to-camera distance measured in cm.**<br />
+- When using the **small table**, the **separation should be already adjusted**. *Only if ****moving closer or further away**** will an adjustment need to be made.*
+
+<align=full>
+**<span style="color:blue">Position projector screen so the max visual angle subtends no more than: 32<sup>o</sup> horizontally, 25<sup>o</sup> vertically. *The eye-to-projector distance should be at least 1.75 times the display width to ensure that it falls within the trackable range.*</span>**
+
+- **Switch on** the **EyeLink Host PC & monitor**. **Select** the default **EyeLink** partition from the **Windows Boot Manager** interface.
 
 * Select the appropriate '''EyeLink Configuration''' from the '''Set Options''' screen, e.g. '''monocular''', '''binocular'''.
 ** From '''Set Options''', select '''Long Range Mount''' in the Configuration window ('''may already be highlighted''') - see this '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/LongRangeMount.jpg IMAGE]'''
@@ -43,11 +56,11 @@
 *** You should then see something similar to this '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Monocular_eye.jpg IMAGE for Monocular]''' and this '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Binocular_eyes.jpg IMAGE for Binocular]'''.
 **** '''<span style="color:maroon">Make sure the sample rate is changed back to 1K for Binocular usage</span>''' (as indicated by the '''<span style="color:red">red arrow</span>''' in the image). '''<span style="color:red">The sample rate defaults to 500 when selecting Binocular</span>'''.
 **** You will need to '''adjust the view of the Head when using Binocular''', as the '''angle of the camera head has changed'''. '''Click the top right-hand blue square''' (as indicated by the '''<span style="color:blue">blue arrow</span>)''' to '''display the correct view''' 
-***** '''(Note: If the view is still not correct, you may also need to adjust the top left-hand blue square as necessary)'''.<br /><br />
-	
-* If possible, have the participant '''remove any mascara''', and replace glasses with our MEG-safe glasses. '''Soft contact lenses can be worn''' during an eye-tracking experiment, but '''hard contact lenses may interfere''' with the '''corneal reflection (CR)''' and thus need to be switched for MEG-safe lenses using our GoPro/Loc-Line assembly.<br /><br />
+***** '''(Note: If the view is still not correct, you may also need to adjust the top left-hand blue square as necessary)'''.
 
-!!! info
+If possible, have Participant **remove any mascara**, and **replace glasses** with provided **MEG-safe glasses**. **Soft contact lenses can be worn** during an eye-tracking experiment, but **hard contact lenses may interfere with the corneal reflection (CR)** and thus need to be switched for MEG-safe lenses using the provided GoPro/Loc-Line assembly.
+
+!!! Info
 	**Mascara.** Eye lashes with mascara will show very dark on the eye image, which can have a negative effect on pupil detection. Mascara shouldn’t be used in the MEG in any case, due to the possibility of metal particles in the makeup.<br />
 	**Soft contact lenses** usually work quite well. The edge of lens can be seen from the eye image as pale ring, but it doesn’t usually have an effect on the eye tracking. Lenses can also create an extra reflection point, which is very similar to a corneal reflection (1st Purkinje image), but is normally only visible at certain angles.<br />
 	**Hard lenses** don’t usually work with the EyeLink. They tend to be less stable than soft lenses and can slide partly off the centre of the eye. This will produce an eye image, where the pupil is partially cut off.<br />
@@ -216,7 +229,7 @@ Most of the changes are under-the-hood, so should be transparent to your usage. 
 
 - Ensure the MSR is as dark as possible when trying to find the pupil and when undertaking the calibration e.g. close the door, or push the door to. Turn the lights down or off.
 - If you're still having issues, ask your participant to close their eyes for a few seconds to reset the pupils.
-- If your participant is tall, place the relevant-size **[Table Risers](../../images/meg/TableRisers.jpg)** under the table legs, so the camera is more in line with their pupils. We have 3 heights available.
+- If your participant is tall, place the relevant-size **[TABLE RISERS](../../images/meg/TableRisers.jpg)** under the table legs, so the camera is more in line with their pupils. We have 3 heights available.
 - To check focusing, look at the eyelashes. When they are in sharp focus the image of the eye is usually good enough.
 - To help with Calibration quality, ask your participant to look along the edges/four corners of the display after performing the camera setup. <br />Be sure to instruct your participant to fixate within the bounds of the display, or loss of tracking may occur because they have looked too far outside of the trackable range of the eye tracker, not because of a poor set-up.<br /> Watch for the warning signals on the tracker screen to make sure that the pupil and Corneal Reflection (CR) signal are not lost when the participant is doing so, and check the CR is not becoming distorted or "smeared" when the participant looks at the top corners.<br >Try adjusting the screen position to increase the viewing distance and raising the camera when CR smearing is seen (typically at the upper portion of the display). We have our table risers to help with this.
 - Participants who have never been calibrated before may require some practice in stably and accurately fixating the calibration targets.<br />Try to perform at least two calibrations per participant before beginning to collect data.
