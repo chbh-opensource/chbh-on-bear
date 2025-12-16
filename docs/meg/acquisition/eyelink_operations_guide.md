@@ -7,7 +7,7 @@
 	
 **Switch on** the 6-way bar plug (**next to EyeLink Host PC**), to provide power to the **Host PC, PC monitor & EyeLink camera**.
 
-**<span style="color:maroon">EyeLink batteries.</span>** 
+**<span style="color:maroon">EyeLink batteries</span>** 
 
 - Press the **TEST button** to **check** the power level (batteries **#1** and **#2**), or **power on and press the TEST button** (batteries **#3** and **#4**).<br />
 - **Use a fully charged battery** if possible.
@@ -16,11 +16,11 @@
 
 **Take a battery into the MSR** and place **in front left hand corner** (*as seen from gantry chair*).<br /> **Arrange** the power cable **around the inside wall of the MSR to avoid any loops**.
 
-**Remove the lens cap** from the **FO camera head**, and **place the FO camera head/IR Illuminator on the small table in front of the gantry chair** (*usally once Participant is in place*).<br /> **Attach** power cable to **battery and FO camera head/IR Illuminator**. **Switch on the battery.**
+**Remove the lens cap** from the **FO camera head**, and **place the FO camera head/IR Illuminator on the small table in front of the gantry chair** (*usually once Participant is in place*).<br /> **Attach** power cable to **battery and FO camera head/IR Illuminator**. **Switch on the battery.**
 
-!!! Note "<span style="color:red">NOTE:</span> Ensure you make good cable connections (*the black rubber strain reliefs aren't pushed up over the silver two-pin connectors*).<br /><span style="color:red">NOTE:</span> If you don’t power the camera head/IR Illuminator first, the Host PC will complain slightly (*ticking sound*) when EyeLink starts up."
+!!! Note "<span style="color:red">NOTE:</span> Ensure a good cable connection is made (*the black rubber strain reliefs aren't pushed up over the silver two-pin connectors*).<br /><span style="color:red">NOTE:</span> If the camera head/IR Illuminator isn't powered-on first, the Host PC will complain slightly (*ticking sound*) when EyeLink starts up."
 
-!!! Info "<span style="color:maroon">To prevent small threshold drifts, the EyeLink Camera Head/Host PC etc should be powered up/switched on for <span style="color:red">at least 5 minutes</span> before recording.</span>"
+!!! Info "<span style="color:maroon">To prevent small threshold drifts, the EyeLink camera Head/Host PC etc should be powered up/switched on for <span style="color:red">at least 5 minutes</span> before recording.</span>"
 
 **<span style="color:blue">If using Monocular</span>**, make sure the FO camera head is **[HORIZONTAL](../../images/meg/Horizontal.jpg)**, and **the knurled silver adjustment knobs** are **centered to the projector screen.**
 
@@ -50,15 +50,14 @@
 
 - **Switch on** the **EyeLink Host PC & monitor**. **Select** the default **EyeLink** partition from the **Windows Boot Manager** interface.
 
-* Select the appropriate '''EyeLink Configuration''' from the '''Set Options''' screen, e.g. '''monocular''', '''binocular'''.
-** From '''Set Options''', select '''Long Range Mount''' in the Configuration window ('''may already be highlighted''') - see this '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/LongRangeMount.jpg IMAGE]'''
-** Then select '''Select Config...''' and choose either '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Monocular.jpg Monocular]''' or '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Binocular.jpg Binocular]''' and click on '''Accept'''.
-*** You should then see something similar to this '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Monocular_eye.jpg IMAGE for Monocular]''' and this '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Binocular_eyes.jpg IMAGE for Binocular]'''.
-**** '''<span style="color:maroon">Make sure the sample rate is changed back to 1K for Binocular usage</span>''' (as indicated by the '''<span style="color:red">red arrow</span>''' in the image). '''<span style="color:red">The sample rate defaults to 500 when selecting Binocular</span>'''.
-**** You will need to '''adjust the view of the Head when using Binocular''', as the '''angle of the camera head has changed'''. '''Click the top right-hand blue square''' (as indicated by the '''<span style="color:blue">blue arrow</span>)''' to '''display the correct view''' 
-***** '''(Note: If the view is still not correct, you may also need to adjust the top left-hand blue square as necessary)'''.
+- Select the appropriate **EyeLink Configuration** from the **Set Options** screen, e.g. **monocular**, **binocular**.
+	- From **Set Options**, select **[LONG RANGE MOUNT](../../images/meg/LongRangeMount.jpg)** in the Configuration window (*may already be highlighted*)
+	- Then select **Select Config...** and choose either **[MONOCULAR](../../images/meg/Monocular.jpg)** or **[BINOC/MONOC](../../images/meg/Binocular.jpg)** and click on **Accept**.
+		- The following screens should be displayed, depending on the chosen option - **[MONOCULAR IMAGE](../../images/meg/Monocular_eye.jpg)** or **[BINOCULAR IMAGE](../../images/meg/Binocular_eyes.jpg)**.
+			- **<span style="color:maroon">Make sure the sample rate is selected back to 1K for Binocular usage</span>**<br /> (*as indicated by the ****<span style="color:red">RED arrow</span>*** in the ***[BINOCULAR IMAGE](../../images/meg/Binocular_eyes.jpg)***). <br /> **<span style="color:red">The sample rate defaults to 500Hz when selecting Binocular</span>**.
+			- The **view of the head will need adjusting when using Binocular**, as the **angle of the camera head has changed**. <br />**Select the top right-hand blue square** (*as indicated by the ****<span style="color:blue">BLUE arrow</span>*** in the ***[BINOCULAR IMAGE](../../images/meg/Binocular_eyes.jpg)***) **as many times as necessary to display the correct view.**
 
-If possible, have Participant **remove any mascara**, and **replace glasses** with provided **MEG-safe glasses**. **Soft contact lenses can be worn** during an eye-tracking experiment, but **hard contact lenses may interfere with the corneal reflection (CR)** and thus need to be switched for MEG-safe lenses using the provided GoPro/Loc-Line assembly.
+If necessary, have the Participant **remove any mascara**, and **replace glasses** with provided **MEG-safe glasses**. **Soft contact lenses can be worn** during an eye-tracking experiment, but **hard contact lenses may interfere with the corneal reflection (CR)** and thus need to be switched for MEG-safe lenses using the provided GoPro/Loc-Line assembly.
 
 !!! Info
 	**Mascara.** Eye lashes with mascara will show very dark on the eye image, which can have a negative effect on pupil detection. Mascara shouldn’t be used in the MEG in any case, due to the possibility of metal particles in the makeup.<br />
@@ -68,8 +67,14 @@ If possible, have Participant **remove any mascara**, and **replace glasses** wi
 
 ## Focusing
 
-* '''Align the camera:'''  Once the participant is positioned in the gantry, point/tilt the camera '''at the eye to be tracked''' so that the eye appears in the '''centre of the global view''' ('''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Monocular_eye.jpg TOP IMAGE WINDOW]''' on the '''‘Camera Setup’''' screen), undoing/tightening the silver knurled knobs, remembering to '''keep the camera/IR illuminiator as level as possible'''.<br /> You may need to '''move the whole Desktop Mount left/right slightly''' so that the '''patch of the light''' is '''aligned with the field of view of the camera'''.
-* If '''tracking the left eye''', the '''Illuminator''' is usually '''on the right side''', but the position maybe irrelevant for binocular eye tracking.
+**<span style="color:maroon">Align the camera</span>** 
+
+- Once the Participant is positioned in the gantry chair, **point/tilt** the camera **at the eye to be tracked** so that the eye appears in the **centre of the global view.** (***[TOP IMAGE WINDOW](../../images/meg/Monocular_eye.jpg)**** on the ****Camera Setup**** screen*), undoing/tightening the silver knurled knobs, remembering to **keep the camera/IR illuminiator as level as possible**.
+<br /> If necessary, **move the whole Desktop Mount left/right slightly** so that the **patch of IR light** is **aligned with the field of view of the camera head**.
+
+
+
+- If '''tracking the left eye''', the '''Illuminator''' is usually '''on the right side''', but the position maybe irrelevant for binocular eye tracking.
 * '''Focus the camera image''' if it looks blurred (by turning the lens wheel). The '''aperture''' ring is the smaller of the two, and probably doesn’t need adjusting. 
 ** '''NOTE:''' When using '''Psychtoolbox (PTB)''', the '''EyeLink image''' can be thrown '''onto the projector screen''' to make focusing easier. The '''left/right arrows''' on the '''Stim PC''' toggle '''between wide angle view and eye focused view'''.
 *** To throw the image, start '''TRACK''' (either as a standalone program or as part of your stimulus code - see the '''Calibration''' section below). You should see this '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Offline.jpg SCREEN]'''
