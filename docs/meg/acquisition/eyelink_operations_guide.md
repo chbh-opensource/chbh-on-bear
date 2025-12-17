@@ -1,7 +1,9 @@
 # EyeLink Operations Guide
 
 **[Quick Start Guide](../../meg/pdfs/Quick_Start_Guide_Dell_Workstation_v4.00W.pdf)**<br />
+**[Install/Training (slides)](../../meg/pdfs/EyeLink_1000_Plus_Installation_and_Training.pdf)**<br />
 **[User Manual v1.0.22](../../meg/pdfs/EyeLink_1000_Plus_User_Manual_1.0.22.pdf)**
+
 
 ## Initial Setup
 	
@@ -48,6 +50,8 @@
 <align=full>
 **<span style="color:blue">Position projector screen so the max visual angle subtends no more than: 32<sup>o</sup> horizontally, 25<sup>o</sup> vertically. *The eye-to-projector distance should be at least 1.75 times the display width to ensure that it falls within the trackable range.*</span>**
 
+**<span style="color:maroon">EyeLink Configuration</span>** 
+
 - **Switch on** the **EyeLink Host PC & monitor**. **Select** the default **EyeLink** partition from the **Windows Boot Manager** interface.
 
 - Select the appropriate **EyeLink Configuration** from the **Set Options** screen, e.g. **monocular**, **binocular**.
@@ -56,6 +60,21 @@
 		- The following screens should be displayed, depending on the chosen option - **[MONOCULAR IMAGE](../../images/meg/Monocular_eye.jpg)** or **[BINOCULAR IMAGE](../../images/meg/Binocular_eyes.jpg)**.
 			- **<span style="color:maroon">Make sure the sample rate is selected back to 1K for Binocular usage</span>**<br /> (*as indicated by the ****<span style="color:red">RED arrow</span>*** in the ***[BINOCULAR IMAGE](../../images/meg/Binocular_eyes.jpg)***). <br /> **<span style="color:red">The sample rate defaults to 500Hz when selecting Binocular</span>**.
 			- The **view of the head will need adjusting when using Binocular**, as the **angle of the camera head has changed**. <br />**Select the top right-hand blue square** (*as indicated by the ****<span style="color:blue">BLUE arrow</span>*** in the ***[BINOCULAR IMAGE](../../images/meg/Binocular_eyes.jpg)***) **as many times as necessary to display the correct view.**
+
+!!! Info
+	**<span style="color:maroon">Lens Guide</span>** <br />
+	**Three lenses** are available for use as required: **35mm, 50mm and 75mm**, with the **35mm lens being used as the default**, currently, for **both monocular and binocular usage**.<br />
+	The **35mm lens only has a focusing ring**, whereas the **50mm** and **75mm** lenses have **both focus and apature adjustment**. The **aperture** ring is the smaller of the two, and **probably doesn’t need adjusting** (*currently fixed at 1.8 f-stop on the 75mm lens*).<br />
+	**Smaller** numbers (e.g., **f/2.8**) mean a **wider opening for more light/blurry background**, while **larger** numbers (e.g., **f/11**) mean a **smaller opening for less light/sharper background**).
+
+**<span style="color:maroon">Lens Guide for Different Viewing Distances</span>**
+
+|  Lens Apature Size  |  Long Range Mount<br /> (*Monocular/Binocular*)  |
+|  ------- |  ------ |
+|  35mm  |  60-70cm  |
+|  50mm  |  70-100cm  |
+|  75mm  |  100-150cm  |
+
 
 If necessary, have the Participant **remove any mascara**, and **replace glasses** with provided **MEG-safe glasses**. **Soft contact lenses can be worn** during an eye-tracking experiment, but **hard contact lenses may interfere with the corneal reflection (CR)** and thus need to be switched for MEG-safe lenses using the provided GoPro/Loc-Line assembly.
 
@@ -72,14 +91,19 @@ If necessary, have the Participant **remove any mascara**, and **replace glasses
 - Once the Participant is positioned in the gantry chair, **point/tilt** the camera **at the eye to be tracked** so that the eye appears in the **centre of the global view.** (***[TOP IMAGE WINDOW](../../images/meg/Monocular_eye.jpg)**** on the ****Camera Setup**** screen*), undoing/tightening the silver knurled knobs, remembering to **keep the camera/IR illuminiator as level as possible**.
 <br /> If necessary, **move the whole Desktop Mount left/right slightly** so that the **patch of IR light** is **aligned with the field of view of the camera head**.
 
+- If **tracking the left eye**, the **illuminator** is usually **on the right side**, but the **position may be irrelevant** for **binocular eye tracking**.
+- **Focus the camera image** if the eye looks blurred (by turning the **lens focus ring**).<br />
+ The **35mm lens only has a focusing ring**, whereas the **50mm** and **75mm** lenses have **both focus and apature adjustment**. The **aperture** ring is the smaller of the two, and **probably doesn’t need adjusting** (*currently fixed at 1.8 f-stop on the 75mm lens*).
 
+!!! Info "Smaller numbers (e.g., f/2.8) mean a wider opening for more light/blurry background, while larger numbers (e.g., f/11) mean a smaller opening for less light/sharper background)."
 
-- If '''tracking the left eye''', the '''Illuminator''' is usually '''on the right side''', but the position maybe irrelevant for binocular eye tracking.
-* '''Focus the camera image''' if it looks blurred (by turning the lens wheel). The '''aperture''' ring is the smaller of the two, and probably doesn’t need adjusting. 
-** '''NOTE:''' When using '''Psychtoolbox (PTB)''', the '''EyeLink image''' can be thrown '''onto the projector screen''' to make focusing easier. The '''left/right arrows''' on the '''Stim PC''' toggle '''between wide angle view and eye focused view'''.
-*** To throw the image, start '''TRACK''' (either as a standalone program or as part of your stimulus code - see the '''Calibration''' section below). You should see this '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Offline.jpg SCREEN]'''
-*** Press "'''ENTER'''" to '''start camera setup''' (you should see this '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Camera_Setup.jpg SCREEN]'''), and then press "'''ENTER'''" again to '''show the camera image''' (the '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Eye.jpg EYE]''')
-** '''<span style="color:blue">A good guide is to check the eyelashes are in focus; when they are sharp the image is usually good enough.</span>''' <br /><br />
+!!! Note
+	When using **Psychtoolbox (PTB)**, the **image of the eye** can be *thrown* **onto the projector screen** to make focusing easier. The **left/right arrows** on the **Stim PC** toggle **between wide angle view and eye focused view**.<br />
+
+- To *throw* the image, start **TRACK** (using either the installed standalone program (when testing) or as part of stimulus code - see the **[Calibration](eyelink_operations_guide.md/#calibration)** section for more detailed usage and link to the In-House provided code). 
+The **[Offline Screen](../../images/meg/Offline.jpg)** should appear.
+- Press **```ENTER```** to **start camera setup**, the **[Camera Setup](../../images/meg/Camera_Setup.jpg)** screen should appear, and then press **```ENTER```** again to **display the camera image** of the **[Eye](../../images/meg/Eye.jpg)**<br />
+**<span style="color:blue">A good guide is to check if the eyelashes are in focus; when they are sharp the image is usually good enough.</span>**
 
 !!! info
 	Ideally when recording from one eye, the eye movements should be measured from the participant’s dominant eye – but this is the optimal solution and not necessarily essential to obtaining good eye tracking.<br />
@@ -94,29 +118,35 @@ If necessary, have the Participant **remove any mascara**, and **replace glasses
       Alternately close one eye at a time.<br />
       The eye that keeps your thumb/finger directly in front of the object while the other eye is closed is your dominant eye.
 
-* '''Roughly focus''' on the eye using the '''wide angle view on the projector screen'''.
+- **Roughly focus** on the eye using the **wide angle view on the projector screen**.
 
-* '''Set the search limits''' on the Eyelink PC by '''clicking on''' the '''pupil''' and '''auto- threshold.'''
+- **Set the search limits** on the Eyelink Host PC by **selecting** the **pupil** image in the global view and then select **Auto Threshold.**
 
-* '''Switch to eye-view''' (arrow key) and '''focus using the corneal reflection'''. The '''focus is best''' when the '''corneal reflection is smallest (sharp)'''.
+- **Switch to eye-view** (*arrow key*) and **focus using the corneal reflection**. The **focus is best** when the **corneal reflection is smallest (sharp)**.
 
-* On the EyeLink PC, '''press auto-threshold''' and check whether '''pupil values''' (identified by the '''blue shading''') are '''between 75-100''' and '''corneal reflection  is less than 230''' (identified by a '''yellow circle with crosshair'''). If needed, manually adjust. If sub-optimal, then the Illuminator focus may need adjusting (see below).<br />
-* If the '''pupil crosshair flickers on/off''', or '''disappears''' even though the '''pupil is visible''', then the pupil '''size''' maybe '''too small'''. Check the '''camera distance'''. Consider placing the '''Desktop Mount closer to the participant'''.
+- Select/click **Auto Threshold** again, and check whether the **pupil value** (*identified by the ****<span style="color:blue">blue shading</span>***) 
+is **between 75-115** and the **corneal reflection is less than 240** (*identified by a ****<span style="color:#40e0d0">turquoise circle</span>*** *with* ***crosshair***).<br />
+If needed, **manually adjust**. If **sub-optimal**, then the **[ILLUMINATOR FOCUS](../../images/meg/IlluminatorAdjustment.jpg)** may need adjusting.
 
-* '''<span style="color:blue"> A good check is to ask your participant to look along the edges/four corners of the display and ensure that the pupil and corneal reflection do not get lost.</span> 
+!!! Info "A good check is to ask your participant to look along the edges/four corners of the display and ensure that the pupil and corneal reflection do not get lost."
 
-[[File:IlluminatorAdjustment.jpg|200px|thumb|left|Illuminator Focus Adjustment]]<br />
+**<span style="color:maroon">Focusing the Illuminator</span>** 
 
-* For '''focusing the Illuminator''', loosen the '''2 screws on the underside''' of the Illuminator and then '''adjust the cover''' so that its edge aligns with the '''marking that approximates the eye-to-camera distance''' and then tighten the screws. <br /><br /><br />
+![ILLUMINATOR FOCUS](../../images/meg/IlluminatorAdjustment.jpg){width=55% align=right}
+
+- If the  **the Illuminator needs focusing**, loosen the **two knurled knobs on the underside** of the Illuminator and then **adjust the cover** so that its edge aligns with the **marking that approximates the eye-to-camera distance** and then tighten the knobs. 
 
 
 !!! info
 	**Pupil threshold:** Fill the dark pupil with blue colour. If there isn’t enough colour inside the pupil, adjust the pupil threshold level up. If there is too much blue colour around the pupil, change the threshold level down. Pupil value should be between 75 and 115. If the pupil threshold is too high or too low, try increasing or decreasing the eye-camera distance. <br />
     ![Poor Pupil Threshold](../../images/meg/PoorPupilThreshold.jpg)<br />
 	**Corneal reflections:** You want a small CR as possible, showing the pupil is in focus. If there is a white halo around the turquoise reflections, adjust the CR threshold level down. Also adjust the focus of the camera. Corneal reflections should not exceed 240. If the corneal thresholds are too high, try increasing the eye-to-camera distance.<br />
-    CR smearing is typically seen when the participant looks top-left or top-right of the display, indicating the viewing angle is too large for the setup. Try raising the Desktop mount and/or increasing the view distance.<br />
+    CR smearing is typically seen when the participant looks top-left or top-right of the display, indicating the viewing angle is too large for the setup. Try raising the Desktop mount and/or increasing the viewing distance.<br />
     ![Poor Corneal Reflection](../../images/meg/PoorCornealReflection.jpg)<br />
-    **Correct detection:** When both the pupil and CR are detected correctly, you will see the <span style="color:green">**GREEN** boxes</span> showing **```PUPIL OK```** and **```CR OK```** in white text.
+    **Correct detection:** When both the pupil and CR are detected correctly, you will see the <span style="color:green">**GREEN** boxes</span>, **under the eye or eyes being tracked**, showing **```PUPIL OK```** and **```CR OK```** in white text e.g. <span style="color: white;background-color: #0BDA51"> PUPIL OK </span>
+
+
+
 
 
 

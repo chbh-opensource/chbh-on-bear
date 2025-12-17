@@ -264,7 +264,7 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 - [ ] If used, **attach the *Natus* audio plug** into the **green "Patient" socket** of the gantry side panel.
 - [ ] **Raise participant** into the gantry helmet, using the chair foot pedal, until the top of the head *almost* touches the inside top of the helmet.
 - [ ] **Make participant comfortable** with cushions/pillows and/or by raising the leg rests of the chair.
-- [ ] If using, **setup the EyeLink 1000 Plus Camerahead/Illuminitor** on the small table, placed over the participant's legs. (*See the ***[Eyelink 1000 Plus](meg-acquisition-checklist.md/#if-using-the-eyelink-1000-plus)*** section for more detailed usage*).
+- [ ] If using, **setup the EyeLink 1000 Plus Camerahead/Illuminitor** on the small table, placed over the participant's legs. (*See the ****[Eyelink 1000 Plus](meg-acquisition-checklist.md/#if-using-the-eyelink-1000-plus)**** section for more detailed usage*).
 - [ ] **Position the back projection screen** in front of the participant, with the glossy side facing them.
 - [ ] **Place NAtA button pad/s, response device/s** - e.g., on the gantry chair waist tray.
 - [ ] If necessary, **run through the stimulus paradigm again** to confirm they know what they need to do/what is required.
