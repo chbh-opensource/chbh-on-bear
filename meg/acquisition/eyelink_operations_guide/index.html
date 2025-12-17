@@ -3302,6 +3302,7 @@
 
 <h1 id="eyelink-operations-guide">EyeLink Operations Guide</h1>
 <p><strong><a href="../../pdfs/Quick_Start_Guide_Dell_Workstation_v4.00W.pdf">Quick Start Guide</a></strong><br />
+<strong><a href="../../pdfs/EyeLink_1000_Plus_Installation_and_Training.pdf">Install/Training (slides)</a></strong><br />
 <strong><a href="../../pdfs/EyeLink_1000_Plus_User_Manual_1.0.22.pdf">User Manual v1.0.22</a></strong></p>
 <h2 id="initial-setup">Initial Setup</h2>
 <p><strong>Switch on</strong> the 6-way bar plug (<strong>next to EyeLink Host PC</strong>), to provide power to the <strong>Host PC, PC monitor &amp; EyeLink camera</strong>.</p>
@@ -3351,6 +3352,7 @@
 </ul>
 <p><align=full>
 <strong><span style="color:blue">Position projector screen so the max visual angle subtends no more than: 32<sup>o</sup> horizontally, 25<sup>o</sup> vertically. <em>The eye-to-projector distance should be at least 1.75 times the display width to ensure that it falls within the trackable range.</em></span></strong></p>
+<p><strong><span style="color:maroon">EyeLink Configuration</span></strong> </p>
 <ul>
 <li>
 <p><strong>Switch on</strong> the <strong>EyeLink Host PC &amp; monitor</strong>. <strong>Select</strong> the default <strong>EyeLink</strong> partition from the <strong>Windows Boot Manager</strong> interface.</p>
@@ -3370,6 +3372,36 @@
 </ul>
 </li>
 </ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><strong><span style="color:maroon">Lens Guide</span></strong> <br />
+<strong>Three lenses</strong> are available for use as required: <strong>35mm, 50mm and 75mm</strong>, with the <strong>35mm lens being used as the default</strong>, currently, for <strong>both monocular and binocular usage</strong>.<br />
+The <strong>35mm lens only has a focusing ring</strong>, whereas the <strong>50mm</strong> and <strong>75mm</strong> lenses have <strong>both focus and apature adjustment</strong>. The <strong>aperture</strong> ring is the smaller of the two, and <strong>probably doesn’t need adjusting</strong> (<em>currently fixed at 1.8 f-stop on the 75mm lens</em>).<br />
+<strong>Smaller</strong> numbers (e.g., <strong>f/2.8</strong>) mean a <strong>wider opening for more light/blurry background</strong>, while <strong>larger</strong> numbers (e.g., <strong>f/11</strong>) mean a <strong>smaller opening for less light/sharper background</strong>).</p>
+</div>
+<p><strong><span style="color:maroon">Lens Guide for Different Viewing Distances</span></strong></p>
+<table>
+<thead>
+<tr>
+<th>Lens Apature Size</th>
+<th>Long Range Mount<br /> (<em>Monocular/Binocular</em>)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>35mm</td>
+<td>60-70cm</td>
+</tr>
+<tr>
+<td>50mm</td>
+<td>70-100cm</td>
+</tr>
+<tr>
+<td>75mm</td>
+<td>100-150cm</td>
+</tr>
+</tbody>
+</table>
 <p>If necessary, have the Participant <strong>remove any mascara</strong>, and <strong>replace glasses</strong> with provided <strong>MEG-safe glasses</strong>. <strong>Soft contact lenses can be worn</strong> during an eye-tracking experiment, but <strong>hard contact lenses may interfere with the corneal reflection (CR)</strong> and thus need to be switched for MEG-safe lenses using the provided GoPro/Loc-Line assembly.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
@@ -3386,13 +3418,23 @@
 <br /> If necessary, <strong>move the whole Desktop Mount left/right slightly</strong> so that the <strong>patch of IR light</strong> is <strong>aligned with the field of view of the camera head</strong>.</p>
 </li>
 <li>
-<p>If '''tracking the left eye''', the '''Illuminator''' is usually '''on the right side''', but the position maybe irrelevant for binocular eye tracking.</p>
+<p>If <strong>tracking the left eye</strong>, the <strong>illuminator</strong> is usually <strong>on the right side</strong>, but the <strong>position may be irrelevant</strong> for <strong>binocular eye tracking</strong>.</p>
 </li>
-<li>'''Focus the camera image''' if it looks blurred (by turning the lens wheel). The '''aperture''' ring is the smaller of the two, and probably doesn’t need adjusting. 
-** '''NOTE:''' When using '''Psychtoolbox (PTB)''', the '''EyeLink image''' can be thrown '''onto the projector screen''' to make focusing easier. The '''left/right arrows''' on the '''Stim PC''' toggle '''between wide angle view and eye focused view'''.
-*** To throw the image, start '''TRACK''' (either as a standalone program or as part of your stimulus code - see the '''Calibration''' section below). You should see this '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Offline.jpg SCREEN]'''
-*** Press "'''ENTER'''" to '''start camera setup''' (you should see this '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Camera_Setup.jpg SCREEN]'''), and then press "'''ENTER'''" again to '''show the camera image''' (the '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Eye.jpg EYE]''')
-** '''<span style="color:blue">A good guide is to check the eyelashes are in focus; when they are sharp the image is usually good enough.</span>''' <br /><br /></li>
+<li><strong>Focus the camera image</strong> if the eye looks blurred (by turning the <strong>lens focus ring</strong>).<br />
+ The <strong>35mm lens only has a focusing ring</strong>, whereas the <strong>50mm</strong> and <strong>75mm</strong> lenses have <strong>both focus and apature adjustment</strong>. The <strong>aperture</strong> ring is the smaller of the two, and <strong>probably doesn’t need adjusting</strong> (<em>currently fixed at 1.8 f-stop on the 75mm lens</em>).</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Smaller numbers (e.g., f/2.8) mean a wider opening for more light/blurry background, while larger numbers (e.g., f/11) mean a smaller opening for less light/sharper background).</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When using <strong>Psychtoolbox (PTB)</strong>, the <strong>image of the eye</strong> can be <em>thrown</em> <strong>onto the projector screen</strong> to make focusing easier. The <strong>left/right arrows</strong> on the <strong>Stim PC</strong> toggle <strong>between wide angle view and eye focused view</strong>.<br /></p>
+</div>
+<ul>
+<li>To <em>throw</em> the image, start <strong>TRACK</strong> (using either the installed standalone program (when testing) or as part of stimulus code - see the <strong><a href="./#calibration">Calibration</a></strong> section for more detailed usage and link to the In-House provided code). 
+The <strong><a href="../../../images/meg/Offline.jpg">Offline Screen</a></strong> should appear.</li>
+<li>Press <strong><code>ENTER</code></strong> to <strong>start camera setup</strong>, the <strong><a href="../../../images/meg/Camera_Setup.jpg">Camera Setup</a></strong> screen should appear, and then press <strong><code>ENTER</code></strong> again to <strong>display the camera image</strong> of the <strong><a href="../../../images/meg/Eye.jpg">Eye</a></strong><br />
+<strong><span style="color:blue">A good guide is to check if the eyelashes are in focus; when they are sharp the image is usually good enough.</span></strong></li>
 </ul>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
@@ -3411,36 +3453,36 @@ If you want to use the dominant eye, examples to find the dominant eye are shown
 </div>
 <ul>
 <li>
-<p>'''Roughly focus''' on the eye using the '''wide angle view on the projector screen'''.</p>
+<p><strong>Roughly focus</strong> on the eye using the <strong>wide angle view on the projector screen</strong>.</p>
 </li>
 <li>
-<p>'''Set the search limits''' on the Eyelink PC by '''clicking on''' the '''pupil''' and '''auto- threshold.'''</p>
+<p><strong>Set the search limits</strong> on the Eyelink Host PC by <strong>selecting</strong> the <strong>pupil</strong> image in the global view and then select <strong>Auto Threshold.</strong></p>
 </li>
 <li>
-<p>'''Switch to eye-view''' (arrow key) and '''focus using the corneal reflection'''. The '''focus is best''' when the '''corneal reflection is smallest (sharp)'''.</p>
+<p><strong>Switch to eye-view</strong> (<em>arrow key</em>) and <strong>focus using the corneal reflection</strong>. The <strong>focus is best</strong> when the <strong>corneal reflection is smallest (sharp)</strong>.</p>
 </li>
 <li>
-<p>On the EyeLink PC, '''press auto-threshold''' and check whether '''pupil values''' (identified by the '''blue shading''') are '''between 75-100''' and '''corneal reflection  is less than 230''' (identified by a '''yellow circle with crosshair'''). If needed, manually adjust. If sub-optimal, then the Illuminator focus may need adjusting (see below).<br /></p>
-</li>
-<li>
-<p>If the '''pupil crosshair flickers on/off''', or '''disappears''' even though the '''pupil is visible''', then the pupil '''size''' maybe '''too small'''. Check the '''camera distance'''. Consider placing the '''Desktop Mount closer to the participant'''.</p>
-</li>
-<li>
-<p>'''<span style="color:blue"> A good check is to ask your participant to look along the edges/four corners of the display and ensure that the pupil and corneal reflection do not get lost.</span> </p>
+<p>Select/click <strong>Auto Threshold</strong> again, and check whether the <strong>pupil value</strong> (<em>identified by the </em><strong><em><span style="color:blue">blue shading</span></em></strong>) 
+is <strong>between 75-115</strong> and the <strong>corneal reflection is less than 240</strong> (<em>identified by a </em><strong><em><span style="color:#40e0d0">turquoise circle</span></em></strong> <em>with</em> <strong><em>crosshair</em></strong>).<br />
+If needed, <strong>manually adjust</strong>. If <strong>sub-optimal</strong>, then the <strong><a href="../../../images/meg/IlluminatorAdjustment.jpg">ILLUMINATOR FOCUS</a></strong> may need adjusting.</p>
 </li>
 </ul>
-<p>[[File:IlluminatorAdjustment.jpg|200px|thumb|left|Illuminator Focus Adjustment]]<br /></p>
+<div class="admonition info">
+<p class="admonition-title">A good check is to ask your participant to look along the edges/four corners of the display and ensure that the pupil and corneal reflection do not get lost.</p>
+</div>
+<p><strong><span style="color:maroon">Focusing the Illuminator</span></strong> </p>
+<p><img align="right" alt="ILLUMINATOR FOCUS" src="../../../images/meg/IlluminatorAdjustment.jpg" width="55%" /></p>
 <ul>
-<li>For '''focusing the Illuminator''', loosen the '''2 screws on the underside''' of the Illuminator and then '''adjust the cover''' so that its edge aligns with the '''marking that approximates the eye-to-camera distance''' and then tighten the screws. <br /><br /><br /></li>
+<li>If the  <strong>the Illuminator needs focusing</strong>, loosen the <strong>two knurled knobs on the underside</strong> of the Illuminator and then <strong>adjust the cover</strong> so that its edge aligns with the <strong>marking that approximates the eye-to-camera distance</strong> and then tighten the knobs. </li>
 </ul>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p><strong>Pupil threshold:</strong> Fill the dark pupil with blue colour. If there isn’t enough colour inside the pupil, adjust the pupil threshold level up. If there is too much blue colour around the pupil, change the threshold level down. Pupil value should be between 75 and 115. If the pupil threshold is too high or too low, try increasing or decreasing the eye-camera distance. <br />
 <img alt="Poor Pupil Threshold" src="../../../images/meg/PoorPupilThreshold.jpg" /><br />
 <strong>Corneal reflections:</strong> You want a small CR as possible, showing the pupil is in focus. If there is a white halo around the turquoise reflections, adjust the CR threshold level down. Also adjust the focus of the camera. Corneal reflections should not exceed 240. If the corneal thresholds are too high, try increasing the eye-to-camera distance.<br />
-CR smearing is typically seen when the participant looks top-left or top-right of the display, indicating the viewing angle is too large for the setup. Try raising the Desktop mount and/or increasing the view distance.<br />
+CR smearing is typically seen when the participant looks top-left or top-right of the display, indicating the viewing angle is too large for the setup. Try raising the Desktop mount and/or increasing the viewing distance.<br />
 <img alt="Poor Corneal Reflection" src="../../../images/meg/PoorCornealReflection.jpg" /><br />
-<strong>Correct detection:</strong> When both the pupil and CR are detected correctly, you will see the <span style="color:green"><strong>GREEN</strong> boxes</span> showing <strong><code>PUPIL OK</code></strong> and <strong><code>CR OK</code></strong> in white text.</p>
+<strong>Correct detection:</strong> When both the pupil and CR are detected correctly, you will see the <span style="color:green"><strong>GREEN</strong> boxes</span>, <strong>under the eye or eyes being tracked</strong>, showing <strong><code>PUPIL OK</code></strong> and <strong><code>CR OK</code></strong> in white text e.g. <span style="color: white;background-color: #0BDA51"> PUPIL OK </span></p>
 </div>
 <ul>
 <li>Default settings for the display resolution of EyeLink are set to '''1920 x 1080''' in the '''PHYSICAL.INI''' file that specifies the settings ('''screen_pixel_coords = 0.0, 0.0, 1920.0, 1080.0'''). It’s important that it is '''matched with the actual display resolution''' you use, as the '''calibrated gaze data is in pixels'''. If you use a different display resolution, you can change the settings, but don’t do this in the PHYSICAL.INI file. Rather, '''copy''' the command line to the '''FINAL.INI''' file and change the setting there (this will override the settings in the PHYSICAL.INI file). '''All setup files''' (.ini files) are stored in the '''‘C:\ELCL\EXE’''' directory. '''Remember to reset it to the default setting after you finished your experiment!''' The best way to set the display resolution is to have your script send a command to the Host PC to update this parameter based on the resolution you are using. For example ...
