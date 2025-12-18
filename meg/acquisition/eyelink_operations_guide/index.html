@@ -14,14 +14,14 @@
         <link rel="prev" href="../../pdfs/SIGGI_II_User_Manual.pdf">
       
       
-        <link rel="next" href="../charging_eyelink_batteries/">
+        <link rel="next" href="../eyelink_demo/">
       
       
         
       
       
       <link rel="icon" href="../../../images/CHBH_logo.jpg">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
@@ -29,7 +29,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -1288,6 +1288,34 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eyelink_demo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EyeLink Demo Code
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -3484,11 +3512,19 @@ CR smearing is typically seen when the participant looks top-left or top-right o
 <img alt="Poor Corneal Reflection" src="../../../images/meg/PoorCornealReflection.jpg" /><br />
 <strong>Correct detection:</strong> When both the pupil and CR are detected correctly, you will see the <span style="color:green"><strong>GREEN</strong> boxes</span>, <strong>under the eye or eyes being tracked</strong>, showing <strong><code>PUPIL OK</code></strong> and <strong><code>CR OK</code></strong> in white text e.g. <span style="color: white;background-color: #0BDA51"> PUPIL OK </span></p>
 </div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><strong>Default settings</strong> for the <strong>display resolution</strong> of the EyeLink 1000 are set to <strong>1920 x 1080</strong> in the <strong>PHYSICAL.INI</strong> file that specifies the settings (<strong>screen_pixel_coords = 0.0, 0.0, 1920.0, 1080.0</strong>).<br />
+It’s <strong>important</strong> that it is <strong>matched with the actual display resolution</strong> you use, as the <strong>calibrated gaze data is in pixels</strong>.<br />
+If you <strong>use a different display resolution</strong>, you <strong>can change the settings</strong>, but <strong><span style="color:red">don’t do this in the PHYSICAL.INI file</span></strong>.<br /> 
+Rather, <strong>copy</strong> the command line to the <strong>FINAL.INI</strong> file and <strong>change the setting there</strong> (this will <strong>override the settings in the PHYSICAL.INI file</strong>).<br />
+<strong>All setup files</strong> (.ini files) are stored in the <strong>C:\ELCL\EXE</strong> directory. <strong>Remember to reset it to the default setting after you finished your experiment!</strong> <br />
+The <strong>best way to set the display resolution</strong> is to have your script <strong>send a command to the Host PC</strong> to <strong>update this parameter based on the resolution you are using</strong>. For example ...<br />
+    <strong><span style="color:blue">Eyelink('Command', 'screen_pixel_coords = 0 0 1920 1080');</span></strong></p>
+</div>
 <ul>
-<li>Default settings for the display resolution of EyeLink are set to '''1920 x 1080''' in the '''PHYSICAL.INI''' file that specifies the settings ('''screen_pixel_coords = 0.0, 0.0, 1920.0, 1080.0'''). It’s important that it is '''matched with the actual display resolution''' you use, as the '''calibrated gaze data is in pixels'''. If you use a different display resolution, you can change the settings, but don’t do this in the PHYSICAL.INI file. Rather, '''copy''' the command line to the '''FINAL.INI''' file and change the setting there (this will override the settings in the PHYSICAL.INI file). '''All setup files''' (.ini files) are stored in the '''‘C:\ELCL\EXE’''' directory. '''Remember to reset it to the default setting after you finished your experiment!''' The best way to set the display resolution is to have your script send a command to the Host PC to update this parameter based on the resolution you are using. For example ...
-** '''<span style="color:blue">Eyelink('Command', 'screen_pixel_coords = 0 0 1920 1080');</span>'''</li>
+<li><strong><span style="color:maroon">Check which eye is being tracked in the EyeLink Host Computer!</span></strong> (<em>the last known settings are used, which may be different to your own settings</em>).</li>
 </ul>
-<p>'''<span style="color:maroon">Check which eye is being tracked in the EyeLink Host Computer!</span> (the last known settings are used, which may be different to your own settings).'''<br /><br /></p>
 <h2 id="calibration">Calibration</h2>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
@@ -3498,8 +3534,13 @@ Use of eye-movement acceleration is important for detection of small saccades, e
 <strong>8000<sup>o</sup>/S<sup>2</sup> for reading and cognitive research</strong> are recommended.<br />
 <strong>Check your sample rate:</strong> Lowering the sample rate to less than 2K can help with the stability of the eye tracker. <strong>Our Default is 1000Hz for both monocular and binocular</strong>.</p>
 </div>
-<p>'''<span style="color:blue">Useful links to EyeLink PTB code on Github can be found [https://github.com/Psychtoolbox-3/Psychtoolbox-3/blob/fab0b49fd38ec477e3b4573f23dbd7766b0a89aa/Psychtoolbox/PsychHardware/EyelinkToolbox/EyelinkBasic/EyelinkDoTrackerSetup.m[HERE]] and [https://github.com/Psychtoolbox-3/Psychtoolbox-3/search?q=eyelinktoolbox&amp;unscoped_q=eyelinktoolbox[HERE]].</span>'''<br />
-'''<span style="color:blue">Our in-house code (<span style="color:red">''Eyelink_Demo.m''</span>) can be found [https://github.com/MEGSupportCHBH/TheCHBH/tree/master/MEGEyelinkDemoCodeCHBH[HERE]] (Many thanks to Dr. Yali Pan).</span>'''<br /></p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Two useful links to Eyelink PTB code (on Github) can be found below ...<br />
+<strong><a href="https://github.com/Psychtoolbox-3/Psychtoolbox-3/blob/fab0b49fd38ec477e3b4573f23dbd7766b0a89aa/Psychtoolbox/PsychHardware/EyelinkToolbox/EyelinkBasic/EyelinkDoTrackerSetup.m">EyelinkDoTrackerSetup.m</a></strong> <br />
+<strong><a href="https://github.com/search?q=repo%3APsychtoolbox-3%2FPsychtoolbox-3+eyelinktoolbox&amp;type=code">Psychtoolbox/PsychHardware/EyelinkToolbox/Contents.m</a></strong> <br /><br />
+Our In-House code <strong><a href="../eyelink_demo/">EYELINK_DEMO.M</a></strong> - <strong><em><span style="color:blue">With many thanks to Dr. Yali Pan</span></em></strong></p>
+</div>
 <ul>
 <li>'''Set the desired Calibration and Validation settings.''' 
 ** From the '''Set Options''' screen (shown '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/LongRangeMount.jpg HERE]''') choose the '''Calibration Type''' and '''Pacing Interval'''. '''<span style="color:blue">Our Default is a 9-point grid and 1sec interval</span>'''.<br /> 9-point calibration is standard, but '''participants who find that difficult''' can be given an '''easier 5-point or 3-point''' calibration. '''Click on the relevant "Type" as necessary.'''
@@ -3678,10 +3719,10 @@ Use of eye-movement acceleration is important for detection of small saccades, e
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.code.copy"], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
