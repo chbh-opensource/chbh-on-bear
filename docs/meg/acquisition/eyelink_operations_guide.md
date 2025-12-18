@@ -146,14 +146,16 @@ If needed, **manually adjust**. If **sub-optimal**, then the **[ILLUMINATOR FOCU
     **Correct detection:** When both the pupil and CR are detected correctly, you will see the <span style="color:green">**GREEN** boxes</span>, **under the eye or eyes being tracked**, showing **```PUPIL OK```** and **```CR OK```** in white text e.g. <span style="color: white;background-color: #0BDA51"> PUPIL OK </span>
 
 
+!!! info
+	**Default settings** for the **display resolution** of the EyeLink 1000 are set to **1920 x 1080** in the **PHYSICAL.INI** file that specifies the settings (**screen_pixel_coords = 0.0, 0.0, 1920.0, 1080.0**).<br />
+	It’s **important** that it is **matched with the actual display resolution** you use, as the **calibrated gaze data is in pixels**.<br />
+	If you **use a different display resolution**, you **can change the settings**, but **<span style="color:red">don’t do this in the PHYSICAL.INI file</span>**.<br /> 
+	Rather, **copy** the command line to the **FINAL.INI** file and **change the setting there** (this will **override the settings in the PHYSICAL.INI file**).<br />
+	**All setup files** (.ini files) are stored in the **C:\ELCL\EXE** directory. **Remember to reset it to the default setting after you finished your experiment!** <br />
+	The **best way to set the display resolution** is to have your script **send a command to the Host PC** to **update this parameter based on the resolution you are using**. For example ...<br />
+		**<span style="color:blue">Eyelink('Command', 'screen_pixel_coords = 0 0 1920 1080');</span>**
 
-
-
-
-* Default settings for the display resolution of EyeLink are set to '''1920 x 1080''' in the '''PHYSICAL.INI''' file that specifies the settings ('''screen_pixel_coords = 0.0, 0.0, 1920.0, 1080.0'''). It’s important that it is '''matched with the actual display resolution''' you use, as the '''calibrated gaze data is in pixels'''. If you use a different display resolution, you can change the settings, but don’t do this in the PHYSICAL.INI file. Rather, '''copy''' the command line to the '''FINAL.INI''' file and change the setting there (this will override the settings in the PHYSICAL.INI file). '''All setup files''' (.ini files) are stored in the '''‘C:\ELCL\EXE’''' directory. '''Remember to reset it to the default setting after you finished your experiment!''' The best way to set the display resolution is to have your script send a command to the Host PC to update this parameter based on the resolution you are using. For example ...
-** '''<span style="color:blue">Eyelink('Command', 'screen_pixel_coords = 0 0 1920 1080');</span>'''
-
-'''<span style="color:maroon">Check which eye is being tracked in the EyeLink Host Computer!</span> (the last known settings are used, which may be different to your own settings).'''<br /><br />
+- **<span style="color:maroon">Check which eye is being tracked in the EyeLink Host Computer!</span>** (*the last known settings are used, which may be different to your own settings*).
 
 ## Calibration
 
@@ -164,10 +166,11 @@ If needed, **manually adjust**. If **sub-optimal**, then the **[ILLUMINATOR FOCU
     **8000<sup>o</sup>/S<sup>2</sup> for reading and cognitive research** are recommended.<br />
 	**Check your sample rate:** Lowering the sample rate to less than 2K can help with the stability of the eye tracker. **Our Default is 1000Hz for both monocular and binocular**.
 
-
-'''<span style="color:blue">Useful links to EyeLink PTB code on Github can be found [https://github.com/Psychtoolbox-3/Psychtoolbox-3/blob/fab0b49fd38ec477e3b4573f23dbd7766b0a89aa/Psychtoolbox/PsychHardware/EyelinkToolbox/EyelinkBasic/EyelinkDoTrackerSetup.m[HERE]] and [https://github.com/Psychtoolbox-3/Psychtoolbox-3/search?q=eyelinktoolbox&unscoped_q=eyelinktoolbox[HERE]].</span>'''<br />
-'''<span style="color:blue">Our in-house code (<span style="color:red">''Eyelink_Demo.m''</span>) can be found [https://github.com/MEGSupportCHBH/TheCHBH/tree/master/MEGEyelinkDemoCodeCHBH[HERE]] (Many thanks to Dr. Yali Pan).</span>'''<br />
-
+!!! info
+	Two useful links to Eyelink PTB code (on Github) can be found below ...<br />
+	**[EyelinkDoTrackerSetup.m](https://github.com/Psychtoolbox-3/Psychtoolbox-3/blob/fab0b49fd38ec477e3b4573f23dbd7766b0a89aa/Psychtoolbox/PsychHardware/EyelinkToolbox/EyelinkBasic/EyelinkDoTrackerSetup.m)** <br />
+	**[Psychtoolbox/PsychHardware/EyelinkToolbox/Contents.m](https://github.com/search?q=repo%3APsychtoolbox-3%2FPsychtoolbox-3+eyelinktoolbox&type=code)** <br /><br />
+	Our In-House code **[EYELINK_DEMO.M](eyelink_demo.md)** - ***<span style="color:blue">With many thanks to Dr. Yali Pan</span>***
 
 * '''Set the desired Calibration and Validation settings.''' 
 ** From the '''Set Options''' screen (shown '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/LongRangeMount.jpg HERE]''') choose the '''Calibration Type''' and '''Pacing Interval'''. '''<span style="color:blue">Our Default is a 9-point grid and 1sec interval</span>'''.<br /> 9-point calibration is standard, but '''participants who find that difficult''' can be given an '''easier 5-point or 3-point''' calibration. '''Click on the relevant "Type" as necessary.'''

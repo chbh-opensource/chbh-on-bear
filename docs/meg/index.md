@@ -20,6 +20,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- [LabJack](hardware/meg-labjack.md)
 	- [SIGGI II Impedance Meter](pdfs/SIGGI_II_User_Manual.pdf)
 	- [EyeLink 1000 Plus Operations Guide](acquisition/eyelink_operations_guide.md)
+		- [EyeLink Demo Code](acquisition/eyelink_demo.md)
 	- [Charging EyeLink batteries](acquisition/charging_eyelink_batteries.md)
 
 -   **Data Acquisition**

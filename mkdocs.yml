@@ -81,6 +81,7 @@ nav:
       - LabJack: meg/hardware/meg-labjack.md
       - SIGGI II Impedance Meter: meg/pdfs/SIGGI_II_User_Manual.pdf
       - EyeLink 1000 Plus Operations Guide: meg/acquisition/eyelink_operations_guide.md
+      - EyeLink Demo Code: meg/acquisition/eyelink_demo.md
       - Charging EyeLink batteries: meg/acquisition/charging_eyelink_batteries.md
     - Acquisition:
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
