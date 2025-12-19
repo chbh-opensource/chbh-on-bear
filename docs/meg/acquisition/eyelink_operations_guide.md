@@ -106,7 +106,7 @@ The **[Offline Screen](../../images/meg/Offline.jpg)** should appear.
 **<span style="color:blue">A good guide is to check if the eyelashes are in focus; when they are sharp the image is usually good enough.</span>**
 
 !!! info
-	Ideally when recording from one eye, the eye movements should be measured from the participant’s dominant eye – but this is the optimal solution and not necessarily essential to obtaining good eye tracking.<br />
+	Ideally when recording from one eye, the eye movements should be measured from the Participant’s dominant eye – but this is the optimal solution and not necessarily essential to obtaining good eye tracking.<br />
 	If you want to use the dominant eye, examples to find the dominant eye are shown below:<br />
 
 	- **Extend your arms out in front of you** and create a triangular opening between your thumbs and forefingers by placing your hands together at a 45-degree angle.<br />
@@ -128,7 +128,7 @@ The **[Offline Screen](../../images/meg/Offline.jpg)** should appear.
 is **between 75-115** and the **corneal reflection is less than 240** (*identified by a ****<span style="color:#40e0d0">turquoise circle</span>*** *with* ***crosshair***).<br />
 If needed, **manually adjust**. If **sub-optimal**, then the **[ILLUMINATOR FOCUS](../../images/meg/IlluminatorAdjustment.jpg)** may need adjusting.
 
-!!! Info "A good check is to ask your participant to look along the edges/four corners of the display and ensure that the pupil and corneal reflection do not get lost."
+!!! Info "A good check is to ask your Participant to look along the edges/four corners of the display and ensure that the pupil and corneal reflection do not get lost."
 
 **<span style="color:maroon">Focusing the Illuminator</span>** 
 
@@ -141,7 +141,7 @@ If needed, **manually adjust**. If **sub-optimal**, then the **[ILLUMINATOR FOCU
 	**Pupil threshold:** Fill the dark pupil with blue colour. If there isn’t enough colour inside the pupil, adjust the pupil threshold level up. If there is too much blue colour around the pupil, change the threshold level down. Pupil value should be between 75 and 115. If the pupil threshold is too high or too low, try increasing or decreasing the eye-camera distance. <br />
     ![Poor Pupil Threshold](../../images/meg/PoorPupilThreshold.jpg)<br />
 	**Corneal reflections:** You want a small CR as possible, showing the pupil is in focus. If there is a white halo around the turquoise reflections, adjust the CR threshold level down. Also adjust the focus of the camera. Corneal reflections should not exceed 240. If the corneal thresholds are too high, try increasing the eye-to-camera distance.<br />
-    CR smearing is typically seen when the participant looks top-left or top-right of the display, indicating the viewing angle is too large for the setup. Try raising the Desktop mount and/or increasing the viewing distance.<br />
+    CR smearing is typically seen when the Participant looks top-left or top-right of the display, indicating the viewing angle is too large for the setup. Try raising the Desktop mount and/or increasing the viewing distance.<br />
     ![Poor Corneal Reflection](../../images/meg/PoorCornealReflection.jpg)<br />
     **Correct detection:** When both the pupil and CR are detected correctly, you will see the <span style="color:green">**GREEN** boxes</span>, **under the eye or eyes being tracked**, showing **```PUPIL OK```** and **```CR OK```** in white text e.g. <span style="color: white;background-color: #0BDA51"> PUPIL OK </span>
 
@@ -172,28 +172,29 @@ If needed, **manually adjust**. If **sub-optimal**, then the **[ILLUMINATOR FOCU
 	**[Psychtoolbox/PsychHardware/EyelinkToolbox/Contents.m](https://github.com/search?q=repo%3APsychtoolbox-3%2FPsychtoolbox-3+eyelinktoolbox&type=code)** <br /><br />
 	Our In-House code **[EYELINK_DEMO.M](eyelink_demo.md)** - ***<span style="color:blue">With many thanks to Dr. Yali Pan</span>***
 
-* '''Set the desired Calibration and Validation settings.''' 
-** From the '''Set Options''' screen (shown '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/LongRangeMount.jpg HERE]''') choose the '''Calibration Type''' and '''Pacing Interval'''. '''<span style="color:blue">Our Default is a 9-point grid and 1sec interval</span>'''.<br /> 9-point calibration is standard, but '''participants who find that difficult''' can be given an '''easier 5-point or 3-point''' calibration. '''Click on the relevant "Type" as necessary.'''
-** It is '''recommended to perform the calibration in a randomized order''', so make sure the '''Randomize Order''' box is selected.
-** Uncheck/disable '''Force Manual Accept''' if you '''want the fixation point to move automatically''' once the '''first calibration position is registered'''. Otherwise, you will '''need to press the spacebar or ENTER key on the Stim or Host PC to gather the next sample once the participant has fixated their eyes'''.<br /><br />
+- **Set the desired Calibration and Validation settings**.
+	- From the **[SET OPTIONS](../../images/meg/LongRangeMount.jpg)** screen, choose the **Calibration Type** and **Pacing Interval**.<br />**<span style="color:blue">The current Default is a 9-point grid and 1000msec (1sec) interval</span>**.<br /> **9-point calibration is standard**, but **Participants who find that difficult** can be given an **easier 5-point or 3-point** calibration.<br /> **Click on the relevant "Calibration Type" as necessary.**
+	- It is recommended to **perform the Calibration in a randomised order** , so make sure the **Randomize Order** box is selected.
+	- Uncheck/disable **Force Manual Accept** to make the fixation point **move automatically** once the **first calibration position is registered**.<br />Otherwise, the **```spacebar```** or **```Enter```** key will **need to be pressed**  on **the Stim or Host PC** to **gather the next point** once the **Participant has fixated their eyes**.
 
-'''<span style="color:blue">The following steps are echoed/replicated in Yali's example code, <span style="color:red">''Eyelink_Demo.m''</span>.</span>'''<br /><br />
+**<span style="color:blue">The following steps are echoed/replicated in the example code, <span style="color:red">Eyelink_Demo.m</span></span>**
 
-* Start '''TRACK.EXE''' on the Stim PC ('''Programs - SR Research – EyeLink - Track'''), or run your MATLAB PTB code if you incorporated Yali's code into your paradigm.<br />'''<span style="color:maroon">NOTE: Our ADMIN account password may be required. If so, it's "chbh-stim".</span>'''
-** This '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Offline.jpg SCREEN]''' should appear.
-** Press "'''ENTER'''" to '''start camera setup'''. This '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Camera_Setup.jpg SCREEN]''' should appear.
+- Start **TRACK.EXE** on **the Stim PC** (**```Programs -> SR Research –> EyeLink -> Track```**), or **start relevant Stimulus paradigm code incorporating any/all of the example MATLAB code.** <br />**<span style="color:maroon">The Stim PC ADMIN account password will be required to start "TRACK"**.
+	- The **[Offline Screen](../../images/meg/Offline.jpg)** should appear.
+	- Press **```ENTER```** to **start camera setup**, the **[Camera Setup](../../images/meg/Camera_Setup.jpg)** screen should appear.
+
 
 
 * <big><span style="color:maroon">Begin '''Calibration''' by pressing the '''"C"''' key</span></big>, or the "'''Calibrate'''" button from the '''camera setup''' menu on the '''EyeLink Host PC'''.<br />The '''first fixation point''' needs to be '''manually accepted by pressing the spacebar/ENTER key'''. 
-* On the screen, you will '''see a letter "D"''' ('''<span style="color:green">in green (left eye)</span>''' and '''<span style="color:blue">blue (right eye)</span>''', '''which moves when the participant moves their eyes'''. When the '''"D's" (pupils) appear stable on the fixation point''', press '''‘Accept Fixation’''', or the '''"ENTER"''' button or spacebar to '''accept the first fixation''', then '''let the sequence run by itself''', if you previously unchecked '''Force Manual Accept''' ('''NOTE: you may have to press the spacebar to start the calibration'''). 
-* '''Whenever the participants' gaze reaches a fixation/calibration point''', a '''white cross''' will '''appear on the EyeLink Host PC'''.<br /> '''<span style="color:blue">For a 9-point calibration, you want these crosses to form a perfect grid.</span>'''
-* To achieve that, '''instruct''' your participant to '''focus on the centre of the fixation points and not to change their gaze until the fixation point disappears'''.
+* On the screen, you will '''see a letter "D"''' ('''<span style="color:green">in green (left eye)</span>''' and '''<span style="color:blue">blue (right eye)</span>''', '''which moves when the Participant moves their eyes'''. When the '''"D's" (pupils) appear stable on the fixation point''', press '''‘Accept Fixation’''', or the '''"ENTER"''' button or spacebar to '''accept the first fixation''', then '''let the sequence run by itself''', if you previously unchecked '''Force Manual Accept''' ('''NOTE: you may have to press the spacebar to start the calibration'''). 
+* '''Whenever the Participants' gaze reaches a fixation/calibration point''', a '''white cross''' will '''appear on the EyeLink Host PC'''.<br /> '''<span style="color:blue">For a 9-point calibration, you want these crosses to form a perfect grid.</span>'''
+* To achieve that, '''instruct''' your Participant to '''focus on the centre of the fixation points and not to change their gaze until the fixation point disappears'''.
 ** '''"Please don't move your head".'''
 ** '''“Please look at the middle of the dot”.'''
 ** '''“Please don't move your eyes until the dot moves”.'''
 * Even if '''you’re not running an eye tracking experiment''', but are '''only monitoring pupil size''', it is '''recommended to do at least a 3-point calibration'''.
 * '''<span style="color:blue">Use the "Backspace" key to undo recent calibration targets if they are proving problematic to collect.</span>'''
-** '''With each press''', the '''data collected for the last point in the calibration sequence is erased''' and '''new calibration data can then be collected'''.<br /> This can be '''used to improve calibration accuracy for one or few selected points without having to restart calibration'''. <br />'''Especially helpful for those participants whose calibration data is hard to get.'''
+** '''With each press''', the '''data collected for the last point in the calibration sequence is erased''' and '''new calibration data can then be collected'''.<br /> This can be '''used to improve calibration accuracy for one or few selected points without having to restart calibration'''. <br />'''Especially helpful for those Participants whose calibration data is hard to get.'''
 * When '''the last calibration target has been presented''', the '''calibration will be evaluated'''.<br />At the '''bottom of the Calibrate screen''', each '''eye's calibration is graded and displayed''' as follows:<br>
 ** <big>'''<span style="color: white;background-color: #0BDA51"> GOOD </span>'''</big>'''   (green background): No obvious problems found with the data.<br />
 ** <big>'''<span style="color: white;background-color: red"> FAILED </span>'''</big>'''   (red background): Could not use data, calibration must be repeated.<br />
@@ -213,15 +214,15 @@ If needed, **manually adjust**. If **sub-optimal**, then the **[ILLUMINATOR FOCU
 
 ## Validation
 
-* <big><span style="color:maroon">Begin '''Validation''' by pressing the '''"V"''' key</span></big>, or the '''"Validate"''' button from the '''camera setup''' menu on the '''EyeLink Host PC'''.<br />A '''round, coloured, cursor''' will '''show the participant's gaze position'''.
+* <big><span style="color:maroon">Begin '''Validation''' by pressing the '''"V"''' key</span></big>, or the '''"Validate"''' button from the '''camera setup''' menu on the '''EyeLink Host PC'''.<br />A '''round, coloured, cursor''' will '''show the Participant's gaze position'''.
 * Once the '''cursor appears stable and close to the target''', press '''"ENTER"''' to '''manually accept the first fixation''', then '''let the sequence run by itself''', or '''manually accept''' each fixation by pressing '''"ENTER"'''.
-* '''Every time''' the participant’s gaze '''reaches a validation point''', a '''cross is displayed''' to '''mark its computed position relative to the target''' and a value ('''degrees of deviation''') appears on screen next to it.<br /> '''<span style="color:red">All these values need to be below 1 degree of error.</span>'''
+* '''Every time''' the Participant’s gaze '''reaches a validation point''', a '''cross is displayed''' to '''mark its computed position relative to the target''' and a value ('''degrees of deviation''') appears on screen next to it.<br /> '''<span style="color:red">All these values need to be below 1 degree of error.</span>'''
 * As with the '''Calibration''' procedure, if necessary '''<span style="color:blue">use the "Backspace" key in the middle of a Validation sequence to redo data collection</span>''' for the '''last''' or '''last few Validation points collected'''.  
 * After '''the final fixation is collected''', the '''average and maximum errors are displayed at the bottom of the screen''', and the '''accuracy is scored'''.<br />'''Each eye is graded separately, using coloured messages similar to the calibration results:'''<br>
 ** <big>'''<span style="color: white;background-color: #0BDA51"> GOOD </span>'''</big>'''   (green background): Errors are generally acceptable.<br />
 ** <big>'''<span style="color: white;background-color: grey"> FAIR</span>'''</big>'''   (grey background): Errors are moderate, calibration should be improved.<br />
 ** <big>'''<span style="color: white;background-color: red"> POOR </span>'''</big>'''   (red background): Errors are too high for useful eye tracking.<br />
-*** '''View the pattern of errors for each target position'''.<br />'''If only one target has a large error''', the participant may have '''simply mis-fixated that point''', and the '''validation can be repeated to check this''': '''press "ESC" to return to the Camera Setup screen, and press "V" to repeat the validation'''.<br />'''If a systematic pattern of error is seen''' (i.e. '''all fixations''' on '''the left side are too low''') there is '''probably a calibration or camera setup problem'''. In this case, '''press "ESC" to return to the Camera Setup screen, adjust the set-up as needed, and repeat the calibration'''.
+*** '''View the pattern of errors for each target position'''.<br />'''If only one target has a large error''', the Participant may have '''simply mis-fixated that point''', and the '''validation can be repeated to check this''': '''press "ESC" to return to the Camera Setup screen, and press "V" to repeat the validation'''.<br />'''If a systematic pattern of error is seen''' (i.e. '''all fixations''' on '''the left side are too low''') there is '''probably a calibration or camera setup problem'''. In this case, '''press "ESC" to return to the Camera Setup screen, adjust the set-up as needed, and repeat the calibration'''.
 * '''Repeat the Calibration''' if '''Validation is poor''' ('''<span style="color:red">deviations of more than 1 degree are observed for each point</span>''').
 * Press '''"Accept"''' or '''"ENTER"''' when you're happy with the Validation results.  
 * Close '''"Track"''' if the '''Validation is good'''. If '''using EyeLink PTB code''', pressing '''“ESC”''' will '''exit to your experiment (ending the calibration/validation routine)'''.<br /><br />
@@ -266,20 +267,20 @@ Most of the changes are under-the-hood, so should be transparent to your usage. 
 ## Troubleshooting
 
 - Ensure the MSR is as dark as possible when trying to find the pupil and when undertaking the calibration e.g. close the door, or push the door to. Turn the lights down or off.
-- If you're still having issues, ask your participant to close their eyes for a few seconds to reset the pupils.
-- If your participant is tall, place the relevant-size **[TABLE RISERS](../../images/meg/TableRisers.jpg)** under the table legs, so the camera is more in line with their pupils. We have 3 heights available.
+- If you're still having issues, ask your Participant to close their eyes for a few seconds to reset the pupils.
+- If your Participant is tall, place the relevant-size **[TABLE RISERS](../../images/meg/TableRisers.jpg)** under the table legs, so the camera is more in line with their pupils. We have 3 heights available.
 - To check focusing, look at the eyelashes. When they are in sharp focus the image of the eye is usually good enough.
-- To help with Calibration quality, ask your participant to look along the edges/four corners of the display after performing the camera setup. <br />Be sure to instruct your participant to fixate within the bounds of the display, or loss of tracking may occur because they have looked too far outside of the trackable range of the eye tracker, not because of a poor set-up.<br /> Watch for the warning signals on the tracker screen to make sure that the pupil and Corneal Reflection (CR) signal are not lost when the participant is doing so, and check the CR is not becoming distorted or "smeared" when the participant looks at the top corners.<br >Try adjusting the screen position to increase the viewing distance and raising the camera when CR smearing is seen (typically at the upper portion of the display). We have our table risers to help with this.
-- Participants who have never been calibrated before may require some practice in stably and accurately fixating the calibration targets.<br />Try to perform at least two calibrations per participant before beginning to collect data.
+- To help with Calibration quality, ask your Participant to look along the edges/four corners of the display after performing the camera setup. <br />Be sure to instruct your Participant to fixate within the bounds of the display, or loss of tracking may occur because they have looked too far outside of the trackable range of the eye tracker, not because of a poor set-up.<br /> Watch for the warning signals on the tracker screen to make sure that the pupil and Corneal Reflection (CR) signal are not lost when the Participant is doing so, and check the CR is not becoming distorted or "smeared" when the Participant looks at the top corners.<br >Try adjusting the screen position to increase the viewing distance and raising the camera when CR smearing is seen (typically at the upper portion of the display). We have our table risers to help with this.
+- Participants who have never been calibrated before may require some practice in stably and accurately fixating the calibration targets.<br />Try to perform at least two calibrations per Participant before beginning to collect data.
 - Always check the pattern of the calibration grid.<br /> For a 9-point calibration, the fixation crosses should form three parallel horizontal (or close-to-horizontal) lines and three parallel vertical (or close-to-vertical) lines.<br />Redo the calibration or camera setup if you do not see this.
 - If the current calibration looks good, press either the "ENTER" key to accept the calibration or press "V" to go to validation screen.<br />Never press the ESC key - doing so will discard the current calibration and thus revert to the cached calibration results.
-- Encourage your participants to sit still! A participant who doesn't sit still probably is not paying proper attention to the experimental task.<br /> Try to give the participant a short break in the middle of the experiment and (if possible) recalibrate before resuming the experiment.
-- When writing your stimulus paradigms, try matching the background color of the calibration and validation screen to that of the experimental displays.<br /> Changes in pupil size caused by large changes in brightness between the calibration and the experimental displays will degrade the system accuracy.<br />At the beginning of the experiment, let your participant adapt to the environment and the ambient light levels before performing calibration and data collection.<br />If the illumination levels are altered (i.e. the lights are dimmed) shortly before the experiment begins, the calibration accuracy will be reduced as the participant adapts to the new illumination level and the pupil dilates or constricts.
+- Encourage your Participants to sit still! A Participant who doesn't sit still probably is not paying proper attention to the experimental task.<br /> Try to give the Participant a short break in the middle of the experiment and (if possible) recalibrate before resuming the experiment.
+- When writing your stimulus paradigms, try matching the background color of the calibration and validation screen to that of the experimental displays.<br /> Changes in pupil size caused by large changes in brightness between the calibration and the experimental displays will degrade the system accuracy.<br />At the beginning of the experiment, let your Participant adapt to the environment and the ambient light levels before performing calibration and data collection.<br />If the illumination levels are altered (i.e. the lights are dimmed) shortly before the experiment begins, the calibration accuracy will be reduced as the Participant adapts to the new illumination level and the pupil dilates or constricts.
 - If the validation is off, redo BOTH the calibration and the validation.<br /> **<span style="color:blue">Validation deviation needs to be less than 1 degree of error.</span>**
 - Calibration improves when you:<br />
-	- Tell your participant to "***not move your head***".<br />
-	- Tell your participant to "***look at the middle of the dot***".<br />
-	- Tell your participant to "***not move your eyes until the dot moves***".
+	- Tell your Participant to "***not move your head***".<br />
+	- Tell your Participant to "***look at the middle of the dot***".<br />
+	- Tell your Participant to "***not move your eyes until the dot moves***".
 - If the Eyelink Host PC starts to beep, either the battery has run down or the battery has been switched off BEFORE the EyeLink software has been exited first.
 - CALIBRATION BEEPS:<br /> *Some Participants reported the beeps are too loud through our Natus audio system.*
 	- If using Experiment Builder, click on the **[EL_CAMERA_SETUP](../../images/meg/ExptBuilderBeeps.png)** node and turn the relevant properties from **DEFAULT** to **OFF**.
@@ -296,5 +297,5 @@ el.feedbackbeep = 1; % sound a beep after calibration or drift check/correction
 	- On the **Camera Setup** screen, changing the **Pupil Tracking** from **Centroid** to **Ellipse** can sometimes help. In Ellipse mode, the Host software draws a green circle around the pupil and tracks the centre of the circle. This sometimes helps the tracking cope a bit better if the top of the pupil is obscured by the eyelid.
 	- Rather than reduce the light levels, increase them or have the MSR lights on full. This will cause the pupil size to decrease, and smaller pupils are easier to track in this context. In low light conditions, the pupil will expand making it more likely to be obscured by the eyelid and harder to track.
 	- Moving the camera head/illuminator closer, rather than raising it, may also help, as looking up at the eye at a steeper angle may expose more of the smaller pupil.
-	- When recruiting older participants, ask if they have had eye surgery (particularly cataract removal). This can cause corneal scarring and result in flat spots on the cornea, both of which can make tracking difficult or impossible and may discount them as a potential experimental subject if recording eye movement is vital.
+	- When recruiting older Participants, ask if they have had eye surgery (particularly cataract removal). This can cause corneal scarring and result in flat spots on the cornea, both of which can make tracking difficult or impossible and may discount them as a potential experimental subject if recording eye movement is vital.
 
