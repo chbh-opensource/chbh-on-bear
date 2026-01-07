@@ -107,7 +107,7 @@ The **[Offline Screen](../../images/meg/Offline.jpg)** should appear.
 
 !!! info
 	Ideally when recording from one eye, the eye movements should be measured from the Participant’s dominant eye – but this is the optimal solution and not necessarily essential to obtaining good eye tracking.<br />
-	If you want to use the dominant eye, examples to find the dominant eye are shown below:<br />
+	If you want to use the dominant eye, examples to find the dominant eye are shown below:
 
 	- **Extend your arms out in front of you** and create a triangular opening between your thumbs and forefingers by placing your hands together at a 45-degree angle.<br />
 	  With both eyes open, centre this triangular opening on a distant object - such as a wall clock or door knob.<br />
@@ -170,62 +170,84 @@ If needed, **manually adjust**. If **sub-optimal**, then the **[ILLUMINATOR FOCU
 	Two useful links to Eyelink PTB code (on Github) can be found below ...<br />
 	**[EyelinkDoTrackerSetup.m](https://github.com/Psychtoolbox-3/Psychtoolbox-3/blob/fab0b49fd38ec477e3b4573f23dbd7766b0a89aa/Psychtoolbox/PsychHardware/EyelinkToolbox/EyelinkBasic/EyelinkDoTrackerSetup.m)** <br />
 	**[Psychtoolbox/PsychHardware/EyelinkToolbox/Contents.m](https://github.com/search?q=repo%3APsychtoolbox-3%2FPsychtoolbox-3+eyelinktoolbox&type=code)** <br /><br />
-	Our In-House code **[EYELINK_DEMO.M](eyelink_demo.md)** - ***<span style="color:blue">With many thanks to Dr. Yali Pan</span>***
+	Our In-House code **[EyeLink_Demo.m](eyelink_demo.md)** - ***<span style="color:blue">With many thanks to Dr. Yali Pan</span>***
 
 - **Set the desired Calibration and Validation settings**.
 	- From the **[SET OPTIONS](../../images/meg/LongRangeMount.jpg)** screen, choose the **Calibration Type** and **Pacing Interval**.<br />**<span style="color:blue">The current Default is a 9-point grid and 1000msec (1sec) interval</span>**.<br /> **9-point calibration is standard**, but **Participants who find that difficult** can be given an **easier 5-point or 3-point** calibration.<br /> **Click on the relevant "Calibration Type" as necessary.**
 	- It is recommended to **perform the Calibration in a randomised order** , so make sure the **Randomize Order** box is selected.
 	- Uncheck/disable **Force Manual Accept** to make the fixation point **move automatically** once the **first calibration position is registered**.<br />Otherwise, the **```spacebar```** or **```Enter```** key will **need to be pressed**  on **the Stim or Host PC** to **gather the next point** once the **Participant has fixated their eyes**.
 
-**<span style="color:blue">The following steps are echoed/replicated in the example code, <span style="color:red">Eyelink_Demo.m</span></span>**
+**<span style="color:maroon">The following steps are echoed/replicated in the example code, [EyeLink_Demo.m](eyelink_demo.md)</span>**
 
 - Start **TRACK.EXE** on **the Stim PC** (**```Programs -> SR Research –> EyeLink -> Track```**), or **start relevant Stimulus paradigm code incorporating any/all of the example MATLAB code.** <br />**<span style="color:maroon">The Stim PC ADMIN account password will be required to start "TRACK"**.
 	- The **[Offline Screen](../../images/meg/Offline.jpg)** should appear.
 	- Press **```ENTER```** to **start camera setup**, the **[Camera Setup](../../images/meg/Camera_Setup.jpg)** screen should appear.
 
+- <big><span style="color:maroon">Begin **Calibration** by pressing the "**C**" key</span></big>, or the "**Calibrate**" button from the **Camera Setup** menu on the **EyeLink Host PC**.<br />The **first fixation point** needs to be **manually accepted by pressing the ```spacebar/ENTER```** keys. 
+- On the screen, the **letter "D"**, in **<span style="color:green">GREEN (left eye)</span>** and in **<span style="color:blue">BLUE (right eye)</span>** will appear, **which moves when the Participant moves their eyes**.<br />
+  When the **"D's" (pupils) appear stable on the fixation point**, press "**Accept Fixation**", or the **```ENTER```** button or **```spacebar```** to **accept the first fixation**, then **let the sequence run by itself** (if **Force Manual Accept** was previously unchecked). 
+  
+!!! note "The ```spacebar``` may need to be pressed to start the calibration."
+  
+- **Whenever the Participants' gaze reaches a fixation/calibration point**, a **white cross will appear** on the **EyeLink Host PC "Calibrate" screen**.<br />
+**<span style="color:blue">For a 9-point calibration, these crosses need to form a perfect grid.</span>**
+	 - To achieve that, the Participant is **asked** to **focus on the centre of the fixation points and not to change their gaze until the fixation point disappears**.
+		- "**Please don't move your head**"
+		- "**Please look at the middle of the dot**"
+		- "**Please don't move your eyes until the dot moves**"
+!!! info "Even if eye tracking is not required (only pupil size is being monitored), it is still recommended to do at least a 3-point calibration."
+!!! info
+	**<span style="color:blue">Use the ```Backspace``` key to undo recent calibration targets if they are proving problematic to collect.</span>**
+	
+	 - **With each press**, the **data collected for the last point in the calibration sequence is erased** and **new calibration data can then be obtained**.
+	 - This can be **used to improve calibration accuracy for one or few selected points without having to restart calibration**, and is **especially helpful for those Participants whose calibration data is hard to collect.**
 
+- When **the last calibration target has been presented**, the **calibration will be evaluated**.<br />
+At the **bottom of the Calibrate screen**, each **eye's calibration is graded and displayed** as follows:<br>
+	- **<big><span style="color: white;background-color: #0BDA51"> GOOD</span></big>** : ***No obvious problems found with the data***.
+	- **<big><span style="color: white;background-color: red"> FAILED</span></big>** : ***Could not use data, calibration must be repeated***.
+	- An **example of a "GOOD" result** is shown below.
 
-* <big><span style="color:maroon">Begin '''Calibration''' by pressing the '''"C"''' key</span></big>, or the "'''Calibrate'''" button from the '''camera setup''' menu on the '''EyeLink Host PC'''.<br />The '''first fixation point''' needs to be '''manually accepted by pressing the spacebar/ENTER key'''. 
-* On the screen, you will '''see a letter "D"''' ('''<span style="color:green">in green (left eye)</span>''' and '''<span style="color:blue">blue (right eye)</span>''', '''which moves when the Participant moves their eyes'''. When the '''"D's" (pupils) appear stable on the fixation point''', press '''‘Accept Fixation’''', or the '''"ENTER"''' button or spacebar to '''accept the first fixation''', then '''let the sequence run by itself''', if you previously unchecked '''Force Manual Accept''' ('''NOTE: you may have to press the spacebar to start the calibration'''). 
-* '''Whenever the Participants' gaze reaches a fixation/calibration point''', a '''white cross''' will '''appear on the EyeLink Host PC'''.<br /> '''<span style="color:blue">For a 9-point calibration, you want these crosses to form a perfect grid.</span>'''
-* To achieve that, '''instruct''' your Participant to '''focus on the centre of the fixation points and not to change their gaze until the fixation point disappears'''.
-** '''"Please don't move your head".'''
-** '''“Please look at the middle of the dot”.'''
-** '''“Please don't move your eyes until the dot moves”.'''
-* Even if '''you’re not running an eye tracking experiment''', but are '''only monitoring pupil size''', it is '''recommended to do at least a 3-point calibration'''.
-* '''<span style="color:blue">Use the "Backspace" key to undo recent calibration targets if they are proving problematic to collect.</span>'''
-** '''With each press''', the '''data collected for the last point in the calibration sequence is erased''' and '''new calibration data can then be collected'''.<br /> This can be '''used to improve calibration accuracy for one or few selected points without having to restart calibration'''. <br />'''Especially helpful for those Participants whose calibration data is hard to get.'''
-* When '''the last calibration target has been presented''', the '''calibration will be evaluated'''.<br />At the '''bottom of the Calibrate screen''', each '''eye's calibration is graded and displayed''' as follows:<br>
-** <big>'''<span style="color: white;background-color: #0BDA51"> GOOD </span>'''</big>'''   (green background): No obvious problems found with the data.<br />
-** <big>'''<span style="color: white;background-color: red"> FAILED </span>'''</big>'''   (red background): Could not use data, calibration must be repeated.<br />
-** '''An example of a "GOOD" result is shown below.'''
+![Eye Calibration Graded](../../images/meg/Eye_Calibration_Graded.jpg)
 
-[[File:Eye_Calibration_Graded.jpg]]
+- **A "GOOD" calibration** is also **indicated** by a **regular pattern of parallel horizontal and vertical lines formed by the calibration fixation crosses**, as shown below.
 
-* '''A "GOOD" calibration is also indicated by a regular pattern of parallel horizontal and vertical lines formed by the calibration fixation crosses. See the image below.'''
+![Good Poor Calibration](../../images/meg/Good_Poor_Calibration.jpg)
 
-[[File:Good_Poor_Calibration.jpg]]
+- If the **calibration was successful**, press the "**Accept**" or **```ENTER```** button to **accept the result**.<br />
+Press "**Restart**" or the **```ESC```** button to "**restart the calibration**".
+	- **Pressing ```ESC``` twice exits to the "Camera Setup" screen.**
 
-* If you're happy the '''calibration was successful''', press the '''‘Accept’''' or '''"ENTER"''' button to '''accept the result''', press '''‘Restart’''' or the '''"ESC"''' button to '''restart the calibration'''.
-* '''Pressing "ESC" twice exits to the Camera Setup screen.'''
-** '''<span style="color:red">NOTE:</span>''' '''If you want to keep the current calibration, NEVER press the "ESC" key at the calibration end when the calibration grid is displayed.'''
-** '''<span style="color:red">NOTE:</span>''' '''Doing so will DISCARD the current calibration, and the software will revert to any existing cached calibration. You may then need to recalibrate.'''
-
+!!! Note "<span style="color:red">NOTE:</span> NEVER press the ```ESC``` key at the calibration end, when the calibration grid is displayed, if the current calibration is wanted to be kept.<br /> Doing so will DISCARD the current calibration, and the software will revert to any existing cached calibration.<br />A recalibration may then be required."
 
 ## Validation
 
-* <big><span style="color:maroon">Begin '''Validation''' by pressing the '''"V"''' key</span></big>, or the '''"Validate"''' button from the '''camera setup''' menu on the '''EyeLink Host PC'''.<br />A '''round, coloured, cursor''' will '''show the Participant's gaze position'''.
-* Once the '''cursor appears stable and close to the target''', press '''"ENTER"''' to '''manually accept the first fixation''', then '''let the sequence run by itself''', or '''manually accept''' each fixation by pressing '''"ENTER"'''.
-* '''Every time''' the Participant’s gaze '''reaches a validation point''', a '''cross is displayed''' to '''mark its computed position relative to the target''' and a value ('''degrees of deviation''') appears on screen next to it.<br /> '''<span style="color:red">All these values need to be below 1 degree of error.</span>'''
-* As with the '''Calibration''' procedure, if necessary '''<span style="color:blue">use the "Backspace" key in the middle of a Validation sequence to redo data collection</span>''' for the '''last''' or '''last few Validation points collected'''.  
-* After '''the final fixation is collected''', the '''average and maximum errors are displayed at the bottom of the screen''', and the '''accuracy is scored'''.<br />'''Each eye is graded separately, using coloured messages similar to the calibration results:'''<br>
-** <big>'''<span style="color: white;background-color: #0BDA51"> GOOD </span>'''</big>'''   (green background): Errors are generally acceptable.<br />
-** <big>'''<span style="color: white;background-color: grey"> FAIR</span>'''</big>'''   (grey background): Errors are moderate, calibration should be improved.<br />
-** <big>'''<span style="color: white;background-color: red"> POOR </span>'''</big>'''   (red background): Errors are too high for useful eye tracking.<br />
-*** '''View the pattern of errors for each target position'''.<br />'''If only one target has a large error''', the Participant may have '''simply mis-fixated that point''', and the '''validation can be repeated to check this''': '''press "ESC" to return to the Camera Setup screen, and press "V" to repeat the validation'''.<br />'''If a systematic pattern of error is seen''' (i.e. '''all fixations''' on '''the left side are too low''') there is '''probably a calibration or camera setup problem'''. In this case, '''press "ESC" to return to the Camera Setup screen, adjust the set-up as needed, and repeat the calibration'''.
-* '''Repeat the Calibration''' if '''Validation is poor''' ('''<span style="color:red">deviations of more than 1 degree are observed for each point</span>''').
-* Press '''"Accept"''' or '''"ENTER"''' when you're happy with the Validation results.  
-* Close '''"Track"''' if the '''Validation is good'''. If '''using EyeLink PTB code''', pressing '''“ESC”''' will '''exit to your experiment (ending the calibration/validation routine)'''.<br /><br />
+ - <big><span style="color:maroon">Begin **Validation** by pressing the "**V**" key</span></big>, or the "**Validate**" button from the **Camera Setup** menu on the **EyeLink Host PC**.<br />
+ A **round, coloured, cursor** will **show the Participant's gaze position**.
+
+- Once the **cursor appears stable and close to the target**, press **```ENTER```** to **manually accept the first fixation**, then **let the sequence run by itself**, or **manually accept** each fixation by pressing **```ENTER```**
+
+- **Every time** the Participant’s gaze **reaches a validation point**, a **cross is displayed** to **mark its computed position relative to the target** and a value (**degrees of deviation**) appears on screen next to it.<br />
+**<span style="color:red">All these values need to be below 1 degree of error.</span>**
+
+!!! info
+	As with the **Calibration** procedure, if necessary **<span style="color:blue">use the ```Backspace``` key in the middle of a Validation sequence to redo data collection</span>** for the **last** or **last few Validation points collected**.
+
+- After **the final fixation is collected**, the **average and maximum errors are displayed at the bottom of the screen**, and the **accuracy is scored**.<br />
+**Each eye is graded separately, using coloured messages similar to the calibration results:**<br>
+	- **<big><span style="color: white;background-color: #0BDA51"> GOOD</span></big>** : ***Errors are generally acceptable.***
+	- **<big><span style="color: white;background-color: grey"> FAIR</span></big>** : ***Errors are moderate, calibration should be improved.***
+	- **<big><span style="color: white;background-color: red"> POOR</span></big>** : ***Errors are too high for useful eye tracking.***
+		- **View the pattern of errors for each target position**.<br />
+		**If only one target has a large error**, the Participant may have **simply mis-fixated that point**, and the **validation can be repeated to check this: press ```ESC``` to return to the Camera Setup screen, and press "V" to repeat the validation**.<br />
+		**If a systematic pattern of error is seen** (i.e. **all fixations** on **the left side are too low**) there is **probably a calibration or camera setup problem**. In this case, **press ```ESC``` to return to the Camera Setup screen, adjust the set-up as needed, and repeat the calibration**.
+
+- **Repeat the Calibration** if **Validation is poor** (**<span style="color:red">deviations of more than 1 degree are observed for each point</span>**).
+
+- Press "**Accept**" or **```ENTER```** if the **Validation results are acceptable**.  
+
+- Close "**TRACK.EXE**" if the **Validation is good**.<br /> 
+If **using EyeLink PTB code**, pressing **```ESC```** will **exit** (*ending the calibration/validation routine*) **to the experimental paradigm, allowing it to continue**.
 
 ## Run Experiment
 
