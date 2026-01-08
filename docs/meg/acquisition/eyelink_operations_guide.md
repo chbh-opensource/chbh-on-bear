@@ -22,7 +22,7 @@
 
 !!! Note "<span style="color:red">NOTE:</span> Ensure a good cable connection is made (*the black rubber strain reliefs aren't pushed up over the silver two-pin connectors*).<br /><span style="color:red">NOTE:</span> If the camera head/IR Illuminator isn't powered-on first, the Host PC will complain slightly (*ticking sound*) when EyeLink starts up."
 
-!!! Info "<span style="color:maroon">To prevent small threshold drifts, the EyeLink camera Head/Host PC etc should be powered up/switched on for <span style="color:red">at least 5 minutes</span> before recording.</span>"
+!!! Info "<span style="color:maroon">To prevent small threshold drifts, the EyeLink camera head/Host PC etc should be powered up/switched on for <span style="color:red">at least 5 minutes</span> before recording.</span>"
 
 **<span style="color:blue">If using Monocular</span>**, make sure the FO camera head is **[HORIZONTAL](../../images/meg/Horizontal.jpg)**, and **the knurled silver adjustment knobs** are **centered to the projector screen.**
 
@@ -183,6 +183,19 @@ If needed, **manually adjust**. If **sub-optimal**, then the **[ILLUMINATOR FOCU
 	- The **[Offline Screen](../../images/meg/Offline.jpg)** should appear.
 	- Press **```ENTER```** to **start camera setup**, the **[Camera Setup](../../images/meg/Camera_Setup.jpg)** screen should appear.
 
+!!! info
+	**<span style="color:red">USEFUL HOTKEYS</span>** <br />
+	- **ENTER** - show camera image (e.g. Participant eye on Projector screen) <br /> 
+	- **Left/Right** – switch between zoomed in/zoomed out camera image <br />
+	- **C** - Calibration <br />
+	- **SPACE** - start Calibration <br />
+	- **ENTER** - accept Calibration <br />
+	- **V** - Validation <br /> 
+	- **SPACE** - start Validation <br />
+	- **ENTER** - accept Validation <br />
+	- **D** - to drift-correct <br />
+	- **ESC** - to exit (<span style="color:red">***use carefully!***</span>)
+
 - <big><span style="color:maroon">Begin **Calibration** by pressing the "**C**" key</span></big>, or the "**Calibrate**" button from the **Camera Setup** menu on the **EyeLink Host PC**.<br />The **first fixation point** needs to be **manually accepted by pressing the ```spacebar/ENTER```** keys. 
 - On the screen, the **letter "D"**, in **<span style="color:green">GREEN (left eye)</span>** and in **<span style="color:blue">BLUE (right eye)</span>** will appear, **which moves when the Participant moves their eyes**.<br />
   When the **"D's" (pupils) appear stable on the fixation point**, press "**Accept Fixation**", or the **```ENTER```** button or **```spacebar```** to **accept the first fixation**, then **let the sequence run by itself** (if **Force Manual Accept** was previously unchecked). 
@@ -251,40 +264,38 @@ If **using EyeLink PTB code**, pressing **```ESC```** will **exit** (*ending the
 
 ## Run Experiment
 
-'''<span style="color:red">NOTE: </span>''' If you receive an '''error message''' and the Tracker software '''fails to start''' when you first turn on the EyeLink PC - the partition could be '''full'''. Try '''deleting''' some of the older EDF files from the '''exe''' ('''/elcl/exe''') directory via the '''File Manager.'''
+!!! note
+	If the **EyeLink partition is almost full**, then **Tracker** may fail to start.<br />[Copy off] and then **delete** some of the **older EDF files** from the **exe** (**/elcl/exe**) directory via the **File Manager**.
 
-* '''Start your experiment'''. Make sure that the '''EDF filename/Participant Name''' to store your data '''does not exceed 8 characters''' otherwise it may not properly transfer your data at the end of the experiment (you will get an error when the EDF file is copied to our Stim PC). Or worse, data from a previous session could be overwritten.
-** '''<span style="color:maroon">This is an old DOS naming convention (older EyeLink trackers run on DOS). SR Research have kept to this file naming convention, even with newer Windows-based eye trackers, for consistency.</span>'''
-** '''(For more detailed information, if you're interested, check out this Wiki page [https://en.wikipedia.org/wiki/8.3_filename[8.3 Filename]])'''
+- **Start experiment**.<br />Make sure that the **EDF filename/Participant Name** to store the data **does not exceed 8 characters** otherwise the **data may not properly transfer over at the end of the experiment** (an **error mesasge will pop up** when **copying the EDF file to the Stim PC is attempted**).<br /> 
+***<span style="color:maroon">EDF data from a previously-saved session could also be potentially overwritten!</span>***
 
-* '''When the experiment is finished''', the EyeLink PTB code should '''exit''' you from the Host PC application to the '''File Manager'''. If not, press '''‘CTRL+ALT+Q’''' to exit the EyeLink 1000 Host PC application, or select '''‘Offline’''' then '''‘Exit EyeLink’'''.
-** '''<span style="color:maroon">If the battery, or AC Power, is switched off BEFORE you exit the EyeLink Host PC application, the PC will complain (loud beeping). Repower the camera head/illuminator, and then exit the Eyelink application back to the File Manager and then switch off the battery.</span>'''
+!!! info
+	**<span style="color:blue">This is an old DOS naming convention (older EyeLink trackers run on DOS).<br />SR Research have kept to this file naming convention, even with newer Windows-based eye trackers, for consistency across software versions.</span>**
+
+- **When the experiment is finished**, the EyeLink PTB code **should exit from the Tracker application** to the **File Manager**.<br /> 
+**If not, press ```CTRL+ALT+Q```** to exit the Tracker application, or select "**Offline**" then "**Exit EyeLink**".
+
+!!! note
+	**<span style="color:maroon">If the battery, or AC Power, is switched off BEFORE the Tracker appliaction is exited, the EyeLink Host PC will complain (loud beeping!).<br />Repower the camera head/illuminator, and then exit the Tracker application back to the File Manager and then switch off the battery/AC Power.</span>**
  
-* If you’re the '''last user of the day''', switch off the EyeLink battery, '''remove/tidy up the FO cable/power cable''', and '''remove''' the battery from the MSR – putting it back on charge (if possible, otherwise leave a note for Jonathan to put it on charge the following morning - attach a piece of Micropore tape). '''Replace the lens cap''' on the FO camera head, and put the FO camera head/IR Illuminator '''back on a shelf''' in the MSR cabinet. 
-* '''Copy off''' any required '''EyeLink Data Files (EDF)''' (''see'' '''<span style="color:blue;font-size:large">@</span>''' ''below'') from the Host PC, or check that your EDF files '''were copied automatically''' to the Stim PC (if your code is set up to do that) ...
-* ... and then shut down the Host PC. 
-** From the '''‘File Manager’''' interface, select the '''‘Power’''' button (top right), or '''“Shutdown Host”''' from Eyelink screen. Switch off the monitor, and then switch off the bar plug on the table. 
-* '''Sleep''' the PROPixx projector etc. See '''[[Tidying Up]]'''.
- 
-'''<span style="color:red">HOTKEYS</span>'''
-* '''ENTER''' - show eye on monitor 
-* '''Left/Right''' – switch between zoomed in/zoomed out image
-* '''C''' - calibration 
-* '''SPACE''' - start calibration 
-* '''ENTER''' - accept calibration 
-* '''V''' - validation 
-* '''SPACE''' - start validation 
-* '''ENTER''' - accept validation
+- If the ***last user of the day***, **switch off the EyeLink battery/AC Power, remove/tidy up the FO cable/power cable**, and **remove** the battery from the MSR – **putting it back on charge (if possible, otherwise leave a note** for MEG Support/next Operator to put it **on charge the following morning** - attach a **piece of *Micropore* tape to the battery front**).<br />
+**Replace the lens cap** on the FO camera head, and **put the FO camera head/IR Illuminator back on a shelf** in the MSR cabinet. 
 
+- **[Copy off]** any **required EyeLink Data Files (EDF)** from the Host PC (see **<span style="color:green">September 2020</span>** infomation below), or check that any relevant EDF files **were copied automatically to the Stim PC** (if experimental code is set up to do that) ...
+- ... and then **shutdown the Host PC**. 
+	- From the **File Manager** interface, select the **Power button** (*top right*), or **Shutdown Host** from the EyeLink screen. **Switch off the monitor**, and then **switch off the bar plug on the table**. 
 
-'''<span style="color:blue;font-size:large">@</span> <span style="font-size:large;color:green">September 2020:</span> '''
+- **Sleep** the PROPixx projector. (See relevant section in **[Tidying Up](tidying_up.md)**). 
 
-The '''EyeLink Host PC software''' has been '''updated from 5.14 to 5.15''', to help Oscar troubleshoot his stimuli.
+!!! info
+	**<span style="color:green">September 2020:</span>**<br />
+	The **EyeLink Host PC software** was **updated from 5.14 to 5.15**, to help troubleshoot a MEG Operator's stimuli.
 
-Most of the changes are under-the-hood, so should be transparent to your usage. The only change that might impact you, is that the '''default storage location of EDF files''' on the '''Host PC''' has been '''changed''' from the '''Data subfolder''' to the '''Exe subfolder'''.
+	**Most of the changes are under-the-hood**, so should be transparent to usage.<br />
+	The **only change that might impact usage**, is that the **default storage location of EDF files** on the **Host PC** has been **moved from the "Data subfolder" to the "Exe subfolder"**.
 
-'''<span style="color:maroon;font-size:medium">Sam from SR Research</span> says''' ...'''<span style="color:blue;font-size:medium">"The location of the EDF file on the Host PC should be irrelevant for most users as the EDF should always be transferred to the stimulus display PC at the end of the task - the copy on the Host PC is really just there as a back up in case people somehow lose or delete the copy on the display PC. But letting people know will hopefully prevent any panics if people go looking in the data subfolder and don't see any EDFs!" </span> '''
-
+	**<span style="color:maroon">Sam, from SR Research</span>** says ...**<span style="color:blue">"The location of the EDF file on the Host PC should be irrelevant for most users as the EDF should always be transferred to the stimulus display PC at the end of the task - the copy on the Host PC is really just there as a back up in case people somehow lose or delete the copy on the display PC. But letting people know will hopefully prevent any panics if people go looking in the data subfolder and don't see any EDFs!" </span>**
 
 ## Troubleshooting
 

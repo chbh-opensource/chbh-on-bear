@@ -18,9 +18,9 @@
 * Spare Isopropyl Alcohol in the red Flammables cabinet in the Changing Room.
 * Towels are housed in the top drawer, located at the bottom left-hand side of the IKEA wardrobe in the Changing Room. 
 * Scrubs can be found, in their relevant sizes, on marked shelves on the right-hand side of the wardrobe.
-* Spare green paper hand towels are on the floor by cryocooler compressor. Jonathan/Caroline both have keys to the paper towel holder cabinet in the Control room.
+* Spare green paper hand towels are on the floor by cryocooler compressor. MEG Support/Administrator both have keys to the paper towel holder cabinet in the Control room.
 * Spare BNC cables can be found in a labeled clear plastic box in the IHR/Tank Room (G24).
 * Polystrene heads for EyeLink testing (*Phantom Phil*) can be found in the IHR/Tank Room (G24).
 * Anti-static pink foam, 20ml syringes, in clear plastic boxes in the IHR/Tank Room (G24).
 
-**<span style="color:blue">Please let Jonathan know in plenty of time if any consumables are running low, so a Requisition can be placed to restock.</span>**
+**<span style="color:blue">Please let MEG Support know in plenty of time if any consumables are running low, so a Requisition can be placed to restock.</span>**
