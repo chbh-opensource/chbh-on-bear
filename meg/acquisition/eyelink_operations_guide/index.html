@@ -3348,7 +3348,7 @@
 <p class="admonition-title"><span style="color:red">NOTE:</span> Ensure a good cable connection is made (<em>the black rubber strain reliefs aren't pushed up over the silver two-pin connectors</em>).<br /><span style="color:red">NOTE:</span> If the camera head/IR Illuminator isn't powered-on first, the Host PC will complain slightly (<em>ticking sound</em>) when EyeLink starts up.</p>
 </div>
 <div class="admonition info">
-<p class="admonition-title"><span style="color:maroon">To prevent small threshold drifts, the EyeLink camera Head/Host PC etc should be powered up/switched on for <span style="color:red">at least 5 minutes</span> before recording.</span></p>
+<p class="admonition-title"><span style="color:maroon">To prevent small threshold drifts, the EyeLink camera head/Host PC etc should be powered up/switched on for <span style="color:red">at least 5 minutes</span> before recording.</span></p>
 </div>
 <p><strong><span style="color:blue">If using Monocular</span></strong>, make sure the FO camera head is <strong><a href="../../../images/meg/Horizontal.jpg">HORIZONTAL</a></strong>, and <strong>the knurled silver adjustment knobs</strong> are <strong>centered to the projector screen.</strong></p>
 <ul>
@@ -3551,16 +3551,28 @@ Our In-House code <strong><a href="../eyelink_demo/">EyeLink_Demo.m</a></strong>
 </ul>
 <p><strong><span style="color:maroon">The following steps are echoed/replicated in the example code, <a href="../eyelink_demo/">EyeLink_Demo.m</a></span></strong></p>
 <ul>
-<li>
-<p>Start <strong>TRACK.EXE</strong> on <strong>the Stim PC</strong> (<strong><code>Programs -&gt; SR Research –&gt; EyeLink -&gt; Track</code></strong>), or <strong>start relevant Stimulus paradigm code incorporating any/all of the example MATLAB code.</strong> <br /><strong><span style="color:maroon">The Stim PC ADMIN account password will be required to start "TRACK"</strong>.</p>
-<ul>
+<li>Start <strong>TRACK.EXE</strong> on <strong>the Stim PC</strong> (<strong><code>Programs -&gt; SR Research –&gt; EyeLink -&gt; Track</code></strong>), or <strong>start relevant Stimulus paradigm code incorporating any/all of the example MATLAB code.</strong> <br /><strong><span style="color:maroon">The Stim PC ADMIN account password will be required to start "TRACK"</strong>.<ul>
 <li>The <strong><a href="../../../images/meg/Offline.jpg">Offline Screen</a></strong> should appear.</li>
 <li>Press <strong><code>ENTER</code></strong> to <strong>start camera setup</strong>, the <strong><a href="../../../images/meg/Camera_Setup.jpg">Camera Setup</a></strong> screen should appear.</li>
 </ul>
 </li>
-<li>
-<p><big><span style="color:maroon">Begin <strong>Calibration</strong> by pressing the "<strong>C</strong>" key</span></big>, or the "<strong>Calibrate</strong>" button from the <strong>Camera Setup</strong> menu on the <strong>EyeLink Host PC</strong>.<br />The <strong>first fixation point</strong> needs to be <strong>manually accepted by pressing the <code>spacebar/ENTER</code></strong> keys. </p>
-</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><strong><span style="color:red">USEFUL HOTKEYS</span></strong> <br />
+- <strong>ENTER</strong> - show camera image (e.g. Participant eye on Projector screen) <br /> 
+- <strong>Left/Right</strong> – switch between zoomed in/zoomed out camera image <br />
+- <strong>C</strong> - Calibration <br />
+- <strong>SPACE</strong> - start Calibration <br />
+- <strong>ENTER</strong> - accept Calibration <br />
+- <strong>V</strong> - Validation <br /> 
+- <strong>SPACE</strong> - start Validation <br />
+- <strong>ENTER</strong> - accept Validation <br />
+- <strong>D</strong> - to drift-correct <br />
+- <strong>ESC</strong> - to exit (<span style="color:red"><strong><em>use carefully!</em></strong></span>)</p>
+</div>
+<ul>
+<li><big><span style="color:maroon">Begin <strong>Calibration</strong> by pressing the "<strong>C</strong>" key</span></big>, or the "<strong>Calibrate</strong>" button from the <strong>Camera Setup</strong> menu on the <strong>EyeLink Host PC</strong>.<br />The <strong>first fixation point</strong> needs to be <strong>manually accepted by pressing the <code>spacebar/ENTER</code></strong> keys. </li>
 <li>On the screen, the <strong>letter "D"</strong>, in <strong><span style="color:green">GREEN (left eye)</span></strong> and in <strong><span style="color:blue">BLUE (right eye)</span></strong> will appear, <strong>which moves when the Participant moves their eyes</strong>.<br />
   When the <strong>"D's" (pupils) appear stable on the fixation point</strong>, press "<strong>Accept Fixation</strong>", or the <strong><code>ENTER</code></strong> button or <strong><code>spacebar</code></strong> to <strong>accept the first fixation</strong>, then <strong>let the sequence run by itself</strong> (if <strong>Force Manual Accept</strong> was previously unchecked). </li>
 </ul>
@@ -3659,38 +3671,52 @@ If <strong>using EyeLink PTB code</strong>, pressing <strong><code>ESC</code></s
 </li>
 </ul>
 <h2 id="run-experiment">Run Experiment</h2>
-<p>'''<span style="color:red">NOTE: </span>''' If you receive an '''error message''' and the Tracker software '''fails to start''' when you first turn on the EyeLink PC - the partition could be '''full'''. Try '''deleting''' some of the older EDF files from the '''exe''' ('''/elcl/exe''') directory via the '''File Manager.'''</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the <strong>EyeLink partition is almost full</strong>, then <strong>Tracker</strong> may fail to start.<br />[Copy off] and then <strong>delete</strong> some of the <strong>older EDF files</strong> from the <strong>exe</strong> (<strong>/elcl/exe</strong>) directory via the <strong>File Manager</strong>.</p>
+</div>
+<ul>
+<li><strong>Start experiment</strong>.<br />Make sure that the <strong>EDF filename/Participant Name</strong> to store the data <strong>does not exceed 8 characters</strong> otherwise the <strong>data may not properly transfer over at the end of the experiment</strong> (an <strong>error mesasge will pop up</strong> when <strong>copying the EDF file to the Stim PC is attempted</strong>).<br /> 
+<strong><em><span style="color:maroon">EDF data from a previously-saved session could also be potentially overwritten!</span></em></strong></li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><strong><span style="color:blue">This is an old DOS naming convention (older EyeLink trackers run on DOS).<br />SR Research have kept to this file naming convention, even with newer Windows-based eye trackers, for consistency across software versions.</span></strong></p>
+</div>
+<ul>
+<li><strong>When the experiment is finished</strong>, the EyeLink PTB code <strong>should exit from the Tracker application</strong> to the <strong>File Manager</strong>.<br /> 
+<strong>If not, press <code>CTRL+ALT+Q</code></strong> to exit the Tracker application, or select "<strong>Offline</strong>" then "<strong>Exit EyeLink</strong>".</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong><span style="color:maroon">If the battery, or AC Power, is switched off BEFORE the Tracker appliaction is exited, the EyeLink Host PC will complain (loud beeping!).<br />Repower the camera head/illuminator, and then exit the Tracker application back to the File Manager and then switch off the battery/AC Power.</span></strong></p>
+</div>
 <ul>
 <li>
-<p>'''Start your experiment'''. Make sure that the '''EDF filename/Participant Name''' to store your data '''does not exceed 8 characters''' otherwise it may not properly transfer your data at the end of the experiment (you will get an error when the EDF file is copied to our Stim PC). Or worse, data from a previous session could be overwritten.
-** '''<span style="color:maroon">This is an old DOS naming convention (older EyeLink trackers run on DOS). SR Research have kept to this file naming convention, even with newer Windows-based eye trackers, for consistency.</span>'''
-** '''(For more detailed information, if you're interested, check out this Wiki page [https://en.wikipedia.org/wiki/8.3_filename[8.3 Filename]])'''</p>
+<p>If the <strong><em>last user of the day</em></strong>, <strong>switch off the EyeLink battery/AC Power, remove/tidy up the FO cable/power cable</strong>, and <strong>remove</strong> the battery from the MSR – <strong>putting it back on charge (if possible, otherwise leave a note</strong> for MEG Support/next Operator to put it <strong>on charge the following morning</strong> - attach a <strong>piece of <em>Micropore</em> tape to the battery front</strong>).<br />
+<strong>Replace the lens cap</strong> on the FO camera head, and <strong>put the FO camera head/IR Illuminator back on a shelf</strong> in the MSR cabinet. </p>
 </li>
 <li>
-<p>'''When the experiment is finished''', the EyeLink PTB code should '''exit''' you from the Host PC application to the '''File Manager'''. If not, press '''‘CTRL+ALT+Q’''' to exit the EyeLink 1000 Host PC application, or select '''‘Offline’''' then '''‘Exit EyeLink’'''.
-** '''<span style="color:maroon">If the battery, or AC Power, is switched off BEFORE you exit the EyeLink Host PC application, the PC will complain (loud beeping). Repower the camera head/illuminator, and then exit the Eyelink application back to the File Manager and then switch off the battery.</span>'''</p>
+<p><strong>[Copy off]</strong> any <strong>required EyeLink Data Files (EDF)</strong> from the Host PC (see <strong><span style="color:green">September 2020</span></strong> infomation below), or check that any relevant EDF files <strong>were copied automatically to the Stim PC</strong> (if experimental code is set up to do that) ...</p>
 </li>
 <li>
-<p>If you’re the '''last user of the day''', switch off the EyeLink battery, '''remove/tidy up the FO cable/power cable''', and '''remove''' the battery from the MSR – putting it back on charge (if possible, otherwise leave a note for Jonathan to put it on charge the following morning - attach a piece of Micropore tape). '''Replace the lens cap''' on the FO camera head, and put the FO camera head/IR Illuminator '''back on a shelf''' in the MSR cabinet. </p>
-</li>
-<li>'''Copy off''' any required '''EyeLink Data Files (EDF)''' (''see'' '''<span style="color:blue;font-size:large">@</span>''' ''below'') from the Host PC, or check that your EDF files '''were copied automatically''' to the Stim PC (if your code is set up to do that) ...</li>
-<li>... and then shut down the Host PC. 
-** From the '''‘File Manager’''' interface, select the '''‘Power’''' button (top right), or '''“Shutdown Host”''' from Eyelink screen. Switch off the monitor, and then switch off the bar plug on the table. </li>
-<li>'''Sleep''' the PROPixx projector etc. See '''[[Tidying Up]]'''.</li>
+<p>... and then <strong>shutdown the Host PC</strong>. </p>
+<ul>
+<li>From the <strong>File Manager</strong> interface, select the <strong>Power button</strong> (<em>top right</em>), or <strong>Shutdown Host</strong> from the EyeLink screen. <strong>Switch off the monitor</strong>, and then <strong>switch off the bar plug on the table</strong>. </li>
 </ul>
-<p>'''<span style="color:red">HOTKEYS</span>'''
-* '''ENTER''' - show eye on monitor 
-* '''Left/Right''' – switch between zoomed in/zoomed out image
-* '''C''' - calibration 
-* '''SPACE''' - start calibration 
-* '''ENTER''' - accept calibration 
-* '''V''' - validation 
-* '''SPACE''' - start validation 
-* '''ENTER''' - accept validation</p>
-<p>'''<span style="color:blue;font-size:large">@</span> <span style="font-size:large;color:green">September 2020:</span> '''</p>
-<p>The '''EyeLink Host PC software''' has been '''updated from 5.14 to 5.15''', to help Oscar troubleshoot his stimuli.</p>
-<p>Most of the changes are under-the-hood, so should be transparent to your usage. The only change that might impact you, is that the '''default storage location of EDF files''' on the '''Host PC''' has been '''changed''' from the '''Data subfolder''' to the '''Exe subfolder'''.</p>
-<p>'''<span style="color:maroon;font-size:medium">Sam from SR Research</span> says''' ...'''<span style="color:blue;font-size:medium">"The location of the EDF file on the Host PC should be irrelevant for most users as the EDF should always be transferred to the stimulus display PC at the end of the task - the copy on the Host PC is really just there as a back up in case people somehow lose or delete the copy on the display PC. But letting people know will hopefully prevent any panics if people go looking in the data subfolder and don't see any EDFs!" </span> '''</p>
+</li>
+<li>
+<p><strong>Sleep</strong> the PROPixx projector. (See relevant section in <strong><a href="../tidying_up/">Tidying Up</a></strong>). </p>
+</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><strong><span style="color:green">September 2020:</span></strong><br />
+The <strong>EyeLink Host PC software</strong> was <strong>updated from 5.14 to 5.15</strong>, to help troubleshoot a MEG Operator's stimuli.</p>
+<p><strong>Most of the changes are under-the-hood</strong>, so should be transparent to usage.<br />
+The <strong>only change that might impact usage</strong>, is that the <strong>default storage location of EDF files</strong> on the <strong>Host PC</strong> has been <strong>moved from the "Data subfolder" to the "Exe subfolder"</strong>.</p>
+<p><strong><span style="color:maroon">Sam, from SR Research</span></strong> says ...<strong><span style="color:blue">"The location of the EDF file on the Host PC should be irrelevant for most users as the EDF should always be transferred to the stimulus display PC at the end of the task - the copy on the Host PC is really just there as a back up in case people somehow lose or delete the copy on the display PC. But letting people know will hopefully prevent any panics if people go looking in the data subfolder and don't see any EDFs!" </span></strong></p>
+</div>
 <h2 id="troubleshooting">Troubleshooting</h2>
 <ul>
 <li>Ensure the MSR is as dark as possible when trying to find the pupil and when undertaking the calibration e.g. close the door, or push the door to. Turn the lights down or off.</li>
