@@ -16,7 +16,9 @@ Guides and documentation for EEG analysis and data collection.
 
     ---
 
-    Equipment and setup for data collection
+    [Equipment and setup](acquisition/how_to_acquire.md) for data collection
+
+    [Preparing code for EEG](acquisition/preparing_code_for_EEG.md) 
 
 
 
