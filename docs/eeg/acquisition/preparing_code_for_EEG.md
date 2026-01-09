@@ -127,7 +127,7 @@ Even if you do not care about exact stimulus timing, you really should care abou
         ```
     Example of a trial sequence in opensesame, to illustrate the placement of the python code snippets.
     
-    ![Python Triggers](images/EEG/Python_triggers.png)
+    ![Python Triggers](../../images/EEG/Python_triggers.png)
 
     Caveat: LabJack has a sleep time implemented this will influence the timing of your task, as the python code sending the trigger is paused after sending it, this could become relevant for experiments that need highly precise timing. The pause duration of LabJack can be changed with a line of code that is inserted after importing the LabJack module. In this example the pause time is reduced to 2.5ms.
         ```python

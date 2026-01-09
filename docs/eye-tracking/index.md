@@ -18,7 +18,7 @@ Guides and documentation for Eye-tracking analysis and data collection.
 
     [Equipment and setup](acquisition/how_to_acquire.md) for data collection
 
-    [Preparing code for EEG](acquisition/preparing_code_for_EEG.md) 
+    [Preparing code for Eye-tracking](acquisition/preparing_code_for_ET.md) 
 
 
 
@@ -36,7 +36,7 @@ Guides and documentation for Eye-tracking analysis and data collection.
 
     Analysis and data quality procedures
 
-    - [FieldTrip](analysis/fieldtrip.md)
+    <!-- - [FieldTrip](analysis/fieldtrip.md) -->
 
 </div>
 
