@@ -101,10 +101,15 @@ nav:
       - VPixx Projector: meg/stimulus/propixx.md
     - Analysis Tools:
       - MNE-Python: meg/analysis/mne.md
+  - Eye-tracking:
+    - eye-tracking/index.md
   - EEG:
     - eeg/index.md
     - Hardware:
       - The EEG System: eeg/hardware/eeg.md
+    - Acquisition:
+      - Setting up your Experiment: eeg/acquisition/preparing_code_for_EEG.md
+      - EEG Acquisition Checklist: eeg/acquisition/how_to_acquire.md
     - Analysis Tools:
       - FieldTrip: eeg/analysis/fieldtrip.md
   - EEG-fMRI:
