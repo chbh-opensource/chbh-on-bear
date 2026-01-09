@@ -106,13 +106,44 @@ Even if you do not care about exact stimulus timing, you really should care abou
 
 === "Example Code Python"
 
-    Here's some example code for how to define and send triggers in python. 
-    For this to work,...
+    Here's some example code for how to send triggers in python. 
+    All following Python code snippets are from Python code elements run by Opensesame.
 
-    ```python
+    1)	Import the labjackU3 module at the beginning of the experiment:  
+        ```python
+            import labjackU3
 
+        ```
+    
+    2)	Insert a Python code element in the trial sequence at exactly the moment you want to sent the trigger and sent the trigger you want from that code element. In this example the trigger “99” is sent everytime the Python code element is executed within the trial sequence:
+        ```python
+            labjackU3.trigger(99) 
 
-    ```
+        ```
+    The triggers can be either hard-coded as in the example above or soft-coded and defined somewhere else, as in the following example. Here the trigger with information about the memory array is defined somewhere else in the experiment (e.g. the run file) in a variable named “trigger_ma_info”:
+        ```python
+            labjackU3.trigger(trigger_ma_info)
+
+        ```
+    Example of a trial sequence in opensesame, to illustrate the placement of the python code snippets.
+    
+    ![Python Triggers](images/EEG/Python_triggers.png)
+
+    Caveat: LabJack has a sleep time implemented this will influence the timing of your task, as the python code sending the trigger is paused after sending it, this could become relevant for experiments that need highly precise timing. The pause duration of LabJack can be changed with a line of code that is inserted after importing the LabJack module. In this example the pause time is reduced to 2.5ms.
+        ```python
+            labjackU3.DURATION = 0.025
+        ```
+    When triggers are sent closely after the LabJack pause might not be sufficient to prevent trigger overlap, so you can either increase the labjackU3.DURATION or you use the opensesesame module “time” to pause the experiment. To do that you need to import “time” at the beginning of the experiment and set it to sleep after sending a trigger. In this example, time is paused for 5ms.
+        ```python
+            import time
+
+             time.sleep(0.05) 
+        ```
+    
+    
+    
+    
+
 
 
 
