@@ -265,7 +265,7 @@ If **using EyeLink PTB code**, pressing **```ESC```** will **exit** (*ending the
 ## Run Experiment
 
 !!! note
-	If the **EyeLink partition is almost full**, then **Tracker** may fail to start.<br />[Copy off] and then **delete** some of the **older EDF files** from the **exe** (**/elcl/exe**) directory via the **File Manager**.
+	If the **EyeLink partition is almost full**, then **Tracker** may fail to start.<br />**[Copy off](copying_edf_files.md)** and then **delete** some of the **older EDF files** from the **exe** (**/elcl/exe**) directory via the **File Manager**.
 
 - **Start experiment**.<br />Make sure that the **EDF filename/Participant Name** to store the data **does not exceed 8 characters** otherwise the **data may not properly transfer over at the end of the experiment** (an **error mesasge will pop up** when **copying the EDF file to the Stim PC is attempted**).<br /> 
 ***<span style="color:maroon">EDF data from a previously-saved session could also be potentially overwritten!</span>***
@@ -282,7 +282,7 @@ If **using EyeLink PTB code**, pressing **```ESC```** will **exit** (*ending the
 - If the ***last user of the day***, **switch off the EyeLink battery/AC Power, remove/tidy up the FO cable/power cable**, and **remove** the battery from the MSR – **putting it back on charge (if possible, otherwise leave a note** for MEG Support/next Operator to put it **on charge the following morning** - attach a **piece of *Micropore* tape to the battery front**).<br />
 **Replace the lens cap** on the FO camera head, and **put the FO camera head/IR Illuminator back on a shelf** in the MSR cabinet. 
 
-- **[Copy off]** any **required EyeLink Data Files (EDF)** from the Host PC (see **<span style="color:green">September 2020</span>** infomation below), or check that any relevant EDF files **were copied automatically to the Stim PC** (if experimental code is set up to do that) ...
+- **[Copy off](copying_edf_files.md)** any **required EyeLink Data Files (EDF)** from the Host PC (see **<span style="color:green">September 2020</span>** infomation below), or check that any relevant EDF files **were copied automatically to the Stim PC** (if experimental code is set up to do that) ...
 - ... and then **shutdown the Host PC**. 
 	- From the **File Manager** interface, select the **Power button** (*top right*), or **Shutdown Host** from the EyeLink screen. **Switch off the monitor**, and then **switch off the bar plug on the table**. 
 
