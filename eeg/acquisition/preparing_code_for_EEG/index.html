@@ -1948,7 +1948,7 @@
   <span class="md-ellipsis">
     
   
-    Index
+    Eye-tracking at CHBH
   
 
     
@@ -3557,10 +3557,27 @@ For this to work, make sure you have downloaded the code for labjack to your tas
 </span></code></pre></div>
 </div>
 <div class="tabbed-block">
-<p>Here's some example code for how to define and send triggers in python. 
-For this to work,...</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>
+<p>Here's some example code for how to send triggers in python. 
+All following Python code snippets are from Python code elements run by Opensesame.</p>
+<p>1)  Import the labjackU3 module at the beginning of the experiment:<br />
+    <div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>    <span class="kn">import</span><span class="w"> </span><span class="nn">labjackU3</span>
+</span></code></pre></div></p>
+<p>2)  Insert a Python code element in the trial sequence at exactly the moment you want to sent the trigger and sent the trigger you want from that code element. In this example the trigger “99” is sent everytime the Python code element is executed within the trial sequence:
+    <div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>    <span class="n">labjackU3</span><span class="o">.</span><span class="n">trigger</span><span class="p">(</span><span class="mi">99</span><span class="p">)</span> 
 </span></code></pre></div>
+The triggers can be either hard-coded as in the example above or soft-coded and defined somewhere else, as in the following example. Here the trigger with information about the memory array is defined somewhere else in the experiment (e.g. the run file) in a variable named “trigger_ma_info”:
+    <div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>    <span class="n">labjackU3</span><span class="o">.</span><span class="n">trigger</span><span class="p">(</span><span class="n">trigger_ma_info</span><span class="p">)</span>
+</span></code></pre></div>
+Example of a trial sequence in opensesame, to illustrate the placement of the python code snippets.</p>
+<p><img alt="Python Triggers" src="../../../images/EEG/Python_triggers.png" /></p>
+<p>Caveat: LabJack has a sleep time implemented this will influence the timing of your task, as the python code sending the trigger is paused after sending it, this could become relevant for experiments that need highly precise timing. The pause duration of LabJack can be changed with a line of code that is inserted after importing the LabJack module. In this example the pause time is reduced to 2.5ms.
+    <div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>    <span class="n">labjackU3</span><span class="o">.</span><span class="n">DURATION</span> <span class="o">=</span> <span class="mf">0.025</span>
+</span></code></pre></div>
+When triggers are sent closely after the LabJack pause might not be sufficient to prevent trigger overlap, so you can either increase the labjackU3.DURATION or you use the opensesesame module “time” to pause the experiment. To do that you need to import “time” at the beginning of the experiment and set it to sleep after sending a trigger. In this example, time is paused for 5ms.
+    <div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>    <span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>     <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.05</span><span class="p">)</span> 
+</span></code></pre></div></p>
 </div>
 </div>
 </div>
