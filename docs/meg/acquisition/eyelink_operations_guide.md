@@ -299,25 +299,31 @@ If **using EyeLink PTB code**, pressing **```ESC```** will **exit** (*ending the
 
 ## Troubleshooting
 
-- Ensure the MSR is as dark as possible when trying to find the pupil and when undertaking the calibration e.g. close the door, or push the door to. Turn the lights down or off.
-- If you're still having issues, ask your Participant to close their eyes for a few seconds to reset the pupils.
-- If your Participant is tall, place the relevant-size **[TABLE RISERS](../../images/meg/TableRisers.jpg)** under the table legs, so the camera is more in line with their pupils. We have 3 heights available.
-- To check focusing, look at the eyelashes. When they are in sharp focus the image of the eye is usually good enough.
-- To help with Calibration quality, ask your Participant to look along the edges/four corners of the display after performing the camera setup. <br />Be sure to instruct your Participant to fixate within the bounds of the display, or loss of tracking may occur because they have looked too far outside of the trackable range of the eye tracker, not because of a poor set-up.<br /> Watch for the warning signals on the tracker screen to make sure that the pupil and Corneal Reflection (CR) signal are not lost when the Participant is doing so, and check the CR is not becoming distorted or "smeared" when the Participant looks at the top corners.<br >Try adjusting the screen position to increase the viewing distance and raising the camera when CR smearing is seen (typically at the upper portion of the display). We have our table risers to help with this.
-- Participants who have never been calibrated before may require some practice in stably and accurately fixating the calibration targets.<br />Try to perform at least two calibrations per Participant before beginning to collect data.
-- Always check the pattern of the calibration grid.<br /> For a 9-point calibration, the fixation crosses should form three parallel horizontal (or close-to-horizontal) lines and three parallel vertical (or close-to-vertical) lines.<br />Redo the calibration or camera setup if you do not see this.
-- If the current calibration looks good, press either the "ENTER" key to accept the calibration or press "V" to go to validation screen.<br />Never press the ESC key - doing so will discard the current calibration and thus revert to the cached calibration results.
-- Encourage your Participants to sit still! A Participant who doesn't sit still probably is not paying proper attention to the experimental task.<br /> Try to give the Participant a short break in the middle of the experiment and (if possible) recalibrate before resuming the experiment.
-- When writing your stimulus paradigms, try matching the background color of the calibration and validation screen to that of the experimental displays.<br /> Changes in pupil size caused by large changes in brightness between the calibration and the experimental displays will degrade the system accuracy.<br />At the beginning of the experiment, let your Participant adapt to the environment and the ambient light levels before performing calibration and data collection.<br />If the illumination levels are altered (i.e. the lights are dimmed) shortly before the experiment begins, the calibration accuracy will be reduced as the Participant adapts to the new illumination level and the pupil dilates or constricts.
-- If the validation is off, redo BOTH the calibration and the validation.<br /> **<span style="color:blue">Validation deviation needs to be less than 1 degree of error.</span>**
-- Calibration improves when you:<br />
-	- Tell your Participant to "***not move your head***".<br />
-	- Tell your Participant to "***look at the middle of the dot***".<br />
-	- Tell your Participant to "***not move your eyes until the dot moves***".
-- If the Eyelink Host PC starts to beep, either the battery has run down or the battery has been switched off BEFORE the EyeLink software has been exited first.
-- CALIBRATION BEEPS:<br /> *Some Participants reported the beeps are too loud through our Natus audio system.*
-	- If using Experiment Builder, click on the **[EL_CAMERA_SETUP](../../images/meg/ExptBuilderBeeps.png)** node and turn the relevant properties from **DEFAULT** to **OFF**.
-	- If using Psychtoolbox (MATLAB) or PsychoPy, some comands can be sent to the Host PC to turn the beeps off. E.g. in **[Psychtoolbox](../../images/meg/PsychtoolboxBeep.png)** set these parameters to '0' instead of '1'.
+- **Ensure the MSR is as dark as possible when trying to find the pupil and when undertaking the calibration e.g. close the door, or push the door to. Turn the lights down or off.**
+- **If still having issues, ask Participant to close their eyes for a few seconds to reset the pupils.**
+- **If Participant is tall, place the relevant-size [TABLE RISERS](../../images/meg/TableRisers.jpg) under the table legs, so the camera is more in line with their pupils. Three heights are available.**
+- **To check focusing, look at the eyelashes. When they are in sharp focus the image of the eye is usually good enough.**
+- **To help with Calibration quality, ask Participant to look along the edges/four corners of the display after performing the camera setup. <br />Be sure to instruct Participant to fixate within the bounds of the display, or loss of tracking may occur because they have looked too far outside of the trackable range of the eye tracker, not because of a poor set-up.<br /> 
+Watch for the warning signals on the tracker screen to make sure that the Pupil and Corneal Reflection (CR) signal are not lost when the Participant is doing so, and check the CR is not becoming distorted or "smeared" when the Participant looks at the top corners.<br >
+Try adjusting the screen position to increase the viewing distance and raising the camera when CR smearing is seen (typically at the upper portion of the display). Table risers are available to help with this.**
+- **Participants who have never been calibrated before may require some practice in stably and accurately fixating the calibration targets.<br />
+Try to perform at least two calibrations per Participant before beginning to collect data.**
+- **Always check the pattern of the calibration grid.<br /> For a 9-point calibration, the fixation crosses should form three parallel horizontal (or close-to-horizontal) lines and three parallel vertical (or close-to-vertical) lines.<br />Redo the calibration or camera setup if this is not seen.**
+- **If the current calibration looks good, press either the "ENTER" key to accept the calibration or press "V" to go to validation screen.<br />Never press the ESC key - doing so will discard the current calibration and thus revert to the cached calibration results.**
+- **Encourage Participants to sit still! A Participant who doesn't sit still is proably not paying proper attention to the experimental task.<br /> Try to give the Participant a short break in the middle of the experiment and (if possible) recalibrate before resuming the experiment.**
+- **When writing stimulus paradigms, try matching the background color of the calibration and validation screen to that of the experimental displays.<br /> 
+Changes in pupil size caused by large changes in brightness between the calibration and the experimental displays will degrade the system accuracy.<br />
+At the beginning of the experiment, let Participant adapt to the environment and the ambient light levels before performing calibration and data collection.<br />
+If the illumination levels are altered (i.e. the lights are dimmed) shortly before the experiment begins, the calibration accuracy will be reduced as the Participant adapts to the new illumination level and the pupil dilates or constricts.**
+- **If the validation is off, redo BOTH the calibration and the validation.<br /> <span style="color:blue">Validation deviation needs to be less than 1 degree of error.</span>**
+- **Calibration improves when Participant is:<br />**
+	- **Asked to "*not move your head*".<br />**
+	- **Asked to "*look at the middle of the dot*".<br />**
+	- **Asked to "*not move your eyes until the dot moves*".**
+- **If the Eyelink Host PC starts to beep, either the battery has run down or the battery has been switched off BEFORE the EyeLink software has been exited first.**
+- **CALIBRATION BEEPS:<br /> *(Some Participants reported the beeps are too loud through our Natus audio system.)***
+	- **If using Experiment Builder, click on the [EL_CAMERA_SETUP](../../images/meg/ExptBuilderBeeps.png) node and turn the relevant properties from "DEFAULT" to "OFF".**
+	- **If using Psychtoolbox (MATLAB) or PsychoPy, some comands can be sent to the Host PC to turn the beeps off. E.g. in [Psychtoolbox](../../images/meg/PsychtoolboxBeep.png) set these parameters to "0" instead of "1".**
 
 ```matlab
 % Set calibration beeps (0 = sound off, 1 = sound on)
@@ -325,10 +331,10 @@ el.targetbeep = 1; % sound a beep when a target is presented
 el.feedbackbeep = 1; % sound a beep after calibration or drift check/correction
 ```
 
-- OLDER PARTICIPANTS:<br /> The biggest problem is likely to be **Ptosis** (*droopy eyelids*). The top eyelid can obscure the top of the pupil, making it difficult for the eye tracker to determine the pupil’s centre.
-	- Whilst monitoring the thumbnail images of the eye(s), it may help to issue verbal prompts to "***try and keep your eyes wide open***"as often as necessary.
-	- On the **Camera Setup** screen, changing the **Pupil Tracking** from **Centroid** to **Ellipse** can sometimes help. In Ellipse mode, the Host software draws a green circle around the pupil and tracks the centre of the circle. This sometimes helps the tracking cope a bit better if the top of the pupil is obscured by the eyelid.
-	- Rather than reduce the light levels, increase them or have the MSR lights on full. This will cause the pupil size to decrease, and smaller pupils are easier to track in this context. In low light conditions, the pupil will expand making it more likely to be obscured by the eyelid and harder to track.
-	- Moving the camera head/illuminator closer, rather than raising it, may also help, as looking up at the eye at a steeper angle may expose more of the smaller pupil.
-	- When recruiting older Participants, ask if they have had eye surgery (particularly cataract removal). This can cause corneal scarring and result in flat spots on the cornea, both of which can make tracking difficult or impossible and may discount them as a potential experimental subject if recording eye movement is vital.
+- **OLDER PARTICIPANTS:<br /> The biggest problem is likely to be *Ptosis* ("droopy eyelids"). The top eyelid can obscure the top of the pupil, making it difficult for the eye tracker to determine the pupil’s centre.**
+	- **Whilst monitoring the thumbnail images of the eye(s), it may help to issue verbal prompts to "*try and keep your eyes wide open*" as often as necessary.**
+	- **On the "Camera Setup" screen, changing the "Pupil Tracking" from "Centroid" to "Ellipse" can sometimes help. In Ellipse mode, the Host software draws a green circle around the pupil and tracks the centre of the circle. This sometimes helps the tracking cope a bit better if the top of the pupil is obscured by the eyelid.**
+	- **Rather than reduce the light levels, increase them or have the MSR lights on full. This will cause the pupil size to decrease, and smaller pupils are easier to track in this context. In low light conditions, the pupil will expand making it more likely to be obscured by the eyelid and harder to track.**
+	- **Moving the camera head/illuminator closer, rather than raising it, may also help, as looking up at the eye at a steeper angle may expose more of the smaller pupil.**
+	- **When recruiting older Participants, ask if they have had eye surgery (particularly cataract removal). This can cause corneal scarring and result in flat spots on the cornea, both of which can make tracking difficult or impossible and may discount them as a potential experimental subject if recording eye movement is vital.**
 
