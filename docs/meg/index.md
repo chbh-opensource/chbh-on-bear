@@ -45,6 +45,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- [Tidying Up](acquisition/tidying_up.md)
 		- [Cleaning EEG caps](acquisition/cleaning_eeg_caps.md)
 	- [Audio Delay Testing](acquisition/audio_delay_testing.md)
+	- [MISC Channels](acquisition/misc_channels.md)
 
 	
 -	**Lab Safety**
