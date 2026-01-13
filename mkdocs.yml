@@ -84,6 +84,8 @@ nav:
       - Copying EyeLink EDF Files: meg/acquisition/copying_edf_files.md
       - EyeLink Demo Code: meg/acquisition/eyelink_demo.md
       - Charging EyeLink batteries: meg/acquisition/charging_eyelink_batteries.md
+      - EyeLink Settings: meg/acquisition/eyelink_settings.md
+      - EyeLink Analog Output: meg/acquisition/eyelink_analog_output.md
     - Acquisition:
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
       - Noisy Channels: meg/acquisition/noisy_channels.md

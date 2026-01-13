@@ -23,6 +23,8 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 		- [Copying EyeLink EDF Files](acquisition/copying_edf_files.md)
 		- [EyeLink Demo Code](acquisition/eyelink_demo.md)
 	- [Charging EyeLink batteries](acquisition/charging_eyelink_batteries.md)
+	- [EyeLink Settings](acquisition/eyelink_settings.md)
+	- [EyeLink Analog Output](acquisition/eyelink_analog_output.md)
 
 -   **Data Acquisition**
 
