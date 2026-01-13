@@ -33,6 +33,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
     - [MEG Acquisition Checklist](acquisition/meg-acquisition-checklist.md)
 		- [Noisy Channels](acquisition/noisy_channels.md)
 		- [Fixing Noisy Channels](acquisition/to_fix_noisy_channels.md)
+			- [Nosiy Data](acquisition/noisy_data.md)
 		- [Perform a "RAP"](acquisition/rap.md)
 		- [Restart Acquisition](acquisition/restart_acquisition.md)
 		- [Metal items Checklist](pdfs/Metal_items_checklist.pdf)
@@ -41,6 +42,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- [MEG Consumables](acquisition/meg-consumables.md)
 	- [Tidying Up](acquisition/tidying_up.md)
 		- [Cleaning EEG caps](acquisition/cleaning_eeg_caps.md)
+	- [Audio Delay Testing](acquisition/audio_delay_testing.md)
 
 	
 -	**Lab Safety**

@@ -88,6 +88,7 @@ nav:
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
       - Noisy Channels: meg/acquisition/noisy_channels.md
       - Fixing Noisy Channels: meg/acquisition/to_fix_noisy_channels.md
+      - Noisy Data: meg/acquisition/noisy_data.md
       - Perform a "RAP": meg/acquisition/rap.md
       - Restart Acquisition: meg/acquisition/restart_acquisition.md
       - Metal items Checklist: meg/pdfs/Metal_items_checklist.pdf
@@ -96,6 +97,7 @@ nav:
       - MEG Consumables: meg/acquisition/meg-consumables.md
       - Tidying Up: meg/acquisition/tidying_up.md
       - Cleaning EEG Caps: meg/acquisition/cleaning_eeg_caps.md
+      - Audio Delay Testing: meg/acquisition/audio_delay_testing.md
     - Lab Safety:
       - Procedures: meg/labsafety/labsafety.md
     - Stimulus Presentation:
