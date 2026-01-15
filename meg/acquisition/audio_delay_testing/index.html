@@ -3513,6 +3513,169 @@
 
 
 <h1 id="audio-delay-testing">Audio Delay Testing</h1>
+<p>Tie-Clip microphones are available to help measure the audio delay from a sound being triggered to hitting the participant's ear or ears.</p>
+<p>Two are identical and were purchased recently (October 2022), and the third is the original one provided during MEG training (February/March 2018).</p>
+<p><strong>Specifications</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Original</th>
+<th>2 x New</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Transducer Principle</strong></td>
+<td>Condenser</td>
+<td>Condenser</td>
+</tr>
+<tr>
+<td><strong>Frequency Response</strong></td>
+<td>20 - 16000 Hz</td>
+<td>50 - 18000 Hz</td>
+</tr>
+<tr>
+<td><strong>Pickup Pattern</strong></td>
+<td>Omnidirectional</td>
+<td>Omnidirectional</td>
+</tr>
+<tr>
+<td><strong>Sensitivity</strong></td>
+<td>-64dB +/- 3dB</td>
+<td>-62dB</td>
+</tr>
+<tr>
+<td><strong>Impedance</strong></td>
+<td>1 k&Omega;</td>
+<td>1 k&Omega;</td>
+</tr>
+<tr>
+<td><strong>Battery Power</strong></td>
+<td>1.5V DC, "AAA"</td>
+<td>1.5V DC, LR-44 Button</td>
+</tr>
+<tr>
+<td><strong>Output Connector</strong></td>
+<td>6.35mm / &#188;" mono Plug</td>
+<td>6.35mm / &#188;" mono Plug</td>
+</tr>
+<tr>
+<td><strong>Microphone Connection/lead length</strong></td>
+<td>3.5mm mono Plug, 4M</td>
+<td>3.5mm mono Plug, 4M</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Connect Stim PC or the PROPixx Controller (DATAPixx) audio output, to whichever sound system is being tested - <strong><a href="../../pdfs/MEG_Audio_Connections.pdf">MEG Audio Connections</a></strong></li>
+<li>Decide which microphone/s to use and insert the relevant battery. <strong>Remove battery after use</strong> (<em>plastic forceps available to help remove LR-44 battery from new microphone/s</em>). </li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<ul>
+<li>If using two microphones, best to not mix the Original and New microphones - to avoid possible inconsistencies - see <strong>Specifications</strong> above.</li>
+<li>New microphone/s require/s microswitch on microphone case to be switched <strong>ON</strong>.</li>
+</ul>
+</div>
+<ul>
+<li>Uncoil the microphone cable/s and lay it/them out neatly/safely on Control Room floor, to avoid tripping us provided Cable Protection Cover Mat.<br /> Insert the 3.5mm mono Plug/s into the microphone case/s.</li>
+<li>Insert the &#188;" mono Plugs attached to the microphone case/s to the relevant &#188;" socket-to-socket adapter/s. The socket adapter/s should already be attached to the correct &#188;" Plug-to-BNC cable/s already connected to the MISC input box.<ul>
+<li>Check <strong><a href="../misc_channels/">MISC Channels</a></strong> for the correct BNC connection/s to use on the MISC Input Box.<ul>
+<li>Microphone Input - Left Response - MISC #8</li>
+<li>Microphone Input - Right Response - MISC #9</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Carefully push the microphone/s (minus the Tie Clips) halfway into the provided small piece/s of silicone tubing.</li>
+<li>Roll up the relevant eartip/s and push into the opposite end/s of the tubing.<ul>
+<li><strong><span style="color:maroon">NATUS:</span></strong><ul>
+<li>Attach the Natus cabling to the gantry side panel as usual. Lay out the Transducers on the gantry chair, or the floor (or possibly a chair) outside the MSR. Attach the microphone/s + eartip/s to the Left or Right, or both, Transducer/s as required.</li>
+</ul>
+</li>
+<li><strong><span style="color:maroon">SOUNDPixx:</span></strong> <ul>
+<li>Unravel the clear SOUNDPixx tubing from the MSR shelving. Attach the black Participant tubing correctly. Attach the microphone/s + eartip/s to the Left or Right, or both red coiled connector/s as required.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>If only listening from one audio channel, to avoid possible spurious noise being picked up attach the relevant "squashed"/blocked eartip to whichever audio channel not recording from.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title"><span style="color:red">Don't close the MSR door, or don't close it fully, to avoid cutting cable!</span></p>
+</div>
+<ul>
+<li>In <strong>Acquisition Settings</strong>, select the relevant <strong><a href="../misc_channels/">MISC Channels</a></strong> as well as the trigger channels associated with the audio test stimulus.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title"><span style="color:blue">To reduce the resulting file size, turn off the MEG channels.</span></p>
+</div>
+<ul>
+<li>
+<p>Press "<strong>GO</strong>", "<strong>Record</strong>", and start audio test stimulus.</p>
+</li>
+<li>
+<p>Recording the triggers, the audio output/s (<em>used for reference, and should be almost instantaneous but delays may be due to how the test sound is being generated in PTB</em>), and the microphone output/s - should now show the audio delay between the sound-onset trigger and the microphone response.</p>
+</li>
+<li>Save the resultant .FIF file and read into <strong>Graph</strong> to find the delay/s.</li>
+</ul>
+<p><big>
+<strong>To check the delay using "Graph"</strong>
+</big></p>
+<ol>
+<li>Start <strong>Graph</strong>.<ul>
+<li><strong><code>Applications -&gt; Neuromag -&gt; Graph.</code></strong></li>
+<li>Dismiss the "Welcome" splash screen, click "<strong>OK</strong>".</li>
+</ul>
+</li>
+<li><strong><code>File -&gt; Load settings</code></strong>.<ul>
+<li><em>Example settings files/.fif files, to try, are shown in </em><strong><em><span style="color:blue">blue</span></em></strong>.</li>
+</ul>
+</li>
+<li>In the <strong><em>Directories</em></strong> window, double-click on the settings required e.g.<ul>
+<li><strong><em><span style="color:blue">/home/meguser/lisp/setup/examples</span></em></strong>.</li>
+</ul>
+</li>
+<li>In the <strong><em>Files</em></strong> window, select <strong><em>basic.setup</em></strong>.</li>
+<li>Click "<strong>OK</strong>".</li>
+<li><strong><code>File -&gt; Open Diskfile</code></strong>.</li>
+<li>In the <strong><em>Directories</em></strong> window, double-click <strong><em>/neuro/data/sinuhe</em></strong>.</li>
+<li>In the next <strong><em>Directories</em></strong> window (<em>left-click on the RH window edge and drag to open the window wider if necessary</em>), scroll down and double-click on the Project e.g.<ul>
+<li><strong><em><span style="color:blue">/neuro/data/sinuhe/demo</span></em></strong>.</li>
+</ul>
+</li>
+<li>In the next <strong><em>Directories</em></strong> window (<em>left-click on the RH window edge and drag to open the window wider if necessary</em>), scroll down and double-click on the relevant sub-directory e.g.<ul>
+<li><strong><em><span style="color:blue">/neuro/data/sinuhe/demo/221013</span></em></strong>.</li>
+</ul>
+</li>
+<li>In the <strong><em>Select disk file to open</em></strong> window, chose the <strong><em>.fif</em></strong> file to view e.g.<ul>
+<li><strong><em><span style="color:blue">Hyojin_audio_test_code_new_Stim.fif</span></em></strong>.</li>
+</ul>
+</li>
+<li>Click "<strong>OK</strong>".</li>
+<li><strong>Graph</strong> will respond with "<strong>No data available</strong>" - <em>if the MEG Channels were turned off during data collection to reduce file size</em>.</li>
+<li><strong><code>Displays -&gt; Control Panel</code></strong>.</li>
+<li><strong>Double-click</strong> the widget labelled "<strong>Stim</strong>" to add in the <strong>MISC</strong> and <strong>STI</strong> channels used during the Acquisition.</li>
+<li>In the <strong><em>Common to widgets</em></strong>, <strong><em>names</em></strong> window, type in each channel name, in <strong><span style="color:red">CAPITAL</span></strong> letters, one channel per line, pressing the <strong>Return</strong> key after each entry e.g.<br />
+<strong><span style="color:maroon">MISC 6<br />MISC 7<br />MISC 8<br />STI 2<span></strong></li>
+<li>Click "**Apply'''", “'''OK'''”
+ '''Right-click''' on the "'''Stim'''" widget, and drag/draw a line to the '''"display"''' widget. Release the mouse button.
+ The '''four channels''' should now appear.
+ In the "'''Start &amp; length'''" window, type a reasonable value in the "'''length'''" (lower) box, e.g. '''10'''
+ '''Left-click''' on each channel in turn (channel turns "'''white'''"). Click on '''Autoscale''' for both "'''Scale'''" and "'''Offset'''".
+ '''Adjust''' the bottom slider to '''choose the best''' section to measure.
+ '''Right-click''' on a position near e.g. the STI trigger and '''drag right''' to open a section to view (selected section turns "'''white'''").
+ '''Displays -&gt; zoom in'''
+ '''Repeat as necessary''' from Step 22.
+ Once happy with the zoomed view...
+ "'''Shift + right-click'''" on a channel at a relevant starting point e.g. the start of the STI trigger. A '''vertical white line is displayed''', along with a '''cursor box''' showing the '''Port number''' and '''which channel selected''' e.g. one from ...<br />'''<span style="color:maroon>Port: 0 MISC006<br />Port: 1 MISC007<br />Port: 2 MISC008<br />Port: 3 STI002</span>'''<br /> and the '''"X" and "Y" axis values''' at the point selected e.g. '''X: 13.688''' (Time scale in Seconds to 3 decimal places).
+ '''Make a note''' of this "'''X'''" time value.
+ Release the "'''Shift'''" key and whilst '''still right-clicking''', '''drag the mouse to the right''' to the '''start''' of the desired time-delayed channel e.g. the microphone response. '''Move''' the line to the '''start''' of the response and note the time e.g. '''X: 13.711'''.
+ The '''time difference''' is the '''delay (in msec)''' from trigger onset to microphone response e.g. in this example, '''23msec'''. 
+ '''Repeat as necessary from Step 21''' to take more readings from different triggers/different sections of the file.
+ “'''Exit'''”, “'''Exit'''”, “'''Yes'''” when finished.</li>
+</ol>
 
 
 
