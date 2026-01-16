@@ -3513,6 +3513,90 @@
 
 
 <h1 id="noisy-data">Noisy Data</h1>
+<p><strong>If Acquired data is noisy during Acquisition, run a quick check to see if the artefacts can be easily removed using <em>MaxFilter</em>.<br />Collect ~1min or so of data, save, and then …</strong></p>
+<ol>
+<li>Start <strong>MaxFilter</strong>.<ul>
+<li><strong><code>Applications -&gt; Neuromag -&gt; MaxFilter.</code></strong></li>
+<li>Dismiss the "Welcome" splash screen, click "<strong>Hide</strong>"</li>
+</ul>
+</li>
+<li><strong><code>File -&gt; Working directory</code></strong>.<ul>
+<li><em>Example settings files/.fif files, to try, are shown in </em><strong><em><span style="color:blue">blue</span></em></strong>.</li>
+</ul>
+</li>
+<li>In the <strong><em>Select a new working directory</em></strong> window, type the name of the folder location e.g.<ul>
+<li><strong><em><span style="color:blue">/data/neuro-data/demo/221003/</span></em></strong> - <strong><span style="color:red">don’t forget the “/” at the end!</span></strong></li>
+</ul>
+</li>
+<li>Click “<strong>OK</strong>"</li>
+<li><strong><code>File -&gt; Load data</code></strong>.</li>
+<li>In the <strong><em>Files</em></strong> window, select the relevant .fif file e.g.<ul>
+<li><strong><em><span style="color:blue">watch_on_chair_30_sec.fif</span></em></strong></li>
+</ul>
+</li>
+<li>In the <strong><em>Maxwell filtering task</em></strong> window, select <strong><em>Spatiotemporal tSSS</em></strong><ul>
+<li><span style="color:maroon">"<em>to suppress nearby movement-related artefacts such as metal fillings/a magnetised tooth.</em>"</span></li>
+</ul>
+</li>
+<li>Click “<strong>OK</strong>”.</li>
+<li>Click “<strong>Execute</strong>”.</li>
+<li><strong><code>File -&gt; Exit</code></strong></li>
+<li>Click “<strong>Yes</strong>”.</li>
+<li>A file should now have been written to the <strong><em>working directory</em></strong> location, with the addition of “<strong>_tsss</strong>” to <strong>the name of the .fif</strong> file chosen in <strong><em>Step</em></strong> 6 above e.g.<ul>
+<li><strong><em><span style="color:blue">watch_on_chair_30_sec<span style="color:red">_tsss</span>.fif</span></em></strong></li>
+</ul>
+</li>
+</ol>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><strong>For more detailed information on usage,<br /> please read pages 21 – 25 from <a href="../../pdfs/NM25775A-B1_DANA_Guidelines.pdf">Guidelines to MEG Data Analysis Software</a></strong></p>
+</div>
+<p><strong>Compare the <em>before</em> and <em>after</em> MaxFilter files …</span></strong></p>
+<ol>
+<li>Start <strong>Graph</strong>.<ul>
+<li><strong><code>Applications -&gt; Neuromag -&gt; Graph.</code></strong></li>
+<li>Dismiss the "Welcome" splash screen, click "<strong>OK</strong>".</li>
+</ul>
+</li>
+<li><strong><code>File -&gt; Load settings</code></strong>.<ul>
+<li><em>Example settings files/.fif files, to try, are shown in </em><strong><em><span style="color:blue">blue</span></em></strong>.</li>
+</ul>
+</li>
+<li>In the <strong><em>Directories</em></strong> window, double-click on the settings required e.g.<ul>
+<li><strong><em><span style="color:blue">/home/meguser/lisp/setup/local</span></em></strong>.</li>
+</ul>
+</li>
+<li>In the <strong><em>Files</em></strong> window, select <strong><em>compare.setup</em></strong></li>
+<li>Click “<strong>OK</strong>”  - <strong><em>two synchronised Windows will appear.</em></strong></li>
+<li>In the <strong>top Window</strong>, <strong><code>File -&gt; Open Diskfile</code></strong></li>
+<li>In the <strong><em>Directories</em></strong> window, double-click <strong><em>/neuro/data/sinuhe</em></strong></li>
+<li>In the next <strong><em>Directories</em></strong> window (<em>left-click on the RH window edge and drag to open the window wider if necessary</em>), scroll down and double-click on the Project e.g.<ul>
+<li><strong><em><span style="color:blue">/neuro/data/sinuhe/demo</span></em></strong></li>
+</ul>
+</li>
+<li>In the next <strong><em>Directories</em></strong> window (<em>left-click on the RH window edge and drag to open the window wider if necessary</em>), scroll down and double-click on any relevant sub-directory e.g.<ul>
+<li><strong><em><span style="color:blue">/neuro/data/sinuhe/demo/221003</span></em></strong></li>
+</ul>
+</li>
+<li>In the <strong><em>Select disk file to open</em></strong> window, chose the <strong>unfiltered</strong> .fif file e.g.<ul>
+<li><strong><em><span style="color:blue">watch_on_chair_30_sec.fif</span></em></strong></li>
+</ul>
+</li>
+<li>Click “<strong>OK</strong>".</li>
+<li>In the <strong>top Window</strong>, <strong><code>Displays -&gt; Control Panel</code></strong></li>
+<li><strong>Open the filtered</strong> .fif file by double-clicking the widget "<strong>File2</strong>" (<em>usually to be found bottom left of the Control Panel window</em>).</li>
+<li>Repeat from <strong><em>Step 7</em></strong> to <strong><em>Step 10</em></strong> to select the "<strong>… _tsss.fif</strong>" file e.g.<ul>
+<li><strong><em><span style="color:blue">watch_on_chair_30_sec<span style="color:red">_tsss</span>.fif</span></em></strong></li>
+</ul>
+</li>
+<li>Click “<strong>OK</strong>"</li>
+<li><strong><a href="../../../images/meg/Before_After_MaxFilter_watch_on_chair.jpg">View</a></strong> the <strong>effect of <em>MaxFilter</em> on the original noisy</strong> .fif file (<em>lower window/display2</em>).</li>
+<li>In the <strong>top Window</strong>, "<strong>Exit</strong>", "<strong>Exit</strong>", "<strong>Yes</strong>", when finished.</li>
+</ol>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><strong>For more detailed information on usage,<br /> please read from page 57 onwards, as necessary, from <a href="../../pdfs/NM25775A-B1_DANA_Guidelines.pdf">Guidelines to MEG Data Analysis Software</a></strong></p>
+</div>
 
 
 
