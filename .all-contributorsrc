@@ -173,6 +173,15 @@
         "content",
         "maintenance"
       ]
+    },
+    {
+      "login": "simonmarchant",
+      "name": "Simon Marchant",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55392151?v=4",
+      "profile": "https://github.com/simonmarchant",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
