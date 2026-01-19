@@ -67,8 +67,8 @@ import numpy as np
 import mne
 
 # This will download example data into your RDS home directory by default -
-# change the next line if you want to save the file elsewhere!
-sample_data_folder = '/rds/homes/q/quinna/mne-data/'
+# change the folder path passed to mne.datasets.sample.data_path() if you want to save the file elsewhere!
+sample_data_folder = mne.datasets.sample.data_path('/rds/homes/q/quinna/mne-data/')
 sample_data_raw_file = (sample_data_folder / 'MEG' / 'sample' /
                         'sample_audvis_filt-0-40_raw.fif')
 raw = mne.io.read_raw_fif(sample_data_raw_file)
