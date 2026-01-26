@@ -96,6 +96,8 @@ nav:
       - Restart Acquisition: meg/acquisition/restart_acquisition.md
       - Metal items Checklist: meg/pdfs/Metal_items_checklist.pdf
       - Moving the Gantry: meg/acquisition/moving-the-gantry.md
+      - Correct Positioning/EEG Cap Usage: meg/acquisition/position_usage_eeg_caps.md
+      - EEG & MEG: meg/acquisition/eeg_meg.md
       - Copying MEG data: meg/acquisition/copying_meg_data.md
       - MEG Consumables: meg/acquisition/meg-consumables.md
       - Tidying Up: meg/acquisition/tidying_up.md
