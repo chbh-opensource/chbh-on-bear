@@ -25,6 +25,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- [Charging EyeLink batteries](acquisition/charging_eyelink_batteries.md)
 	- [EyeLink Settings](acquisition/eyelink_settings.md)
 	- [EyeLink Analog Output](acquisition/eyelink_analog_output.md)
+	- VPixx [X-Rite i1Display Pro](hardware/x_rite_i1_display_pro.md)
 
 -   **Data Acquisition**
 
@@ -65,9 +66,9 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	
 	- [Stimulus Hardware Layout](../meg/pdfs/MEG_Stimulus_Hardware_Layout.pdf)
 	
-	- [PROPixx](stimulus/propixx.md) Projector
+	- VPixx [PROPixx](stimulus/propixx.md) Projector
 	
-	- [SOUNDPixx](https://vpixx.com/products/soundpixx/) stereo audio system
+	- VPixx [SOUNDPixx](https://vpixx.com/products/soundpixx/) stereo audio system
 	
 	- **Eyetracking** - [SR Eyelink 1000 tracker](https://www.sr-research.com/eyelink-1000-plus/)
 	
