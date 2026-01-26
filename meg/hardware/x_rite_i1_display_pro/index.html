@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#vpixx-x-rite-i1display-pro-colourimeter" class="md-skip">
+        <a href="#vpixx-x-rite-i1display-pro-colorimeter" class="md-skip">
           Skip to content
         </a>
       
@@ -1336,6 +1336,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    X-Rite i1Display Pro
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1352,6 +1370,47 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#standalone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Standalone
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#through-matlab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Through MATLAB
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3550,6 +3609,36 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#standalone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Standalone
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#through-matlab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Through MATLAB
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3568,167 +3657,184 @@
   
 
 
-<h1 id="vpixx-x-rite-i1display-pro-colourimeter">VPixx X-Rite i1Display Pro Colourimeter</h1>
-<p>'''<span style="color:blue;font-size:medium">VPixx X-Rite i1Display Pro Colourimeter.</span>''' <span style="font-size:medium">The specifications can be found '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/i1Display_Pro_Specification.pdf HERE]'''</span></p>
+<h1 id="vpixx-x-rite-i1display-pro-colorimeter">VPixx X-Rite i1Display Pro Colorimeter</h1>
+<p><strong><a href="../../pdfs/i1Display_Pro_Specifications.pdf">Specifications</a></strong><br />
+<strong><a href="../../pdfs/X-Rite_i1Display_Pro_Data_Sheet.pdf">Data Sheet</a></strong><br />
+<strong><a href="../../pdfs/X-Rite_i1Display_Pro_User_Manual.pdf">User Manual</a></strong></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The <strong>calibration information is now included as part of</strong> the ...<br />
+<strong><a href="../../pdfs/ApplicationGuide_for_VPixx_Products.pdf">Application Guide for VPixx Products</a></strong><br />
+... and the <strong>relevant section has been printed and is kept</strong> with the <strong>i1Display Pro device</strong> in its <strong>storage box in the MEG Side Room</strong>.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><strong><em><span style="color:maroon">"The i1Display Pro colorimeter features an advanced, high-end optical system with custom-designed filters. It provides a near-perfect match to the color perception of the human visual system, delivering superior color measurement results. <br />
+i1Display Pro supports all modern display technologies, including LED backlight and wide gamut displays. It is spectrally calibrated, making it fully field upgradeable to support future display technologies.</span></em></strong> <strong>- VPixx Technologies</strong></p>
+</div>
+<p>The Colorimeter can be used as a <strong>Standalone</strong> device or <strong>through MATLAB</strong>.</p>
+<h2 id="standalone"><strong>Standalone</strong></h2>
+<p>(e.g. usage on own laptop to investigate stimuli generated via Stim PC).</p>
 <ul>
-<li>'''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/X-Rite_i1Display_Pro_Data_Sheet.pdf Data Sheet]'''</li>
-<li>'''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/X-Rite_i1Display_Pro_User_Manual.pdf User Manual]'''</li>
+<li>Install <strong>VPixx</strong> <strong><em>Software Tools</em></strong> from the provided USB stick <strong>(<span style="color:red">already done for CHBH-ST-MEG-W02</span></strong>).</li>
+<li><strong>Plug in the Colorimeter</strong> to an availabe USB port, <strong>attach it to the back projection screen</strong> where required (wider <strong>Micropore</strong> tape is available).</li>
+<li><strong>Start the VPutil application</strong> by clicking on its Desktop shortcut. The VPutil menu will appear.</li>
+<li>Type “<strong>3</strong>” to <strong>initiate the Calibration commands</strong>.</li>
+<li>Type "<strong>i1d</strong>", and <strong>follow the instructions to take a measurement</strong>.</li>
+<li>Type "<strong>q</strong>" to quit.</li>
 </ul>
-<p>The calibration information is now included as part of the ...
-* '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/ApplicationGuide_for_VPixx_Products.pdf Application Guide for VPixx Products]'''
-... the relevant section has been printed and is kept with the i1Display Pro device.</p>
-<p>''"<span style="color:maroon;font-size:medium">The i1Display Pro colorimeter features an advanced, high-end optical system with custom-designed filters. It provides a near-perfect match to the color perception of the human visual system, delivering superior color measurement results. <br />i1Display Pro supports all modern display technologies, including LED backlight and wide gamut displays. It is spectrally calibrated, making it fully field upgradeable to support future display technologies.</span>"''</p>
-<p>'''<span style="color:green;font-size:medium">Borrowed: </span><span style="font-size:medium">26/01/2023: Dr. Dietmar Heinke, Hills, Room 235</span>''' 
-* '''<span style="color:green;font-size:medium">Returned: </span><span style="font-size:medium">02/03/2023</span>'''
-'''<span style="color:green;font-size:medium">Borrowed: </span><span style="font-size:medium">19/04/2024: Dr. Qiaoyu "Chloe" Chen, Dr. Dietmar Heinke, CHBH, Room 217</span>''' 
-* '''<span style="color:green;font-size:medium">Returned: </span><span style="font-size:medium">June 2024</span>'''</p>
-<p>The Colorimeter can be used as a '''standalone''' device or through '''MATLAB'''.</p>
-<p>'''<span style="font-size:medium">1) Standalone.</span>''' (e.g. usage on own laptop to investigate stimuli generated via MEG-STIM1).</p>
+<h2 id="through-matlab"><strong>Through MATLAB</strong></h2>
+<p>(<strong><span style="color:red">below instructions already done for CHBH-ST-MEG-W02</span></strong>).</p>
 <ul>
-<li>Install '''VPixx ''Software Tools''''' from the provided USB stick (<span style="color:red">already done for MEG-STIM1 and CHBH-ST-MEG-W02</span>).</li>
-<li>'''Plug in''' the Colorimeter, attach to the back projection screen where required (wider ''Micropore'' tape is available).</li>
-<li>'''Start''' the ''VPutil'' application by clicking on its desktop shortcut. The ''VPutil'' menu will appear.</li>
-<li>Type “'''3'''” to initiate the Calibration commands.</li>
-<li>Type "'''i1d'''", and follow the instructions to take a measurement.</li>
-<li>Type "'''q'''" to quit.</li>
+<li>Copy <strong>I1.mexw64</strong> (<strong><span style="color:blue">15/06/2021 94KB, from the USB memory stick</span></strong>) to <strong>C:\toolbox\Psychtoolbox\PsychBasic\MatlabWindowsFilesR2007a</strong>.</li>
+<li>Copy the <strong>new Datapixx.mexw64</strong> (from <strong><span style="color:blue">C:\Program Files\VPixx Technologies\Software Tools\DatapixxToolbox_trunk\mexdev\build\matlab\win64</span></strong>) to the following usage locations depending on which version of MATLAB used ...<ul>
+<li><strong>C:\toolbox\DataPixx</strong> - for <strong><span style="color:maroon">MATLAB R2017A</span>.</strong></li>
+<li><strong>C:\toolbox\Psychtoolbox\PsychBasic\MatlabWindowsFilesR2007a</strong> - for <strong><span style="color:maroon">MATLAB R2019B</span>.</strong></li>
 </ul>
-<p>'''<span style="font-size:medium">2) MATLAB.</span>''' (<span style="color:red">below instructions already done for MEG-STIM1 and CHBH-ST-MEG-W02</span>).</p>
-<ul>
-<li>Copy '''I1.mexw64''' ('''<span style="color:blue">15/06/2021 94KB, from the USB memory stick</span>''') to '''C:\toolbox\Psychtoolbox\PsychBasic\MatlabWindowsFilesR2007a'''.</li>
-<li>Copy the new '''Datapixx.mexw64''' (from '''<span style="color:blue">C:\Program Files\VPixx Technologies\Software Tools\DatapixxToolbox_trunk\mexdev\build\matlab\win64</span>''') to usage locations ...
-** '''C:\toolbox\DataPixx''' - for '''<span style="color:maroon">MATLAB R2017A</span>.'''
-** '''C:\toolbox\Psychtoolbox\PsychBasic\MatlabWindowsFilesR2007a''' - for '''<span style="color:maroon">MATLAB R2019B</span>.'''
-*** <span style="color:red">'''NOTE:''' Previous versions of Datapixx MEX files renamed to Old_Datapixx... etc</span></li>
+</li>
 </ul>
-<p>Starting MATLAB and typing '''I1 <Enter>''' lists the I1's functions… not all are usable as we have the i1Display Pro, ''not'' the i1Pro.</p>
-<p><nowiki></p>
-<blockquote>
-<blockquote>
-<p>I1
-Usage:</p>
-</blockquote>
-</blockquote>
-<p>% All I1 (Pro, Pro3, Display) functions:
-isConnected = I1('IsConnected');
-I1('Calibrate');
-Lxy = I1('GetTriStimulus');</p>
-<p>% I1Pro / I1Pro3 functions:
-I1('TriggerMeasurement');
-keyPressed = I1('KeyPressed');
-spectrum = I1('GetSpectrum');</p>
-<p>% I1 Display ONLY functions:
-I1('SetIntegrationTime', time);
-time = I1('GetIntegrationTime');
-I1('SetMeasurementMode', 'mode');
-mode = I1('GetMeasurementMode');
-SERVER MODE VERSION: 3.9 [05/APR/2021]
-</nowiki></p>
-<p>'''&gt;&gt; I1('IsConnected?');'''</p>
-<p><nowiki>
-Usage:</p>
-<p>isConnected = I1('IsConnected', [device]);</p>
-<p>Returns non-0 if an X-Rite I1 has been detected.
-The argument 'device' can be used to choose a device should 2 different i1ProDev
-be connected to the computer.
-It should be noted that only 1 device can be used at the same time.
-Device is one of the following value:
-    - i1Pro
-    - i1Pro3
-    - i1Display
-</nowiki></p>
-<p>'''&gt;&gt; isConnected = I1('IsConnected');''' produces the result for ‘'''isConnected'''’ as "'''1'''" if the '''I1''' is connected, "'''0'''" otherwise.</p>
-<p>'''&gt;&gt;  I1('SetMeasurementMode?');'''
- <nowiki>
-Usage:</p>
-<p>I1('SetMeasurementMode', ‘mode’);</p>
-<p>Sets the calibration file and the measurement mode for the i1Display.
-The measurement mode is one of the following value:
-    - CCFL: Used for LCD monitors with CCFL backlight.
-    - WLED : Used for LCD monitors with White LED backlight monitors.
-    - RGBLED : Used for LCD monitors with RGB LED backlight monitors.
-    - Phosphor : Used for CRT monitors.
-    - Projector : Used for Projectors.
-    - VPixx : Used for VIEWPixx, VIEWPixx /3D and PROPixx.
-    - EEG : Used for VIEWPixx /EEG monitors.
-</nowiki></p>
-<p>'''&gt;&gt;  I1('GetMeasurementMode?');'''
- <nowiki>
-Usage:</p>
-<p>mode = I1('GetMeasurementMode');</p>
-<p>Gets the measurement mode currently used by the i1Display.
-The calibration mode is one of the following value:
-    - CCFL: Used for LCD monitors with CCFL backlight.
-    - WLED : Used for LCD monitors with White LED backlight monitors.
-    - RGBLED : Used for LCD monitors with RGB LED backlight monitors.
-    - Phosphor : Used for CRT monitors.
-    - Projector : Used for Projectors.
-    - VPixx : Used for VIEWPixx, VIEWPixx /3D and PROPixx.
-    - EEG : Used for VIEWPixx /EEG monitors.
-</nowiki></p>
-<p>'''&gt;&gt; mode = I1('GetMeasurementMode');''' produced the (default) result for ‘'''mode'''’ as '''VPixx'''.</p>
-<p>Running <br />
-'''&gt;&gt;  I1('SetMeasurementMode', 'RGBLED');'''<br />
-then<br />
-'''&gt;&gt;  mode = I1('GetMeasurementMode');'''<br />
-produced the result for ‘'''mode'''’ as
- <nowiki>
-mode =</p>
-<div class="language-text highlight"><pre><span></span><code>‘RGBLED’
-</code></pre></div>
-<p></nowiki></p>
-<p>'''&gt;&gt; I1('GetTriStimulus?');'''
- <nowiki>
-Usage:</p>
-<p>Lxy = I1('GetTriStimulus'); </p>
-<p>Returns CIE Lxy coordinates of last i1 measurement.
-</nowiki></p>
-<p>Taking a sample measurement with ‘'''RGBLED'''’ as the '''mode'''....</p>
-<p>'''&gt;&gt; Lxy = I1('GetTriStimulus');''' produces the result for ‘'''Lxy'''’ as 
- <nowiki></p>
-<blockquote>
-<blockquote>
-<p>Lxy =</p>
-</blockquote>
-</blockquote>
-<div class="language-text highlight"><pre><span></span><code> 94.3362, 0.3781, 0.3791
-</code></pre></div>
-<p></nowiki></p>
-<p>'''(<span style="color:red">NOTE:</span> VPIxx say you need a second or so exposure to collect a sample, so you will need to allow for this in your code)'''</p>
-<p>'''&gt;&gt;  I1('SetIntegrationTime?');'''
- <nowiki>
-Usage:</p>
-<p>I1('SetIntegrationTime', time);</p>
-<p>Sets the integration time used to take a measurement by the i1Display.
-It represents the maximum time which could be taken by the i1Display to get a measurement.
-The value must be &gt; 0.2 seconds. Default is 0.2 seconds.
-</nowiki></p>
-<p>'''&gt;&gt; I1('GetIntegrationTime?');'''
- <nowiki>
-Usage:</p>
-<p>time = I1('GetIntegrationTime');</p>
-<p>Gets the integration time used for measurements by the i1Display.
-It represents the maximum time which could be taken by the i1Display to get a measurement.
-</nowiki></p>
+<div class="admonition note">
+<p class="admonition-title"><strong><span style="color:red">Previous versions of Datapixx MEX files have been renamed to "Old_Datapixx..." etc</span></strong></p>
+</div>
+<p>Starting MATLAB and <strong>typing "I1", <code>Enter</code>, lists the I1's functions...</strong> <strong>not all are usable as we have the i1Display Pro, <em>not</em> the i1Pro.</strong></p>
+<p><strong>&gt;&gt; I1</strong></p>
+<p><div class="language-matlab highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">Usage</span><span class="p">:</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="c">% All I1 (Pro, Pro3, Display) functions:</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="nb">isConnected</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">I1</span><span class="p">(</span><span class="s">&#39;IsConnected&#39;</span><span class="p">);</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="n">I1</span><span class="p">(</span><span class="s">&#39;Calibrate&#39;</span><span class="p">);</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="n">Lxy</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">I1</span><span class="p">(</span><span class="s">&#39;GetTriStimulus&#39;</span><span class="p">);</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="c">% I1Pro / I1Pro3 functions:</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="n">I1</span><span class="p">(</span><span class="s">&#39;TriggerMeasurement&#39;</span><span class="p">);</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="n">keyPressed</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">I1</span><span class="p">(</span><span class="s">&#39;KeyPressed&#39;</span><span class="p">);</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="n">spectrum</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">I1</span><span class="p">(</span><span class="s">&#39;GetSpectrum&#39;</span><span class="p">);</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="c">% I1 Display ONLY functions:</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="n">I1</span><span class="p">(</span><span class="s">&#39;SetIntegrationTime&#39;</span><span class="p">,</span><span class="w"> </span><span class="nb">time</span><span class="p">);</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="nb">time</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">I1</span><span class="p">(</span><span class="s">&#39;GetIntegrationTime&#39;</span><span class="p">);</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="n">I1</span><span class="p">(</span><span class="s">&#39;SetMeasurementMode&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;mode&#39;</span><span class="p">);</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="nb">mode</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">I1</span><span class="p">(</span><span class="s">&#39;GetMeasurementMode&#39;</span><span class="p">);</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="n">SERVER</span><span class="w"> </span><span class="s">MODE</span><span class="w"> </span><span class="s">VERSION:</span><span class="w"> </span><span class="s">3.9</span><span class="w"> </span><span class="s">[05/APR/2021]</span>
+</span></code></pre></div>
+<br /></p>
+<p><strong>&gt;&gt; I1('IsConnected?');</strong></p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">Usage</span><span class="p">:</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="nb">isConnected</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">I1</span><span class="p">(</span><span class="s">&#39;IsConnected&#39;</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="n">device</span><span class="p">]);</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="n">Returns</span><span class="w"> </span><span class="s">non-0</span><span class="w"> </span><span class="s">if</span><span class="w"> </span><span class="s">an</span><span class="w"> </span><span class="s">X-Rite</span><span class="w"> </span><span class="s">I1</span><span class="w"> </span><span class="s">has</span><span class="w"> </span><span class="s">been</span><span class="w"> </span><span class="s">detected.</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="n">The</span><span class="w"> </span><span class="s">argument</span><span class="w"> </span><span class="s">&#39;device&#39;</span><span class="w"> </span><span class="s">can</span><span class="w"> </span><span class="s">be</span><span class="w"> </span><span class="s">used</span><span class="w"> </span><span class="s">to</span><span class="w"> </span><span class="s">choose</span><span class="w"> </span><span class="s">a</span><span class="w"> </span><span class="s">device</span><span class="w"> </span><span class="s">should</span><span class="w"> </span><span class="s">2</span><span class="w"> </span><span class="s">different</span><span class="w"> </span><span class="s">i1ProDev</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="n">be</span><span class="w"> </span><span class="s">connected</span><span class="w"> </span><span class="s">to</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">computer.</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="n">It</span><span class="w"> </span><span class="s">should</span><span class="w"> </span><span class="s">be</span><span class="w"> </span><span class="s">noted</span><span class="w"> </span><span class="s">that</span><span class="w"> </span><span class="s">only</span><span class="w"> </span><span class="s">1</span><span class="w"> </span><span class="s">device</span><span class="w"> </span><span class="s">can</span><span class="w"> </span><span class="s">be</span><span class="w"> </span><span class="s">used</span><span class="w"> </span><span class="s">at</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">same</span><span class="w"> </span><span class="s">time.</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="n">Device</span><span class="w"> </span><span class="s">is</span><span class="w"> </span><span class="s">one</span><span class="w"> </span><span class="s">of</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">following</span><span class="w"> </span><span class="s">value:</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">i1Pro</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">i1Pro3</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">i1Display</span>
+</span></code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>&gt;&gt; isConnected = I1('IsConnected');</strong> produces the result for <strong>‘isConnected’</strong> as "<strong>1</strong>" if the "<strong>I1</strong>" is connected, "<strong>0</strong>" otherwise.</p>
+</div>
+<p><br /></p>
+<p><strong>&gt;&gt; I1('SetMeasurementMode?');</strong></p>
+<p><div class="language-matlab highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">Usage</span><span class="p">:</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="n">I1</span><span class="p">(</span><span class="s">&#39;SetMeasurementMode&#39;</span><span class="p">,</span><span class="w"> </span>‘<span class="nb">mode</span>’<span class="p">);</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="n">Sets</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">calibration</span><span class="w"> </span><span class="s">file</span><span class="w"> </span><span class="s">and</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">measurement</span><span class="w"> </span><span class="s">mode</span><span class="w"> </span><span class="s">for</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">i1Display.</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="n">The</span><span class="w"> </span><span class="s">measurement</span><span class="w"> </span><span class="s">mode</span><span class="w"> </span><span class="s">is</span><span class="w"> </span><span class="s">one</span><span class="w"> </span><span class="s">of</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">following</span><span class="w"> </span><span class="s">value:</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">CCFL</span><span class="p">:</span><span class="w"> </span><span class="n">Used</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">LCD</span><span class="w"> </span><span class="n">monitors</span><span class="w"> </span><span class="n">with</span><span class="w"> </span><span class="n">CCFL</span><span class="w"> </span><span class="n">backlight</span><span class="p">.</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">WLED</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Used</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">LCD</span><span class="w"> </span><span class="n">monitors</span><span class="w"> </span><span class="n">with</span><span class="w"> </span><span class="n">White</span><span class="w"> </span><span class="n">LED</span><span class="w"> </span><span class="n">backlight</span><span class="w"> </span><span class="n">monitors</span><span class="p">.</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">RGBLED</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Used</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">LCD</span><span class="w"> </span><span class="n">monitors</span><span class="w"> </span><span class="n">with</span><span class="w"> </span><span class="n">RGB</span><span class="w"> </span><span class="n">LED</span><span class="w"> </span><span class="n">backlight</span><span class="w"> </span><span class="n">monitors</span><span class="p">.</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">Phosphor</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Used</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">CRT</span><span class="w"> </span><span class="n">monitors</span><span class="p">.</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">Projector</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Used</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">Projectors</span><span class="p">.</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">VPixx</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Used</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">VIEWPixx</span><span class="p">,</span><span class="w"> </span><span class="n">VIEWPixx</span><span class="w"> </span><span class="o">/</span>3<span class="n">D</span><span class="w"> </span><span class="n">and</span><span class="w"> </span><span class="n">PROPixx</span><span class="p">.</span>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">EEG</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Used</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">VIEWPixx</span><span class="w"> </span><span class="o">/</span><span class="n">EEG</span><span class="w"> </span><span class="n">monitors</span><span class="p">.</span>
+</span></code></pre></div>
+<br /></p>
+<p><strong>&gt;&gt; I1('GetMeasurementMode?');</strong></p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">Usage</span><span class="p">:</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="nb">mode</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">I1</span><span class="p">(</span><span class="s">&#39;GetMeasurementMode&#39;</span><span class="p">);</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="n">Gets</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">measurement</span><span class="w"> </span><span class="s">mode</span><span class="w"> </span><span class="s">currently</span><span class="w"> </span><span class="s">used</span><span class="w"> </span><span class="s">by</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">i1Display.</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="n">The</span><span class="w"> </span><span class="s">calibration</span><span class="w"> </span><span class="s">mode</span><span class="w"> </span><span class="s">is</span><span class="w"> </span><span class="s">one</span><span class="w"> </span><span class="s">of</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">following</span><span class="w"> </span><span class="s">value:</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">CCFL</span><span class="p">:</span><span class="w"> </span><span class="n">Used</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">LCD</span><span class="w"> </span><span class="n">monitors</span><span class="w"> </span><span class="n">with</span><span class="w"> </span><span class="n">CCFL</span><span class="w"> </span><span class="n">backlight</span><span class="p">.</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">WLED</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Used</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">LCD</span><span class="w"> </span><span class="n">monitors</span><span class="w"> </span><span class="n">with</span><span class="w"> </span><span class="n">White</span><span class="w"> </span><span class="n">LED</span><span class="w"> </span><span class="n">backlight</span><span class="w"> </span><span class="n">monitors</span><span class="p">.</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">RGBLED</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Used</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">LCD</span><span class="w"> </span><span class="n">monitors</span><span class="w"> </span><span class="n">with</span><span class="w"> </span><span class="n">RGB</span><span class="w"> </span><span class="n">LED</span><span class="w"> </span><span class="n">backlight</span><span class="w"> </span><span class="n">monitors</span><span class="p">.</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">Phosphor</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Used</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">CRT</span><span class="w"> </span><span class="n">monitors</span><span class="p">.</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">Projector</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Used</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">Projectors</span><span class="p">.</span>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">VPixx</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Used</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">VIEWPixx</span><span class="p">,</span><span class="w"> </span><span class="n">VIEWPixx</span><span class="w"> </span><span class="o">/</span>3<span class="n">D</span><span class="w"> </span><span class="n">and</span><span class="w"> </span><span class="n">PROPixx</span><span class="p">.</span>
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="w">    </span><span class="o">-</span><span class="w"> </span><span class="n">EEG</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">Used</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">VIEWPixx</span><span class="w"> </span><span class="o">/</span><span class="n">EEG</span><span class="w"> </span><span class="n">monitors</span><span class="p">.</span>
+</span></code></pre></div>
+<p>So to change ...(<em>default</em> vaule is '<strong>VPixx</strong>' as a PROPixx is used in the CHBH MEG Lab)</p>
+<p><div class="language-matlab highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nb">mode</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">I1</span><span class="p">(</span><span class="s">&#39;GetMeasurementMode&#39;</span><span class="p">);</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">mode</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="s">mode</span><span class="w"> </span><span class="p">=</span><span class="w"> </span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="w">    </span><span class="s">&#39;VPixx&#39;</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="n">I1</span><span class="p">(</span><span class="s">&#39;SetMeasurementMode&#39;</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;RGBLED&#39;</span><span class="p">);</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="nb">mode</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">I1</span><span class="p">(</span><span class="s">&#39;GetMeasurementMode&#39;</span><span class="p">);</span>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="n">mode</span>
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="s">mode</span><span class="w"> </span><span class="p">=</span>
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>
+</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a><span class="w">    </span><span class="s">&#39;RGBLED&#39;</span>
+</span></code></pre></div>
+<br /></p>
+<p><strong>&gt;&gt; I1('GetTriStimulus?');</strong></p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">Usage</span><span class="p">:</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="n">Lxy</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">I1</span><span class="p">(</span><span class="s">&#39;GetTriStimulus&#39;</span><span class="p">);</span><span class="w"> </span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="n">Returns</span><span class="w"> </span><span class="s">CIE</span><span class="w"> </span><span class="s">Lxy</span><span class="w"> </span><span class="s">coordinates</span><span class="w"> </span><span class="s">of</span><span class="w"> </span><span class="s">last</span><span class="w"> </span><span class="s">i1</span><span class="w"> </span><span class="s">measurement.</span>
+</span></code></pre></div>
+<p>Taking a sample measurement with <strong>‘RGBLED'</strong> as the <strong>'mode'</strong> ...</p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">Lxy</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">I1</span><span class="p">(</span><span class="s">&#39;GetTriStimulus&#39;</span><span class="p">);</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="n">Lxy</span>
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="s">Lxy</span><span class="w"> </span><span class="p">=</span>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="w">     </span><span class="mf">94.3362</span><span class="p">,</span><span class="w"> </span><span class="mf">0.3781</span><span class="p">,</span><span class="w"> </span><span class="mf">0.3791</span>
+</span></code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">VPIxx say a second or so exposure is needed to collect a sample, so allow for this time in the code.</p>
+</div>
+<p><br /></p>
+<p><strong>&gt;&gt;  I1('SetIntegrationTime?');</strong></p>
+<p><div class="language-matlab highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">Usage</span><span class="p">:</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="n">I1</span><span class="p">(</span><span class="s">&#39;SetIntegrationTime&#39;</span><span class="p">,</span><span class="w"> </span><span class="nb">time</span><span class="p">);</span>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="n">Sets</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">integration</span><span class="w"> </span><span class="s">time</span><span class="w"> </span><span class="s">used</span><span class="w"> </span><span class="s">to</span><span class="w"> </span><span class="s">take</span><span class="w"> </span><span class="s">a</span><span class="w"> </span><span class="s">measurement</span><span class="w"> </span><span class="s">by</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">i1Display.</span>
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="n">It</span><span class="w"> </span><span class="s">represents</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">maximum</span><span class="w"> </span><span class="s">time</span><span class="w"> </span><span class="s">which</span><span class="w"> </span><span class="s">could</span><span class="w"> </span><span class="s">be</span><span class="w"> </span><span class="s">taken</span><span class="w"> </span><span class="s">by</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">i1Display</span><span class="w"> </span><span class="s">to</span><span class="w"> </span><span class="s">get</span><span class="w"> </span><span class="s">a</span><span class="w"> </span><span class="s">measurement.</span>
+</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a><span class="n">The</span><span class="w"> </span><span class="s">value</span><span class="w"> </span><span class="s">must</span><span class="w"> </span><span class="s">be</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mf">0.2</span><span class="w"> </span><span class="nb">seconds</span><span class="p">.</span><span class="w"> </span><span class="n">Default</span><span class="w"> </span><span class="n">is</span><span class="w"> </span><span class="mf">0.2</span><span class="w"> </span><span class="nb">seconds</span><span class="p">.</span>
+</span></code></pre></div>
+<br /></p>
+<p><strong>&gt;&gt; I1('GetIntegrationTime?');</strong></p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">Usage</span><span class="p">:</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="nb">time</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">I1</span><span class="p">(</span><span class="s">&#39;GetIntegrationTime&#39;</span><span class="p">);</span>
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="n">Gets</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">integration</span><span class="w"> </span><span class="s">time</span><span class="w"> </span><span class="s">used</span><span class="w"> </span><span class="s">for</span><span class="w"> </span><span class="s">measurements</span><span class="w"> </span><span class="s">by</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">i1Display.</span>
+</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a><span class="n">It</span><span class="w"> </span><span class="s">represents</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">maximum</span><span class="w"> </span><span class="s">time</span><span class="w"> </span><span class="s">which</span><span class="w"> </span><span class="s">could</span><span class="w"> </span><span class="s">be</span><span class="w"> </span><span class="s">taken</span><span class="w"> </span><span class="s">by</span><span class="w"> </span><span class="s">the</span><span class="w"> </span><span class="s">i1Display</span><span class="w"> </span><span class="s">to</span><span class="w"> </span><span class="s">get</span><span class="w"> </span><span class="s">a</span><span class="w"> </span><span class="s">measurement.</span>
+</span></code></pre></div>
 <p>So</p>
-<p>'''&gt;&gt; time = I1('GetIntegrationTime');'''<br />
-'''&gt;&gt; '''<br />
-'''&gt;&gt; time'''<br />
- <nowiki>
-time =</p>
-<div class="language-text highlight"><pre><span></span><code>0.2000
-</code></pre></div>
-<p></nowiki></p>
-<p>So to set the integration time to '''1''' second ...</p>
-<p>'''&gt;&gt;  I1('SetIntegrationTime', 1);'''</p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="nb">time</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">I1</span><span class="p">(</span><span class="s">&#39;GetIntegrationTime&#39;</span><span class="p">);</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="n">time</span>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="s">time</span><span class="w"> </span><span class="p">=</span>
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>
+</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="w">    </span><span class="mf">0.2000</span>
+</span></code></pre></div>
+<p>So to set the <strong>integration time</strong> to <strong>1 second</strong> ...</p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="n">I1</span><span class="p">(</span><span class="s">&#39;SetIntegrationTime&#39;</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
+</span></code></pre></div>
 <p>And to check it’s changed …</p>
-<p>'''&gt;&gt; time = I1('GetIntegrationTime');'''<br />
-'''&gt;&gt; '''<br />
-'''&gt;&gt; time'''<br />
- <nowiki>
-time =</p>
-<div class="language-text highlight"><pre><span></span><code>1
-</code></pre></div>
-<p></nowiki></p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="nb">time</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">I1</span><span class="p">(</span><span class="s">&#39;GetIntegrationTime&#39;</span><span class="p">);</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="n">time</span>
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="s">time</span><span class="w"> </span><span class="p">=</span>
+</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>
+</span><span id="__span-11-5"><a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a><span class="w">    </span><span class="mi">1</span>
+</span></code></pre></div>
 
 
 
