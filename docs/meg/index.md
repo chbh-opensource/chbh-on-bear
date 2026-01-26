@@ -57,13 +57,21 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- [Safety Procedures](labsafety/labsafety.md)
 	
 
--   **Stimulus Delivery**
+-   **Stimulus Delivery/Response Collection**
 
     ---
 
-    Software and methods for stimulus presentation
+    Software/Hardware and methods for stimulus presentation and data collection
+	
+	- [Stimulus Hardware Layout](../meg/pdfs/MEG_Stimulus_Hardware_Layout.pdf)
 	
 	- [PROPixx](stimulus/propixx.md) Projector
+	
+	- [SOUNDPixx](https://vpixx.com/products/soundpixx/) stereo audio system
+	
+	- **Eyetracking** - [SR Eyelink 1000 tracker](https://www.sr-research.com/eyelink-1000-plus/)
+	
+	- **Button Box** - [fMRI Button Pad (2-Hand) System (NATA Technologies)](https://natatech.com/products/complete-response-systems/fmri-button-pad-2-hand-system)
 
 
 -   **Quality Control**

@@ -104,6 +104,7 @@ nav:
     - Lab Safety:
       - Procedures: meg/labsafety/labsafety.md
     - Stimulus Presentation:
+      - Stimulus Hardware Layout: meg/pdfs/MEG_Stimulus_Hardware_Layout.pdf
       - VPixx Projector: meg/stimulus/propixx.md
     - Analysis Tools:
       - MNE-Python: meg/analysis/mne.md
