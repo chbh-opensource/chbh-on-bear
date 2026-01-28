@@ -24,9 +24,8 @@ export FS_LICENSE=${HOME}/license.txt
 export SUBJECTS_DIR=/rds/projects/b/bagshaap-eeg-fmri-hmm/fs_outputs
 
 recon-all -s sub-01 -i /rds/projects/b/bagshaap-eeg-fmri-hmm/T1_vol_v1_5.nii.gz \
--all \ 
--log logfile \ 
 -all \
+-log logfile \
 -parallel -openmp 4
 ```
 
@@ -74,9 +73,8 @@ subject_id_number=$(printf "%02d" ${SLURM_ARRAY_TASK_ID})
 
 recon-all -s sub-${subject_id_number} \
 -i /rds/projects/b/bagshaap-eeg-fmri-hmm/bids_dataset/sub-${}/anat/sub-${subject_id_number}_T1w.nii.gz  \
--all \ 
--log logfile \ 
 -all \
+-log logfile \
 -parallel -openmp 4
 ```
 
@@ -99,7 +97,7 @@ SUBJECTS_DIR=/rds/projects/b/bagshaap-eeg-fmri-hmm/Projects/Visual_Response_Vari
 apptainer exec --env FS_LICENSE=${FS_LICENSE} --env SUBJECTS_DIR=${SUBJECTS_DIR} \
 freesurfer.sif \
 recon-all -s sub-01 -i /rds/projects/b/bagshaap-eeg-fmri-hmm/T1_vol_v1_5.nii.gz \
--log logfile \ 
 -all \
+-log logfile \
 -parallel -openmp 4
 ```
