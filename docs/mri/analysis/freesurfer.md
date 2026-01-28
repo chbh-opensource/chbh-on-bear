@@ -11,10 +11,10 @@ The `recon-all` command performs all, or any part of, the FreeSurfer cortical re
 
 ``` bash
 #!/usr/bin/env bash
-#SBATCH --qos bbdefault
-#SBATCH --time 1440
-#SBATCH --ntasks 4
-#SBATCH --mem-per-cpu 2
+#SBATCH --qos=bbdefault
+#SBATCH --time=24:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
 
 module purge
 module load bear-apps/2019a/live
@@ -57,10 +57,10 @@ Alternatively, if you need to run recon-all for multiple subjects at once, for e
 
 ``` bash
 #!/usr/bin/env bash
-#SBATCH --qos bbdefault
-#SBATCH --time 1440
-#SBATCH --ntasks 4
-#SBATCH --mem-per-cpu 2
+#SBATCH --qos=bbdefault
+#SBATCH --time=24:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
 #SBATCH --array=1-20 # 20 represents the total number of subjects
 
 module purge
@@ -88,10 +88,10 @@ In the example below we assume a container named `freesurfer.sif` has been downl
 
 ``` bash
 #!/usr/bin/env bash
-#SBATCH --qos bbdefault
-#SBATCH --time 1440
-#SBATCH --ntasks 4
-#SBATCH --mem-per-cpu 2
+#SBATCH --qos=bbdefault
+#SBATCH --time=24:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
 
 FS_LICENSE=${HOME}/license.txt
 SUBJECTS_DIR=/rds/projects/b/bagshaap-eeg-fmri-hmm/Projects/Visual_Response_Variability/fs_outputs
