@@ -5,6 +5,10 @@
 
 FreeSurfer requires a license registration key in order to be used. This can be obtained from [here](https://surfer.nmr.mgh.harvard.edu/registration.html). Once downloaded, the file should be uploaded to your home directory on Bear. This can be done using "Files" tab on the [BlueBEAR portal](https://portal.bear.bham.ac.uk/), or using file transfer software, such as [WinSCP](https://winscp.net/eng/index.php), or [FileZilla](https://filezilla-project.org/). 
 
+## FreeSurfer Versions
+
+Visit [FreeSurfer on BEAR](https://apps.bear.bham.ac.uk/applications/FreeSurfer/) for available versions of FreeSurfer on BlueBEAR.
+
 ## Running recon-all
 
 The `recon-all` command performs all, or any part of, the FreeSurfer cortical reconstruction process. The outputs of `recon-all` can be used to define the surfaces required for the boundary estimate model (BEM) required when performing source reconstruction on M/EEG data. The function can be run via BlueBEAR using the example script (recon_all.sh) below:
