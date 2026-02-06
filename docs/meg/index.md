@@ -59,6 +59,8 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	
 	- [Safety Procedures](labsafety/labsafety.md)
 	
+	[Documentation](labsafety/documentation.md)
+	
 
 -   **Stimulus Delivery/Response Collection**
 
