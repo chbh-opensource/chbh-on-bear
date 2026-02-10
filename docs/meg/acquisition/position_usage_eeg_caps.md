@@ -1,6 +1,6 @@
 # Correct Positioning & Usage of EEG Caps
 
-**<span style="color:blue">CHBH MEG uses 64 Channel BrainCap EASYCAPs purchased from Brain Products UK, and have 6 caps available in 4 different sizes. The caps use the 10/20 system of electrode placement.</span>**
+**<span style="color:blue">CHBH MEG uses 64 Channel EASYCAPs purchased from Brain Products UK, and have 6 caps available in 4 different sizes. The caps use the 10/20 system of electrode placement.</span>**
 
 - **1 x 54cm, 2 x 56cm, 2 x 58cm, 1 x 60cm**
 

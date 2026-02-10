@@ -1,6 +1,6 @@
 # Useful documents, COSHH etc 
 
-#### **[MEG Operator Checklist v4-0b](../../meg/pdfs/meg_operator_checklist_v4-0b.pdf)**
+#### **[MEG Operator Checklist v4-0c](../../meg/pdfs/meg_operator_checklist_v4-0c.pdf)**
 
 #### **[MEG Measurement Log v1_2c](../../meg/pdfs/meg_measurement_log_information_v1_2c.pdf)**
 
