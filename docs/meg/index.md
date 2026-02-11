@@ -52,7 +52,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- [MISC Channels](acquisition/misc_channels.md)
 
 	
--	**Lab Safety**
+-	**Lab Safety/Useful Documents**
 
 	---
 	
@@ -60,7 +60,9 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	
 	- [Safety Procedures](labsafety/labsafety.md)
 	
-	[Documentation](labsafety/documentation.md)
+	- [Metal Detection](labsafety/metal_detectors.md)
+	
+	- [Documentation](labsafety/documentation.md)
 	
 
 -   **Stimulus Delivery/Response Collection**

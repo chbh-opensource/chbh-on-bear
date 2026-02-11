@@ -105,9 +105,10 @@ nav:
       - Cleaning EEG Caps: meg/acquisition/cleaning_eeg_caps.md
       - Audio Delay Testing: meg/acquisition/audio_delay_testing.md
       - MISC Channels: meg/acquisition/misc_channels.md
-    - Lab Safety:
+    - Lab Safety/Useful Documents:
       - Procedures: meg/labsafety/labsafety.md
       - Documentation: meg/labsafety/documentation.md
+      - Metal Detection: meg/labsafety/metal_detectors.md
     - Stimulus Presentation:
       - Stimulus Hardware Layout: meg/pdfs/MEG_Stimulus_Hardware_Layout.pdf
       - VPixx Projector: meg/stimulus/propixx.md
