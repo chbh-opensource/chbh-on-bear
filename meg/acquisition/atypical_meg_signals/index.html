@@ -1615,6 +1615,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atypical MEG Signals
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1631,6 +1649,58 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pysiological" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pysiological
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#environmental-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Environmental / System
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-fif-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example FIF data
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3662,6 +3732,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pysiological" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pysiological
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#environmental-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Environmental / System
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-fif-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example FIF data
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3681,6 +3792,76 @@
 
 
 <h1 id="atypical-meg-signals">Atypical MEG signals</h1>
+<p>"<strong>Artifacts</strong>" are <strong>unwanted noise in the acquired data</strong> that <strong>may or may not interfere/mask the signal expected to be seen</strong>. <br />
+Any artifact found will <strong>need to be removed from acquired data before any analysis is performed</strong>, and obviously they are <strong>needed to be identified</strong> first.<br />
+Artifacts can be <strong>caused by the environment or by the participant</strong>, and common examples are:</p>
+<h2 id="pysiological"><strong>Pysiological</strong></h2>
+<ul>
+<li><span style="color:maroon">Eye blinks (<strong>EOG</strong>) - Electrooculogram.</span></li>
+<li><span style="color:maroon">Heart beats (<strong>ECG</strong>) - Electrocardiogram.</span></li>
+<li><span style="color:maroon">Muscle artifacts (<strong>EMG</strong>) - Electromyogram.</span></li>
+<li><span style="color:maroon">Head movements (<em>will include neck EMG artifacts</em>).</span></li>
+<li><span style="color:maroon">Dental artifacts (<em>large amalgam fillings, orthodontic applances</em>).</span></li>
+</ul>
+<h2 id="environmental-system"><strong>Environmental / System</strong></h2>
+<ul>
+<li><span style="color:maroon">Power line noise (<strong>Mains 50Hz</strong>).</span></li>
+<li><span style="color:maroon">Squid Jumps.</span></li>
+</ul>
+<h2 id="example-fif-data"><strong>Example FIF data</strong></h2>
+<p><img align="left" alt="Eyes open, Temporal set, 3sec Window" src="../../../images/meg/Eyes_open_with_ECG_Temporal.png" width="30%" /></p>
+<ul>
+<li><strong><span style="color:green">Good Data</span></strong>.<br />
+An example of <strong>good, clean, data</strong>. Temporal set of sensors. Eyes open looking at a central cross on the projector screen.
+<strong>Even if the ECG hadn't been recorded, the heartbeat can still be detected in the acquired data</strong>.
+<br /><br /><br /><br /><br /></li>
+</ul>
+<p><br />
+<img alt="Parietal set, 8sec Window" src="../../../images/meg/Squid_Jumps.png" /></p>
+<ul>
+<li><strong><span style="color:red">Squid Jumps</span></strong><br />
+"<strong><em>Squid jumps</em></strong>" on channel <strong>MEG1043</strong>. Resetting the channel/warming the sensor had no effect, and its tuning curve was within normal parameters. Resetting the SSC card only caused a temporary respite for a few days.
+At the time, the channel was <strong>marked as "bad"</strong>, and it was repaired during the PM Service Visit.<br /></li>
+</ul>
+<p><br />
+<img align="left" alt="Eye blinks (every 2sec), Frontal set, 10sec Window" src="../../../images/meg/Eye_blinks_Frontal_10sec.png" width="30%" />
+<img align="right" alt="Eye blinks (every 2sec), Temporal set, 10sec Window" src="../../../images/meg/Eye_blinks_Temporal_10sec.png" width="30%" /></p>
+<ul>
+<li><strong><span style="color:red">Eye blinks</span></strong>.<br />
+Eye blinks from two sets of sensors, Frontal (left image) and Temporal (right image).
+The Participant was asked to <strong>blink their eyes every two seconds</strong>, producing approximately five blinks in each ten-second window. It is <strong>recommended to record EOG channels</strong> in acquired data, to <strong>help remove blink artifacts</strong>.</li>
+</ul>
+<p><br /><br />
+<img align="left" alt="Eyes side-to-side, Temporal set, 8sec Window" src="../../../images/meg/Eyes_side-to-side_Temporal_8sec.png" width="30%" /></p>
+<ul>
+<li><strong><span style="color:red">Eyes side-to-side</span></strong>.<br />
+The Participant was asked to <strong>move their eyes between two markers on either side of the projector screen, about once every second</strong>. There are about eight movements collected in the eight-second window. There may also be some head movement/neck EMG artifact incorporated in the example image.
+<br /><br /><br /></li>
+</ul>
+<p><br />
+<img align="left" alt="Head movement, Occipital set, 8sec Window" src="../../../images/meg/Head_movement_Occipital_8sec.png" width="30%" /></p>
+<ul>
+<li><strong><span style="color:red">Head Movement</span></strong>.<br />
+The Participant was asked to make a <strong>shaking their head "No!"</strong> type movement, with each "shake" taking about two seconds to complete. There are about five movements in the eight-second window, so they were moving slightly faster than asked. There is probably some neck EMG involved, as well as some EOG as they kept their eyes fixated on the central cross as they shook their head.<br />
+<br /><br /></li>
+</ul>
+<p><img alt="Shrug shoulders, Temporal set, 8sec Window" src="../../../images/meg/Shrug_shoulders_Temporal_8seconds.png" width="30%" />
+<img alt="Shrug shoulders, Occipital set, 8sec Window" src="../../../images/meg/Shrug_shoulders_Occipital_8seconds.png" width="30%" /></p>
+<p><align=full></p>
+<ul>
+<li><strong><span style="color:red">Shrug Shoulders</span></strong>.<br />
+The Participant was asked to <strong>"shrug" their shoulders</strong>, about once a second. Temporal (left image) and Occipital (right image). The majority of the artifact is probably muscle EMG; the Participant kept their head surprisingly still during the task.
+<br /><br /></li>
+</ul>
+<p><img alt="Clench Teeth, Frontal set, 5sec Window" src="../../../images/meg/Teeth_Clench_Frontal_5sec.png" width="30%" />
+<img alt="Clench Teeth, Parietal set, 5sec Window" src="../../../images/meg/Teeth_Clench_Parietal_5sec.png" width="30%" />
+<img alt="Clench Teeth, Occipital set, 5sec Window" src="../../../images/meg/Teeth_Clench_Occipital_5sec.png" width="30%" /></p>
+<p><align=full></p>
+<ul>
+<li><strong><span style="color:red">Clench Teeth</span></strong>.<br />
+The Participant was asked to <strong>clench their teeth and then relax</strong>. Frontal (left), Parietal (center) and Occipital (right). Majority of the artifact is jaw muscle EMG.</li>
+</ul>
+<p><span style="color:blue"><strong><em>With many thanks to Davd L. Winter.</em></strong></span></p>
 
 
 
