@@ -14,7 +14,7 @@ All objects within the room are non-metallic/non-magnetic. It is imperative that
 **This is important for two reasons:**
 
 * **Firstly**, the sensors (SQUIDs) are ultrasensitive in the sense that they can pick up changes in magnetic field in the range of femtoteslas. 
-Bringing magnetic objects close to the MSR can cause flux traps in the SQUIDs. This may lead to a long and expensive service break and delay the measurements.
+Bringing magnetic objects close to the gantry helmet can cause flux traps in the SQUIDs. This may lead to a long and expensive service break and delay the measurements.
 
 * **Secondly**, bringing metal/magnetic objects into the MSR will distort your measurements.
 
