@@ -40,6 +40,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 		- [Perform a "RAP"](acquisition/rap.md)
 		- [Restart Acquisition](acquisition/restart_acquisition.md)
 		- [Metal items Checklist](pdfs/Metal_items_checklist.pdf)
+		- [Atypical MEG Signals](acquisition/atypical_meg_signals.md)
 	- [Moving the Gantry](acquisition/moving-the-gantry.md)
 	- [Correct Positioning & Usage of EEG Caps](acquisition/position_usage_eeg_caps.md)
 	- [EEG & MEG](acquisition/eeg_meg.md)
