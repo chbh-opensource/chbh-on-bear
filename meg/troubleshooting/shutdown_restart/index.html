@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#meg-equipment-power-shutdown-restart" class="md-skip">
+        <a href="#meg-power-shutdown-restart" class="md-skip">
           Skip to content
         </a>
       
@@ -2283,6 +2283,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MEG Power Shutdown/Restart
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -2299,6 +2317,47 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3773,6 +3832,36 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3791,7 +3880,105 @@
   
 
 
-<h1 id="meg-equipment-power-shutdown-restart">MEG Equipment Power Shutdown / Restart</h1>
+<h1 id="meg-power-shutdown-restart">MEG Power Shutdown / Restart</h1>
+<h3 id="problem"><strong><span style="color:maroon">Problem</span></strong></h3>
+<p>CHBH was informed by Estates of a <strong>whole building shutdown on Saturday 15th January 2022, for High Voltage maintenance</strong>. The shutdown was to <strong>last at least 6 hours.</strong> <br />
+A <strong>Measurement Window was set to start ~30min/60min before shutdown</strong>, to make sure <strong>liquefaction wasn't taking place</strong>.</p>
+<h3 id="solution"><strong><span style="color:maroon">Solution</span></strong></h3>
+<p>After liasing with MEGIN, the <strong>shutdown/startup procedure was agreed as follows</strong>...</p>
+<p><br />
+<strong><span style="font-size:large;color:blue">To shutdown beforehand, say ~30min before the agreed time...</span></strong></p>
+<ul>
+<li><strong>Power down the Stim PC/s, Participant Logging Computer, EyeLink Host Computer (<em>as necessary</em>).<br />
+Turn off the monitors.<br /> Power down the two UPS on the Control Room floor (<em>make sure they don't restart!</em>)</strong>.<ul>
+<li><strong>Press</strong> and <strong>hold the Power button</strong> for <strong>approximately 0.5 to 1 second</strong>. The unit <strong>should beep, indicating it is turning off. Front panel LED should go out</strong>.</li>
+<li><strong>Switch off</strong> the <strong>Mains</strong> at the wall socket.</li>
+</ul>
+</li>
+<li><strong><em>May be prudent to power off above equipment the day before, to reduce workload on the day.</em></strong></li>
+<li>Set the <strong>Internal Helium Recycler (IHR)</strong> to <strong>Maintenance Mode</strong> using the <strong>Service GUI</strong>.</li>
+<li><strong>Close valve BV4</strong> on the pressure regulator panel in the Internal Helium Recycler cabinet.</li>
+<li><strong>Open valve BV13</strong> (<strong><em>Refill Bypass Valve - on the wall behind the MSR</em></strong>) to let any excess Helium <strong>exit outside via Helium exhaust pipe</strong>.</li>
+<li><strong>Make sure</strong> that the <strong>Main Power Switch on the cryocooler compressor</strong> is set to <strong>OFF</strong> (<strong><em>the cryocooler shouldn't be running, but stop liquefaction first if it is</em></strong>).</li>
+<li><strong>Turn off</strong> the <strong>Electronics cabinet</strong> components... <strong>in order (left to right)</strong>.<ul>
+<li><strong>1st - Preamps.</strong></li>
+<li><strong>2nd - SQC Cards.</strong></li>
+<li><strong>3rd - Mains.</strong></li>
+</ul>
+</li>
+<li><strong>Turn off</strong> the <strong>IHR cabinet</strong> (<em><strong>press the UPS Power button</strong> for a few seconds</em>).<ul>
+<li><strong>Turn off</strong> the <strong>IHR Mains power</strong> (<strong><span style="color:red">large red switch</span></strong> on the wall to the right of the cabinet).</li>
+</ul>
+</li>
+<li><strong>Turn off</strong> any <strong>Stimulus cabinet devices</strong>, <strong>power off the bar plug</strong>.</li>
+<li><strong>Turn off</strong> the <strong>gantry lifting motor/traffic lights</strong> (<em>Mains plug on the back wall, behind the MSR</em>).</li>
+<li><strong>Shutdown</strong> the <strong>DACQ console &amp; monitor</strong>.</li>
+<li><strong>Switch off</strong> the <strong>Watchguard Firewall and Network Switch</strong>, in the <strong>Side Room Comms cabinet</strong>.</li>
+<li><strong>Switch off</strong> the <strong>MSR lighting UPS</strong>...<ul>
+<li><strong>Press</strong> the <strong>Power button</strong> on the front panel for <strong>2 seconds</strong>, <strong>release</strong> at first beep.</li>
+<li><strong>Switch off</strong> the <strong>Mains</strong> at the wall socket.</li>
+</ul>
+</li>
+<li><strong>Switch off</strong> the MSR <strong>Jun-Air air compressor</strong> (<em>in the IHR Tank room, found</em> <strong><em>behind the tanks</em></strong>).</li>
+<li><strong>Power down</strong> the <strong>two Eaton UPS</strong> located at the <strong>back of the IHR Tank room</strong>...<ul>
+<li><strong>Press</strong> the <strong>Power button</strong> on the front panel for <strong>3 seconds</strong>.</li>
+<li>The UPS should <strong>start to beep</strong> and show a <strong>status of "UPS off pending..."</strong>. The UPS then transfers to <strong>Standby mode</strong>, and the Mains indicator <strong>turns off</strong>.</li>
+<li><strong>Switch off</strong> the <strong>Mains</strong> for each UPS (<em>Sockets on back wall, to the right of both UPS</em>).</li>
+</ul>
+</li>
+</ul>
+<p><strong><span style="font-size:large;color:blue">To startup, after confirmation that Mains power is fully restored...</span></strong></p>
+<ul>
+<li><strong>Switch on</strong> the <strong>Mains</strong> sockets for the <strong>two Eaton UPS</strong>.<ul>
+<li><strong>Both UPS front panel displays illuminate</strong> and <strong>show a status of "UPS initializing..."</strong>.</li>
+<li>...both should then <strong>transfer to Standby mode ("UPS on standby")</strong>.</li>
+</ul>
+</li>
+<li>Press the <strong>Power buttons</strong> on both front panels for <strong>at least 1 second</strong>.<ul>
+<li>The UPS front panel displays <strong>change status to "UPS starting..."</strong>.</li>
+<li><strong>Confirm the Power On indicator are lit</strong> and showing <strong><span style="color:green">solid green</span></strong>, indicating that both UPS are <strong>operating normally</strong> and <strong>any loads are powered</strong> (<strong><em>or will be once they are turned on</em></strong>).</li>
+<li>The UPS should <strong>now be in Normal mode</strong>.</li>
+<li><strong>Press</strong> the <strong>ESC button</strong> until the <strong>start screen appears</strong>.</li>
+</ul>
+</li>
+<li><strong>Switch on</strong> the MSR <strong>Jun-Air air compressor</strong> (<em>in the IHR tank room, found</em> <strong><em>behind the tanks</em></strong>).</li>
+<li><strong>Switch on</strong> the <strong>MSR lighting UPS...</strong><ul>
+<li><strong>Switch on</strong> the <strong>Mains</strong> socket.</li>
+<li><strong>Press</strong> the <strong>Power button</strong> on the front panel.</li>
+<li>The <strong><span style="color:green">green "On Line"</span></strong> indicator <strong>flashes</strong>.</li>
+<li>The <strong><span style="color:#E4D00A">yellow "On Battery"</span></strong> indicator <strong>lights</strong> while the <strong>Self-test</strong> is being performed.</li>
+<li>When <strong>Self-Test</strong> has <strong>successfully</strong> completed, <strong>only the <span style="color:green">green "On Line"</span> indicator</strong> will be lit.</li>
+<li><strong>Check</strong> the MSR lights <strong>come on</strong> when the <strong>light switch is depressed</strong>.</li>
+</ul>
+</li>
+<li><strong>Switch on</strong> the <strong>Watchguard Firewall and Network Switch</strong>, in the <strong>Side Room Comms cabinet</strong>.</li>
+<li><strong>Turn on</strong> the <strong>gantry lifting motor/traffic lights</strong> (<em>Mains plug on the back wall, behind the MSR</em>).</li>
+<li><strong>Turn on</strong> the <strong>Electronics cabinet</strong> components... <strong>in order (right to left)</strong>.<ul>
+<li><strong>1st - Mains</strong>.</li>
+</ul>
+</li>
+<li><strong>Power up</strong> the <strong>DACQ console and monitor</strong>, wait until login splash screen appears on the monitor.<ul>
+<li><strong>2nd - SQC Cards</strong>.</li>
+<li><strong>3rd - preamps</strong>.</li>
+</ul>
+</li>
+<li><strong>Run</strong> a <strong><a href="../../acquisition/rap/">RAP</a></strong> (<strong>R</strong>estart <strong>A</strong>cquisition <strong>P</strong>rograms) on the <strong>DACQ</strong>.</li>
+<li><strong>Turn on</strong> the <strong>IHR Mains power</strong> (<strong><span style="color:red">large red switch</span></strong> on the wall to the right of the cabinet).</li>
+<li><strong>Turn on</strong> the <strong>IHR cabinet</strong> (<em><strong>press the UPS Power button</strong> for a few seconds</em>).</li>
+<li><strong>Turn on</strong> the <strong>Main Power Switch on the cryocooler compressor</strong>.</li>
+<li><strong>Turn on</strong> the bar plug in the <strong>Stimulus cabinet</strong>, <strong>power on</strong> any <strong>devices</strong>.</li>
+<li><strong>Open valve BV4</strong> on the pressure regulator panel in the Internal Helium Recycler cabinet.<ul>
+<li><strong>Wait for 1 minute</strong>.</li>
+</ul>
+</li>
+<li><strong>Close valve BV13</strong> (<strong><em>Refill Bypass Valve - on the wall behind the MSR</em></strong>).</li>
+<li><strong>Set</strong> the IHR to <strong>Normal Mode/Cooldown Mode</strong> (as necessary) using the <strong>Service GUI</strong>.<ul>
+<li><strong>Check</strong> the <strong>correct LED combination</strong> is <strong>showing on the IHR cabinet door</strong>.</li>
+</ul>
+</li>
+<li><strong>Turn on the two UPS on the Control Room floor; power on Stim PC, Participant Logging Computer, EyeLink Host Computer (as necessary)</strong>.</li>
+<li><strong><span style="font-size:large;color:maroon">Phew, Well done! Have a well-deserved cup of coffee!</span></strong></li>
+</ul>
 
 
 
