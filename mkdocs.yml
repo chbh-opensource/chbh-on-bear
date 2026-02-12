@@ -114,6 +114,7 @@ nav:
       - VPixx Projector: meg/stimulus/propixx.md
     - Analysis Tools:
       - MNE-Python: meg/analysis/mne.md
+    - Troubleshooting:
   - Eye-tracking:
     - eye-tracking/index.md
   - EEG:

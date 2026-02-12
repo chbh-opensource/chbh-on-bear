@@ -90,6 +90,13 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 
     - [MNE-Python](analysis/mne.md)
 
+
+-   **Troubleshooting**
+
+    ---
+
+    Issues encountered, when they occured (if necessary), usual solutions
+
 </div>
 
 !!! info "CHBH Sharepoint Pages"
