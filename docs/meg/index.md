@@ -97,7 +97,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 
     Issues encountered, when occured (if required), usual solutions
 
-    - [MEG Power Shutdown/Restart](troubleshooting/shutdown_restart.md)
+    - [MEG Troubleshooting](troubleshooting/troubleshooting.md)
 
 
 </div>

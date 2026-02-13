@@ -114,8 +114,7 @@ nav:
       - VPixx Projector: meg/stimulus/propixx.md
     - Analysis Tools:
       - MNE-Python: meg/analysis/mne.md
-    - Troubleshooting:
-      - MEG Power Shutdown/Restart: meg/troubleshooting/shutdown_restart.md
+    - MEG Troubleshooting: meg/troubleshooting/troubleshooting.md
   - Eye-tracking:
     - eye-tracking/index.md
   - EEG:
