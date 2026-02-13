@@ -114,7 +114,9 @@ nav:
       - VPixx Projector: meg/stimulus/propixx.md
     - Analysis Tools:
       - MNE-Python: meg/analysis/mne.md
-    - MEG Troubleshooting: 
+    - MEG Troubleshooting:
+        - Troubleshooting Index: meg/troubleshooting/troubleshooting.md
+        - SLEEP Mode: meg/troubleshooting/sleep_mode.md
         - MEG Power Shutdown/Restart: meg/troubleshooting/shutdown_restart.md
   - Eye-tracking:
     - eye-tracking/index.md
