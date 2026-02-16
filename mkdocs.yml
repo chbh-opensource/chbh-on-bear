@@ -150,10 +150,13 @@ nav:
     - fnirs/index.md
   - Software on BEAR:
     - software/index.md
-    - Conda: software/conda.md
     - Containers: software/containers.md
     - MATLAB: software/matlab.md
-    - Python: software/python.md
+    - Python: 
+      - software/python/python.md
+      - Package managers:
+        - Conda: software/python/conda.md
+        - uv: software/python/uv.md
     - R: software/R.md
   - Making a contribution : making_a_contribution.md
   - FAQs: faqs.md
