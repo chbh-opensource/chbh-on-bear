@@ -117,12 +117,19 @@ nav:
     - MEG Troubleshooting:
         - Troubleshooting Index: meg/troubleshooting/troubleshooting.md
         - SLEEP Mode: meg/troubleshooting/sleep_mode.md
+        - MaxShield state: meg/troubleshooting/maxshield.md
+        - MSR Intercom error: meg/troubleshooting/intercom.md
         - MEG Power Shutdown/Restart: meg/troubleshooting/shutdown_restart.md
         - No EyeLink Camera Power: meg/troubleshooting/eyelink_camera_power.md
         - PsychoPy error: meg/troubleshooting/psychopy_error.md
         - MSR lighting: meg/troubleshooting/msr_lights.md
   - Eye-tracking:
     - eye-tracking/index.md
+    - Acquisition:
+      - Equipment and setup: eye-tracking/acquisition/how_to_acquire.md
+      - Preparing code for ET: eye-tracking/acquisition/preparing_code_for_ET.md
+    - Hardware:
+      - Eye-Tracking Devices: eye-tracking/hardware/eye-tracking.md
   - EEG:
     - eeg/index.md
     - Hardware:
