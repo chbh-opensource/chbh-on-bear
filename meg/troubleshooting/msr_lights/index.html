@@ -2393,7 +2393,7 @@
   <span class="md-ellipsis">
     
   
-    Psychopy error
+    PsychoPy error
   
 
     
@@ -2423,6 +2423,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MSR lighting
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -2439,6 +2457,47 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -4051,6 +4110,36 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -4070,6 +4159,27 @@
 
 
 <h1 id="msr-lights-not-always-turning-on">MSR lights not always turning on</h1>
+<h3 id="problem"><strong><span style="color:maroon">Problem</span></strong></h3>
+<p>On 22nd March 2024 a MEG Operator reported the <strong>MSR lights were failing to turn on every time</strong>. 
+Only <strong>after waiting a few minutes did they come on again</strong>. Other MEG Operators may have come across this problem previously but not reported it, or not noted it in the Maintenance Log.
+<br />This <strong>inconsistency with the lighting had been seen before</strong>, but not for a year or so (<strong><em>the MSR lighting UPS battery was replaced in May 2022</em></strong>).
+<br /> <strong>No fuse was found to be tripping</strong>, and an <strong>email was sent to VAC asking for advice</strong>.</p>
+<h3 id="solution"><strong><span style="color:maroon">Solution</span></strong></h3>
+<p>After <strong>emailing a photo</strong> of the UPS connections, <strong>VAC noticed a wrong connection</strong>.<br />
+This probably occurred when the UPS was put back together/connections remade, after the battery replacement in 2022.<br />
+<strong>The UPS has four outlets,</strong> <strong><em>three are "Battery Backup"</em></strong> <strong>and</strong> <strong><em>one is "Surge Only"</em></strong>.<br /> In the <strong>case of a power outage</strong>, <strong>battery power is automatically provided to the Battery Backup outlets</strong>,
+whereas the <strong>Surge Only outlet is always "ON"</strong> (<strong><em>when utility power is available</em></strong>), and <strong>DOES NOT receive any power during a power outage</strong>.<br />
+The <strong>MSR lighting setup has two yellow power cables, one with a Black connector and one with a Grey connector</strong>. The <strong>Black connector</strong> is now known to <strong>require continuous current/power</strong> 
+and was <strong>incorrectly attached to a Battery Backup outlet</strong> after the battery replacement.<br />
+After powering off the UPS, the <strong>Black cable connector</strong> was then <strong>correctly attached to the Surge Only outlet</strong> (<strong><em>VAC says it could also be attached directly to a wall socket</em></strong>), 
+and the <strong>Grey cable connector</strong> was attached to <strong>one of the Battery Backup outlets</strong>.
+The <strong>Grey cable connector powers two emergency lights</strong> in the <strong>event of a power failure</strong>.<br />
+The <strong>UPS was powered on</strong> again and the <strong>lights were tested</strong>. All good.</p>
+<p><img align="left" alt="MSR UPS lighting connections" src="../../../images/meg/MSR_UPS_battery_connections.jpg" width="40%" /></p>
+<p><br /><br /><br /></p>
+<ul>
+<li>Image of the <strong>now-correct UPS power cable connections</strong>.</li>
+</ul>
 
 
 

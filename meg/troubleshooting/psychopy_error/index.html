@@ -25,7 +25,7 @@
     
     
       
-        <title>Psychopy error - CHBH User Handbook</title>
+        <title>PsychoPy error - CHBH User Handbook</title>
       
     
     
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Psychopy error
+              PsychoPy error
             
           </span>
         </div>
@@ -2395,6 +2395,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PsychoPy error
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -2402,7 +2420,7 @@
   <span class="md-ellipsis">
     
   
-    Psychopy error
+    PsychoPy error
   
 
     
@@ -2411,6 +2429,58 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fix
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -4051,6 +4121,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fix
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -4070,6 +4181,30 @@
 
 
 <h1 id="psychopy-error">PsychoPy error</h1>
+<h3 id="problem"><strong><span style="color:maroon">Problem</span></strong></h3>
+<p>In June 2024 an Operator reported the <strong>following error when starting an experiment in PsychoPy on the new Stim PC</strong>.</p>
+<p><code>from pyQt5 import Qtwidgets</code><br />
+<code>DLL load failed: the specified procedure could not be found</code></p>
+<p>The <strong>version of PsychoPy currently installed</strong> is <strong>v2022.1.4</strong></p>
+<h3 id="solution"><strong><span style="color:maroon">Solution</span></strong></h3>
+<p>Evidently <strong>another MEG Operator had set the internal version of PsychoPy to an earlier version</strong>, to enable their older code to work without them needing to rewrite/update their code.
+<br />This <strong>internal version wasn't then returned</strong> to the <strong>default</strong> "<strong><em>latest</em></strong>" <strong>after use</strong>, so the <strong>subsequent MEG Operator's code failed with the above error</strong>.</p>
+<h3 id="fix"><strong><span style="color:maroon">Fix</span></strong></h3>
+<p>If the <strong>internal version is needed to be changed to get older code to work</strong>, then please do so but <strong>remember to change</strong> the "<strong><em>Use PsychoPy version</em></strong>" back to "<strong><em>latest</em></strong>" after the session is over, 
+to <strong>avoid affecting other MEG Operator's experiments</strong>.</p>
+<p>To <strong>make the internal change</strong>...</p>
+<ul>
+<li>Start <strong>PsychoPy v2022.1.4</strong>, from either the pinned shortcut in the Taskbar, or from the Desktop shortcut (if there is one).</li>
+<li>Load Experiment.</li>
+<li>Click on the <strong>CogWheel</strong> icon, which opens the <strong>Properties</strong> window for the Experiment.</li>
+<li>In the "<strong><em>Use PsychoPy version</em></strong>" option, <strong>choose the version needed</strong> to make the code work.</li>
+<li>Once Experiment is over, click on the <strong>CogWheel</strong> icon again, and change the "<strong><em>Use PsychoPy version</em></strong>" back to "<strong><em>latest</em></strong>".</li>
+</ul>
+<p><img align="left" alt="PsychoPy Properties Window" src="../../../images/meg/PsychoPy_Properties_window.jpeg" width="40%" /></p>
+<p><br /><br /></p>
+<ul>
+<li>Image of the <strong>Properties</strong> window, showing "<strong><em>latest</em></strong>" as the "<strong><em>Use PsychoPy version</em></strong>".</li>
+</ul>
 
 
 
