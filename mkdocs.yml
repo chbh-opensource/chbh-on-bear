@@ -119,7 +119,7 @@ nav:
         - SLEEP Mode: meg/troubleshooting/sleep_mode.md
         - MEG Power Shutdown/Restart: meg/troubleshooting/shutdown_restart.md
         - No EyeLink Camera Power: meg/troubleshooting/eyelink_camera_power.md
-        - Psychopy error: meg/troubleshooting/psychopy_error.md
+        - PsychoPy error: meg/troubleshooting/psychopy_error.md
         - MSR lighting: meg/troubleshooting/msr_lights.md
   - Eye-tracking:
     - eye-tracking/index.md
