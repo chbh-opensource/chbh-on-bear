@@ -5,16 +5,20 @@
 
 FreeSurfer requires a license registration key in order to be used. This can be obtained from [here](https://surfer.nmr.mgh.harvard.edu/registration.html). Once downloaded, the file should be uploaded to your home directory on Bear. This can be done using "Files" tab on the [BlueBEAR portal](https://portal.bear.bham.ac.uk/), or using file transfer software, such as [WinSCP](https://winscp.net/eng/index.php), or [FileZilla](https://filezilla-project.org/). 
 
+## FreeSurfer Versions
+
+Visit [FreeSurfer on BEAR](https://apps.bear.bham.ac.uk/applications/FreeSurfer/) for available versions of FreeSurfer on BlueBEAR.
+
 ## Running recon-all
 
 The `recon-all` command performs all, or any part of, the FreeSurfer cortical reconstruction process. The outputs of `recon-all` can be used to define the surfaces required for the boundary estimate model (BEM) required when performing source reconstruction on M/EEG data. The function can be run via BlueBEAR using the example script (recon_all.sh) below:
 
 ``` bash
 #!/usr/bin/env bash
-#SBATCH --qos bbdefault
-#SBATCH --time 1440
-#SBATCH --ntasks 4
-#SBATCH --mem-per-cpu 2
+#SBATCH --qos=bbdefault
+#SBATCH --time=24:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
 
 module purge
 module load bear-apps/2019a/live
@@ -24,9 +28,8 @@ export FS_LICENSE=${HOME}/license.txt
 export SUBJECTS_DIR=/rds/projects/b/bagshaap-eeg-fmri-hmm/fs_outputs
 
 recon-all -s sub-01 -i /rds/projects/b/bagshaap-eeg-fmri-hmm/T1_vol_v1_5.nii.gz \
--all \ 
--log logfile \ 
 -all \
+-log logfile \
 -parallel -openmp 4
 ```
 
@@ -57,10 +60,10 @@ Alternatively, if you need to run recon-all for multiple subjects at once, for e
 
 ``` bash
 #!/usr/bin/env bash
-#SBATCH --qos bbdefault
-#SBATCH --time 1440
-#SBATCH --ntasks 4
-#SBATCH --mem-per-cpu 2
+#SBATCH --qos=bbdefault
+#SBATCH --time=24:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
 #SBATCH --array=1-20 # 20 represents the total number of subjects
 
 module purge
@@ -74,9 +77,8 @@ subject_id_number=$(printf "%02d" ${SLURM_ARRAY_TASK_ID})
 
 recon-all -s sub-${subject_id_number} \
 -i /rds/projects/b/bagshaap-eeg-fmri-hmm/bids_dataset/sub-${}/anat/sub-${subject_id_number}_T1w.nii.gz  \
--all \ 
--log logfile \ 
 -all \
+-log logfile \
 -parallel -openmp 4
 ```
 
@@ -88,10 +90,10 @@ In the example below we assume a container named `freesurfer.sif` has been downl
 
 ``` bash
 #!/usr/bin/env bash
-#SBATCH --qos bbdefault
-#SBATCH --time 1440
-#SBATCH --ntasks 4
-#SBATCH --mem-per-cpu 2
+#SBATCH --qos=bbdefault
+#SBATCH --time=24:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks=4
 
 FS_LICENSE=${HOME}/license.txt
 SUBJECTS_DIR=/rds/projects/b/bagshaap-eeg-fmri-hmm/Projects/Visual_Response_Variability/fs_outputs
@@ -99,7 +101,7 @@ SUBJECTS_DIR=/rds/projects/b/bagshaap-eeg-fmri-hmm/Projects/Visual_Response_Vari
 apptainer exec --env FS_LICENSE=${FS_LICENSE} --env SUBJECTS_DIR=${SUBJECTS_DIR} \
 freesurfer.sif \
 recon-all -s sub-01 -i /rds/projects/b/bagshaap-eeg-fmri-hmm/T1_vol_v1_5.nii.gz \
--log logfile \ 
 -all \
+-log logfile \
 -parallel -openmp 4
 ```
