@@ -182,8 +182,8 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 - [ ] If **using only 4** coils, **tape the 5th (YELLOW) coil** to the **shoulder**.<br /> *This one will not be used or digitised*.
 
 !!! Note
-	- If desired, The 5th coil can be placed in the upper parietal region, preferably somewhat off midline.<br />
-	- Do not place the fifth coil directly on vertex as it may interfere with the Internal Active Shielding (**IAS**) if turned on. 
+	- If desired, the 5th coil can be placed in the upper parietal region, preferably somewhat off midline.<br />
+	- Do not place the 5th coil directly on vertex as it may interfere with the Internal Active Shielding (**IAS**) if turned on. 
 	- Avoid the locations of the zero detectors when placing the HPI coils in order to prevent this problem. Refer to the **IAS User’s Manual** section found in the **User's Manual** for zero detector locations (middle shelf, right-hand white cupboard in Control Room).
 
 - [ ] **Place** the *Polhemus* goggles **carefully on your participant**, or attach the small receiver firmly on the forehead using tape. Make sure the coils do not come unstuck.
