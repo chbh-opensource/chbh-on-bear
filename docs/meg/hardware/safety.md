@@ -26,7 +26,7 @@ In the test, somebody waves the study object inside the closed MSR and somebody 
 Start from the door and then proceed towards the MEG little by little. 
 If your colleague sees artifacts on the raw data display, then the object is magnetic and you should avoid bringing it inside the MSR.
 
-Please check whether your participant has removed all of the following items before entering the MSR:
+!!! Warning "Please check whether your participant has removed all of the following items before entering the MSR:"
 
 * Phones
 * Keys
