@@ -2,7 +2,7 @@
 
 ### **<span style="color:maroon">Problem</span>**
 
-On a couple of occasions, pressing **"11"**, as usual, on the intercom produced an atypical beep, then a number of rapid beeps were heard and communication to the MSR failed.
+**On a couple of occasions, pressing** **"11"**, as usual, on the intercom **produced an atypical beep**, then a number of rapid beeps were heard and **communication to the MSR failed**.
 
 ### **<span style="color:maroon">Solution</span>**
 

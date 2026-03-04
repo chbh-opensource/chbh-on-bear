@@ -12,6 +12,10 @@
 
 ### **[PsychoPy error](../../meg/troubleshooting/psychopy_error.md)**
 
+### **[BlueBEAR Login Server Issue](../../meg/troubleshooting/bluebear_login_issue.md)**
+
+### **[EyeLink BIOS battery](../../meg/troubleshooting/eyelink_bios_battery.md)**
+
 ### **[MSR lighting](../../meg/troubleshooting/msr_lights.md)**
 
 
