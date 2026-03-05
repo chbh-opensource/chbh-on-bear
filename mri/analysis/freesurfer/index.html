@@ -674,6 +674,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#freesurfer-versions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FreeSurfer Versions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#running-recon-all" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4483,6 +4494,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#freesurfer-versions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FreeSurfer Versions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#running-recon-all" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -4539,13 +4561,15 @@
 <p><b><a href="https://surfer.nmr.mgh.harvard.edu/">FreeSurfer</a> is an open-source package for the analysis and visualization of structural, functional, and diffusion neuroimaging data from cross-sectional and longitudinal studies.</b></p>
 <h2 id="freesurfer-license">FreeSurfer License</h2>
 <p>FreeSurfer requires a license registration key in order to be used. This can be obtained from <a href="https://surfer.nmr.mgh.harvard.edu/registration.html">here</a>. Once downloaded, the file should be uploaded to your home directory on Bear. This can be done using "Files" tab on the <a href="https://portal.bear.bham.ac.uk/">BlueBEAR portal</a>, or using file transfer software, such as <a href="https://winscp.net/eng/index.php">WinSCP</a>, or <a href="https://filezilla-project.org/">FileZilla</a>. </p>
+<h2 id="freesurfer-versions">FreeSurfer Versions</h2>
+<p>Visit <a href="https://apps.bear.bham.ac.uk/applications/FreeSurfer/">FreeSurfer on BEAR</a> for available versions of FreeSurfer on BlueBEAR.</p>
 <h2 id="running-recon-all">Running recon-all</h2>
 <p>The <code>recon-all</code> command performs all, or any part of, the FreeSurfer cortical reconstruction process. The outputs of <code>recon-all</code> can be used to define the surfaces required for the boundary estimate model (BEM) required when performing source reconstruction on M/EEG data. The function can be run via BlueBEAR using the example script (recon_all.sh) below:</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="ch">#!/usr/bin/env bash</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="c1">#SBATCH --qos bbdefault</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="c1">#SBATCH --time 1440</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="c1">#SBATCH --ntasks 4</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="c1">#SBATCH --mem-per-cpu 2</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="c1">#SBATCH --qos=bbdefault</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="c1">#SBATCH --time=24:00:00</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="c1">#SBATCH --nodes=1</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="c1">#SBATCH --ntasks=4</span>
 </span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
 </span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>module<span class="w"> </span>purge
 </span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>module<span class="w"> </span>load<span class="w"> </span>bear-apps/2019a/live
@@ -4555,10 +4579,9 @@
 </span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="nb">export</span><span class="w"> </span><span class="nv">SUBJECTS_DIR</span><span class="o">=</span>/rds/projects/b/bagshaap-eeg-fmri-hmm/fs_outputs
 </span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>
 </span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>recon-all<span class="w"> </span>-s<span class="w"> </span>sub-01<span class="w"> </span>-i<span class="w"> </span>/rds/projects/b/bagshaap-eeg-fmri-hmm/T1_vol_v1_5.nii.gz<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>-all<span class="w"> </span><span class="se">\ </span>
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>-log<span class="w"> </span>logfile<span class="w"> </span><span class="se">\ </span>
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>-all<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>-parallel<span class="w"> </span>-openmp<span class="w"> </span><span class="m">4</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>-all<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>-log<span class="w"> </span>logfile<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>-parallel<span class="w"> </span>-openmp<span class="w"> </span><span class="m">4</span>
 </span></code></pre></div>
 <p>This script can then be submitted using the following command:</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>sbatch<span class="w"> </span>recon_all.sh
@@ -4610,10 +4633,10 @@
 <h2 id="running-recon-all-on-multiple-subjects">Running recon-all on Multiple Subjects</h2>
 <p>Alternatively, if you need to run recon-all for multiple subjects at once, for example, on an entire BIDS dataset, it is possible to submit all jobs using the below script (recon_all_bids.sh):</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="ch">#!/usr/bin/env bash</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="c1">#SBATCH --qos bbdefault</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="c1">#SBATCH --time 1440</span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c1">#SBATCH --ntasks 4</span>
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="c1">#SBATCH --mem-per-cpu 2</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="c1">#SBATCH --qos=bbdefault</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="c1">#SBATCH --time=24:00:00</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c1">#SBATCH --nodes=1</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="c1">#SBATCH --ntasks=4</span>
 </span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="c1">#SBATCH --array=1-20 # 20 represents the total number of subjects</span>
 </span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>
 </span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>module<span class="w"> </span>purge
@@ -4627,19 +4650,18 @@
 </span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a>
 </span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a>recon-all<span class="w"> </span>-s<span class="w"> </span>sub-<span class="si">${</span><span class="nv">subject_id_number</span><span class="si">}</span><span class="w"> </span><span class="se">\</span>
 </span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a>-i<span class="w"> </span>/rds/projects/b/bagshaap-eeg-fmri-hmm/bids_dataset/sub-<span class="si">${}</span>/anat/sub-<span class="si">${</span><span class="nv">subject_id_number</span><span class="si">}</span>_T1w.nii.gz<span class="w">  </span><span class="se">\</span>
-</span><span id="__span-2-19"><a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a>-all<span class="w"> </span><span class="se">\ </span>
-</span><span id="__span-2-20"><a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a>-log<span class="w"> </span>logfile<span class="w"> </span><span class="se">\ </span>
-</span><span id="__span-2-21"><a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a>-all<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-2-22"><a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a>-parallel<span class="w"> </span>-openmp<span class="w"> </span><span class="m">4</span>
+</span><span id="__span-2-19"><a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a>-all<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-2-20"><a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a>-log<span class="w"> </span>logfile<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-2-21"><a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a>-parallel<span class="w"> </span>-openmp<span class="w"> </span><span class="m">4</span>
 </span></code></pre></div>
 <h2 id="running-freesurfer-in-a-container">Running FreeSurfer in a Container</h2>
 <p>Running FreeSurfer within a container allows for greater control over the software versions and improves the reproducibility of the analysis. FreeSurfer containers are available on <a href="https://hub.docker.com/r/freesurfer/freesurfer/tags">Dockerhub</a>, or can be created using <a href="https://github.com/ReproNim/neurodocker">NeuroDocker</a> (see the <a href="../../../software/containers/">Containers</a> page for details on downloading containers). </p>
 <p>In the example below we assume a container named <code>freesurfer.sif</code> has been downloaded:</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="ch">#!/usr/bin/env bash</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="c1">#SBATCH --qos bbdefault</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="c1">#SBATCH --time 1440</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="c1">#SBATCH --ntasks 4</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="c1">#SBATCH --mem-per-cpu 2</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="c1">#SBATCH --qos=bbdefault</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="c1">#SBATCH --time=24:00:00</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="c1">#SBATCH --nodes=1</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="c1">#SBATCH --ntasks=4</span>
 </span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
 </span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="nv">FS_LICENSE</span><span class="o">=</span><span class="si">${</span><span class="nv">HOME</span><span class="si">}</span>/license.txt
 </span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="nv">SUBJECTS_DIR</span><span class="o">=</span>/rds/projects/b/bagshaap-eeg-fmri-hmm/Projects/Visual_Response_Variability/fs_outputs
@@ -4647,8 +4669,8 @@
 </span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>apptainer<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>--env<span class="w"> </span><span class="nv">FS_LICENSE</span><span class="o">=</span><span class="si">${</span><span class="nv">FS_LICENSE</span><span class="si">}</span><span class="w"> </span>--env<span class="w"> </span><span class="nv">SUBJECTS_DIR</span><span class="o">=</span><span class="si">${</span><span class="nv">SUBJECTS_DIR</span><span class="si">}</span><span class="w"> </span><span class="se">\</span>
 </span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>freesurfer.sif<span class="w"> </span><span class="se">\</span>
 </span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>recon-all<span class="w"> </span>-s<span class="w"> </span>sub-01<span class="w"> </span>-i<span class="w"> </span>/rds/projects/b/bagshaap-eeg-fmri-hmm/T1_vol_v1_5.nii.gz<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>-log<span class="w"> </span>logfile<span class="w"> </span><span class="se">\ </span>
-</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>-all<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>-all<span class="w"> </span><span class="se">\</span>
+</span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>-log<span class="w"> </span>logfile<span class="w"> </span><span class="se">\</span>
 </span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>-parallel<span class="w"> </span>-openmp<span class="w"> </span><span class="m">4</span>
 </span></code></pre></div>
 
