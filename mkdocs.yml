@@ -34,7 +34,7 @@ theme:
     - content.code.copy
   logo: images/CHBH_logo.jpg
   favicon: images/CHBH_logo.jpg
-  
+
   palette:
     # Light mode
     - scheme: default
@@ -164,7 +164,7 @@ nav:
     - software/index.md
     - Containers: software/containers.md
     - MATLAB: software/matlab.md
-    - Python: 
+    - Python:
       - software/python/python.md
       - Package managers:
         - Conda: software/python/conda.md
@@ -172,3 +172,4 @@ nav:
     - R: software/R.md
   - Making a contribution : making_a_contribution.md
   - FAQs: faqs.md
+  - Hackathon 2026: hackathon_2026.md
