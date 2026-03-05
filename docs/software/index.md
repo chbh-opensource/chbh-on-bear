@@ -8,5 +8,5 @@ Click on the links below to see the examples.
 - [Conda](conda.md)
 - [Containers](containers.md)
 - [MATLAB](matlab.md)
-- [Python](python.md)
+- [Python](python/python.md)
 - [R](R.md)

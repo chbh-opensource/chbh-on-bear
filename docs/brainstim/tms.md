@@ -15,7 +15,7 @@ The following international consensus statements and guidance are required readi
 ### Stimulator
 Magstim Rapid [model number]
 
-![image_of_TMS_here]
+<img src="../../images/brainstim/stimulator.jpg" alt="stimulator" width="200"/>
 
 The Rapid delivers biphasic pulses at up to [max] Hz. The intensity of stimulation will detemine how long each train of stimulation can be applied for.
 
@@ -24,7 +24,8 @@ The Rapid delivers biphasic pulses at up to [max] Hz. The intensity of stimulati
 - [diameter] mm figure-of-eight [model number]
 - [diameter] mm figure-of-eight [model number]
 
-![image_of_TMS_coils_here]
+<img src="../../images/brainstim/off_white_coil.jpg" alt="coil1" width="200"/>
+<img src="../../images/brainstim/white_coil.jpg" alt="coil2" width="200"/>
 
 ### Interface devices
 

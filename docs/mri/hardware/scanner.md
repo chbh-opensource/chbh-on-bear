@@ -2,6 +2,8 @@
 
 **Magnetic Resonance Imaging (MRI)** is a medical imaging technique that uses strong magnetic fields and radio waves to generate detailed images of organs and tissues inside the body. The CHBH houses a SIEMENS MAGNETOM PRISMA 3T installed in January 2019. 
 
+![SIEMENS MAGNETOM PRISMA 3T](../../images/mri/prisma.jpg){width=500}
+
 The scanner can be used to assess brain activity and function through several techniques:
 
 - **Structural MRI** is used to produce high-resolution anatomical images

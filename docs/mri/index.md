@@ -25,6 +25,7 @@ Guides and documentation for MRI analysis and data collection at the CHBH.
     - [Freesurfer](analysis/freesurfer.md)
     - [FSL](analysis/fsl.md)
     - [SPM](analysis/spm.md)
+    - [spant](analysis/spant.md)
 
 -   **Mock MRI**
 
@@ -33,7 +34,6 @@ Guides and documentation for MRI analysis and data collection at the CHBH.
     Equipment and Procedures
 
     - [Mock MRI](mockmri/mockmri.md)
-
 
 </div>
 

@@ -136,6 +136,61 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "martin3141",
+      "name": "Martin Wilson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7724002?v=4",
+      "profile": "http://wilsonlab.co.uk",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "froemero",
+      "name": "froemero",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23497654?v=4",
+      "profile": "https://github.com/froemero",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "toddvogel1628",
+      "name": "toddvogel1628",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33038588?v=4",
+      "profile": "https://github.com/toddvogel1628",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "MEGSupportCHBH",
+      "name": "MEGSupportCHBH",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50209322?v=4",
+      "profile": "https://github.com/MEGSupportCHBH",
+      "contributions": [
+        "content",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "simonmarchant",
+      "name": "Simon Marchant",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55392151?v=4",
+      "profile": "https://github.com/simonmarchant",
+      "contributions": [
+        "content"
+      ]
+    },    
+    {  
+      "login": "kiranphalke50",
+      "name": "kiranphalke50",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39145949?v=4",
+      "profile": "https://github.com/kiranphalke50",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,

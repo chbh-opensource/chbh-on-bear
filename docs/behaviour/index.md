@@ -2,6 +2,7 @@
 
 Guides and documentation for behavioural data collection at the CHBH.
 
+
 <div class="grid cards" markdown>
 
 -   **Technical Information**
@@ -19,7 +20,6 @@ Guides and documentation for behavioural data collection at the CHBH.
     ---
 
     Tracking eyes and pupilometry
-
 
 </div>
 

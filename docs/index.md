@@ -19,8 +19,8 @@ We are always open for new contributions. This is a fantastic way to build your 
 
 <div class="grid cards" markdown>
 
-- <a href="mri" class="card">__MRI__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
-- <a href="meg" class="card">__MEG__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
+- <a href="mri" class="card">__MRI__ ![MRI image](images/mri/prisma.jpg){ loading=lazy }</a>
+- <a href="meg" class="card">__MEG__ ![MEG image](images/meg/TRIUX.jpg){ loading=lazy }</a>
 - <a href="eeg" class="card">__EEG__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
 - <a href="eeg-fmri" class="card">__EEG-fMRI__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
 - <a href="sleep" class="card">__Sleep__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
@@ -57,6 +57,14 @@ Many thanks to our contributors!
       <td align="center" valign="top" width="14.28%"><a href="https://scholar.google.com/citations?user=NL9m-2oAAAAJ&hl=en"><img src="https://avatars.githubusercontent.com/u/134110542?v=4?s=100" width="100px;" alt="Selma Lugtmeijer"/><br /><sub><b>Selma Lugtmeijer</b></sub></a><br /><a href="#content-slugtmeijer" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/TomRhysMarshall"><img src="https://avatars.githubusercontent.com/u/28601348?v=4?s=100" width="100px;" alt="TomRhysMarshall"/><br /><sub><b>TomRhysMarshall</b></sub></a><br /><a href="#content-TomRhysMarshall" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://neurobiography.info"><img src="https://avatars.githubusercontent.com/u/11017354?v=4?s=100" width="100px;" alt="Nicholas Paul Holmes"/><br /><sub><b>Nicholas Paul Holmes</b></sub></a><br /><a href="#content-TheHandLab" title="Content">🖋</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://wilsonlab.co.uk"><img src="https://avatars.githubusercontent.com/u/7724002?v=4?s=100" width="100px;" alt="Martin Wilson"/><br /><sub><b>Martin Wilson</b></sub></a><br /><a href="#content-martin3141" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/froemero"><img src="https://avatars.githubusercontent.com/u/23497654?v=4?s=100" width="100px;" alt="froemero"/><br /><sub><b>froemero</b></sub></a><br /><a href="#content-froemero" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/toddvogel1628"><img src="https://avatars.githubusercontent.com/u/33038588?v=4?s=100" width="100px;" alt="toddvogel1628"/><br /><sub><b>toddvogel1628</b></sub></a><br /><a href="#content-toddvogel1628" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/MEGSupportCHBH"><img src="https://avatars.githubusercontent.com/u/50209322?v=4?s=100" width="100px;" alt="MEGSupportCHBH"/><br /><sub><b>MEGSupportCHBH</b></sub></a><br /><a href="#content-MEGSupportCHBH" title="Content">🖋</a> <a href="#maintenance-MEGSupportCHBH" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/simonmarchant"><img src="https://avatars.githubusercontent.com/u/55392151?v=4?s=100" width="100px;" alt="Simon Marchant"/><br /><sub><b>Simon Marchant</b></sub></a><br /><a href="#content-simonmarchant" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kiranphalke50"><img src="https://avatars.githubusercontent.com/u/39145949?v=4?s=100" width="100px;" alt="kiranphalke50"/><br /><sub><b>kiranphalke50</b></sub></a><br /><a href="#content-kiranphalke50" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>

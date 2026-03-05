@@ -1,7 +1,7 @@
 # CHBH-on-BEAR Documentation
 <!-- markdownlint-disable -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-19-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- markdownlint-restore -->
 
@@ -34,6 +34,14 @@ Many thanks to our contributors - please open an issue if you're missing from th
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/TomRhysMarshall"><img src="https://avatars.githubusercontent.com/u/28601348?v=4?s=100" width="100px;" alt="TomRhysMarshall"/><br /><sub><b>TomRhysMarshall</b></sub></a><br /><a href="#content-TomRhysMarshall" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://neurobiography.info"><img src="https://avatars.githubusercontent.com/u/11017354?v=4?s=100" width="100px;" alt="Nicholas Paul Holmes"/><br /><sub><b>Nicholas Paul Holmes</b></sub></a><br /><a href="#content-TheHandLab" title="Content">🖋</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://wilsonlab.co.uk"><img src="https://avatars.githubusercontent.com/u/7724002?v=4?s=100" width="100px;" alt="Martin Wilson"/><br /><sub><b>Martin Wilson</b></sub></a><br /><a href="#content-martin3141" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/froemero"><img src="https://avatars.githubusercontent.com/u/23497654?v=4?s=100" width="100px;" alt="froemero"/><br /><sub><b>froemero</b></sub></a><br /><a href="#content-froemero" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/toddvogel1628"><img src="https://avatars.githubusercontent.com/u/33038588?v=4?s=100" width="100px;" alt="toddvogel1628"/><br /><sub><b>toddvogel1628</b></sub></a><br /><a href="#content-toddvogel1628" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/MEGSupportCHBH"><img src="https://avatars.githubusercontent.com/u/50209322?v=4?s=100" width="100px;" alt="MEGSupportCHBH"/><br /><sub><b>MEGSupportCHBH</b></sub></a><br /><a href="#content-MEGSupportCHBH" title="Content">🖋</a> <a href="#maintenance-MEGSupportCHBH" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/simonmarchant"><img src="https://avatars.githubusercontent.com/u/55392151?v=4?s=100" width="100px;" alt="Simon Marchant"/><br /><sub><b>Simon Marchant</b></sub></a><br /><a href="#content-simonmarchant" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kiranphalke50"><img src="https://avatars.githubusercontent.com/u/39145949?v=4?s=100" width="100px;" alt="kiranphalke50"/><br /><sub><b>kiranphalke50</b></sub></a><br /><a href="#content-kiranphalke50" title="Content">🖋</a></td>
+    </tr>
   </tbody>
 </table>
 
@@ -50,9 +58,11 @@ This is taken care of by the [`deploy` GitHub Actions workflow](https://github.c
 
 ## Using `mkdocs`
 
-### Creating a Development Environment and Installing `mkdocs`
-
 To install all the required `mkdocs` Python packages, use the provided [requirements.txt](https://github.com/chbh-opensource/chbh-on-bear/tree/main/requirements.txt) file. The recommendation for development is to do this inside a dedicated virtual environment:
+
+The following steps are platform dependent. Please follow the appropriate instructions for your platform (mac/linux, or windows).
+
+### Creating a Development Environment and Installing `mkdocs` - MAC/LINUX
 
 ```shell
 git clone https://github.com/chbh-opensource/chbh-on-bear
@@ -61,6 +71,42 @@ python -m venv ./.venv
 source ./.venv/bin/activate
 pip install -r requirements.txt
 ```
+
+Once installed, only the following commands are needed to render
+
+```shell
+cd chbh-on-bear
+python -m venv ./.venv
+source ./.venv/bin/activate
+mkdocs serve
+```
+
+### Creating a Development Environment and Installing `mkdocs` - WINDOWS
+
+Windows users will need to do a few extra steps:
+
+Open Windows PowerShell (click Windows button and type 'powershell')
+```shell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+Change directory to the place you want to work in and clone the repository
+```shell
+cd <my working directory>
+git clone https://github.com/chbh-opensource/chbh-on-bear
+```
+Create and activate virtual environment
+```shell
+cd chbh-on-bear
+uv venv --python 3.11
+Set-ExecutionPolicy Unrestricted -Scope Process
+cd .venv\Scripts
+.\activate.ps1
+cd ..
+cd ..
+uv pip install -r requirements.txt
+```
+
+The subsequent steps are the same regardless of platform
 
 ### Building
 
@@ -97,6 +143,12 @@ INFO     -  [17:52:07] Serving on http://127.0.0.1:8000/
 ```
 
 This preview of the rendered documentation will automatically refresh when the documentation sources are updated!
+
+If the rendered documentation does not reload automatically, try adding the '--livereaload' option:
+
+```shell
+mkdocs serve --livereload
+```
 
 ## Making and committing changes
 
