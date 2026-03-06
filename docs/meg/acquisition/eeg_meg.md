@@ -47,7 +47,13 @@ Having spare caps of different sizes is ideal, but the caps are expensive. If an
 
 **James Lubell, Special Consultant**, Department of Clinical Medicine, Center of Functionally Integrative Neuroscience-SKS, Aarhus University, kindly provided the following  ...
 
-"*<span style="color:green">Add text</span>*"
+"*<span style="color:green">If, for example, F1 is bad (and I don't have a replacement cap) then I have some extra MEG safe electrodes I can use and I plug 
+one into the 32-channel breakout EEG box that comes stock with an EEG subsystem.<br />
+I then deselect F1 in the acquisition dialogue (EEG12) and select/activate EEG128.  As the EEG ports on the MEG are only color coded, you can plug the box into any of the ports. 
+I plug the breakout box into the last port typically for channels 96-128 and plug the soft touch replacement electrode into the breakout box number 32.<br />
+This mandates that the sequence in the digitization is "Sequential" and I just follow the pattern from the Table of Coordinates provided by EASYCAP except that I know F1 is missing, 
+so when I get to F1 (EEG12) I know that it will actually be Fz and everything from there will be -1 (so to speak).
+Then at the very end I digitize F1.</span>*" (James has 75 & 128 channel EASYCAPs)
 
 
 #### **<span style="color:maroon">If using MEGIN Caps ...</span>**
