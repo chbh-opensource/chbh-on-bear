@@ -1,7 +1,7 @@
 # Using EEG with MEG
 
 
-**<span style="color:blue">We have a 64 Channel EEG system, use EASYCAPs specifically designed for our TRIUX system, purchased from Brain Products UK, and have 6 caps available in 4 different sizes. 
+**<span style="color:blue">CHBH MEG has the 64 Channel EEG system, use EASYCAPs specifically designed for the TRIUX system, purchased from Brain Products UK, and have 6 caps available in 4 different sizes. 
 The caps use the 10/20 system of electrode placement.</span>**
 
 - **1 x 54cm, 2 x 56cm, 2 x 58cm, 1 x 60cm**
@@ -33,6 +33,21 @@ The **new digitisation order** (taken from *eeg_digit_maps*) is as follows ...
 # A map for 64-channel EASYCAP (05/02/2026 - JLW & CZ)
 EEG EasyCap 64:0:1:2:3:4:5:6:7:8:9:10:11:12:13:14:15:16:17:19:20:21:22:18:23:24:25:26:27:28:29:30:31:32:33:34:35:36:37:41:42:43:44:45:46:47:48:49:53:54:55:56:57:58:59:60:61:64:38:39:40:62:50:51:52:63
 ```
+
+#### **<span style="color:maroon">Spare Electrodes for EASYCAPs</span>**
+
+Having spare caps of different sizes is ideal, but the caps are expensive. If an electrode breaks/is bad, and a cap of similar size is not readily available, that can be problematic.<br />
+
+![EEG_Breakout_Box](../../images/meg/EEG_breakout_box.jpg){width=35% align=left}
+<br /><br /><br />
+
+- Spare electrodes are available (*Multitrode MEG Electrodes, 150cm, TP connector*) that can be used with the provided 32-channel EEG breakout box and support arm, which is attached to the gantry side arm (on the same side as the side panel).
+
+<br /><be /><br /><br /><br /><br />
+
+**James Lubell, Special Consultant**, Department of Clinical Medicine, Center of Functionally Integrative Neuroscience-SKS, Aarhus University, kindly provided the following  ...
+
+"*<span style="color:green">Add text</span>*"
 
 
 #### **<span style="color:maroon">If using MEGIN Caps ...</span>**
