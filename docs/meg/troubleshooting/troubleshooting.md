@@ -4,6 +4,8 @@
 
 ### **[MaxShield State](../../meg/troubleshooting/maxshield.md)**
 
+### **[Reset VPixx Projector](../../meg/troubleshooting/reset_vpixx.md)**
+
 ### **[MSR Intercom error](../../meg/troubleshooting/intercom.md)**
 
 ### **[MEG Power Shutdown / Restart](../../meg/troubleshooting/shutdown_restart.md)**
