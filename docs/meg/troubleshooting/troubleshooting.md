@@ -4,6 +4,12 @@
 
 ### **[MaxShield State](../../meg/troubleshooting/maxshield.md)**
 
+### **[Gantry Position](../../meg/troubleshooting/gantry_position.md)**
+
+### **[HPI Preparation error](../../meg/troubleshooting/hpi_preparation.md)**
+
+### **[STI101 AC Adapter error](../../meg/troubleshooting/sti101_adapter.md)**
+
 ### **[Reset VPixx Projector](../../meg/troubleshooting/reset_vpixx.md)**
 
 ### **[MSR Intercom error](../../meg/troubleshooting/intercom.md)**
