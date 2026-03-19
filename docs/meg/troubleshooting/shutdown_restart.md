@@ -21,10 +21,10 @@ Turn off the monitors.<br /> Power down the two UPS on the Control Room floor (*
 - **Close valve BV4** on the pressure regulator panel in the Internal Helium Recycler cabinet.
 - **Open valve BV13** (***Refill Bypass Valve - on the wall behind the MSR***) to let any excess Helium **exit outside via Helium exhaust pipe**.
 - **Make sure** that the **Main Power Switch on the cryocooler compressor** is set to **OFF** (***the cryocooler shouldn't be running, but stop liquefaction first if it is***).
-- **Turn off** the **Electronics cabinet** components... **in order (left to right)**.
-	- **1st - Preamps.**
-	- **2nd - SQC Cards.**
-	- **3rd - Mains.**
+- **Turn off** the **Electronics cabinet** components, via the **[Power Control Panel](../../images/meg/DSP_Electronics.jpg)**, **in order (left to right)**.
+	- **1st - Preamps (Switch 3)** 
+	- **2nd - SQC Cards (Switch 2)**
+	- **3rd - Mains (Switch 1)**
 - **Turn off** the **IHR cabinet** (***press the UPS Power button** for a few seconds*).
 	- **Turn off** the **IHR Mains power** (**<span style="color:red">large red switch</span>** on the wall to the right of the cabinet).
 - **Turn off** any **Stimulus cabinet devices**, **power off the bar plug**.
@@ -61,11 +61,11 @@ Turn off the monitors.<br /> Power down the two UPS on the Control Room floor (*
 	- **Check** the MSR lights **come on** when the **light switch is depressed**.
 - **Switch on** the **Watchguard Firewall and Network Switch**, in the **Side Room Comms cabinet**.
 - **Turn on** the **gantry lifting motor/traffic lights** (*Mains plug on the back wall, behind the MSR*).
-- **Turn on** the **Electronics cabinet** components... **in order (right to left)**.
-	- **1st - Mains**.
+- **Turn on** the **Electronics cabinet** components, via the **[Power Control Panel](../../images/meg/DSP_Electronics.jpg)**, **in order (right to left)**.
+	- **1st - Mains (Switch 1)**.
 - **Power up** the **DACQ console and monitor**, wait until login splash screen appears on the monitor.
-	- **2nd - SQC Cards**.
-	- **3rd - preamps**.
+	- **2nd - SQC Cards (Switch 2)**.
+	- **3rd - preamps (Switch 3)**.
 - **Run** a **[RAP](../../meg/acquisition/rap.md)** (**R**estart **A**cquisition **P**rograms) on the **DACQ**.
 - **Turn on** the **IHR Mains power** (**<span style="color:red">large red switch</span>** on the wall to the right of the cabinet).
 - **Turn on** the **IHR cabinet** (***press the UPS Power button** for a few seconds*).
