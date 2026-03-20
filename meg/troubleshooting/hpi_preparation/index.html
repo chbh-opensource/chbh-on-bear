@@ -2423,6 +2423,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HPI Preparation error
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -2439,6 +2457,47 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -4524,6 +4583,36 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -4543,15 +4632,23 @@
 
 
 <h1 id="hpi-digitisationpreparation-error">HPI Digitisation/Preparation error</h1>
-<p>=== '''<span style="font-size:large;color:maroon">Problem</span>''' ===</p>
-<p><span style="font-size:medium">On Thursday 16th February, Operators reported seeing the following message pop up when starting Acquisition ...</span></p>
-<p>[[File:Error_message.jpg]]</p>
-<p><span style="font-size:medium">Apparantly the Index file used to save/list HPI digitisations was corrupt. It's possible that a HPI check was stopped halfway through, causing the file to be corrupted as it hadn't finished writing to disk correctly, perhaps during the digitisation of extra points for the fitting of an MRI T1. The Polhemus stylus has previously been reported as problematic when registering points/cHPI coils.</span></p>
-<p>'''<span style="font-size:large;color:maroon">Solution</span>'''</p>
-<p><span style="font-size:medium">The Index file, found in '''/neuro/dacq/prepared''', was deleted. </span></p>
-<p><nowiki>[Meguser@sinuhe /]$ cd /neuro/dacq/prepared
-[Meguser@sinuhe prepared]$ rm Index</nowiki></p>
-<p><span style="font-size:medium">Currently, HPI digitisations/preparations are only taken during the current Acquisition session. <br /> Participants aren't prepared a day or more beforehand, nor are the digitisations taken via a separate Workstation in another room. A previously-saved head preparation has never needed to be loaded, so it was safe to remove the Index file. <br /> After deletion, a HPI digitisation was taken using the Phantom, and all was fine. The preparation was saved, Acquisition was exited/restarted, saying 'no' to using the previous existing preparation. The saved preparation was then loaded successfully. <br /> On checking /neuro/dacq/prepared the Index file was found to be recreated, but no more error messages were seen when starting Acquisition.</span></p>
+<h3 id="problem"><strong><span style="color:maroon">Problem</span></strong></h3>
+<p>On Thursday 16th February 2023, MEG Operators reported seeing the <strong>following message pop up when starting Acquisition</strong> ...</span></p>
+<p><img alt="HPI Preparation Error" src="../../../images/meg/preparation_error_message.jpg" /></p>
+<p>Apparantly <strong>the Index file used to save/list HPI digitisations was corrupt</strong>. It's possible that a HPI check was stopped halfway through 
+causing the file to be corrupted as it hadn't finished writing to disk correctly, perhaps during the digitisation of extra points for the fitting of an MRI T1. <br />
+The Polhemus stylus <sup><span style="font-size:large;color:red">*</span></sup> had previously been reported as occasioanlly problematic when registering HPI coils/extra points.</p>
+<ul>
+<li><strong><em><span style="color:blue">A replacement Stylus Pen Assembly was purchased in May 2023</span></em></strong> <sup><span style="font-size:large;color:red">*</span></sup> </li>
+</ul>
+<h3 id="solution"><strong><span style="color:maroon">Solution</span></strong></h3>
+<p>The <strong>Index</strong> file, found in <strong><em>/neuro/dacq/prepared</em></strong>, was <strong>deleted</strong>. </span></p>
+<p><strong><code>[Meguser@sinuhe /]$ cd /neuro/dacq/prepared</code></strong><br />
+<strong><code>[Meguser@sinuhe prepared]$ rm Index</code></strong></p>
+<p>HPI digitisations/preparations <strong>are only taken during the current Acquisition session</strong>. <br />
+Participants <strong>aren't prepared a day or more beforehand, nor are the digitisations taken via a separate Workstation</strong> in another room. A previously-saved head preparation <strong>has never needed to be loaded</strong>, so it was <strong>safe to remove the Index file</strong>.<br />
+<strong>After deletion, a HPI digitisation was taken using the Phantom, and all was fine</strong>. The preparation was saved, Acquisition was exited/restarted, saying "No" to using the previous existing preparation. <strong>The saved preparation was then loaded successfully</strong>. <br /> 
+On checking <strong><em>/neuro/dacq/prepared</em></strong> the <strong>Index file was found to be recreated, but no more error messages were seen when starting Acquisition</strong>.</p>
 
 
 

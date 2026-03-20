@@ -4633,12 +4633,12 @@
 
 <h1 id="gantry-position-not-detected">Gantry Position not detected</h1>
 <h3 id="problem"><strong><span style="color:maroon">Problem</span></strong></h3>
-<p>After the gantry was unintentionally moved beyond FU (68 degrees) the <strong>Acquisition (<em>megacq</em>)</strong> program failed to detect the gantry position. See below.<br />
-Gantry position detection failure may also occur if the DACQ Console ("Sinuhe") has been rebooted.</p>
+<p>After the <strong>gantry was unintentionally moved beyond FU</strong> (68 degrees) the <strong>Acquisition (<em>megacq</em>)</strong> program <strong>failed to detect the gantry position</strong>. See below.<br />
+Gantry position detection failure <strong>may also occur if the DACQ Console ("Sinuhe") has been rebooted</strong>.</p>
 <p><strong><code>CHANGE: Gantry position: Detected: illegal value(0), Manual:Supine(0)</code></strong></p>
-<p>Before proceeding further, check first that the <strong>gantry position indicator display (<em>traffic light</em>)</strong> is showing <strong><span style="color:green">GREEN</span></strong> in the position to be used e.g. 60.<br /></p>
+<p><strong>Before proceeding further</strong>, check first that the <strong>gantry position indicator display (<em>traffic light</em>)</strong> is showing <strong><span style="color:green">GREEN</span></strong> in the position to be used e.g. 60.<br /></p>
 <ul>
-<li>If it isn't showing <strong><span style="color:green">GREEN</span></strong>, adjust the <strong>up/down</strong>buttons until it does, then check to see if the gantry position is now recognised in <strong>Acquisition</strong>. If not ...</li>
+<li><strong>If it isn't</strong> showing <strong><span style="color:green">GREEN</span></strong>, <strong>adjust the "up/down" buttons until it does</strong>, then <strong>check to see</strong> if the gantry position is <strong>now recognised in Acquisition</strong>. If not ...</li>
 </ul>
 <h3 id="solutions"><strong><span style="color:maroon">Solution/s</span></strong></h3>
 <ol>
@@ -4651,30 +4651,30 @@ Gantry position detection failure may also occur if the DACQ Console ("Sinuhe") 
 </ul>
 </li>
 <li>Restart the <strong>Acquisition</strong> program.<br /></li>
-<li>Hopefully the gantry position should now show ...<br /><br />
+<li><strong>Hopefully</strong> the gantry position <strong>should now show</strong> ...<br /><br />
 <strong><code>CHANGE: Gantry position: Detected: Upright(60)</code></strong><br /><br /></li>
-<li>Repeat from Step 1. if the gantry position is still failing to be detected.</li>
-<li>Once detected correctly, check sensor noise levels if necessary.<ul>
+<li><strong>Repeat from Step 1.</strong> if the gantry position is <strong>still failing to be detected</strong>.</li>
+<li><strong>Once detected correctly, check sensor noise levels</strong> if necessary.<ul>
 <li><strong><a href="../../acquisition/restart_acquisition/#loading-a-tuning-file">Loading a Tuning File</a></strong></li>
 </ul>
 </li>
 </ol>
 <p>or</p>
-<p><strong>Power cycle the gantry lifting motor.</strong></p>
+<p><strong><span style="color:blue">Power cycle the gantry lifting motor.</span></strong></p>
 <p><img align="right" alt="Gantry Lifting Motor Plug/Socket" src="../../../images/meg/GantryLiftingMotorSocket.jpg" width="48%" /></p>
 <ul>
-<li>Switch off the socket that is housing the <strong>Black</strong> plug with the <strong><span style="color:grey">GREY</span></strong> power lead.</li>
-<li>Wait a few moments, then switch back on.</li>
+<li><strong>Switch off</strong> the socket that is housing the <strong>Black</strong> plug with the <strong><span style="color:grey">GREY</span></strong> power lead.</li>
+<li><strong>Wait</strong> a few moments, then <strong>switch back on</strong>.</li>
 <li>Check the <strong>gantry position indicator display (<em>traffic light</em>)</strong> is back on.</li>
-<li>(May still require a <strong>soft boot and <a href="../../acquisition/rap/">RAP</a></strong> as mentioned above).</li>
+<li>(<strong>May still</strong> require a <strong>soft boot and <a href="../../acquisition/rap/">RAP</a></strong> as mentioned above).</li>
 <li>Then restart the <strong>Acquisition program</strong>. <br /></li>
 </ul>
 <p><align=full>
-If the gantry position still undetected, <strong><span style="color:red">MEG Support only!</span></strong> to <strong>power down then restart the electronics</strong>.</p>
+If the gantry position <strong>is still undetected</strong>, <strong><span style="color:red">MEG Support only!</span></strong> to <strong>power down then restart the electronics</strong>.</p>
 <ul>
-<li>The <strong>Main switch</strong> (Switch 1) of the <strong><a href="../../../images/meg/DSP_Electronics.jpg">Power Control Panel</a></strong> is not normally powered off in this situation.</li>
+<li>The <strong>Main switch</strong> (Switch 1) of the <strong><a href="../../../images/meg/DSP_Electronics.jpg">Power Control Panel</a></strong> is <strong><em>not normally powered off</em></strong> in this situation.</li>
 </ul>
-<p>Once power is back, perform a <strong><a href="../../acquisition/rap/">RAP</a></strong> and then restart the <strong>Acquisition</strong> program to check again.</p>
+<p><strong>Once power is back</strong>, perform a <strong><a href="../../acquisition/rap/">RAP</a></strong> and then restart the <strong>Acquisition</strong> program to <strong>check again</strong>.</p>
 <p><strong>If the gantry is still not detected correctly, contact MEGIN Support</strong>.</p>
 <div class="admonition note">
 <p class="admonition-title"><span style="color:blue"> If the gantry position is not detected during an Acquisition, data can still be acquired.<br />Enter the position manually (chose the correct position value from the menu provided).</span></p>
