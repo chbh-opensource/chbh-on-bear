@@ -1,6 +1,6 @@
 # MSR Dimensions
 
-### Dimensions of our **[Vacoshield](../../meg/pdfs/Vacoshield_3_x_4.pdf)** ADVANCED room
+Dimensions of our **[Vacoshield](../../meg/pdfs/Vacoshield_3_x_4.pdf)** ADVANCED room
 
 | 			     |  Length  |  Width  |  Height  | 
 | -------------  |  ------- |  ------ |  ------- |

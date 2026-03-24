@@ -26,6 +26,8 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- [EyeLink Settings](acquisition/eyelink_settings.md)
 	- [EyeLink Analog Output](acquisition/eyelink_analog_output.md)
 	- VPixx [X-Rite i1Display Pro](hardware/x_rite_i1_display_pro.md)
+	- MRI T1 Scan
+		- [Parameters](hardware/t1_scan_parameters.md)
 
 -   **Data Acquisition**
 
