@@ -76,6 +76,9 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	
 	- [Stimulus Hardware Layout](../meg/pdfs/MEG_Stimulus_Hardware_Layout.pdf)
 	
+	- [Stimulus Delivery & Triggering](stimulus/stimulus_delivery.md)
+		- [Delock Parallel Port Card](stimulus/delock_pp_card.md)
+	
 	- VPixx [PROPixx](stimulus/propixx.md) Projector
 	
 	- VPixx [SOUNDPixx](https://vpixx.com/products/soundpixx/) stereo audio system

@@ -113,6 +113,8 @@ nav:
       - Metal Detection: meg/labsafety/metal_detectors.md
     - Stimulus Presentation:
       - Stimulus Hardware Layout: meg/pdfs/MEG_Stimulus_Hardware_Layout.pdf
+      - Stimulus Delivery & Triggering: meg/stimulus/stimulus_delivery.md
+      - Delock Parallel Port Card: meg/stimulus/delock_pp_card.md
       - VPixx Projector: meg/stimulus/propixx.md
     - Analysis Tools:
       - MNE-Python: meg/analysis/mne.md
