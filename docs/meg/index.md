@@ -93,7 +93,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	
 	- [Phantom Measurement](analysis/phantom_measurement.md)
 	
-	- [InHouse Measurement](analysis/inhouse_measurement)
+	- [InHouse Measurement](analysis/inhouse_measurement.md)
 
 
 -   **Troubleshooting**
