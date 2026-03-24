@@ -115,6 +115,8 @@ nav:
       - VPixx Projector: meg/stimulus/propixx.md
     - Analysis Tools:
       - MNE-Python: meg/analysis/mne.md
+      - Phantom Measurement: meg/analysis/phantom_measurement.md
+      - InHouse Measurement: meg/analysis/inhouse_measurement.md
     - MEG Troubleshooting:
         - Troubleshooting Index: meg/troubleshooting/troubleshooting.md
         - SLEEP Mode: meg/troubleshooting/sleep_mode.md

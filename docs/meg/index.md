@@ -90,6 +90,10 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
     Analysis and data quality procedures
 
     - [MNE-Python](analysis/mne.md)
+	
+	- [Phantom Measurement](analysis/phantom_measurement.md)
+	
+	- [InHouse Measurement](analysis/inhouse_measurement)
 
 
 -   **Troubleshooting**
