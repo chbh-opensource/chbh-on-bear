@@ -4599,6 +4599,35 @@
 
 
 <h1 id="phantom-measurement">Phantom Measurement</h1>
+<p><img align="left" alt="Phantom Dipole Average" src="../../../images/meg/Phantom_Average.jpg" width="30%" /></p>
+<p>Perform a <strong>Phantom Measurement</strong> as detailed in the following guides ...</p>
+<p><strong><a href="../../pdfs/NM24131A-C_Triux_UM.pdf">User Manual April 2017</a></strong>
+- <strong><span style="color:maroon">Section 7.2 Phantom, page 88.</span></strong></p>
+<p><strong><a href="../../pdfs/NM23732A-B1-Dacq-6.0-UM_FINAL.pdf">Data Acquisition v6.0</a></strong>
+- <strong><span style="color:maroon">Section 9.0, Phantom Measurement, page 49.</span></strong>
+<br /><br /><br /></p>
+<p><align=full>
+Running the <strong><em>Autophantom</em></strong> script on the acquired .fif file produces a <strong><a href="../../pdfs/autophantom.pdf">Report</a></strong> detailing 2 results, based on dipoles that are checked to be "<strong>OK"</strong> ...</p>
+<ul>
+<li>The average <strong>Qpp value</strong> for <strong>all 32</strong> dipoles... between <strong>950 - 1050 nAm</strong> <ul>
+<li>(nano Ampere-meters - "<em>a measure of dipole moment</em>").</li>
+</ul>
+</li>
+<li>The average <strong>d value</strong> for <strong>all 32</strong> dipoles ("<strong>OKs only</strong>"). <strong><em>The smaller the better</em></strong>.</li>
+<li>A final "<strong>OK</strong>", if <strong>all</strong> the dipole Q-values are <strong><em>within +-10% of the average</em></strong>.</li>
+</ul>
+<p>The <strong><em>Autophantom</em></strong> script can be found here on the DACQ console ...</p>
+<p><strong><span style="color:maroon">/neuro/dacq/tools/service/</span></strong></p>
+<p>This measurement is normally performed once a month by the MEG Support Officer.</p>
+<p>When queried, MEGIN said ...<br /></p>
+<p>"<em><span style="color:blue">The report prints the deviations in the x,y and z directions (dx,dy and dz) and the vector length d  in mm from the 'known' locations of the dipole.<br /> 
+The tolerance is 5mm and obviously, we want the measured dipole position to be as close to the 'known' dipole position as possible so low values for d are better.<br /><br />
+The dipoles are activated with a current which should, (in a perfect system with no losses of any sort) generate a dipole of 1000nAm.<br />
+Due to manufacturing and calibration tolerances this is never the case and the system will accept a peak-to-peak average between 950 and 1050 nAm.<br /> 
+Additionally, each dipole itself must be with +/- 10 % of the average value.<br /><br />
+Assuming that the phantom test has been performed properly and passed, there is nothing you need to do. If the average Qpp is nearing 950 then we (MEGIN) would 
+possibly consider recalibrating the phantom path but this is somewhat less than trivial.</span></em>"</p>
+<p><strong>Ross Devlin, Senior Service Specialist, 10th March 2025</strong></p>
 
 
 
