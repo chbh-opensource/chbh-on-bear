@@ -12,6 +12,8 @@
 
 ### **[Reset VPixx Projector](../../meg/troubleshooting/reset_vpixx.md)**
 
+### **[Escaping PTB](../../meg/troubleshooting/escaping_ptb.md)**
+
 ### **[MSR Intercom error](../../meg/troubleshooting/intercom.md)**
 
 ### **[MEG Power Shutdown / Restart](../../meg/troubleshooting/shutdown_restart.md)**
