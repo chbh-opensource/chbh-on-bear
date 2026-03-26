@@ -2173,6 +2173,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stimulus Delivery & Triggering
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -2189,6 +2207,36 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#parallel-port-connections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parallel Port Connections
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -4692,6 +4740,25 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#parallel-port-connections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parallel Port Connections
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -4718,14 +4785,14 @@ It is utilising a <strong>PCIe(x1) parallel port card</strong> by <strong>Delock
 This particular card (<strong>#89219</strong>) been shown to <strong>work well with Presentation, PsychoPy, Psychtoolbox (MATLAB)</strong></p>
 </div>
 <p>To install, and use, a Delock 89219 PCIe Parallel Port card, see <strong><a href="../delock_pp_card/">Delock Parallel Port Card</a></strong></p>
-<p>'''<span style="font-size:xx-large">Triggers</span>'''</p>
-<p>'''<span style="font-size:x-large">Parallel port settings</span>'''</p>
-<p>The '''MEG STIM PC''' parallel port is connected to the MEG acquisition electronics via the 37-pin multipole connector of '''Stimulus Trigger Interface #1'''. The '''8 data lines''' of the '''parallel port''' are connected to '''Trigger Inputs 1-8''' (''''In 1'''', ''''In 2'''' etc.) of the MEG system. See below for description of trigger line logic in the MEG.</p>
-<p>'''<span style="color:red">NOTE:</span>''' ''<span style="color:maroon">The Trigger Interface BNC connectors and the multipole connector are internally connected together. '''DO NOT''' connector the multipole connector simutaneously with the BNC connectors.</span>''</p>
-<p>'''<span style="font-size:large">Port address: <span style="color:blue">0xBFF8 (LPT1)</span></span>'''<br />
-'''<span style="font-size:large"><span style="color:red">NOTE: December 2022:</span> NEW Stim PC Port address: <span style="color:blue">0xCFF8 (LPT1)</span></span>'''</p>
-<p>The parallel port to use for trigger output is LPT1, with the port address <samp>0xBFF8</samp> on the OLD Stim PC, port address <samp>0xCFF8</samp> on the NEW Stim PC.</p>
-<p>'''<span style="font-size:x-large">Psychtoolbox</span></p>
+<h3 id="parallel-port-connections"><span style="color:blue"><strong>Parallel Port Connections</strong></span></h3>
+<p>The <strong>CHBH-ST-MEG-W02</strong> parallel port is connected to the MEG acquisition electronics via the 37-pin multipole connector of <strong>Stimulus Trigger Interface #1 (STI101)</strong>. No BNC triggers are made from the paralle port.<br />
+The <strong>8 data lines</strong> of the <strong>parallel port</strong> are connected to <strong>Trigger Inputs 1-8</strong> ("<strong>In 1</strong>", "<strong>In 2</strong>" etc.) of the <strong>STI101</strong>. Trigger line logic in the MEG is explained below.</p>
+<div class="admonition warning">
+<p class="admonition-title">The Stimulus Trigger Interface BNC connectors and the 37-pin multipole connector are <em>internally connected</em> together.<br /> <strong>DO NOT</strong> connector the multipole connector simutaneously with the BNC connectors.</p>
+</div>
+<p><strong><span style="font-size:large">Port memory base address: <span style="color:blue">0xCFF8 (LPT1)</span></span></strong></p>
+<p>'''Psychtoolbox</span></p>
 <p>Parallel port interface based on [https://github.com/Psychtoolbox-3/Psychtoolbox-3/wiki/FAQ:-TTL-Triggers-in-Windows '''this page'''], specifically [http://apps.usd.edu/coglab/psyc770/IO64.html '''this link (where usage is also demonstrated)'''].<br /></p>
 <p>'''<span style="font-size:large">Usage</span></p>
 <ul>
@@ -4741,24 +4808,30 @@ This particular card (<strong>#89219</strong>) been shown to <strong>work well w
 </ul>
 <p><nowiki>&gt;&gt; Undefined function or variable 'io64'.</nowiki></p>
 <ul>
-<li>Add the following lines to the beginning of your script.</li>
+<li>Add the following lines to the beginning of your script.<ul>
 <li>'''<span style="color:red">NOTE: Remember to set address to CFF8 if using the NEW Stim - <br /> <samp>address = hex2dec('CFF8');</samp></span>'''</li>
 </ul>
-<p><nowiki>%create an instance of the io64 object
-ioObj = io64;
-%
-% initialize the interface to the inpoutx64 system driver
-status = io64(ioObj);</p>
-<p>% LPT1 memory port address
-address = hex2dec('BFF8');</nowiki></p>
+</li>
+</ul>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c">%create an instance of the io64 object</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">ioObj</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">io64</span><span class="p">;</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="c">%</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="c">% initialize the interface to the inpoutx64 system driver</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="n">status</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">io64</span><span class="p">(</span><span class="n">ioObj</span><span class="p">);</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="c">% LPT1 memory port address</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="n">address</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">hex2dec</span><span class="p">(</span><span class="s">&#39;CFF8&#39;</span><span class="p">);</span>
+</span></code></pre></div>
 <ul>
 <li>In conjunction with your stimulus (i.e. a 'Flip' of the screen), use the syntax</li>
 </ul>
-<p><nowiki>io64(ioObj,address,1)  % trigger code from 1 to 255 </nowiki></p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">io64</span><span class="p">(</span><span class="n">ioObj</span><span class="p">,</span><span class="n">address</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span><span class="w">  </span><span class="c">% trigger code from 1 to 255</span>
+</span></code></pre></div>
 <ul>
-<li>'''You can pull the trigger down to zero to reset as necessary.'''</li>
+<li>You can pull the trigger down to zero to reset as necessary.</li>
 </ul>
-<p><nowiki>io64(ioObj,address,0); %trigger 0 (reset)</nowiki></p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">io64</span><span class="p">(</span><span class="n">ioObj</span><span class="p">,</span><span class="n">address</span><span class="p">,</span><span class="mi">0</span><span class="p">);</span><span class="w"> </span><span class="c">%trigger 0 (reset)</span>
+</span></code></pre></div>
 <ul>
 <li>The following MATLAB command snippet demonstrates how to use the io64() extension:</li>
 </ul>
