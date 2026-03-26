@@ -7,20 +7,18 @@
 
 To install, and use, a Delock 89219 PCIe Parallel Port card, see **[Delock Parallel Port Card](../stimulus/delock_pp_card.md)**
 
-'''<span style="font-size:xx-large">Triggers</span>'''
+### <span style="color:blue">**Parallel Port Connections**</span>
 
-'''<span style="font-size:x-large">Parallel port settings</span>'''
+The **CHBH-ST-MEG-W02** parallel port is connected to the MEG acquisition electronics via the 37-pin multipole connector of **Stimulus Trigger Interface #1 (STI101)**. No BNC triggers are made from the paralle port.<br />
+The **8 data lines** of the **parallel port** are connected to **Trigger Inputs 1-8** ("**In 1**", "**In 2**" etc.) of the **STI101**. Trigger line logic in the MEG is explained below.
 
-The '''MEG STIM PC''' parallel port is connected to the MEG acquisition electronics via the 37-pin multipole connector of '''Stimulus Trigger Interface #1'''. The '''8 data lines''' of the '''parallel port''' are connected to '''Trigger Inputs 1-8''' (''''In 1'''', ''''In 2'''' etc.) of the MEG system. See below for description of trigger line logic in the MEG.
+!!! Warning "The Stimulus Trigger Interface BNC connectors and the 37-pin multipole connector are *internally connected* together.<br /> **DO NOT** connector the multipole connector simutaneously with the BNC connectors."
 
-'''<span style="color:red">NOTE:</span>''' ''<span style="color:maroon">The Trigger Interface BNC connectors and the multipole connector are internally connected together. '''DO NOT''' connector the multipole connector simutaneously with the BNC connectors.</span>''
+**<span style="font-size:large">Port memory base address: <span style="color:blue">0xCFF8 (LPT1)</span></span>**
 
-'''<span style="font-size:large">Port address: <span style="color:blue">0xBFF8 (LPT1)</span></span>'''<br />
-'''<span style="font-size:large"><span style="color:red">NOTE: December 2022:</span> NEW Stim PC Port address: <span style="color:blue">0xCFF8 (LPT1)</span></span>'''
 
-The parallel port to use for trigger output is LPT1, with the port address <samp>0xBFF8</samp> on the OLD Stim PC, port address <samp>0xCFF8</samp> on the NEW Stim PC.
 
-'''<span style="font-size:x-large">Psychtoolbox</span>
+'''Psychtoolbox</span>
 
 Parallel port interface based on [https://github.com/Psychtoolbox-3/Psychtoolbox-3/wiki/FAQ:-TTL-Triggers-in-Windows '''this page'''], specifically [http://apps.usd.edu/coglab/psyc770/IO64.html '''this link (where usage is also demonstrated)'''].<br />
 
@@ -35,27 +33,33 @@ Parallel port interface based on [https://github.com/Psychtoolbox-3/Psychtoolbox
 
  <nowiki>>> Undefined function or variable 'io64'.</nowiki>
 
-* Add the following lines to the beginning of your script.
-* '''<span style="color:red">NOTE: Remember to set address to CFF8 if using the NEW Stim - <br /> <samp>address = hex2dec('CFF8');</samp></span>'''
+- Add the following lines to the beginning of your script.
+	- '''<span style="color:red">NOTE: Remember to set address to CFF8 if using the NEW Stim - <br /> <samp>address = hex2dec('CFF8');</samp></span>'''
 
- <nowiki>%create an instance of the io64 object
+```matlab
+%create an instance of the io64 object
 ioObj = io64;
 %
 % initialize the interface to the inpoutx64 system driver
 status = io64(ioObj);
 
 % LPT1 memory port address
-address = hex2dec('BFF8');</nowiki>
+address = hex2dec('CFF8');
+```
 
-* In conjunction with your stimulus (i.e. a 'Flip' of the screen), use the syntax
+- In conjunction with your stimulus (i.e. a 'Flip' of the screen), use the syntax
 
- <nowiki>io64(ioObj,address,1)  % trigger code from 1 to 255 </nowiki>
+```matlab
+io64(ioObj,address,1)  % trigger code from 1 to 255
+```
 
-* '''You can pull the trigger down to zero to reset as necessary.'''
+- You can pull the trigger down to zero to reset as necessary.
 
- <nowiki>io64(ioObj,address,0); %trigger 0 (reset)</nowiki>
+```matlab
+io64(ioObj,address,0); %trigger 0 (reset)
+```
 
-* The following MATLAB command snippet demonstrates how to use the io64() extension:
+- The following MATLAB command snippet demonstrates how to use the io64() extension:
 
  <nowiki>%create an instance of the io64 object
 ioObj = io64;
