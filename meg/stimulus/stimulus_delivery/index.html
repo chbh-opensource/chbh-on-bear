@@ -2224,10 +2224,32 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#parallel-port-connections" class="md-nav__link">
+  <a href="#parallel-port-connections-to-meg-hardware" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Parallel Port Connections
+        Parallel Port Connections to MEG hardware
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#within-matlab-psychtoolbox-64bit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Within MATLAB (Psychtoolbox), 64bit
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trigger-logic-in-meg-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trigger logic in MEG data
       
     </span>
   </a>
@@ -4747,10 +4769,32 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#parallel-port-connections" class="md-nav__link">
+  <a href="#parallel-port-connections-to-meg-hardware" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Parallel Port Connections
+        Parallel Port Connections to MEG hardware
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#within-matlab-psychtoolbox-64bit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Within MATLAB (Psychtoolbox), 64bit
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trigger-logic-in-meg-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trigger logic in MEG data
       
     </span>
   </a>
@@ -4785,101 +4829,167 @@ It is utilising a <strong>PCIe(x1) parallel port card</strong> by <strong>Delock
 This particular card (<strong>#89219</strong>) been shown to <strong>work well with Presentation, PsychoPy, Psychtoolbox (MATLAB)</strong></p>
 </div>
 <p>To install, and use, a Delock 89219 PCIe Parallel Port card, see <strong><a href="../delock_pp_card/">Delock Parallel Port Card</a></strong></p>
-<h3 id="parallel-port-connections"><span style="color:blue"><strong>Parallel Port Connections</strong></span></h3>
-<p>The <strong>CHBH-ST-MEG-W02</strong> parallel port is connected to the MEG acquisition electronics via the 37-pin multipole connector of <strong>Stimulus Trigger Interface #1 (STI101)</strong>. No BNC triggers are made from the paralle port.<br />
+<h3 id="parallel-port-connections-to-meg-hardware"><span style="color:blue"><strong>Parallel Port Connections to MEG hardware</strong></span></h3>
+<p>The <strong>CHBH-ST-MEG-W02</strong> parallel port is connected to the MEG acquisition electronics via the 37-pin multipole connector of <strong>Stimulus Trigger Interface #1 (<a href="../../../images/meg/STI101.jpg">STI101</a>)</strong>. No BNC triggers are made from the parallel port.<br />
 The <strong>8 data lines</strong> of the <strong>parallel port</strong> are connected to <strong>Trigger Inputs 1-8</strong> ("<strong>In 1</strong>", "<strong>In 2</strong>" etc.) of the <strong>STI101</strong>. Trigger line logic in the MEG is explained below.</p>
 <div class="admonition warning">
-<p class="admonition-title">The Stimulus Trigger Interface BNC connectors and the 37-pin multipole connector are <em>internally connected</em> together.<br /> <strong>DO NOT</strong> connector the multipole connector simutaneously with the BNC connectors.</p>
+<p class="admonition-title">The Stimulus Trigger Interface BNC connectors and the 37-pin multipole connector are <em>internally connected</em> together.<br /> <strong>DO NOT</strong> connector the multipole connector if individual triggers via the BNC connectors are to be used.</p>
 </div>
-<p><strong><span style="font-size:large">Port memory base address: <span style="color:blue">0xCFF8 (LPT1)</span></span></strong></p>
-<p>'''Psychtoolbox</span></p>
-<p>Parallel port interface based on [https://github.com/Psychtoolbox-3/Psychtoolbox-3/wiki/FAQ:-TTL-Triggers-in-Windows '''this page'''], specifically [http://apps.usd.edu/coglab/psyc770/IO64.html '''this link (where usage is also demonstrated)'''].<br /></p>
-<p>'''<span style="font-size:large">Usage</span></p>
+<p><strong><span style="font-size:large">CHBH-ST-MEG-W02 Port memory base address: <span style="color:blue">0xCFF8 (LPT1)</span></span></strong></p>
+<h3 id="within-matlab-psychtoolbox-64bit"><span style="color:blue"><strong>Within MATLAB (Psychtoolbox), 64bit</strong></span></h3>
+<p><strong><em><span style="color:maroon">(This has already been done for CHBH-ST-MEG-W02)</span></em></strong></p>
+<p>A <strong>C++ extension (mex file)</strong>, created by <strong>Prof. Frank Schieber (Department of Psychology, The University of South Dakota)</strong>, is used to accomplish <strong>very fast port I/O, as a NO COST add-on to MATLAB, using native methods to access low-level hardware</strong>. 
+<br /></p>
+<p><strong>Prof. Schieber has since retired</strong>, and his website is down, but <strong><a href="https://web.archive.org/">web.archive.org</a></strong> has a snapshot of it ...</p>
+<p><strong><a href="https://web.archive.org/web/20210903151747/http://apps.usd.edu/coglab/psyc770/IO64.html">Mex-File Utility for Fast MATLAB Port I/O (64-bit)</a></strong></p>
+<p>This <strong>mex-file is named</strong> <strong><a href="../../files/io64.mexw64">io64.mexw64</a></strong>. It <strong>uses a freeware self-installing system driver</strong> named <strong><a href="../../files/inpoutx64.dll">inpoutx64.dll</a></strong></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Self-installation of the driver requires that the MATLAB runs with Administrator privileges.  The driver must have been previously installed in order to support non-Administrator users]</strong>.</p>
+</div>
 <ul>
+<li><strong>Download</strong> the <strong>io64.mexw64</strong> module and <strong>place it in the relevant stimulus delivery folder (or as necessary in the MATLAB path)</strong>.<br />
+<strong>If not</strong> done, then on useage <strong>the following error will be generated ...</strong></li>
+</ul>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">Undefined</span><span class="w"> </span><span class="k">function</span><span class="w"> </span><span class="n">or</span><span class="w"> </span><span class="n">variable</span><span class="w"> </span><span class="s">&#39;io64&#39;</span>
+</span></code></pre></div>
+<ul>
+<li><strong>Download</strong> the <strong>inpoutx64.dll</strong> module and <strong>move it to the C:\Windows\System32 directory</strong> (i.e., This <strong>module must reside in the Windows system PATH</strong>).</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Because the <strong>inpoutx64.dll</strong> was <strong>compiled using Visual Studio</strong>, the <strong>Microsoft Visual C++ 2005 SP1 Redistributable (x64) Package must be installed on the computer</strong>.<br />
+<strong>Use the Control Panel</strong> to see if it is already installed.<br />
+<strong>Open Add and Remove Programs and look for <em>Microsoft Visual C++ Redistributable</em></strong>. The installed versions will be listed there.<br/>
+If not, then <strong><a href="../../files/vcredist_x64.exe">vcredist_x64.exe</a></strong> needs to be downloaded and installed (<em>possibly via Administrator privileges</em>).</p>
+</div>
+<ul>
+<li><strong>Add</strong> the following line to the beginning of the MATLAB script.</li>
+</ul>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">address</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">hex2dec</span><span class="p">(</span><span class="s">&#39;CFF8&#39;</span><span class="p">);</span><span class="w">    </span><span class="c">%CHBH-ST-MEG-W02 Stim PC LPT1 output port address</span>
+</span></code></pre></div>
+<ul>
+<li>The <strong>following MATLAB command snippet</strong> demonstrates how to use the <strong>io64()</strong> extension:</li>
+</ul>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c">%create an instance of the io64 object</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">ioObj</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">io64</span><span class="p">;</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="c">%</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c">% initialize the interface to the inpoutx64 system driver</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="n">status</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">io64</span><span class="p">(</span><span class="n">ioObj</span><span class="p">);</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="c">%</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="c">% if status = 0, you are now ready to write and read to a hardware port</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="c">% let&#39;s try sending the value=1 to the parallel port (LPT1)</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="c">% address = hex2dec(&#39;378&#39;);    %standard LPT1 output port address</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="n">address</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">hex2dec</span><span class="p">(</span><span class="s">&#39;CFF8&#39;</span><span class="p">);</span><span class="w">     </span><span class="c">%CHBH-ST-MEG-W02 Stim PC LPT1 output port address</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="n">data_out</span><span class="p">=</span><span class="mi">1</span><span class="p">;</span><span class="w">                    </span><span class="c">%sample data value</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="n">io64</span><span class="p">(</span><span class="n">ioObj</span><span class="p">,</span><span class="n">address</span><span class="p">,</span><span class="n">data_out</span><span class="p">);</span><span class="w">  </span><span class="c">%output command</span>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="c">%</span>
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="c">% now, let&#39;s read that value back into MATLAB</span>
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="n">data_in</span><span class="p">=</span><span class="n">io64</span><span class="p">(</span><span class="n">ioObj</span><span class="p">,</span><span class="n">address</span><span class="p">);</span>
+</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="c">%</span>
+</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="c">% when finished with the io64 object it can be discarded via</span>
+</span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="c">% &#39;clear all&#39;, &#39;clear mex&#39;, &#39;clear io64&#39; or &#39;clear functions&#39; command.</span>
+</span><span id="__span-2-19"><a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a><span class="nb">clear</span><span class="w"> </span><span class="n">io64</span><span class="p">;</span>
+</span></code></pre></div>
+<ul>
+<li><strong>The following MATLAB command snippet</strong> demonstrates how to <strong>turn all the CHBH-ST-MEG-W02 Stim PC trigger lines on/off</strong>.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title"><code>initialiseParallelPort.m</code> MUST be in the relevant stimulus delivery folder.</p>
+</div>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">sendTrigger</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">initialiseParallelPort</span><span class="p">();</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="k">for</span><span class="w"> </span><span class="n">ii</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">0</span><span class="p">:</span><span class="mi">7</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="n">sendTrigger</span><span class="p">(</span><span class="n">power</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="n">ii</span><span class="p">));</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="n">WaitSecs</span><span class="p">(</span><span class="mf">0.2</span><span class="p">);</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="k">end</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="c">%% Reset Triggers to 0</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="n">sendTrigger</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span></code></pre></div>
+<p><strong>initialiseParallelPort.m</strong></p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">function</span><span class="w"> </span>sendTrigger<span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nf">initialiseParallelPort</span><span class="p">()</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="c">% sendTrigger = initialiseParallelPort()</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="c">%</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="c">% Tries to initialise a parallel port using the inpoutx64.dll library.</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="c">% Returns the function sendTrigger, which takes a single 8-bit integer</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="c">% input and sends it to the parallel port. NB: no input checking is done!</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="c">% Make sure you only use values 1-255. Also, the trigger lines are not</span>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="c">% pulled down automatically, you need to do this manually by sending a 0:</span>
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="c">%</span>
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="c">% sendTrigger(15)  % send trigger 15</span>
+</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a><span class="c">% ... do something ... e.g. a Screen(&#39;Flip&#39;)</span>
+</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a><span class="c">% sendTrigger(0)  % pull all lines down</span>
+</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a><span class="c">%</span>
+</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a><span class="c">% If initialisation fails, returned sendTrigger-function simply prints</span>
+</span><span id="__span-4-15"><a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a><span class="c">% out the input code; useful for developing/testing.</span>
+</span><span id="__span-4-16"><a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a>
+</span><span id="__span-4-17"><a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a><span class="c">% Revision history:</span>
+</span><span id="__span-4-18"><a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a><span class="c">% - created on 26 Jan 2018, cjb</span>
+</span><span id="__span-4-19"><a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a><span class="c">%</span>
+</span><span id="__span-4-20"><a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a><span class="c">% Copyright 2018 Christopher J. Bailey under the MIT License</span>
+</span><span id="__span-4-21"><a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a><span class="c">%</span>
+</span><span id="__span-4-22"><a id="__codelineno-4-22" name="__codelineno-4-22" href="#__codelineno-4-22"></a><span class="c">% Permission is hereby granted, free of charge, to any person obtaining a</span>
+</span><span id="__span-4-23"><a id="__codelineno-4-23" name="__codelineno-4-23" href="#__codelineno-4-23"></a><span class="c">% copy of this software and associated documentation files (the</span>
+</span><span id="__span-4-24"><a id="__codelineno-4-24" name="__codelineno-4-24" href="#__codelineno-4-24"></a><span class="c">% &quot;Software&quot;), to deal in the Software without restriction, including</span>
+</span><span id="__span-4-25"><a id="__codelineno-4-25" name="__codelineno-4-25" href="#__codelineno-4-25"></a><span class="c">% without limitation the rights to use, copy, modify, merge, publish,</span>
+</span><span id="__span-4-26"><a id="__codelineno-4-26" name="__codelineno-4-26" href="#__codelineno-4-26"></a><span class="c">% distribute, sublicense, and/or sell copies of the Software, and to</span>
+</span><span id="__span-4-27"><a id="__codelineno-4-27" name="__codelineno-4-27" href="#__codelineno-4-27"></a><span class="c">% permit persons to whom the Software is furnished to do so, subject to</span>
+</span><span id="__span-4-28"><a id="__codelineno-4-28" name="__codelineno-4-28" href="#__codelineno-4-28"></a><span class="c">% the following conditions:</span>
+</span><span id="__span-4-29"><a id="__codelineno-4-29" name="__codelineno-4-29" href="#__codelineno-4-29"></a><span class="c">% </span>
+</span><span id="__span-4-30"><a id="__codelineno-4-30" name="__codelineno-4-30" href="#__codelineno-4-30"></a><span class="c">% The above copyright notice and this permission notice shall be included</span>
+</span><span id="__span-4-31"><a id="__codelineno-4-31" name="__codelineno-4-31" href="#__codelineno-4-31"></a><span class="c">% in all copies or substantial portions of the Software.</span>
+</span><span id="__span-4-32"><a id="__codelineno-4-32" name="__codelineno-4-32" href="#__codelineno-4-32"></a><span class="c">% </span>
+</span><span id="__span-4-33"><a id="__codelineno-4-33" name="__codelineno-4-33" href="#__codelineno-4-33"></a><span class="c">% THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS</span>
+</span><span id="__span-4-34"><a id="__codelineno-4-34" name="__codelineno-4-34" href="#__codelineno-4-34"></a><span class="c">% OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF</span>
+</span><span id="__span-4-35"><a id="__codelineno-4-35" name="__codelineno-4-35" href="#__codelineno-4-35"></a><span class="c">% MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</span>
+</span><span id="__span-4-36"><a id="__codelineno-4-36" name="__codelineno-4-36" href="#__codelineno-4-36"></a><span class="c">% IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY</span>
+</span><span id="__span-4-37"><a id="__codelineno-4-37" name="__codelineno-4-37" href="#__codelineno-4-37"></a><span class="c">% CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,</span>
+</span><span id="__span-4-38"><a id="__codelineno-4-38" name="__codelineno-4-38" href="#__codelineno-4-38"></a><span class="c">% TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE</span>
+</span><span id="__span-4-39"><a id="__codelineno-4-39" name="__codelineno-4-39" href="#__codelineno-4-39"></a><span class="c">% SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</span>
+</span><span id="__span-4-40"><a id="__codelineno-4-40" name="__codelineno-4-40" href="#__codelineno-4-40"></a>
+</span><span id="__span-4-41"><a id="__codelineno-4-41" name="__codelineno-4-41" href="#__codelineno-4-41"></a>
+</span><span id="__span-4-42"><a id="__codelineno-4-42" name="__codelineno-4-42" href="#__codelineno-4-42"></a><span class="k">try</span>
+</span><span id="__span-4-43"><a id="__codelineno-4-43" name="__codelineno-4-43" href="#__codelineno-4-43"></a><span class="w">    </span><span class="c">% ------------------------------------------------------------------------</span>
+</span><span id="__span-4-44"><a id="__codelineno-4-44" name="__codelineno-4-44" href="#__codelineno-4-44"></a><span class="w">    </span><span class="c">% INITIALIZE PARALLEL PORT</span>
+</span><span id="__span-4-45"><a id="__codelineno-4-45" name="__codelineno-4-45" href="#__codelineno-4-45"></a><span class="w">    </span><span class="c">% ------------------------------------------------------------------------</span>
+</span><span id="__span-4-46"><a id="__codelineno-4-46" name="__codelineno-4-46" href="#__codelineno-4-46"></a><span class="w">    </span><span class="c">% Aarhus: based on InpOut-library, and C:\Windows\System\inpoutx64.dll</span>
+</span><span id="__span-4-47"><a id="__codelineno-4-47" name="__codelineno-4-47" href="#__codelineno-4-47"></a><span class="w">    </span><span class="c">% Aarhus: io64.mex in stimuser&#39;s Documents\MATLAB-folder (in path)</span>
+</span><span id="__span-4-48"><a id="__codelineno-4-48" name="__codelineno-4-48" href="#__codelineno-4-48"></a><span class="w">    </span><span class="c">% create an instance of the io64 object</span>
+</span><span id="__span-4-49"><a id="__codelineno-4-49" name="__codelineno-4-49" href="#__codelineno-4-49"></a><span class="w">    </span><span class="n">ioObj</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">io64</span><span class="p">;</span>
+</span><span id="__span-4-50"><a id="__codelineno-4-50" name="__codelineno-4-50" href="#__codelineno-4-50"></a><span class="w">    </span><span class="c">% initialize the interface to the inpoutx64 system driver</span>
+</span><span id="__span-4-51"><a id="__codelineno-4-51" name="__codelineno-4-51" href="#__codelineno-4-51"></a><span class="w">    </span><span class="n">status</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">io64</span><span class="p">(</span><span class="n">ioObj</span><span class="p">);</span>
+</span><span id="__span-4-52"><a id="__codelineno-4-52" name="__codelineno-4-52" href="#__codelineno-4-52"></a><span class="w">    </span><span class="c">% LPT1 memory port address</span>
+</span><span id="__span-4-53"><a id="__codelineno-4-53" name="__codelineno-4-53" href="#__codelineno-4-53"></a><span class="w">    </span><span class="c">% address = hex2dec(&#39;DFF8&#39;);</span>
+</span><span id="__span-4-54"><a id="__codelineno-4-54" name="__codelineno-4-54" href="#__codelineno-4-54"></a><span class="w">    </span><span class="n">address</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">hex2dec</span><span class="p">(</span><span class="s">&#39;CFF8&#39;</span><span class="p">);</span>
+</span><span id="__span-4-55"><a id="__codelineno-4-55" name="__codelineno-4-55" href="#__codelineno-4-55"></a>
+</span><span id="__span-4-56"><a id="__codelineno-4-56" name="__codelineno-4-56" href="#__codelineno-4-56"></a><span class="w">    </span><span class="n">sendTrigger</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">@(</span><span class="n">code</span><span class="p">)</span><span class="w"> </span><span class="n">io64</span><span class="p">(</span><span class="n">ioObj</span><span class="p">,</span><span class="w"> </span><span class="n">address</span><span class="p">,</span><span class="w"> </span><span class="n">code</span><span class="p">);</span>
+</span><span id="__span-4-57"><a id="__codelineno-4-57" name="__codelineno-4-57" href="#__codelineno-4-57"></a><span class="k">catch</span><span class="w">  </span><span class="c">% assume either drivers not found or running on non-stim PC</span>
+</span><span id="__span-4-58"><a id="__codelineno-4-58" name="__codelineno-4-58" href="#__codelineno-4-58"></a><span class="w">    </span><span class="nb">fprintf</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;############################################################\n&#39;</span><span class="p">);</span>
+</span><span id="__span-4-59"><a id="__codelineno-4-59" name="__codelineno-4-59" href="#__codelineno-4-59"></a><span class="w">    </span><span class="nb">fprintf</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;WARNING: No parallel port access, triggers will not be sent!\n&#39;</span><span class="p">);</span>
+</span><span id="__span-4-60"><a id="__codelineno-4-60" name="__codelineno-4-60" href="#__codelineno-4-60"></a><span class="w">    </span><span class="nb">fprintf</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;############################################################\n&#39;</span><span class="p">);</span>
+</span><span id="__span-4-61"><a id="__codelineno-4-61" name="__codelineno-4-61" href="#__codelineno-4-61"></a><span class="w">    </span><span class="n">sendTrigger</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">@(</span><span class="n">code</span><span class="p">)</span><span class="w"> </span><span class="nb">fprintf</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="s">&#39;TRIG %d\n&#39;</span><span class="p">,</span><span class="w"> </span><span class="n">code</span><span class="p">);</span>
+</span><span id="__span-4-62"><a id="__codelineno-4-62" name="__codelineno-4-62" href="#__codelineno-4-62"></a><span class="k">end</span>
+</span><span id="__span-4-63"><a id="__codelineno-4-63" name="__codelineno-4-63" href="#__codelineno-4-63"></a><span class="k">end</span>
+</span></code></pre></div>
+<p><strong><span style="color:blue">With many thanks to Dr. Chris Bailey, Aarhus Univeristy</span></strong></p>
+<h3 id="trigger-logic-in-meg-data"><span style="color:blue"><strong>Trigger logic in MEG data</strong></span></h3>
+<p><strong>By default</strong>, only <strong>one trigger channel is sampled</strong> with the MEG data: <strong>STI101</strong>. <br />
+This channel <strong>contains all possible trigger combinations</strong>, up to a theoretical maximum of over 65000 unique triggers.<br />
+When <strong>all trigger lines</strong> are "<strong>down</strong>" (0), <strong>STI101 reads zero</strong>. When:</p>
+<ul>
+<li>A <strong>trigger is sent to input 1</strong>, height(STI101)= <strong>1</strong></li>
+<li>A <strong>trigger is sent to input 2</strong>, height(STI101)= <strong>2</strong></li>
 <li>
-<p>Download the file <samp>io64.mexw64</samp> from the link above ('''<span style="color:maroon">Already done for MEG-STIM-1 and the NEW, CHBH-ST-MEG-W02</span>).
-** <samp>io64.mexw64</samp> and <samp>initialiseParallelPort.m</samp> can also be downloaded from our '''[[Audio/Visual Task]]''' page.</p>
+<p>A <strong>trigger is sent to input 1 AND 2</strong>, height(STI101)= <strong>3</strong></p>
 </li>
 <li>
-<p>Place the mex-file in the folder with your stimulus delivery script (or elsewhere in your MATLAB path).
-** '''<span style="color:red">NOTE: <samp>io64.mexw64</samp> MUST be in your folder/MATLAB path.</span>'''
-** If it isn't, you'll get the following error...</p>
+<p><strong>Following a binary encoding scheme</strong> in which <strong>input 1 is 2<sup>0</sup>, input 2 is 2<sup>1</sup>, input 3 is 2<sup>2</sup></strong> and so on.</p>
 </li>
 </ul>
-<p><nowiki>&gt;&gt; Undefined function or variable 'io64'.</nowiki></p>
-<ul>
-<li>Add the following lines to the beginning of your script.<ul>
-<li>'''<span style="color:red">NOTE: Remember to set address to CFF8 if using the NEW Stim - <br /> <samp>address = hex2dec('CFF8');</samp></span>'''</li>
-</ul>
-</li>
-</ul>
-<div class="language-matlab highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c">%create an instance of the io64 object</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">ioObj</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">io64</span><span class="p">;</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="c">%</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="c">% initialize the interface to the inpoutx64 system driver</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="n">status</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">io64</span><span class="p">(</span><span class="n">ioObj</span><span class="p">);</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="c">% LPT1 memory port address</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="n">address</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">hex2dec</span><span class="p">(</span><span class="s">&#39;CFF8&#39;</span><span class="p">);</span>
-</span></code></pre></div>
-<ul>
-<li>In conjunction with your stimulus (i.e. a 'Flip' of the screen), use the syntax</li>
-</ul>
-<div class="language-matlab highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">io64</span><span class="p">(</span><span class="n">ioObj</span><span class="p">,</span><span class="n">address</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span><span class="w">  </span><span class="c">% trigger code from 1 to 255</span>
-</span></code></pre></div>
-<ul>
-<li>You can pull the trigger down to zero to reset as necessary.</li>
-</ul>
-<div class="language-matlab highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">io64</span><span class="p">(</span><span class="n">ioObj</span><span class="p">,</span><span class="n">address</span><span class="p">,</span><span class="mi">0</span><span class="p">);</span><span class="w"> </span><span class="c">%trigger 0 (reset)</span>
-</span></code></pre></div>
-<ul>
-<li>The following MATLAB command snippet demonstrates how to use the io64() extension:</li>
-</ul>
-<p><nowiki>%create an instance of the io64 object
-ioObj = io64;
-%
-% initialize the interface to the inpoutx64 system driver
-status = io64(ioObj);
-%
-% if status = 0, you are now ready to write and read to a hardware port
-% let's try sending the value=1 to the parallel port (LPT1)
-address = hex2dec('BFF8');       %CHBH MEG Stim PC LPT1 output port address
-data_out=1;                      %sample data value
-io64(ioObj,address,data_out);    %output command
-%
-% now, let's read that value back into MATLAB
-data_in=io64(ioObj,address);
-%
-% when finished with the io64 object it can be discarded via
-% 'clear all', 'clear mex', 'clear io64' or 'clear functions' command.</nowiki></p>
-<ul>
-<li>The following MATLAB command snippet from '''<samp>basicAudioVisualTask.m</samp>''' demonstrates how to turn all our triggers on/off.
-** '''<span style="color:red">NOTE: <samp>initialiseParallelPort.m</samp> MUST be in your Paradigm folder.</span>'''</li>
-</ul>
-<p><nowiki>sendTrigger = intialiseParallelPort();</p>
-<p>for ii = 0:7
-    sendTrigger(power(2, ii));
-    WaitSecs(0.1);
-end</p>
-<p>%% Reset Triggers to 0
-sendTrigger(0);</nowiki></p>
-<p>'''<span style="font-size:x-large">Trigger logic in MEG data</span></p>
-<p>By default, only one trigger channel is sampled with the MEG data: '''STI101'''. <br /> This channel contains all possible trigger combinations, up to a theoretical maximum of over 65000 unique triggers.<br /> When all trigger lines are "down" (0), STI101 reads zero. When:</p>
-<ul>
-<li>A trigger is sent to input 1, height(STI101)=1</li>
-<li>A trigger is sent to input 2, height(STI101)=2</li>
-<li>A trigger is sent to input 1 AND 2, height(STI101)=3</li>
-<li>...</li>
-<li>Following a binary encoding scheme in which input 1 is 2^0, input 2 is 2^1, input 3 is 2^2 and so on.</li>
-</ul>
-<p>''<span style="color:maroon">('''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/Triggering%20through%20the%20Parallel%20Port.docx HERE]''' you will find a useful '''Word''' Docx about "Triggering through the Parallel Port")</span>''.<br />
-''(With thanks to the ABC, Aston University).''</p>
-<p>In summary, the height of STI101 indicates the value of the trigger signal sent via the parallel port, with most values being encoded by multiple simultaneous trigger signals.</p>
-<p>If desired, the individual trigger lines (1-16) can also be activated separately, in which case 0 is no trigger and any positive value is a trigger.</p>
-<hr />
-<p>'''In response''' to a query about '''bits 15 and 16''', (see '''[[Elekta Response Pads &amp; LabJack U3-LV]]'''), and their impact on the '''composite trigger channel STI101''' when both Interface Units are operating in '''''parallel''''' mode, one of our MEG Trainers had the following to say...</p>
-<p><span style="font-family:Times New Roman;font-size:medium">"The recommended practice would be to use the combined mode (i.e. STI101 represents the inputs of both interfaces) and then mask the bits corresponding to the response buttons before searching for stimulus events. You can do that in the on-line averager event setup by clicking the old and new states of bits 15 and 16 to the ”don’t care” state (denoted by an asterisk in the user interface). The MaxFilter averager will also obey this setting. In Graph you can apply a binary mask to the trigger channel values before extracting the codes. The possibilities in 3rd party analysis software packages vary but at least in MNE and MNE Python such masking is straightforward."</span><br />
-Lauri Parkkonen: 27th May 2018.</p>
+<p>The following PDF, <strong><a href="../../pdfs/Triggering_through_the_Parallel_Port.pdf">Triggering_through_the_Parallel_Port</a></strong>, was <strong>kindly provided by The Aston Neuroimaging Facility, Aston University</strong>.</p>
+<p>In <strong>summary</strong>, the <strong>height of STI101 indicates the value of the trigger signal sent via the parallel port, with most values being encoded by multiple simultaneous trigger signals</strong>.</p>
+<p><strong>If desired, the individual trigger lines (1-16) can also be activated separately</strong>, in which case <strong>0 is no trigger and any positive value is a trigger</strong>.</p>
 
 
 
