@@ -1,6 +1,6 @@
 # Delock Parallel Port Card
 
-***<span style="color:maroon">(This has already done for CHBH-ST-MEG-W02)</span>***
+***<span style="color:maroon">(This has already been done for CHBH-ST-MEG-W02)</span>***
 
 ### <span style="color:blue">**Presentation**</span>
 

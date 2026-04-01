@@ -42,7 +42,7 @@ matlab -nosplash -r "cd('L:\winterj\');TriggersOnOff;TriggersOnOff;quit"
 **TriggersOnOff.m**
 
 ```matlab
-sendTrigger = intialiseParallelPort();
+sendTrigger = initialiseParallelPort();
 
 for ii = 0:7
     sendTrigger(power(2, ii));
@@ -56,8 +56,8 @@ sendTrigger(0);
 **initialiseParallelPort.m**
 
 ```matlab
-function sendTrigger = intialiseParallelPort()
-% sendTrigger = intialiseParallelPort()
+function sendTrigger = initialiseParallelPort()
+% sendTrigger = initialiseParallelPort()
 %
 % Tries to initialise a parallel port using the inpoutx64.dll library.
 % Returns the function sendTrigger, which takes a single 8-bit integer
