@@ -36,12 +36,17 @@ EEG EasyCap 64:0:1:2:3:4:5:6:7:8:9:10:11:12:13:14:15:16:17:19:20:21:22:18:23:24:
 
 #### **<span style="color:maroon">Spare Electrodes for EASYCAPs</span>**
 
+!!! Note "<span style="color:red">NOTE</span>"
+	- **CHBH MEG has the <span style="color:blue">64-channel EEG configuration</span>.<br /> James' procedure below WILL NOT WORK with our EASYCAPs.**
+	- **Note electrode/s as 'BAD' and uncheck/ignore when digitising.**
+	- **Or use a replacement cap of the same size (*if available*).**
+
 Having spare caps of different sizes is ideal, but the caps are expensive. If an electrode breaks/is bad, and a cap of similar size is not readily available, that can be problematic.<br />
 
 ![EEG_Breakout_Box](../../images/meg/EEG_breakout_box.jpg){width=35% align=left}
 <br /><br /><br />
 
-- Spare electrodes are available (*Multitrode MEG Electrodes, 150cm, TP connector*) that can be used with the provided 32-channel EEG breakout box and support arm, which is attached to the gantry side arm (on the same side as the side panel).
+- Spare electrodes are available (***[Multitrode MEG Electrodes, 150cm, TP connector](https://shop.easycap.de/products/multitrodemeg)***) that can be used with the provided 32-channel EEG breakout box and support arm, which is attached to the gantry side arm (on the same side as the side panel).
 
 <br /><be /><br /><br /><br /><br />
 
@@ -53,7 +58,7 @@ I then deselect F1 in the acquisition dialogue (EEG12) and select/activate EEG12
 I plug the breakout box into the last port typically for channels 96-128 and plug the soft touch replacement electrode into the breakout box number 32.<br />
 This mandates that the sequence in the digitization is "Sequential" and I just follow the pattern from the Table of Coordinates provided by EASYCAP except that I know F1 is missing, 
 so when I get to F1 (EEG12) I know that it will actually be Fz and everything from there will be -1 (so to speak).
-Then at the very end I digitize F1.</span>*" (James has 75 & 128 channel EASYCAPs)
+Then at the very end I digitize F1.</span>*" (**<span style="color:blue">James has 75 & 128 channel EASYCAPs</span>**)
 
 
 #### **<span style="color:maroon">If using MEGIN Caps ...</span>**

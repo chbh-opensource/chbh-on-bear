@@ -65,7 +65,11 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	
 	- [Metal Detection](labsafety/metal_detectors.md)
 	
+	Useful Documents
+	
 	- [Documentation](labsafety/documentation.md)
+	
+	- [MEG Training Checklist](acquisition/meg-training-checklist.md)
 	
 
 -   **Stimulus Delivery/Response Collection**
@@ -88,13 +92,15 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- **Button Box** - [fMRI Button Pad (2-Hand) System (NATA Technologies)](https://natatech.com/products/complete-response-systems/fmri-button-pad-2-hand-system)
 
 
--   **Quality Control**
+-   **Analysis/Quality Control**
 
     ---
 
-    Analysis and data quality procedures
-
-    - [MNE-Python](analysis/mne.md)
+    Data analysis and data quality control procedures
+	
+	- [FLUX Pipeline](https://www.neuosc.com/flux)
+	
+	- [MNE-Python](analysis/mne.md)
 	
 	- [Phantom Measurement](analysis/phantom_measurement.md)
 	

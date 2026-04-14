@@ -109,8 +109,9 @@ nav:
       - MISC Channels: meg/acquisition/misc_channels.md
     - Lab Safety/Useful Documents:
       - Procedures: meg/labsafety/labsafety.md
-      - Documentation: meg/labsafety/documentation.md
       - Metal Detection: meg/labsafety/metal_detectors.md
+      - Documentation: meg/labsafety/documentation.md
+      - MEG Training Checklist: meg/acquisition/meg-training-checklist.md
     - Stimulus Presentation:
       - Stimulus Hardware Layout: meg/pdfs/MEG_Stimulus_Hardware_Layout.pdf
       - Stimulus Delivery & Triggering: meg/stimulus/stimulus_delivery.md
