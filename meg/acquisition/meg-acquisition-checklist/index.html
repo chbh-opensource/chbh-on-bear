@@ -5497,11 +5497,16 @@ Use <em>Micropore</em> tape over the electrodes to help hold them in place.</p>
 <li><strong>Set up</strong> EyeLink FO Camera Head/IR Illuminator as per normal usage.</li>
 </ul>
 <h2 id="start-recording">Start recording</h2>
+<div class="admonition note">
+<p class="admonition-title">The DACQ Console OS is 64bit, but the <em>megacq</em> software is only 32bit.<br />This limits the maximum saved file size to ~2GB<br /><br /><span style="color:red">Running <em>megacq</em> at a sampling rate of 1000Hz reaches the 2GB saved file size limit in ~15-18min.</span> <br /><br />Stimulus Paradigms running longer than ~20min will therefore result in saved files spanning into one or more parts, which will require joining together before any analysis can take place.</p>
+</div>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Instruct participant to <strong>remain still and relaxed</strong>, and announce the start of the experiment.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Start Acquisition by pressing <strong>"GO!"</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Double-check all good (<em>no noisy sensors/BIO channels etc</em>).</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Tick <strong>Record raw</strong>.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Tick <strong>Average</strong> (if required).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Tick <strong>cHPI</strong> (<em>if continuous Head Position Indication is needed to infer the head position</em>).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Tick <strong>Average</strong> (<em>if required</em>).</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Start experiment on Stim PC.</li>
 </ul>
 <h2 id="finishing-recording-session">Finishing recording session</h2>
