@@ -111,8 +111,9 @@ to copy off acquired data, and are shown **[how to copy off acquired data](../ac
 
 ### **<span style="color:blue">Log book, Lab Safety, and reporting of incidents/problems</span>**
 
-- MEG Operators are instructed to fill in the '''[https://www.chbh.bham.ac.uk/chbh/chbh-documents-and-forms/meg_measurement_log_information_v1_2c.pdf Log book]''' after any MEG Lab usage, however small. This is now mandatory as part of the MEG '''[https://www.chbh.bham.ac.uk/chbh/chbh-documents-and-forms/oplr/part-d-meg-fault-reporting-procedures OPLR]''' Fault Reporting Procedure.
-- MEG Operators are informed of the location of the two Oxygen Depletion Alarms, and what to do if they sound.
-- MEG Operators are shown the location of support telephone contact numbers, the Lab first aid box, the location of the nearest Fire Alarm Call Point and Fire Exit, and, as necessary, to follow the Emergency Procedures as laid out in the MEG '''[https://www.chbh.bham.ac.uk/chbh/chbh-documents-and-forms/oplr/part-d-meg-emergency-procedures OPLR].'''
-- MEG Operators are informed of the MEG Emergency Evacuation Plan ('''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/MEG_Emergency_Evacuation_Plan.pdf MEEP]''') and the procedures are gone through.
+- MEG Operators are instructed to fill in the **[Measurement Log](../../meg/pdfs/meg_measurement_log_information_v1_2c.pdf)** after MEG Lab usage of ~15min or more. This is now mandatory as part of the MEG **OPLR** Fault Reporting Procedure.
+- MEG Operators are informed of the location of the two Oxygen Depletion Alarm sensors, and what to do if they sound.
+- MEG Operators are shown the location of support telephone contact numbers, the Lab First Aid box, the location of the CHBH Defibrillation Kit and the CHBH Emergency Box, the location of the nearest Fire Alarm Call Point and Fire Exit, 
+and, as necessary, to follow the Emergency Procedures as laid out in the MEG **OPLR** and also the CHBH **G**eneral **E**mergency **E**vaction **P**lan (**[GEEP](../../meg/pdfs/GEEP.pdf)**).
+- MEG Operators are informed of the **M**EG **E**mergency **E**vacuation **P**lan (**[MEEP](../../meg/pdfs/MEEP.pdf)**) and the procedures are gone through.
 - MEG Operators are instructed to contact the MEG Support Officer by 'phone or email, of any MEG-related issues or problems.

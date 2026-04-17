@@ -319,10 +319,14 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 
 ## Start recording
 
+!!! Note "The DACQ Console OS is 64bit, but the *megacq* software is only 32bit.<br />This limits the maximum saved file size to ~2GB<br /><br /><span style="color:red">Running *megacq* at a sampling rate of 1000Hz reaches the 2GB saved file size limit in ~15-18min.</span> <br /><br />Stimulus Paradigms running longer than ~20min will therefore result in saved files spanning into one or more parts, which will require joining together before any analysis can take place."
+
 - [ ] Instruct participant to **remain still and relaxed**, and announce the start of the experiment.
 - [ ] Start Acquisition by pressing **"GO!"**.
+- [ ] Double-check all good (*no noisy sensors/BIO channels etc*).
 - [ ] Tick **Record raw**.
-- [ ] Tick **Average** (if required).
+- [ ] Tick **cHPI** (*if continuous Head Position Indication is needed to infer the head position*).
+- [ ] Tick **Average** (*if required*).
 - [ ] Start experiment on Stim PC.
 
 
