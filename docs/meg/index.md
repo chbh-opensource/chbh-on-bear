@@ -26,6 +26,8 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- [EyeLink Settings](acquisition/eyelink_settings.md)
 	- [EyeLink Analog Output](acquisition/eyelink_analog_output.md)
 	- VPixx [X-Rite i1Display Pro](hardware/x_rite_i1_display_pro.md)
+	- MRI T1 Scan
+		- [Parameters](hardware/t1_scan_parameters.md)
 
 -   **Data Acquisition**
 
@@ -42,6 +44,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 		- [Metal items Checklist](pdfs/Metal_items_checklist.pdf)
 		- [Atypical MEG Signals](acquisition/atypical_meg_signals.md)
 	- [Moving the Gantry](acquisition/moving-the-gantry.md)
+	- [Participant Positioning](acquisition/participant_positioning.md)
 	- [Correct Positioning & Usage of EEG Caps](acquisition/position_usage_eeg_caps.md)
 	- [EEG & MEG](acquisition/eeg_meg.md)
 	- [Copying MEG data](acquisition/copying_meg_data.md)
@@ -62,7 +65,11 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	
 	- [Metal Detection](labsafety/metal_detectors.md)
 	
+	Useful Documents
+	
 	- [Documentation](labsafety/documentation.md)
+	
+	- [MEG Training Checklist](acquisition/meg-training-checklist.md)
 	
 
 -   **Stimulus Delivery/Response Collection**
@@ -73,6 +80,9 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	
 	- [Stimulus Hardware Layout](../meg/pdfs/MEG_Stimulus_Hardware_Layout.pdf)
 	
+	- [Stimulus Delivery & Triggering](stimulus/stimulus_delivery.md)
+		- [Delock Parallel Port Card](stimulus/delock_pp_card.md)
+	
 	- VPixx [PROPixx](stimulus/propixx.md) Projector
 	
 	- VPixx [SOUNDPixx](https://vpixx.com/products/soundpixx/) stereo audio system
@@ -82,13 +92,19 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- **Button Box** - [fMRI Button Pad (2-Hand) System (NATA Technologies)](https://natatech.com/products/complete-response-systems/fmri-button-pad-2-hand-system)
 
 
--   **Quality Control**
+-   **Analysis/Quality Control**
 
     ---
 
-    Analysis and data quality procedures
-
-    - [MNE-Python](analysis/mne.md)
+    Data analysis and data quality control procedures
+	
+	- [FLUX Pipeline](https://www.neuosc.com/flux)
+	
+	- [MNE-Python](analysis/mne.md)
+	
+	- [Phantom Measurement](analysis/phantom_measurement.md)
+	
+	- [InHouse Measurement](analysis/inhouse_measurement.md)
 
 
 -   **Troubleshooting**

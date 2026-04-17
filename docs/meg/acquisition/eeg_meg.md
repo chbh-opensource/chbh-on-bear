@@ -1,7 +1,7 @@
 # Using EEG with MEG
 
 
-**<span style="color:blue">We have a 64 Channel EEG system, use EASYCAPs specifically designed for our TRIUX system, purchased from Brain Products UK, and have 6 caps available in 4 different sizes. 
+**<span style="color:blue">CHBH MEG has the 64 Channel EEG system, use EASYCAPs specifically designed for the TRIUX system, purchased from Brain Products UK, and have 6 caps available in 4 different sizes. 
 The caps use the 10/20 system of electrode placement.</span>**
 
 - **1 x 54cm, 2 x 56cm, 2 x 58cm, 1 x 60cm**
@@ -33,6 +33,32 @@ The **new digitisation order** (taken from *eeg_digit_maps*) is as follows ...
 # A map for 64-channel EASYCAP (05/02/2026 - JLW & CZ)
 EEG EasyCap 64:0:1:2:3:4:5:6:7:8:9:10:11:12:13:14:15:16:17:19:20:21:22:18:23:24:25:26:27:28:29:30:31:32:33:34:35:36:37:41:42:43:44:45:46:47:48:49:53:54:55:56:57:58:59:60:61:64:38:39:40:62:50:51:52:63
 ```
+
+#### **<span style="color:maroon">Spare Electrodes for EASYCAPs</span>**
+
+!!! Note "<span style="color:red">NOTE</span>"
+	- **CHBH MEG has the <span style="color:blue">64-channel EEG configuration</span>.<br /> James' procedure below WILL NOT WORK with our EASYCAPs.**
+	- **Note electrode/s as 'BAD' and uncheck/ignore when digitising.**
+	- **Or use a replacement cap of the same size (*if available*).**
+
+Having spare caps of different sizes is ideal, but the caps are expensive. If an electrode breaks/is bad, and a cap of similar size is not readily available, that can be problematic.<br />
+
+![EEG_Breakout_Box](../../images/meg/EEG_breakout_box.jpg){width=35% align=left}
+<br /><br /><br />
+
+- Spare electrodes are available (***[Multitrode MEG Electrodes, 150cm, TP connector](https://shop.easycap.de/products/multitrodemeg)***) that can be used with the provided 32-channel EEG breakout box and support arm, which is attached to the gantry side arm (on the same side as the side panel).
+
+<br /><be /><br /><br /><br /><br />
+
+**James Lubell, Special Consultant**, Department of Clinical Medicine, Center of Functionally Integrative Neuroscience-SKS, Aarhus University, kindly provided the following  ...
+
+"*<span style="color:green">If, for example, F1 is bad (and I don't have a replacement cap) then I have some extra MEG safe electrodes I can use and I plug 
+one into the 32-channel breakout EEG box that comes stock with an EEG subsystem.<br />
+I then deselect F1 in the acquisition dialogue (EEG12) and select/activate EEG128.  As the EEG ports on the MEG are only color coded, you can plug the box into any of the ports. 
+I plug the breakout box into the last port typically for channels 96-128 and plug the soft touch replacement electrode into the breakout box number 32.<br />
+This mandates that the sequence in the digitization is "Sequential" and I just follow the pattern from the Table of Coordinates provided by EASYCAP except that I know F1 is missing, 
+so when I get to F1 (EEG12) I know that it will actually be Fz and everything from there will be -1 (so to speak).
+Then at the very end I digitize F1.</span>*" (**<span style="color:blue">James has 75 & 128 channel EASYCAPs</span>**)
 
 
 #### **<span style="color:maroon">If using MEGIN Caps ...</span>**

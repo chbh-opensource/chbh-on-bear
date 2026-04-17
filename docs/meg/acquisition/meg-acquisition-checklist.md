@@ -94,7 +94,7 @@ Click on the tick boxes to mark your progress through data collection.
 !!! note "We are trying to reduce our laundry bill so only use scrubs if necessary e.g. metal in clothing."
 
 
-## Attach electrodes
+## Attach BIO electrodes
 
 !!! info "Reusable and disposable electrodes available for use as required."
 
@@ -142,6 +142,7 @@ If using the **[NeuroTab](https://www.unimed-electrodes.co.uk/15x20mm-Disposable
 	
     Our Electrode input on the gantry is to the **right of the subject**, so we use the **right eye for vEOG**.
 
+!!! Note "Once BIO electrodes are in place, rename them as necessary (e.g. EOG, ECG) via "Edit BIO" in "Acquisition" settings."
 
 ## Check impedance of electrodes
 

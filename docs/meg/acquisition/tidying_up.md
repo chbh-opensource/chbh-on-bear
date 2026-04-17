@@ -47,6 +47,9 @@
 - [ ] **Remove, and throw away, disposable response box covers (if used)**. If not, **wipe down NAtA response boxes - with Alcohol wipes (not gel!)**. *Be careful! Don't wipe too hard!*
 - [ ] **Throw away disposable electrodes/used *Micropore* tape**.
 - [ ] If used, **[Clean EEG cap](cleaning_eeg_caps.md)**.
+
+#### Clean Resuable Electrodes
+
 - [ ] **Clean reusable electrodes.**
 	 - **Carefully remove** the double-sided sticky disc, and any *Micropore* tape, and dispose of in the bin.
 	 - **Use a cotton bud** dipped in **Isopropyl Alcohol** to **remove any sticky disc residue from the white surround**.

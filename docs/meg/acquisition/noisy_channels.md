@@ -13,3 +13,5 @@
 * Run a RAP again, Start Acquisition, load Tuning file etc.
 * If channels are still too noisy to acquire with, then MEG Support may need to Tune the channels.
 * If still too noisy to acquire, a Help Request with MEGIN Support will be required.
+
+**See also [Fixing Noisy Channels](../acquisition/to_fix_noisy_channels.md)**
