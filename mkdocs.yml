@@ -88,6 +88,7 @@ nav:
       - EyeLink Analog Output: meg/acquisition/eyelink_analog_output.md
       - X-Rite i1Display Pro: meg/hardware/x_rite_i1_display_pro.md
       - MRI T1 Parameters: meg/hardware/t1_scan_parameters.md
+      - NATUS TP-300: meg/hardware/tp_300.md
     - Acquisition:
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
       - Noisy Channels: meg/acquisition/noisy_channels.md

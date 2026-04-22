@@ -28,6 +28,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- VPixx [X-Rite i1Display Pro](hardware/x_rite_i1_display_pro.md)
 	- MRI T1 Scan
 		- [Parameters](hardware/t1_scan_parameters.md)
+	- [NATUS TP-300](hardware/tp_300.md)
 
 -   **Data Acquisition**
 
@@ -85,7 +86,10 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	
 	- VPixx [PROPixx](stimulus/propixx.md) Projector
 	
-	- VPixx [SOUNDPixx](https://vpixx.com/products/soundpixx/) stereo audio system
+	- **Audio**
+	
+		- VPixx [SOUNDPixx](https://vpixx.com/products/soundpixx/) stereo audio system
+		- [NATUS](https://www.natusmedicalstore.com/product/041704000/01t5w00000FVqgrAAD) insert earphone TIP-300 ([Etymotic ER-2](../meg/pdfs/ER-2_Earphones-v1-01-2024.pdf))
 	
 	- **Eyetracking** - [SR Eyelink 1000 tracker](https://www.sr-research.com/eyelink-1000-plus/)
 	
