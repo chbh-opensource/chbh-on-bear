@@ -37,6 +37,7 @@ Guides and documentation for EEG analysis and data collection.
     Analysis and data quality procedures
 
     - [FieldTrip](analysis/fieldtrip.md)
+    - [Automated ICA labelling with MNE/IClabel](analysis/ica.md)
 
 </div>
 
