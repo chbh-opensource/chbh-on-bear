@@ -68,6 +68,9 @@ To give you a sense of what usually happens, here are examples of projects parti
 - **Learn open science skills by helping to develop the CHBH website**
   This project focused on learning important and transferrable tools such as git, markdown and github to contribute to this website! group members added pages on how to contribute, started work on the brain stimulation pages and consolidated the overall formatting of the website to make navigation easier.
 
+ - **Computational modelling code in Matlab**
+  This project focused on cleaning and refactoring existing computational modelling code to make it more generalisable, faster, and robust. Group members refactored many functions and added documentation throughout to make the code easier to read and use for future projects. Group members learned to use git/github, markdown, Matlab, and knowledge of computational modelling.
+
 None of these projects were expected to be “finished.” The aim was to learn something new, make progress together, and leave with ideas to continue later.
 
 ---
