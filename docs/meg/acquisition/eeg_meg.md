@@ -47,8 +47,9 @@ Having spare caps of different sizes is ideal, but the caps are expensive. If an
 <br /><br /><br />
 
 - Spare electrodes are available (***[Multitrode MEG Electrodes, 150cm, TP connector](https://shop.easycap.de/products/multitrodemeg)***) that can be used with the provided 32-channel EEG breakout box and support arm, which is attached to the gantry side arm (on the same side as the side panel).
+- **[Multitrode Information Sheet](../../meg/pdfs/1203_Multitrode.pdf)**
 
-<br /><be /><br /><br /><br /><br />
+<br /><be /><br /><br /><br />
 
 **James Lubell, Special Consultant**, Department of Clinical Medicine, Center of Functionally Integrative Neuroscience-SKS, Aarhus University, kindly provided the following  ...
 

@@ -29,6 +29,8 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- MRI T1 Scan
 		- [Parameters](hardware/t1_scan_parameters.md)
 	- [NATUS TP-300](hardware/tp_300.md)
+	- [VPixx PROPixx](hardware/propixx.md)
+	- [VPixx SOUNDPixx](hardware/soundpixx.md)
 
 -   **Data Acquisition**
 
@@ -84,7 +86,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- [Stimulus Delivery & Triggering](stimulus/stimulus_delivery.md)
 		- [Delock Parallel Port Card](stimulus/delock_pp_card.md)
 	
-	- VPixx [PROPixx](stimulus/propixx.md) Projector
+	- VPixx [PROPixx](https://vpixx.com/products/propixx/) Projector
 	
 	- **Audio**
 	

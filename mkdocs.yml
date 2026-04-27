@@ -89,6 +89,8 @@ nav:
       - X-Rite i1Display Pro: meg/hardware/x_rite_i1_display_pro.md
       - MRI T1 Parameters: meg/hardware/t1_scan_parameters.md
       - NATUS TP-300: meg/hardware/tp_300.md
+      - VPixx PROPixx: meg/hardware/propixx.md
+      - VPixx SOUNDPixx: meg/hardware/soundpixx.md
     - Acquisition:
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
       - Noisy Channels: meg/acquisition/noisy_channels.md
@@ -113,11 +115,10 @@ nav:
       - Metal Detection: meg/labsafety/metal_detectors.md
       - Documentation: meg/labsafety/documentation.md
       - MEG Training Checklist: meg/acquisition/meg-training-checklist.md
-    - Stimulus Presentation:
+    - Stimulus Delivery:
       - Stimulus Hardware Layout: meg/pdfs/MEG_Stimulus_Hardware_Layout.pdf
       - Stimulus Delivery & Triggering: meg/stimulus/stimulus_delivery.md
       - Delock Parallel Port Card: meg/stimulus/delock_pp_card.md
-      - VPixx Projector: meg/stimulus/propixx.md
     - Analysis Tools:
       - MNE-Python: meg/analysis/mne.md
       - Phantom Measurement: meg/analysis/phantom_measurement.md
