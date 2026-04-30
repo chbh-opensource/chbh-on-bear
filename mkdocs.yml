@@ -126,6 +126,7 @@ nav:
     - MEG Troubleshooting:
         - Troubleshooting Index: meg/troubleshooting/troubleshooting.md
         - SLEEP Mode: meg/troubleshooting/sleep_mode.md
+        - The PLC is offline: meg/troubleshooting/plc_offline.md
         - MaxShield state: meg/troubleshooting/maxshield.md
         - Gantry Position: meg/troubleshooting/gantry_position.md
         - HPI Preparation error: meg/troubleshooting/hpi_preparation.md
