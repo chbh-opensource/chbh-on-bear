@@ -149,7 +149,7 @@
 
 !!! Note "**<span style="color:maroon">Don’t shutdown the Console! Only logout and then switch the monitor off.</span>**"
 
-- [ ] **<span style="color:blue">Fill out a Maintenance Log report for your session (one report for each session, if you have consecutive sessions).</span>**
+- [ ] **Fill out a [Maintenance Log](../../meg/pdfs/meg_measurement_log_information_v1_2c.pdf) report for your session (one report for each session, if you have consecutive sessions).**
 - [ ] **<span style="color:#FF5733">If end of day</span>**, **open MSR door for one last sanity check** that **gantry traffic light is <span style="color:green">FLASHING GREEN</span>**.
 	 - *If not, de-metal and adjust gantry up/down buttons as necessary.*
 - [ ] **<span style="color:#FF5733">If end of day</span>**, **Switch off Control Room light**.

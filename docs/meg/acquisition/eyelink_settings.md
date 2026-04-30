@@ -35,3 +35,8 @@
 
 - **150mm - <span style="color:blue">Only applicable in "Remote" mode (which is not used), so can safely be ignored.</span>**
 
+<br />
+!!! Info "**<span style=font-size:medium;color:maroon>Host PC Software Update:</span>**<br /> - **5.14 to 5.15** - <span style="color:blue">**30th September 2020**</span><br /><br /> **<span style=font-size:medium;color:maroon>Battery pack #1: Battery replaced 11/07/2024</span>** <br /> - **Battery Lead Acid 6V 12AH, BP12-6-T1, DigiKey p/n: 522-1005-ND** <br />**<span style=font-size:medium;color:maroon>Battery pack #2: Battery replaced 10/02/2025</span>** <br /> - **Battery Lead Acid 6V 12AH, BP12-6-T1, DigiKey p/n: 522-1005-ND** <br /><br />**<span style=font-size:medium;color:maroon>EyeLink Host PC HDD cloned</span>**<br /> - **5th August 2025**"
+
+
+

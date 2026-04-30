@@ -4,7 +4,10 @@
 **[User Manual April 2017](../../meg/pdfs/NM24131A-C_Triux_UM.pdf)**<br />
 **[Data Acquisition v6.0](../../meg/pdfs/NM23732A-B1-Dacq-6.0-UM_FINAL.pdf)**
 
-Click on the tick boxes to mark your progress through data collection.
+![CHBH MEG Flowchart](../../images/meg/CHBH_MEG_flowchart.jpg)
+**Session flowchart**
+
+**Click on the tick boxes to mark your progress through data collection.**
 
 - [ ] **<span style="color:green">On arrival, sanitise your hands with the provided Anti-bac foam (dispenser on wall outside Control Room).</span>**
 
@@ -87,6 +90,17 @@ Click on the tick boxes to mark your progress through data collection.
  
 - [ ] Offer bathroom break.
 - [ ] Explain preparation procedure.
+- [ ] Check head circumference
+
+!!! Note
+	**According to the *ACMEGS Clinical Practice Guideline 1:*** <br />“<span style="color:blue">Because of a fixed head space in the MEG system helmet, it is worthwhile to measure the patient’s head using a replica helmet before a study. 
+	Alternatively, this can be accomplished during an initial noise screening run, before electrodes are applied. 
+	It must be kept in mind that EEG electrodes, particularly when applied via EEG caps, may add to the head circumference significantly and lead to the inability to position the head appropriately in the helmet”</span>. 
+
+	- [ ] **Measure the head size of the participant.**
+	- [ ] **If the size is > 60 cm, it is recommended to dry fit an EEG cap (if to beused) and test that the participant fits in the helmet, either by moving them into the MEG helmet or checking with the replica helmet.** 
+
+
 - [ ] Explain experiment.
 - [ ] Have participant read and sign ethics consent and screening questionaire.
 - [ ] Have participant remove metal objects, and do **a comprehensive check with both metal detectors**. Participant to change into scrubs if necessary (show participant to Changing Room and show scrubs sizes that are available).
@@ -323,7 +337,17 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 
 - [ ] Instruct participant to **remain still and relaxed**, and announce the start of the experiment.
 - [ ] Start Acquisition by pressing **"GO!"**.
-- [ ] Double-check all good (*no noisy sensors/BIO channels etc*).
+- [ ] Double-check all good (*no noisy sensors/BIO channels etc*). Alleviate any issues if possible (*heat sensors etc*). 
+- [ ] Select **Measure**. (**[Useful Snip](../../images/meg/HPI_measure.jpg)** from **[Guidelines to MEG Data Acquisition](../../meg/pdfs/NM26082A-A_DACQ_Guidelines.pdf)**)<br /> 
+*If there are issues, as a first fix try raising participant slightly more in the gantry chair.* 
+
+!!! Info
+	Low goodness or high discrepancies may indicate a broken or loose HPI coil or a bad digitisation.<br /> 
+	Large discrepancies between digitized and fitted points may mean that a coil has moved.<br />
+	The head origin indicates the position of the head coordinate frame origin with respect to the sensor helmet coordinate frame origin. In a normal adult head, the distance between the coordinate frames is approximately [40,60] mm, therefore the z-coordinate is typically in the range of [-40, -60] mm.<br />
+	If the absolute value of the z-coordinate is > 70 mm, the participant head may be too low in the helmet. The values in Figure 10 indicate that the head frame origin is located 5.4 mm to right, 1.3 mm to front and 62.9 mm down from the helmet frame origin.   
+
+- [ ] Select **Accept** or **Try again** until acceptable (*minimum 3 coils OK*). 
 - [ ] Tick **Record raw**.
 - [ ] Tick **cHPI** (*if continuous Head Position Indication is needed to infer the head position*).
 - [ ] Tick **Average** (*if required*).
@@ -341,7 +365,12 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 - [ ] **Lower chair** by using foot pedal, and pull chair out from under the gantry.
 - [ ] **Help** participant up out of the chair (if required), and escort them back to the **Digitisation chair**. When seated, **gently remove** all electrodes and tape. <br />
 If used to attach them, remove the *Tegaderm* tape from the HPI coils as soon as convenient - see **[Tidying Up](tidying_up.md)** page.
+- [ ] **Offer hair washing** (*if EEG cap used*).<br />
+Shampoo on EEG trolley, towel/hair dryer in Changing Room.<br />
+Show participant to GF shower (*remember swipe card!*).
 - [ ] **Copy off Acquired data to RDS**. *Ideally now, but when Lab is next free if under time constraint* - see **[Copying MEG data](copying_meg_data.md)** page.
+- [ ] **Fill out** a **[Maintenance Log](../../meg/pdfs/meg_measurement_log_information_v1_2c.pdf)** for the session, **detailing any problems/issues** for MEG Suppport to check out/deal with.
+
 
 ## **[Tidying Up](tidying_up.md)** (separate page)
 

@@ -1,4 +1,4 @@
-# MEG Training Checklist
+# MEG Training Program Checklist
 
 ### **<span style="color:blue">Entering the MEG Lab</span>**
 
