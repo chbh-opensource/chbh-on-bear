@@ -2,20 +2,20 @@
 
 ### **<span style="color:maroon">Problem</span>**
 
-If the CHBH Intranet is down for any reason (e.g. faulty certificate), the Participant Logging software (via the standalone PC, or via a browser webpage) won't be available.
+If the **CHBH Intranet is down** for any reason (e.g. faulty certificate), the Participant Logging software (via the standalone PC, or via a browser webpage) **won't be available**.
 
 ### **<span style="color:maroon">Solution</span>**
 
-To generate a pseudonymised PL code for an up-and-coming Acquisition session, please use the following format...
+**To generate a pseudonymised PL code** for an up-and-coming Acquisition session, please **use the following format**...
 
 - **YYYYMMDD#B**, and then a **3 digit Hex encoding** of the **slot booking time** e.g **1500 which is "5DC"** (*use dec2hex in MATLAB, or just Google for a Hex converter*).
 
 - **18th January 2022**, at (*exactly*) **1500 (3pm)** would be **"20220118#B5DC"**.
 
 
-Any manually-created PL code will need to be added to the PL database. Please email CHBH Lead Computing Officer with any that are created.
+**Any manually-created PL code will need to be added to the PL database**. Please email CHBH Lead Computing Officer with any that are created.
 <br />
-For current MEG session slot times, the following Hex codes can be used ...
+For **current MEG session slot times**, the following Hex codes can be used ...
 <br /><br />
 **<span style="font-size:large;color:blue">0900 => "384"<br /> 1100 => "44C"<br />1300 => "514"<br />1500 => "5DC"<br />1700 => "6A4"<br /></span>**
 
@@ -25,7 +25,7 @@ If the **P**articipant **L**ogging **C**omputer (**PLC**) is faulty, or there is
 
 Links are shown below. The second log screen should automatically show after participant details are entered into the first screen, but the second link is provided if needed to be used individually .</span>
 
-!!! warning "<span style="color:red">The URLs are MEG-specific, please do not use them in the MRI.<br /> MRI have their own PLC webpages, added to their Stim PCs.<br /> **[MRI Troubleshooting, PLC isn't working](../../../mri/hardware/troubleshooting/#the-participant-logging-computer-plc-isnt-working)**</span>"
+!!! warning "<span style="color:red">The URLs are MEG-specific, please do not use them in the MRI.<br /> MRI have their own PLC webpages, added to their Stim PCs.<br /> **[MRI Troubleshooting, PLC isn't working](../../mri/hardware/troubleshooting.md#the-participant-logging-computer-plc-isnt-working)**</span>"
 
 
 **<span style="font-size:large">https://www.chbh.bham.ac.uk/meg-log/log-screen1.html</span>**

@@ -91,6 +91,7 @@ nav:
       - NATUS TP-300: meg/hardware/tp_300.md
       - VPixx PROPixx: meg/hardware/propixx.md
       - VPixx SOUNDPixx: meg/hardware/soundpixx.md
+      - Digitimer DS7A: meg/hardware/DS7A.md
     - Acquisition:
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
       - Noisy Channels: meg/acquisition/noisy_channels.md
