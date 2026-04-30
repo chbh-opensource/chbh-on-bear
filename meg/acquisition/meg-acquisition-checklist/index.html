@@ -5151,7 +5151,9 @@
 <p><strong><a href="../../pdfs/NM26082A-A_DACQ_Guidelines.pdf">Guidelines to MEG Data Acquisition</a></strong> (<em>Customer training, May 2020</em>) <br />
 <strong><a href="../../pdfs/NM24131A-C_Triux_UM.pdf">User Manual April 2017</a></strong><br />
 <strong><a href="../../pdfs/NM23732A-B1-Dacq-6.0-UM_FINAL.pdf">Data Acquisition v6.0</a></strong></p>
-<p>Click on the tick boxes to mark your progress through data collection.</p>
+<p><img alt="CHBH MEG Flowchart" src="../../../images/meg/CHBH_MEG_flowchart.jpg" />
+<strong>Session flowchart</strong></p>
+<p><strong>Click on the tick boxes to mark your progress through data collection.</strong></p>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong><span style="color:green">On arrival, sanitise your hands with the provided Anti-bac foam (dispenser on wall outside Control Room).</span></strong></li>
 </ul>
@@ -5275,6 +5277,19 @@
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Offer bathroom break.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Explain preparation procedure.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Check head circumference</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>According to the <em>ACMEGS Clinical Practice Guideline 1:</em></strong> <br />“<span style="color:blue">Because of a fixed head space in the MEG system helmet, it is worthwhile to measure the patient’s head using a replica helmet before a study. 
+Alternatively, this can be accomplished during an initial noise screening run, before electrodes are applied. 
+It must be kept in mind that EEG electrodes, particularly when applied via EEG caps, may add to the head circumference significantly and lead to the inability to position the head appropriately in the helmet”</span>. </p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Measure the head size of the participant.</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>If the size is &gt; 60 cm, it is recommended to dry fit an EEG cap (if to beused) and test that the participant fits in the helmet, either by moving them into the MEG helmet or checking with the replica helmet.</strong> </li>
+</ul>
+</div>
+<ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Explain experiment.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Have participant read and sign ethics consent and screening questionaire.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Have participant remove metal objects, and do <strong>a comprehensive check with both metal detectors</strong>. Participant to change into scrubs if necessary (show participant to Changing Room and show scrubs sizes that are available).</li>
@@ -5559,7 +5574,19 @@ Use <em>Micropore</em> tape over the electrodes to help hold them in place.</p>
 <ul class="task-list">
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Instruct participant to <strong>remain still and relaxed</strong>, and announce the start of the experiment.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Start Acquisition by pressing <strong>"GO!"</strong>.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Double-check all good (<em>no noisy sensors/BIO channels etc</em>).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Double-check all good (<em>no noisy sensors/BIO channels etc</em>). Alleviate any issues if possible (<em>heat sensors etc</em>). </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Select <strong>Measure</strong>. (<strong><a href="../../../images/meg/HPI_measure.jpg">Useful Snip</a></strong> from <strong><a href="../../pdfs/NM26082A-A_DACQ_Guidelines.pdf">Guidelines to MEG Data Acquisition</a></strong>)<br /> 
+<em>If there are issues, as a first fix try raising participant slightly more in the gantry chair.</em> </li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Low goodness or high discrepancies may indicate a broken or loose HPI coil or a bad digitisation.<br /> 
+Large discrepancies between digitized and fitted points may mean that a coil has moved.<br />
+The head origin indicates the position of the head coordinate frame origin with respect to the sensor helmet coordinate frame origin. In a normal adult head, the distance between the coordinate frames is approximately [40,60] mm, therefore the z-coordinate is typically in the range of [-40, -60] mm.<br />
+If the absolute value of the z-coordinate is &gt; 70 mm, the participant head may be too low in the helmet. The values in Figure 10 indicate that the head frame origin is located 5.4 mm to right, 1.3 mm to front and 62.9 mm down from the helmet frame origin.   </p>
+</div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Select <strong>Accept</strong> or <strong>Try again</strong> until acceptable (<em>minimum 3 coils OK</em>). </li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Tick <strong>Record raw</strong>.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Tick <strong>cHPI</strong> (<em>if continuous Head Position Indication is needed to infer the head position</em>).</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Tick <strong>Average</strong> (<em>if required</em>).</li>
@@ -5576,7 +5603,11 @@ Use <em>Micropore</em> tape over the electrodes to help hold them in place.</p>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Lower chair</strong> by using foot pedal, and pull chair out from under the gantry.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Help</strong> participant up out of the chair (if required), and escort them back to the <strong>Digitisation chair</strong>. When seated, <strong>gently remove</strong> all electrodes and tape. <br />
 If used to attach them, remove the <em>Tegaderm</em> tape from the HPI coils as soon as convenient - see <strong><a href="../tidying_up/">Tidying Up</a></strong> page.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Offer hair washing</strong> (<em>if EEG cap used</em>).<br />
+Shampoo on EEG trolley, towel/hair dryer in Changing Room.<br />
+Show participant to GF shower (<em>remember swipe card!</em>).</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Copy off Acquired data to RDS</strong>. <em>Ideally now, but when Lab is next free if under time constraint</em> - see <strong><a href="../copying_meg_data/">Copying MEG data</a></strong> page.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Fill out</strong> a <strong><a href="../../pdfs/meg_measurement_log_information_v1_2c.pdf">Maintenance Log</a></strong> for the session, <strong>detailing any problems/issues</strong> for MEG Suppport to check out/deal with.</li>
 </ul>
 <h2 id="tidying-up-separate-page"><strong><a href="../tidying_up/">Tidying Up</a></strong> (separate page)</h2>
 <ul class="task-list">
