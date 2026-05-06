@@ -92,6 +92,9 @@ nav:
       - VPixx PROPixx: meg/hardware/propixx.md
       - VPixx SOUNDPixx: meg/hardware/soundpixx.md
       - Digitimer DS7A: meg/hardware/DS7A.md
+      - CHBH-ST-MEG-W02: meg/hardware/megstim.md 
+      - EyeLink 1000 Host: meg/hardware/eyelinkhost.md
+      - DACQ Console: meg/hardware/sinuhe.md
     - Acquisition:
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
       - Noisy Channels: meg/acquisition/noisy_channels.md
