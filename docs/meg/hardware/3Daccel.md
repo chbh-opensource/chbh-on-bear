@@ -6,7 +6,7 @@ The "**X**", "**Y**", and "**Z**" outputs are connected to **MISC10**, **MISC11*
 
 If the **<span style="color:red">red</span>** LED is lit when switched on, the device is presumed to be working as intended.
 
-The BNC connections run through the waveguide and out through the Stimulus Cabinet door, then under the floor to the MISC interface box on the desk.
+The 3D Accelerometer/s is/are placed on the floor next to the gantry chair, and the BNC connections run through the waveguide and out through the Stimulus Cabinet door, then under the floor to the MISC interface box on the desk.
 
 !!! warning "DO NOT close the Stumulus Cabinet door when using one, or both, Accelerometers!"
 

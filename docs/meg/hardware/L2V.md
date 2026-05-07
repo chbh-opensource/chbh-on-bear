@@ -6,6 +6,8 @@ The **three L2V Converters**, provided by Professor Veikko Jousmaki, use a **[TS
 
 If the **<span style="color:red">red</span>** LED is lit when switched on, the L2Vs are presumed to be working as intended.
 
+The L2V Converter boxes are situated in the Stimulus Cabinet, and the BNC connections exit via the filter panel then under the floor to the MISC interface box on the desk.
+
 *<span style="color:blue">"...There is a 5V low-drop voltage regulator inside the L2V transformer box.
 Thus ~5.3V is still enough for keeping a stable 5V. The power consumption is less 
 than 1 mA and thus one 9V battery ranked at ~600 mAh will last for several hundreds of hours.... 
