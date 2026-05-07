@@ -132,6 +132,7 @@ nav:
       - InHouse Measurement: meg/analysis/inhouse_measurement.md
     - MEG Troubleshooting:
         - Troubleshooting Index: meg/troubleshooting/troubleshooting.md
+        - FAQ: meg/troubleshooting/faq.md
         - SLEEP Mode: meg/troubleshooting/sleep_mode.md
         - The PLC is offline: meg/troubleshooting/plc_offline.md
         - MaxShield state: meg/troubleshooting/maxshield.md

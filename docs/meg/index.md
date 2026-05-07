@@ -126,13 +126,15 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- [InHouse Measurement](analysis/inhouse_measurement.md)
 
 
--   **Troubleshooting**
+-   **Troubleshooting/FAQ**
 
     ---
 
     Issues encountered, when occured (if required), usual solutions
 
     - [MEG Troubleshooting](troubleshooting/troubleshooting.md)
+	
+	- [FAQ](troubleshooting/faq.md)
 
 
 </div>
