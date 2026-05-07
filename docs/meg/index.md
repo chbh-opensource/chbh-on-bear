@@ -115,6 +115,9 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
     Data analysis and data quality control procedures
 	
 	- [FLUX Pipeline](https://www.neuosc.com/flux)
+		- [FT Cheatsheet](pdfs/FieldTrip_cheatsheet.pdf) v2024.01<br /><span style="font-size:medium">(*Many thanks to Jim McKay,<br /> Candoo Systems inc.*)</span>
+	
+	- [MaxFilter Fine-Calibration Files](analysis/maxfiltercalfiles.md)
 	
 	- [MNE-Python](analysis/mne.md)
 	

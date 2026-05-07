@@ -126,6 +126,7 @@ nav:
       - Stimulus Delivery & Triggering: meg/stimulus/stimulus_delivery.md
       - Delock Parallel Port Card: meg/stimulus/delock_pp_card.md
     - Analysis Tools:
+      - MaxFilter Fine-Calibration files: meg/analysis/maxfiltercalfiles.md
       - MNE-Python: meg/analysis/mne.md
       - Phantom Measurement: meg/analysis/phantom_measurement.md
       - InHouse Measurement: meg/analysis/inhouse_measurement.md
