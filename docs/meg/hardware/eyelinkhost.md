@@ -1,4 +1,4 @@
-# EyeLink 1000 Host
+# EyeLink 1000 Plus Host
 
 - <span style="font-size:large"> **System:** Dell OptiPlex 5040 Mini Tower </span>
 - <span style="font-size:large"> **OS:** Microsoft Windows 10 Professional (x64) Build 15063.483 (1703/RS2)</span>

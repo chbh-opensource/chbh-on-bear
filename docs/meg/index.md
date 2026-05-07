@@ -32,6 +32,8 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- [VPixx PROPixx](hardware/propixx.md)
 	- [VPixx SOUNDPixx](hardware/soundpixx.md)
 	- [Digitimer DS7A](hardware/DS7A.md)
+	- [L2V Converter](hardware/L2V.md) (*photodiode*)
+	- [3D Accelerometer](hardware/3Daccel.md)
 	- PC Specifications
 		- [CHBH-ST-MEG-W02](hardware/megstim.md) Stimulus PC
 		- [EyeLink 1000 Host](hardware/eyelinkhost.md)
