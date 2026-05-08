@@ -43,6 +43,10 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 -   **Data Acquisition**
 
     ---
+	
+	Requesting Lab usage
+	
+	- [MEG Bookings](acquisition/megbookings.md)
 
     Equipment and setup for data collection
 

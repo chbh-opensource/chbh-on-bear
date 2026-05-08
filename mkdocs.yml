@@ -98,6 +98,7 @@ nav:
       - EyeLink 1000 Plus Host: meg/hardware/eyelinkhost.md
       - DACQ Console: meg/hardware/sinuhe.md
     - Acquisition:
+      - MEG Bookings: meg/acquisition/megbookings.md
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
       - Noisy Channels: meg/acquisition/noisy_channels.md
       - Fixing Noisy Channels: meg/acquisition/to_fix_noisy_channels.md
