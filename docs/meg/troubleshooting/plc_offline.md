@@ -23,10 +23,9 @@ If the **P**articipant **L**ogging **C**omputer (**PLC**) is faulty, or there is
 
 !!! Info "FireFox may be required, instead of Chrome, if there are still certificate issues."
 
-Links are shown below. The second log screen should automatically show after participant details are entered into the first screen, but the second link is provided if needed to be used individually .</span>
+Links are shown below. The second log screen should automatically show after participant details are entered into the first screen, but the second link is provided if needed to be used individually.
 
 !!! warning "<span style="color:red">The URLs are MEG-specific, please do not use them in the MRI.<br /> MRI have their own PLC webpages, added to their Stim PCs.<br /> **[MRI Troubleshooting, PLC isn't working](../../mri/hardware/troubleshooting.md#the-participant-logging-computer-plc-isnt-working)**</span>"
-
 
 **<span style="font-size:large">https://www.chbh.bham.ac.uk/meg-log/log-screen1.html</span>**
 
