@@ -47,6 +47,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	Requesting Lab usage
 	
 	- [MEG Bookings](acquisition/megbookings.md)
+		- [Weekend Working](acquisition/weekendwork.md)
 
     Equipment and setup for data collection
 
@@ -75,6 +76,8 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	---
 	
 	Procedures to follow in case of an emergency
+	
+	- [Security Contact Details](labsafety/securitycontact.md)
 	
 	- [Safety Procedures](labsafety/labsafety.md)
 	

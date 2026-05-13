@@ -99,6 +99,7 @@ nav:
       - DACQ Console: meg/hardware/sinuhe.md
     - Acquisition:
       - MEG Bookings: meg/acquisition/megbookings.md
+      - Weekend Working: meg/acquisition/weekendwork.md
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
       - Noisy Channels: meg/acquisition/noisy_channels.md
       - Fixing Noisy Channels: meg/acquisition/to_fix_noisy_channels.md
@@ -118,6 +119,7 @@ nav:
       - Audio Delay Testing: meg/acquisition/audio_delay_testing.md
       - MISC Channels: meg/acquisition/misc_channels.md
     - Lab Safety/Useful Documents:
+      - Security Contact Details: meg/labsafety/securitycontact.md
       - Procedures: meg/labsafety/labsafety.md
       - Metal Detection: meg/labsafety/metal_detectors.md
       - Documentation: meg/labsafety/documentation.md
