@@ -1,4 +1,4 @@
-# Useful documents, COSHH etc 
+# Useful documents, manuals,  COSHH etc 
 
 #### **[MEG Operator Checklist v4-0c](../../meg/pdfs/meg_operator_checklist_v4-0c.pdf)**
 
