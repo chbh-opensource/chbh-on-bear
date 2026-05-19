@@ -88,7 +88,19 @@ nav:
       - EyeLink Analog Output: meg/acquisition/eyelink_analog_output.md
       - X-Rite i1Display Pro: meg/hardware/x_rite_i1_display_pro.md
       - MRI T1 Parameters: meg/hardware/t1_scan_parameters.md
+      - NATUS TP-300: meg/hardware/tp_300.md
+      - VPixx PROPixx: meg/hardware/propixx.md
+      - VPixx SOUNDPixx: meg/hardware/soundpixx.md
+      - Digitimer DS7A: meg/hardware/DS7A.md
+      - L2V Converter: meg/hardware/L2V.md
+      - 3D Accelerometer: meg/hardware/3Daccel.md
+      - MSR Video Capture: meg/hardware/msrvidcap.md
+      - CHBH-ST-MEG-W02: meg/hardware/megstim.md 
+      - EyeLink 1000 Plus Host: meg/hardware/eyelinkhost.md
+      - DACQ Console: meg/hardware/sinuhe.md
     - Acquisition:
+      - MEG Bookings: meg/acquisition/megbookings.md
+      - Weekend Working: meg/acquisition/weekendwork.md
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
       - Noisy Channels: meg/acquisition/noisy_channels.md
       - Fixing Noisy Channels: meg/acquisition/to_fix_noisy_channels.md
@@ -108,22 +120,25 @@ nav:
       - Audio Delay Testing: meg/acquisition/audio_delay_testing.md
       - MISC Channels: meg/acquisition/misc_channels.md
     - Lab Safety/Useful Documents:
+      - Security Contact Details: meg/labsafety/securitycontact.md
       - Procedures: meg/labsafety/labsafety.md
       - Metal Detection: meg/labsafety/metal_detectors.md
       - Documentation: meg/labsafety/documentation.md
       - MEG Training Checklist: meg/acquisition/meg-training-checklist.md
-    - Stimulus Presentation:
+    - Stimulus Delivery:
       - Stimulus Hardware Layout: meg/pdfs/MEG_Stimulus_Hardware_Layout.pdf
       - Stimulus Delivery & Triggering: meg/stimulus/stimulus_delivery.md
       - Delock Parallel Port Card: meg/stimulus/delock_pp_card.md
-      - VPixx Projector: meg/stimulus/propixx.md
     - Analysis Tools:
+      - MaxFilter Fine-Calibration files: meg/analysis/maxfiltercalfiles.md
       - MNE-Python: meg/analysis/mne.md
       - Phantom Measurement: meg/analysis/phantom_measurement.md
       - InHouse Measurement: meg/analysis/inhouse_measurement.md
     - MEG Troubleshooting:
         - Troubleshooting Index: meg/troubleshooting/troubleshooting.md
+        - FAQ: meg/troubleshooting/faq.md
         - SLEEP Mode: meg/troubleshooting/sleep_mode.md
+        - The PLC is offline: meg/troubleshooting/plc_offline.md
         - MaxShield state: meg/troubleshooting/maxshield.md
         - Gantry Position: meg/troubleshooting/gantry_position.md
         - HPI Preparation error: meg/troubleshooting/hpi_preparation.md

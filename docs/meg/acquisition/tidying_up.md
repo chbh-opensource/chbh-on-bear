@@ -47,6 +47,9 @@
 - [ ] **Remove, and throw away, disposable response box covers (if used)**. If not, **wipe down NAtA response boxes - with Alcohol wipes (not gel!)**. *Be careful! Don't wipe too hard!*
 - [ ] **Throw away disposable electrodes/used *Micropore* tape**.
 - [ ] If used, **[Clean EEG cap](cleaning_eeg_caps.md)**.
+
+#### Clean Resuable Electrodes
+
 - [ ] **Clean reusable electrodes.**
 	 - **Carefully remove** the double-sided sticky disc, and any *Micropore* tape, and dispose of in the bin.
 	 - **Use a cotton bud** dipped in **Isopropyl Alcohol** to **remove any sticky disc residue from the white surround**.
@@ -146,7 +149,7 @@
 
 !!! Note "**<span style="color:maroon">Don’t shutdown the Console! Only logout and then switch the monitor off.</span>**"
 
-- [ ] **<span style="color:blue">Fill out a Maintenance Log report for your session (one report for each session, if you have consecutive sessions).</span>**
+- [ ] **Fill out a [Maintenance Log](../../meg/pdfs/meg_measurement_log_information_v1_2c.pdf) report for your session (one report for each session, if you have consecutive sessions).**
 - [ ] **<span style="color:#FF5733">If end of day</span>**, **open MSR door for one last sanity check** that **gantry traffic light is <span style="color:green">FLASHING GREEN</span>**.
 	 - *If not, de-metal and adjust gantry up/down buttons as necessary.*
 - [ ] **<span style="color:#FF5733">If end of day</span>**, **Switch off Control Room light**.

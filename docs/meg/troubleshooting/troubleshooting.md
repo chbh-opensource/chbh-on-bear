@@ -2,6 +2,8 @@
 
 ### **[SLEEP Mode](../../meg/troubleshooting/sleep_mode.md)**
 
+### **["The Participant Logging Computer isn't working!"](../../meg/troubleshooting/plc_offline.md)**
+
 ### **[MaxShield State](../../meg/troubleshooting/maxshield.md)**
 
 ### **[Gantry Position](../../meg/troubleshooting/gantry_position.md)**

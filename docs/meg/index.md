@@ -28,10 +28,27 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- VPixx [X-Rite i1Display Pro](hardware/x_rite_i1_display_pro.md)
 	- MRI T1 Scan
 		- [Parameters](hardware/t1_scan_parameters.md)
+	- [NATUS TP-300](hardware/tp_300.md)
+	- [VPixx PROPixx](hardware/propixx.md)
+	- [VPixx SOUNDPixx](hardware/soundpixx.md)
+	- [Digitimer DS7A](hardware/DS7A.md)
+	- [L2V Converter](hardware/L2V.md) (*photodiode*)
+	- [3D Accelerometer](hardware/3Daccel.md)
+	- [MSR Video Capture](hardware/msrvidcap.md)
+	- PC Specifications
+		- [CHBH-ST-MEG-W02](hardware/megstim.md) Stimulus PC
+		- [EyeLink 1000 Host](hardware/eyelinkhost.md)
+		- [DACQ Console](hardware/sinuhe.md) "Sinuhe"
+
 
 -   **Data Acquisition**
 
     ---
+	
+	Requesting Lab usage
+	
+	- [MEG Bookings](acquisition/megbookings.md)
+		- [Weekend Working](acquisition/weekendwork.md)
 
     Equipment and setup for data collection
 
@@ -61,11 +78,13 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	
 	Procedures to follow in case of an emergency
 	
+	- [Security Contact Details](labsafety/securitycontact.md)
+	
 	- [Safety Procedures](labsafety/labsafety.md)
 	
 	- [Metal Detection](labsafety/metal_detectors.md)
 	
-	Useful Documents
+	Useful Documents/Manuals
 	
 	- [Documentation](labsafety/documentation.md)
 	
@@ -83,13 +102,18 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- [Stimulus Delivery & Triggering](stimulus/stimulus_delivery.md)
 		- [Delock Parallel Port Card](stimulus/delock_pp_card.md)
 	
-	- VPixx [PROPixx](stimulus/propixx.md) Projector
+	- VPixx [PROPixx](https://vpixx.com/products/propixx/) Projector
 	
-	- VPixx [SOUNDPixx](https://vpixx.com/products/soundpixx/) stereo audio system
+	- **Audio**
+	
+		- VPixx [SOUNDPixx](https://vpixx.com/products/soundpixx/) stereo audio system
+		- [NATUS](https://www.natusmedicalstore.com/product/041704000/01t5w00000FVqgrAAD) insert earphone TIP-300 ([Etymotic ER-2](../meg/pdfs/ER-2_Earphones-v1-01-2024.pdf))
 	
 	- **Eyetracking** - [SR Eyelink 1000 tracker](https://www.sr-research.com/eyelink-1000-plus/)
 	
 	- **Button Box** - [fMRI Button Pad (2-Hand) System (NATA Technologies)](https://natatech.com/products/complete-response-systems/fmri-button-pad-2-hand-system)
+	
+	- **Electrical Stimulation** - [DS7A Constant Current Stimulator](https://www.digitimer.com/product/human-neurophysiology/peripheral-stimulators/ds7a-ds7ah-hv-current-stimulator/)
 
 
 -   **Analysis/Quality Control**
@@ -99,6 +123,9 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
     Data analysis and data quality control procedures
 	
 	- [FLUX Pipeline](https://www.neuosc.com/flux)
+		- [FT Cheatsheet](pdfs/FieldTrip_cheatsheet.pdf) v2024.01<br /><span style="font-size:medium">(*Many thanks to Jim McKay,<br /> Candoo Systems inc.*)</span>
+	
+	- [MaxFilter Fine-Calibration Files](analysis/maxfiltercalfiles.md)
 	
 	- [MNE-Python](analysis/mne.md)
 	
@@ -107,13 +134,15 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- [InHouse Measurement](analysis/inhouse_measurement.md)
 
 
--   **Troubleshooting**
+-   **Troubleshooting/FAQ**
 
     ---
 
     Issues encountered, when occured (if required), usual solutions
 
     - [MEG Troubleshooting](troubleshooting/troubleshooting.md)
+	
+	- [FAQ](troubleshooting/faq.md)
 
 
 </div>

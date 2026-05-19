@@ -25,6 +25,28 @@ remotes::install_github("martin3141/spant", ref = "devel", dependencies = TRUE)
 
 Note, installing for the first time will require compilation of various packages and will take some time.
 
+The following commands should also be run to install the requried dependencies for voxel tissue segmentation:
+
+```
+spant::install_ants()
+spant::install_oasis_template()
+spant::install_faceoff()
+```
+
+
 ## Batch use
 
-The use of Apptainer containers are recommended for batch analyses using spant to ensure consistency. A guide to building and using these containers on BlueBEAR may be found on github : <https://github.com/martin3141/mrs_apps_containers>
+The following modules are required to use spant on BlueBEAR:
+
+```
+module load bear-apps/2024a
+module load R/4.5.0-gfbf-2024a
+module load R-bundle-CRAN/2025.06-foss-2024a
+```
+
+The following command bash command should be run once to reduce the chances of write errors:
+
+```
+echo "TMPDIR=/scratch/$USER" >> $HOME/.Renviron
+```
+

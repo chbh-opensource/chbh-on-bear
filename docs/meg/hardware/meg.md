@@ -18,8 +18,14 @@ The system, therefore, needs regular downtime in the evenings/weekends.
 - The TRIUX system has **306 sensors** distributed over the head:
 	- **204 planar gradiometers**.
 	- **102 magnetometers**.
+- **Sensors arranged in triplets.**
+	- **One magnetometer** and **two planar gradiometers** in **each triplet**.
+	- **<span style="color:blue">102 high-precision triple-sensor elements.</span>**
+- **Integrated heater** in each element.
+- **Overlapping pick-up loops.**
+	- Total **sampling area** is **1220 cm<sup>2</sup>** <br /> **27% larger than the helmet surface area.**
 
-The MEG system is situated in a two-layer Magnetically Shielded Room (MSR), installed by **[VAC](https://www.vacuumschmelze.com/products/Advanced-Technologies/MSR)**. The system allows for concurrent EEG recordings from 64 electrodes and continuous monitoring of the head position.
+The **MEG system is situated in a two-layer Magnetically Shielded Room (MSR)**, installed by **[VAC](https://www.vacuumschmelze.com/products/Advanced-Technologies/MSR)**. The system allows for concurrent EEG recordings from 64 electrodes and continuous monitoring of the head position.
 <br />A closed-loop Helium recycler eliminates refills.
 
 <align=full>
