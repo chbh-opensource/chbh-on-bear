@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://ajquinn.github.io/chbh-on-bear/meg/hardware/msr/">
+        <link rel="canonical" href="https://ajquinn.github.io/chbh-on-bear/meg/hardware/msrvidcap/">
       
       
-        <link rel="prev" href="../contraindications/">
+        <link rel="prev" href="../3Daccel/">
       
       
-        <link rel="next" href="../dimensions/">
+        <link rel="next" href="../megstim/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>How to open the MSR - CHBH User Handbook</title>
+        <title>MSR Video Capture - CHBH User Handbook</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#how-to-open-the-msr" class="md-skip">
+        <a href="#msr-video-capture" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              How to open the MSR
+              MSR Video Capture
             
           </span>
         </div>
@@ -1016,37 +1016,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    How to open the MSR
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../msr/" class="md-nav__link">
         
   
   
@@ -1062,48 +1035,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#to-open-the-msr" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        To open the MSR
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#emergency-msr-door-opening-instructions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Emergency MSR Door Opening Instructions
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1617,10 +1548,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../msrvidcap/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1636,6 +1576,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -5199,36 +5140,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#to-open-the-msr" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        To open the MSR
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#emergency-msr-door-opening-instructions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Emergency MSR Door Opening Instructions
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -5247,49 +5158,25 @@
   
 
 
-<h1 id="how-to-open-the-msr">How to open the MSR</h1>
-<h3 id="to-open-the-msr"><strong>To open the MSR</strong></h3>
+<h1 id="msr-video-capture">MSR Video Capture</h1>
+<p>The AD-joined PC in the Lab contains a StarTech <strong><a href="https://www.startech.com/en-gb/audio-video-products/pexhdcap2">High-Definition PCIe Capture Card</a></strong> 
+used to capture/record the camera output from the MSR participant monitoring system.</p>
+<p>Only video can be recorded, no audio and no timing information/TTL triggers can be added to the MEG data when acquiring (the provided MSR camera setup isn't designed for that).</p>
+<p>Once the data is saved to an AD Home directory (OneDrive), the video can be reviewed after the session if a note needs to be made of any atypical participant movements.</p>
+<p>A decent video player may need to be installed. A good one to try is <strong>VideoLAN VLC Player</strong> (downloaded from Software Centre, or AppsAnywhere)</p>
+<p><strong>Usage:</strong></p>
 <ul>
-<li>Press the <span style="color:green"><strong>GREEN</strong></span> <strong>Open/Close Door</strong> button. Door will <strong>open about 5cm.</strong><ul>
-<li>If <strong>Outside</strong>, Pull the door open.</li>
-<li>If <strong>Inside</strong>, Push the door open.</li>
+<li>Log into the PC using AD username/password (no need to power off the system after use, just log out).</li>
+<li>Double-click the ''StreamCatcherPro'' shortcut on the Desktop.</li>
+<li>Change the settings/resolution/file format to suit requirements.</li>
+<li>Recorded files are saved in the default directory C:\StreamCatcherPro\Record.</li>
+<li>Exit StreamCatcherPro once finished.</li>
+<li>Move recorded data to AD Home directory (OneDrive).</li>
+<li>Log out of the PC.</li>
 </ul>
-</li>
-</ul>
-<h3 id="emergency-msr-door-opening-instructions"><strong>Emergency MSR Door Opening Instructions</strong></h3>
-<p><strong>To unlock the door:</strong></p>
-<ul>
-<li>Press the <span style="color:red"><strong>RED</strong></span> <strong>Emergency Door Release</strong> button. Door will <strong>open about 2cm</strong>.<ul>
-<li>If <strong>Outside</strong>, Pull the door open.</li>
-<li>If <strong>Inside</strong>, Push the door open.</li>
-</ul>
-</li>
-</ul>
-<p><strong>If the door is still stuck:</strong></p>
-<ul>
-<li>Place the hexagonal key in the <strong>Emergency Unlock</strong> slot and turn in direction of the arrow.</li>
-<li>Repeat for the second slot.<ul>
-<li>If <strong>Outside</strong>, Pull the door open.</li>
-<li>If <strong>Inside</strong>, Push the door open.</li>
-</ul>
-</li>
-</ul>
-<p><strong>PDFs instructions for emergency opening the MSR door from both Outside and Inside can be found below...</strong></p>
-<p><strong><a href="../../pdfs/MSRDoorEmergencyOutside.pdf">OUTSIDE emergency door opening instructions</a></strong> <br />
-<strong><a href="../../pdfs/MSRDoorEmergencyInside.pdf">INSIDE emergency door opening instructions</a></strong></p>
-<div class="admonition info">
-<p class="admonition-title">Principles of MSR Door Operation</p>
-<p>The <strong>MSR</strong> door is locked by pressurized air, provided by the compressor in the plant room next door. <br />
-On pressing the <strong>Emergency Door Release</strong> button, the air pressure is released, allowing free movement of the two latches holding the door shut. <br />
-The door will open approximately 2cm and can be pulled/pushed open the rest of the way. <br />
-It is heavy so a reasonable amount of effort will be required. <br />
-If for any reason the two latches are still locked after releasing the air pressure, the <strong>Emergency Unlock</strong> mechanism releases a spring that pulls the latches away from the lock hinges, allowing the door to open.<br /><br />
-<strong>To reset the latches</strong><br />
-Open the door wide enough to gain access to them. <br />
-Insert the hex key into both slots and turn in the opposite direction of the arrow. <br />
-Pull the latches out of their unlocked positions, against the spring, until they lock. <br />
-The spring is powerful, so pull hard!</p>
-</div>
+<p>Approx. 1 minute of video is ~100MB, at the default settings, so files could get quite large very quickly.</p>
+<p>Please adjust the settings/resolution/file format as necessary, via the <strong><a href="../../pdfs/StreamCatcherPro_SUG.pdf">Stream Capture Pro User Guide</a></strong> 
+and there is also a printed copy of the Guide on the shelf.</p>
 
 
 
