@@ -103,7 +103,7 @@
 
 - [ ] Explain experiment.
 - [ ] Have participant read and sign ethics consent and screening questionaire.
-- [ ] Have participant remove metal objects, and do **a comprehensive check with both metal detectors**. Participant to change into scrubs if necessary (show participant to Changing Room and show scrubs sizes that are available).
+- [ ] Have participant remove metal objects, and do **a comprehensive check with both [metal detectors](../../meg/labsafety/metal_detectors.md)**. Participant to change into scrubs if necessary (show participant to Changing Room and show scrubs sizes that are available).
 
 !!! note "We are trying to reduce our laundry bill so only use scrubs if necessary e.g. metal in clothing."
 

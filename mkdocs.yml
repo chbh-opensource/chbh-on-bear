@@ -94,6 +94,7 @@ nav:
       - Digitimer DS7A: meg/hardware/DS7A.md
       - L2V Converter: meg/hardware/L2V.md
       - 3D Accelerometer: meg/hardware/3Daccel.md
+      - MSR Video Capture: meg/hardware/msrvidcap.md
       - CHBH-ST-MEG-W02: meg/hardware/megstim.md 
       - EyeLink 1000 Plus Host: meg/hardware/eyelinkhost.md
       - DACQ Console: meg/hardware/sinuhe.md
