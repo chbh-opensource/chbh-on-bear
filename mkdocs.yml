@@ -182,6 +182,7 @@ nav:
         - Conda: software/python/conda.md
         - uv: software/python/uv.md
     - R: software/R.md
+    - Running VSCode on a compute node: software/remote_tunnel.md
   - Making a contribution : making_a_contribution.md
   - FAQs: faqs.md
   - Hackathon 2026: misc/hackathon_2026.md
