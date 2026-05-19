@@ -23,7 +23,7 @@
 	- ***<span style="color:blue">watch_on_chair_30_sec<span style="color:red">_tsss</span>.fif</span>***
 
 !!! Info
-	**For more detailed information on usage,<br /> please read pages 21 – 25 from [Guidelines to MEG Data Analysis Software](../../meg/pdfs/NM25775A-B1_DANA_Guidelines.pdf)**
+	**<span style="font-size:medium">For more detailed information on usage,<br /> please read pages 21 – 25 from [Guidelines to MEG Data Analysis Software](../../meg/pdfs/NM25775A-B1_DANA_Guidelines.pdf)**</span>
 
 
 **Compare the *before* and *after* MaxFilter files …</span>**

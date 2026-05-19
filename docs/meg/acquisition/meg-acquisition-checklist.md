@@ -51,6 +51,7 @@
     === "Check Stimuli, Responses and Triggers"
 
         - Check that the stimuli and responses are as expected.
+			- **[Recovering responses via NAtA Interface](../../meg/hardware/nataresponse.md)**
         - Check arrival of triggers in MEG recording.
 		!!! note "New Stim PC PP card has a different Base Memory Address than the OLD Stim PC PP card."
 			Change any, e.g. MATLAB, code on the NEW Stim PC, referencing the PP Base Memory Address to...<br />
@@ -83,7 +84,7 @@
     - Select Project, or create new.
 	- Input pseudonymised participant details from Participant Logging Computer (PLC).
 	- Adjust Acquisition parameters or load settings...<br /> **```File -> Load settings```** .
-    - Create or adjutst stimulus generation, on-line averaging (as necessary).
+    - Create or adjust stimulus generation, on-line averaging (as necessary).
 
 
 ## Prepare participant
@@ -214,6 +215,8 @@ Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
 	 - Less likely to produce a **non-Acceptance** when performing the ***megacq*** HPI check.
 
 ## Digitise head-coordinate system
+
+The digitisation process is performed using a **[Polhemus FASTRAK system](https://polhemus.com/all-trackers/fastrak)**
 
 !!! note "Make sure that the *goggles don't move* when making the digitisation."
 

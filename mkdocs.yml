@@ -129,6 +129,7 @@ nav:
       - Stimulus Hardware Layout: meg/pdfs/MEG_Stimulus_Hardware_Layout.pdf
       - Stimulus Delivery & Triggering: meg/stimulus/stimulus_delivery.md
       - Delock Parallel Port Card: meg/stimulus/delock_pp_card.md
+      - Recovering responses via NAtA Interface: meg/hardware/nataresponse.md
     - Analysis Tools:
       - MaxFilter Fine-Calibration files: meg/analysis/maxfiltercalfiles.md
       - MNE-Python: meg/analysis/mne.md
