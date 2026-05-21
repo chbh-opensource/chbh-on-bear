@@ -88,7 +88,7 @@ It may be possible to ***extend*** **acquiring by 30min** after the **Late After
 	- *If ****just testing equipment*** (stimuli/triggers etc) out of hours, ***a Buddy is not required.***
 
 
-- **[Out-of-Hours Access](https://forms.office.com/Pages/ResponsePage.aspx?id=z8oksN7eQUKhXDyX1VPp8yoGKIcHP8FHh82NAR1nFAJUQ01ISTJHSUQ0U09GUEdTMEs0T0paT0tXMiQlQCN0PWcu)** will **need to be requested**, and the **[Weekend Working] protocol will need to be read** ***BEFORE*** an **out-of-hours booking can be requested**.
+- **[Out-of-Hours Access](https://forms.office.com/Pages/ResponsePage.aspx?id=z8oksN7eQUKhXDyX1VPp8yoGKIcHP8FHh82NAR1nFAJUQ01ISTJHSUQ0U09GUEdTMEs0T0paT0tXMiQlQCN0PWcu)** will **need to be requested**, and the **[Weekend Working](../acquisition/weekendwork.md) protocol will need to be read** ***BEFORE*** an **out-of-hours booking can be made**.
 
 
 - **If the MEG is booked for a shorter or longer period** than the pre-defined 2 hour slot times, please **make sure not to create any unnecessary gaps that are difficult to be filled**.
