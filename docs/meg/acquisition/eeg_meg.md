@@ -4,7 +4,16 @@
 **<span style="color:blue">CHBH MEG has the 64 Channel EEG system, use EASYCAPs specifically designed for the TRIUX system, purchased from Brain Products UK, and have 6 caps available in 4 different sizes. 
 The caps use the 10/20 system of electrode placement.</span>**
 
-- **1 x 54cm, 2 x 56cm, 2 x 58cm, 1 x 60cm**
+- **1 x 54cm**
+	- *s/n: BC-MEG00173*
+- **2 x 56cm**
+	- *s/n: BC-MEG00174 (#1)*
+	- *s/n: BC-MEG00175 (#2)*
+- **2 x 58cm**
+	- *s/n: BC-MEG00176 (#1)*
+	- *s/n: BC-MEG00177 (#2)*
+- **1 x 60cm**
+	- *s/n: BC-MEG00178*
 
 **[64Ch BrainCap-MEG for Triux - Electrode Layout/Channel Assignment](../../meg/pdfs/CHBH_BC-MEG-64-X10.pdf)**
 
