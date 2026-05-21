@@ -121,8 +121,9 @@ nav:
       - MISC Channels: meg/acquisition/misc_channels.md
     - Lab Safety/Useful Documents:
       - Security Contact Details: meg/labsafety/securitycontact.md
-      - Procedures: meg/labsafety/labsafety.md
+      - Safety Procedures: meg/labsafety/labsafety.md
       - Metal Detection: meg/labsafety/metal_detectors.md
+      - Key Safe: meg/labsafety/keysafe.md
       - Documentation: meg/labsafety/documentation.md
       - MEG Training Checklist: meg/acquisition/meg-training-checklist.md
     - Stimulus Delivery:

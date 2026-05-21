@@ -84,6 +84,8 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	
 	- [Metal Detection](labsafety/metal_detectors.md)
 	
+	- [Key Safe](labsafety/keysafe.md)
+	
 	Useful Documents/Manuals
 	
 	- [Documentation](labsafety/documentation.md)
