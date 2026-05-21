@@ -5215,43 +5215,122 @@
 
 
 <h1 id="recovering-responses-via-nata-interface">Recovering responses via NAtA Interface</h1>
-<p>This '''<span style="color:maroon">MATLAB</span>''' script utilises the Psychtoolbox functions '''KbQueue''' to record the responses of our new 5- and 2-button NAtA Boxes</p>
+<p>The <strong><span style="color:maroon">MATLAB</span></strong> script below utilises the Psychtoolbox function <strong>KbQueue</strong> to <strong>record the responses of the 5- and 2-button NAtA Boxes</strong>.</p>
 <p>It uses information taken from ...</p>
-<p>'''[ftp://ftp.tuebingen.mpg.de/pub/pub_dahl/stmdev10_D/Matlab6/Toolboxes/Psychtoolbox/PsychDocumentation/KbQueue.html ftp://ftp.tuebingen.mpg.de/pub/pub_dahl/stmdev10_D/Matlab6/Toolboxes/Psychtoolbox/PsychDocumentation/KbQueue.html]'''</p>
+<p><strong><a href="https://github.com/Psychtoolbox-3/Psychtoolbox-3/blob/master/Psychtoolbox/PsychDocumentation/KbQueue.html">https://github.com/Psychtoolbox-3/Psychtoolbox-3/blob/master/Psychtoolbox/PsychDocumentation/KbQueue.html</a></strong></p>
 <p>and</p>
-<p>'''[http://psychtoolbox.org/docs/KbQueueCheck http://psychtoolbox.org/docs/KbQueueCheck]'''</p>
-<p>'''<span style="color:blue">NAtA_bbox.m</span>''' can be downloaded '''[https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/NAtA_bbox.m HERE]'''.</p>
-<p>'''''(Many thanks to Dr. Tjerk Gutteling / Dagmar Fraser for providing the code).'''''</p>
-<p>'''<span style="color:maroon">The NAtA Response Boxes output button presses as Keyboard numbers via USB to the STIM PCs.</span>'''</p>
-<p><span style="color:blue">'''The NAtA Converter box uses the US Keyboard layout'''</span>, and since most modern keyboards have two ways to input a numerical value (standard row of numbered keys, and a number keypad) the correct key 'name' needs to be implemented correctly in your Psychtoolbox code.</p>
-<p>'''<span style="color:red">NOTE:</span>''' This 'naming' could also apply to Python/E-Prime/Presentation (''citation needed'').</p>
-<p>'''''(Many thanks to Dr. Tjerk Gutteling for pointing this out).'''''</p>
-<p><nowiki> 5 Button      Keyboard number    [KbName ('xx')];</p>
-<p>Left Little            1               1!              <br />
-Left Ring              2               2@
-Left Middle            3               3#           <br />
-Left Index             4               4$
-Left Thumb             5               5%</p>
-<p>Right Thumb            6               6^         <br />
-Right Index            7               7&amp;           <br />
-Right Middle           8               8*             <br />
-Right Ring             9               9(         <br />
-Right Little           0               0)</p>
-<p>2 Button       Keyboard number    [KbName ('xx')];
-(Could be either hand, left or right)</p>
-<h1 id="1-l-1-1">1 L                   1               1!</h1>
-<h1 id="1-r-2-2">1 R                   2               2@</h1>
-<h1 id="2-l-3-3">2 L                   3               3#</h1>
-<h1 id="2-r-4-4">2 R                   4               4$ </nowiki></h1>
-<p>The NAtA Converter Box has TTL outputs to enable recording of button presses in MEG data.</p>
-<p>STI channels '''In 9''' to '''In 13''' in the Stimulus cabinet have been connected to '''Data Bit 0''' to '''Data Bit 4''' from the NAtA Converter box. </p>
-<p>These 5 channels provide unique TTL combinations for all 10 buttons, according to the following ...</p>
-<p>[[File:NAtA_Button_pinouts.jpg|600px|thumb|left|NAtA Button Box TTL Output Combinations]]</p>
-<p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
-<p>Please select the relevant combination of the 5 channels in your '''Acquisition Settings''', '''Channel selection''', to record your participant's responses.</p>
-<p>'''<span style="font-size:large;color:blue">NEW! August 2024</span>'''</p>
-<p>The Original MEG Converter box has been removed and the original buttons swapped to a new set (buttons swapped again in October 2024), to allow the faulty "RR" button to be repaired or replaced. The '''new buttons are non-sticky''', and '''respond as before, LL =&gt; RL, 1 =&gt; 0''' <br />Unfortunately, the new Converter box maps the button's parallel port outputs differently to the above, and not all buttons respond with a continuous press.<br />For now, please use the diagram below when deciding which button data bits to select in MEG Acquisition.</p>
-<p>[[File:NAtA Button_pinouts_August_2024.jpg]]</p>
+<p><strong><a href="http://psychtoolbox.org/docs/KbQueueCheck">http://psychtoolbox.org/docs/KbQueueCheck</a></strong></p>
+<p>The <strong>NAtA Response Boxes output button presses as Keyboard numbers</strong> via USB to the STIM PC.</p>
+<p>The NAtA Converter box <strong>uses the US Keyboard layout</strong>, and since <strong>most modern keyboards have two ways to input a numerical value</strong>
+ (standard row of numbered keys, and a number keypad) the <strong>correct key "name" needs to be implemented correctly</strong> in the Psychtoolbox code.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong><span style="font-size:medium">This "naming" could also apply to Python/E-Prime/Presentation (<em>citation needed</em>).<br />Many thanks to Dr. Tjerk Gutteling for pointing this out</span>.</strong></p>
+</div>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>5 Button      Keyboard number    [KbName (&#39;xx&#39;)];
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>Left Little            1               1!                
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>Left Ring              2               2@
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>Left Middle            3               3#             
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>Left Index             4               4$
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>Left Thumb             5               5%
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>Right Thumb            6               6^           
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>Right Index            7               7&amp;             
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>Right Middle           8               8*               
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>Right Ring             9               9(           
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>Right Little           0               0)
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>2 Button      Keyboard number    [KbName (&#39;xx&#39;)];
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>(Could be either hand, left or right)
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>#1 L                   1               1!          
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>#1 R                   2               2@
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>#2 L                   3               3#               
+</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>#2 R                   4               4$
+</span></code></pre></div>
+<p><strong>The NAtA Converter Box has TTL outputs</strong> to enable <strong>recording of button presses in MEG data</strong>.</p>
+<p><strong>STI102</strong> channels <strong>In 9</strong> to <strong>In 13</strong> in the Stimulus Cabinet have been connected to <strong>Data Bit 0</strong> to <strong>Data Bit 4</strong> from the <strong>NAtA Converter box</strong>. </p>
+<p>These <strong>5 channels provide unique TTL combinations for all 10 buttons</strong>, according to the following ...</p>
+<p><img alt="NAtA_Button pinouts" src="../../../images/meg/NAtA_Button_pinouts.jpg" /></p>
+<p><strong>Select the relevant combination</strong> of the 5 channels in <strong><code>Acquisition Settings -&gt; Channel selection</code></strong> to <strong>record the participant's responses</strong>.</p>
+<p><strong><span style="font-size:large;color:blue">August 2024</span></strong></p>
+<p>The <strong>original MEG Converter Box has been removed and the original buttons swapped to a new set</strong> (<strong><em>buttons set swapped again in October 2024</em></strong>), to allow the <strong>faulty "RR" button to be repaired or replaced</strong>. <br />
+The <strong>new buttons are non-sticky</strong>, and <strong>respond as before, LL =&gt; RL, 1 =&gt; 0</strong><br />
+However, <strong>unfortunately</strong> the new Converter Box <strong><em>maps the button's parallel port outputs differently to the above, and not all buttons respond with a continuous press</em></strong>.<br />
+<strong>For now</strong>, use the following when deciding which button data bits to select in MEG Acquisition ...</p>
+<p><img alt="NAtA_Button pinouts August 2024" src="../../../images/meg/NAtA_Button_pinouts_August_2024.jpg" /></p>
+<p><strong><span style="font-size:large;color:maroon">NAtA_bbox.m</span></strong><br />
+<strong><em><span style="color:blue">Many thanks to Dr. Tjerk Gutteling / Dagmar Fraser for providing the code</span></em></strong></p>
+<div class="language-matlab highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">function</span><span class="w"> </span>[]<span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nf">NAtA_bbox</span><span class="p">()</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="n">KbName</span><span class="p">(</span><span class="s">&#39;UnifyKeyNames&#39;</span><span class="p">);</span><span class="w"> </span><span class="c">% for easy use of Keyboard keys</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="n">activeKeysOnly</span><span class="p">=</span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="c">%If you want to listen only to specific keys, you can</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="n">device</span><span class="p">=</span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="c">%default device</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="k">if</span><span class="w"> </span><span class="n">activeKeysOnly</span><span class="w"> </span><span class="c">%here we listen only to specific keys</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">    </span><span class="n">active</span><span class="p">=[</span><span class="n">KbName</span><span class="p">(</span><span class="s">&#39;4$&#39;</span><span class="p">)</span><span class="w"> </span><span class="n">KbName</span><span class="p">(</span><span class="s">&#39;7&amp;&#39;</span><span class="p">)];</span><span class="w"> </span><span class="c">%These are the left and right index fingers of the (5-button) NATA boxes</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">    </span><span class="n">keylist</span><span class="p">=</span><span class="nb">zeros</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">256</span><span class="p">);</span><span class="w"> </span><span class="c">%Set all keys to zero (ignore)</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">    </span><span class="n">keylist</span><span class="p">(</span><span class="n">active</span><span class="p">)=</span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="c">%set active keys to 1 (listen)</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">    </span><span class="n">KbQueueCreate</span><span class="p">(</span><span class="n">device</span><span class="p">,</span><span class="n">keylist</span><span class="p">);</span><span class="c">%%Create queue, this is a time consuming operation (relatively), do while non-time critical</span>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">    </span><span class="nb">disp</span><span class="p">(</span><span class="s">&#39;I will only listen to: &#39;</span><span class="p">);</span><span class="nb">disp</span><span class="p">(</span><span class="n">KbName</span><span class="p">(</span><span class="n">active</span><span class="p">));</span>
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="k">else</span>
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="w">    </span><span class="n">KbQueueCreate</span><span class="p">;</span><span class="w"> </span><span class="c">%Default initialization, all keys listened to</span>
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="k">end</span>
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="n">noResponse</span><span class="p">=</span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="c">%While loop break</span>
+</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a>
+</span><span id="__span-1-20"><a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="n">KbQueueStart</span><span class="p">();</span><span class="w"> </span><span class="c">%Start listening</span>
+</span><span id="__span-1-21"><a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="n">startTime</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">GetSecs</span><span class="p">;</span><span class="w"> </span><span class="c">%to get reaction times relative to some event (e.g. stimulus onset)</span>
+</span><span id="__span-1-22"><a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a>
+</span><span id="__span-1-23"><a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="n">KbQueueFlush</span><span class="p">();</span><span class="c">% clear all keyboard presses so far. Basically, you want the responses after this point </span>
+</span><span id="__span-1-24"><a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a>
+</span><span id="__span-1-25"><a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a><span class="c">%listen to reponses for a fixed amount of time, using KbQueueCheck (similar to KbCheck)</span>
+</span><span id="__span-1-26"><a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a><span class="nb">disp</span><span class="p">(</span><span class="s">&#39;Press some keys for the next 10 seconds..&#39;</span><span class="p">);</span>
+</span><span id="__span-1-27"><a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a><span class="k">while</span><span class="w"> </span><span class="n">noResponse</span>
+</span><span id="__span-1-28"><a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a>
+</span><span id="__span-1-29"><a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a><span class="w">    </span><span class="p">[</span><span class="n">pressed</span><span class="p">,</span><span class="w"> </span><span class="n">firstpress</span><span class="p">]=</span><span class="n">KbQueueCheck</span><span class="p">();</span><span class="w"> </span><span class="c">%check response, return whether pressed, and first press timestamp</span>
+</span><span id="__span-1-30"><a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a>
+</span><span id="__span-1-31"><a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a><span class="w">    </span><span class="c">%Note that two keys may have been pressed    </span>
+</span><span id="__span-1-32"><a id="__codelineno-1-32" name="__codelineno-1-32" href="#__codelineno-1-32"></a><span class="w">    </span><span class="n">keyCode</span><span class="p">=</span><span class="nb">find</span><span class="p">(</span><span class="n">firstpress</span><span class="p">);</span>
+</span><span id="__span-1-33"><a id="__codelineno-1-33" name="__codelineno-1-33" href="#__codelineno-1-33"></a>
+</span><span id="__span-1-34"><a id="__codelineno-1-34" name="__codelineno-1-34" href="#__codelineno-1-34"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="nb">length</span><span class="p">(</span><span class="n">keyCode</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">1</span><span class="w"> </span><span class="c">%two or more buttons pressed</span>
+</span><span id="__span-1-35"><a id="__codelineno-1-35" name="__codelineno-1-35" href="#__codelineno-1-35"></a><span class="w">        </span><span class="p">[</span><span class="o">~</span><span class="p">,</span><span class="n">ind</span><span class="p">]=</span><span class="nb">min</span><span class="p">(</span><span class="n">firstpress</span><span class="p">(</span><span class="n">keyCode</span><span class="p">));</span>
+</span><span id="__span-1-36"><a id="__codelineno-1-36" name="__codelineno-1-36" href="#__codelineno-1-36"></a><span class="w">        </span><span class="n">keyCode</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">keyCode</span><span class="p">(</span><span class="n">ind</span><span class="p">);</span><span class="w"> </span><span class="c">%select first response</span>
+</span><span id="__span-1-37"><a id="__codelineno-1-37" name="__codelineno-1-37" href="#__codelineno-1-37"></a><span class="w">    </span><span class="k">end</span>
+</span><span id="__span-1-38"><a id="__codelineno-1-38" name="__codelineno-1-38" href="#__codelineno-1-38"></a>
+</span><span id="__span-1-39"><a id="__codelineno-1-39" name="__codelineno-1-39" href="#__codelineno-1-39"></a><span class="w">    </span><span class="n">t_keypress</span><span class="p">=</span><span class="n">firstpress</span><span class="p">(</span><span class="n">keyCode</span><span class="p">);</span>
+</span><span id="__span-1-40"><a id="__codelineno-1-40" name="__codelineno-1-40" href="#__codelineno-1-40"></a>
+</span><span id="__span-1-41"><a id="__codelineno-1-41" name="__codelineno-1-41" href="#__codelineno-1-41"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="n">pressed</span>
+</span><span id="__span-1-42"><a id="__codelineno-1-42" name="__codelineno-1-42" href="#__codelineno-1-42"></a><span class="w">        </span><span class="c">%disp([&#39;You pressed &#39; KbName(firstpress) &#39; &#39; num2str((firstpress(find(firstpress))-startTime)*1000) &#39;ms after start&#39;])        </span>
+</span><span id="__span-1-43"><a id="__codelineno-1-43" name="__codelineno-1-43" href="#__codelineno-1-43"></a><span class="w">        </span><span class="nb">disp</span><span class="p">([</span><span class="s">&#39;You pressed &#39;</span><span class="w"> </span><span class="n">KbName</span><span class="p">(</span><span class="n">keyCode</span><span class="p">)</span><span class="w"> </span><span class="s">&#39; &#39;</span><span class="w"> </span><span class="nb">num2str</span><span class="p">((</span><span class="n">t_keypress</span><span class="o">-</span><span class="n">startTime</span><span class="p">)</span><span class="o">*</span><span class="mi">1000</span><span class="p">)</span><span class="w"> </span><span class="s">&#39;ms after start&#39;</span><span class="p">])</span><span class="w">        </span>
+</span><span id="__span-1-44"><a id="__codelineno-1-44" name="__codelineno-1-44" href="#__codelineno-1-44"></a><span class="w">    </span><span class="k">end</span>
+</span><span id="__span-1-45"><a id="__codelineno-1-45" name="__codelineno-1-45" href="#__codelineno-1-45"></a>
+</span><span id="__span-1-46"><a id="__codelineno-1-46" name="__codelineno-1-46" href="#__codelineno-1-46"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">GetSecs</span><span class="o">-</span><span class="n">startTime</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">10</span><span class="w"> </span><span class="c">%let&#39;s stop listening after 10 seconds</span>
+</span><span id="__span-1-47"><a id="__codelineno-1-47" name="__codelineno-1-47" href="#__codelineno-1-47"></a><span class="w">        </span><span class="n">noResponse</span><span class="p">=</span><span class="mi">0</span><span class="p">;</span>
+</span><span id="__span-1-48"><a id="__codelineno-1-48" name="__codelineno-1-48" href="#__codelineno-1-48"></a><span class="w">    </span><span class="k">end</span>
+</span><span id="__span-1-49"><a id="__codelineno-1-49" name="__codelineno-1-49" href="#__codelineno-1-49"></a>
+</span><span id="__span-1-50"><a id="__codelineno-1-50" name="__codelineno-1-50" href="#__codelineno-1-50"></a><span class="w">    </span><span class="n">WaitSecs</span><span class="p">(</span><span class="mf">0.01</span><span class="p">);</span><span class="w"> </span><span class="c">%no need to poll very tightly as responses are timestamped as they come in (unless you want something to happend right after the button press).</span>
+</span><span id="__span-1-51"><a id="__codelineno-1-51" name="__codelineno-1-51" href="#__codelineno-1-51"></a>
+</span><span id="__span-1-52"><a id="__codelineno-1-52" name="__codelineno-1-52" href="#__codelineno-1-52"></a><span class="k">end</span>
+</span><span id="__span-1-53"><a id="__codelineno-1-53" name="__codelineno-1-53" href="#__codelineno-1-53"></a>
+</span><span id="__span-1-54"><a id="__codelineno-1-54" name="__codelineno-1-54" href="#__codelineno-1-54"></a><span class="nb">disp</span><span class="p">(</span><span class="s">&#39;Ok, I stopped listening.&#39;</span><span class="p">)</span>
+</span><span id="__span-1-55"><a id="__codelineno-1-55" name="__codelineno-1-55" href="#__codelineno-1-55"></a>
+</span><span id="__span-1-56"><a id="__codelineno-1-56" name="__codelineno-1-56" href="#__codelineno-1-56"></a><span class="n">KbQueueFlush</span><span class="p">();</span><span class="c">% clear all keyboard presses so far. Basically, you want the responses after this point </span>
+</span><span id="__span-1-57"><a id="__codelineno-1-57" name="__codelineno-1-57" href="#__codelineno-1-57"></a>
+</span><span id="__span-1-58"><a id="__codelineno-1-58" name="__codelineno-1-58" href="#__codelineno-1-58"></a><span class="c">%now wait for a response (similar to KbWait)</span>
+</span><span id="__span-1-59"><a id="__codelineno-1-59" name="__codelineno-1-59" href="#__codelineno-1-59"></a><span class="nb">disp</span><span class="p">(</span><span class="s">&#39;Press a key to continue...&#39;</span><span class="p">)</span>
+</span><span id="__span-1-60"><a id="__codelineno-1-60" name="__codelineno-1-60" href="#__codelineno-1-60"></a><span class="n">KbQueueWait</span><span class="p">();</span>
+</span><span id="__span-1-61"><a id="__codelineno-1-61" name="__codelineno-1-61" href="#__codelineno-1-61"></a>
+</span><span id="__span-1-62"><a id="__codelineno-1-62" name="__codelineno-1-62" href="#__codelineno-1-62"></a><span class="nb">disp</span><span class="p">(</span><span class="s">&#39;Great, done!&#39;</span><span class="p">)</span>
+</span><span id="__span-1-63"><a id="__codelineno-1-63" name="__codelineno-1-63" href="#__codelineno-1-63"></a>
+</span><span id="__span-1-64"><a id="__codelineno-1-64" name="__codelineno-1-64" href="#__codelineno-1-64"></a><span class="n">KbQueueRelease</span><span class="p">()</span><span class="w"> </span><span class="c">%clean up the KbQueue, you need to re-create in order to use it again.</span>
+</span><span id="__span-1-65"><a id="__codelineno-1-65" name="__codelineno-1-65" href="#__codelineno-1-65"></a>
+</span><span id="__span-1-66"><a id="__codelineno-1-66" name="__codelineno-1-66" href="#__codelineno-1-66"></a>
+</span><span id="__span-1-67"><a id="__codelineno-1-67" name="__codelineno-1-67" href="#__codelineno-1-67"></a><span class="k">end</span>
+</span></code></pre></div>
 
 
 
