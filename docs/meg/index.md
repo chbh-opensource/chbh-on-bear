@@ -47,6 +47,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	
 	Requesting Lab usage
 	
+	- [Becoming a MEG Operator](acquisition/becomemegop.md)
 	- [MEG Bookings](acquisition/megbookings.md)
 		- [Requesting out-of-hours access](https://forms.office.com/Pages/ResponsePage.aspx?id=z8oksN7eQUKhXDyX1VPp8yoGKIcHP8FHh82NAR1nFAJUQ01ISTJHSUQ0U09GUEdTMEs0T0paT0tXMiQlQCN0PWcu)
 		- [Weekend Working](acquisition/weekendwork.md)
@@ -92,7 +93,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- [Documentation](labsafety/documentation.md)
 	
 	- [MEG Training Checklist](acquisition/meg-training-checklist.md)
-	
+		- [Completing the MEG Operator Checklist correctly](acquisition/checklistfillin.md)
 
 -   **Stimulus Delivery/Response Collection**
 

@@ -99,6 +99,7 @@ nav:
       - EyeLink 1000 Plus Host: meg/hardware/eyelinkhost.md
       - DACQ Console: meg/hardware/sinuhe.md
     - Acquisition:
+      - Becoming a MEG Operator: meg/acquisition/becomemegop.md
       - MEG Bookings: meg/acquisition/megbookings.md
       - Weekend Working: meg/acquisition/weekendwork.md
       - MEG Checklist: meg/acquisition/meg-acquisition-checklist.md
@@ -126,6 +127,7 @@ nav:
       - Key Safe: meg/labsafety/keysafe.md
       - Documentation: meg/labsafety/documentation.md
       - MEG Training Checklist: meg/acquisition/meg-training-checklist.md
+      - Completing the MEG Operator Checklist correctly: meg/acquisition/checklistfillin.md
     - Stimulus Delivery:
       - Stimulus Hardware Layout: meg/pdfs/MEG_Stimulus_Hardware_Layout.pdf
       - Stimulus Delivery & Triggering: meg/stimulus/stimulus_delivery.md
