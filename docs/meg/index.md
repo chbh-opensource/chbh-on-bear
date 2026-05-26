@@ -108,6 +108,8 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	
 	- VPixx [PROPixx](https://vpixx.com/products/propixx/) Projector
 	
+	- [Ishihara Colour Vision Deficiency Test](stimulus/ishihara.md)
+	
 	- **Audio**
 	
 		- VPixx [SOUNDPixx](https://vpixx.com/products/soundpixx/) stereo audio system
