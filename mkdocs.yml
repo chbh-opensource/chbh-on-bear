@@ -91,6 +91,7 @@ nav:
       - NATUS TP-300: meg/hardware/tp_300.md
       - VPixx PROPixx: meg/hardware/propixx.md
       - VPixx SOUNDPixx: meg/hardware/soundpixx.md
+      - Recovering responses via NAtA Interface: meg/hardware/nataresponse.md
       - Digitimer DS7A: meg/hardware/DS7A.md
       - L2V Converter: meg/hardware/L2V.md
       - 3D Accelerometer: meg/hardware/3Daccel.md
@@ -132,7 +133,6 @@ nav:
       - Stimulus Hardware Layout: meg/pdfs/MEG_Stimulus_Hardware_Layout.pdf
       - Stimulus Delivery & Triggering: meg/stimulus/stimulus_delivery.md
       - Delock Parallel Port Card: meg/stimulus/delock_pp_card.md
-      - Recovering responses via NAtA Interface: meg/hardware/nataresponse.md
       - Ishihara Colour Vision Deficiency: meg/stimulus/ishihara.md
     - Analysis Tools:
       - MaxFilter Fine-Calibration files: meg/analysis/maxfiltercalfiles.md

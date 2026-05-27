@@ -1,5 +1,11 @@
 # Recovering responses via NAtA Interface
 
+**[LxPad Operating Instructions February 2017 Rev.3](../../meg/pdfs/LxPad_New_Converter_Instructions_Rev3.pdf)**
+
+**[FO Connector - correct usage](../../meg/pdfs/NAtA_Fiberoptic_Connector_Correct_Usage.pdf) on how to remove.**
+
+**[CON-004 Converter Box PP pinouts](../../meg/pdfs/CON-004_Parallel_Port_Pin_Diagram_NAtA.pdf)**
+
 The **<span style="color:maroon">MATLAB</span>** script below utilises the Psychtoolbox function **KbQueue** to **record the responses of the 5- and 2-button NAtA Boxes**.
 
 It uses information taken from ...
