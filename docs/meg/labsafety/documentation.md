@@ -28,6 +28,10 @@
 
 #### **[APC Back-UPS BX1400UI User Guide](../../meg/pdfs/APC_Back-UPS_BX1400UI_UG.pdf)** (*MEG Stimulus Equipment etc*)
 
+#### **[EyeLink Data Viewer User's Manual v3.1.97](../../meg/pdfs/DataViewer_3.1.97.pdf)**
+#### **[EyeLink Programmer's Guide v3.0](../../meg/pdfs/EyeLink_Programmers_Guide.pdf)**
+#### **[SR Research Experiment Builder User Manual v2.2.1](../../meg/pdfs/ExperimentBuilder_2_2_1.pdf)**
+
 
 **<span style="font-size:x-large;color:maroon">Documents</span>**
 
