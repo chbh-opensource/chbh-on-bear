@@ -12,5 +12,8 @@ Dimensions of our **[Vacoshield](../../meg/pdfs/Vacoshield_3_x_4.pdf)** ADVANCED
 | **Pit for level entry door** |  4.55m (min)  | 3.55m (min) | 235mm (max) |
 | **Weight:** 7,500 kg (~7.4 ton)
 
-**VAC** - **[Mastering Magnetic Shielding](../../meg/pdfs/Mastering_Magnetic_Shielding.pdf)**
+**VAC** 
+
+- **[Mastering Magnetic Shielding](../../meg/pdfs/Mastering_Magnetic_Shielding.pdf)** <br />
+- **[Brochure](../../meg/pdfs/Abschirmkabinen2019-14082019.pdf)**
 
