@@ -17,6 +17,8 @@ from **[Digitimer](https://www.digitimer.com/)** is available for **recording va
 
 **[Guidelines to MEG Data Acquisition](../../meg/pdfs/NM26082A-A_DACQ_Guidelines.pdf)** (*Customer training, May 2020*) provides more information.<br />
 
+Also **[Stimulus System User's Manual September 2011](../../meg/pdfs/NM21789A-A_StimSystem.pdf)**
+
 **The DS7A is located in the Stimulus Cabinet**.
 
 

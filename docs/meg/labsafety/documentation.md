@@ -7,6 +7,28 @@
 
 #### **[Internal Helium Recycler June 2015](../../meg/pdfs/NM25233A_TRIUX_Internal_Helium_Recycler.pdf)**
 
+#### **[Safety Instructions June 2015](../../meg/pdfs/NM25218A_Triux_Safety.pdf)**
+
+#### **[Patient Positioning April 2017](../../meg/pdfs/NM25757A_TRIUX_Patient_Positioning_IFU.pdf)** (*Instructions for Use*)
+
+#### **[Stimulus System User's Manual September 2011](../../meg/pdfs/NM21789A-A_StimSystem.pdf)**
+
+#### **[MSR Door Air Compressor (JUN-AIR 12-25)](../../meg/pdfs/Jun-Air_12_25_Operating_Manual.pdf)**
+
+#### **[Oxygen Level Monitor (TOC-625-630)](../../meg/pdfs/T625_MANUAL_V6_optimised.pdf)** (*Oxygen Depletion Alarm*)
+
+#### **[Eaton 9130 UPS User Guide](../../meg/pdfs/Eaton_9130_UPS_User_Guide.pdf)**
+
+- **UPS20 - 3 x Double Mains Sockets (Control Room G20)**
+- **UPS21 - Electronics & CC Cabinet**
+
+#### **[Eaton EX 1500 UPS User Guide](../../meg/pdfs/Eaton_EX_1500_Installation_User_Manual_-_IHR_UPS.pdf)** (*IHR Cabinet*)
+
+#### **[APC Back-UPS CS 650 User Manual](../../meg/pdfs/APC_Back-UPS_CS-650.pdf)** (*MSR Lighting*)
+
+#### **[APC Back-UPS BX1400UI User Guide](../../meg/pdfs/APC_Back-UPS_BX1400UI_UG.pdf)** (*MEG Stimulus Equipment etc*)
+
+
 **<span style="font-size:x-large;color:maroon">Documents</span>**
 
 #### **[MEG Operator Checklist v4-0c](../../meg/pdfs/meg_operator_checklist_v4-0c.pdf)**

@@ -24,7 +24,10 @@ The IHR tank room and MSR are protected by Oxygen Depletion sensors, with both a
 
 * **Default/Normal reading: <span style="color:green">20.8/20.9%VOL for both sensors</span>.**
 * **Below <span style="color:red">19.5%VOL, Beacon flashes</span>.**
-* **Below <span style="color:red">18.5%VOL, Beacon flashes, Sounder activates</span>.**
+* **Below <span style="color:red">18.5%VOL, Beacon flashes, Sounder activates</span>.** <br /><br />
+
+
+**[Oxygen Level Monitor (TOC-625-630)](../../meg/pdfs/T625_MANUAL_V6_optimised.pdf)** (***Oxygen Depletion Alarm***)
 
 ### **<span style="color:maroon">First Aid help:</span>**
 
