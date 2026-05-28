@@ -20,13 +20,13 @@ We are always open for new contributions. This is a fantastic way to build your 
 <div class="grid cards" markdown>
 
 - <a href="mri" class="card">__MRI__ ![MRI image](images/mri/prisma.jpg){ loading=lazy }</a>
-- <a href="meg" class="card">__MEG__ ![MEG image](images/meg/TRIUX.jpg){ loading=lazy }</a>
-- <a href="eeg" class="card">__EEG__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
-- <a href="eeg-fmri" class="card">__EEG-fMRI__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
-- <a href="sleep" class="card">__Sleep__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
-- <a href="fnirs" class="card">__fNIRS__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
-- <a href="behaviour" class="card">__Behaviour__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
-- <a href="brainstim" class="card">__Brain Stimulation__ add image? ![Image title](https://dummyimage.com/600x400/){ loading=lazy }</a>
+- <a href="meg" class="card">__MEG__ ![MEG image](images/modality/MEG.png){ loading=lazy }</a>
+- <a href="eeg" class="card">__EEG__ ![EEG image](images/modality/EEG.jpg){ loading=lazy }</a>
+- <a href="eeg-fmri" class="card">__EEG-fMRI__ ![EEG-fMRI image](images/modality/EEG-fMRI.jpg){ loading=lazy }</a>
+- <a href="sleep" class="card">__Sleep__ <br />![Sleep image](images/modality/Sleep.jpeg){ loading=lazy }</a>
+- <a href="fnirs" class="card">__fNIRS__ ![fnirs image](images/modality/fnirs.jpg){ loading=lazy }</a>
+- <a href="behaviour" class="card">__Behaviour__ ![behaviour image](images/modality/behaviour.png){ loading=lazy }</a>
+- <a href="brainstim" class="card">__Brain Stimulation__ ![Image title](images/modality/Brain-Stimulation.png){ loading=lazy }</a>
 
 </div>
 
