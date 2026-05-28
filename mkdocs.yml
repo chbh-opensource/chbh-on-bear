@@ -173,6 +173,7 @@ nav:
       - EEG Acquisition Checklist: eeg/acquisition/how_to_acquire.md
     - Analysis Tools:
       - FieldTrip: eeg/analysis/fieldtrip.md
+      - EEGLAB: eeg/analysis/EEGLAB.md
   - EEG-fMRI:
     - eeg-fmri/index.md
   - Brain Stimulation:
