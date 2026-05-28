@@ -8,7 +8,7 @@ Click on the checklists to mark your progress through data collection.
     
         - run your experiment 
             
-    === "in a sample scipt"
+    === "in a sample script"
     
         - locate x script on the stimulus computer
         - make sure everything is turned on
@@ -21,15 +21,18 @@ Click on the checklists to mark your progress through data collection.
 
 
 ## Prepare Participant
+- [ ] Consent form signed
+- [ ] Fill out demographics if needed
 
 ## Prepare electrodes
-- [ ] select correctly sized cap
-- [ ] insert electrodes into cap
-- [ ] insert gel
-- [ ] check signal
+- [ ] Select correctly sized cap
+- [ ] Insert gel into electrode wells
+- [ ] Insert electrodes into electrode wells
+- [ ] Check signal
 
 ## Start recording
 
 ## Stop recording
 
 ## Tidying up
+

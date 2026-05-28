@@ -10,7 +10,7 @@ Guides and documentation for Eye-tracking analysis and data collection.
 
     Essential hardware and infrastructure details
 
-    - [The Eye-traking Devices](hardware/eye-tracking.md)
+    - [The Eye-tracking Devices](hardware/eye-tracking.md)
 
 -   **Data Acquisition**
 
