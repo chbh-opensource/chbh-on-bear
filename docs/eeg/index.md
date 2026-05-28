@@ -4,7 +4,7 @@ Guides and documentation for EEG analysis and data collection.
 
 <div class="grid cards" markdown>
 
--   **Technical Information**
+-   **Rooms and Technical Overview**
 
     ---
 

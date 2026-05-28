@@ -8,5 +8,11 @@
 
 - Eye-tracking is completely safe and pain free for participants.
 
-The CHBH has multiple EyeLink 1000 Plus eye-trackers housed in multiple labs.
-Eye-movements can be recorded alone or together with other imaging methods, including EEG and MRI.
+The CHBH has multiple EyeLink 1000 Plus eye-trackers housed in multiple labs. A generic set up is pictured below.
+
+![BIOSEMI Active 2.5](../../images/eye-tracker/EyetrackerRoom.png)
+
+EyetrackerRoom.png
+
+Eye-movements can also be recorded alone or together with other imaging methods, including EEG and MRI.
+ 
