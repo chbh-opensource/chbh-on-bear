@@ -8,11 +8,11 @@
 
 ## BEAR Modules
 
-The following `bash` loads `mne` version 1.3.1 and its dependencies - an equivalent is availiable for JupyterLab.
+The following `bash` loads `mne` version 1.7.1 and its dependencies - an equivalent is availiable for JupyterLab.
 
 ``` shell
-module load bear-apps/2022a
-module load MNE-Python/1.3.1-foss-2022a
+module load bear-apps/2023a
+module load MNE-Python/1.7.1-foss-2023a
 ```
 
 !!! note
@@ -31,8 +31,8 @@ If you want to use a specific version of MNE-Python that isn't supported by BEAR
 #!/bin/bash
 
 module purge;
-module load bear-apps/2022a
-module load MNE-Python/1.3.1-foss-2022a
+module load bear-apps/2023a
+module load MNE-Python/1.7.1-foss-2023a
 module load IPython/7.25.0-GCCcore-10.3.0
 
 export VENV_DIR="${HOME}/virtual-environments"
@@ -103,8 +103,8 @@ fig[2].savefig('my-mne-evoked-example-eeg.png')
 We can save this as `mne_python_example.py` as our core analysis script. This can be executed from a terminal session in which the appropriate python environment has been loaded. For example, we could open a 'BlueBEAR GUI' session, open a new terminal, change directory to the location of our script and run the following code:
 
 ```shell
-module load bear-apps/2022a
-module load MNE-Python/1.3.1-foss-2022a
+module load bear-apps/2023a
+module load MNE-Python/1.7.1-foss-2023a
 
 python mne_python_example.py
 ```
@@ -129,8 +129,8 @@ Alternatively, we can run our evoked responses analysis on the cluster. For this
 
 module purge; module load bluebear
 
-module load bear-apps/2022a
-module load MNE-Python/1.3.1-foss-2022a
+module load bear-apps/2023a
+module load MNE-Python/1.7.1-foss-2023a
 
 python mne_python_example.py
 ```
