@@ -8,9 +8,9 @@
 
 An **[example of a correctly filled-in Checklist](../../meg/pdfs/example_meg_operator_checklist_v4-0c.pdf)**
 
-The **[blank Checklist](../../meg/pdfs/meg_operator_checklist_v4-0c.pdf)** - to be **downloaded locally to an AD-joined desktop/laptop** and then **filled in**.
+The **[blank Checklist](../../meg/pdfs/meg_operator_checklist_v4-0c.pdf) - February 2026 (v4.0c)** <br /> 
 
-- **Download** the blank Checklist PDF locally to an AD-joined desktop/laptop (either from the link above, or from the MEG training date confirmation email), and **edit it in a preferred PDF editor-of-choice**.
+- **Download** the blank Checklist PDF **locally to an AD-joined desktop/laptop** (*either from the link above, or from the MEG training date confirmation email*), and **edit it in a preferred PDF editor-of-choice**.
 	- It's usual for IT Services to have **already installed Adobe Reader DC**, but, if necessary, download and **install via Software Centre, or more likely, Apps Anywhere**.<br /> **<span style="color:red">Don't edit the Checklist in a web browser, that just causes issues!</span>**.
 - **Name at the top**, and the date the OPLRs were read.<br />*Using the date of initial training is fine (use only 2 digits, e.g. 26, for the year!)*.
 - Type "**YES**", or "**X**", or perhaps use initials (e.g. "**JXS**"), in **capital letters, in all the text boxes found down the right-hand side of the pages**.
