@@ -20,7 +20,7 @@ The **[blank Checklist](../../meg/pdfs/meg_operator_checklist_v4-0c.pdf)** - to 
 - **Save the form as a PDF** and **email it to one of the MEG Operators shadowed**, for them **to digitally sign and date**. They can then either **send the saved PDF to MEG Support** or send the form back to be sent on.
 - **MEG Support digitally signs/dates the form, and emails the CHBH Administrator informing them of the new MEG Operator**.
 
-**Digital Signatures**
+**<span style="font-size:large;color:maroon">Digital Signatures</span>**
 
 **All the signature boxes are expecting a digital signature, not text**. **<span style="color:blue">Make sure to be logged into an AD-joined desktop or laptop.</span>**
 
