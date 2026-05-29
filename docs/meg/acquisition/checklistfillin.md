@@ -1,5 +1,11 @@
 # How to correctly fill in the MEG Operator Checklist
 
+!!! Warning "**<span style="font-size:large;color:maroon">An AD-joined University PC *must be used*.<br />Although having a Birmingham email address, don't use a private/personal desktop/laptop unless it's joined to the University domain.</span>**"
+
+- <span style="font-size:medium;color:maroon">**If necessary:**</span>
+	- **<span style="color:maroon">Log in to a colleague's domain-joined desktop/laptop.</span>**
+	- **<span style="color:maroon">Book time in a cubicle/on a hot-desk PC.</span>**
+
 An **[example of a correctly filled-in Checklist](../../meg/pdfs/example_meg_operator_checklist_v4-0c.pdf)**
 
 The **[blank Checklist](../../meg/pdfs/meg_operator_checklist_v4-0c.pdf)** - to be **downloaded locally to an AD-joined desktop/laptop** and then **filled in**.
