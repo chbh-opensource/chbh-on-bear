@@ -1,7 +1,7 @@
 # VPixx PROPixx Lite
 
 **[Data Sheet](../../meg/pdfs/ds_propixx_lite.pdf)** <br />
-**[PROPixx UserManual v1.1](../../meg/pdfs/PROPixx_UserManual.pdf)**
+**[PROPixx UserManual v1.1]** <!--- (../../meg/pdfs/PROPixx_UserManual.pdf) ---!> *(SharePoint link to be added)*
 
 CHBH MEG use a **[VPixx PROPixx projector](https://vpixx.com/products/propixx/)** (480 Hz RGB, 1440 Hz greyscale), utilising high brightness LEDs (providing a larger colour gamut) 
 to display stimuli onto a back-projection screen inside the MSR. It features a native resolution of 1920 x 1080.<br /> 

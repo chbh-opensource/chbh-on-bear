@@ -2,7 +2,7 @@
 
 **[Quick Start Guide](../../meg/pdfs/Quick_Start_Guide_Dell_Workstation_v4.00W.pdf)**<br />
 **[Install/Training (slides)](../../meg/pdfs/EyeLink_1000_Plus_Installation_and_Training.pdf)**<br />
-**[User Manual v1.0.22](../../meg/pdfs/EyeLink_1000_Plus_User_Manual_1.0.22.pdf)**
+[**User Manual v1.0.22**] <!--- (../../meg/pdfs/EyeLink_1000_Plus_User_Manual_1.0.22.pdf) ---!> *(SharePoint link to be added)*
 
 
 ## Initial Setup

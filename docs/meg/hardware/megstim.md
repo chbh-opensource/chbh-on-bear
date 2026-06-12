@@ -72,6 +72,6 @@ The following **StarTech KVM** (**[SV431DVIUAHR](https://www.startech.com/en-gb/
 		- <span style="font-size:large"> **Driver Date:** 10-FEB-2017</span>
 
 
-**<span style=font-size:large;color:maroon>RAID1 Copy made: </span><span style="font-size:large"> 5th March 2026 (#5)</span>** <br />
 **<span style=font-size:large;color:maroon>RAID1 Copy made: </span><span style="font-size:large"> 30th March 2026 (#1)</span>** <br />
 **<span style=font-size:large;color:maroon>RAID1 Copy made: </span><span style="font-size:large"> 1st May 2026 (#6)</span>** <br />
+**<span style=font-size:large;color:maroon>RAID1 Copy made: </span><span style="font-size:large"> 8th June 2026 (#2)</span>** <br />

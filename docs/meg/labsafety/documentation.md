@@ -2,16 +2,15 @@
 
 **<span style="font-size:x-large;color:maroon">Manuals</span>**
 
-<!--- #### **[Technical Manual May 2017](../../meg/pdfs/NM24132A-B_Triux_TM.pdf)** ---!>
-#### **[Technical Manual May 2017](../../meg/pdfs/NM24132A-B_Triux_TM.pdf)**
+#### **[Technical Manual May 2017]** <!--- (../../meg/pdfs/NM24132A-B_Triux_TM.pdf) ---!> *(SharePoint link to be addded)*
 
-#### **[Internal Helium Recycler June 2015](../../meg/pdfs/NM25233A_TRIUX_Internal_Helium_Recycler.pdf)**
+#### **[Internal Helium Recycler June 2015]** <!--- (../../meg/pdfs/NM25233A_TRIUX_Internal_Helium_Recycler.pdf) ---!> *(SharePoint link to be addded)*
 
-#### **[Safety Instructions June 2015](../../meg/pdfs/NM25218A_Triux_Safety.pdf)**
+#### **[Safety Instructions June 2015]** <!--- (../../meg/pdfs/NM25218A_Triux_Safety.pdf) ---!> *(SharePoint link to be addded)*
 
-#### **[Patient Positioning April 2017](../../meg/pdfs/NM25757A_TRIUX_Patient_Positioning_IFU.pdf)** (*Instructions for Use*)
+#### **[Patient Positioning April 2017]** <!--- (../../meg/pdfs/NM25757A_TRIUX_Patient_Positioning_IFU.pdf) ---!> (*Instructions for Use*) *(SharePoint link to be addded)*
 
-#### **[Stimulus System User's Manual September 2011](../../meg/pdfs/NM21789A-A_StimSystem.pdf)**
+#### **[Stimulus System User's Manual September 2011]** <!--- (../../meg/pdfs/NM21789A-A_StimSystem.pdf) ---!> *(SharePoint link to be addded)*
 
 #### **[MSR Door Air Compressor (JUN-AIR 12-25)](../../meg/pdfs/Jun-Air_12_25_Operating_Manual.pdf)**
 
@@ -28,24 +27,27 @@
 
 #### **[APC Back-UPS BX1400UI User Guide](../../meg/pdfs/APC_Back-UPS_BX1400UI_UG.pdf)** (*MEG Stimulus Equipment etc*)
 
-#### **[EyeLink Data Viewer User's Manual v3.1.97](../../meg/pdfs/DataViewer_3.1.97.pdf)**
-#### **[EyeLink Programmer's Guide v3.0](../../meg/pdfs/EyeLink_Programmers_Guide.pdf)**
-#### **[SR Research Experiment Builder User Manual v2.2.1](../../meg/pdfs/ExperimentBuilder_2_2_1.pdf)**
+#### **[EyeLink Data Viewer User's Manual v3.1.97]** <!--- (../../meg/pdfs/DataViewer_3.1.97.pdf) ---!> *(SharePoint link to be addded)*
+
+#### **[EyeLink Programmer's Guide v3.0]** <!--- (../../meg/pdfs/EyeLink_Programmers_Guide.pdf) ---!> *(SharePoint link to be addded)*
+
+#### **[SR Research Experiment Builder User Manual v2.2.1]** <!--- (../../meg/pdfs/ExperimentBuilder_2_2_1.pdf) ---!> *(SharePoint link to be addded)*
 
 
 **<span style="font-size:x-large;color:maroon">Documents</span>**
 
-#### **[MEG Operator Checklist v4-0c](../../meg/pdfs/meg_operator_checklist_v4-0c.pdf)**
+#### **[MEG Operator Checklist v4-0c]** <!--- (../../meg/pdfs/meg_operator_checklist_v4-0c.pdf) ---!> *(SharePoint link to be addded)*
 
 #### **[MEG Measurement Log v1_2c](../../meg/pdfs/meg_measurement_log_information_v1_2c.pdf)**
 
 #### **[Handling Compressed Gas Cylinders & Regulators](../../meg/pdfs/handling_compressed_gas_cylinders_and_regulators.pdf)**
 
+
 **<span style="font-size:x-large;color:maroon">COSHH</span>**
 
-#### **[MEG MSR Air Compressor (Jun-Air 12-25)](../../meg/pdfs/junair_12-25_air_compressor.pdf)**
+#### **[MEG MSR Air Compressor (Jun-Air 12-25)]** <!--- (../../meg/pdfs/junair_12-25_air_compressor.pdf) ---!> *(SharePoint link to be addded)*
 
-#### **[Isopropyl Alcohol 70%](../../meg/pdfs/lescoshh-formv2_meg_isopropyl_alcohol.pdf)**
+#### **[Isopropyl Alcohol 70%]** <!--- (../../meg/pdfs/lescoshh-formv2_meg_isopropyl_alcohol.pdf) ---!> *(SharePoint link to be addded)*
 
-#### **[Perfektan TB Disinfectant](../../meg/pdfs/Perfektan_TB.pdf)**
+#### **[Perfektan TB Disinfectant]** <!--- (../../meg/pdfs/Perfektan_TB.pdf) ---!> *(SharePoint link to be addded)*
 

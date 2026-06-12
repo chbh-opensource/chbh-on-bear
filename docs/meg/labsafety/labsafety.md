@@ -77,4 +77,4 @@ The **M**EG **E**mergency **E**vacuation **P**lan can be found on the MEG Contro
 
 The CHBH **G**eneral **E**mergency **E**vacuation **P**lan can be found on the MEG Control Room wall, and is also on the notice board adjacent to the MRI corridor. A PDF copy can be viewed from the link below ...
 
-**[GEEP](../../meg/pdfs/GEEP.pdf)**
+**[GEEP]** <!--- (../../meg/pdfs/GEEP.pdf) ---!> *(SharePoint link to be added)*

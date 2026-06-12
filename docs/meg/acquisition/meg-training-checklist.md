@@ -19,7 +19,7 @@
 - The various gantry positions are shown, and instructions are given on how to **[adjust the gantry position](../acquisition/moving-the-gantry.md)**
 - MEG Operators are informed about what position they must leave the gantry at EoD, and it is explained why this is important.
 - MEG Operators are checked they are able to move the gantry into the various in-use positions themselves.
-- MEG Operators are informed about the Recycling Schedule/MTB, and to (ideally) keep to the slot times mentioned in **MEG Bookings** ...
+- MEG Operators are informed about the Recycling Schedule/MTB, and to (ideally) keep to the slot times mentioned in **[MEG Bookings](../acquisition/megbookings.md)** ...
 
 **The pre-defined slot times are as follows:**
 
@@ -114,6 +114,6 @@ to copy off acquired data, and are shown **[how to copy off acquired data](../ac
 - MEG Operators are instructed to fill in the **[Measurement Log](../../meg/pdfs/meg_measurement_log_information_v1_2c.pdf)** after MEG Lab usage of ~15min or more. This is now mandatory as part of the MEG **OPLR** Fault Reporting Procedure.
 - MEG Operators are informed of the location of the two Oxygen Depletion Alarm sensors, and what to do if they sound.
 - MEG Operators are shown the location of support telephone contact numbers, the Lab First Aid box, the location of the CHBH Defibrillation Kit and the CHBH Emergency Box, the location of the nearest Fire Alarm Call Point and Fire Exit, 
-and, as necessary, to follow the Emergency Procedures as laid out in the MEG **OPLR** and also the CHBH **G**eneral **E**mergency **E**vaction **P**lan (**[GEEP](../../meg/pdfs/GEEP.pdf)**).
+and, as necessary, to follow the Emergency Procedures as laid out in the MEG **OPLR** and also the CHBH **G**eneral **E**mergency **E**vaction **P**lan (**[GEEP]** <!--- (../../meg/pdfs/GEEP.pdf) ---!> *(SharePoint link to be added)*).
 - MEG Operators are informed of the **M**EG **E**mergency **E**vacuation **P**lan (**[MEEP](../../meg/pdfs/MEEP.pdf)**) and the procedures are gone through.
 - MEG Operators are instructed to contact the MEG Support Officer by 'phone or email, of any MEG-related issues or problems.

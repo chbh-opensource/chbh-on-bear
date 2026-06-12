@@ -2,11 +2,11 @@
 
 **[Specifications](../../meg/pdfs/i1Display_Pro_Specifications.pdf)**<br />
 **[Data Sheet](../../meg/pdfs/X-Rite_i1Display_Pro_Data_Sheet.pdf)**<br />
-**[User Manual](../../meg/pdfs/X-Rite_i1Display_Pro_User_Manual.pdf)**
+**[User Manual]** <!--- (../../meg/pdfs/X-Rite_i1Display_Pro_User_Manual.pdf) ---!> *(SharePoint link to be added)*
 
 !!! Note
 	The **calibration information is now included as part of** the ...<br />
-	**[Application Guide for VPixx Products](../../meg/pdfs/ApplicationGuide_for_VPixx_Products.pdf)**<br />
+	**[Application Guide for VPixx Products]** <!--- (../../meg/pdfs/ApplicationGuide_for_VPixx_Products.pdf) ---!> *(SharePoint link to be added)*<br />
 	... and the **relevant section has been printed and is kept** with the **i1Display Pro device** in its **storage box in the MEG Side Room**.
 
 !!! Info

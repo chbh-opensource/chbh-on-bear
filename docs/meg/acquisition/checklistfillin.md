@@ -6,9 +6,9 @@
 	- **<span style="color:maroon">Log in to a colleague's domain-joined desktop/laptop.</span>**
 	- **<span style="color:maroon">Book time in a cubicle/on a hot-desk PC.</span>**
 
-An **[example of a correctly filled-in Checklist](../../meg/pdfs/example_meg_operator_checklist_v4-0c.pdf)**
+An **[example of a correctly filled-in Checklist]** <!--- (../../meg/pdfs/example_meg_operator_checklist_v4-0c.pdf) ---!> *(SharePoint link to be added)*
 
-The **[blank Checklist](../../meg/pdfs/meg_operator_checklist_v4-0c.pdf) - February 2026 (v4.0c)** <br /> 
+The **[blank Checklist]** <!--- (../../meg/pdfs/meg_operator_checklist_v4-0c.pdf) ---!> **- February 2026 (v4.0c)** *(SharePoint list to be added)* <br /> 
 
 - **Download** the blank Checklist PDF **locally to an AD-joined desktop/laptop** (*either from the link above, or from the MEG training date confirmation email*), and **edit it in a preferred PDF editor-of-choice**.
 	- It's usual for IT Services to have **already installed Adobe Reader DC**, but, if necessary, download and **install via Software Centre, or more likely, Apps Anywhere**.<br /> **<span style="color:red">Don't edit the Checklist in a web browser, that just causes issues!</span>**.
