@@ -4,15 +4,15 @@
 
 Perform a **Phantom Measurement** as detailed in the following guides ...
 
-**[User Manual April 2017](../../meg/pdfs/NM24131A-C_Triux_UM.pdf)**
+**[User Manual April 2017]** <!--- (../../meg/pdfs/NM24131A-C_Triux_UM.pdf) ---!> *(SharePoint link to be added)*
 - **<span style="color:maroon">Section 7.2 Phantom, page 88.</span>**
 
-**[Data Acquisition v6.0](../../meg/pdfs/NM23732A-B1-Dacq-6.0-UM_FINAL.pdf)**
+**[Data Acquisition v6.0]** <!--- (../../meg/pdfs/NM23732A-B1-Dacq-6.0-UM_FINAL.pdf) ---!> *(SharePoint link to be added)*
 - **<span style="color:maroon">Section 9.0, Phantom Measurement, page 49.</span>**
 <br /><br /><br />
 
 <align=full>
-Running the ***Autophantom*** script on the acquired .fif file produces a **[Report](../../meg/pdfs/autophantom.pdf)** detailing 2 results, based on dipoles that are checked to be "**OK"** ...
+Running the ***Autophantom*** script on the acquired .fif file produces a **[Report]** <!--- (../../meg/pdfs/autophantom.pdf) ---!> *(SharePoint link to be added)* detailing 2 results, based on dipoles that are checked to be "**OK"** ...
 
 - The average **Qpp value** for **all 32** dipoles... between **950 - 1050 nAm** 
 	- (nano Ampere-meters - "*a measure of dipole moment*").

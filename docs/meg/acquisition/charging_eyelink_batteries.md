@@ -33,7 +33,7 @@ Press **TEST** button to check the battery power level. If charging required ...
 
 ## New
 
-**[LRBB User Manual](../../meg/pdfs/LRBB_User_Manual_2023_06_02_Rev1_1.pdf)**
+**[LRBB User Manual]** <!--- (../../meg/pdfs/LRBB_User_Manual_2023_06_02_Rev1_1.pdf) ---!> *(SharePoint link to be added)*
 
 To **check** the current battery level, **move** the Battery POWER Switch to the **ON position**, and **press** the **Battery level TEST** button.
 

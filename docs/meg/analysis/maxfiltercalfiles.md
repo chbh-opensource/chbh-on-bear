@@ -52,4 +52,4 @@ symlink "/projects/meg-data/rds/neuro/databases/ctc/ct_sparse.fif" -> "ct_sparse
 Thus, the 60-degrees calibration can be applied to all recordings in seated position, whenever they have been performed."</span>*<br />
 - **24th November 2021:** *Jukka Nenonen, Method Development Manager*.
 
-**[NM24764U Product bulletin (fine-calibration)](../../meg/pdfs/NM24764U_Product_bulletin.pdf)**
+**[NM24764U Product bulletin (fine-calibration)]** <!---(../../meg/pdfs/NM24764U_Product_bulletin.pdf) ---!> *(SharePoint link to be added)*

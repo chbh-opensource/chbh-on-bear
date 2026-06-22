@@ -71,7 +71,7 @@ The IHR tank room and MSR are protected by Oxygen Depletion sensors, with both a
 
 The **M**EG **E**mergency **E**vacuation **P**lan can be found on the MEG Control Room wall, and the on door of the MSR. A PDF copy can be viewed from the link below ...
 
-**[MEEP](../../meg/pdfs/MEEP.pdf)**
+**[MEEP]** <!--- (../../meg/pdfs/MEEP.pdf) ---!> *(SharePoint link to be added)*
 
 ### **<span style="color:maroon">CHBH GEEP</span>**
 

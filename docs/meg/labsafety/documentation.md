@@ -38,7 +38,7 @@
 
 #### **[MEG Operator Checklist v4-0c]** <!--- (../../meg/pdfs/meg_operator_checklist_v4-0c.pdf) ---!> *(SharePoint link to be addded)*
 
-#### **[MEG Measurement Log v1_2c](../../meg/pdfs/meg_measurement_log_information_v1_2c.pdf)**
+#### **[MEG Measurement Log v1_2c]** <!--- (../../meg/pdfs/meg_measurement_log_information_v1_2c.pdf) ---!> *(SharePoint link to be addded)*
 
 #### **[Handling Compressed Gas Cylinders & Regulators](../../meg/pdfs/handling_compressed_gas_cylinders_and_regulators.pdf)**
 
