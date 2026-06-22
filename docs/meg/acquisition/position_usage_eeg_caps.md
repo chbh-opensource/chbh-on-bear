@@ -92,7 +92,7 @@
 ![SIGGI-II Impedance Meter](../../images/meg/SIGGI-II.jpg){width=50% align=left}
 <br /><br /><br /><br />
 
-**[SIGGI-II User Manual](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
+**[SIGGI-II User Manual]** <!--- (../../meg/pdfs/SIGGI_II_User_Manual.pdf) ---!> *(SharePoint link to be added)*
 <br /> <br /><br /><br /><br />
 
 - The **SIGGI-II can measure either single electrodes (*Single-Ch-In*) or multiple electrodes (*Multi-Channel-In*)**.

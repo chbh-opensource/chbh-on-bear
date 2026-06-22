@@ -1,8 +1,8 @@
 # MEG Data Acquisition Checklist
 
-**[Guidelines to MEG Data Acquisition](../../meg/pdfs/NM26082A-A_DACQ_Guidelines.pdf)** (*Customer training, May 2020*) <br />
-**[User Manual April 2017](../../meg/pdfs/NM24131A-C_Triux_UM.pdf)**<br />
-**[Data Acquisition v6.0 June 2019](../../meg/pdfs/NM23732A-B1-Dacq-6.0-UM_FINAL.pdf)**
+**[Guidelines to MEG Data Acquisition]** <!--- (../../meg/pdfs/NM26082A-A_DACQ_Guidelines.pdf) ---!> *(SharePoint link to be added)* (*Customer training, May 2020*) <br />
+**[User Manual April 2017]** <!--- (../../meg/pdfs/NM24131A-C_Triux_UM.pdf) ---!> *(SharePoint link to be added)*<br />
+**[Data Acquisition v6.0 June 2019]** <!--- (../../meg/pdfs/NM23732A-B1-Dacq-6.0-UM_FINAL.pdf) ---!> *(SharePoint link to be added)*
 
 ![CHBH MEG Flowchart](../../images/meg/CHBH_MEG_flowchart.jpg)
 **Session flowchart**
@@ -161,7 +161,7 @@ If using the **[NeuroTab](https://www.unimed-electrodes.co.uk/15x20mm-Disposable
 
 ## Check impedance of electrodes
 
-Use the **[SIGGI II impedance meter](../../meg/pdfs/SIGGI_II_User_Manual.pdf)**
+Use the **[SIGGI II impedance meter]** <!--- (../../meg/pdfs/SIGGI_II_User_Manual.pdf) ---!> *(SharePoint link to be added)*
 
 - [ ] Press the white button, labelled *Enter/Esc*, on the jog-shuttle to turn on.
 - [ ] Press the white button *again* to enter *Impedance Meter* menu.
@@ -341,7 +341,7 @@ The digitisation process is performed using a **[Polhemus FASTRAK system](https:
 - [ ] Instruct participant to **remain still and relaxed**, and announce the start of the experiment.
 - [ ] Start Acquisition by pressing **"GO!"**.
 - [ ] Double-check all good (*no noisy sensors/BIO channels etc*). Alleviate any issues if possible (*heat sensors etc*). 
-- [ ] Select **Measure**. (**[Useful Snip](../../images/meg/HPI_measure.jpg)** from **[Guidelines to MEG Data Acquisition](../../meg/pdfs/NM26082A-A_DACQ_Guidelines.pdf)**)<br /> 
+- [ ] Select **Measure**. (**[Useful Snip](../../images/meg/HPI_measure.jpg)** from **[Guidelines to MEG Data Acquisition]** <!--- (../../meg/pdfs/NM26082A-A_DACQ_Guidelines.pdf) ---!> *(SharePoint link to be added)*)<br /> 
 *If there are issues, as a first fix try raising participant slightly more in the gantry chair.* 
 
 !!! Info
@@ -372,7 +372,7 @@ If used to attach them, remove the *Tegaderm* tape from the HPI coils as soon as
 Shampoo on EEG trolley, towel/hair dryer in Changing Room.<br />
 Show participant to GF shower (*remember swipe card!*).
 - [ ] **Copy off Acquired data to RDS**. *Ideally now, but when Lab is next free if under time constraint* - see **[Copying MEG data](copying_meg_data.md)** page.
-- [ ] **Fill out** a **[Maintenance Log](../../meg/pdfs/meg_measurement_log_information_v1_2c.pdf)** for the session, **detailing any problems/issues** for MEG Suppport to check out/deal with.
+- [ ] **Fill out** a **[Maintenance Log]** <!--- (../../meg/pdfs/meg_measurement_log_information_v1_2c.pdf) ---!> *(SharePoint link to be added)* for the session, **detailing any problems/issues** for MEG Suppport to check out/deal with.
 
 
 ## **[Tidying Up](tidying_up.md)** (separate page)

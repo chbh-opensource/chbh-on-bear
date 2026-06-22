@@ -14,7 +14,7 @@ To **request initial MEG training, please email:** <br />
 !!! Note "<span style="font-size:medium">CHBH Building Induction will be required first, before placing the above email.</span>"
 
 **Anyone new to CHBH**, needing swipe access etc., is **required to complete the *CHBH Canvas Building Induction Training***.<br />
-Head over to **[https://canvas.bham.ac.uk/enroll/4H8YET](https://canvas.bham.ac.uk/enroll/4H8YET)** and select **"CHBH Building Induction Training"**.
+Head over to **[https://canvas.bham.ac.uk/enroll/4H8YET](https://canvas.bham.ac.uk/enroll/4H8YET)** and select **"CHBH Building Induction Training"**. Enroll using UoB ADF login.
 
 !!! Note "<span style="font-size:medium">If any issues are encountered with the above, please email <span style="color:blue">chbh[at]contacts.bham.ac.uk</span></span>"
 
@@ -26,7 +26,7 @@ Head over to **[https://canvas.bham.ac.uk/enroll/4H8YET](https://canvas.bham.ac.
 
 Once complete, **(*at least*) three Acquiring Data sessions** will **need to be shadowed with an accomplished MEG Operator**, who will **need to be happy with the MEG knowledge learnt** (by helping them out/asking them relevant questions etc).
 
-The **MEG Operator Checklist, gone over during training**, will then need to be **[downloaded locally and filled in/digitally signed](../../meg/pdfs/meg_operator_checklist_v4-0c.pdf)**, before **having the form digitally signed/dated by a shadowed MEG Operator** and then **finally digitally signed/dated by MEG Support**.
+The **MEG Operator Checklist, gone over during training**, will then need to be **[downloaded locally and filled in/digitally signed]** <!--- (../../meg/pdfs/meg_operator_checklist_v4-0c.pdf) ---!> *(SharePoint link to be added)*, before **having the form digitally signed/dated by a shadowed MEG Operator** and then **finally digitally signed/dated by MEG Support**.
 
 !!! Info "<span style="font-size:medium">If required, [Completing the MEG Operator Checklist correctly](../acquisition/checklistfillin.md).</span>"
 

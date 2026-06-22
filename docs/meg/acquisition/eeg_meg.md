@@ -21,7 +21,7 @@ The caps use the 10/20 system of electrode placement.</span>**
 
 ## Digitisation
 
-To **digitise the 64 electrodes**, follow the **[Instructions for Digitisation](../../meg/pdfs/MEGIN_64Channel_EEG_Instructions_for_Digitisation.pdf)** copied from MEGIN's **[EEG Cap User's Manual](../../meg/pdfs/NM24405A-B_Triux_EEG_Cap.pdf)**<br />
+To **digitise the 64 electrodes**, follow the **[Instructions for Digitisation]** <!--- (../../meg/pdfs/MEGIN_64Channel_EEG_Instructions_for_Digitisation.pdf) ---!> *(SharePoint link to be added)* copied from MEGIN's **[EEG Cap User's Manual]** <!--- (../../meg/pdfs/NM24405A-B_Triux_EEG_Cap.pdf) ---!> *(SharePoint link to be added)*<br />
 **The EASYCAP layout closely follows** the MEGIN caps, **<span style="color:blue">but there are some differences in electrode usage (EASYCAPs have T9 & T10, but no PO5 & PO6) , and when certain electrodes are digitised, and be wary of the extra EOG electrodes built into the EASYCAPs</span>** <br />
 - ***See the 64 BrainCap-MEG electrode layout above.***
 
