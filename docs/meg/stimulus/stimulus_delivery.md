@@ -174,7 +174,7 @@ When **all trigger lines** are "**down**" (0), **STI101 reads zero**. When:
 
 - **Following a binary encoding scheme** in which **input 1 is 2<sup>0</sup>, input 2 is 2<sup>1</sup>, input 3 is 2<sup>2</sup>** and so on.
 
-The following PDF, **[Triggering_through_the_Parallel_Port](../../meg/pdfs/Triggering_through_the_Parallel_Port.pdf)**, was **kindly provided by The Aston Neuroimaging Facility, Aston University**.
+The following PDF, **[Triggering_through_the_Parallel_Port]** <!--- (../../meg/pdfs/Triggering_through_the_Parallel_Port.pdf) ---!> *(SharePoint link to be added)*, was **kindly provided by The Aston Neuroimaging Facility, Aston University**.
 
 In **summary**, the **height of STI101 indicates the value of the trigger signal sent via the parallel port, with most values being encoded by multiple simultaneous trigger signals**.
 

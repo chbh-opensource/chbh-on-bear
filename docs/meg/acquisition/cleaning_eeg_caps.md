@@ -27,7 +27,7 @@
 !!! note
 	A **small hairdryer** may also be used to **quickly dry** a cap. However, **use only the *warm* setting**. The **high** or **hot** settings on some hair dryers are too hot and will weaken the elastic material - severely shortening the cap life.
 
-- A **disinfectant** for the EEG caps - **[Perfektan TB](../../meg/pdfs/Perfektan_TB.pdf)** (found on shelf in right-hand white cabinet in Control Room) is **available if required**.
+- A **disinfectant** for the EEG caps - **[Perfektan TB** <!--- (../../meg/pdfs/Perfektan_TB.pdf) ---!> *(SharePoint link to be added)* (found on shelf in right-hand white cabinet in Control Room) is **available if required**.
 	 - **Follow the instructions** with/on the bottle.
 		 - **Use** the **minimum concentration** and **soak** for the the **minimum time** required. **Make sure** that the cap is **fully immersed in the disinfectant**.
 		 - **Do not** leave the cap in the disinfecting solution **longer than necessary**.

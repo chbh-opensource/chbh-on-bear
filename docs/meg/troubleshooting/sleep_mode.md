@@ -27,7 +27,7 @@ Whilst **logged into the console**, but **not running any applications e.g. *Acq
 1) Press **```Ctrl-Alt-Backspace```**
 
 - This restarts the whole Desktop GUI session and will kill all open applications/logout the ***meguser*** account. The login GUI screen should then reappear.
-	- Any collected data ***may*** be recoverable. Try the **procedure on page 44** of the **[Data Acquisition User Manual](../../meg/pdfs/NM23732A-B1-Dacq-6.0-UM_FINAL.pdf)** (***Section 6.4: "Rescuing data after a crash"***).
+	- Any collected data ***may*** be recoverable. Try the **procedure on page 44** of the **[Data Acquisition User Manual]** <!--- (../../meg/pdfs/NM23732A-B1-Dacq-6.0-UM_FINAL.pdf) ---!> *(SharePoint link to be added)* (***Section 6.4: "Rescuing data after a crash"***).
 
 ***<span style="color:green">NOT recommended ideally, but if necessary ...</span>***
 
