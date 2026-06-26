@@ -30,4 +30,4 @@
 
 **<span style=font-size:large;color:maroon>Battery change (9V):</span>**
 
-- **4th August 2025**
+- **26th June 2026**

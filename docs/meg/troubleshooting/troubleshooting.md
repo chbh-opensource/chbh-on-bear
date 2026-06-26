@@ -1,5 +1,7 @@
 # MEG Troubleshooting
 
+***<span style="font-size:x-large;color:blue">In no particular order of importance, or frequency of occurance</span>***
+
 ### **[SLEEP Mode](../../meg/troubleshooting/sleep_mode.md)**
 
 ### **["The Participant Logging Computer isn't working!"](../../meg/troubleshooting/plc_offline.md)**
@@ -11,6 +13,8 @@
 ### **[HPI Preparation error](../../meg/troubleshooting/hpi_preparation.md)**
 
 ### **[STI101 AC Adapter error](../../meg/troubleshooting/sti101_adapter.md)**
+
+### **["I can't wake the PROPixx from our Environment!"](../../meg/troubleshooting/propixx_issue.md)**
 
 ### **[Reset VPixx Projector](../../meg/troubleshooting/reset_vpixx.md)**
 
