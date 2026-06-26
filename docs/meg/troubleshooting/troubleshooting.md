@@ -14,6 +14,8 @@
 
 ### **[STI101 AC Adapter error](../../meg/troubleshooting/sti101_adapter.md)**
 
+### **[STI101 not all triggers recording in *megacq*](../../meg/troubleshooting/sti101_triggers.md)**
+
 ### **["I can't wake the PROPixx from our Environment!"](../../meg/troubleshooting/propixx_issue.md)**
 
 ### **[Reset VPixx Projector](../../meg/troubleshooting/reset_vpixx.md)**
