@@ -5527,8 +5527,9 @@
 A Python script was shown to MEG Support, detailing not all triggers being generated/recorded, and also the default MATLAB <strong>"TRIGGER_TEST"</strong> batch file <strong>did not show every trigger working</strong> (not all the <strong><span style="color:green">GREEN</span></strong> LEDs on STI101 were being displayed).</p>
 <h3 id="fix"><strong><span style="color:maroon">Fix</span></strong></h3>
 <p>The <strong>Parallel Port Switch Box</strong> was found to <strong>be stuck half way</strong> between position "<strong>B</strong>" (<strong>"NEW" Stim</strong>) and position "<strong>C</strong>" (<strong>LabJack</strong>). Consequently the Switch Box was <em>confused</em> as to which device needed connecting to STI101.<br/>
-<strong>Robustly changing the Switch position</strong> from "<strong>B</strong>" to "<strong>C</strong>" then back to "<strong>B</strong>" was undertaken.<br />
-On re-running the Operator's Python script, and the MATLAB batch file, all triggers were detected on STI101 (all <strong><span style="color:green">GREEN</span></strong> LEDs lit as expected), and, on restarting <strong><em>megacq</em></strong>, all expected triggers were recorded.</p>
+<strong>Robustly changing the Switch position</strong> from "<strong>B</strong>" to "<strong>C</strong>" then back to "<strong>B</strong>" was undertaken. See image below<br /></p>
+<p><img alt="Parallel 4Port Switch" src="../../../images/meg/4PortSwitch.jpg" width="75%" /></p>
+<p>On re-running the Operator's Python script, and the MATLAB batch file, all triggers were detected on STI101 (all <strong><span style="color:green">GREEN</span></strong> LEDs lit as expected), and, on restarting <strong><em>megacq</em></strong>, all expected triggers were recorded.</p>
 <h3 id="solution"><strong><span style="color:maroon">Solution</span></strong></h3>
 <p><strong>MEG Operators are now</strong>, as part of their setup procedure moving forward, <strong>to check that the Parallel Port Switch Box</strong> is <strong>correctly positioned</strong> to the <strong>correct trigger-generating hardware</strong>.</p>
 
