@@ -8,7 +8,10 @@ A Python script was shown to MEG Support, detailing not all triggers being gener
 ### **<span style="color:maroon">Fix</span>**
 
 The **Parallel Port Switch Box** was found to **be stuck half way** between position "**B**" (**"NEW" Stim**) and position "**C**" (**LabJack**). Consequently the Switch Box was *confused* as to which device needed connecting to STI101.<br/>
-**Robustly changing the Switch position** from "**B**" to "**C**" then back to "**B**" was undertaken.<br />
+**Robustly changing the Switch position** from "**B**" to "**C**" then back to "**B**" was undertaken. See image below<br />
+
+![Parallel 4Port Switch](../../images/meg/4PortSwitch.jpg){width=75%}
+
 On re-running the Operator's Python script, and the MATLAB batch file, all triggers were detected on STI101 (all **<span style="color:green">GREEN</span>** LEDs lit as expected), and, on restarting ***megacq***, all expected triggers were recorded.
 
 ### **<span style="color:maroon">Solution</span>**
