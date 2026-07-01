@@ -175,6 +175,61 @@ Use the **[SIGGI II impedance meter]** <!--- (../../meg/pdfs/SIGGI_II_User_Manua
 - [ ] Quit *Impedance Meter* by selecting *Return* symbol and press *Enter/Esc*. 
 - [ ] Select *Power off* via the jog-shuttle and press *Enter/Esc*.
 
+## Digitisation
+
+Unlike EEG, where sensors are attached directly to the scalp, MEG sensors are fixed inside a rigid helmet. 
+This means the head and the sensors do not share the same coordinate frame. 
+Because participants can position themselves differently or move during a session, head placement varies 
+between individuals and across separate recording sessions. Consequently, a specific sensor will not monitor 
+the exact same brain region from one acquisition to the next.
+
+To correct for these variations in head position, 
+a device-to-head transformation is calculated for each recording. This mathematical alignment relies on 
+five (or four in CHBH MEG usage) coils placed on the participant's head. The positions of these coils are measured in two 
+different frameworks: the head coordinate frame, captured during the initial digitisation process, 
+and the device coordinate frame, as part of the HPI measurement.
+
+The digitisation process is performed using a **[Polhemus FASTRAK system](https://polhemus.com/all-trackers/fastrak)** <br />
+First, 3 anatomical landmarks are digitised: the **[nasion (NAS)](https://en.wikipedia.org/wiki/Nasion)**, and the **[left and right pre-auricular point (LPA and RPA)](https://www.fieldtriptoolbox.org/faq/source/fiducials_definition/)**.
+
+See also: **[How are the Left and Right Pre-Auricular (LPA and RPA) points defined?](https://www.fieldtriptoolbox.org/faq/source/anat_landmarks/)**
+
+!!! Note "The LPA and RPA, used in CHBH, are known as LHS and RHS - Left and Right Helix-Scalp junction - in other naming conventions."
+
+![Head Coordinate Frame](../../images/meg/head-coordinate-frame.png){width=40% align=right}
+
+<br /><br />
+Those 3 anatomical landmarks define the head coordinate frame:
+
+- The X-axis goes from LPA (2) to RPA (1)
+- The Y-axis is orthogonal to the X-axis and goes through the nasion (NAS) (3)
+- The Z-axis forms the right-handed orthogonal system
+
+<br /><br />
+All points digitised after the anatomical landmarks are reported in the head coordinate frame. Once the head coordinate frame is defined, the digitised points are:
+
+- The 5 HPI coils (placement may vary from one participant to another) - *CHBH usage is normally only 4 coils*.
+- The EEG electrodes (optional, depends on experimental paradigm).
+- The head shape (additional points on the scalp to improve co-registration).
+
+!!! Note "The head coordinate frame measures the point’s position in metres."
+
+## HPI Measurement
+
+A HPI (Head Position Indication, sometimes cHPI for *continuous* head position indication) measurement is always performed before a new acquisition with a participant. 
+Once the participant is positioned in the MEG, a pulse (a sinusoidal signal of a different frequency for each coil) is sent to the 5 (or 4) coils attached to the head. 
+The coils positions are estimated from the magnetic field measured by the MEG sensors.
+
+!!! Note "Only 3 coils are needed to estimate the head position, 4 coils ensures that they are not coplanar. MEGIN opted for 5 coils as a safety margin to ensure a robust estimation.<br /> Coil sets with broken coils can still be used, as long as 3, at least, are usable - coil colour doesn't matter."
+
+The HPI measurement at the beginning of the recording is used to estimate a single device to head transformation, stored in the raw.info["dev_head_t"] field of a Raw object.
+
+cHPI (continuous Head Position Indication) is used to continuously elicit a magnetic field from the 5 HPI coils. MaxWell filter can use the cHPI signal to correct signal distortions due to head movements. See this tutorial for more information about the correction of head movements using MNE-Python.
+
+Tip
+
+In any-case, the cHPI signal should be filtered out before the analysis. In MNE-Python, this is done through filter_chpi(). Note that this function is not a simple notch filter as the cHPI signals are in general not stationary because the head movements act like amplitude modulators. Thus, an iterative fitting method is used to remove the cHPI signal.
+
 
 ## Attach HPI coils
 
