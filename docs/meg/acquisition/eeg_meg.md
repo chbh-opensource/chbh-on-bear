@@ -68,9 +68,25 @@ I then deselect F1 in the acquisition dialogue (EEG12) and select/activate EEG12
 I plug the breakout box into the last port typically for channels 96-128 and plug the soft touch replacement electrode into the breakout box number 32.<br />
 This mandates that the sequence in the digitization is "Sequential" and I just follow the pattern from the Table of Coordinates provided by EASYCAP except that I know F1 is missing, 
 so when I get to F1 (EEG12) I know that it will actually be Fz and everything from there will be -1 (so to speak).
-Then at the very end I digitize F1.</span>*" (**<span style="color:blue">James has 75 & 128 channel EASYCAPs</span>**)
+Then at the very end I digitize F1.<br />Offline, we remap things so that the spare electrode is treated as the intended channel, and the original (dead) channel is simpled excluded.<br />
+The best solution is to have enough spare caps that you can rotate them out for repair, by far the cleaner solution long-term.</span>*" (**<span style="color:blue">James has 75 & 128 channel EASYCAPs</span>**)
 
+When questioned further about how to use a MEG safe Multitrode ...
 
+"*<span style="color:green">In practice, what we do is simply replace the faulty electrode in the cap with a spare MEG safe electrode (if possible).</span>*"
+
+- "*<span style="color:green">If the cap has removable electrodes, we just swap it out directly (we have 3 caps like that).</span>*"
+- "*<span style="color:green">If it’s a fixed electrode, you can still replace it, but it takes a bit of “persuasion” to get it seated properly.</span>*"
+	- "*<span style="color:green">I have sewn an electrode in place, but only once!</span>*"
+
+If required, **[A07 ring holders](https://shop.easycap.de/products/electrodeholder-a07?_pos=1&_sid=922d14901&_ss=r)** can be purchased to hold B18 multitrodes.
+
+**Renate Wehrle, PhD**, Scientific Consultant, Easycap GmbH, kindly provided the following ...
+
+"*<span style="color:blue">In cap fabrics, B18 can also be inserted directly.<br />
+However, if you know that you will want to switch more often, it is then easier - and nicer to the cap fabric in the longer run - to instead insert A07 holders, and switch multitrodes therein.</span>*"
+
+<br />
 #### **<span style="color:maroon">If using MEGIN Caps ...</span>**
 
 To **help in digitisation, three pages have been copied from MEGIN's EEG Cap User's manual above** ...
