@@ -6035,51 +6035,78 @@ Use <em>Micropore</em> tape over the electrodes to help hold them in place.</p>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Select <em>Power off</em> via the jog-shuttle and press <em>Enter/Esc</em>.</li>
 </ul>
 <h2 id="digitisation">Digitisation</h2>
-<p>Unlike EEG, where sensors are attached directly to the scalp, MEG sensors are fixed inside a rigid helmet. 
-This means the head and the sensors do not share the same coordinate frame. 
-Because participants can position themselves differently or move during a session, head placement varies 
-between individuals and across separate recording sessions. Consequently, a specific sensor will not monitor 
-the exact same brain region from one acquisition to the next.</p>
-<p>To correct for these variations in head position, 
-a device-to-head transformation is calculated for each recording. This mathematical alignment relies on 
-five (or four in CHBH MEG usage) coils placed on the participant's head. The positions of these coils are measured in two 
-different frameworks: the head coordinate frame, captured during the initial digitisation process, 
-and the device coordinate frame, as part of the HPI measurement.</p>
-<p>The digitisation process is performed using a <strong><a href="https://polhemus.com/all-trackers/fastrak">Polhemus FASTRAK system</a></strong> <br />
-First, 3 anatomical landmarks are digitised: the <strong><a href="https://en.wikipedia.org/wiki/Nasion">nasion (NAS)</a></strong>, and the <strong><a href="https://www.fieldtriptoolbox.org/faq/source/fiducials_definition/">left and right pre-auricular point (LPA and RPA)</a></strong>.</p>
+<p><strong>Unlike EEG, where sensors are attached directly to the scalp, MEG sensors are fixed inside a rigid helmet. 
+This means the head and the sensors do not share the same coordinate frame.</strong> 
+Because participants can position themselves differently or move during a session, <strong>head placement varies 
+between individuals and across separate recording sessions</strong>. Consequently, <strong>a specific sensor will not monitor 
+the exact same brain region from one acquisition to the next</strong>.</p>
+<p><strong>To correct for these variations</strong> in head position, 
+a <strong>device-to-head transformation is calculated for each acquisition session</strong>. This mathematical alignment <strong>relies on 
+five (<em>or four in CHBH MEG usage</em>) coils placed on the participant's head</strong>.<br /> The positions of these coils are <strong>measured in two 
+different frameworks: the head coordinate frame</strong>, captured during the initial digitisation process, 
+and the <strong>device coordinate frame</strong>, as part of the HPI measurement.</p>
+<p>The <strong>digitisation process is performed</strong> using a <strong><a href="https://polhemus.com/all-trackers/fastrak">Polhemus FASTRAK system</a></strong> <br />
+First, <strong>3 anatomical landmarks are digitised:</strong> the <strong><a href="https://en.wikipedia.org/wiki/Nasion">nasion (NAS)</a></strong>, and the <strong><a href="https://www.fieldtriptoolbox.org/faq/source/fiducials_definition/">left and right pre-auricular point (LPA and RPA)</a></strong>.</p>
 <p>See also: <strong><a href="https://www.fieldtriptoolbox.org/faq/source/anat_landmarks/">How are the Left and Right Pre-Auricular (LPA and RPA) points defined?</a></strong></p>
-<div class="admonition note">
-<p class="admonition-title">The LPA and RPA, used in CHBH, are known as LHS and RHS - Left and Right Helix-Scalp junction - in other naming conventions.</p>
+<div class="admonition info">
+<p class="admonition-title">LPA and RPA, used in CHBH, are known as LHS and RHS - Left and Right Helix-Scalp junction - in other naming conventions.</p>
 </div>
 <p><img align="right" alt="Head Coordinate Frame" src="../../../images/meg/head-coordinate-frame.png" width="40%" /></p>
 <p><br /><br />
-Those 3 anatomical landmarks define the head coordinate frame:</p>
+Those <strong>3 anatomical landmarks define the head coordinate frame:</strong></p>
 <ul>
-<li>The X-axis goes from LPA (2) to RPA (1)</li>
-<li>The Y-axis is orthogonal to the X-axis and goes through the nasion (NAS) (3)</li>
-<li>The Z-axis forms the right-handed orthogonal system</li>
+<li>The <strong>X-axis</strong> goes from <strong>LPA (2) to RPA (1)</strong></li>
+<li>The <strong>Y-axis</strong> is <strong>orthogonal to the X-axis</strong> and goes through the <strong>nasion (NAS) (3)</strong></li>
+<li>The <strong>Z-axis</strong> forms the <strong>right-handed orthogonal system</strong></li>
 </ul>
 <p><br /><br />
-All points digitised after the anatomical landmarks are reported in the head coordinate frame. Once the head coordinate frame is defined, the digitised points are:</p>
+<strong>All points digitised</strong> after the anatomical landmarks <strong>are reported in the head coordinate frame</strong>. Once the <strong>head coordinate frame is defined, the digitised points are:</strong></p>
 <ul>
-<li>The 5 HPI coils (placement may vary from one participant to another) - <em>CHBH usage is normally only 4 coils</em>.</li>
-<li>The EEG electrodes (optional, depends on experimental paradigm).</li>
-<li>The head shape (additional points on the scalp to improve co-registration).</li>
+<li>The <strong>5 HPI coils</strong> (placement may vary from one participant to another) - <strong><em>CHBH usage is normally only 4 coils</em></strong>.</li>
+<li>The <strong>EEG electrodes</strong> (<strong><em>optional, depends on experimental paradigm</em></strong>).</li>
+<li>The <strong>head shape</strong> (<strong>additional (200+) points on the scalp to improve co-registration</strong>).</li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">The head coordinate frame measures the point’s position in metres.</p>
 </div>
 <h2 id="hpi-measurement">HPI Measurement</h2>
-<p>A HPI (Head Position Indication, sometimes cHPI for <em>continuous</em> head position indication) measurement is always performed before a new acquisition with a participant. 
-Once the participant is positioned in the MEG, a pulse (a sinusoidal signal of a different frequency for each coil) is sent to the 5 (or 4) coils attached to the head. 
-The coils positions are estimated from the magnetic field measured by the MEG sensors.</p>
+<p>A <strong>HPI</strong> (<strong>H</strong>ead <strong>P</strong>osition <strong>I</strong>ndication, sometimes <strong>cHPI</strong> for <strong><em>continuous</em></strong> head position indication) measurement is <strong>always performed before a new acquisition with a participant</strong>. 
+<strong>Once the participant is positioned in the MEG</strong>, a <strong>pulse</strong> (a <strong>sinusoidal signal of a different frequency for each coil</strong>) is <strong>sent</strong> to the <strong>5 (or 4) coils attached to the head</strong>. 
+The <strong>coils positions</strong> are <strong>estimated from the magnetic field measured by the MEG sensors</strong>.</p>
 <div class="admonition note">
-<p class="admonition-title">Only 3 coils are needed to estimate the head position, 4 coils ensures that they are not coplanar. MEGIN opted for 5 coils as a safety margin to ensure a robust estimation.<br /> Coil sets with broken coils can still be used, as long as 3, at least, are usable - coil colour doesn't matter.</p>
+<p class="admonition-title">Note</p>
+<p><strong>Only 3 coils are needed to estimate the head position</strong>, 4 coils ensures that they are not coplanar. MEGIN opted for 5 coils as a safety margin to ensure a robust estimation.<br /> 
+<strong>Coil sets with broken coils can still be used</strong>, as long as <strong>at least 3 coils are usable</strong> - <strong>coil colour and placement on the head doesn't matter</strong>.</p>
 </div>
-<p>The HPI measurement at the beginning of the recording is used to estimate a single device to head transformation, stored in the raw.info["dev_head_t"] field of a Raw object.</p>
-<p>cHPI (continuous Head Position Indication) is used to continuously elicit a magnetic field from the 5 HPI coils. MaxWell filter can use the cHPI signal to correct signal distortions due to head movements. See this tutorial for more information about the correction of head movements using MNE-Python.</p>
-<p>Tip</p>
-<p>In any-case, the cHPI signal should be filtered out before the analysis. In MNE-Python, this is done through filter_chpi(). Note that this function is not a simple notch filter as the cHPI signals are in general not stationary because the head movements act like amplitude modulators. Thus, an iterative fitting method is used to remove the cHPI signal.</p>
+<p>The <strong>HPI measurement at the beginning of the recording</strong> is used to <strong>estimate a single device to head transformation</strong>, stored in the <strong><code>raw.info["dev_head_t"]</code></strong> field of a <strong><a href="https://mne.tools/stable/generated/mne.io.Raw.html#mne.io.Raw">Raw</a></strong> object.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In <strong><a href="https://mne.tools/stable/index.html">MNE-Python</a></strong>, the the <strong>device to head transformation</strong> is <strong>stored</strong> in a <strong><a href="https://mne.tools/stable/generated/mne.transforms.Transform.html#mne.transforms.Transform">Transform</a></strong> object <strong>representing a 4x4 affine transformation</strong>.</p>
+</div>
+<p><strong>cHPI</strong> (<em>continuous Head Position Indication</em>) is used to <strong>continuously induce a magnetic field from the 5 (or 4) HPI coils.</strong><br /> 
+<strong><a href="https://mne.tools/stable/auto_tutorials/preprocessing/60_maxwell_filtering_sss.html#background-on-sss-and-maxwell-filtering">Signal-Space Separation (SSS) and Maxwell filter</a></strong> can use the cHPI signal to correct signal distortions due to head movements.<br />
+To run SSS, use either MEGIN’s <strong>[MaxFilter]</strong> (<em>SharePoint link to be added</em>) software on the DACQ Console, or <strong><a href="https://mne.tools/stable/index.html">MNE-Python</a></strong>’s implementation (used on <strong><a href="https://bear-apps.bham.ac.uk/applications/MNE-Python/">BEAR</a></strong>).</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Instead of MEGIN’s MaxWell software available on the DACQ, it's <strong>recommended to try the enhanced version</strong> available in <strong><a href="https://mne.tools/stable/index.html">MNE-Python</a></strong>. See <strong><a href="https://mne.tools/stable/generated/mne.preprocessing.maxwell_filter.html#mne.preprocessing.maxwell_filter">mne.preprocessing.maxwell_filter()</a></strong>. <br />
+<strong><a href="../../analysis/maxfiltercalfiles/">Fine-Calibration files / cross-talk correction file</a></strong> are available to download.</p>
+</div>
+<p><strong><span style="color:maroon">Other useful documents if using MaxFilter on the DACQ Console.</span></strong></p>
+<p><strong>[MaxFilter - Addendum]</strong> (<em>SharePoint link to be added</em>)<br />
+<strong>[MaxFilter Guidelines]</strong> (<em>SharePoint link to be added</em>) (<span style="color:blue"> Many thanks to Prof. Viekko Jousmäki (October 2015)</span></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Whatever software is used, the cHPI signal should be filtered out before any analysis takes place</strong>.<br />
+In <strong><a href="https://mne.tools/stable/index.html">MNE-Python</a></strong>), this is done through <strong><a href="https://mne.tools/stable/generated/mne.chpi.filter_chpi.html#mne.chpi.filter_chpi">filter_chpi()</a></strong>.<br />
+This function is not a simple notch filter as the cHPI signals are generally not stationary because any head movements act like amplitude modulators. Therefore an iterative fitting method is used to remove the cHPI signal.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong><a href="https://mne.tools/stable/index.html">MNE-Python</a></strong> has command-line tools which can be accessed with:<br>
+<strong><code>$ mne &lt;command&gt; &lt;options&gt;</code></strong><br />
+Entering the command <strong><code>$ mne</code></strong> will return a list of available commands.<br />
+The commands <strong><code>mne what</code></strong> and <strong><code>mne show_fiff</code></strong> can be used to inspect the content of a FIFF file.</p>
+</div>
 <h2 id="attach-hpi-coils">Attach HPI coils</h2>
 <div class="admonition info">
 <p class="admonition-title"><em><a href="../../pdfs/Why_attach_HPI_coils.pdf">Why do we attach HPI coils?</a></em></p>
