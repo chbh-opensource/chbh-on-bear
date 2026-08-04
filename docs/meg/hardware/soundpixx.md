@@ -2,9 +2,9 @@
 
 **[MEG Audio Connections](../../meg/pdfs/MEG_Audio_Connections.pdf)**
 
-**[SOUNDPixx UserManual v3.1]** <!--- (../../meg/pdfs/SOUNDPixx_UserManual_3R1.pdf) ---!> *(SharePoint link to be added)*
+**[SOUNDPixx UserManual v3.1](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21922644)**
 
-The **[SOUNDPixx](../../meg/pdfs/soundpixx.pdf)** (*datasheet*) is a **complete MEG/MRI stereo audio system**, 
+The **[SOUNDPixx](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21922645)** (*datasheet*) is a **complete MEG/MRI stereo audio system**, 
 providing **perfect integration when paired with PROPixx or DATAPixx systems** and also **microsecond-precise audio stimulation when driven by VPixx hardware**.
 
 ![SOUNDPixx](../../images/meg/Soundpixx.png){width=50% align=right}

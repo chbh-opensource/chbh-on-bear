@@ -1,8 +1,8 @@
 # VPixx X-Rite i1Display Pro Colorimeter
 
-**[Specifications](../../meg/pdfs/i1Display_Pro_Specifications.pdf)**<br />
-**[Data Sheet](../../meg/pdfs/X-Rite_i1Display_Pro_Data_Sheet.pdf)**<br />
-**[User Manual]** <!--- (../../meg/pdfs/X-Rite_i1Display_Pro_User_Manual.pdf) ---!> *(SharePoint link to be added)*
+**[Specifications](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21920566)**<br />
+**[Data Sheet](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21920567)**<br />
+**[User Manual](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21920569)**
 
 !!! Note
 	The **calibration information is now included as part of** the ...<br />

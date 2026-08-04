@@ -1,6 +1,6 @@
 # Light-2-Voltage Converter (L2V)
 
-The **three L2V Converters**, provided by Professor Veikko Jousmaki, use a **[TSL250R](../../meg/pdfs/TSL250R_Technical_Data_Sheet.pdf)** light-to-voltage optical sensor, **running off a 9V battery**.
+The **three L2V Converters**, provided by Professor Veikko Jousmaki, use a **[TSL250R](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21922850)** light-to-voltage optical sensor, **running off a 9V battery**.
 
 "**L2V1**" and "**L2V3**" are connected to **MISC4** and **MISC5.**
 

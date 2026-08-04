@@ -15,9 +15,9 @@ from **[Digitimer](https://www.digitimer.com/)** is available for **recording va
 
 !!! warning "Improper installation of the DS7A can result in an increase in sensor noise levels due to RF leakage and/or unwanted ground loops." 
 
-**[Guidelines to MEG Data Acquisition]** <!--- (../../meg/pdfs/NM26082A-A_DACQ_Guidelines.pdf)** (*Customer training, May 2020*) ---!> *(SharePoint link to be added)* provides more information.<br />
+**[Guidelines to MEG Data Acquisition](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21922667)** (*Customer training, May 2020*) provides more information.<br />
 
-Also **[Stimulus System User's Manual September 2011]** <!--- (../../meg/pdfs/NM21789A-A_StimSystem.pdf) ---!> *(SharePoint link needs to be added)*
+Also **[Stimulus System User's Manual September 2011](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21922672)**
 
 **The DS7A is located in the Stimulus Cabinet**.
 

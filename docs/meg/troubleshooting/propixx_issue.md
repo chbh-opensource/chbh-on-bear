@@ -6,7 +6,7 @@ An Operator reported they **couldn't wake** the PROPixx (***ppx a***) from withi
 
 ### **<span style="color:maroon">Solution</span>**
 
-**To wake** the PROPixx, the silver 'Sleep/Wake' button ("**2**") at the **rear of the PROPixx** was pressed. See image below.<br />
+**To wake** the PROPixx, the silver "**ON/Sleep button**" (*circled*) at the **rear of the PROPixx** was pressed. See image below.<br />
 ![PROPixx rear panel](../../images/meg/propixxlabeled.png)
 Once finished, the default environment was replaced, and once the Stim PC had rebooted VPutils was started and ***ppx s*** was run from there.
 
