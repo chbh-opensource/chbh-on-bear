@@ -1,8 +1,8 @@
 # MEG Data Acquisition Checklist
 
-**[Guidelines to MEG Data Acquisition]** <!--- (../../meg/pdfs/NM26082A-A_DACQ_Guidelines.pdf) ---!> *(SharePoint link to be added)* (*Customer training, May 2020*) <br />
-**[User Manual April 2017]** <!--- (../../meg/pdfs/NM24131A-C_Triux_UM.pdf) ---!> *(SharePoint link to be added)*<br />
-**[Data Acquisition v6.0 June 2019]** <!--- (../../meg/pdfs/NM23732A-B1-Dacq-6.0-UM_FINAL.pdf) ---!> *(SharePoint link to be added)*
+**[Guidelines to MEG Data Acquisition](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21922667)** (*Customer training, May 2020*) <br />
+**[User Manual April 2017](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21940764)**<br />
+**[Data Acquisition v6.0 June 2019](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21940766)**
 
 ![CHBH MEG Flowchart](../../images/meg/CHBH_MEG_flowchart.jpg)
 **Session flowchart**
@@ -232,7 +232,7 @@ The **HPI measurement at the beginning of the recording** is used to **estimate 
 
 **cHPI** (*continuous Head Position Indication*) is used to **continuously induce a magnetic field from the 5 (or 4) HPI coils.**<br /> 
 **[Signal-Space Separation (SSS) and Maxwell filter](https://mne.tools/stable/auto_tutorials/preprocessing/60_maxwell_filtering_sss.html#background-on-sss-and-maxwell-filtering)** can use the cHPI signal to correct signal distortions due to head movements.<br />
-To run SSS, use either MEGIN’s **[MaxFilter]** (*SharePoint link to be added*) software on the DACQ Console, or **[MNE-Python](https://mne.tools/stable/index.html)**’s implementation (used on **[BEAR](https://bear-apps.bham.ac.uk/applications/MNE-Python/)**).
+To run SSS, use either MEGIN’s **[MaxFilter](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21941764)** software on the DACQ Console, or **[MNE-Python](https://mne.tools/stable/index.html)**’s implementation (used on **[BEAR](https://bear-apps.bham.ac.uk/applications/MNE-Python/)**).
 
 !!! Tip
 	Instead of MEGIN’s MaxWell software available on the DACQ, it's **recommended to try the enhanced version** available in **[MNE-Python](https://mne.tools/stable/index.html)**. See **[mne.preprocessing.maxwell_filter()](https://mne.tools/stable/generated/mne.preprocessing.maxwell_filter.html#mne.preprocessing.maxwell_filter)**. <br />
@@ -240,8 +240,8 @@ To run SSS, use either MEGIN’s **[MaxFilter]** (*SharePoint link to be added*)
 
 **<span style="color:maroon">Other useful documents if using MaxFilter on the DACQ Console.</span>**
 
-**[MaxFilter - Addendum]** (*SharePoint link to be added*)<br />
-**[MaxFilter Guidelines]** (*SharePoint link to be added*) (<span style="color:blue"> Many thanks to Prof. Viekko Jousmäki (October 2015)</span>
+**[MaxFilter - Addendum](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21941773)**<br />
+**[MaxFilter Guidelines](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21941775)** - <span style="color:blue">Many thanks to Prof. Viekko Jousmäki (October 2015)</span>
 
 !!! Note
 	**Whatever software is used, the cHPI signal should be filtered out before any analysis takes place**.<br />
@@ -257,20 +257,20 @@ To run SSS, use either MEGIN’s **[MaxFilter]** (*SharePoint link to be added*)
 
 ## Attach HPI coils
 
-!!! info "*[Why do we attach HPI coils?](../../meg/pdfs/Why_attach_HPI_coils.pdf)*"
+!!! info "*[Why do we attach HPI coils?](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21941785)*"
 
-!!! Note "Our HPI coils are energised at different frequencies (now 25Hz separation) compared to the default <br /> ([HPI Coil Placement and Frequencies](../../meg/pdfs/HPI_Coil_Placement_and_Frequencies.pdf))"
+!!! Note "Our HPI coils are energised at different frequencies (now 25Hz separation) compared to the default <br /> ([HPI Coil Placement and Frequencies](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21941786))"
 
-- [ ] If necessary **test the HPI coils** first, for continuity, uisng our ***[HPI Coil Tester](../../meg/pdfs/HPI_Coil_Testing.pdf)***<br />
+- [ ] If necessary **test the HPI coils** first, for continuity, uisng our ***[HPI Coil Tester](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21941826)***<br />
 <span style="color:green">With many thanks to Gary Chandler & David Hayes (MRC-CBU).</span>
-- [ ] **Attach HPI coils** with either ***[Tegaderm](../../meg/pdfs/Using_Tegaderm_Tape.pdf)*** tape, ***[Blenderm](../../meg/pdfs/Using_Blenderm_Tape.pdf)*** tape, or ***Micropore*** tape, on **the forehead below the hairline**, and **behind the ears** (where there is exposed skin) as shown in **Figure 2** below.
+- [ ] **Attach HPI coils** with either ***[Tegaderm](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21941827)*** tape, ***[Blenderm](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21941828)*** tape, or ***Micropore*** tape, on **the forehead below the hairline**, and **behind the ears** (where there is exposed skin) as shown in **Figure 2** below.
 
 !!! Note
 	- If using Micropore, a good trick is then to mark the center of the tape-covered HPI coil with a pencil to aid digitisation/locate the stylus tip correctly.<br />
 	- The coils must be covered by the MEG helmet/sensor array, so place them as high on the head as possible.<br />
 	- The coils behind the ears as high up as possible, without being in the hair.<br />
 	- The coils on the forehead well separated, but not in the hair.<br />
-	- The coils should not be directly under the Internal Active Shielding (**IAS**) reference channels, i.e. they should not be in the middle of the forehead, on the inion or near peri-auricular points.<br />
+	- The coils should not be directly under the **[Internal Active Shielding (IAS)](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21942359)** reference channels, i.e. they should not be in the middle of the forehead, on the inion or near peri-auricular points.<br />
 	- The most precise HPI information is obtained when the coils are as far apart as possible but still within the sensor helmet.<br />
 	- Try avoiding situations where coils form a nearly perfect square.
 
@@ -278,8 +278,8 @@ To run SSS, use either MEGIN’s **[MaxFilter]** (*SharePoint link to be added*)
 
 !!! Note
 	- If desired, the 5th coil can be placed in the upper parietal region, preferably somewhat off midline.<br />
-	- Do not place the 5th coil directly on vertex as it may interfere with the Internal Active Shielding (**IAS**) if turned on. 
-	- Avoid the locations of the zero detectors when placing the HPI coils in order to prevent this problem. Refer to the **IAS User’s Manual** section found in the **User's Manual** for zero detector locations (middle shelf, right-hand white cupboard in Control Room).
+	- Do not place the 5th coil directly on vertex as it may interfere with the **I**nternal **A**ctive **S**hielding (**IAS**) if turned on. 
+	- Avoid the locations of the zero detectors when placing the HPI coils in order to prevent this problem. Refer to the **[IAS User’s Manual](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21942359)** section found in the **User's Manual** for zero detector locations (middle shelf, right-hand white cupboard in Control Room).
 
 - [ ] **Place** the *Polhemus* goggles **carefully on your participant**, or attach the small receiver firmly on the forehead using tape. Make sure the coils do not come unstuck.
 
@@ -301,7 +301,7 @@ The digitisation process is performed using a **[Polhemus FASTRAK system](https:
 
 !!! note "The order in which the fiducial points are digitised does not matter."
 
-- [ ] Turn on the *Polhemus* system (switch on the back right of the unit).
+- [ ] **Turn on** the *Polhemus* system (switch on the back right of the unit).
 - [ ] Place the Transmitter cube in the grey bracket on the back of the **Digitisation chair**, with **the cable pointing down**.
 - [ ] Place the *Polhemus* goggles on your Participant.
 - [ ] Click **Change** next to **HPI: not digitized!** in the *Acquisition control* **Settings** panel.
@@ -420,8 +420,8 @@ The digitisation process is performed using a **[Polhemus FASTRAK system](https:
 - [ ] Instruct participant to **remain still and relaxed**, and announce the start of the experiment.
 - [ ] Start Acquisition by pressing **"GO!"**.
 - [ ] Double-check all good (*no noisy sensors/BIO channels etc*). Alleviate any issues if possible (*heat sensors etc*). 
-- [ ] Select **Measure**. (**[Useful Snip](../../images/meg/HPI_measure.jpg)** from **[Guidelines to MEG Data Acquisition]** <!--- (../../meg/pdfs/NM26082A-A_DACQ_Guidelines.pdf) ---!> *(SharePoint link to be added)*)<br /> 
-*If there are issues, as a first fix try raising participant slightly more in the gantry chair.* 
+- [ ] Select **Measure**. (**[Useful Snip](../../images/meg/HPI_measure.jpg)** from **[Guidelines to MEG Data Acquisition](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21922667)**<br /> 
+***<span style="color:blue">If there are issues, as a first fix try raising participant slightly more in the gantry chair - pump the chair up once.</span>*** 
 
 !!! Info
 	Low goodness or high discrepancies may indicate a broken or loose HPI coil or a bad digitisation.<br /> 
