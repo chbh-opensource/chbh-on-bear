@@ -161,19 +161,25 @@ If using the **[NeuroTab](https://www.unimed-electrodes.co.uk/15x20mm-Disposable
 
 ## Check impedance of electrodes
 
-Use the **[SIGGI II impedance meter]** <!--- (../../meg/pdfs/SIGGI_II_User_Manual.pdf) ---!> *(SharePoint link to be added)*
+Use the **[SIGGI II impedance meter](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21942709)**
 
-- [ ] Press the white button, labelled *Enter/Esc*, on the jog-shuttle to turn on.
-- [ ] Press the white button *again* to enter *Impedance Meter* menu.
-- [ ] On the top side of the SIGGI ("***Single-Ch-In***") plug **GND** electrode into **"N"**.
-- [ ] On the top side of the SIGGI plug **REF** electrode into **"-"**.
-- [ ] On the top side of the SIGGI plug the **electrode of interest** into **"+"**.
+- [ ] **Press the white button**, labelled *Enter/Esc*, on the jog-shuttle to turn on.
+- [ ] **Press the white button** *again* to enter *Impedance Meter* menu.
+- [ ] **On the top side** of the SIGGI ("***Single-Ch-In***") plug **GND** electrode into **"N"**.
+- [ ] **On the top side** of the SIGGI plug **REF** electrode into **"-"**.
+- [ ] **On the top side** of the SIGGI plug the **electrode of interest** into **"+"**.
+
+![SIGGI-II Impedance Meter](../../images/meg/SIGGI-II.jpg){width=45% align=left}![Single or Multi inputs](../../images/meg/SIGGI_Channels.jpg){width=45% align=right}
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 !!! note "If measuring EEG cap impedance, use the provided adapter."
 
-- [ ] **Cycle through all electrodes**, and make sure the **impedance is <10kOhm**.
-- [ ] Quit *Impedance Meter* by selecting *Return* symbol and press *Enter/Esc*. 
-- [ ] Select *Power off* via the jog-shuttle and press *Enter/Esc*.
+- [ ] **Cycle through all electrodes**, and make sure the **impedance is < 10 k&Omega;**.
+	- Make sure skin was prepped well before attaching electrode.
+	- Make sure electrode is attached firmly (add 'Micrpore' tape as necessary). Press electrode gently, but firmly.
+- [ ] **Quit** *Impedance Meter* by selecting *Return* symbol and **press** *Enter/Esc*. 
+- [ ] **Select** *Power off* via the jog-shuttle and **press** *Enter/Esc*.
 
 ## Digitisation
 

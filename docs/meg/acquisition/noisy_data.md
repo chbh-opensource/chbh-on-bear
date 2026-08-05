@@ -1,6 +1,6 @@
 # Noisy Data
 
-**If Acquired data is noisy during Acquisition, run a quick check to see if the artefacts can be easily removed using *MaxFilter*.<br />Collect ~1min or so of data, save, and then …**
+**If Acquired data is noisy during Acquisition, run a quick check to see if the artefacts can be easily removed using *[MaxFilter](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21941764)*.<br />Collect ~1min or so of data, save, and then …**
 
 1. Start **MaxFilter**.
 	- **```Applications -> Neuromag -> MaxFilter.```**
@@ -23,7 +23,7 @@
 	- ***<span style="color:blue">watch_on_chair_30_sec<span style="color:red">_tsss</span>.fif</span>***
 
 !!! Info
-	**<span style="font-size:medium">For more detailed information on usage,<br /> please read pages 21 – 25 from [Guidelines to MEG Data Analysis Software] <!--- (../../meg/pdfs/NM25775A-B1_DANA_Guidelines.pdf) ---!> *(SharePoint link to be added)* </span>**
+	**<span style="font-size:medium">For more detailed information on usage,<br /> please read pages 21 – 25 from [Guidelines to MEG Data Analysis Software](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21942622)</span>**
 
 
 **Compare the *before* and *after* MaxFilter files …</span>**
@@ -55,5 +55,5 @@
 17. In the **top Window**, "**Exit**", "**Exit**", "**Yes**", when finished.
 
 !!! Info
-	**For more detailed information on usage,<br /> please read from page 57 onwards, as necessary, from [Guidelines to MEG Data Analysis Software] <!---(../../meg/pdfs/NM25775A-B1_DANA_Guidelines.pdf) ---!> *(SharePoint link to be added)***
+	**For more detailed information on usage,<br /> please read from page 57 onwards, as necessary, from [Guidelines to MEG Data Analysis Software](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21942622)**
 
