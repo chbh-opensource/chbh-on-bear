@@ -5808,9 +5808,9 @@
 
 
 <h1 id="meg-data-acquisition-checklist">MEG Data Acquisition Checklist</h1>
-<p><strong>[Guidelines to MEG Data Acquisition]</strong> <!--- (../../meg/pdfs/NM26082A-A_DACQ_Guidelines.pdf) ---> <em>(SharePoint link to be added)</em> (<em>Customer training, May 2020</em>) <br />
-<strong>[User Manual April 2017]</strong> <!--- (../../meg/pdfs/NM24131A-C_Triux_UM.pdf) ---> <em>(SharePoint link to be added)</em><br />
-<strong>[Data Acquisition v6.0 June 2019]</strong> <!--- (../../meg/pdfs/NM23732A-B1-Dacq-6.0-UM_FINAL.pdf) ---> <em>(SharePoint link to be added)</em></p>
+<p><strong><a href="https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21922667">Guidelines to MEG Data Acquisition</a></strong> (<em>Customer training, May 2020</em>) <br />
+<strong><a href="https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21940764">User Manual April 2017</a></strong><br />
+<strong><a href="https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21940766">Data Acquisition v6.0 June 2019</a></strong></p>
 <p><img alt="CHBH MEG Flowchart" src="../../../images/meg/CHBH_MEG_flowchart.jpg" />
 <strong>Session flowchart</strong></p>
 <p><strong>Click on the tick boxes to mark your progress through data collection.</strong></p>
@@ -6085,15 +6085,15 @@ The <strong>coils positions</strong> are <strong>estimated from the magnetic fie
 </div>
 <p><strong>cHPI</strong> (<em>continuous Head Position Indication</em>) is used to <strong>continuously induce a magnetic field from the 5 (or 4) HPI coils.</strong><br /> 
 <strong><a href="https://mne.tools/stable/auto_tutorials/preprocessing/60_maxwell_filtering_sss.html#background-on-sss-and-maxwell-filtering">Signal-Space Separation (SSS) and Maxwell filter</a></strong> can use the cHPI signal to correct signal distortions due to head movements.<br />
-To run SSS, use either MEGIN’s <strong>[MaxFilter]</strong> (<em>SharePoint link to be added</em>) software on the DACQ Console, or <strong><a href="https://mne.tools/stable/index.html">MNE-Python</a></strong>’s implementation (used on <strong><a href="https://bear-apps.bham.ac.uk/applications/MNE-Python/">BEAR</a></strong>).</p>
+To run SSS, use either MEGIN’s <strong><a href="https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21941764">MaxFilter</a></strong> software on the DACQ Console, or <strong><a href="https://mne.tools/stable/index.html">MNE-Python</a></strong>’s implementation (used on <strong><a href="https://bear-apps.bham.ac.uk/applications/MNE-Python/">BEAR</a></strong>).</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>Instead of MEGIN’s MaxWell software available on the DACQ, it's <strong>recommended to try the enhanced version</strong> available in <strong><a href="https://mne.tools/stable/index.html">MNE-Python</a></strong>. See <strong><a href="https://mne.tools/stable/generated/mne.preprocessing.maxwell_filter.html#mne.preprocessing.maxwell_filter">mne.preprocessing.maxwell_filter()</a></strong>. <br />
 <strong><a href="../../analysis/maxfiltercalfiles/">Fine-Calibration files / cross-talk correction file</a></strong> are available to download.</p>
 </div>
 <p><strong><span style="color:maroon">Other useful documents if using MaxFilter on the DACQ Console.</span></strong></p>
-<p><strong>[MaxFilter - Addendum]</strong> (<em>SharePoint link to be added</em>)<br />
-<strong>[MaxFilter Guidelines]</strong> (<em>SharePoint link to be added</em>) (<span style="color:blue"> Many thanks to Prof. Viekko Jousmäki (October 2015)</span></p>
+<p><strong><a href="https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21941773">MaxFilter - Addendum</a></strong><br />
+<strong><a href="https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21941775">MaxFilter Guidelines</a></strong> - <span style="color:blue">Many thanks to Prof. Viekko Jousmäki (October 2015)</span></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p><strong>Whatever software is used, the cHPI signal should be filtered out before any analysis takes place</strong>.<br />
@@ -6109,15 +6109,15 @@ The commands <strong><code>mne what</code></strong> and <strong><code>mne show_f
 </div>
 <h2 id="attach-hpi-coils">Attach HPI coils</h2>
 <div class="admonition info">
-<p class="admonition-title"><em><a href="../../pdfs/Why_attach_HPI_coils.pdf">Why do we attach HPI coils?</a></em></p>
+<p class="admonition-title"><em><a href="https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21941785">Why do we attach HPI coils?</a></em></p>
 </div>
 <div class="admonition note">
-<p class="admonition-title">Our HPI coils are energised at different frequencies (now 25Hz separation) compared to the default <br /> (<a href="../../pdfs/HPI_Coil_Placement_and_Frequencies.pdf">HPI Coil Placement and Frequencies</a>)</p>
+<p class="admonition-title">Our HPI coils are energised at different frequencies (now 25Hz separation) compared to the default <br /> (<a href="https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21941786">HPI Coil Placement and Frequencies</a>)</p>
 </div>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> If necessary <strong>test the HPI coils</strong> first, for continuity, uisng our <strong><em><a href="../../pdfs/HPI_Coil_Testing.pdf">HPI Coil Tester</a></em></strong><br />
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> If necessary <strong>test the HPI coils</strong> first, for continuity, uisng our <strong><em><a href="https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21941826">HPI Coil Tester</a></em></strong><br />
 <span style="color:green">With many thanks to Gary Chandler &amp; David Hayes (MRC-CBU).</span></li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Attach HPI coils</strong> with either <strong><em><a href="../../pdfs/Using_Tegaderm_Tape.pdf">Tegaderm</a></em></strong> tape, <strong><em><a href="../../pdfs/Using_Blenderm_Tape.pdf">Blenderm</a></em></strong> tape, or <strong><em>Micropore</em></strong> tape, on <strong>the forehead below the hairline</strong>, and <strong>behind the ears</strong> (where there is exposed skin) as shown in <strong>Figure 2</strong> below.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Attach HPI coils</strong> with either <strong><em><a href="https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21941827">Tegaderm</a></em></strong> tape, <strong><em><a href="https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21941828">Blenderm</a></em></strong> tape, or <strong><em>Micropore</em></strong> tape, on <strong>the forehead below the hairline</strong>, and <strong>behind the ears</strong> (where there is exposed skin) as shown in <strong>Figure 2</strong> below.</li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -6126,7 +6126,7 @@ The commands <strong><code>mne what</code></strong> and <strong><code>mne show_f
 <li>The coils must be covered by the MEG helmet/sensor array, so place them as high on the head as possible.<br /></li>
 <li>The coils behind the ears as high up as possible, without being in the hair.<br /></li>
 <li>The coils on the forehead well separated, but not in the hair.<br /></li>
-<li>The coils should not be directly under the Internal Active Shielding (<strong>IAS</strong>) reference channels, i.e. they should not be in the middle of the forehead, on the inion or near peri-auricular points.<br /></li>
+<li>The coils should not be directly under the <strong><a href="https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21942359">Internal Active Shielding (IAS)</a></strong> reference channels, i.e. they should not be in the middle of the forehead, on the inion or near peri-auricular points.<br /></li>
 <li>The most precise HPI information is obtained when the coils are as far apart as possible but still within the sensor helmet.<br /></li>
 <li>Try avoiding situations where coils form a nearly perfect square.</li>
 </ul>
@@ -6138,8 +6138,8 @@ The commands <strong><code>mne what</code></strong> and <strong><code>mne show_f
 <p class="admonition-title">Note</p>
 <ul>
 <li>If desired, the 5th coil can be placed in the upper parietal region, preferably somewhat off midline.<br /></li>
-<li>Do not place the 5th coil directly on vertex as it may interfere with the Internal Active Shielding (<strong>IAS</strong>) if turned on. </li>
-<li>Avoid the locations of the zero detectors when placing the HPI coils in order to prevent this problem. Refer to the <strong>IAS User’s Manual</strong> section found in the <strong>User's Manual</strong> for zero detector locations (middle shelf, right-hand white cupboard in Control Room).</li>
+<li>Do not place the 5th coil directly on vertex as it may interfere with the <strong>I</strong>nternal <strong>A</strong>ctive <strong>S</strong>hielding (<strong>IAS</strong>) if turned on. </li>
+<li>Avoid the locations of the zero detectors when placing the HPI coils in order to prevent this problem. Refer to the <strong><a href="https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21942359">IAS User’s Manual</a></strong> section found in the <strong>User's Manual</strong> for zero detector locations (middle shelf, right-hand white cupboard in Control Room).</li>
 </ul>
 </div>
 <ul class="task-list">
@@ -6165,7 +6165,7 @@ The commands <strong><code>mne what</code></strong> and <strong><code>mne show_f
 <p class="admonition-title">The order in which the fiducial points are digitised does not matter.</p>
 </div>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Turn on the <em>Polhemus</em> system (switch on the back right of the unit).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Turn on</strong> the <em>Polhemus</em> system (switch on the back right of the unit).</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Place the Transmitter cube in the grey bracket on the back of the <strong>Digitisation chair</strong>, with <strong>the cable pointing down</strong>.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Place the <em>Polhemus</em> goggles on your Participant.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Click <strong>Change</strong> next to <strong>HPI: not digitized!</strong> in the <em>Acquisition control</em> <strong>Settings</strong> panel.</li>
@@ -6312,8 +6312,8 @@ The commands <strong><code>mne what</code></strong> and <strong><code>mne show_f
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Instruct participant to <strong>remain still and relaxed</strong>, and announce the start of the experiment.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Start Acquisition by pressing <strong>"GO!"</strong>.</li>
 <li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Double-check all good (<em>no noisy sensors/BIO channels etc</em>). Alleviate any issues if possible (<em>heat sensors etc</em>). </li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Select <strong>Measure</strong>. (<strong><a href="../../../images/meg/HPI_measure.jpg">Useful Snip</a></strong> from <strong>[Guidelines to MEG Data Acquisition]</strong> <!--- (../../meg/pdfs/NM26082A-A_DACQ_Guidelines.pdf) ---> <em>(SharePoint link to be added)</em>)<br /> 
-<em>If there are issues, as a first fix try raising participant slightly more in the gantry chair.</em> </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Select <strong>Measure</strong>. (<strong><a href="../../../images/meg/HPI_measure.jpg">Useful Snip</a></strong> from <strong><a href="https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21922667">Guidelines to MEG Data Acquisition</a></strong><br /> 
+<strong><em><span style="color:blue">If there are issues, as a first fix try raising participant slightly more in the gantry chair - pump the chair up once.</span></em></strong> </li>
 </ul>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
