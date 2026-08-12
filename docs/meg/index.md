@@ -64,6 +64,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 		- [Restart Acquisition](acquisition/restart_acquisition.md)
 		- [Metal items Checklist](pdfs/Metal_items_checklist.pdf)
 		- [Atypical MEG Signals](acquisition/atypical_meg_signals.md)
+		- [cHPI coil set change dates](acquisition/coilchange.md)
 	- [Moving the Gantry](acquisition/moving-the-gantry.md)
 	- [Participant Positioning](acquisition/participant_positioning.md)
 	- [Correct Positioning & Usage of EEG Caps](acquisition/position_usage_eeg_caps.md)
