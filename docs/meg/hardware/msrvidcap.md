@@ -12,9 +12,9 @@ A decent video player may need to be installed. A good one to try is **VideoLAN 
 !!! Note
 	**<span style="font-size:medium">Due to the discontinuation of Adobe Flash, StarTech now recommend using an alternative free video capture software called [OBS Studio](https://obsproject.com/)</span>**
 
-**[OBS Capture Device Guide](../../meg/pdfs/OBS_Capture_Device_Guide.pdf)** <br />
-**[OBS Studio Quick Start Guide](../../meg/pdfs/OBS_Studio_QSG.pdf)** <br />
-**[OBS Studio Overview](../../meg/pdfs/OBS_Studio_Overview.pdf)**
+**[OBS Capture Device Guide](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22080968)** <br />
+**[OBS Studio Quick Start Guide](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22080967)** <br />
+**[OBS Studio Overview](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22080966)**
 
 **[OBS Knowledge Base](https://obsproject.com/kb/)** **(URL)**
 

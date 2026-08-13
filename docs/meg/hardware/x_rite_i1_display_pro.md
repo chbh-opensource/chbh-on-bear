@@ -6,7 +6,7 @@
 
 !!! Note
 	The **calibration information is now included as part of** the ...<br />
-	**[Application Guide for VPixx Products]** <!--- (../../meg/pdfs/ApplicationGuide_for_VPixx_Products.pdf) ---!> *(SharePoint link to be added)*<br />
+	**[Application Guide for VPixx Products](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22080949)**<br />
 	... and the **relevant section has been printed and is kept** with the **i1Display Pro device** in its **storage box in the MEG Side Room**.
 
 !!! Info

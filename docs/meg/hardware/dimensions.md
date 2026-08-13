@@ -1,6 +1,6 @@
 # MSR Dimensions
 
-Dimensions of our **[Vacoshield](../../meg/pdfs/Vacoshield_3_x_4.pdf)** ADVANCED room
+Dimensions of our **[Vacoshield](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22080938)** ADVANCED room
 
 | 			     |  Length  |  Width  |  Height  | 
 | -------------  |  ------- |  ------ |  ------- |
@@ -14,6 +14,6 @@ Dimensions of our **[Vacoshield](../../meg/pdfs/Vacoshield_3_x_4.pdf)** ADVANCED
 
 **VAC** 
 
-- **[Mastering Magnetic Shielding](../../meg/pdfs/Mastering_Magnetic_Shielding.pdf)** <br />
-- **[Brochure](../../meg/pdfs/Abschirmkabinen2019-14082019.pdf)**
+- **[Mastering Magnetic Shielding](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22080936)** <br />
+- **[Brochure](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22080935)**
 

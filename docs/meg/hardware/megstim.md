@@ -11,7 +11,7 @@ The following **StarTech KVM** (**[SV431DVIUAHR](https://www.startech.com/en-gb/
 	- <span style="font-size:large"> ***Row 1:*** 8 GB PC4-21300 DDR4 SDRAM - Crucial Technology CT8G4DFS8266.M8FD</span>
 	- <span style="font-size:large"> ***Row 3:*** 8 GB PC4-21300 DDR4 SDRAM - Crucial Technology CT8G4DFS8266.M8FD</span>
 - <span style="font-size:large">**Graphics:** AMD Radeon Pro WX 7100, 8 GB GDDR5 SDRAM, Driver: 26.20.13032.13 (26/11/2019) (Polaris 10/Ellesmere GL XT)</span>
-- <span style="font-size:large">**Monitor:** 24" **[LG 24GM77-B](../../meg/pdfs/24GM77_ENG_OM_Stim_monitor.pdf)** (2014)</span>
+- <span style="font-size:large">**Monitor:** 24" **[LG 24GM77-B](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22058016)** (2014)</span>
 	- <span style="font-size:large"> **Backlight:** W-LED </span>
 	- <span style="font-size:large"> **Panel Type:** TN </span>
 	- <span style="font-size:large"> **Panel bit depth:** 8-bits (6-bits + FRC - *Frame Rate Control*)</span>

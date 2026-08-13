@@ -15,15 +15,15 @@ The caps use the 10/20 system of electrode placement.</span>**
 - **1 x 60cm**
 	- *s/n: BC-MEG00178*
 
-**[64Ch BrainCap-MEG for Triux - Electrode Layout/Channel Assignment](../../meg/pdfs/CHBH_BC-MEG-64-X10.pdf)**
+**[64Ch BrainCap-MEG for Triux - Electrode Layout/Channel Assignment](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22058030)**
 
-**[64Ch BrainCap-MEG for Triux - Table of Coordinates](../../meg/pdfs/CHBH_BC-MEG-64-X10_Coordinates.pdf)**
+**[64Ch BrainCap-MEG for Triux - Table of Coordinates](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22058029)**
 
 ## Digitisation
 
-To **digitise the 64 electrodes**, follow the **[Instructions for Digitisation]** <!--- (../../meg/pdfs/MEGIN_64Channel_EEG_Instructions_for_Digitisation.pdf) ---!> *(SharePoint link to be added)* copied from MEGIN's **[EEG Cap User's Manual]** <!--- (../../meg/pdfs/NM24405A-B_Triux_EEG_Cap.pdf) ---!> *(SharePoint link to be added)*<br />
+To **digitise the 64 electrodes**, follow the **[Instructions for Digitisation](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22058463)** copied from MEGIN's **[EEG Cap User's Manual](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22058469)**<br />
 **The EASYCAP layout closely follows** the MEGIN caps, **<span style="color:blue">but there are some differences in electrode usage (EASYCAPs have T9 & T10, but no PO5 & PO6) , and when certain electrodes are digitised, and be wary of the extra EOG electrodes built into the EASYCAPs</span>** <br />
-- ***See the 64 BrainCap-MEG electrode layout above.***
+- ***See the 64 BrainCap-MEG Electrode Layout above.***
 
 !!! Note "**<span style="color:red">NOTE: </span>** One additional important difference between the two systems: the channel numbering (*channel index mapping*) is not the same.<br />For example, <span style="color:blue">channel Fpz</span> ...<br /> - Is registered as <span style="color:blue">EEG020 for the MEGIN caps</span>, whereas it is ...<br />- <span style="color:blue">EEG002 for the EASYCAP</span>.<br />(*The data is recorded as EEG001, EEG002, etc., rather than as Fp1, Fp2, and so on*)." 
 
@@ -45,8 +45,8 @@ EEG EasyCap 64:0:1:2:3:4:5:6:7:8:9:10:11:12:13:14:15:16:17:19:20:21:22:18:23:24:
 
 #### **<span style="color:maroon">Spare Electrodes for EASYCAPs</span>**
 
-!!! Note "<span style="color:red">NOTE</span>"
-	- **CHBH MEG has the <span style="color:blue">64-channel EEG configuration</span>.<br /> James' procedure below WILL NOT WORK with our EASYCAPs.**
+!!! Warning "<span style="color:red">PLEASE READ</span>"
+	- **CHBH MEG has the <span style="color:blue">64-channel EEG configuration</span>.<br /> James' procedure below <span style="color:red">WILL NOT WORK</span> with our EASYCAPs (unless we update to 128 channels).**
 	- **Note electrode/s as 'BAD' and uncheck/ignore when digitising.**
 	- **Or use a replacement cap of the same size (*if available*).**
 
@@ -56,7 +56,7 @@ Having spare caps of different sizes is ideal, but the caps are expensive. If an
 <br /><br /><br />
 
 - Spare electrodes are available (***[Multitrode MEG Electrodes, 150cm, TP connector](https://shop.easycap.de/products/multitrodemeg)***) that can be used with the provided 32-channel EEG breakout box and support arm, which is attached to the gantry side arm (on the same side as the side panel).
-- **[Multitrode Information Sheet](../../meg/pdfs/1203_Multitrode.pdf)**
+- **[Multitrode Information Sheet](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22058350)**
 
 <br /><be /><br /><br /><br />
 
@@ -91,11 +91,11 @@ However, if you know that you will want to switch more often, it is then easier 
 
 To **help in digitisation, three pages have been copied from MEGIN's EEG Cap User's manual above** ...
 
-- **[Electrode Locations and Channel Numbers](../../meg/pdfs/MEGIN_64Channel_EEG_Locations_and_Channel_Numbers.pdf)**
+- **[Electrode Locations and Channel Numbers](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22058417)**
 
-- **[Electrode layout (original)](../../meg/pdfs/MEGIN_64Channel_EEG_Layout_original.pdf)** - **Figure A.2**
+- **[Electrode layout (original)](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22058416)** - **Figure A.2**
 
-- **[Electrode layout (new numbering)](../../meg/pdfs/MEGIN_64Channel_EEG_Layout_new.pdf)** - ***<span style="color:maroon">Many thanks to Malgorzata "Gosia" Wislowska.</span>***
+- **[Electrode layout (new numbering)](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22058418)** - ***<span style="color:maroon">Many thanks to Malgorzata "Gosia" Wislowska.</span>***
 
 **She says ...**
 

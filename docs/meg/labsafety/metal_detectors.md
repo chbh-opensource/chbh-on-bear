@@ -15,11 +15,11 @@ To help in checking this, two versions of metal detector are available to screen
 
 ### **<span style="color:blue">Garret SuperWand</span>**
 
-- **[User Manual](../../meg/pdfs/Garrett_Superwand_Manual.pdf)**
-- **[Specification](../../meg/pdfs/Garrett_Superwand_Specification.pdf)**
+- **[User Manual](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079850)**
+- **[Specification](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079849)**
 
 ### **<span style="color:blue">Wardray MR103</span>**
 
-- **[User Manual](../../meg/pdfs/Wardray_MR103_Manual.pdf)**
-- **[Specification](../../meg/pdfs/Wardray_MR103_Specification.pdf)**
+- **[User Manual](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079851)**
+- **[Specification](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079852)**
 

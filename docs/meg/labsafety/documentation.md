@@ -2,52 +2,52 @@
 
 **<span style="font-size:x-large;color:maroon">Manuals</span>**
 
-#### **[Technical Manual May 2017]** <!--- (../../meg/pdfs/NM24132A-B_Triux_TM.pdf) ---!> *(SharePoint link to be addded)*
+#### **[Technical Manual May 2017](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079858)**
 
-#### **[Internal Helium Recycler June 2015]** <!--- (../../meg/pdfs/NM25233A_TRIUX_Internal_Helium_Recycler.pdf) ---!> *(SharePoint link to be addded)*
+#### **[Internal Helium Recycler June 2015](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079866)**
 
-#### **[Safety Instructions June 2015]** <!--- (../../meg/pdfs/NM25218A_Triux_Safety.pdf) ---!> *(SharePoint link to be addded)*
+#### **[Safety Instructions June 2015](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079891)**
 
-#### **[Patient Positioning April 2017]** <!--- (../../meg/pdfs/NM25757A_TRIUX_Patient_Positioning_IFU.pdf) ---!> (*Instructions for Use*) *(SharePoint link to be addded)*
+#### **[Patient Positioning April 2017](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079903) (*Instructions for Use*)**
 
-#### **[Stimulus System User's Manual September 2011]** <!--- (../../meg/pdfs/NM21789A-A_StimSystem.pdf) ---!> *(SharePoint link to be addded)*
+#### **[Stimulus System User's Manual September 2011](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21922672)**
 
-#### **[MSR Door Air Compressor (JUN-AIR 12-25)](../../meg/pdfs/Jun-Air_12_25_Operating_Manual.pdf)**
+#### **[MSR Door Air Compressor (JUN-AIR 12-25)](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079913)**
 
-#### **[Oxygen Level Monitor (TOC-625-630)](../../meg/pdfs/T625_MANUAL_V6_optimised.pdf)** (*Oxygen Depletion Alarm*)
+#### **[Oxygen Level Monitor (TOC-625-630)](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21926106)** (*Oxygen Depletion Alarm*)
 
-#### **[Eaton 9130 UPS User Guide](../../meg/pdfs/Eaton_9130_UPS_User_Guide.pdf)**
+#### **[Eaton 9130 UPS User Guide](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079920)**
 
 - **UPS20 - 3 x Double Mains Sockets (Control Room G20)**
 - **UPS21 - Electronics & CC Cabinet**
 
-#### **[Eaton EX 1500 UPS User Guide](../../meg/pdfs/Eaton_EX_1500_Installation_User_Manual_-_IHR_UPS.pdf)** (*IHR Cabinet*)
+#### **[Eaton EX 1500 UPS User Guide](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079919)** (*IHR Cabinet*)
 
-#### **[APC Back-UPS CS 650 User Manual](../../meg/pdfs/APC_Back-UPS_CS-650.pdf)** (*MSR Lighting*)
+#### **[APC Back-UPS CS 650 User Manual](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079921)** (*MSR Lighting*)
 
-#### **[APC Back-UPS BX1400UI User Guide](../../meg/pdfs/APC_Back-UPS_BX1400UI_UG.pdf)** (*MEG Stimulus Equipment etc*)
+#### **[APC Back-UPS BX1400UI User Guide](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079922)** (*MEG Stimulus Equipment etc*)
 
-#### **[EyeLink Data Viewer User's Manual v3.1.97]** <!--- (../../meg/pdfs/DataViewer_3.1.97.pdf) ---!> *(SharePoint link to be addded)*
+#### **[EyeLink Data Viewer User's Manual v3.1.97](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079931)** 
 
-#### **[EyeLink Programmer's Guide v3.0]** <!--- (../../meg/pdfs/EyeLink_Programmers_Guide.pdf) ---!> *(SharePoint link to be addded)*
+#### **[EyeLink Programmer's Guide v3.0](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079933)**
 
-#### **[SR Research Experiment Builder User Manual v2.2.1]** <!--- (../../meg/pdfs/ExperimentBuilder_2_2_1.pdf) ---!> *(SharePoint link to be addded)*
+#### **[SR Research Experiment Builder User Manual v2.2.1](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079937)**
 
 
 **<span style="font-size:x-large;color:maroon">Documents</span>**
 
-#### **[MEG Operator Checklist v4-0c]** <!--- (../../meg/pdfs/meg_operator_checklist_v4-0c.pdf) ---!> *(SharePoint link to be addded)*
+#### **[MEG Operator Checklist v4-0c](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21922963)**
 
-#### **[MEG Measurement Log v1_2c]** <!--- (../../meg/pdfs/meg_measurement_log_information_v1_2c.pdf) ---!> *(SharePoint link to be addded)*
+#### **[MEG Measurement Log v1_2c](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079840)**
 
-#### **[Handling Compressed Gas Cylinders & Regulators](../../meg/pdfs/handling_compressed_gas_cylinders_and_regulators.pdf)**
+#### **[Handling Compressed Gas Cylinders & Regulators](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079940)**
 
 
 **<span style="font-size:x-large;color:maroon">COSHH</span>**
 
-#### **[MEG MSR Air Compressor (Jun-Air 12-25)]** <!--- (../../meg/pdfs/junair_12-25_air_compressor.pdf) ---!> *(SharePoint link to be addded)*
+#### **[MEG MSR Air Compressor (Jun-Air 12-25)](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079952)**
 
-#### **[Isopropyl Alcohol 70%]** <!--- (../../meg/pdfs/lescoshh-formv2_meg_isopropyl_alcohol.pdf) ---!> *(SharePoint link to be addded)*
+#### **[Isopropyl Alcohol 70%](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079954)**
 
-#### **[Perfektan TB Disinfectant]** <!--- (../../meg/pdfs/Perfektan_TB.pdf) ---!> *(SharePoint link to be addded)*
+#### **[Perfektan TB Disinfectant](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079957)** 
 

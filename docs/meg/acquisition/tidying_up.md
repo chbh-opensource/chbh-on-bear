@@ -17,7 +17,7 @@
 	 - **HPI coils cleaned**.
 	 - **Polhemus cabling left tidy, L2V FO cabling/NAtA Response Box FO cabling/EyeLink cabling, left tidy in MSR**.
 	 - **Log out of the DACQ Console, switch off the DACQ Console monitor once login screen appears**.
-	 - **Fill out a Maintenance Log report for your session** (*one report for each session, if you have consecutive sessions*).
+	 - **Fill out a [Maintenance Log](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079840) report for your session** (*one report for each session, if you have consecutive sessions*).
 	 - **Move the gantry to 25**, if you're **the last Operator of the day/End of Day**, *or more than ~1hr between daily booked slots (check Calpendo)*.
 
 **<span style="font-size:medium;color:green">Remember to check Calpendo to see if another Operator has booked the next session after yours;<br />in that case, you may be able to leave some equipment powered up.</span>**
@@ -149,7 +149,7 @@
 
 !!! Note "**<span style="color:maroon">Don’t shutdown the Console! Only logout and then switch the monitor off.</span>**"
 
-- [ ] **Fill out a [Maintenance Log] <!--- (../../meg/pdfs/meg_measurement_log_information_v1_2c.pdf) ---!> *(SharePoint link to be added)* report for your session (one report for each session, if you have consecutive sessions).**
+- [ ] **Fill out a [Maintenance Log](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079840) report for your session (one report for each session, if you have consecutive sessions).**
 - [ ] **<span style="color:#FF5733">If end of day</span>**, **open MSR door for one last sanity check** that **gantry traffic light is <span style="color:green">FLASHING GREEN</span>**.
 	 - *If not, de-metal and adjust gantry up/down buttons as necessary.*
 - [ ] **<span style="color:#FF5733">If end of day</span>**, **Switch off Control Room light**.

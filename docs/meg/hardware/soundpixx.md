@@ -1,6 +1,6 @@
 # VPixx SOUNDPixx
 
-**[MEG Audio Connections](../../meg/pdfs/MEG_Audio_Connections.pdf)**
+**[MEG Audio Connections](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079992)**
 
 **[SOUNDPixx UserManual v3.1](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21922644)**
 
