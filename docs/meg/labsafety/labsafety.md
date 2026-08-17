@@ -36,19 +36,34 @@ The **IHR tank room and MSR (*and Control Room by association*) are protected by
 ### **<span style="color:maroon">First Aid help:</span>**
 
 * **Notices for CHBH First Aiders** can be found at **each floor teapoint** (by the central atrium staircase), the **ground floor kitchen (G29)**, and in the **MRI and MEG Suites**.
-	* **If in doubt, contact Security** (once phoned they can be on-site within a matter of minutes):
-		* Security:
-			* **Emergency: 0121 414 4444**
-			* Non-emergency: 0121 414 3000
-* **First Aid Kits can be found** at:
+	* All CHBH first aiders listed below can be reached on **0121 414 7210 (47210 from an internal phone)**, and their office locations are:
+		* Nina Salman – G12
+		* Emma Turner – G30
+		* Dagmar Fraser – G11
+		* Alicia Rybicki - 119
+		* Davinia Fernandez-Espejo – 205
+		* Charmaine Diep – G26/224
+
+**Calls to 0121 414 7210 (47210 from an internal phone), will be automatically diverted to Security after eight rings.**
+
+* **<span style="color:red">If in doubt, contact Security**</span><span style="color:red"> (once phoned they can be on-site within a matter of minutes):</span>
+	* <span style="color:red">Security:
+		* **Emergency: 0121 414 4444**
+		* Non-emergency: 0121 414 3000</span>
+
+* **<span style="color:maroon">First Aid Kits</span> can be found** at:
 	* **Each floor teapoint** (by the central atrium staircase)
 	* **Ground floor kitchen (G29)**
-	* **In the MRI and MEG Suites** - **<span style="color:red">NOT MRI SAFE</span>**.
-* **Burns Aid Kit is at ground floor teapoint**.
-* **Defibrillator (AED)**.
+	* **In the MRI and MEG Suites**
+	* **<span style="color:red">If in doubt, contact Security**</span><span style="color:red"> (once phoned they can be on-site within a matter of minutes):</span>
+	* <span style="color:red">Security:
+		* **Emergency: 0121 414 4444**
+		* Non-emergency: 0121 414 3000</span>
+
+* **<span style="color:maroon">Burns Aid Kit</span> is at ground floor teapoint**.
+* **<span style="color:maroon">Defibrillator (AED)</span>**.
 	* **CHBH ground floor adjacent to the lift, in bright orange case**.
-	* Edgbaston Park Hotel - behind the Reception Desk in the Lobby.
-* **Emergency Box, on the CHBH ground floor adjacent to the lift**.
+* **<span style="color:maroon">Emergency Box</span>, on the CHBH ground floor adjacent to the lift**.
 
 **To call an ambulance, telephone "999" or "112" (mobile only) followed by Security on "44444" to let them know one is on the way.**
 
@@ -82,3 +97,23 @@ The **M**EG **E**mergency **E**vacuation **P**lan can be **found on the MEG Cont
 The CHBH **G**eneral **E**mergency **E**vacuation **P**lan can be **found on the MEG Control Room wall**, and is also **on the notice board adjacent to the MRI corridor**. A **PDF copy can be viewed from the link below** ...
 
 **[GEEP](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21930307)**
+
+### **<span style="color:maroon">Report an accident, incident, or near-miss</span>**
+
+**It’s most important to report accidents/incidents and near-accidents/incidents as soon as possible when they happen in the CHBH.**
+
+University Health and Safety Policy requires all accidents, incidents, near-misses be reported as soon as is possible. The reporting of all such events allows the University to risk assess more effectively by identifying areas where controls may need reviewing or to prevent further or more serious accidents occurring.
+
+**<span style="color:maroon">Definitions:</span>**
+
+* **Accident** - Unplanned, uncontrolled event leading to injury or ill health <br />
+* **Incident** - Unplanned, uncontrolled event leading to damage or loss of property, damage to material, equipment or the environment <br />
+* **Near-miss** - Unplanned, uncontrolled event where under different circumstances an accident, incident or both may occur
+
+To alert the CHBH team on an accident or incident, or near-accident or incident that has taken place within CHBH, please inform CHBH H&S Committee in one of the following ways:
+
+* **[Anonymous Reporting Form](https://www.chbh.bham.ac.uk/chbh/resources-chbh/centre-for-human-brain-health-health-and-safety-concern-form)**
+* CHBH H&S Committee Chair: Nina Salman: n.salman[at]bham.ac.uk
+* CHBH Contacts Email: chbh{at]contacts.bham.ac.uk<br />(*Manned by CHBH Operations Admin and Manager*)
+
+If you are aware of something that could cause an accident/incident (accident/incident waiting to happen), please ensure you let us know asap (in any of the above ways) so that we can take steps to avoid the eventuality. 
