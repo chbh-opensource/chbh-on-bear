@@ -106,9 +106,9 @@ University Health and Safety Policy requires all accidents, incidents, near-miss
 
 **<span style="color:maroon">Definitions:</span>**
 
-* **Accident** - Unplanned, uncontrolled event leading to injury or ill health <br />
-* **Incident** - Unplanned, uncontrolled event leading to damage or loss of property, damage to material, equipment or the environment <br />
-* **Near-miss** - Unplanned, uncontrolled event where under different circumstances an accident, incident or both may occur
+* **Accident** - Unplanned, uncontrolled event leading to injury or ill health.<br />
+* **Incident** - Unplanned, uncontrolled event leading to damage or loss of property, damage to material, equipment or the environment.<br />
+* **Near-miss** - Unplanned, uncontrolled event where under different circumstances an accident, incident or both may occur.
 
 To alert the CHBH team on an accident or incident, or near-accident or incident that has taken place within CHBH, please inform CHBH H&S Committee in one of the following ways:
 
