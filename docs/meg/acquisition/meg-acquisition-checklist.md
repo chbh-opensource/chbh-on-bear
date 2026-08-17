@@ -70,7 +70,7 @@
     - See this page for our various consumable items - **[MEG Consumables](meg-consumables.md)**.
 
 - [ ] Check the MSR, yourself, and participant, for any unwanted items that could cause artefacts and remove them.
-	- See this PDF... **[Metal items Checklist](../../meg/pdfs/Metal_items_checklist.pdf)**
+	- See this PDF... **[Metal items Checklist](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22099016)**
 
 - [ ] Check that the participant monitoring camera and microphone are working correctly.
 

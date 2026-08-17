@@ -48,7 +48,7 @@
 
 ### **<span style="color:blue">Consumables, Manuals</span>**
 
-- MEG Operators are informed of the location of the various **[MEG Consumables](../acquisition/meg-consumables.md)** items and **User Manuals/Documentation**
+- MEG Operators are informed of the location of the various **[MEG Consumables](../acquisition/meg-consumables.md)** items and **[User Manuals/Documentation](../labsafety/documentation.md)**
 
 ### **<span style="color:blue">Stimulus Equipment</span>**
 
@@ -74,7 +74,7 @@
 - MEG Operators are reminded to have the participant fill in an **informed consent form** (*including checks for pacemakers, etc*).
 - MEG Operators are shown how to use the Participant Logging Computer.
 - MEG Operators are reminded that they and the participant have to remove all metal: e.g. phones, keys, belts, (metal filled) bras, make-up, earrings and piercings, zippers and metal buttons, preferably no braces/metal fillings/glasses.<br /> Two types of metal detectors are provided, and their usage explained
-- MEG Operators are instructed to run through the **[metal items checklist](../../meg/pdfs/Metal_items_checklist.pdf)** with the participant, to check themselves if they have removed all metal.
+- MEG Operators are instructed to run through the **[metal items checklist](https://canvas.bham.ac.uk/courses/81128/files?search_term=metal&preview=22099016)** with the participant, to check themselves if they have removed all metal.
 - MEG Operators are shown that there are metal-free blue Hospital Scrubs available for the participant to change into (different sizes on labelled Changing Room wardrobe shelves), and where to place used scrubs ready for washing.
 - MEG Operators are instructed to emphasize that a participant can always request to stop, ask questions or communicate, via the intercom, once in the MSR/sitting in the gantry chair.
 
@@ -111,9 +111,9 @@ to copy off acquired data, and are shown **[how to copy off acquired data](../ac
 
 ### **<span style="color:blue">Log book, Lab Safety, and reporting of incidents/problems</span>**
 
-- MEG Operators are instructed to fill in the **[Measurement Log](../../meg/pdfs/meg_measurement_log_information_v1_2c.pdf)** after MEG Lab usage of ~15min or more. This is now mandatory as part of the MEG **OPLR** Fault Reporting Procedure.
+- MEG Operators are instructed to fill in the **[Measurement Log](https://canvas.bham.ac.uk/courses/81128/files?search_term=log&preview=22079840)** after MEG Lab usage of ~15min or more. This is now mandatory as part of the MEG **OPLR** Fault Reporting Procedure.
 - MEG Operators are informed of the location of the two Oxygen Depletion Alarm sensors, and what to do if they sound.
 - MEG Operators are shown the location of support telephone contact numbers, the Lab First Aid box, the location of the CHBH Defibrillation Kit and the CHBH Emergency Box, the location of the nearest Fire Alarm Call Point and Fire Exit, 
-and, as necessary, to follow the Emergency Procedures as laid out in the MEG **OPLR** and also the CHBH **G**eneral **E**mergency **E**vaction **P**lan (**[GEEP]** <!--- (../../meg/pdfs/GEEP.pdf) ---!> *(SharePoint link to be added)*).
-- MEG Operators are informed of the **M**EG **E**mergency **E**vacuation **P**lan (**[MEEP]** <!--- (../../meg/pdfs/MEEP.pdf) ---!> *(SharePoint link to be added)*) and the procedures are gone through.
+and, as necessary, to follow the Emergency Procedures as laid out in the MEG **OPLR** and also the CHBH **G**eneral **E**mergency **E**vaction **P**lan (**[GEEP](https://canvas.bham.ac.uk/courses/81128/files?search_term=GEEP&preview=21930307)**).
+- MEG Operators are informed of the **M**EG **E**mergency **E**vacuation **P**lan (**[MEEP](https://canvas.bham.ac.uk/courses/81128/files?search_term=MEEP&preview=21930308)**) and the procedures are gone through.
 - MEG Operators are instructed to contact the MEG Support Officer by 'phone or email, of any MEG-related issues or problems.

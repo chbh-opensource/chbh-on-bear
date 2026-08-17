@@ -12,6 +12,12 @@
 
 #### **[Stimulus System User's Manual September 2011](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21922672)**
 
+#### **[Data Plotting User's Guide v4.8 October 2008](https://canvas.bham.ac.uk/courses/81128/files?search_term=NM102&preview=22098976)**
+
+#### **[Graph User's Guide v2.94 October 2008](https://canvas.bham.ac.uk/courses/81128/files?search_term=NM102&preview=22098975)**
+
+#### **[Graph Reference Manual v2.94 October 2008](https://canvas.bham.ac.uk/courses/81128/files?search_term=nm102&preview=22098977)**
+
 #### **[MSR Door Air Compressor (JUN-AIR 12-25)](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079913)**
 
 #### **[Oxygen Level Monitor (TOC-625-630)](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21926106)** (*Oxygen Depletion Alarm*)
@@ -33,8 +39,12 @@
 
 #### **[SR Research Experiment Builder User Manual v2.2.1](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079937)**
 
+#### **[LabJack U3 User’s Guide (-LV & -HV)](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22098407)**
+
 
 **<span style="font-size:x-large;color:maroon">Documents</span>**
+
+#### **[Key Safe Instructions](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22098393)**
 
 #### **[MEG Operator Checklist v4-0c](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21922963)**
 

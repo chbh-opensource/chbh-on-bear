@@ -23,8 +23,8 @@
 
 **PDFs instructions for emergency opening the MSR door from both Outside and Inside can be found below...**
 
-**[OUTSIDE emergency door opening instructions](../../meg/pdfs/MSRDoorEmergencyOutside.pdf)** <br />
-**[INSIDE emergency door opening instructions](../../meg/pdfs/MSRDoorEmergencyInside.pdf)**
+**[OUTSIDE emergency door opening instructions](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22099015)** <br />
+**[INSIDE emergency door opening instructions](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22099014)**
 
 
 !!! info "Principles of MSR Door Operation"

@@ -1,6 +1,12 @@
 # MaxFilter Fine-Calibration Files
 
-If using MaxFilter for any analysis ...
+**[MaxFilter v2.2 User's Guide (*December 2012*)](https://canvas.bham.ac.uk/courses/81128/files?search_term=Filter&preview=21941764)**
+
+**[MaxFilter v2.2 - Addendum](https://canvas.bham.ac.uk/courses/81128/files?search_term=Max&preview=21941773)**
+
+**[MaxFilter Guidelines](https://canvas.bham.ac.uk/courses/81128/files?search_term=max&preview=21941775)** (*with many thanks to Prof. Veikko Jousmaki, Aalto University, Finland*)
+
+**If using MaxFilter for any analysis ...**
 
 **<span style="color:maroon">(Right-click link, "Save link as...").</span>**
 
@@ -52,4 +58,4 @@ symlink "/projects/meg-data/rds/neuro/databases/ctc/ct_sparse.fif" -> "ct_sparse
 Thus, the 60-degrees calibration can be applied to all recordings in seated position, whenever they have been performed."</span>*<br />
 - **24th November 2021:** *Jukka Nenonen, Method Development Manager*.
 
-**[NM24764U Product bulletin (fine-calibration)]** <!---(../../meg/pdfs/NM24764U_Product_bulletin.pdf) ---!> *(SharePoint link to be added)*
+**[NM24764U Product bulletin (fine-calibration)](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22098910)**
