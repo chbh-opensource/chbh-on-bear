@@ -5799,8 +5799,8 @@
 <h2 id="making-a-github-account">Making a Github account</h2>
 <p>You will also need to have a GitHub account to be able to make a change request. Make an account on <a href="https://github.com/">GitHub</a></p>
 <p>After making an account configure your git to use that account within your terminal.</p>
-<div class="language-shell highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>$<span class="w"> </span>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.email<span class="w"> </span><span class="s2">&quot;Add GitHub Email address here within quotes&quot;</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>$<span class="w"> </span>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.name<span class="w"> </span><span class="s2">&quot;Add GitHub Username here within quotes&quot;</span>
+<div class="language-shell highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>$<span class="w"> </span>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.email<span class="w"> </span><span class="s2">"Add GitHub Email address here within quotes"</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>$<span class="w"> </span>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.name<span class="w"> </span><span class="s2">"Add GitHub Username here within quotes"</span>
 </span></code></pre></div>
 <p>You may also need to generate a personal access token :</p>
 <ul>
@@ -5844,7 +5844,7 @@
 </span></code></pre></div>
 <p>Once you've made all the changes you would like to make, you can then save all these changes to your git branch. As good practice these changes should be similar in nature such as "Correcting spelling errors". </p>
 <p>Saving your changes to your branch :</p>
-<p><div class="language-shell highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>$<span class="w"> </span>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Correcting spelling errors&quot;</span>
+<p><div class="language-shell highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>$<span class="w"> </span>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Correcting spelling errors"</span>
 </span></code></pre></div>
 This will save all your changes with the messsage "Correcting spelling error". This will be visable publically later and be used to explain your changes to others. </p>
 <h2 id="working-with-github">Working with GitHub</h2>
@@ -5852,13 +5852,13 @@ This will save all your changes with the messsage "Correcting spelling error". T
 <p>To put our changes on GitHub for the project so everyone can see. We must first make a public branch similar to how we created our local branch before. You will be prompted to enter your username for GitHub, use the username we set up before. It will then ask for a password, do not use your GitHub password, use your git token we generated before (Note when you type or copy this token in, it will not be shown in the terminal but it is registering inputs. This can be odd for users unfamiliar.). </p>
 <p>Creating GitHub branch : </p>
 <div class="language-shell highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>$<span class="w"> </span>git<span class="w"> </span>push<span class="w"> </span>--set-upstream<span class="w"> </span>origin<span class="w"> </span>tommy_changes
-</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>Username<span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="s1">&#39;https://github.com&#39;</span>:<span class="w"> </span>TommyTeapot
-</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>Password<span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="s1">&#39;https://github.com&#39;</span>:<span class="w"> </span><span class="o">{</span>Your<span class="w"> </span>token<span class="w"> </span>here<span class="o">}</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>Username<span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="s1">'https://github.com'</span>:<span class="w"> </span>TommyTeapot
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>Password<span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="s1">'https://github.com'</span>:<span class="w"> </span><span class="o">{</span>Your<span class="w"> </span>token<span class="w"> </span>here<span class="o">}</span>
 </span></code></pre></div>
 <p>To then push those changes to this new branch use : </p>
 <div class="language-shell highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>$<span class="w"> </span>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>tommy_changes
-</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>Username<span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="s1">&#39;https://github.com&#39;</span>:<span class="w"> </span>TommyTeapot
-</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>Password<span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="s1">&#39;https://github.com&#39;</span>:<span class="w"> </span><span class="o">{</span>Your<span class="w"> </span>token<span class="w"> </span>here<span class="o">}</span>
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>Username<span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="s1">'https://github.com'</span>:<span class="w"> </span>TommyTeapot
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>Password<span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="s1">'https://github.com'</span>:<span class="w"> </span><span class="o">{</span>Your<span class="w"> </span>token<span class="w"> </span>here<span class="o">}</span>
 </span></code></pre></div>
 <p>This will then push these changes to the public branch that is viewable for everyone. If you wish to push another commit you can skip the creating a branch section.</p>
 <h3 id="making-a-request-for-your-contribution">Making a request for your contribution</h3>

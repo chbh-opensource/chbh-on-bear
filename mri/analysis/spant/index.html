@@ -5572,11 +5572,11 @@
 </ul>
 <h3 id="installing-spant-for-the-first-time">Installing spant for the first time</h3>
 <p>Type the following in the Console (lower left panel) to install the latest stable version of spant:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>install.packages(&quot;spant&quot;, dependencies = TRUE)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>install.packages("spant", dependencies = TRUE)
 </span></code></pre></div>
 <p>Or the development version from GitHub (requires the devtools package):</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>install.packages(&quot;remotes&quot;)
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>remotes::install_github(&quot;martin3141/spant&quot;, ref = &quot;devel&quot;, dependencies = TRUE)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>install.packages("remotes")
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>remotes::install_github("martin3141/spant", ref = "devel", dependencies = TRUE)
 </span></code></pre></div>
 <p>Note, installing for the first time will require compilation of various packages and will take some time.</p>
 <p>The following commands should also be run to install the requried dependencies for voxel tissue segmentation:</p>
@@ -5591,7 +5591,7 @@
 </span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>module load R-bundle-CRAN/2025.06-foss-2024a
 </span></code></pre></div>
 <p>The following command bash command should be run once to reduce the chances of write errors:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>echo &quot;TMPDIR=/scratch/$USER&quot; &gt;&gt; $HOME/.Renviron
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>echo "TMPDIR=/scratch/$USER" &gt;&gt; $HOME/.Renviron
 </span></code></pre></div>
 
 

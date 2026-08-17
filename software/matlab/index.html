@@ -5574,7 +5574,7 @@
 <p>Some parallelisation is available through <a href="https://www.mathworks.com/help/MATLAB/ref/parfor.html">parfor</a> loops within single MATLAB but users looking for to run many individual MATLAB scripts in parallel are likely to want to use the <a href="https://docs.bear.bham.ac.uk/bluebear/jobs/">Slurm job submissions</a>. Examples of both are included below.</p>
 <h2 id="neuroimaging-toolboxes">Neuroimaging toolboxes</h2>
 <p>Neuroimaging toolboxes can be added to the MATLAB path on BlueBEAR in the normal way. Toolboxes can be downloaded from the developer and stored on an <a href="https://docs.bear.bham.ac.uk/rds/accessing/">RDS</a> space. These folders can be added to the path within a MATLAB session using <code>addpath</code>.</p>
-<div class="language-MATLAB highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">addpath</span><span class="p">(</span><span class="nb">genpath</span><span class="p">(</span><span class="s">&#39;/rds/q/quinna-example-project/code/fieldtrip&#39;</span><span class="p">))</span>
+<div class="language-MATLAB highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">addpath</span><span class="p">(</span><span class="nb">genpath</span><span class="p">(</span><span class="s">'/rds/q/quinna-example-project/code/fieldtrip'</span><span class="p">))</span>
 </span></code></pre></div>
 <p>These pages include some specific examples using popular MATLAB toolboxes:</p>
 <ul>
@@ -5643,7 +5643,7 @@
 </span><span id="__span-3-14"><a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>
 </span><span id="__span-3-15"><a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a><span class="c1"># apply MATLAB script to each index in the array</span>
 </span><span id="__span-3-16"><a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a><span class="c1"># (the MATLAB script is programmed such that the input ID is used as the subject ID)</span>
-</span><span id="__span-3-17"><a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a>MATLAB<span class="w"> </span>-nodisplay<span class="w"> </span>-r<span class="w"> </span><span class="s2">&quot;run /rds/homes/d/dueckerk/startup.m, e1_fun_ICA(</span><span class="si">${</span><span class="nv">SLURM_ARRAY_TASK_ID</span><span class="si">}</span><span class="s2">), quit&quot;</span>
+</span><span id="__span-3-17"><a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a>MATLAB<span class="w"> </span>-nodisplay<span class="w"> </span>-r<span class="w"> </span><span class="s2">"run /rds/homes/d/dueckerk/startup.m, e1_fun_ICA(</span><span class="si">${</span><span class="nv">SLURM_ARRAY_TASK_ID</span><span class="si">}</span><span class="s2">), quit"</span>
 </span></code></pre></div>
 
 
