@@ -117,5 +117,3 @@ To alert the CHBH team on an accident or incident, or near-accident or incident 
 * CHBH Contacts Email: chbh{at]contacts.bham.ac.uk<br />(*Manned by CHBH Operations Admin and Manager*)
 
 If you are aware of something that could cause an accident/incident (accident/incident waiting to happen), please ensure you let us know asap (in any of the above ways) so that we can take steps to avoid the eventuality. 
-
-TEST TEST
