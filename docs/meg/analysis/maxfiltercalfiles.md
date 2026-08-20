@@ -8,8 +8,6 @@
 
 **If using MaxFilter for any analysis ...**
 
-**<span style="color:maroon">(Right-click link, "Save link as...").</span>**
-
 **<span style="color:green">Supine:</span>** **[sss_cal_3140_0_190213.dat](../../meg/files/sss_cal_3140_0_190213.dat)** 
 
 - the default, **before 24th November 2021**, named as **[sss_cal_3140_190213.dat](../../meg/files/sss_cal_3140_190213.dat)**
