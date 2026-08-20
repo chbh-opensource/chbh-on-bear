@@ -5552,20 +5552,22 @@
 <h1 id="stimulus-delivery-triggering">Stimulus Delivery &amp; Triggering</h1>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>The Stim PC (<strong>CHBH-ST-MEG-W02</strong>) has no on-board parallel port. <br /> 
+<p>The Stim PC (<strong><a href="../../hardware/megstim/">CHBH-ST-MEG-W02</a></strong>) has no on-board parallel port. <br /> 
 It is utilising a <strong>PCIe(x1) parallel port card</strong> by <strong>Delock</strong>, with the <strong>Oxford Chipset</strong>. <br /> 
 This particular card (<strong>#89219</strong>) been shown to <strong>work well with Presentation, PsychoPy, Psychtoolbox (MATLAB)</strong></p>
 </div>
 <p>To install, and use, a Delock 89219 PCIe Parallel Port card, see <strong><a href="../delock_pp_card/">Delock Parallel Port Card</a></strong></p>
 <h3 id="parallel-port-connections-to-meg-hardware"><span style="color:blue"><strong>Parallel Port Connections to MEG hardware</strong></span></h3>
-<p>The <strong>CHBH-ST-MEG-W02</strong> parallel port is connected to the MEG acquisition electronics via the 37-pin multipole connector of <strong>Stimulus Trigger Interface #1 (<a href="../../../images/meg/STI101.jpg">STI101</a>)</strong>. No BNC triggers are made from the parallel port.<br />
+<p>The <strong>CHBH-ST-MEG-W02</strong> parallel port is connected to the MEG acquisition electronics via the 37-pin multipole connector of <strong>Stimulus Trigger Interface #1 (<a href="https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22129899">STI101</a>)</strong>. No BNC triggers are made from the parallel port.<br />
 The <strong>8 data lines</strong> of the <strong>parallel port</strong> are connected to <strong>Trigger Inputs 1-8</strong> ("<strong>In 1</strong>", "<strong>In 2</strong>" etc.) of the <strong>STI101</strong>. Trigger line logic in the MEG is explained below.</p>
 <div class="admonition warning">
 <p class="admonition-title">The Stimulus Trigger Interface BNC connectors and the 37-pin multipole connector are <em>internally connected</em> together.<br /> <strong>DO NOT</strong> connector the multipole connector if individual triggers via the BNC connectors are to be used.</p>
 </div>
 <p><strong><span style="font-size:large">CHBH-ST-MEG-W02 Port memory base address: <span style="color:blue">0xCFF8 (LPT1)</span></span></strong></p>
 <h3 id="within-matlab-psychtoolbox-64bit"><span style="color:blue"><strong>Within MATLAB (Psychtoolbox), 64bit</strong></span></h3>
-<p><strong><em><span style="color:maroon">(This has already been done for CHBH-ST-MEG-W02)</span></em></strong></p>
+<div class="admonition warning">
+<p class="admonition-title"><span style="font-size:medium;color:maroon">This has already been done for CHBH-ST-MEG-W02</span></p>
+</div>
 <p>A <strong>C++ extension (mex file)</strong>, created by <strong>Prof. Frank Schieber (Department of Psychology, The University of South Dakota)</strong>, is used to accomplish <strong>very fast port I/O, as a NO COST add-on to MATLAB, using native methods to access low-level hardware</strong>. 
 <br /></p>
 <p><strong>Prof. Schieber has since retired</strong>, and his website is down, but <strong><a href="https://web.archive.org/">web.archive.org</a></strong> has a snapshot of it ...</p>
@@ -5700,7 +5702,7 @@ If not, then <strong><a href="../../files/vcredist_x64.exe">vcredist_x64.exe</a>
 </span><span id="__span-4-62"><a id="__codelineno-4-62" name="__codelineno-4-62" href="#__codelineno-4-62"></a><span class="k">end</span>
 </span><span id="__span-4-63"><a id="__codelineno-4-63" name="__codelineno-4-63" href="#__codelineno-4-63"></a><span class="k">end</span>
 </span></code></pre></div>
-<p><strong><span style="color:blue">With many thanks to Dr. Chris Bailey, Aarhus Univeristy</span></strong></p>
+<p><strong><span style="color:blue">With many thanks to Dr. Chris Bailey, Aarhus University</span></strong></p>
 <h3 id="trigger-logic-in-meg-data"><span style="color:blue"><strong>Trigger logic in MEG data</strong></span></h3>
 <p><strong>By default</strong>, only <strong>one trigger channel is sampled</strong> with the MEG data: <strong>STI101</strong>. <br />
 This channel <strong>contains all possible trigger combinations</strong>, up to a theoretical maximum of over 65000 unique triggers.<br />
@@ -5715,7 +5717,7 @@ When <strong>all trigger lines</strong> are "<strong>down</strong>" (0), <strong
 <p><strong>Following a binary encoding scheme</strong> in which <strong>input 1 is 2<sup>0</sup>, input 2 is 2<sup>1</sup>, input 3 is 2<sup>2</sup></strong> and so on.</p>
 </li>
 </ul>
-<p>The following PDF, <strong>[Triggering_through_the_Parallel_Port]</strong> <!--- (../../meg/pdfs/Triggering_through_the_Parallel_Port.pdf) ---> <em>(SharePoint link to be added)</em>, was <strong>kindly provided by The Aston Neuroimaging Facility, Aston University</strong>.</p>
+<p>The following PDF, <strong><a href="https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22129466">Triggering_through_the_Parallel_Port</a></strong>, was <strong>kindly provided by The Aston Neuroimaging Facility, Aston University</strong>.</p>
 <p>In <strong>summary</strong>, the <strong>height of STI101 indicates the value of the trigger signal sent via the parallel port, with most values being encoded by multiple simultaneous trigger signals</strong>.</p>
 <p><strong>If desired, the individual trigger lines (1-16) can also be activated separately</strong>, in which case <strong>0 is no trigger and any positive value is a trigger</strong>.</p>
 

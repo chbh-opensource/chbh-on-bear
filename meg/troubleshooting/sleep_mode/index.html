@@ -5542,17 +5542,17 @@ This <strong>appears to help in avoiding</strong> a <strong>sleep mode state</st
 <h3 id="problem"><strong><span style="color:maroon">Problem</span></strong></h3>
 <p>Whilst <strong>logged into the console</strong>, but <strong>not running any applications e.g. <em>Acquisition</em></strong>, the screen went into "<strong>sleep mode</strong>" (<em>blank screen, with movable (or stationary) cursor</em>).<br />
 <strong>Moving the mouse/pressing a key (<em>space, ESC, Enter</em>) did nothing</strong>, the <strong>screen remained blank</strong>.</p>
-<p>(<strong><span style="color:maroon">Soulution 1)</span></strong> <strong><em>was suggesed as fix by MEGIN initially. Try that first!</em></strong>)</p>
+<p><strong><em><span style="color:maroon">Soulution 1</span> was suggesed as fix by MEGIN initially. Try that first!</em></strong></p>
 <h3 id="solutions"><strong><span style="color:maroon">Solutions</span></strong></h3>
-<p>1) Press <strong><code>Ctrl-Alt-Backspace</code></strong></p>
+<p><strong>1) <span style="color:blue">Press <code>Ctrl-Alt-Backspace</code></strong></p>
 <ul>
 <li>This restarts the whole Desktop GUI session and will kill all open applications/logout the <strong><em>meguser</em></strong> account. The login GUI screen should then reappear.<ul>
-<li>Any collected data <strong><em>may</em></strong> be recoverable. Try the <strong>procedure on page 44</strong> of the <strong>[Data Acquisition User Manual]</strong> <!--- (../../meg/pdfs/NM23732A-B1-Dacq-6.0-UM_FINAL.pdf) ---> <em>(SharePoint link to be added)</em> (<strong><em>Section 6.4: "Rescuing data after a crash"</em></strong>).</li>
+<li>Any collected data <strong><em>may</em></strong> be recoverable. Try the <strong>procedure on page 44</strong> of the <strong><a href="https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21940766">Data Acquisition User Manual</a></strong> (<strong><em>Section 6.4: "Rescuing data after a crash"</em></strong>).</li>
 </ul>
 </li>
 </ul>
 <p><strong><em><span style="color:green">NOT recommended ideally, but if necessary ...</span></em></strong></p>
-<p>2) Press the <strong>DACQ Power button</strong> <em>lightly!!!</em> <strong><span style="color:red">Pressing <em>too</em> hard will cause a reboot of the Console!!!</span></strong></p>
+<p><strong>2) <span style="color:blue">Press the DACQ Power button <em>lightly!!!</em></span></strong>  <strong><span style="color:red">Pressing <em>too</em> hard will cause a reboot of the Console!!!</span></strong></p>
 <ul>
 <li>A window shows 3 prompts...<ul>
 <li><strong><em>Logout</em></strong></li>
@@ -5566,11 +5566,10 @@ This <strong>appears to help in avoiding</strong> a <strong>sleep mode state</st
 </li>
 </ul>
 <div class="admonition note">
-<p class="admonition-title"><code>Ctrl-Alt-Backspace</code> doesn't always work - DACQ screen remains blank.<br /> If so, then the DACQ/Console will need to be rebooted (may have also occured unintentionally if the Power button was pressed too hard.<br /><code>Ctrl-Alt-Delete</code> should also cause a reboot, or perform Point 2) "Restart Computer" shown above.</p>
+<p class="admonition-title"><code>Ctrl-Alt-Backspace</code> doesn't always work - DACQ screen remains blank.<br /> If so, then the DACQ/Console will need to be rebooted (may have also occured unintentionally if the Power button was pressed too hard.<br /><code>Ctrl-Alt-Delete</code> should also cause a reboot, or perform Point 2) "<em>Restart Computer</em>" shown above (<em>prompt #3</em>).</p>
 </div>
-<p><strong><span style="color:maroon">Procedure</span></strong></p>
+<p><strong>3) <span style="color:blue">Reboot the DACQ/Console.</span></strong></p>
 <ul>
-<li><strong>Reboot the DACQ/Console</strong>.</li>
 <li><strong>Wait</strong> while the Centos OS loads, <strong>allowing any disk checking</strong> to take place.</li>
 <li><strong>Wait</strong> until the system has <strong>rebooted back to the login GUI screen/prompt</strong>. </li>
 <li><strong>Login</strong>, and perform a <strong><a href="../../acquisition/rap/">RAP</a></strong></li>
@@ -5590,7 +5589,7 @@ It might be showing <strong>yellow</strong> or <strong>red</strong>.<br /> If it
 then check to see if the <strong>gantry position is now detected correctly</strong> in <strong>Acquisition</strong> by <strong>left-clicking</strong> on the <strong>Gantry position "Change" button</strong>.<br /> If still not detected correctly, then ...</p>
 <ul>
 <li>Perform a <strong><a href="../../acquisition/restart_acquisition/#resetting-the-electronics">soft boot of the electronics</a></strong>.</li>
-<li>Then perform another <strong><a href="../../acquisition/rap/">RAP</a></strong></li>
+<li>Then perform another <strong><a href="../../acquisition/rap/">RAP</a></strong>, then <strong><a href="../../acquisition/restart_acquisition/#loading-a-tuning-file">load the latest tuning file</a></strong>.</li>
 </ul>
 </li>
 </ul>
