@@ -16,12 +16,13 @@
 
 !!! info "RDS can only be requested by a member of Staff/PI/Supervisor.<br />The Project MUST have <span style="color:blue">BlueBEAR compute services</span> added ("*BlueBEAR Linux HPC*")."
 
+!!! note "Association is first required with a Project, before data can be copied off the Console.<br />Addition of MEG Operator email address to the Project needs to be requested - by the MEG Operator or PI."
+
 A **BlueBEAR Linux Account is needed** to be able to **copy off Acquired data from the Console**. To request a **BlueBEAR Linux Account**, after **Log in** ...
 
 - Select the option **"Research"**, then select **"My BEAR Accounts"** and then **"Activate your BEAR Linux Account (you must be on a suitable project)"**.
 
-!!! info "Association is first required with a Project, before data can be copied off the Console.<br />Addition of MEG Operator email address to the Project needs to be requested - by the MEG Operator or PI."
-
+!!! info "BEAR Linux Account activation can also be requested via other means. See ...<br />[https://www.birmingham.ac.uk/research/arc/contact/bear-linux-account](https://www.birmingham.ac.uk/research/arc/contact/bear-linux-account)"
 
 ## Transferring Acquired data to RDS
 

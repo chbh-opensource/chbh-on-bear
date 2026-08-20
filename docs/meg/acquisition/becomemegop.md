@@ -11,18 +11,27 @@ To **request initial MEG training, please email:** <br />
 
 - **<span style="color:maroon">chbh-help[at]contacts.bham.ac.uk</span>** with the Subject line "**MEG Operator training request**". <br />
 
-!!! Note "<span style="font-size:medium">CHBH Building Induction will be required first, before placing the above email.</span>"
+!!! Note "<span style="font-size:medium">CHBH Building Induction/MRI Safety Training/MEG Induction will be required first, before placing the above email. See below ...</span>"
 
-**Anyone new to CHBH**, needing swipe access etc., is **required to complete the *CHBH Canvas Building Induction Training***.<br />
-Head over to **[https://canvas.bham.ac.uk/enroll/4H8YET](https://canvas.bham.ac.uk/enroll/4H8YET)** and select **"CHBH Building Induction Training"**. Enroll using UoB ADF login.
+**Anyone new to CHBH, needing swipe access etc.**, is **required to complete the *<span style="color:blue">CHBH Canvas Building Induction Training</span>*** and ***<span style="color:blue">Basic MRI Safety Training at CHBH</span>***.<br />
 
-After **completing CHBH Building Induction Training**, return to the main Canvas **CHBH Training** page, and select "**MEG**" and open/view the **[MEG Induction](https://canvas.bham.ac.uk/courses/81128/pages/meg-at-chbh-4)** PowerPoint Presentation.</br />
+Head over to **[https://canvas.bham.ac.uk/enroll/4H8YET](https://canvas.bham.ac.uk/enroll/4H8YET)** - **<span style="color:maroon">Enroll using UoB ADF login.</span>**
+
+* Select **"CHBH Building Induction Training"**.
+
+After **completing CHBH Building Induction Training**, return to the main Canvas **CHBH Training** page.
+
+* Select "**MRI**" and **follow from Point 2.** for "**Basic MRI Safety Training at CHBH**"
+
+After **completing Basic MRI Safety Training at CHBH**, return to the main Canvas **CHBH Training** page. 
+
+* Select "**MEG**" and open/view the **[MEG Induction](https://canvas.bham.ac.uk/courses/81128/pages/meg-at-chbh-4)** PowerPoint Presentation.</br />
 **<span style="color:maroon">The presented information will be gone over again during MEG Training.</span>**
 
 
-!!! Note "<span style="font-size:medium">If any issues are encountered with the above, please email <span style="color:blue">chbh[at]contacts.bham.ac.uk</span></span>"
+!!! Note "<span style="font-size:medium">If any issues are encountered with any of the above, please email <span style="color:blue">chbh[at]contacts.bham.ac.uk</span></span>"
 
-**Once Induction training is complete**, a MEG Operator training session will be arranged (as requested above), ideally for a small group of 2-3 trainees at a time. <br />
+**Once Building Induction training/MRI Safety Training/MEG Induction is complete**, a MEG Operator training session will be arranged (as requested above), ideally for a small group of 2-3 trainees at a time. <br />
 
 !!! Note "<span style="font-size:medium">Individual training is a possibility, but maximising Acquiring time is paramount so this option may not always be available.</span>"
 

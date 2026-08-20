@@ -37,12 +37,12 @@ The **IHR tank room and MSR (*and Control Room by association*) are protected by
 
 * **Notices for CHBH First Aiders** can be found at **each floor teapoint** (by the central atrium staircase), the **ground floor kitchen (G29)**, and in the **MRI and MEG Suites**.
 	* All CHBH first aiders listed below can be reached on **0121 414 7210 (47210 from an internal phone)**, and their office locations are:
-		* Nina Salman – G12
-		* Emma Turner – G30
-		* Dagmar Fraser – G11
-		* Alicia Rybicki - 119
-		* Davinia Fernandez-Espejo – 205
-		* Charmaine Diep – G26/224
+		* **Nina Salman – G12**
+		* **Emma Turner – G30**
+		* **Dagmar Fraser – G11**
+		* **Alicia Rybicki - 119**
+		* **Davinia Fernandez-Espejo – 205**
+		* **Charmaine Diep – G26/224**
 
 **Calls to 0121 414 7210 (47210 from an internal phone), will be automatically diverted to Security after eight rings.**
 
@@ -106,14 +106,14 @@ University Health and Safety Policy requires all accidents, incidents, near-miss
 
 **<span style="color:maroon">Definitions:</span>**
 
-* **Accident** - Unplanned, uncontrolled event leading to injury or ill health.<br />
-* **Incident** - Unplanned, uncontrolled event leading to damage or loss of property, damage to material, equipment or the environment.<br />
-* **Near-miss** - Unplanned, uncontrolled event where under different circumstances an accident, incident or both may occur.
+* **Accident** - <span style="color:red">Unplanned, uncontrolled event leading to injury or ill health.</span><br />
+* **Incident** - <span style="color:red">Unplanned, uncontrolled event leading to damage or loss of property, damage to material, equipment or the environment.</span><br />
+* **Near-miss** - <span style="color:red">Unplanned, uncontrolled event where under different circumstances an accident, incident or both may occur.</span>
 
-To alert the CHBH team on an accident or incident, or near-accident or incident that has taken place within CHBH, please inform CHBH H&S Committee in one of the following ways:
+**<span style="color:blue">To alert the CHBH team on an accident or incident, or near-accident or incident that has taken place within CHBH, please inform CHBH H&S Committee in one of the following ways:</span>**
 
 * **[Anonymous Reporting Form](https://www.chbh.bham.ac.uk/chbh/resources-chbh/centre-for-human-brain-health-health-and-safety-concern-form)**
-* CHBH H&S Committee Chair: Nina Salman: n.salman[at]bham.ac.uk
-* CHBH Contacts Email: chbh{at]contacts.bham.ac.uk<br />(*Manned by CHBH Operations Admin and Manager*)
+* **CHBH H&S Committee Chair: Nina Salman: n.salman[at]bham.ac.uk**
+* **CHBH Contacts Email: chbh[at]contacts.bham.ac.uk**<br />(*Manned by CHBH Operations Admin and Manager*)
 
-If you are aware of something that could cause an accident/incident (accident/incident waiting to happen), please ensure you let us know asap (in any of the above ways) so that we can take steps to avoid the eventuality. 
+**<span style="color:blue">If you are aware of something that could cause an accident/incident (accident/incident waiting to happen), please ensure you let us know asap (in any of the above ways) so that we can take steps to avoid the eventuality.</span>**
