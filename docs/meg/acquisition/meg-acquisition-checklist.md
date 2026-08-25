@@ -87,11 +87,22 @@
     - Create or adjust stimulus generation, on-line averaging (as necessary).
 
 
+## If using *NATUS* Audio
+
+- [ ] **Attach the grey Lemo plug** into the Side Panel **<span style="color:green">green</span>** socket marked '**Patient**', making sure to **line up the two raised keys (ridge or nub) on the plug with the two key slots/groves in the socket**.<br /> **Gently push the plug home**.
+- [ ] **Arrange the grey cabling on the floor to avoid tripping**, and **disconnect the red and blue tubing at the central white connector**, making sure to **leave the central white connector in place on the tubing connected to the Natus tranducers**.
+- [ ] **Attach the Natus tranducers to the gantry chair** (**<span style="color:red">red</span>** on '**<span style="color:red">r</span>**ight', **<span style="color:blue">blue</span>** on '**<span style="color:blue">l</span>**eft'), using the **provided Velcro** 
+(**add *Micropore* tape, if necessary**, to **avoid transducer movement**), making sure the **red and blue tubing are accessible on either side of the chair**.
+- [ ] **Have both yellow (13mm) and beige (10mm) disposable eartips available on the EEG trolley**, along with the red and blue tubing sections.
+
+
 ## Prepare participant
  
-- [ ] Offer bathroom break.
-- [ ] Explain preparation procedure.
-- [ ] Check head circumference
+- [ ] **Offer** bathroom break.
+- [ ] **Explain** preparation procedure.
+- [ ] If using *Natus* audio, query particpant re: eartip size required. 
+	- Attach relevant eartips to red and blue tubing, via the attached white connector. Leave tubing on EEG trolley.
+- [ ] **Check** head circumference - *tape measure on EEG trolley*.
 
 !!! Note
 	**According to the *ACMEGS Clinical Practice Guideline 1:*** <br />“<span style="color:blue">Because of a fixed head space in the MEG system helmet, it is worthwhile to measure the patient’s head using a replica helmet before a study. 
@@ -102,9 +113,9 @@
 	- [ ] **If the size is > 60 cm, it is recommended to dry fit an EEG cap (if to beused) and test that the participant fits in the helmet, either by moving them into the MEG helmet or checking with the replica helmet.** 
 
 
-- [ ] Explain experiment.
-- [ ] Have participant read and sign ethics consent and screening questionaire.
-- [ ] Have participant remove metal objects, and do **a comprehensive check with both [metal detectors](../../meg/labsafety/metal_detectors.md)**. Participant to change into scrubs if necessary (show participant to Changing Room and show scrubs sizes that are available).
+- [ ] **Explain experiment**.
+- [ ] Have participant **read and sign ethics consent and screening questionaire**.
+- [ ] Have participant **remove metal objects**, and do **a comprehensive check with both [metal detectors](../../meg/labsafety/metal_detectors.md)**. **Participant to change into scrubs if necessary** (show participant to Changing Room and show scrubs sizes that are available).
 
 !!! note "We are trying to reduce our laundry bill so only use scrubs if necessary e.g. metal in clothing."
 
@@ -113,7 +124,7 @@
 
 !!! info "Reusable and disposable electrodes available for use as required."
 
-- [ ] Clean hands with provided Alcohol Gel Sanitiser.
+- [ ] **Clean hands** with provided Alcohol Gel Sanitiser.
 - [ ] Ask participant to sit in **Digitisation Chair**.
 
 When ready **to attach a reusable electrode:**
@@ -363,8 +374,11 @@ The digitisation process is performed using a **[Polhemus FASTRAK system](https:
 
 - [ ] **Before** escorting the participant into the MSR, **secure any relevant cables** to the body (i.e. shoulder) of the participant e.g. the **unused (5th) yellow HPI coil**, using *Micropore* tape.
 - [ ] When the **participant is seated** in the gantry chair, **plug in the EOG, ECG, EMG electrodes** (as required) into the **correct BIO sockets** of the gantry side panel, as determined by your experimental setup.
-- [ ] **Attach the HPI coils** (red plug) into the **red "HPI" socket** of the gantry side panel.
-- [ ] If used, **attach the *Natus* audio plug** into the **green "Patient" socket** of the gantry side panel.
+- [ ] **Attach the HPI coils** (red plug) into the **<span style="color:red">red</span> "HPI" socket** of the gantry side panel, making sure to **line up the two rasied keys (ridge or nub) on the plug with the two key slots/groves in the socket**.<br /> **Gently push the plug home**.
+- **If using *Natus* audio, bring the eartip/tubing sections into the MSR**
+	 - [ ] **Ask participant to insert eartips**, and have the **[laminated instructions](../../images/meg/NATUS_Eartip_usage.png)** available **to show insertion procedure**. **<span style="color:red">Red tubing for right ear</span>**, **<span style="color:blue">blue tubing for left ear</span>**.
+	 - [ ] Once participant has inserted eartips, **connect the tubing to the tranducers**, making sure the **tubing doesn't get caught up or crushed**, causing **loss of audio when experiment starts**.
+		 - [ ] ***If possible, play a test tone confirming participant can hear correctly in both ears***
 - [ ] **Raise participant** into the gantry helmet, using the chair foot pedal, until the top of the head *almost* touches the inside top of the helmet.
 - [ ] **Make participant comfortable** with cushions/pillows and/or by raising the leg rests of the chair.
 - [ ] If using, **setup the EyeLink 1000 Plus Camerahead/Illuminitor** on the small table, placed over the participant's legs. (*See the ****[Eyelink 1000 Plus](meg-acquisition-checklist.md/#if-using-the-eyelink-1000-plus)**** section for more detailed usage*).
