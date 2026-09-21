@@ -122,6 +122,7 @@ nav:
       - Cleaning EEG Caps: meg/acquisition/cleaning_eeg_caps.md
       - Audio Delay Testing: meg/acquisition/audio_delay_testing.md
       - MISC Channels: meg/acquisition/misc_channels.md
+      - Audio/Visual Task: meg/acquisition/audio_visual_task.md
     - Lab Safety/Useful Documents:
       - Security Contact Details: meg/labsafety/securitycontact.md
       - Safety Procedures, ODA Alarm: meg/labsafety/labsafety.md

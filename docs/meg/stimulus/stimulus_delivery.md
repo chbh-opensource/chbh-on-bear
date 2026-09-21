@@ -59,7 +59,7 @@ address = hex2dec('CFF8');    %CHBH-ST-MEG-W02 Stim PC LPT1 output port address
 %create an instance of the io64 object
 ioObj = io64;
 %
-% initialize the interface to the inpoutx64 system driver
+% initialise the interface to the inpoutx64 system driver
 status = io64(ioObj);
 %
 % if status = 0, you are now ready to write and read to a hardware port
@@ -138,13 +138,13 @@ function sendTrigger = initialiseParallelPort()
 
 try
     % ------------------------------------------------------------------------
-    % INITIALIZE PARALLEL PORT
+    % INITIALISE PARALLEL PORT
     % ------------------------------------------------------------------------
     % Aarhus: based on InpOut-library, and C:\Windows\System\inpoutx64.dll
     % Aarhus: io64.mex in stimuser's Documents\MATLAB-folder (in path)
     % create an instance of the io64 object
     ioObj = io64;
-    % initialize the interface to the inpoutx64 system driver
+    % initialise the interface to the inpoutx64 system driver
     status = io64(ioObj);
     % LPT1 memory port address
     % address = hex2dec('DFF8');

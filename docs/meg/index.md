@@ -76,6 +76,10 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- [Audio Delay Testing](acquisition/audio_delay_testing.md)
 	- [MISC Channels](acquisition/misc_channels.md)
 
+    Example Code - mainly MATLAB/PTB
+
+	- [Audio/Visual Task](acquisition/audio_visual_task.md)
+
 	
 -	**Lab Safety/Useful Documents**
 
