@@ -124,6 +124,8 @@ nav:
       - MISC Channels: meg/acquisition/misc_channels.md
       - Audio/Visual Task: meg/acquisition/audio_visual_task.md
       - Presentation Demo: meg/acquisition/presentation_demo.md
+      - EyeLink Demo Code: meg/acquisition/eyelink_demo.md
+      - Parallel Port Initialisation: meg/acquisition/pp_initialisation.md
     - Lab Safety/Useful Documents:
       - Security Contact Details: meg/labsafety/securitycontact.md
       - Safety Procedures, ODA Alarm: meg/labsafety/labsafety.md

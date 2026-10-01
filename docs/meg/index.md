@@ -80,6 +80,8 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 
 	- [Audio/Visual Task](acquisition/audio_visual_task.md)
 	- [*Presentation* Demo](acquisition/presentation_demo.md)
+	- [EyeLink Demo Code](acquisition/eyelink_demo.md)
+	- [Parallel Port Initialisation](acquisition/pp_initialisation.md)
 
 	
 -	**Lab Safety/Useful Documents**
