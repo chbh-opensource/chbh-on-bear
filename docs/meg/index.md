@@ -79,6 +79,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
     Example Code - mainly MATLAB/PTB
 
 	- [Audio/Visual Task](acquisition/audio_visual_task.md)
+	- [*Presentation* Demo](acquisition/presentation_demo.md)
 
 	
 -	**Lab Safety/Useful Documents**
