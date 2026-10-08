@@ -82,6 +82,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
 	- [*Presentation* Demo](acquisition/presentation_demo.md)
 	- [EyeLink Demo Code](acquisition/eyelink_demo.md)
 	- [Parallel Port Initialisation](acquisition/pp_initialisation.md)
+	- [Elekta Response Pads & LabJack U3-LV](acquisition/elekta_respad_LJ.md)
 
 	
 -	**Lab Safety/Useful Documents**

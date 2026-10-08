@@ -126,6 +126,7 @@ nav:
       - Presentation Demo: meg/acquisition/presentation_demo.md
       - EyeLink Demo Code: meg/acquisition/eyelink_demo.md
       - Parallel Port Initialisation: meg/acquisition/pp_initialisation.md
+      - Elekta Response Pads & LabJack U3-LV: meg/acquisition/elekta_respad_LJ.md
     - Lab Safety/Useful Documents:
       - Security Contact Details: meg/labsafety/securitycontact.md
       - Safety Procedures, ODA Alarm: meg/labsafety/labsafety.md

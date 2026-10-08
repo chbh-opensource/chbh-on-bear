@@ -2,7 +2,8 @@
 
 ### **<span style="color:green">Where to make a MEG Booking</span>**
 
-**<span style="color:blue">February 1st 2026</span>. Booking Cost: <span style="color:maroon">£421.76</span> per hour.**
+**<span style="color:blue">February 1st 2026</span>. Booking Cost: <span style="color:maroon">£421.76</span> per hour.**<br />
+(*From February 2027: £455.15 per hour*).
 
 !!! Note "A Calpendo Project Code is required to make Bookings, <br /> - [Project Proposals Process]"
 

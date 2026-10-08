@@ -5,7 +5,8 @@
 A "**Testing Buddy**" is **required for** MEG sessions ***where a participant is present and data collection occurs outside of regular opening hours (7am to 7pm, Monday to Friday)***.
 
 - **Buddies need to be present for experiment set-up**, and remain **"on call" within the building for the entirety of the Acquiring session**.
-- A Buddy **must hold at least "Building General User" status** in the CHBH, or if they **intend to help** with experiments then they **must be** trained up as a **"MEG General User" (Level 2)**, or be a **"Full MEG Operator" (Level 3)**.
+- A Buddy **must hold at least "CHBH General User" status**, or if they **intend to help** with experiments then they must be **initially trained up** as a **"MEG User" (Level 2)**, or be a "Full **MEG Operator" (Level 3)** 
+after **shadowing 3, or more, Acquisition sessions and been signed off by MEG Support**.
 - *A Buddy isn't necessary if just testing equipment/experimenatal software (stimuli/triggers etc)*.
 
 !!! Warning "**<span style="font-size:medium;color:red">No MEG Lab usage, of any kind, is permitted on Sundays!</span>**"
