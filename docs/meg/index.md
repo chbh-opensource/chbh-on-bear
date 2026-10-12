@@ -1,6 +1,6 @@
 # MEG at CHBH
 
-Guides and documentation for MEG analysis and data collection at the CHBH.
+Guides and documentation for MEG analysis and data collection at the CHBH
 
 
 <div class="grid cards" markdown>
@@ -162,6 +162,19 @@ Guides and documentation for MEG analysis and data collection at the CHBH.
     - [MEG Troubleshooting](troubleshooting/troubleshooting.md)
 	
 	- [FAQ](troubleshooting/faq.md)
+	
+	**Holiday Cover (HC)** - *to provide Cover for MEG Support when on AL*
+	
+	- [Procedure to request HC](troubleshooting/procedure_hc.md) - *and what it means for any volunteers*
+	- [Remunerations]
+	- [IHR Key User Information] - *default information for HC voulnteers.*<br />
+	*Includes* ...
+		- [Power Up Equipment]
+		- [Power Down Equipment]<br />
+		
+	***<span style="color:red">Note:</span> Not ALL equipment should be shut down at End-of-Day*** </br />
+	
+	- [Usual problems, Probable Solutions] - *usually, but not limited to, out-of-hours/overnight*
 
 
 </div>
