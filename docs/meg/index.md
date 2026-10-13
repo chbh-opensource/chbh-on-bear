@@ -166,11 +166,11 @@ Guides and documentation for MEG analysis and data collection at the CHBH
 	**Holiday Cover (HC)** - *to provide Cover for MEG Support when on AL*
 	
 	- [Procedure to request HC](troubleshooting/procedure_hc.md) - *and what it means for any volunteers*
-	- [Remunerations]
+	- [Remunerations](troubleshooting/remunerations.md)
 	- [IHR Key User Information] - *default information for HC voulnteers.*<br />
 	*Includes* ...
-		- [Power Up Equipment]
-		- [Power Down Equipment]<br />
+		- [Power Up Equipment](troubleshooting/power_up.md)
+		- [Power Down Equipment](troubleshooting/power_down.md)<br />
 		
 	***<span style="color:red">Note:</span> Not ALL equipment should be shut down at End-of-Day*** </br />
 	

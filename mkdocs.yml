@@ -168,6 +168,9 @@ nav:
         - MSR lighting: meg/troubleshooting/msr_lights.md
     - Hoilday Cover (HC):
         - Procedure to request HC: meg/troubleshooting/procedure_hc.md
+        - Remunerations: meg/troubleshooting/remunerations.md
+        - Power Up Equipment: meg/troubleshooting/power_up.md
+        - Power Down Equipment: meg/troubleshooting/power_down.md
   - Eye-tracking:
     - eye-tracking/index.md
     - Hardware:
