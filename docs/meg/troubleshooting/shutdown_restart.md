@@ -12,10 +12,13 @@ After liasing with MEGIN, the **shutdown/startup procedure was agreed as follows
 <br />
 **<span style="font-size:large;color:blue">To shutdown beforehand, say ~30min before the agreed time...</span>**
 
--  **Power down the Stim PC/s, Participant Logging Computer, EyeLink Host Computer (*as necessary*).<br />
-Turn off the monitors.<br /> Power down the two UPS on the Control Room floor (*make sure they don't restart!*)**.
-	- **Press** and **hold the Power button** for **approximately 0.5 to 1 second**. The unit **should beep, indicating it is turning off. Front panel LED should go out**.
-	- **Switch off** the **Mains** at the wall socket.
+-  **Power down the Stim PC, Participant Logging Computer, EyeLink Host Computer (*as necessary*)**.<br />
+- **Turn off the Monitors**.
+- **Power down the two UPS (2 x APC Back-UPS 1400s) on the Control Room floor (*make sure they don't restart!*)**.
+	- **Press** and **hold the Power button** for **approximately 0.5 to 1 second**. The Unit **should beep, indicating it is turning off**. ***Immediately release the button.***
+		- ***Do not keep holding the button down, if done so the Unit may not register the shutdown command properly.***
+	- **Front panel LED should go out**.
+	- **Switch off** the **Mains supply** at the **wall socket**.
 - ***May be prudent to power off above equipment the day before, to reduce workload on the day.***
 - Set the **Internal Helium Recycler (IHR)** to **Maintenance Mode** using the **Service GUI**.
 - **Close valve BV4** on the pressure regulator panel in the Internal Helium Recycler cabinet.
@@ -67,6 +70,7 @@ Turn off the monitors.<br /> Power down the two UPS on the Control Room floor (*
 	- **2nd - SQC Cards (Switch 2)**.
 	- **3rd - preamps (Switch 3)**.
 - **Run** a **[RAP](../../meg/acquisition/rap.md)** (**R**estart **A**cquisition **P**rograms) on the **DACQ**.
+- **Start Acquisition** and **[load the latest Tuning file](../../meg/acquisition/restart_acquisition.md/#loading-a-tuning-file)**. Check sensors for noise, fix as necessary.
 - **Turn on** the **IHR Mains power** (**<span style="color:red">large red switch</span>** on the wall to the right of the cabinet).
 - **Turn on** the **IHR cabinet** (***press the UPS Power button** for a few seconds*).
 - **Turn on** the **Main Power Switch on the cryocooler compressor**.
@@ -76,7 +80,12 @@ Turn off the monitors.<br /> Power down the two UPS on the Control Room floor (*
 - **Close valve BV13** (***Refill Bypass Valve - on the wall behind the MSR***).
 - **Set** the IHR to **Normal Mode/Cooldown Mode** (as necessary) using the **Service GUI**.
 	- **Check** the **correct LED combination** is **showing on the IHR cabinet door**.
-- **Turn on the two UPS on the Control Room floor; power on Stim PC, Participant Logging Computer, EyeLink Host Computer (as necessary)**.
+- **Turn on the two UPS (2 x APC Back-UPS 1400s) on the Control Room floor**.
+	- **Switch on** the **Mains supply** at the **wall sockets for the two UPSs.**
+	- **Press** and **hold the Power button** for **approximately 0.5 to 1 second**. The Unit **should beep, indicating it is turning on**.
+	- **Front panel **<span style="color:green">green</span>** "On Line" LED should light, confirming the UPS is powered and operating normally**.
+- **Turn on Monitors**.
+- **Power on Stim PC, Participant Logging Computer, and (*if required*) EyeLink Host Computer**.
 - **<span style="font-size:large;color:maroon">Phew, Well done! Have a well-deserved cup of coffee!</span>**
 
 

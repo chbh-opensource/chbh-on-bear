@@ -1,12 +1,12 @@
 # Power Up Equipment
 
 <big>
-**Cold start power up after mains failure / Service Operations / or at Start-of-Day**
+**<span style="color:maroon">Cold start power up after mains failure / Service Operations / or at Start-of-Day</span>**
 </big>
 
 !!! note "<span style="color:red">NOTE:</span> "*The main electronics cabinet has been equipped with a power failure release main switch to ensure proper boot-up sequence of the computers. The following instructions are to be used  after mains power to the main electronics cabinet has been off due to mains failure or because the power to the three isolation transformers in the IHR tank room has been disconnected e.g. for service operations*"."
  
-#### Powering Up the Internal Helium Recycler (IHR) (cabinet T3)
+#### <span style="color:maroon">Powering Up the Internal Helium Recycler (IHR) (cabinet T3)</span>
 
 1. **Make sure** the valves are as per this **[Figure 7.38](../../meg/pdfs/Figure_7-38.pdf)**.
 	- *The valves shouldn't have been changed from their defaults since MEG installation.*
@@ -20,7 +20,7 @@
 8. To continue normal operations, click the **Normal Mode** button on the Service GUI.
 
 <br />
-#### Powering Up the Main Electronics Cabinet (cabinet T2)
+#### <span style="color:maroon">Powering Up the Main Electronics Cabinet (cabinet T2)</span>
 
 !!! note "<span style="color:red">NOTE:</span> The Main Electronics Cabinet (T2) is protected by a UPS (UPS21), situated in the IHR tank room (G24)."
 
@@ -58,60 +58,71 @@ The **[Power Control Panel](../../images/meg/DSP_Electronics.jpg)** of the Main 
 !!! note "<span style=color:red>NOTE:</span> Each time the MEG front end is powered it must be initialized by running a [RAP](../../meg/acquisition/rap.md).<br /> Also the latest tuning file must be loaded, via Tuner.<br /><span style=color:red>**NOTE:**</span> For optimum noise performance, let the Preamplifiers stabilize for approximately 1-2 hours before commencing MEG measurements."
 
 <br />
-#### Powering Up the contents of the STIM Cabinet (cabinet T1)
+#### <span style="color:maroon">Powering Up the contents of the STIM Cabinet (cabinet T1)</span>
 
 1. **Switch on** the filtered 6way Mains extension (**<span style="color:green">green</span>** rocker switch).
 	 - This will power on the MSR Patient Camera/IR Light and the STI102 box.
 2. **Turn on** equipment in the STIM Cabinet (T1) e.g. Digitimer Stimulator, via their power buttons/switches as required. 
 
 <br />
-#### Powering Up DACQ & Participant Logging Computer (PLC)
+#### <span style="color:maroon">Powering Up DACQ & Participant Logging Computer (PLC)</span>
 
-!!! note "<span style="color:red">NOTE:</span> Both the DACQ, it's speakers, and the PLC are plugged into double power sockets protected by a UPS (UPS20), situated in the IHR tank room (G24)."
+!!! note "<span style="color:red">NOTE:</span> The DACQ and its speakers are plugged into Control Room double power sockets protected by a UPS (UPS20), situated in the IHR tank room (G24).<br /> The PLC is plugged into the UPSs found on the floor of the Control Room (2 x APC Back-UPS 1400s)."
 
-''' Power on the Eaton UPS, labelled "UPS20" '''
+**Power on the Eaton UPS, labelled "UPS20", in the IHR tank room**
 
-# '''Switch on''' the mains socket powering the UPS. <br /> The UPS front panel display illuminates and shows a status of “'''UPS initializing…'''”
-# Verify that the UPS transfers to Standby mode (“'''UPS on standby'''”).
-# Press the '''On/Off''' button on the front panel for at least one second. <br /> The UPS front panel display changes status to “'''UPS starting…'''”.
-# Check the UPS front panel display for active alarms or notices. Resolve any active alarms before continuing.
-# '''Verify''' that the '''green Power On''' LED '''illuminates solid''', indicating that the UPS is operating normally.
-# Turn on the equipment that is connected to the UPS (''see below'').
-#* <span style="color:red">'''NOTE:'''</span> On '''one''' occasion the UPS was shown to be on, but the double sockets appeared to have no power. If this happens again...
-#** Make sure DACQ & PLC are powered down.
-#** Trip (and reset) the '''UPS20''' trip switch in the grey fuse box in the IHR tank room (Incomer 1, L2).
-#** Check to see if power is now getting to the protected double power sockets.
-#*** ''Turn on DACQ PC Speakers, green Power LED should light.''
-#** If not, move DACQ & PLC to unprotected sockets and have UPS examined for possible fault.
+1. **Switch on** the Mains socket powering the UPS.
+	- The UPS front panel display illuminates and shows a status of “**UPS initializing ...**”
+2. **Verify** that the UPS transfers to Standby mode (“**UPS on standby ...**”).
+3. **Press the On/Off button** on the front panel for at least one second.
+	- The UPS front panel display changes status to “**UPS starting ...**”.
+4. **Check the UPS front panel display** for active alarms or notices. Resolve any active alarms before continuing.
+5. **Verify** that the **<span style="color:green">green</span> Power On** LED **illuminates solid**, indicating that the UPS is operating normally.
+6. **Turn on** the equipment that is connected to the UPS (*see below*).
 
-''' Powering up the DACQ Console "''Sinuhe''" '''
-# '''Switch on''' the mains sockets powering the DACQ, Monitor & Speakers.
-# '''Power on''' the Monitor and Speakers.
-# '''Press''' the Power button on the right side of the DACQ system unit.
-# After a while the Monitor should display the Log In screen.
-#* ''Any member of Ole's group knows the DACQ username/password.''
+!!! Note 
+	- **<span style="color:red">TO BE PERFORMED BY MEG SUPPORT ONLY!!</span>**
+	 - **On one occasion, after power on, UPS20 was *shown to be On*, but the double sockets appeared to have no power (DACQ wouldn't power up). To fix ...**
+		- ***Make sure DACQ & Monitor are off.***
+		- **Trip (*and reset*) the UPS20 trip switch in the grey fuse box in the IHR Tank Room (*Incomer 1, L2*)**
+			- ***UPS20 may beep, and switch to internal battery power briefly.***
+		- **Check to see if power is now getting to the protected double power sockets.**
+			- ***Turn on DACQ Speakers, <span style="color:green">green</span> Power LED should light.***
+		- **If not, move DACQ & Speakers to unprotected sockets and power on.** 
+		- **Have UPS examined for possible fault.**
 
-''' Powering Up the Participant Logging Computer (PLC)  '''
+**Powering up the DACQ Console, "Sinuhe"**
 
-# '''Switch on''' the mains sockets powering the PLC and Monitor.
-# '''Power on''' the Monitor.
-# '''Press''' the power button on the front of the PLC.
-# After a while the Monitor should '''display''' the Participant Logging '''information screen'''.
+1. **Switch on** the Mains sockets powering the DACQ, Monitor & Speakers.
+2. **Power on** the Monitor and Speakers.
+3. **Press** the Power button on the right side of the DACQ system unit.
+4. **Follow the boot sequence for any erors** - ***startup may initialise a disk check, let it proceed***. 
+5. **Once the Login screen appears**, log in and run a **[RAP](../../meg/acquisition/rap.md)**, followed by **[Loading the latest Tuning file](../../meg/acquisition/restart_acquisition.md/#loading-a-tuning-file)**
+
+**Powering Up the Participant Logging Computer (PLC).**
+
+1. **Turn on the two UPS (2 x APC Back-UPS 1400s) on the Control Room floor**.
+	- **Switch on** the **Mains supply** at the **wall sockets for the two UPSs.**
+	- **Press** and **hold the Power button** for **approximately 0.5 to 1 second**. The Unit **should beep, indicating it is turning on**.
+	- **Front panel **<span style="color:green">green</span>** "On Line" LED should light, confirming the UPS is powered and operating normally**.
+2. **Switch on** the Monitor.
+3. **Press** the power button on the front of the PLC.
+4. After a while the Monitor should **display** the **first** Participant Logging **information screen**.
+
 <br />
+#### <span style="color:maroon">Powering Up the MEG-STIM-01 and CHBH-ST-MEG-W02 PCs</span>
 
-#### Powering Up the MEG-STIM-01 and CHBH-ST-MEG-W02 PCs 
+1. '''Switch on both APC Back-UPS 1400s''', and wait until they are on and operational.
+2. Switch on the associated 8-way bar plug (powers KVM and network mini hub).
+3. Switch on the blue '''PROPixx Controller''' (''the PC Monitor is attached to this''), and '''SOUNDPixx Controller''' (if it is to be used).
+4. Switch on the '''Monitor'''.
+5. Switch on the '''PCs'''.
+	 - ''If a PC doesn't power up, its PSU power switch back right has been unnecessarily turned off. Turn it on again''. 
+6.  '''MEG-STIM-01''' requires a password ("TheCHBH"), '''CHBH-ST-MEG-W02''' boots to Windows automatically.
+7. If '''KVM switched to "NEW"''' (switch 3) when PCs booted, the Monitor screen '''will flash 8 times at 2-sec intervals''' (as expected) and then settle down.
 
-# '''Switch on both APC Back-UPS 1400s''', and wait until they are on and operational.
-# Switch on the associated 8-way bar plug (powers KVM and network mini hub).
-# Switch on the blue '''PROPixx Controller''' (''the PC Monitor is attached to this''), and '''SOUNDPixx Controller''' (if it is to be used).
-# Switch on the '''Monitor'''.
-# Switch on the '''PCs'''.
-#* ''If a PC doesn't power up, its PSU power switch back right has been unnecessarily turned off. Turn it on again''. 
-# '''MEG-STIM-01''' requires a password ("TheCHBH"), '''CHBH-ST-MEG-W02''' boots to Windows automatically.
-# If '''KVM switched to "NEW"''' (switch 3) when PCs booted, the Monitor screen '''will flash 8 times at 2-sec intervals''' (as expected) and then settle down.
 <br />
-
-#### Powering Up the EyeLink 1000 Plus PC ===
+#### <span style="color:maroon">Powering Up the EyeLink 1000 Plus PC</span>
 
 ''' <span style="color:red">NOTE: </span> Relevant STIM PC will need to be powered up to allow network communication to the EyeLink PC (both APC Back-UPS 1400s will need to be powered).'''
 

@@ -141,6 +141,7 @@ nav:
       - Delock Parallel Port Card: meg/stimulus/delock_pp_card.md
       - Ishihara Colour Vision Deficiency: meg/stimulus/ishihara.md
     - Analysis Tools:
+      - Collaborations: meg/analysis/flux_pipeline.md
       - MaxFilter Fine-Calibration files: meg/analysis/maxfiltercalfiles.md
       - MNE-Python: meg/analysis/mne.md
       - Phantom Measurement: meg/analysis/phantom_measurement.md
