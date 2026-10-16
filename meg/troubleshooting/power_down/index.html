@@ -3878,6 +3878,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Power Down Equipment
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -3894,6 +3912,47 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#powering-down-the-internal-helium-recycler-ihr-cabinet-t3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Powering Down the Internal Helium Recycler (IHR) (cabinet T3)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#powering-down-the-main-electronics-cabinet-t2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Powering Down the Main Electronics Cabinet (T2)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -5783,6 +5842,36 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#powering-down-the-internal-helium-recycler-ihr-cabinet-t3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Powering Down the Internal Helium Recycler (IHR) (cabinet T3)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#powering-down-the-main-electronics-cabinet-t2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Powering Down the Main Electronics Cabinet (T2)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -5802,15 +5891,23 @@
 
 
 <h1 id="power-down-equipment">Power Down Equipment</h1>
-<p>== ''' In fault situations, planned (UoB) power outages, or End-of-Day, equipment will need to be shutdown ''' ==
-'''<span style="font-size:medium"><span style="color:red">NOTE:</span> In normal, End-of-Day usage, not ALL equipment needs to be powered down. </span>''' <br />
-'''<span style="font-size:medium"><span style="color:red">NOTE:</span> e.g. DO NOT power down IHR, Main Electronics, DACQ etc. on a daily basis!!! </span>'''</p>
-<hr />
-<p>=== Powering Down the Internal Helium Recycler (IHR) (T3) ===</p>
-<h1 id="in-the-ihr-cabinet-keep-the-ups-power-button-pressed-down-for-a-few-seconds">In the '''IHR cabinet''', keep the '''UPS power button pressed down''' for a few seconds.</h1>
-<h1 id="turn-the-main-power-switch-on-the-cryocooler-to-off">Turn the main power switch on the cryocooler to '''Off'''.</h1>
+<p><big>
+<strong><span style="color:maroon">In fault situations, planned (UoB) power outages, or End-of-Day, equipment will need to be shutdown</span></strong>
+</big></p>
+<div class="admonition warning">
+<p class="admonition-title"><span style="font-size:medium"><span style="color:red">NOTE:</span> In normal, End-of-Day usage, not ALL equipment needs to be powered down.</span><br /><span style="font-size:medium"><span style="color:red">NOTE:</span> e.g. DO NOT power down IHR, Main Electronics, DACQ etc. on a daily basis!!! </span></p>
+</div>
+<h4 id="powering-down-the-internal-helium-recycler-ihr-cabinet-t3"><span style="color:maroon">Powering Down the Internal Helium Recycler (IHR) (cabinet T3)</span></h4>
+<ol>
+<li>In the <strong>IHR cabinet</strong>, keep the <strong>UPS power button pressed down</strong> for a few seconds.</li>
+<li>Turn the Main Power Switch on the cryocooler compressor is set to <strong>Off</strong>.<ul>
+<li><em>the cryocooler shouldn't be running, but stop liquefaction first if it is</em></li>
+</ul>
+</li>
+<li><strong>Turn off</strong> the <strong>IHR Mains power</strong> (<strong><span style="color:red">large red switch</span></strong> on the wall to the right of the cabinet).</li>
+</ol>
 <p><br /></p>
-<p>=== Powering Down the Main Electronics Cabinet (T2) ===</p>
+<h4 id="powering-down-the-main-electronics-cabinet-t2">Powering Down the Main Electronics Cabinet (T2)</h4>
 <p><span style="color:red">'''NOTE:'''</span> ''The Main Electronics Cabinet (T2) is protected by a UPS ('''UPS21''').''</p>
 <p>The [https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/DSP_Electronics.jpg '''Power Control'''] of the Main Electronics Cabinet has three switches. These '''MUST''' be powered off in the correct sequence.</p>
 <ul>
@@ -5827,13 +5924,13 @@
 <h1 id="press-and-hold-the-onoff-button-on-the-front-panel-for-approximately-three-seconds-the-ups-starts-to-beep-and-shows-a-status-of-ups-off-pending-the-ups-transfers-to-standby-mode-if-utility-power-is-available-and-removes-power-to-the-equipment-the-green-power-on-led-turns-off">* Press and hold the '''On/Off''' button on the front panel for approximately three seconds. <br /> The UPS starts to beep and shows a status of “'''UPS off pending…'''” <br /> The UPS transfers to Standby mode (if utility power is available) and removes power to the equipment. The green Power On LED turns off.</h1>
 <h1 id="switch-off-the-mains-socket-powering-the-ups">* '''Switch off''' the mains socket powering the UPS.</h1>
 <p><br /></p>
-<p>=== Powering Down the contents of the STIM Cabinet (T1) ===</p>
+<h4 id="powering-down-the-contents-of-the-stim-cabinet-t1">Powering Down the contents of the STIM Cabinet (T1)</h4>
 <h1 id="turn-off-equipment-in-the-stim-cabinet-t1-eg-digitimer-stimulator-via-their-power-buttonsswitches">'''Turn off''' equipment in the STIM Cabinet (T1) e.g. Digitimer Stimulator, via their power buttons/switches.</h1>
 <h1 id="switch-off-the-filtered-powerbar-green-rocker-switch">'''Switch off''' the filtered powerbar (green rocker switch).</h1>
 <h1 id="this-will-power-down-the-msr-patient-camerair-light">* This will power down the MSR Patient Camera/IR Light.</h1>
 <p><br /></p>
-<p>=== Powering Down DACQ &amp; Participant Logging Computer (PLC) ===
-<span style="color:red">'''NOTE:'''</span>  ''Both the DACQ, it's Speakers, and the PLC are plugged into double power sockets protected by a UPS ('''UPS20''').''</p>
+<h4 id="powering-down-dacq-participant-logging-computer-plc">Powering Down DACQ &amp; Participant Logging Computer (PLC)</h4>
+<p><span style="color:red">'''NOTE:'''</span>  ''Both the DACQ, it's Speakers, and the PLC are plugged into double power sockets protected by a UPS ('''UPS20''').''</p>
 <p>''' Powering Down the DACQ Console "''Sinuhe''" '''</p>
 <h1 id="from-login-screen">''From Login Screen''.</h1>
 <h1 id="bottom-right-corner-left-mouse-click-select-shut-down">* Bottom right corner, left mouse click, select "'''Shut Down'''".</h1>
@@ -5852,7 +5949,7 @@
 <h1 id="press-and-hold-the-off-button-on-the-front-panel-for-approximately-three-seconds-the-ups-starts-to-beep-and-shows-a-status-of-ups-off-pending-the-ups-transfers-to-standby-mode-if-utility-power-is-available-and-removes-power-to-the-equipment-the-green-power-on-led-turns-off">'''Press''' and hold the '''Off''' button on the front panel for approximately three seconds. <br /> The UPS starts to beep and shows a status of “'''UPS off pending…'''” <br /> The UPS transfers to Standby mode (if utility power is available) and removes power to the equipment. The green Power On LED turns off.</h1>
 <h1 id="switch-off-the-mains-socket-powering-the-ups_1">'''Switch off''' the mains socket powering the UPS.</h1>
 <p><br /></p>
-<p>=== Powering Down the MEG-STIM-01 and CHBH-ST-MEG-W02 PCs===</p>
+<h4 id="powering-down-the-meg-stim-01-and-chbh-st-meg-w02-pcs">Powering Down the MEG-STIM-01 and CHBH-ST-MEG-W02 PCs</h4>
 <h1 id="shutdown-the-pcs-as-you-would-normally-windows-10">'''Shutdown the PCs''' as you would normally ('''Windows 10''').</h1>
 <h1 id="switch-off-the-monitor">Switch off the '''Monitor'''</h1>
 <h1 id="switch-off-the-propixx-controller">Switch off the '''PROPixx Controller'''.</h1>
@@ -5865,7 +5962,7 @@
 <h1 id="note-mains-sockets-can-be-left-switched-on-during-normal-daily-usage">* '''''NOTE:''' Mains sockets can be left '''switched on''' during normal, daily usage.''</h1>
 <h1 id="note-only-switch-off-in-emergency-or-if-equipment-is-being-moved">* '''''NOTE:''' Only switch off '''in emergency''', or if equipment is being moved.''</h1>
 <p><br /></p>
-<p>=== Powering Down the EyeLink 1000 Plus PC ===</p>
+<h4 id="powering-down-the-eyelink-1000-plus-pc">Powering Down the EyeLink 1000 Plus PC</h4>
 <h1 id="after-data-acquisition-etc-clickselect-exit-eyelink-on-host-pc">After Data Acquisition etc., click/select "'''Exit EyeLink'''" on Host PC.</h1>
 <h1 id="or-clickselect-shutdown-host-clickselect-yes-point-3">* Or click/select "'''Shutdown Host'''", click/select "'''YES'''" <span style="font-size:large">&rarr;</span> Point 3.</h1>
 <h1 id="click-red-shutdown-button">Click red "'''<span style="color:red">Shutdown</span>'''" button.</h1>
@@ -5882,7 +5979,6 @@
 <h1 id="switch-off-the-mains-sockets-powering-the-apcs_1">Switch off the '''mains sockets''' powering the '''APCs'''.</h1>
 <h1 id="note-mains-sockets-can-be-left-switched-on-during-normal-daily-usage_1">* '''''NOTE:''' Mains sockets can be left '''switched on''' during normal, daily usage.''</h1>
 <h1 id="note-only-switch-off-in-emergency-or-if-equipment-is-being-moved_1">* '''''NOTE:''' Only switch off '''in emergency''', or if equipment is being moved.''</h1>
-<p><br /></p>
 
 
 
