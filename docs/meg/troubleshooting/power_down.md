@@ -1,17 +1,20 @@
 # Power Down Equipment
 
-== ''' In fault situations, planned (UoB) power outages, or End-of-Day, equipment will need to be shutdown ''' ==
-'''<span style="font-size:medium"><span style="color:red">NOTE:</span> In normal, End-of-Day usage, not ALL equipment needs to be powered down. </span>''' <br />
-'''<span style="font-size:medium"><span style="color:red">NOTE:</span> e.g. DO NOT power down IHR, Main Electronics, DACQ etc. on a daily basis!!! </span>'''
+<big>
+**<span style="color:maroon">In fault situations, planned (UoB) power outages, or End-of-Day, equipment will need to be shutdown</span>**
+</big>
 
-----
+!!! warning "<span style="font-size:medium"><span style="color:red">NOTE:</span> In normal, End-of-Day usage, not ALL equipment needs to be powered down.</span><br /><span style="font-size:medium"><span style="color:red">NOTE:</span> e.g. DO NOT power down IHR, Main Electronics, DACQ etc. on a daily basis!!! </span>"
 
-=== Powering Down the Internal Helium Recycler (IHR) (T3) ===
-# In the '''IHR cabinet''', keep the '''UPS power button pressed down''' for a few seconds.
-# Turn the main power switch on the cryocooler to '''Off'''.
+#### <span style="color:maroon">Powering Down the Internal Helium Recycler (IHR) (cabinet T3)</span>
+
+1. In the **IHR cabinet**, keep the **UPS power button pressed down** for a few seconds.
+2. Turn the Main Power Switch on the cryocooler compressor is set to **Off**.
+	- *the cryocooler shouldn't be running, but stop liquefaction first if it is*
+3. **Turn off** the **IHR Mains power** (**<span style="color:red">large red switch</span>** on the wall to the right of the cabinet).
+
 <br />
-
-=== Powering Down the Main Electronics Cabinet (T2) ===
+#### Powering Down the Main Electronics Cabinet (T2)
 
 <span style="color:red">'''NOTE:'''</span> ''The Main Electronics Cabinet (T2) is protected by a UPS ('''UPS21''').''
 
@@ -30,16 +33,16 @@ The [https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/DSP_Electronics.jpg '''Powe
 #* '''Turn off''' the equipment that is connected to the UPS (''see above'').
 #* Press and hold the '''On/Off''' button on the front panel for approximately three seconds. <br /> The UPS starts to beep and shows a status of “'''UPS off pending…'''” <br /> The UPS transfers to Standby mode (if utility power is available) and removes power to the equipment. The green Power On LED turns off.
 #* '''Switch off''' the mains socket powering the UPS.
-<br />
 
-=== Powering Down the contents of the STIM Cabinet (T1) ===
+<br />
+#### Powering Down the contents of the STIM Cabinet (T1)
 
 # '''Turn off''' equipment in the STIM Cabinet (T1) e.g. Digitimer Stimulator, via their power buttons/switches.
 # '''Switch off''' the filtered powerbar (green rocker switch).
 #* This will power down the MSR Patient Camera/IR Light.
-<br />
 
-=== Powering Down DACQ & Participant Logging Computer (PLC) ===
+<br />
+#### Powering Down DACQ & Participant Logging Computer (PLC)
 <span style="color:red">'''NOTE:'''</span>  ''Both the DACQ, it's Speakers, and the PLC are plugged into double power sockets protected by a UPS ('''UPS20''').''
 
 ''' Powering Down the DACQ Console "''Sinuhe''" '''
@@ -63,9 +66,9 @@ The [https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/DSP_Electronics.jpg '''Powe
 # '''Turn off''' the equipment that is connected to the UPS (''see above'').
 # '''Press''' and hold the '''Off''' button on the front panel for approximately three seconds. <br /> The UPS starts to beep and shows a status of “'''UPS off pending…'''” <br /> The UPS transfers to Standby mode (if utility power is available) and removes power to the equipment. The green Power On LED turns off.
 # '''Switch off''' the mains socket powering the UPS.
-<br />
 
-=== Powering Down the MEG-STIM-01 and CHBH-ST-MEG-W02 PCs===
+<br />
+#### Powering Down the MEG-STIM-01 and CHBH-ST-MEG-W02 PCs
 
 # '''Shutdown the PCs''' as you would normally ('''Windows 10''').
 # Switch off the '''Monitor'''
@@ -78,9 +81,9 @@ The [https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/DSP_Electronics.jpg '''Powe
 # Switch off the '''mains sockets''' powering the '''APCs'''.
 #* '''''NOTE:''' Mains sockets can be left '''switched on''' during normal, daily usage.''
 #* '''''NOTE:''' Only switch off '''in emergency''', or if equipment is being moved.''
-<br />
 
-=== Powering Down the EyeLink 1000 Plus PC ===
+<br />
+#### Powering Down the EyeLink 1000 Plus PC
 
 # After Data Acquisition etc., click/select "'''Exit EyeLink'''" on Host PC.
 #* Or click/select "'''Shutdown Host'''", click/select "'''YES'''" <span style="font-size:large">&rarr;</span> Point 3.
@@ -98,4 +101,4 @@ The [https://www.chbh.bham.ac.uk/wiki/buic-files/MEG/DSP_Electronics.jpg '''Powe
 # Switch off the '''mains sockets''' powering the '''APCs'''.
 #* '''''NOTE:''' Mains sockets can be left '''switched on''' during normal, daily usage.''
 #* '''''NOTE:''' Only switch off '''in emergency''', or if equipment is being moved.''
-<br />
+

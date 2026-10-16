@@ -113,6 +113,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH
     Software/Hardware and methods for stimulus presentation and data collection
 	
 	- [Stimulus Hardware Layout](../meg/pdfs/MEG_Stimulus_Hardware_Layout.pdf)
+		- Only one Stim currently in use
 	
 	- [Stimulus Delivery & Triggering](stimulus/stimulus_delivery.md)
 		- [Delock Parallel Port Card](stimulus/delock_pp_card.md)
