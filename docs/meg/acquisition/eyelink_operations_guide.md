@@ -20,6 +20,8 @@
 
 **Remove the lens cap** from the **FO camera head**, and **place the FO camera head/IR Illuminator on the small table in front of the gantry chair** (*usually once Participant is in place*).<br /> **Attach** power cable to **battery and FO camera head/IR Illuminator**. **Switch on the battery.**
 
+!!! info "Viewing the EyeLink IR lamp, via the MSR camera monitor on the wall in the Control Room, can help in initially checking Illuminator alignment on Participant."
+
 !!! Note "<span style="color:red">NOTE:</span> Ensure a good cable connection is made (*the black rubber strain reliefs aren't pushed up over the silver two-pin connectors*).<br /><span style="color:red">NOTE:</span> If the camera head/IR Illuminator isn't powered-on first, the Host PC will complain slightly (*ticking sound*) when EyeLink starts up."
 
 !!! Info "<span style="color:maroon">To prevent small threshold drifts, the EyeLink camera head/Host PC etc should be powered up/switched on for <span style="color:red">at least 5 minutes</span> before recording.</span>"

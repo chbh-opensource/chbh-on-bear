@@ -110,45 +110,36 @@ The **[Power Control Panel](../../images/meg/DSP_Electronics.jpg)** of the Main 
 4. After a while the Monitor should **display** the **first** Participant Logging **information screen**.
 
 <br />
-#### <span style="color:maroon">Powering Up the MEG-STIM-01 and CHBH-ST-MEG-W02 PCs</span>
+#### <span style="color:maroon">Powering Up the Stim PC (CHBH-ST-MEG-W02)</span>
 
-1. '''Switch on both APC Back-UPS 1400s''', and wait until they are on and operational.
-2. Switch on the associated 8-way bar plug (powers KVM and network mini hub).
-3. Switch on the blue '''PROPixx Controller''' (''the PC Monitor is attached to this''), and '''SOUNDPixx Controller''' (if it is to be used).
-4. Switch on the '''Monitor'''.
-5. Switch on the '''PCs'''.
-	 - ''If a PC doesn't power up, its PSU power switch back right has been unnecessarily turned off. Turn it on again''. 
-6.  '''MEG-STIM-01''' requires a password ("TheCHBH"), '''CHBH-ST-MEG-W02''' boots to Windows automatically.
-7. If '''KVM switched to "NEW"''' (switch 3) when PCs booted, the Monitor screen '''will flash 8 times at 2-sec intervals''' (as expected) and then settle down.
+!!! info "2 x APC Back-UPS 1400s may already be powered, if PLC has been turned on already."
+
+1. **Turn on the two UPS (2 x APC Back-UPS 1400s) on the Control Room floor**.
+	- **Switch on** the **Mains supply** at the **wall sockets for the two UPSs.**
+	- **Press** and **hold the Power button** for **approximately 0.5 to 1 second**. The Unit **should beep, indicating it is turning on**.
+	- **Front panel **<span style="color:green">green</span>** "On Line" LED should light, confirming the UPS is powered and operating normally**.
+2. **Switch on/check** (as required) associated equipment plugged into the UPSs.
+	- **PROPixx Controller** (*Monitor is attached to this*)
+	- **KVM** (*for keyboard/Mouse*)
+	- **Network Mini Hub** (*EyeLink connection*)
+	- **SOUNDPixx** (*if required*)
+3. **Switch on** the Monitor.
+4. **Switch on** the PC.
+5. **CHBH-ST-MEG-W02** should boot into Windows automatically, no password required.
+
+!!! note "As the DP PROPixx Adapter is negotiating with the KVM, the Monitor screen will flash 8 times at 2sec intervals then settle down. <br /> This is expected functionality and will happpen every time the Adapter, or PC, are repowered/rebooted."
 
 <br />
 #### <span style="color:maroon">Powering Up the EyeLink 1000 Plus PC</span>
 
-''' <span style="color:red">NOTE: </span> Relevant STIM PC will need to be powered up to allow network communication to the EyeLink PC (both APC Back-UPS 1400s will need to be powered).'''
+!!! note "Stim PC will need to be powered up to allow network communication to the EyeLink PC (both APC Back-UPS 1400s will need to be powered)."
 
-# '''Switch on bar plug on  table''' alongside  EyeLink host PC (to '''power EyeLink camera & PC monitor'''). <br /> 
-# '''EyeLink Batteries:''' Press '''TEST''' button to check power level, '''use a fully-charged battery''' if possible. 
-#* '''Put''' the second battery '''on charge''' (if required). 
-#**<span style="color:blue">Make sure '''battery''' is '''switched OFF''' when '''charging'''</span>
-#* '''Swap batteries''' between acquisitions. '''Put''' first battery '''on charge'''.
-#* '''"Charge"''' LED will '''go out''' when battery is fully charged / '''"Complete"'''.
-#* '''Unplug''' battery once fully charged. '''Do not''' leave attached to the charger.
-#** '''DO NOT''' leave on charge over night.'''
-#** '''<span style="color:blue">If necessary leave a note for Jonathan, to put battery on charge first thing in the morning.</span>'''
-#* <span style="color:maroon">'''''"A battery with 2-3 hours left should be fine for a short experiment. Do not risk using it for a 2-hour experiment."''''' </span>'''(SR Research)'''
-# Take battery into MSR. Place in '''front right corner''' (''front left corner, if viewed from gantry'') 
-# '''Arrange''' power cable around the edge of the MSR, '''avoiding any loops'''. '''Attach power cable''' to battery and to '''FO Camera Head/IR Illuminator'''. Switch on battery. 
-#*'''<span style="color:maroon">Note: if you don’t power the camera head/IR Illuminator first, the Host PC will complain when "EyeLink” starts up.</span>''' 
-# '''Place''' FO Camera Head/IR Illuminator on '''small table.''' Position table as required.
-# '''Turn on''' EyeLink 1000 Plus Host PC & monitor.
-# Select "'''EyeLink'''" with mouse, or just wait.
-# '''Set up''' EyeLink FO Camera Head/IR Iluminator as usual...
-#* ''Position Camera Head, remove lens cap, adjust focus/thresholds etc.'' 
+1. **Switch on 6-way bar plug on  table** alongside EyeLink Host PC (*to power Host PC and EyeLink camera*).
+2. **Turn on** EyeLink 1000 Plus Host PC & Monitor.
+3. Select "**EyeLink**" with mouse, or just wait.
+4. **Confirm** EyeLink software starts.
+5. **If only a Power Up check was required**, exit to EyeLink Manager and shutdown Host PC.
+6. **Switch off** Monitor and 6-way bar plug.
+7. **If EyeLink is to be used** when Acquiring data, follow up until Step 4., then follow ...
 
-'''<span style="color:red">NOTE: </span> You can view the EyeLink IR lamp via the MSR camera monitor on the wall in the Control Room - helps in checking lamp alignment on participant.'''
-
-<gallery mode="traditional">
-Image:EyeLink_Battery_TEST.jpg|EyeLink Battery fully charged
-Image:EyeLink_Battery_Charger.jpg|EyeLink Battery Charger
-Image:EyeLink_Battery.jpg|EyeLink Battery cable connections / ON-OFF Switch
-</gallery>
+**[EyeLink Operations Guide](../../meg/acquisition/eyelink_operations_guide.md)**, and **[Charging EyeLink batteries](../../meg/acquisition/charging_eyelink_batteries.md)** as required.
