@@ -175,7 +175,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH
 		
 	***<span style="color:red">Note:</span> Not ALL equipment should be shut down at End-of-Day*** </br />
 	
-	- [Usual problems, Probable Solutions] - *usually, but not limited to, out-of-hours/overnight*
+	- [Usual Problems, Probable Solutions] - *usually, but not limited to, out-of-hours/overnight*
 
 
 </div>

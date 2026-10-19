@@ -15,7 +15,7 @@
 4. In the Helium Recycler cabinet, keep the **UPS power button** pressed **down** for a few seconds.
 5. Wait for the control PC to **power up automatically**.
 	- *The control PC power-up takes about one minute.*
-6. To **verify** that the system started up, **monitor the LEDs** on the door of the helium recycler cabinet.
+6. To **verify** that the system started up, **monitor the LEDs** on the door of the Helium Recycler Cabinet.
 	- *The LED/s indicating the latest active operating mode come/s on.*
 8. To continue normal operations, click the **Normal Mode** button on the Service GUI.
 
@@ -26,6 +26,7 @@
 
 The **[Power Control Panel](../../images/meg/DSP_Electronics.jpg)** of the Main Electronics Cabinet has three switches. These **MUST** be powered on in the correct sequence.
 
+**INDEX**<br />
 1. **Main switch** (*with no-mains release*). <br />
 2. **Main (DSP) Electronics** (*MEG & Bioamplifier/EEG*) **<span style="color:green">green</span>** rocker switch. <br />
 3. **Preamplfiers** (*MEG & Bio/EEG*) **<span style="color:green">green</span>** rocker switch.
@@ -34,7 +35,7 @@ The **[Power Control Panel](../../images/meg/DSP_Electronics.jpg)** of the Main 
 
 1. **Boot/Power Up** the DACQ Workstation ("***Sinuhe***") as shown below. Wait until it **boots normally** (*shows Log In prompt*).
 2. **Power on** the Eaton UPS, labelled **"UPS21"**.
-	- **Switch on** the mains socket powering the UPS21.
+	- **Switch on** the Mains socket powering the UPS21.
 		- The UPS front panel display illuminates, and shows a status of “**UPS initializing ...**”.
 	- **Verify** that the UPS then transfers to Standby mode (“**UPS on standby**”).
 	- **Press the "On/Off" button** on the front panel for **at least one second**.
@@ -42,7 +43,8 @@ The **[Power Control Panel](../../images/meg/DSP_Electronics.jpg)** of the Main 
 	- **Check** the UPS front panel display for active alarms or notices. **Resolve** any active alarms before continuing.
 	- **Verify** that the **<span style="color:green">green</span> Power On** LED **illuminates solid**, indicating that the UPS is operating normally.
 	- **Switch on** the equipment that is connected to the UPS21 (*see below*).
-3. **Switch on** the **Watchguard Firewall and Network Switch**, in the **Side Room Comms cabinet**. Wait until both have started up, indicated by any **Self test** and **Fail** LEDs extinguishing. 
+3. **Switch on** the **Watchguard Firewall and Network Switch**, in the **Side Room Comms cabinet**. Wait until both have started up, indicated by any **Self test** and **Fail** LEDs extinguishing
+	- **Both Mains plugs** are attached to sockets protected by **UPS21**. Make sure **both socket switches are turned on**.
 4. On the **[Power Control Panel](../../images/meg/DSP_Electronics.jpg)** of the Main Electronics Cabinet, ensure that the **<span style="color:green">green</span>** rocker switches, **Preamplifiers (3)**, **Main (DSP) Electronics (2)**, are in **Off** position.
 5. Inside the Main Electronics Cabinet, the individual power supply units are connected to outlet socket strips located in the rear of the cabinet. **Ensure** that the power cords are **in place**.
 6. Switch on the Main Electronics Cabinet power by turning the **Main switch (1)** on the **[Power Control Panel](../../images/meg/DSP_Electronics.jpg)** to the **On** position. The switch will automatically turn back into the **Off** position if Mains voltage **is too low**.
