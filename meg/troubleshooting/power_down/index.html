@@ -5983,7 +5983,7 @@
 <strong><span style="color:maroon">In fault situations, planned (UoB) power outages, or End-of-Day, equipment will need to be shutdown</span></strong>
 </big></p>
 <div class="admonition warning">
-<p class="admonition-title"><span style="font-size:medium"><span style="color:red">NOTE:</span> In normal, End-of-Day usage, not ALL equipment needs to be powered down.</span><br /><span style="font-size:medium"><span style="color:red">NOTE:</span> e.g. DO NOT power down IHR, Main Electronics, DACQ etc. on a daily basis!!! </span></p>
+<p class="admonition-title"><span style="font-size:medium"><span style="color:red">NOTE:</span> In normal, End-of-Day usage, not ALL equipment needs to be powered down.</span><br /><span style="font-size:medium"><span style="color:red">NOTE:</span> e.g. DO NOT power down IHR, Main Electronics, DACQ etc. on a daily basis!!! Stim PC, PROPixx Controller, KVM etc., to remain powered.</span></p>
 </div>
 <h4 id="powering-down-the-internal-helium-recycler-ihr-cabinet-t3"><span style="color:maroon">Powering Down the Internal Helium Recycler (IHR) (cabinet T3)</span></h4>
 <ol>
@@ -6042,79 +6042,75 @@
 </div>
 <p><strong>Powering Down the DACQ Console, "Sinuhe"</strong></p>
 <ol>
-<li>''From Login Screen''.<ul>
-<li>Bottom right corner, left mouse click, select "'''Shut Down'''".</li>
+<li><em>From Login Screen</em>.<ul>
+<li>Bottom right corner, left mouse click, select <strong>Shut Down</strong>.</li>
 </ul>
 </li>
-<li>''If logged In''<ul>
+<li><em>If logged In</em><ul>
 <li>Exit Acquisition program, close Terminal windows etc.</li>
 <li>Bottom left corner, left click.</li>
-<li>Hover over "'''Leave'''", select "'''Shutdown'''".</li>
+<li>Hover over <strong>Leave</strong>, select <strong>Shutdown</strong></li>
 </ul>
 </li>
-<li>Power off''' Monitor and Speakers.</li>
-<li>Switch off''' the mains socket powering the DACQ.</li>
+<li><strong>Power off</strong> Monitor and Speakers.</li>
+<li><strong>Switch off</strong> the Mains socket powering the DACQ, Monitor &amp; Speakers.</li>
 </ol>
 <p><strong>Powering Down the Participant Logging Computer (PLC)</strong></p>
 <ol>
-<li>'''Press''' the power button on the front of the PC.</li>
-<li>'''Power off''' the Monitor.</li>
-<li>'''Switch off''' the mains sockets powering the PC and Monitor.</li>
+<li><strong>Press</strong> the power button on the front of the PC.</li>
+<li><strong>Power off</strong> the Monitor.</li>
+<li><strong>Switch off</strong> the Mains sockets powering the PC and Monitor.</li>
 </ol>
-<p><strong>Power off the associated Eaton UPS, labelled "UPS20" - <span style="color:red">On the floor, at back of IHR Tank Room</span></strong>.</p>
+<p><strong>Power off the Eaton UPS, labelled "UPS20", in the IHR Tank Room</strong></p>
 <ol>
-<li>'''Turn off''' the equipment that is connected to the UPS (''see above'').</li>
-<li>'''Press''' and hold the '''Off''' button on the front panel for approximately three seconds. <br /> The UPS starts to beep and shows a status of “'''UPS off pending…'''” <br /> The UPS transfers to Standby mode (if utility power is available) and removes power to the equipment. The green Power On LED turns off.</li>
-<li>'''Switch off''' the mains socket powering the UPS.</li>
+<li><strong>Power off</strong> equipment that is connected to the UPS (<em>see above</em>).</li>
+<li><strong>Press the On/Off button</strong> on the front panel for approximately three seconds.<ul>
+<li>The UPS starts to beep and shows a status of “<strong>UPS off pending ...</strong>”</li>
+<li>The UPS transfers to Standby mode (“<strong>UPS on standby ...</strong>”) (<em>if utility power is available</em>) and removes power to the equipment. The <strong><span style="color:green">green</span> Power On</strong> LED turns off.</li>
+</ul>
+</li>
+<li><strong>Switch off</strong> the Mains socket powering the UPS.</li>
 </ol>
 <p><br /></p>
 <h4 id="powering-down-the-stim-pc-chbh-st-meg-w02"><span style="color:maroon">Powering Down the Stim PC (CHBH-ST-MEG-W02)</span></h4>
 <ol>
-<li>'''Shutdown the PCs''' as you would normally ('''Windows 10''').</li>
-<li>Switch off the '''Monitor'''</li>
-<li>Switch off the '''PROPixx Controller'''.</li>
-<li>''(Switch off '''SOUNDPixx Controller''' and '''PC Speakers''' if used)''</li>
-<li>Switch off the attached 8-way bar plug powering the KVM and network mini hub.</li>
-<li>Shut down both '''APC Back-UPS 1400s.'''<ul>
-<li>Press and hold the POWER button for at least 2 seconds. At the first beep, release the button and the UPS will turn off. A 2-second delay has been added to mitigate unintentional contact with the POWER button.</li>
-<li>'''''<span style="color:red">NOTE:</span>''' Make sure '''other equipment''' e.g. PROPixx Projector, EyeLink PC, '''is powered off BEFORE switching off ''' the APCs.''</li>
+<li><strong>Shutdown the PC</strong> - as per usual for a Windows machine.</li>
+<li><strong>Switch off</strong> the Monitor and PC Speakers.</li>
+<li><strong>Switch off</strong> the <strong>PROPixx Controller</strong>.</li>
+<li><strong>Switch off</strong> the  <strong>SOUNDPixx Controller</strong> and its Speakers (<em>if used</em>).</li>
+<li><strong>Switch off</strong> the <strong>KVM</strong> and <strong>Network mini hub</strong>.</li>
+<li><strong>Shut down</strong> both <strong>APC Back-UPS 1400s.</strong><ul>
+<li><strong>Press</strong> and <strong>hold the POWER button</strong> for <strong>at least 2 seconds.</strong> At the first beep, release the button and the UPS will turn off. <ul>
+<li><strong><em>A 2-second delay has been added to mitigate unintentional contact with the POWER button</em></strong>.</li>
 </ul>
 </li>
-<li>Switch off the '''mains sockets''' powering the '''APCs'''.<ul>
-<li>'''''NOTE:''' Mains sockets can be left '''switched on''' during normal, daily usage.''</li>
-<li>'''''NOTE:''' Only switch off '''in emergency''', or if equipment is being moved.''</li>
 </ul>
+<div class="admonition note">
+<p class="admonition-title">Make sure other equipment e.g. PROPixx Projector, EyeLink PC, is powered off BEFORE switching off the APCs.</p>
+</div>
 </li>
+<li>Switch off the <strong>Mains sockets</strong> powering the <strong>APCs</strong>.</li>
 </ol>
 <p><br /></p>
 <h4 id="powering-down-the-eyelink-1000-plus-pc"><span style="color:maroon">Powering Down the EyeLink 1000 Plus PC</span></h4>
 <ol>
-<li>After Data Acquisition etc., click/select "'''Exit EyeLink'''" on Host PC.<ul>
-<li>Or click/select "'''Shutdown Host'''", click/select "'''YES'''" <span style="font-size:large">&rarr;</span> Point 3.</li>
+<li><strong>After Data Acquisition</strong>, select/click <strong>Exit Setup</strong> then either ...<ul>
+<li>Select/click <strong>Exit Eyelink</strong> - exits back to the File Manager.<ul>
+<li>Select/click red <strong><span style="color:red">Shutdown</span></strong> button from the Toolbar.</li>
 </ul>
 </li>
-<li>Click red "'''<span style="color:red">Shutdown</span>'''" button.</li>
-<li>Turn off '''Monitor'''.</li>
-<li>'''Turn off EyeLink battery''', unplug power cables from battery and FO Camera Head/IR Illuminator.</li>
-<li>Replace lens cap, '''move FO Camera Head/IR Illuminator''' back to MSR white cabinet, carefully tidy up '''<span style="color:orange">orange</span>''' FO lead and place in cabinet.</li>
-<li>'''Remove EyeLink battery''' from MSR and '''put battery on charge''' ''(if able to)''.<ul>
-<li>'''Unplug''' battery once fully charged. '''Do not''' leave attached to the charger.</li>
+<li>Or select/click <strong>Shutdown Host</strong>, the select/click <strong>YES</strong>.</li>
 </ul>
 </li>
-<li>'''Switch off bar plug on table''' by EyeLink Host PC<ul>
-<li>This ensures the ''actual'' '''EyeLink camera is powered down'''.</li>
+<li><strong>Power off</strong> Monitor, then the <strong>6-way bar plug on table</strong> - <em>to ensure EyeLink camera is powered off</em>.</li>
+<li><strong>If an EyeLink battery was used</strong>, but a full powerdown is necessary - <em>fault situation, planned power outage ...</em><ul>
+<li><strong>Turn off EyeLink battery</strong>, unplug power cables from battery and FO Camera Head/IR Illuminator. Tidy power cable as usual.</li>
+<li><strong>Replace</strong> Camera Head lens cap, <strong>move FO Camera Head/IR Illuminator</strong> back to MSR white cabinet, carefully tidy up <strong><span style="color:orange">orange</span></strong> FO lead and place on cabinet shelf.</li>
+<li><strong>Remove EyeLink battery</strong> from MSR and <strong>mark for charging when power restored - <em>use usual piece of Micropore tape</em></strong>.</li>
 </ul>
 </li>
-<li>Shut down both '''APC Back-UPS 1400s.'''<ul>
-<li>Press and hold the POWER button for at least 2 seconds. At the first beep, release the button and the UPS will turn off. A 2-second delay has been added to mitigate unintentional contact with the POWER button.</li>
-<li>'''''<span style="color:red">NOTE:</span>''' Make sure '''other equipment''' e.g. PROPixx Projector, EyeLink PC, '''is powered off BEFORE switching off ''' the APCs.''</li>
-</ul>
-</li>
-<li>Switch off the '''mains sockets''' powering the '''APCs'''.<ul>
-<li>'''''NOTE:''' Mains sockets can be left '''switched on''' during normal, daily usage.''</li>
-<li>'''''NOTE:''' Only switch off '''in emergency''', or if equipment is being moved.''</li>
-</ul>
-</li>
+<li><strong>Shut down</strong> both <strong>APC Back-UPS 1400s</strong> - <strong><em>if not done so already, see "<span style="color:maroon">Powering down the Stim PC ..., Step 6.</span>" above</em></strong>.</li>
+<li>Switch off the <strong>Mains sockets</strong> powering the <strong>APCs</strong> - <strong><em>if not done so already.</em></strong>.</li>
 </ol>
 
 
