@@ -71,8 +71,8 @@ Fill out the details as follows:
 
 - **All bookings are requested via Calpendo.** 
 	- ***Please read, and carefully check, emails***, *and* ***re-check Calpendo*** (*once a booking has been requested) for any updates.*
-	- *The booking has to be ****approved by the MEG Support Officer, or one of the CHBH Operations Admins**** if he is away, ****before it is final.***
-	- *Bookings made ****within normal working hours that conform to the pre-defined slots**** will normally be ****approved within a (working) day.***
+	- *The booking has to be **approved by the MEG Support Officer, or one of the CHBH Operations Admins** if he is away, **before it is final.***
+	- *Bookings made **within normal working hours that conform to the pre-defined slots** will normally be **approved within a (working) day.***
 
 - **Modality Lead, via MEG Support, to consider and distribute fairly any slots left over**.
 
@@ -85,8 +85,8 @@ It may be possible to ***extend*** **acquiring by 30min** after the **Late After
 
 - **If Acquiring data on a Saturday, a "*Testing Buddy*" is required.**
 	- ***Buddies need to be present for experiment set-up***, and remain ***"on call" within the building*** for the ***entirety of the Acquiring session***.
-	- *A Buddy must ****hold at least "Building General User" status**** in the CHBH, or if they ****intend to help out**** with experiments, then they ****must be trained up as "MEG General User" or be a "Full MEG Operator".***
-	- *If ****just testing equipment*** (stimuli/triggers etc) out of hours, ***a Buddy is not required.***
+	- *A Buddy must **hold at least "Building General User" status** in the CHBH, or if they **intend to help out** with experiments, then they **must be trained up as "MEG General User" or be a "Full MEG Operator".***
+	- *If **just testing equipment** (stimuli/triggers etc) out of hours, **a Buddy is not required.***
 
 
 - **[Out-of-Hours Access](https://forms.office.com/Pages/ResponsePage.aspx?id=z8oksN7eQUKhXDyX1VPp8yoGKIcHP8FHh82NAR1nFAJUQ01ISTJHSUQ0U09GUEdTMEs0T0paT0tXMiQlQCN0PWcu)** will **need to be requested**, and the **[Weekend Working](../acquisition/weekendwork.md) protocol will need to be read** ***BEFORE*** an **out-of-hours booking can be made**.

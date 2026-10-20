@@ -15,8 +15,8 @@ After liasing with MEGIN, the **shutdown/startup procedure was agreed as follows
 -  **Power down the Stim PC, Participant Logging Computer, EyeLink Host Computer (*as necessary*)**.<br />
 - **Turn off the Monitors**.
 - **Power down the two UPS (2 x APC Back-UPS 1400s) on the Control Room floor (*make sure they don't restart!*)**.
-	- **Press** and **hold the Power button** for **approximately 0.5 to 1 second**. The Unit **should beep, indicating it is turning off**. ***Immediately release the button.***
-		- ***Do not keep holding the button down, if done so the Unit may not register the shutdown command properly.***
+	- **Press** and **hold the Power button** for **approximately 2 seconds**. The Unit **should beep, indicating it is turning off**. ***Immediately release the button.***
+		- ***A 2-second delay has been added to mitigate unintentional contact with the POWER button***.
 	- **Front panel LED should go out**.
 	- **Switch off** the **Mains supply** at the **wall socket**.
 - ***May be prudent to power off above equipment the day before, to reduce workload on the day.***

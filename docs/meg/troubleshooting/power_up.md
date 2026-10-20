@@ -128,6 +128,7 @@ The **[Power Control Panel](../../images/meg/DSP_Electronics.jpg)** of the Main 
 3. **Switch on** the Monitor.
 4. **Switch on** the PC.
 5. **CHBH-ST-MEG-W02** should boot into Windows automatically, no password required.
+6. **Switch on** the PROPixx Projector (*as necessary*).
 
 !!! note "As the DP PROPixx Adapter is negotiating with the KVM, the Monitor screen will flash 8 times at 2sec intervals then settle down. <br /> This is expected functionality and will happpen every time the Adapter, or PC, are repowered/rebooted."
 
@@ -138,10 +139,10 @@ The **[Power Control Panel](../../images/meg/DSP_Electronics.jpg)** of the Main 
 
 1. **Switch on 6-way bar plug on  table** alongside EyeLink Host PC (*to power Host PC and EyeLink camera*).
 2. **Turn on** EyeLink 1000 Plus Host PC & Monitor.
-3. Select "**EyeLink**" with mouse, or just wait.
+3. Select **EyeLink** with mouse, or just wait.
 4. **Confirm** EyeLink software starts.
-5. **If only a Power Up check was required**, exit to EyeLink Manager and shutdown Host PC.
+5. **If only a Power Up check was required**, exit to EyeLink File Manager and shutdown Host PC.
 6. **Switch off** Monitor and 6-way bar plug.
-7. **If EyeLink is to be used** when Acquiring data, follow up until Step 4., then follow ...
+7. **If EyeLink is to be used** when Acquiring data, **follow up until Step 4., then follow ...**
 
 **[EyeLink Operations Guide](../../meg/acquisition/eyelink_operations_guide.md)**, and **[Charging EyeLink batteries](../../meg/acquisition/charging_eyelink_batteries.md)** as required.
