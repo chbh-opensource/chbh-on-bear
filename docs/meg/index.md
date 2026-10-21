@@ -172,6 +172,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH
 	*Includes* ...
 		- [Power Up Equipment](troubleshooting/power_up.md)
 		- [Power Down Equipment](troubleshooting/power_down.md)<br />
+		- See also full [MEG Power Shutdown/Restart](troubleshooting/shutdown_restart.md) as required.
 		
 	***<span style="color:red">Note:</span> Not ALL equipment should be shut down at End-of-Day*** </br />
 	

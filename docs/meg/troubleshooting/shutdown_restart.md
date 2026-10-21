@@ -55,7 +55,7 @@ After liasing with MEGIN, the **shutdown/startup procedure was agreed as follows
 	- The UPS should **now be in Normal mode**.
 	- **Press** the **ESC button** until the **start screen appears**.
 - **Switch on** the MSR **Jun-Air air compressor** (*in the IHR tank room, found* ***behind the tanks***).
-- **Switch on** the **MSR lighting UPS...**
+- **Switch on** the **MSR Lighting UPS...**
 	- **Switch on** the **Mains** socket.
 	- **Press** the **Power button** on the front panel.
 	- The **<span style="color:green">green "On Line"</span>** indicator **flashes**.
@@ -64,6 +64,7 @@ After liasing with MEGIN, the **shutdown/startup procedure was agreed as follows
 	- **Check** the MSR lights **come on** when the **light switch is depressed**.
 - **Switch on** the **Watchguard Firewall and Network Switch**, in the **Side Room Comms cabinet**.
 - **Turn on** the **gantry lifting motor/traffic lights** (*Mains plug on the back wall, behind the MSR*).
+	- **Check** the gantry **moves as expected** e.g. **between liquefaction (25) and Upright (60)**.
 - **Turn on** the **Electronics cabinet** components, via the **[Power Control Panel](../../images/meg/DSP_Electronics.jpg)**, **in order (right to left)**.
 	- **1st - Mains (Switch 1)**.
 - **Power up** the **DACQ console and monitor**, wait until login splash screen appears on the monitor.

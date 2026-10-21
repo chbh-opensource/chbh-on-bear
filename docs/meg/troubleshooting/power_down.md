@@ -40,11 +40,16 @@ The **[Power Control Panel](../../images/meg/DSP_Electronics.jpg)** of the Main 
 	- **Switch off** the Mains socket powering **UPS21**.
 
 <br />
-#### <span style="color:maroon">Powering Down the contents of the STIM Cabinet (cabinet T1)</span>
+#### <span style="color:maroon">Powering Down the contents of the STIM Cabinet (cabinet T1) & MSR Lights/Lifting Motor</span>
 
 1. **Turn off** equipment in the STIM Cabinet (T1) e.g. Digitimer Stimulator, via their power buttons/switches.
 2. **Switch off** the filtered 6way Mains extension (**<span style="color:green">green</span>** rocker switch).
 	- This will power down the MSR Patient Camera/IR Light, and the STI102 box.
+3. **Switch off** the **MSR Lighting UPS**...
+	- **Press** the **Power button** on the front panel for **2 seconds**, **release** at first beep.
+	- **Switch off** the **Mains** at the wall socket.
+4. **Turn off** the **gantry lifting motor/traffic lights** (*Mains plug on the back wall, behind the MSR*).
+
 
 <br />
 #### <span style="color:maroon">Powering Down DACQ & Participant Logging Computer (PLC)</span>
@@ -104,6 +109,6 @@ The **[Power Control Panel](../../images/meg/DSP_Electronics.jpg)** of the Main 
 	- **Replace** Camera Head lens cap, **move FO Camera Head/IR Illuminator** back to MSR white cabinet, carefully tidy up **<span style="color:orange">orange</span>** FO lead and place on cabinet shelf.
 	- **Remove EyeLink battery** from MSR and **mark for charging when power restored - *use usual piece of Micropore tape***.
 5. **Shut down** both **APC Back-UPS 1400s** - ***if not done so already, see "<span style="color:maroon">Powering down the Stim PC ..., Step 6.</span>" above***.
-6. Switch off the **Mains sockets** powering the **APCs** - ***if not done so already.***.
+6. Switch off the **Mains sockets** powering the **APCs** - ***if not done so already.***
 
 

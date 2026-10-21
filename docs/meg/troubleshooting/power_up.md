@@ -60,11 +60,20 @@ The **[Power Control Panel](../../images/meg/DSP_Electronics.jpg)** of the Main 
 !!! note "<span style=color:red>NOTE:</span> Each time the MEG front end is powered it must be initialized by running a [RAP](../../meg/acquisition/rap.md).<br /> Also the latest tuning file must be loaded, via Tuner.<br /><span style=color:red>**NOTE:**</span> For optimum noise performance, let the Preamplifiers stabilize for approximately 1-2 hours before commencing MEG measurements."
 
 <br />
-#### <span style="color:maroon">Powering Up the contents of the STIM Cabinet (cabinet T1)</span>
+#### <span style="color:maroon">Powering Up the contents of the STIM Cabinet (cabinet T1) & MSR Lights/Lifting Motor </span>
 
 1. **Switch on** the filtered 6way Mains extension (**<span style="color:green">green</span>** rocker switch).
 	 - This will power on the MSR Patient Camera/IR Light and the STI102 box.
-2. **Turn on** equipment in the STIM Cabinet (T1) e.g. Digitimer Stimulator, via their power buttons/switches as required. 
+2. **Turn on** equipment in the STIM Cabinet (T1) e.g. Digitimer Stimulator, via their power buttons/switches as required.
+3. **Switch on** the **MSR Lighting UPS...**
+	- **Switch on** the **Mains** socket.
+	- **Press** the **Power button** on the front panel.
+	- The **<span style="color:green">green "On Line"</span>** indicator **flashes**.
+	- The **<span style="color:#E4D00A">yellow "On Battery"</span>** indicator **lights** while the **Self-test** is being performed.
+	- When **Self-Test** has **successfully** completed, **only the <span style="color:green">green "On Line"</span> indicator** will be lit.
+	- **Check** the MSR lights **come on** when the **light switch is depressed**.
+- **Turn on** the **gantry lifting motor/traffic lights** (*Mains plug on the back wall, behind the MSR*).
+	- **Check** the **gantry moves as expected** e.g. **between liquefaction (25) and Upright (60)**.
 
 <br />
 #### <span style="color:maroon">Powering Up DACQ & Participant Logging Computer (PLC)</span>
