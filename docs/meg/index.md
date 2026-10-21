@@ -168,8 +168,9 @@ Guides and documentation for MEG analysis and data collection at the CHBH
 	
 	- [Procedure to request HC](troubleshooting/procedure_hc.md) - *and what it means for any volunteers*
 	- [Remunerations](troubleshooting/remunerations.md)
-	- [IHR Key User Information] - *default information for HC voulnteers.*<br />
+	- [IHR Key User Information](troubleshooting/ihr_key_user.md) - *default information for HC voulnteers.*<br />
 	*Includes* ...
+		- [Emergency Out-of-Hours](troubleshooting/emergency_outofhours.md)
 		- [Power Up Equipment](troubleshooting/power_up.md)
 		- [Power Down Equipment](troubleshooting/power_down.md)<br />
 		- See also full [MEG Power Shutdown/Restart](troubleshooting/shutdown_restart.md) as required.

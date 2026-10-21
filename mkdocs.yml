@@ -170,6 +170,8 @@ nav:
     - Hoilday Cover (HC):
         - Procedure to request HC: meg/troubleshooting/procedure_hc.md
         - Remunerations: meg/troubleshooting/remunerations.md
+        - IHR Key User Information: meg/troubleshooting/ihr_key_user.md
+        - Emergency Out-of-Hours: meg/troubleshooting/emergency_outofhours.md
         - Power Up Equipment: meg/troubleshooting/power_up.md
         - Power Down Equipment: meg/troubleshooting/power_down.md
   - Eye-tracking:
