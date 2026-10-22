@@ -171,9 +171,11 @@ nav:
         - Procedure to request HC: meg/troubleshooting/procedure_hc.md
         - Remunerations: meg/troubleshooting/remunerations.md
         - IHR Key User Information: meg/troubleshooting/ihr_key_user.md
+        - IHR Slide Summary: meg/troubleshooting/summary.md
         - Emergency Out-of-Hours: meg/troubleshooting/emergency_outofhours.md
         - Power Up Equipment: meg/troubleshooting/power_up.md
         - Power Down Equipment: meg/troubleshooting/power_down.md
+        - Problems, Solutions: meg/troubleshooting/problems_solutions.md
   - Eye-tracking:
     - eye-tracking/index.md
     - Hardware:

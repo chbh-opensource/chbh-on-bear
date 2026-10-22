@@ -4,7 +4,7 @@
 
 #### **[Technical Manual May 2017](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079858)**
 
-#### **[Internal Helium Recycler June 2015](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079866)**
+#### **[Internal Helium Recycler February 2022](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22531334)**
 
 #### **[Safety Instructions June 2015](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079891)**
 
