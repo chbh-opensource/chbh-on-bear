@@ -6,6 +6,8 @@
 
 ### **["The Participant Logging Computer isn't working!"](../../meg/troubleshooting/plc_offline.md)**
 
+### **["Link to DACQ workstation is down"](../../meg/troubleshooting/linkdown_dacq.md)**
+
 ### **[MaxShield State](../../meg/troubleshooting/maxshield.md)**
 
 ### **[Gantry Position](../../meg/troubleshooting/gantry_position.md)**

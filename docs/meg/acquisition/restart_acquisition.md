@@ -99,6 +99,7 @@ Click **OK** once the required file to be loaded has been found.
 	- CTRL + left click to return to the "**all sensor**" view
 	- Once happy, click **```Stop measurement```**, followed by **```Stop Collector```**
 7. To exit Tuner, select **```File > Exit```**. A dialog window will pop up, select "**Yes**"
+8. If **sensors are still noisy**, follow **[Noisy Channels](../../meg/acquisition/noisy_channels.md)** and **[Fixing Noisy Channels](../../meg/acquisition/to_fix_noisy_channels.md)**, as necessary, then proceed from Step 1. again (if required).
 
 !!! Note
 	**He_90.tnp** is the default filename expected by **megacq** when the software is started.
