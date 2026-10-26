@@ -1,6 +1,6 @@
 # Emergency Out-of-Hours
 
-!!! info "<span style="font-size:large">Primarily for MEG Support Officer/Holiday Cover Personnel only)</span>"
+!!! info "<span style="font-size:large">Primarily for MEG Support Officer/Holiday Cover Personnel only</span>"
 
 **<span style="font-size:x-large">[Security Contact Details](../labsafety/securitycontact.md)</span>**
 
