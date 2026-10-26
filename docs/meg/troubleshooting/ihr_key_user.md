@@ -13,7 +13,7 @@
 **[Internal Helium Recycler IFU - February 2022](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22531334)**
 
 **[NM26008H-B_TRIUX_Neo_IHR_Key_User_Training](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22531332)** - **<span style="color:blue">required reading.</span>**<br />
-- *Slides provided during IHR Customer training, slide **[Summary](../troubleshooting/summary.md)***
+- Slides provided during IHR Customer training, see slide **[Summary](../troubleshooting/summary.md)**
 
 !!! warning "<span style="font-size:medium">Not all suggested usage can now be performed remotely, due to TeamViewer no longer supporting the older version currently in use on the IHR. Only if accessing the IHR Console locally in the Tank Room (G24) will the procedures work as suggested.<br /> - See [Usual Problems, Probable Solutions] for how to now obtain remote access to the IHR.</span>"
 
