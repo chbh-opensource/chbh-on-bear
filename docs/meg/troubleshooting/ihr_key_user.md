@@ -20,12 +20,12 @@
 #### **Spare Keys**
 - Spare keys to the MEG Control Room & IHR Tank Room can be found in the wall key safe in Reception. All CHBH Operations Committee members know the procedure to access the Reception key safe.
 
-#### **[Logout or Restart IHR] as necessary**
+#### **[Logout or Restart IHR](../../meg/troubleshooting/logout_restart_ihr.md)** as necessary.
 
-#### **To see how much [MEG Usage Time] is obtainable**.
-#### **[Status Codes on IHR]** (shown in “**Follow data log**”)
-#### **[IHR Plot usage]**
-#### **[Bar Pressure to Liquid Helium Volume]**
+#### To see how much **[MEG Usage Time](../../meg/troubleshooting/usage_time.md)** is obtainable.
+#### **[IHR Status Codes](../../meg/troubleshooting/ihr_status_codes.md)** (shown in “**Follow data log**”)
+#### **[IHR Plot usage](../../meg/troubleshooting/ihr_plot_usage.md)**
+#### **[Bar Pressure to Liquid Helium Volume](../../meg/troubleshooting/bar_pressure.md)**
 
 <hr style="border:1px solid maroon">
 

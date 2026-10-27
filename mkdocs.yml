@@ -173,6 +173,11 @@ nav:
         - Remunerations: meg/troubleshooting/remunerations.md
         - IHR Key User Information: meg/troubleshooting/ihr_key_user.md
         - IHR Slide Summary: meg/troubleshooting/summary.md
+        - IHR Logout/Restart: meg/troubleshooting/logout_restart_ihr.md
+        - MEG Usage Time: meg/troubleshooting/usage_time.md
+        - IHR Status Codes: meg/troubleshooting/ihr_status_codes.md
+        - IHR Plot usage: meg/troubleshooting/ihr_plot_usage.md
+        - Bar Pressure LHe Vol: meg/troubleshooting/bar_pressure.md
         - Emergency Out-of-Hours: meg/troubleshooting/emergency_outofhours.md
         - Power Up Equipment: meg/troubleshooting/power_up.md
         - Power Down Equipment: meg/troubleshooting/power_down.md
