@@ -68,7 +68,7 @@ The main scheduling choices are a **single daily MEG window**, a **split window 
 - **Strengths:** Helps avoid overfilling the tanks and possible helium loss.<br />
 - **Tradeoffs / risks:** Uses calendar time even when no actual measurements are planned.<br />
 
-!!! info "CHBH MEG implements this procedure only on Sundays."
+!!! info "CHBH MEG implements this procedure on Sundays.<br />"*Instead of using those ‘None’ windows, nowadays we recommend to set the windows to their minimum length of 1 hour. The reason is that if you have multiple None days in a row, the system lets the tanks accumulate until 9 bars before starting to liquefy. Then if it happens that someone would happen to need the system earlier than expected, the tanks might get overfilled before the unexpected measurement finishes.*" - Antti Teliö, 09/01/2020"
 
 **<span style="font-size:large">Operating implications</span>**
 
