@@ -6082,28 +6082,34 @@
 
 
 <h1 id="meg-usage-time">MEG Usage time</h1>
-<p>'' <span style="color:maroon">To see much MEG usage time you can obtain…</span>'''</p>
-<ul>
-<li>'''Open''' a terminal window (click on the “'''Command Line'''“ button, lower left of the IHR window), then type ...
-** ''' <span style="color:red">cd /neuro/cryo/bin</span>'''
-** ''' <span style="color:red">./plot 7d --cycles</span>'''  - lists cryocooler state changes and times (85=&gt; turn off, 80=&gt; turn on)
-** ''' <span style="color:red">./plot 7d --wins</span>'''  - plots windows (on top are the boil-of times, the same cooler off times as with cycles.</li>
-</ul>
-<p>'''See [[IHR Plot usage]] for other uses of the ''plot'' command.'''</p>
-<p><gallery widths=440x heights=220px>
-Image:Cycles.png|IHR Cycles
-</gallery></p>
+<p><strong><span style="color:maroon">To see how much MEG usage time can be obtained ... <br /> - via the IHR PC (Tank Room, G24) - <span style="color:red">not remotely!!</span></span></strong></p>
 <ul>
 <li>
-<p>As the tanks get only half full during the day (~5bar), some extra capacity is achievable by letting the tank pressure accumulate Mon - Fri, so that the cryocooler can liquefy the full tanks over the weekend (or Sunday).</p>
-</li>
-<li>
-<p>The extra capacity varies 1-2.5 hr/day, depending on the gantry position and cold head performance.</p>
+<p><strong>Open</strong> a terminal window (click on the <strong>Konsole</strong> Terminal button, lower left of the IHR window), then type ...</p>
+<ul>
+<li><strong>megadmin@neptunus-20170801:/&gt; <span style="color:red">cd /neuro/cryo/bin</span></strong></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">The default Terminal window on the IHR now opens to ...<br/> "<em>megadmin@neptunus-20170801:/opt/neuromag/cryo/bin&gt;</em>" <br />so the above "cd (change directory)" may not be needed.</p>
+</div>
+<ul>
+<li><strong><span style="color:red">./plot 7d --cycles</span></strong> - lists cryocooler state changes and times (85 =&gt; turn off, 80 =&gt; turn on)</li>
+<li><strong><span style="color:red">./plot 7d --wins</span></strong>  - plots windows (on top are the boil-off times, the same cooler-off times as with cycles.</li>
+</ul>
 </li>
 </ul>
-<p>''' <span style="color:maroon">What to set the Scheduler to, if acquisition not taking place e.g. Sundays.</span>'''</p>
-<p>''“Instead of using those ‘None’ windows, nowadays we recommend to set the windows to their '''<span style="color:blue">minimum length of 1 hour</span>'''. The reason is that if you have multiple None days in a row, the system lets the tanks accumulate until 9 bars before starting to liquefy. Then if it happens that someone would happen to need the system earlier than expected, the tanks might get overfilled before the unexpected measurement finishes.”''</p>
-<p>'''Antti Teliö, 09/01/2020'''</p>
+<p><strong>See <a href="../ihr_plot_usage/">IHR Plot usage</a> for other uses of the "plot" command.</strong></p>
+<p><img alt="Cycles" src="../../../images/meg/Cycles.png" />
+<strong>IHR Cycles</strong></p>
+<div class="admonition info">
+<p class="admonition-title">As the tanks only get half full during the day (~5bar), some extra capacity is achievable by letting the tank pressure accumulate Mon - Fri, so that the cryocooler can liquefy the full tanks over the weekend (or Sunday). <br /><br />The extra capacity varies 1-2.5 hr/day, depending on the gantry position and cold head performance.</p>
+</div>
+<p><br />
+<strong><span style="color:maroon">What to set the Scheduler to, if acquisition not taking place e.g. Sundays.</span></strong></p>
+<p><strong><em>“Instead of using those "None" windows, nowadays we recommend to set the windows to their <span style="color:blue">minimum length of 1 hour</span>. 
+The reason is that if you have multiple None days in a row, the system lets the tanks accumulate until 9 bars before starting to liquefy. 
+Then if it happens that someone would happen to need the system earlier than expected, the tanks might get overfilled before the unexpected measurement finishes.”</em></strong></p>
+<p><strong>Antti Teliö, 09/01/2020</strong></p>
 
 
 
