@@ -4158,6 +4158,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Problems, Solutions
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -4174,6 +4192,64 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#any-other-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Any other issues
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Any other issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#abnormal-boil-off-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abnormal boil-off rate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-recycler-is-now-on-battery-power" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The recycler is now on battery power
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -6063,6 +6139,53 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#any-other-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Any other issues
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Any other issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#abnormal-boil-off-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abnormal boil-off rate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-recycler-is-now-on-battery-power" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The recycler is now on battery power
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -6082,6 +6205,52 @@
 
 
 <h1 id="usual-problems-probable-solutions">Usual Problems, Probable Solutions</h1>
+<p>== '''<span style="color:red">"Abnormal liquefaction rate" </span>''' ==</p>
+<ul>
+<li>'''''<span style="color:blue">helium level in the storage tanks not decreasing as expected.</span>'''''</li>
+</ul>
+<p>== '''<span style="color:red">"Link to DACQ workstation is down" </span>''' ==</p>
+<ul>
+<li>'''''<span style="color:blue">control software cannot send notifications or detect measurement schedule. Liquefaction could start in the middle of a MEG Acquisition.</span>'''''</li>
+</ul>
+<p>== '''<span style="color:red">"Error in cryocooler! Recycler is now in fail-safe mode" </span>''' ==</p>
+<ul>
+<li>'''''<span style="color:blue">cryocooler compressor is not operating correctly, it is not safe for the IHR to continue operating. Helium loss will occur if problem persists.</span>'''''</li>
+</ul>
+<h2 id="any-other-issues"><strong><span style="color:red">Any other issues</span></strong></h2>
+<h3 id="abnormal-boil-off-rate"><strong>Abnormal boil-off rate</strong></h3>
+<ul>
+<li><strong><em><span style="color:blue">The helium boil-off rate is higher than expected, or abnormally low.</span></em></strong></li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Unlikely to happen out-of-hours, only during daily usage.</strong></p>
+<p>The boil-off rate can temporarily rise if the probe unit position is changed repeatedly many times. In this case, the boiling rate typically returns to the normal level within 15-30 minutes.</p>
+<ul>
+<li>Attend the MEG Lab and query the current Operator about any unnecessary gantry changes.</li>
+<li>Examine the history plots on the IHR Console to see how the situation has developed re: previous Operator's usage. 
+The plots will provide clues - changes in boil-off rate (plotted pressure slope has greater or less angle than normal) - as to possible cause e.g. gantry left at Upright (60), 
+rather than being returned to Liquefaction (25) if there are a number of hours between the next acquisition session.<ul>
+<li><strong>Open</strong> a terminal window (click on the <strong>Konsole</strong> Terminal button, lower left of the IHR window), then type ...</li>
+<li><strong>megadmin@neptunus-20170801:/opt/neuromag/cryo/bin&gt; <span style="color:red">./plot 7d --gantry</span></strong></li>
+<li><strong>gantry angle</strong> plots as <strong><span style="color:blue">blue squares</span></strong>, using the right-hand scale for position (25, 60, 68).</li>
+<li><strong>Close the plot</strong> and re-run the command with more days, e.g. <strong><span style="color:red">14d</span></strong>, to see further back in time.</li>
+</ul>
+</li>
+<li><strong><span style="color:maroon">Boil-off rate is normal again</span></strong>, is reported by the IHR once the situation is resolved e.g. gantry moved to 25.</li>
+</ul>
+<h3 id="the-recycler-is-now-on-battery-power"><strong>The recycler is now on battery power</strong></h3>
+<ul>
+<li><strong><em><span style="color:blue">The helium recycler cabinet has lost the line power. The UPS keeps the cabinet powered up for 5-30 minutes, but will then run out of battery.</span></em></strong></li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Could happen at any time, day or night. Usually just a couple of seconds at most.</strong></p>
+<p>Indicates that the Internal Helium Recycler experienced a temporary loss of mains power, and switched to its backup battery as designed.
+This could have been due to brief building power interruption or voltage dip, a momentary interruption to the circuit supplying the recycler, or a brief power supply glitch within the recycler itself.<br />
+If it was a single occurrence, then it's most likely just a brief, transient power interruption that the Internal Helium Recycler handled correctly.<br />
+If there are no further alarms, the recycler remains in normal operation, and this only happened once, it's usually not cause for concern.</p>
+<ul>
+<li>Save the resulting IHR email messages, which will note the date and time of the incident. If Estates reports a momentary power dip around the same time, that would explain it.</li>
+<li>If the pair of messages are seen repeatedly, e.g. several times a day or week, report it to Estates and/or MEGIN, as it could indicate an unstable Tank Room Mains power supply or a developing fault with the recycler's power input or UPS.</li>
+<li><strong><span style="color:maroon">Line power has been restored</span></strong>, is reported by the IHR once it detects that Mains power has returned indicating the alarm condition has ended, and it has resumed normal operation.</li>
+</ul>
 
 
 
