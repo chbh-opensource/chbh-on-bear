@@ -23,7 +23,7 @@
 #### [Logout or Restart IHR](../../meg/troubleshooting/logout_restart_ihr.md) as necessary.
 
 #### To see how much [MEG Usage Time](../../meg/troubleshooting/usage_time.md) is obtainable.
-#### [IHR Status Codes](../../meg/troubleshooting/ihr_status_codes.md) (shown in “Follow data log”)
+#### [IHR Status Codes](../../meg/troubleshooting/ihr_status_codes.md) (shown in “Follow data log", column 6)
 #### [IHR Plot usage](../../meg/troubleshooting/ihr_plot_usage.md)
 #### [Bar Pressure to Liquid Helium Volume](../../meg/troubleshooting/bar_pressure.md)
 
