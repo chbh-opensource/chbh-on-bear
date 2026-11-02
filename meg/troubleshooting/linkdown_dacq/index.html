@@ -6170,12 +6170,16 @@
   
 
 
-<h1 id="link-to-dacq-workstation-is-down">"Link to DACQ workstation is down"</h1>
+<h1 id="link-to-dacq-workstation-is-down">Link to DACQ workstation is down</h1>
 <h3 id="problem"><strong><span style="color:maroon">Problem</span></strong></h3>
-<p>If MEG Operators <strong>inadvertently shutdown/restart the MEG DACQ Console/Workstation</strong>, rather than logging off, <strong>or the DACQ automatically reboots</strong>, the IHR will send out the following error SMS text and email ...</p>
+<p>If MEG Operators <strong>inadvertently shutdown/restart the MEG DACQ Console/Workstation</strong>, rather than logging off, <strong>or the DACQ reboots unexpectedly</strong>, the IHR will send out the following error SMS text and email ...</p>
 <p><strong><code>Link to DACQ workstation is down</code></strong></p>
 <h3 id="solution"><strong><span style="color:maroon">Solution</span></strong></h3>
 <ol>
+<li><strong>If powered off completely, switch on the DACQ PC</strong>.<ul>
+<li><strong>If DACQ is on, but Link is lost</strong> - press <strong><code>Ctrl-Alt-Delete</code></strong> at least <strong>once, possibly twice, to soft boot</strong>.</li>
+</ul>
+</li>
 <li><strong>Allow the DACQ to reboot</strong> whilst <strong>watching the bootloader/kernal initialisation process for any errors.</strong><ul>
 <li><strong>Allow any disk check to take place</strong>.</li>
 <li><strong>If errors are seen</strong>, make a note/take 'phone image, and <strong>contact MEG Support</strong>, or <strong>email chbh-help[@]contacts ...</strong>, or <strong>MEGIN</strong> as necessary.</li>
@@ -6187,8 +6191,14 @@
 <li><strong><code>Applications -&gt; Neuromag -&gt; Maintenance -&gt; Restart Acquisition Programs</code></strong></li>
 </ul>
 </li>
+<li><strong><span style="color:blue">Move the gantry to an "in use" position e.g. Upright (60)</span></strong></li>
 <li>Then <strong>start Acquisition</strong> and <strong>Load</strong> the latest Tuning file, see <strong><a href="../../acquisition/restart_acquisition/#loading-a-tuning-file">Loading a Tuning File</a></strong>, to <strong>make sure the correct Tuning file for acquisition is loaded</strong>, and to <strong>check for any sensor noise</strong>.<ul>
-<li><strong>Check for any errors in the Message Box at the top of the Acquisition control window.</strong></li>
+<li>
+<div class="admonition note">
+<p class="admonition-title">If the sensors are still noisy, more than one <a href="../../acquisition/rap/">RAP</a> might be required and also maybe a <a href="../../acquisition/restart_acquisition/#resetting-the-electronics">soft boot of the electronics</a></p>
+</div>
+</li>
+<li><strong>Check for any errors in the Message Box at the top of the Acquisition control window, or in any of the Acquisition settings e.g. <a href="../gantry_position/">Gantry Position</a></strong></li>
 </ul>
 </li>
 <li>See <strong><a href="../../acquisition/restart_acquisition/">Restart Acquisition</a></strong> for full details.</li>

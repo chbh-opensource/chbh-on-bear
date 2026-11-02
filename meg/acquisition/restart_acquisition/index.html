@@ -6223,15 +6223,14 @@ Boot-up takes about 30—60 seconds. <br />
 <strong>If the bootup fails, open the back door of the main electronics cabinet and check the indicator LEDs of individual power supplies.</strong> <br /> </p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><span style="color:red"><strong>If several boards fail simultaneously</strong></span>, <strong>all boards can be reset simultaneously</strong> by pressing the <strong>Reset</strong> button of the <strong>System Controller Card</strong> <strong>[<a href="../../../images/meg/SCC.jpg">SCC</a>]</strong>
-which, in our installation, is located 5th slot from the right in the middle rack in the electronics cabinet. Most MEG sites detail this slot with a label/arrow.<br /></p>
+<p><span style="font-size:large"><span style="color:red"><strong>If several boards fail simultaneously</strong></span>, <strong>all boards can be reset simultaneously</strong> by pressing the <strong>Reset</strong> button of the <strong>System Controller Card</strong> <strong>[<a href="../../../images/meg/SCC.jpg">SCC</a>]</strong> which is located 5th slot from the right in the middle rack in the electronics cabinet. <br />Most MEG sites detail this slot with a label/arrow.</span><br /></p>
 </div>
 <p>After resetting the boards, run <strong>Restart Acquisition Programs</strong> by double-clicking its icon in the <strong>Maintenance</strong> toolbox on the acquisition workstation. See the specific <strong><a href="../rap/">RAP</a></strong> page for the full procedure. <br /></p>
 <p>The <strong><a href="../../../images/meg/SCC.jpg">SCC</a></strong> and FEC boards also have status LEDs for the optical links of the stimulus trigger interface units and MEG and Bio/EEG preamplifiers.
 The Link LEDs should be lit <span style="color:green"><strong>green</strong></span> after resetting the boards.<br /></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Each time the MEG front-end electronics are reset, or powered off/on, they <strong>must</strong> be initialized by invoking the <strong>Restart Acquisition Programs</strong>, a <strong><a href="../rap/">RAP</a></strong>, and <strong>the correct/up-to-date Tuning File must be reloaded</strong>.</p>
+<p><span style="font-size:large">Each time the MEG front-end electronics are reset, or powered off/on, they <strong>must</strong> be initialized by invoking the <strong>Restart Acquisition Programs</strong>, a <strong><a href="../rap/">RAP</a></strong>, and <strong>the correct/up-to-date Tuning File must be reloaded</strong></span>.</p>
 </div>
 <h3 id="restarting-the-software"><strong><span style="color:blue">Restarting the software</span></strong></h3>
 <p><strong>When to restart</strong></p>
@@ -6275,6 +6274,7 @@ saved under the project directory called <strong>unknown</strong> if the real pr
 <h3 id="loading-a-tuning-file"><strong><span style="color:blue">Loading a Tuning File</span></strong></h3>
 <p><strong>Procedure to load a tuning file, to check sensor noise levels, and to make sure the correct file is loaded after a Console reboot/MEG front-end reset or power off/on.</strong></p>
 <ol>
+<li><strong><span style="color:blue">Move the gantry to an "in use" position e.g. Upright (60)</span></strong></li>
 <li>Start the <strong>Acquisition</strong> program (<strong><em>megacq</em></strong>) on the DACQ Console.</li>
 <li>Select <strong><code>Tools &gt; Tuner</code></strong> from the menu bar at the top of the <strong>Acquisition</strong> window.</li>
 <li>Select <strong><code>File &gt; Load tunings</code></strong> from the menu bar. A dialog window will pop up...<br /><br />
@@ -6294,9 +6294,9 @@ Click <strong>OK</strong> once the required file to be loaded has been found.</l
 </ol>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><strong>He_90.tnp</strong> is the default filename expected by <strong>megacq</strong> when the software is started.
+<p><span style="font-size:large"><strong>He_90.tnp</strong> is the default filename expected by <strong>megacq</strong> when the software is started.
 After a completed tuning session, ensure that the new tuning file is saved under this name. A backup copy can then be made by
-selecting <strong><code>File &gt; Save Tunings &gt; Save elsewhere</code></strong> and chosing a different filename e.g. date of tuning/gantry position.</p>
+selecting <strong><code>File &gt; Save Tunings &gt; Save elsewhere</code></strong> and chosing a different filename e.g. date of tuning/gantry position.</span></p>
 </div>
 
 
