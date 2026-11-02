@@ -31,9 +31,8 @@ Wait until the board shows a steady green <span style="color:green">**Run**</spa
 Boot-up takes about 30—60 seconds. <br />
 **If the bootup fails, open the back door of the main electronics cabinet and check the indicator LEDs of individual power supplies.** <br /> 
 
-!!! note
-    <span style="color:red">**If several boards fail simultaneously**</span>, **all boards can be reset simultaneously** by pressing the **Reset** button of the **System Controller Card** **[[SCC](../../images/meg/SCC.jpg)]**
-	which, in our installation, is located 5th slot from the right in the middle rack in the electronics cabinet. Most MEG sites detail this slot with a label/arrow.<br />
+!!! note 
+	<span style="font-size:large"><span style="color:red">**If several boards fail simultaneously**</span>, **all boards can be reset simultaneously** by pressing the **Reset** button of the **System Controller Card** **[[SCC](../../images/meg/SCC.jpg)]** which is located 5th slot from the right in the middle rack in the electronics cabinet. <br />Most MEG sites detail this slot with a label/arrow.</span><br />
 	
 After resetting the boards, run **Restart Acquisition Programs** by double-clicking its icon in the **Maintenance** toolbox on the acquisition workstation. See the specific **[RAP](rap.md)** page for the full procedure. <br />
 
@@ -41,7 +40,7 @@ The **[SCC](../../images/meg/SCC.jpg)** and FEC boards also have status LEDs for
 The Link LEDs should be lit <span style="color:green">**green**</span> after resetting the boards.<br />
 
 !!! note 
-    Each time the MEG front-end electronics are reset, or powered off/on, they **must** be initialized by invoking the **Restart Acquisition Programs**, a **[RAP](rap.md)**, and **the correct/up-to-date Tuning File must be reloaded**.
+    <span style="font-size:large">Each time the MEG front-end electronics are reset, or powered off/on, they **must** be initialized by invoking the **Restart Acquisition Programs**, a **[RAP](rap.md)**, and **the correct/up-to-date Tuning File must be reloaded**</span>.
 
 ### **<span style="color:blue">Restarting the software</span>**
 
@@ -86,22 +85,23 @@ See the **[Resetting the electronics](restart_acquisition.md/#resetting-the-elec
 
 **Procedure to load a tuning file, to check sensor noise levels, and to make sure the correct file is loaded after a Console reboot/MEG front-end reset or power off/on.**
 
-1. Start the **Acquisition** program (***megacq***) on the DACQ Console.
-2. Select **```Tools > Tuner```** from the menu bar at the top of the **Acquisition** window.
-3. Select **```File > Load tunings```** from the menu bar. A dialog window will pop up...<br /><br />
+1. **<span style="color:blue">Move the gantry to an "in use" position e.g. Upright (60)</span>**
+2. Start the **Acquisition** program (***megacq***) on the DACQ Console.
+3. Select **```Tools > Tuner```** from the menu bar at the top of the **Acquisition** window.
+4. Select **```File > Load tunings```** from the menu bar. A dialog window will pop up...<br /><br />
 	**```OK to load state file /neuro/dacq/tunings/tnp/He_90.tnp```**<br /><br />
-4. If this is the file wanted, click **OK**. Otherwise, click **Load other** to pop up an ordinary file selection box and browse for the file required. 
+5. If this is the file wanted, click **OK**. Otherwise, click **Load other** to pop up an ordinary file selection box and browse for the file required. 
 Click **OK** once the required file to be loaded has been found.
-5. Click on the **Measure noise** button, to start a noise check.
-6. Look at the generated "**Manhatten Skyline**", warm any sensors that are reaching atypical levels...
+6. Click on the **Measure noise** button, to start a noise check.
+7. Look at the generated "**Manhatten Skyline**", warm any sensors that are reaching atypical levels...
 	- CTRL + left click on the noisy sensor "building"
 	- **```Commands > Heat sensor```**, trace should reduce in height/noise level reduce
 	- CTRL + left click to return to the "**all sensor**" view
 	- Once happy, click **```Stop measurement```**, followed by **```Stop Collector```**
-7. To exit Tuner, select **```File > Exit```**. A dialog window will pop up, select "**Yes**"
-8. If **sensors are still noisy**, follow **[Noisy Channels](../../meg/acquisition/noisy_channels.md)** and **[Fixing Noisy Channels](../../meg/acquisition/to_fix_noisy_channels.md)**, as necessary, then proceed from Step 1. again (if required).
+8. To exit Tuner, select **```File > Exit```**. A dialog window will pop up, select "**Yes**"
+9. If **sensors are still noisy**, follow **[Noisy Channels](../../meg/acquisition/noisy_channels.md)** and **[Fixing Noisy Channels](../../meg/acquisition/to_fix_noisy_channels.md)**, as necessary, then proceed from Step 1. again (if required).
 
 !!! Note
-	**He_90.tnp** is the default filename expected by **megacq** when the software is started.
+	<span style="font-size:large">**He_90.tnp** is the default filename expected by **megacq** when the software is started.
 	After a completed tuning session, ensure that the new tuning file is saved under this name. A backup copy can then be made by
-	selecting **```File > Save Tunings > Save elsewhere```** and chosing a different filename e.g. date of tuning/gantry position.
+	selecting **```File > Save Tunings > Save elsewhere```** and chosing a different filename e.g. date of tuning/gantry position.</span>
