@@ -2,7 +2,7 @@
 
 **A comprehensive guide covering system operation, configurations, scheduling, notifications, maintenance, helium management, and safety procedures for TRIUX neo IHR.**
 
-!!! warning "<span style="font-size:medium">Not all suggested usage can now be performed remotely, due to TeamViewer no longer supporting the older version currently in use on the IHR. Only if accessing the IHR Console locally in the Tank Room (G24) will the procedures work as suggested.<br /> - See [Usual Problems, Probable Solutions] for how to now obtain remote access to the IHR.</span>"
+!!! warning "<span style="font-size:medium">Not all suggested usage can now be performed remotely, due to TeamViewer no longer supporting the older version currently in use on the IHR. Only if accessing the IHR Console locally in the Tank Room (G24) will the procedures work as suggested.<br /> - See [Usual Problems, Probable Solutions](../../meg/troubleshooting/problems_solutions.md) for how to now obtain remote access to the IHR.</span>"
 
 #### <span style="color:maroon">System Overview and Operating Modes</span>
 
@@ -121,7 +121,7 @@ The main scheduling choices are a **single daily MEG window**, a **split window 
 
 |  Parameter / Metric  |  Value / Command Syntax  |  Purpose  |
 | -------------  |  -------  |  ------  |
-| **Default Password**  |  [Information]  |  Authenticates access to the Control Terminal.  |
+| **Default Password**  |  (**[Off_Site_Procedure]**)  |  Authenticates access to the Control Terminal.  |
 | **Cool-down Cutoff** |  **1.2 bar**  |  Pressure threshold where Cool-down mode reverts to Normal.  |
 | **UPS Battery Buffer**  |  **5-25 minutes**  |  Handles brief brownouts before complete power loss.  |
 | **Optimal Gantry State**  |  Vertical, 25 (Liquefaction position) |  Maximises liquefaction and mininises helium boil-off.  |

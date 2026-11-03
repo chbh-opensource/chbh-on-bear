@@ -9,16 +9,20 @@
 ### **<span style="color:red">Abnormal liquefaction rate</span>**
  - ***<span style="color:blue">The helium level in the helium gas storage tanks is not decreasing expectedly.</span>***
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Make sure that the probe unit is in the liquefaction position ("25"). Check the gantry position.<br /> A liquefaction error, so unlikely to occur during normal working hours - unless liquefying during the day (Sleep Study ongoing, or emergency Cooldown)**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Make sure that the probe unit is in the liquefaction position ("25"). Check the gantry position.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A liquefaction error, so unlikely to occur during normal working hours - unless liquefying during the day (Sleep Study ongoing, or emergency Cooldown)**.
 
- - **During the day, attend the MEG Lab** and open the MSR. Check gantry/probe unit is at 25.
-	 - Move the gantry up from 0, down from 68 or 60 as necessasy. Check traffic light is 
+ - **During the day, attend the MEG Lab** and **open the MSR. Check gantry/probe unit is at 25**.
+	 - **Move the gantry** up from 0, down from 68 or 60 as necessasy. **Check traffic light is** 
 <myBlink>**flashing green**</myBlink>
-	-  Adjiust UP/DOWN buttons as necessary.
- - As per **[Tidying Up](../../meg/acquisition/tidying_up.md)**, the last Operator *should* haved moved the gantry/probe unit to 25 after use/at EoD.
-
-
-
+	-  **Adjust UP/DOWN buttons** as necessary.
+ - *As per **[Tidying Up](../../meg/acquisition/tidying_up.md)**, the last Operator **should** haved moved the gantry/probe unit to 25 after use/at EoD*.
+ - **If at home, 'phone MEG Control Room ([Information](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22584280))** - *Operator could still be on-site*.
+	 - **If no answer**, follow **[Off_Site_Procedure]** to **check gantry position**.
+	 - If **gantry postion is incorrect, not 25** ...
+		- **```DACQ: CONNECTED, STANDBY Gantry angle: 60```**
+		- **Email the last Operator** (*check Calpendo*) to inform them of their **need to return to the Lab to move the gantry** to Liquefaction.
+		- If **unable to contact** them, **email the Operators**, **<span style="color:blue">Chbh-meg-operator[@]lists.bham.ac.uk</span>**, to **query if anyone is on-site and able to move the gantry**, or is **willing to attend the Lab to do so**.
+		- If **none are willing**, then an **on-site visit will be required by HC to move the gantry to 25**.
 
 ### **<span style="color:red">Link to DACQ workstation is down</span>**
  - ***<span style="color:blue">The control software cannot send notifications or detect the measurement schedule. Thus, the cryocooler can start in the middle of a MEG measurement and disturb the signal quality.</span>***

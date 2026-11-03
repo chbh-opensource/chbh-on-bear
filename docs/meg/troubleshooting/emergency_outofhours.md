@@ -9,17 +9,17 @@
 **If attendance to the MEG Out-of-Hours/Overnight is required ...**
 
 1. Inform Security of personal contact details ...
-	- MEG Control Room phone extension **[Information]**, mobile phone number.
+	- MEG Control Room phone extension **([Information](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22584280))**, mobile phone number.
 2. Inform Security of MEGIN contact details ...
-	- Mobile phone number of MEGIN engineer, *who may have previously called whilst Cover Staff was off-site/at Home*.
-	- MEGIN Support email addreses (*if required*) **[Information]**
+	- Mobile phone number of MEGIN engineer, *who may have previously called whilst Holiday Cover Staff was off-site/at Home*.
+	- MEGIN Support email addreses (*if required*) **([Information](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22584280))**
 3. Inform MEGIN of **[Security Contact Details](../labsafety/securitycontact.md)**
 
 
 ### **Procedure**
 
 1. **Enter** CHBH, MEG Lab as normal (*swipe access, obtain key from key safe*).
-2. **Security is informed** of arrival and contact details provided e.g. personal mobile number, MEG Control Room **[Information]**, as well as those of the MEGIN engineer (mobile phone), plus an estimated time to be spent on-site.
+2. **Security is informed** of arrival and contact details provided e.g. personal mobile number, MEG Control Room phone extension **([Information](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22584280))**, as well as those of the MEGIN engineer (mobile phone), plus an estimated time to be spent on-site.
 3. **Inform MEGIN** of **[Security Contact Details](../labsafety/securitycontact.md)**
 4. **Follow agreed procedure/s to mitigate/solve issues, or as informed to by MEGIN.**
 5. **Security updated** if initial on-site time will overrun / issue taking longer to resolve.
@@ -32,5 +32,5 @@
 
 **<span style="font-size:large"><span style="color:blue">Emergency Contacts:</span>**
 
-**<span style="font-size:medium">Jonathan L Winter: **[Information]** (MEG Support Officer).</span>**<br />
-**<span style="font-size:medium">Dr. Hyojin park: **[Information]** (MEG Academic Lead).</span>**
+**<span style="font-size:medium">Jonathan L Winter: **([Information](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22584280))** (MEG Support Officer).</span>**<br />
+**<span style="font-size:medium">Dr. Hyojin park: **([Information](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22584280))** (MEG Academic Lead).</span>**
