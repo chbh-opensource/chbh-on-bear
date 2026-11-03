@@ -23,6 +23,8 @@
 		- **Email the last Operator** (*check Calpendo*) to inform them of their **need to return to the Lab to move the gantry** to Liquefaction.
 		- If **unable to contact** them, **email the Operators**, **<span style="color:blue">Chbh-meg-operator[@]lists.bham.ac.uk</span>**, to **query if anyone is on-site and able to move the gantry**, or is **willing to attend the Lab to do so**.
 		- If **none are willing**, then an **on-site visit will be required by HC to move the gantry to 25**.
+		
+		NNNNNNNOOOOOOOO
 
 ### **<span style="color:red">Link to DACQ workstation is down</span>**
  - ***<span style="color:blue">The control software cannot send notifications or detect the measurement schedule. Thus, the cryocooler can start in the middle of a MEG measurement and disturb the signal quality.</span>***
