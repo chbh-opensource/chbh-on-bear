@@ -133,7 +133,7 @@
 !!! Note "`ppx a / ppx s` didn't work on one occasion. PROPixx needed a full power off/on to reset."
 !!! Note "Projector lens cover to remain off, so the projector state can easily be determined."
 
-- [ ] **<span style="color:#FF5733">If end of day, or no one booked in for the session following yours</span>**, **move the gantry to the Liquefaction position ("**25**")**. Make sure the **gantry traffic light is <span style="color:green">FLASHING GREEN</span>**.
+- [ ] **<span style="color:#FF5733">If end of day, or no one booked in for the session following yours</span>**, **move the gantry to the Liquefaction position ("**25**")**. Make sure the **gantry traffic light is <myBlink>FLASHING GREEN</myBlink>**.
 - [ ] **NAtA Control Box in Stimulus Cabinet can remain switched on.**
 - [ ] **<span style="color:#FF5733">If end of day</span>**, **Stim PC to left switched on** (*no need to logoff/shutdown*), then ...
 	 - **Make sure KVM is switched to "NEW" (button #3)**, so the **monitor is displaying the NEW Stim Desktop** (*a screensaver is set to protect the monitor*).
@@ -150,9 +150,34 @@
 !!! Note "**<span style="color:maroon">Don’t shutdown the Console! Only logout and then switch the monitor off.</span>**"
 
 - [ ] **Fill out a [Maintenance Log](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079840) report for your session (one report for each session, if you have consecutive sessions).**
-- [ ] **<span style="color:#FF5733">If end of day</span>**, **open MSR door for one last sanity check** that **gantry traffic light is <span style="color:green">FLASHING GREEN</span>**.
+- [ ] **<span style="color:#FF5733">If end of day</span>**, **open MSR door for one last sanity check** that **gantry traffic light is <myBlink>FLASHING GREEN</myBlink>**.
 	 - *If not, de-metal and adjust gantry up/down buttons as necessary.*
 - [ ] **<span style="color:#FF5733">If end of day</span>**, **Switch off Control Room light**.
 - [ ] **<span style="color:#FF5733">If end of day</span>**, **Lock MEG lab, return key to key safe**. *Make sure key safe is locked!*
 - [ ] **<span style="color:green">On leaving, sanitise your hands with the provided Anti-bac foam (dispenser on wall outside Control Room).</span>**
 - [ ] **Put all relevant documentation in the black Postbox outside Reception** as you exit the MEG corridor.
+
+
+<!---
+Code to make text blink green, "myBlink" 
+--->
+
+<script>
+	(function () {
+		var blinkTags = document.getElementsByTagName("myBlink");
+		var numBlinkTags = blinkTags.length;
+		var setBlinkTagColors = function (color) {
+			for (var i = 0; i < numBlinkTags; i++) {
+				blinkTags[i].style.color = color;
+			}
+		}
+		var revertColor = function () {
+			setBlinkTagColors("green");
+		};
+		window.setInterval(function () {
+			setBlinkTagColors("white");
+
+			window.setTimeout(revertColor, 200);
+		}, 1000);
+	})();
+</script>

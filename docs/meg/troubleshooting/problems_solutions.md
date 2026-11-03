@@ -9,6 +9,17 @@
 ### **<span style="color:red">Abnormal liquefaction rate</span>**
  - ***<span style="color:blue">The helium level in the helium gas storage tanks is not decreasing expectedly.</span>***
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Make sure that the probe unit is in the liquefaction position ("25"). Check the gantry position.<br /> A liquefaction error, so unlikely to occur during normal working hours - unless liquefying during the day (Sleep Study ongoing, or emergency Cooldown)**
+
+ - **During the day, attend the MEG Lab** and open the MSR. Check gantry/probe unit is at 25.
+	 - Move the gantry up from 0, down from 68 or 60 as necessasy. Check traffic light is 
+<myBlink>**flashing green**</myBlink>
+	-  Adjiust UP/DOWN buttons as necessary.
+ - As per **[Tidying Up](../../meg/acquisition/tidying_up.md)**, the last Operator *should* haved moved the gantry/probe unit to 25 after use/at EoD.
+
+
+
+
 ### **<span style="color:red">Link to DACQ workstation is down</span>**
  - ***<span style="color:blue">The control software cannot send notifications or detect the measurement schedule. Thus, the cryocooler can start in the middle of a MEG measurement and disturb the signal quality.</span>***
 
@@ -61,3 +72,28 @@ If there are **no further alarms**, the recycler remains in normal operation, an
  - **Save the resulting IHR email messages**, which will note the date and time of the incident. If Estates reports a momentary power dip around the same time, that would explain it.
  - If **the pair of messages are seen repeatedly**, e.g. several times a day or week, **report it to Estates and/or MEGIN**, as it could **indicate an unstable Tank Room Mains power supply or a developing fault with the recycler's power input or UPS**.
  - **<span style="color:maroon">Line power has been restored</span>**, is **reported by the IHR** once it detects that **Mains power has been restored** indicating the alarm condition has ended, and it **has resumed normal operation**.
+
+
+<!---
+Code to make text blink green, "myBlink" 
+--->
+
+ <script>
+	(function () {
+		var blinkTags = document.getElementsByTagName("myBlink");
+		var numBlinkTags = blinkTags.length;
+		var setBlinkTagColors = function (color) {
+			for (var i = 0; i < numBlinkTags; i++) {
+				blinkTags[i].style.color = color;
+			}
+		}
+		var revertColor = function () {
+			setBlinkTagColors("green");
+		};
+		window.setInterval(function () {
+			setBlinkTagColors("white");
+
+			window.setTimeout(revertColor, 200);
+		}, 1000);
+	})();
+</script>
