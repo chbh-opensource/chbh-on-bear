@@ -6239,7 +6239,7 @@
 <h1 id="moving-the-gantry">Moving the Gantry</h1>
 <p><big><strong><span style="color:red">Never change the gantry position whilst a particiant is seated under the gantry!</span></strong></big></p>
 <p>For all <strong>"in use" positions (0, 60 &amp; 68)</strong>, traffic light should show <span style="color:green"><strong>solid</strong> GREEN</span> LED. <br />
-In the <strong>liquefaction position (25)</strong>, traffic light should show <span style="color:green"><strong>flashing</strong> GREEN</span> LED.</p>
+In the <strong>liquefaction position (25)</strong>, traffic light should show <myBlink><strong>flashing</strong> GREEN</myBlink> LED.</p>
 <p><strong>After liquefaction has stopped (~9:0am), set the probe unit to the desired measurement position to be able to start a MEG measurement.</strong></p>
 <h4 id="moving-probe-unit-from-liquefaction-position-25-to-lower-seated-position-60"><strong><span style ="color:blue">Moving probe unit from liquefaction position (25) to lower seated position (60).</span></strong></h4>
 <ul>
@@ -6304,7 +6304,7 @@ In the <strong>liquefaction position (25)</strong>, traffic light should show <s
 <li>
 <p>Press the <strong>UP</strong> button on the back side of the probe unit until you hear the latches lock into the liquefaction (25) position.</p>
 </li>
-<li>Press the <strong>DOWN</strong> button until the probe unit stops over the latches and the green <strong>OK</strong> LED starts flashing.<ul>
+<li>Press the <strong>DOWN</strong> button until the probe unit stops over the latches and the <myBlink>green <strong>OK</strong></myBlink> LED starts flashing.<ul>
 <li>If any other LED remains lit, press the <strong>UP</strong> or <strong>DOWN</strong> buttons as necessary to adjust the gantry position.</li>
 </ul>
 </li>
@@ -6329,11 +6329,34 @@ In the <strong>liquefaction position (25)</strong>, traffic light should show <s
 </ul>
 </li>
 <li>With the latch release bar released, keep pressing the <strong>DOWN</strong> button until you hear the latches lock into the liquefaction (25) position.</li>
-<li>Keep pressing the <strong>DOWN</strong> button until the gantry stops over the latches and the green <strong>OK</strong> LED starts flashing.<ul>
+<li>Keep pressing the <strong>DOWN</strong> button until the gantry stops over the latches and the <myBlink>green <strong>OK</strong></myBlink> LED starts flashing.<ul>
 <li>If any other LED remains lit, press the <strong>UP</strong> or <strong>DOWN</strong> buttons as necessary to adjust the gantry position.</li>
 </ul>
 </li>
 </ul>
+<!---
+Code to make text blink green, "myBlink" 
+--->
+
+<script>
+    (function () {
+        var blinkTags = document.getElementsByTagName("myBlink");
+        var numBlinkTags = blinkTags.length;
+        var setBlinkTagColors = function (color) {
+            for (var i = 0; i < numBlinkTags; i++) {
+                blinkTags[i].style.color = color;
+            }
+        }
+        var revertColor = function () {
+            setBlinkTagColors("green");
+        };
+        window.setInterval(function () {
+            setBlinkTagColors("white");
+
+            window.setTimeout(revertColor, 200);
+        }, 1000);
+    })();
+</script>
 
 
 

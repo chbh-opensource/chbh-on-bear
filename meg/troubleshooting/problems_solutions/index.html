@@ -6246,6 +6246,16 @@
 <ul>
 <li><strong><em><span style="color:blue">The helium level in the helium gas storage tanks is not decreasing expectedly.</span></em></strong></li>
 </ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Make sure that the probe unit is in the liquefaction position ("25"). Check the gantry position.<br /> A liquefaction error, so unlikely to occur during normal working hours - unless liquefying during the day (Sleep Study ongoing, or emergency Cooldown)</strong></p>
+<ul>
+<li><strong>During the day, attend the MEG Lab</strong> and open the MSR. Check gantry/probe unit is at 25.<ul>
+<li>Move the gantry up from 0, down from 68 or 60 as necessasy. Check traffic light is 
+<myBlink><strong>flashing green</strong></myBlink></li>
+<li>Adjiust UP/DOWN buttons as necessary.</li>
+</ul>
+</li>
+<li>As per <strong><a href="../../acquisition/tidying_up/">Tidying Up</a></strong>, the last Operator <em>should</em> haved moved the gantry/probe unit to 25 after use/at EoD.</li>
+</ul>
 <h3 id="link-to-dacq-workstation-is-down"><strong><span style="color:red">Link to DACQ workstation is down</span></strong></h3>
 <ul>
 <li><strong><em><span style="color:blue">The control software cannot send notifications or detect the measurement schedule. Thus, the cryocooler can start in the middle of a MEG measurement and disturb the signal quality.</span></em></strong></li>
@@ -6309,6 +6319,29 @@ If there are <strong>no further alarms</strong>, the recycler remains in normal 
 <li>If <strong>the pair of messages are seen repeatedly</strong>, e.g. several times a day or week, <strong>report it to Estates and/or MEGIN</strong>, as it could <strong>indicate an unstable Tank Room Mains power supply or a developing fault with the recycler's power input or UPS</strong>.</li>
 <li><strong><span style="color:maroon">Line power has been restored</span></strong>, is <strong>reported by the IHR</strong> once it detects that <strong>Mains power has been restored</strong> indicating the alarm condition has ended, and it <strong>has resumed normal operation</strong>.</li>
 </ul>
+<!---
+Code to make text blink green, "myBlink" 
+--->
+
+<script>
+    (function () {
+        var blinkTags = document.getElementsByTagName("myBlink");
+        var numBlinkTags = blinkTags.length;
+        var setBlinkTagColors = function (color) {
+            for (var i = 0; i < numBlinkTags; i++) {
+                blinkTags[i].style.color = color;
+            }
+        }
+        var revertColor = function () {
+            setBlinkTagColors("green");
+        };
+        window.setInterval(function () {
+            setBlinkTagColors("white");
+
+            window.setTimeout(revertColor, 200);
+        }, 1000);
+    })();
+</script>
 
 
 
