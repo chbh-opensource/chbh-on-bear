@@ -5,6 +5,11 @@
 ### **<span style="color:red">Error in cryocooler! Recycler is now in fail-safe mode</span>**
  - ***<span style="color:blue">The cryocooler compressor is not operating correctly. It is not safe for the internal helium recycler to continue operating. If the problem persists, helium loss will occur.</span>***
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Unlikely to happen during normal working hours - unless liquefying during the day (Sleep Study ongoing, or emergency Cooldown) - so remote access/possible on-site visit is almost certainly required**.
+
+- **Immediately start a Measurement Window** **[Off_Site_procedure}** to put the system into collection mode/helium boiling off into tanks. 
+This may remove/stop the receiving of the “Error in cryocooler…” error message, but it won’t stop helium loss. Helium is still evacuating (horizontal line seen in IHR Tank pressure plot) but it will start helium collection into the tanks to reduce loss. 
+
 ### **<span style="color:red">Abnormal liquefaction rate</span>**
  - ***<span style="color:blue">The helium level in the helium gas storage tanks is not decreasing expectedly.</span>***
 
@@ -22,6 +27,7 @@
 		- **Email the last Operator** (*check Calpendo*) to inform them of their **need to return to the Lab to move the gantry** to Liquefaction.
 		- If **unable to contact** them, **email the Operators**, **<span style="color:blue">Chbh-meg-operator[@]lists.bham.ac.uk</span>**, to **query if anyone is on-site and able to move the gantry**, or is **willing to attend the Lab to do so**.
 		- If **none are willing**, then an **on-site visit will be required by HC to move the gantry to 25**.
+ - **<span style="color:maroon">Liquefaction rate normal again</span>**, will be **reported by the IHR** once **gantry has been moved to the liquefaction position ("25")**.
 
 !!! note
 	<span style="font-size:medium">**<span style="color:red">This check can only be performed locally, at the IHR PC in the Tank Room (G24), so an on-site visit wil be required.</span><br />** **Occasionally, if the gantry hasn't been properly/securely moved to 25**, after a short while the **traffic light LED could change to <span style="color:Green">solid green</span>**. <br />
