@@ -2,7 +2,6 @@
 
 **<span style="font-size:large;color:maroon">Probable solutions, for Holiday Cover (HC) personnel, to MEG IHR issues received via email and SMS text.</span>**
 
-
 ### **<span style="color:red">Error in cryocooler! Recycler is now in fail-safe mode</span>**
  - ***<span style="color:blue">The cryocooler compressor is not operating correctly. It is not safe for the internal helium recycler to continue operating. If the problem persists, helium loss will occur.</span>***
 
@@ -23,6 +22,15 @@
 		- **Email the last Operator** (*check Calpendo*) to inform them of their **need to return to the Lab to move the gantry** to Liquefaction.
 		- If **unable to contact** them, **email the Operators**, **<span style="color:blue">Chbh-meg-operator[@]lists.bham.ac.uk</span>**, to **query if anyone is on-site and able to move the gantry**, or is **willing to attend the Lab to do so**.
 		- If **none are willing**, then an **on-site visit will be required by HC to move the gantry to 25**.
+
+!!! note
+	<span style="font-size:medium">**<span style="color:red">This check can only be performed locally, at the IHR PC in the Tank Room (G24), so an on-site visit wil be required.</span><br />** **Occasionally, if the gantry hasn't been properly/securely moved to 25**, after a short while the **traffic light LED could change to <span style="color:Green">solid green</span>**. <br />
+	In this situation the **IHR registers the gantry position as 68** (or sometimes a 4-figure number) when running the **DACQ refresh** command remotely - **[Off_Site_Procedure]**.<br />
+	In order **to be sure the gantry hasn't actually been left overnight in the incorrect Fully Upright (68) position** (*and liquefaction has been taking place for a few hours*), **select the History Plot icon**, and **examine the "Pressures" plot**.<br /> 
+	If the **<span style="color:red">red</span> Tank** **[plot](../../images/meg/Pressures.jpg)** is showing its **normal downward trajectory**, like **previous evenings with no issues**, then the gantry is **physically at 25** but has evidently **shifted slightly triggering the solid green 68 indication**.<br />
+	**De-metal**, open the MSR, and **press the UP/DOWN buttons to adjust the gantry** back to **<myBlink>flashing green</myBlink>**.<br />
+	If gantry is left as is, "**Abnormal Liquefaction**" errors may occur as the **IHR believes it is in the incorrect position**, but liquefaction will **continue down to 1.2bar at the normal rate**. There may be **some minor stop/start of liquefaction** as the pressure nears 1.2bar.<br />
+	**Remind the Operators in the morning** to **always open the MSR before they leave**, if end-of-day, to **recheck the traffic light is <myBlink>flashing green</myBlink>, pressing the UP/DOWN buttons to adjust the gantry** as necessary.</span>
 
 ### **<span style="color:red">Link to DACQ workstation is down</span>**
  - ***<span style="color:blue">The control software cannot send notifications or detect the measurement schedule. Thus, the cryocooler can start in the middle of a MEG measurement and disturb the signal quality.</span>***

@@ -8,12 +8,12 @@
 
 **If attendance to the MEG Out-of-Hours/Overnight is required ...**
 
-1. Inform Security of personal contact details ...
+1. **Inform** Security of **personal contact details** ...
 	- MEG Control Room phone extension **([Information](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22584280))**, mobile phone number.
-2. Inform Security of MEGIN contact details ...
+2. **Inform** Security of **MEGIN contact details** ...
 	- Mobile phone number of MEGIN engineer, *who may have previously called whilst Holiday Cover Staff was off-site/at Home*.
 	- MEGIN Support email addreses (*if required*) **([Information](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22584280))**
-3. Inform MEGIN of **[Security Contact Details](../labsafety/securitycontact.md)**
+3. **Inform** MEGIN of **[Security Contact Details](../labsafety/securitycontact.md)**
 
 
 ### **Procedure**
@@ -32,5 +32,5 @@
 
 **<span style="font-size:large"><span style="color:blue">Emergency Contacts:</span>**
 
-**<span style="font-size:medium">Jonathan L Winter: **([Information](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22584280))** (MEG Support Officer).</span>**<br />
-**<span style="font-size:medium">Dr. Hyojin park: **([Information](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22584280))** (MEG Academic Lead).</span>**
+**<span style="font-size:medium">Jonathan L Winter: ([Information](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22584280)) (MEG Support Officer).</span>**<br />
+**<span style="font-size:medium">Dr. Hyojin park: ([Information](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22584280)) (MEG Academic Lead).</span>**

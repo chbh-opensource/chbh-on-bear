@@ -124,7 +124,7 @@ The main scheduling choices are a **single daily MEG window**, a **split window 
 | **Default Password**  |  (**[Off_Site_Procedure]**)  |  Authenticates access to the Control Terminal.  |
 | **Cool-down Cutoff** |  **1.2 bar**  |  Pressure threshold where Cool-down mode reverts to Normal.  |
 | **UPS Battery Buffer**  |  **5-25 minutes**  |  Handles brief brownouts before complete power loss.  |
-| **Optimal Gantry State**  |  Vertical, 25 (Liquefaction position) |  Maximises liquefaction and mininises helium boil-off.  |
+| **Optimal Gantry State**  |  **Vertical, 25** (Liquefaction position) |  Maximises liquefaction and mininises helium boil-off.  |
 | **Weekend Helium Minimum**  |  **50% level** in the Dewar |  Minimum level required to survive an IHR failure over a weekend.  |
 | **Daily Helium Minimum** |  **13 Litres** of lHe (Liquefaction position)  |  Minimum volume required to survive a 1-day system failure.  |
 | **Log Error Command** |  ```cd /neuro/cryo/bin``` followed by ```./errors```  |  Displays a list of application log errors.  |
