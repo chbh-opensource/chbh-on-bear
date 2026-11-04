@@ -6267,6 +6267,16 @@
 </ul>
 </li>
 </ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><span style="font-size:medium"><strong><span style="color:red">This check can only be performed locally, at the IHR PC in the Tank Room (G24), so an on-site visit wil be required.</span><br /></strong> <strong>Occasionally, if the gantry hasn't been properly/securely moved to 25</strong>, after a short while the <strong>traffic light LED could change to <span style="color:Green">solid green</span></strong>. <br />
+In this situation the <strong>IHR registers the gantry position as 68</strong> (or sometimes a 4-figure number) when running the <strong>DACQ refresh</strong> command remotely - <strong>[Off_Site_Procedure]</strong>.<br />
+In order <strong>to be sure the gantry hasn't actually been left overnight in the incorrect Fully Upright (68) position</strong> (<em>and liquefaction has been taking place for a few hours</em>), <strong>select the History Plot icon</strong>, and <strong>examine the "Pressures" plot</strong>.<br /> 
+If the <strong><span style="color:red">red</span> Tank</strong> <strong><a href="../../../images/meg/Pressures.jpg">plot</a></strong> is showing its <strong>normal downward trajectory</strong>, like <strong>previous evenings with no issues</strong>, then the gantry is <strong>physically at 25</strong> but has evidently <strong>shifted slightly triggering the solid green 68 indication</strong>.<br />
+<strong>De-metal</strong>, open the MSR, and <strong>press the UP/DOWN buttons to adjust the gantry</strong> back to <strong><myBlink>flashing green</myBlink></strong>.<br />
+If gantry is left as is, "<strong>Abnormal Liquefaction</strong>" errors may occur as the <strong>IHR believes it is in the incorrect position</strong>, but liquefaction will <strong>continue down to 1.2bar at the normal rate</strong>. There may be <strong>some minor stop/start of liquefaction</strong> as the pressure nears 1.2bar.<br />
+<strong>Remind the Operators in the morning</strong> to <strong>always open the MSR before they leave</strong>, if end-of-day, to <strong>recheck the traffic light is <myBlink>flashing green</myBlink>, pressing the UP/DOWN buttons to adjust the gantry</strong> as necessary.</span></p>
+</div>
 <h3 id="link-to-dacq-workstation-is-down"><strong><span style="color:red">Link to DACQ workstation is down</span></strong></h3>
 <ul>
 <li><strong><em><span style="color:blue">The control software cannot send notifications or detect the measurement schedule. Thus, the cryocooler can start in the middle of a MEG measurement and disturb the signal quality.</span></em></strong></li>
