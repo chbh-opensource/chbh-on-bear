@@ -33,4 +33,4 @@
 **<span style="font-size:large"><span style="color:blue">Emergency Contacts:</span>**
 
 **<span style="font-size:medium">Jonathan L Winter: ([Information](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22584280)) (MEG Support Officer).</span>**<br />
-**<span style="font-size:medium">Dr. Hyojin park: ([Information](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22584280)) (MEG Academic Lead).</span>**
+**<span style="font-size:medium">Dr. Hyojin Park: ([Information](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22584280)) (MEG Academic Lead).</span>**
