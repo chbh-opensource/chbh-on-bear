@@ -7,7 +7,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Unlikely to happen during normal working hours - unless liquefying during the day (Sleep Study ongoing, or emergency Cooldown) - so remote access/possible on-site visit is almost certainly required**.
 
-- **Immediately start a Measurement Window** **[Off_Site_procedure}** to put the system into collection mode/helium boiling off into tanks. 
+- **Immediately start a Measurement Window** **[Off_Site_Procedure}** to put the system into collection mode/helium boiling off into tanks. 
 This may remove/stop the receiving of the “Error in cryocooler…” error message, but it won’t stop helium loss. Helium is still evacuating (horizontal line seen in IHR Tank pressure plot) but it will start helium collection into the tanks to reduce loss. 
 
 ### **<span style="color:red">Abnormal liquefaction rate</span>**
@@ -30,7 +30,7 @@ This may remove/stop the receiving of the “Error in cryocooler…” error mes
  - **<span style="color:maroon">Liquefaction rate normal again</span>**, will be **reported by the IHR** once **gantry has been moved to the liquefaction position ("25")**.
 
 !!! note
-	<span style="font-size:medium">**<span style="color:red">This check can only be performed locally, at the IHR PC in the Tank Room (G24), so an on-site visit wil be required.</span><br />** **Occasionally, if the gantry hasn't been properly/securely moved to 25**, after a short while the **traffic light LED could change to <span style="color:Green">solid green</span>**. <br />
+	<span style="font-size:medium">**<span style="color:red">This check can only be performed locally, at the IHR PC in the Tank Room (G24), so an on-site visit will be required.</span><br />** **Occasionally, if the gantry hasn't been properly/securely moved to 25**, after a short while the **traffic light LED could change to <span style="color:Green">solid green</span>**. <br />
 	In this situation the **IHR registers the gantry position as 68** (or sometimes a 4-figure number) when running the **DACQ refresh** command remotely - **[Off_Site_Procedure]**.<br />
 	In order **to be sure the gantry hasn't actually been left overnight in the incorrect Fully Upright (68) position** (*and liquefaction has been taking place for a few hours*), **select the History Plot icon**, and **examine the "Pressures" plot**.<br /> 
 	If the **<span style="color:red">red</span> Tank** **[plot](../../images/meg/Pressures.jpg)** is showing its **normal downward trajectory**, like **previous evenings with no issues**, then the gantry is **physically at 25** but has evidently **shifted slightly triggering the solid green 68 indication**.<br />

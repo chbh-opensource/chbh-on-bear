@@ -61,28 +61,29 @@
  
 	!!! info "Reusable and disposable electrodes are available for use as required."
 	- **Label 4 electrodes for EOG, 2 electrodes for ECG** and **any other (i.e. EMG) electrodes as required**. Have some additional electrodes ready in case you have to redo them.
-    - Electrode gel (in 20ml syringes - use the caulking gun to fill them.) We also have 12ml *curved tip* syringes available.
-    - **Cut tape** ready for attaching electrodes to skin (*Tegaderm* tape).
-    - **Cut tape** for securing electrodes (*Micropore* tape) and *Blenderm* tape for attaching cHPI coils.
+    - **Electrode gel** (*in 20ml syringes - use the caulking gun to fill them*) - to gel EEG caps (*if to be used*), or when using reusable electrodes. 12ml *curved tip* syringes also available.
+    - **Cut tape** for securing electrodes (*Micropore* tape) and *Blenderm* tape **preferred for usage** (or *Tegaderm* tape) for attaching cHPI coils.
 	- Small double-sided sticky discs used to secure reusable electrodes.
-    - If using an EEG cap, check it over for damaged electrodes. Makes sure it's clean and dry.
-    - Set up the Digitiser chair, away from any metal. Attach the transmitter cube to the back of the chair. The **cable has to point downwards**.
+    - **If using an EEG cap**, check it over for damaged electrodes. Makes sure it's clean and dry.
+    - **Set up the Digitiser chair**, away from any metal. Attach the transmitter cube to the back of the chair. The **cable has to point downwards**.
     - See this page for our various consumable items - **[MEG Consumables](meg-consumables.md)**.
 
-- [ ] Check the MSR, yourself, and participant, for any unwanted items that could cause artefacts and remove them.
+- [ ] **Check the MSR, yourself, and participant**, for any unwanted items that could cause artefacts and remove them.
 	- See this PDF... **[Metal items Checklist](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22099016)**
 
-- [ ] Check that the participant monitoring camera and microphone are working correctly.
+- [ ] **Check** that the participant monitoring camera and microphone are working correctly.
 
 
 ## Prepare MEG system
 
+- [ ] Enter participant details into PLC, and generate **pseudonymised code** to use in ***megacq***.<br />**Don't hit SCAN END, until your session is over**.
 - [ ] Login to the Console, start MEG Acquisition program (***megacq***).
 - [ ] Load latest Tuning file, check quality of channels.<br /> "***Heat Sensor***", "***Reset Channels***" as necessary.
     - See this flowchart **[Noisy Channels](noisy_channels.md)**, or for a more detailed process see this walkthrough **[To fix noisy channels](to_fix_noisy_channels.md)**.
 - [ ] Exit Tuner and return to ***megacq***. Adjust **Settings**
     - Select Project, or create new.
-	- Input pseudonymised participant details from Participant Logging Computer (PLC).
+	- Input *pseudonymised participant details* from **P**articipant **L**ogging **C**omputer (**PLC**).
+		- Enter details into the **[correct location](../../images/meg/Subject_logging.jpg)** in ***megacq***.
 	- Adjust Acquisition parameters or load settings...<br /> **```File -> Load settings```** .
     - Create or adjust stimulus generation, on-line averaging (as necessary).
 
