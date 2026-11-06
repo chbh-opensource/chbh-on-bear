@@ -7,8 +7,14 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Unlikely to happen during normal working hours - unless liquefying during the day (Sleep Study ongoing, or emergency Cooldown) - so remote access/possible on-site visit is almost certainly required**.
 
-- **Immediately start a Measurement Window** **[Off_Site_Procedure}** to put the system into collection mode/helium boiling off into tanks. 
-This may remove/stop the receiving of the “Error in cryocooler…” error message, but it won’t stop helium loss. Helium is still evacuating (horizontal line seen in IHR Tank pressure plot) but it will start helium collection into the tanks to reduce loss. 
+!!! Note "MEGIN may have already contaced HC personnel about the error, and already started a Measurement Window.<br />If not, then ..."
+
+- **Immediately start a Measurement Window** **[Off_Site_Procedure]** to put the **system into collection mode/helium boiling off into tanks**. 
+This may remove/stop the receiving of the “**Error in cryocooler! ...**” error message, but it **won’t stop helium loss**. 
+**Helium is still evacuating** (*horizontal line seen in IHR Tank pressure plot*) but it will **start helium collection into the tanks to reduce loss**. 
+
+- Now try to diagnose the error. Ring Security (ext. 0121 414 4444) to check if a Fire Alarm has shut down the building plant machinery/Chillers, so cooling water is not available.
+If no Fire Alarm, report the loss of cooling water to Security requesting that Estates be informed.
 
 ### **<span style="color:red">Abnormal liquefaction rate</span>**
  - ***<span style="color:blue">The helium level in the helium gas storage tanks is not decreasing expectedly.</span>***
