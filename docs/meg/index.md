@@ -99,7 +99,7 @@ Guides and documentation for MEG analysis and data collection at the CHBH
 	
 	- [Key Safe](labsafety/keysafe.md)
 	
-	- [(Anonymous) SoP H&S Concern Reporting form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=z8oksN7eQUKhXDyX1VPp81sVDBuMmexAvJS-2EDHiQVUOU5MRkwyR1RHNkdZWUs4NjQwVUY2VUxVSyQlQCN0PWcu)
+	- [CHBH H&S Concern Reporting form (Anonymous)](https://www.chbh.bham.ac.uk/chbh/resources-chbh/centre-for-human-brain-health-health-and-safety-concern-form)
 	
 	Useful Documents/Manuals
 	

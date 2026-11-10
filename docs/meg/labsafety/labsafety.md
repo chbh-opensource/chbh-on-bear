@@ -98,6 +98,14 @@ The CHBH **G**eneral **E**mergency **E**vacuation **P**lan can be **found on the
 
 **[GEEP](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21930307)**
 
+**Re: *DeafWatch* alert system.**
+
+A number of buildings across the university use the *DeafWatch* alert system. It is **specialised mobile fire alarm warning and paging system designed for deaf and hard-of-hearing individuals**. 
+The system is **connected directly to a building’s main fire alarm panel**, and it **uses secure radio signals to instantly transmit descriptive text and vibration alerts to personal portable receivers**. 
+**CHBH and 52 PR are on the list** of those who have the system installed.
+
+Students can collect the pagers from the library. Staff members can arrange to have a pager by emailing **estatesaccessability[@]contacts.bham.ac.uk**
+
 ### **<span style="color:maroon">Report an accident, incident, or near-miss</span>**
 
 **It’s most important to report accidents/incidents and near-accidents/incidents as soon as possible when they happen in the CHBH.**
