@@ -22,6 +22,10 @@
 
 #### **[Oxygen Level Monitor (TOC-625-630)](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21926106)** (*Oxygen Depletion Alarm*)
 
+#### **[SUMITOMO F-70H Operating Manual](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22628769)**
+
+#### **[SUMITOMO F-70H Service Manual](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22628778)**
+
 #### **[Eaton 9130 UPS User Guide](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22079920)**
 
 - **UPS20 - 3 x Double Mains Sockets (Control Room G20)**

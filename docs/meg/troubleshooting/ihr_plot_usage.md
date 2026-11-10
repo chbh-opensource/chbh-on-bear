@@ -37,6 +37,8 @@ E.g.: ./plot 8h
 
 !!! note "Time spans longer than 2h will decimate data unless "*-- nodecim*" is used.<br />Time spans shorter than 3h will not fit the regression line properly!"
 
+- **See also this [PAGE](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22629670) from the IHR Key User Training Slides.**
+
 **The script uses gnuplot for plotting, and zooming is available via the right mouse button.**
 
 **Main gnuplot mouse actions:**
