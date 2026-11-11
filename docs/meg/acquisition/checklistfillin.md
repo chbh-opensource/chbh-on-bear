@@ -6,9 +6,9 @@
 	- **<span style="color:maroon">Log in to a colleague's domain-joined desktop/laptop.</span>**
 	- **<span style="color:maroon">Book time in a cubicle/on a hot-desk PC.</span>**
 
-An **[example of a correctly filled-in Checklist](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22099115)**
+An **[example of a correctly filled-in Checklist](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22639377)**, ready to be emailed to the shadowed MEG Operator for them to digitally sign and date.
 
-The **[blank Checklist](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21922963) - February 2026 (v4.0c)** <br /> 
+The **[blank Checklist](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22639381) - November 2026 (v4.0d)** <br /> 
 
 - **Download** the blank Checklist PDF **locally to an AD-joined desktop/laptop** (*either from the link above, or from the MEG training date confirmation email*), and **edit it in a preferred PDF editor-of-choice**.
 	- It's usual for IT Services to have **already installed Adobe Reader DC**, but, if necessary, download and **install via Software Centre, or more likely, Apps Anywhere**.<br /> **<span style="color:red">Don't edit the Checklist in a web browser, that just causes issues!</span>**.

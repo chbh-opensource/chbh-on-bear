@@ -39,7 +39,7 @@ After **completing Basic MRI Safety Training at CHBH**, return to the main Canva
 
 Once complete, **(*at least*) three Acquiring Data sessions** will **need to be shadowed with an accomplished MEG Operator**, who will **need to be happy with the MEG knowledge learnt** (by helping them out/asking them relevant questions etc).
 
-The **MEG Operator Checklist (*v4.0c February 2026*), gone over during training**, will then need to be **[downloaded locally and filled in/digitally signed](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=21922963)**, before **having the form digitally signed/dated by a shadowed MEG Operator** and then **finally digitally signed/dated by MEG Support**.
+The **MEG Operator Checklist (*v4.0d November 2026*), gone over during training**, will then need to be **[downloaded locally and filled in/digitally signed](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22639381)**, before **having the form digitally signed/dated by a shadowed MEG Operator** and then **finally digitally signed/dated by MEG Support**.
 
 !!! Info "<span style="font-size:medium">If required, [Completing the MEG Operator Checklist correctly](../acquisition/checklistfillin.md).</span>"
 
