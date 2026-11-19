@@ -31,21 +31,27 @@ After **completing Basic MRI Safety Training at CHBH**, return to the main Canva
 
 !!! Note "<span style="font-size:medium">If any issues are encountered with any of the above, please email <span style="color:blue">chbh[at]contacts.bham.ac.uk</span></span>"
 
+The completed on-line training will lead to the **creation of a Calpendo account**, but **initially as a "Lurker"** to just **show building swipe access has been granted** 
+as the CHBH Personnel database is no longer in use.
+
 **Once Building Induction training/MRI Safety Training/MEG Induction is complete**, a MEG Operator training session will be arranged (as requested above), ideally for a small group of 2-3 trainees at a time. <br />
 
 !!! Note "<span style="font-size:medium">Individual training is a possibility, but maximising Acquiring time is paramount so this option may not always be available.</span>"
 
 **A full day** is now required for initial training, so ***be aware of that when making a request***.
 
-Once complete, **(*at least*) three Acquiring Data sessions** will **need to be shadowed with an accomplished MEG Operator**, who will **need to be happy with the MEG knowledge learnt** (by helping them out/asking them relevant questions etc).
+**Addition** to **<span style="color:maroon">Chbh-meg-operator[at]lists.bham.ac.uk</span>**, after the day's training, will **allow receiving and sending of emails concerning the MEG** and to **request sessions to shadow**.
+
+After the day's training, **(*at least*) three Acquiring Data sessions** will **need to be shadowed with an accomplished MEG Operator**, who will **need to be happy with the MEG knowledge learnt** (by helping them out/asking them relevant questions etc).
 
 The **MEG Operator Checklist (*v4.0d November 2026*), gone over during training**, will then need to be **[downloaded locally and filled in/digitally signed](https://canvas.bham.ac.uk/courses/81128/files/folder/MEG?preview=22639381)**, before **having the form digitally signed/dated by a shadowed MEG Operator** and then **finally digitally signed/dated by MEG Support**.
 
 !!! Info "<span style="font-size:medium">If required, [Completing the MEG Operator Checklist correctly](../acquisition/checklistfillin.md).</span>"
 
-The **CHBH personnel database** will then **be updated** to show "***MEG Opr.***" as being checked, and **addition** to **<span style="color:maroon">Chbh-meg-operator[at]lists.bham.ac.uk</span>** will **allow receiving and sending of emails concerning the MEG**.
+The **Calpendo account for the trainee** will then be updated, their **"Operator Level"** edited to show them as a "**MEG Operator**", including an "**Approval Date**".
 
-In order to then **make** **[MEG bookings](../acquisition/megbookings.md)**, a **MEG project proposal will need to have been approved**, and a **Calpendo** project code subsequently **created to book against**.
+In order to then **make** **[MEG bookings](../acquisition/megbookings.md)**, a **MEG project proposal will need to have been approved**, and a **Calpendo project code subsequently created to book against**.
 
-**A Calpendo account will be required**, as will **being added to the relevant Calpendo project or projects**.<br /> 
-To **request a Calpendo account**, again **email** **<span style="color:blue">chbh[at]contacts.bham.ac.uk</span>**
+**Calpendo "Lurker" status will require changing to "Normal" to allow MEG Bookings**, as will **being added to the relevant Calpendo project or projects**.<br /> 
+
+To **request a Calpendo account edit, email** **<span style="color:blue">chbh[at]contacts.bham.ac.uk</span>**
