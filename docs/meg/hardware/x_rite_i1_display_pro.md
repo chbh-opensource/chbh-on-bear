@@ -30,7 +30,7 @@ The Colorimeter can be used as a **Standalone** device or **through MATLAB**.
 (**<span style="color:red">below instructions already done for CHBH-ST-MEG-W02</span>**).
 
 - Copy **I1.mexw64** (**<span style="color:blue">15/06/2021 94KB, from the USB memory stick</span>**) to **C:\toolbox\Psychtoolbox\PsychBasic\MatlabWindowsFilesR2007a**.
-- Copy the **new Datapixx.mexw64** (from **<span style="color:blue">C:\Program Files\VPixx Technologies\Software Tools\DatapixxToolbox_trunk\mexdev\build\matlab\win64</span>**) to the following usage locations depending on which version of MATLAB used ...
+- Copy the **new Datapixx.mexw64** (from **<span style="color:blue">C:\Program Files\VPixx Technologies\Software Tools\Matlab\mexfiles\Windows\matlab</span>**) to the following usage locations depending on which version of MATLAB used ...
 	- **C:\toolbox\DataPixx** - for **<span style="color:maroon">MATLAB R2017A</span>.**
 	- **C:\toolbox\Psychtoolbox\PsychBasic\MatlabWindowsFilesR2007a** - for **<span style="color:maroon">MATLAB R2019B</span>.**
 
