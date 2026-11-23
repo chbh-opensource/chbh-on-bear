@@ -83,7 +83,9 @@
 - [ ] Exit Tuner and return to ***megacq***. Adjust **Settings**
     - Select Project, or create new.
 	- Input *pseudonymised participant details* from **P**articipant **L**ogging **C**omputer (**PLC**).
-		- Enter details into the **[correct location](../../images/meg/Subject_logging.jpg)** in ***megacq***.
+		- Enter details into the **[correct location](../../images/meg/Subject_logging_1.jpg)** in ***megacq***.
+		- Enter **Date of birth:**
+			- Format: **DD  MM  YYYY**
 	- Adjust Acquisition parameters or load settings...<br /> **```File -> Load settings```** .
     - Create or adjust stimulus generation, on-line averaging (as necessary).
 
