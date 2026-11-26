@@ -152,6 +152,7 @@ nav:
         - FAQ: meg/troubleshooting/faq.md
         - SLEEP Mode: meg/troubleshooting/sleep_mode.md
         - The PLC is offline: meg/troubleshooting/plc_offline.md
+        - DNS Server Settings: meg/troubleshooting/dns_server_settings.md
         - DACQ Link is down: meg/troubleshooting/linkdown_dacq.md
         - MaxShield state: meg/troubleshooting/maxshield.md
         - Gantry Position: meg/troubleshooting/gantry_position.md

@@ -23,7 +23,7 @@ and causes the work gas lines to heat up => fail safe mode => restart compressor
 **From the NM25887A-B_TRIUX_neo_Corrective_Maintenance_Manual ...**
 
 "***<span style="color:maroon">The cryocooler compressor reports errors in hexadecimal format and these values appear both in the cryodata
-log file (column 6), and in error notifcations. The reported error condition is a sum of the bits below. This means
+log file (column 6), and in error notifications. The reported error condition is a sum of the bits below. This means
 multiple bits may be present at a time.</span>***"
 
 !!! info "<span style="font-size:medium"><span style="color:green">Normal - no errors - code is 0x800</span>. In water flow/temperature problem cases the error codes are typically: 0x820, 0x840 or 0x420.<br />Status and error bits are summed up to form the error codes. For example <span style="color:red">0x8a0</span> means <span style="color:red">0x800</span> (*cooler on*) + <span style="color:red">0x020</span> (*water not flowing*) + <span style="color:red">0x080</span> (*working gas overtemperature*).</span>"
