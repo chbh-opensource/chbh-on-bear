@@ -106,7 +106,7 @@ The **[Power Control Panel](../../images/meg/DSP_Electronics.jpg)** of the Main 
 
 1. **Switch on** the Mains sockets powering the DACQ, Monitor & Speakers.
 2. **Power on** the Monitor and Speakers.
-3. **Press** the Power button on the right side of the DACQ system unit.
+3. **Press** the Power button on the front of the DACQ system unit.
 4. **Follow the boot sequence for any erors** - ***startup may initialise a disk check, let it proceed***. 
 5. **Once the Login screen appears**, log in and run a **[RAP](../../meg/acquisition/rap.md)**, followed by **[Loading the latest Tuning file](../../meg/acquisition/restart_acquisition.md/#loading-a-tuning-file)**
 

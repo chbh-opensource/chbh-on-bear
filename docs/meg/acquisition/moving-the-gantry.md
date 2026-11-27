@@ -14,7 +14,7 @@ In the **liquefaction position (25)**, traffic light should show <myBlink>**flas
 * Press the **UP** button on the back side of the probe unit for a few seconds.
 	* The amber **Tension** LED comes on to show that the probe unit is released from the latches.
 * Keep pressing the **UP** button until you hear the latches lock into the **60** (*lower seated*) position.
-* Press the **DOWN** button until the pobe unit stops over the latches and the green **OK** LED comes on.
+* Press the **DOWN** button until the pobe unit stops over the latches and the **<span style ="color:green">green</span>** **OK** LED comes on.
 	* If any other LED remains lit, press the **UP** or **DOWN** buttons as necessary to adjust the gantry position.
 
 
@@ -24,9 +24,9 @@ In the **liquefaction position (25)**, traffic light should show <myBlink>**flas
 
 * Press the **UP** button on the back side of the probe unit for a few seconds.
 	* The amber **Tension** LED comes on to show that the gantry is released from the latches.
-* Pull down the latch release bar on the back of the probe unit, and keep it pulled down.	
-* Keep pressing the **UP** button past the lower seated position (60) until the gantry reaches the upper seated position (68) and the movement stops.
-* Press the **DOWN** button until the gantry stops over the latches and the green **OK** LED comes on.
+* **Pull down** the latch release bar on the back of the probe unit, and **keep it pulled down**.	
+* Keep pressing the **UP** button past the lower seated position (60), then release the latch bar. Press the **UP** button again until the gantry reaches the upper seated position (68) and the movement stops.
+* If required, press the **DOWN** button until the gantry stops over the latches and the **<span style ="color:green">green</span>** **OK** LED comes on.
 	* If any other LED remains lit, press the **UP** or **DOWN** buttons as necessary to adjust the gantry position.
 
 #### **<span style ="color:blue">Moving probe unit from liquefaction (25) position to supine position (0). </span>**
@@ -35,8 +35,8 @@ In the **liquefaction position (25)**, traffic light should show <myBlink>**flas
 
 * Press the **UP** button on the back side of the probe unit for a few seconds.
 	* The amber **Tension** LED comes on to show that the gantry is released from the latches.
-* Pull down the latch release bar on the back of the probe unit and keep it pulled down.
-* Press the **DOWN** button until the gantry passes the liquefaction position (25) and stops over the latches at the supine position (0) and the green **OK** LED comes on.
+* **Pull down** the latch release bar on the back of the probe unit and **keep it pulled down**.
+* Press the **DOWN** button until the gantry passes the liquefaction position (25), then release the latch bar. Press the **DOWN** button again until the gantry stops over the latches at the supine position (0) and the **<span style ="color:green">green</span>** **OK** LED comes on.
 	* After the gantry has rotated downwards and passed the 25° position, you can release your hand from the latch bar.
 	* If any other LED remains lit, press the **UP** or **DOWN** buttons as necessary to adjust the gantry position.
 

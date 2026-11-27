@@ -46,4 +46,6 @@
 
 ### **[MSR lighting](../../meg/troubleshooting/msr_lights.md)**
 
+### **[Phantom QA](../../meg/troubleshooting/phantom_qa.md)**
+
 
