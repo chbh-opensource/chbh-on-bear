@@ -150,6 +150,7 @@ nav:
     - MEG Troubleshooting:
         - Troubleshooting Index: meg/troubleshooting/troubleshooting.md
         - FAQ: meg/troubleshooting/faq.md
+        - Cryocooler no power: meg/troubleshooting/cryo_nopower.md
         - SLEEP Mode: meg/troubleshooting/sleep_mode.md
         - Liquefaction started unexpectedly: meg/troubleshooting/unexpected_liquefaction.md
         - MSR Exhaust Pipe: meg/troubleshooting/msr_exhaust_pipe.md
