@@ -3482,10 +3482,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#problem" class="md-nav__link">
+  <a href="#problem-1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Problem
+        Problem #1
       
     </span>
   </a>
@@ -3494,6 +3494,28 @@
       
         <li class="md-nav__item">
   <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem #2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solution_1" class="md-nav__link">
     <span class="md-ellipsis">
       
         Solution
@@ -3919,6 +3941,34 @@
     
   
     MSR lighting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phantom_qa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Phantom QA
   
 
     
@@ -6241,10 +6291,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#problem" class="md-nav__link">
+  <a href="#problem-1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Problem
+        Problem #1
       
     </span>
   </a>
@@ -6253,6 +6303,28 @@
       
         <li class="md-nav__item">
   <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem #2
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solution_1" class="md-nav__link">
     <span class="md-ellipsis">
       
         Solution
@@ -6283,7 +6355,7 @@
 
 
 <h1 id="link-to-dacq-workstation-is-down">Link to DACQ workstation is down</h1>
-<h3 id="problem"><strong><span style="color:maroon">Problem</span></strong></h3>
+<h3 id="problem-1"><strong><span style="color:maroon">Problem #1</span></strong></h3>
 <p>If MEG Operators <strong>inadvertently shutdown/restart the MEG DACQ Console/Workstation</strong>, rather than logging off, <strong>or the DACQ reboots unexpectedly</strong>, the IHR will send out the following error SMS text and email ...</p>
 <p><strong><code>Link to DACQ workstation is down</code></strong></p>
 <h3 id="solution"><strong><span style="color:maroon">Solution</span></strong></h3>
@@ -6314,6 +6386,41 @@
 </ul>
 </li>
 <li>See <strong><a href="../../acquisition/restart_acquisition/">Restart Acquisition</a></strong> for full details.</li>
+<li><strong>At some point after sucessful DACQ reboot</strong>, the <strong>IHR should send out</strong> the following cleared SMS text and email ...</li>
+</ol>
+<p><strong><code>Link to DACQ workstation up again</code></strong></p>
+<h3 id="problem-2"><strong><span style="color:maroon">Problem #2</span></strong></h3>
+<p>A MEG Support SMS/email was received on a Saturday during OPM usage of the MSR.</p>
+<p><strong><code>Link to DACQ workstation is down</code></strong></p>
+<p>A device (<em>faulty Laptop adapter?</em>) was <strong>plugged into one of the 3 x double Mains sockets, marked "UPS 20"</strong>.<br />
+These sockets are UPS-supported for USE ONLY by the MEG DACQ Console and its components (monitor, speakers) and <strong>not for general use</strong>.<br />
+The device overloaded the UPS causing it to fail and shut down the Console unexpectedly.</p>
+<h3 id="solution_1"><strong><span style="color:maroon">Solution</span></strong></h3>
+<p>The UPS was recoverable (see below), and the DACQ Console rebooted without incident.<br />
+<strong><span style="color:red">Operators have been informed NOT to use these 3 x 2 sockets for any purpose, other than that specified e.g. for MEG DACQ Console and it's components</span></strong>.</p>
+<ol>
+<li><strong>Enter IHR Tank Room</strong> (G24), UPS 20 <em>may</em> be heard beeping.<ul>
+<li>The UPS may already be in Standby mode (“<strong>UPS on standby ...</strong>”).<ul>
+<li>If not, <strong>Switch off, then on</strong> the Mains socket powering the UPS 20.</li>
+<li>The UPS 20 front panel should show a status of “<strong>UPS initializing ...</strong>”</li>
+<li>The UPS 20 should then transfer to Standby mode (“<strong>UPS on standby ...</strong>”).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Press the On/Off button</strong> on the front panel for at least one second.<ul>
+<li>The UPS front panel display changes status to “<strong>UPS starting ...</strong>”.</li>
+</ul>
+</li>
+<li><strong>Check the UPS front panel display</strong> for active alarms or notices. Resolve any active alarms before continuing.</li>
+<li><strong>Verify</strong> that the <strong><span style="color:green">green</span> Power On</strong> LED <strong>illuminates solid</strong>, indicating that the UPS is operating normally.</li>
+<li>Return to MEG Control Room, and power on DACQ Console.<ul>
+<li><strong>Press</strong> the Power button on the front of the DACQ system unit.</li>
+</ul>
+</li>
+<li><strong>Follow the boot sequence for any erors</strong> - <strong><em>startup may initialise a disk check, let it proceed</em></strong>. </li>
+<li>Wait for Linux to load and the Login screen to appear.</li>
+<li><strong>Once the Login screen appears</strong>, log in and run a <strong><a href="../../acquisition/rap/">RAP</a></strong>, followed by <strong><a href="../../acquisition/restart_acquisition/#loading-a-tuning-file">Loading the latest Tuning file</a></strong></li>
 <li><strong>At some point after sucessful DACQ reboot</strong>, the <strong>IHR should send out</strong> the following cleared SMS text and email ...</li>
 </ol>
 <p><strong><code>Link to DACQ workstation up again</code></strong></p>
