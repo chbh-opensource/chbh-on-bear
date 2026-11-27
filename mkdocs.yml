@@ -151,6 +151,8 @@ nav:
         - Troubleshooting Index: meg/troubleshooting/troubleshooting.md
         - FAQ: meg/troubleshooting/faq.md
         - SLEEP Mode: meg/troubleshooting/sleep_mode.md
+        - Liquefaction started unexpectedly: meg/troubleshooting/unexpected_liquefaction.md
+        - MSR Exhaust Pipe: meg/troubleshooting/msr_exhaust_pipe.md
         - The PLC is offline: meg/troubleshooting/plc_offline.md
         - DNS Server Settings: meg/troubleshooting/dns_server_settings.md
         - DACQ Link is down: meg/troubleshooting/linkdown_dacq.md

@@ -4,6 +4,10 @@
 
 ### **[SLEEP Mode](../../meg/troubleshooting/sleep_mode.md)**
 
+### **[Liquefacton started unexpectedly](../../meg/troubleshooting/unexpected_liquefaction.md)**
+
+### **[MSR Exhaust Pipe](../../meg/troubleshooting/msr_exhaust_pipe.md)**
+
 ### **["The Participant Logging Computer isn't working!"](../../meg/troubleshooting/plc_offline.md)**
 
 ### **[DNS Server Settings](../../meg/troubleshooting/dns_server_settings.md)**
